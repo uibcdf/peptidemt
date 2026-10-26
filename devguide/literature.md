@@ -3,6 +3,10 @@
 Status: **targeted literature/implementation review, 2026-10-26**.
 Navigation: [index](README.md) · [scope](vision_scope.md) · [alternatives](architecture_alternatives.md).
 
+For a broader inventory of multifunctional peptide labels, datasets and models,
+see [functional_families.md](functional_families.md). This document concentrates
+on learned search and integration strategies rather than an exhaustive function list.
+
 Primary papers establish reported evidence; official source inspection establishes
 bounded implementation observations. No listed model was installed or executed
 here. This is a working review, not an exhaustive systematic survey or model
