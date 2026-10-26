@@ -1,0 +1,16 @@
+# Local editor and operating-system files
+.DS_Store
+*~
+*.swp
+.vscode/
+.idea/
+
+# Future local research assets; never publish credentials or model weights
+.env
+.env.*
+!.env.example
+__pycache__/
+*.py[cod]
+.venv/
+checkpoints/
+local_data/
