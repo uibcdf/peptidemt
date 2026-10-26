@@ -15,15 +15,18 @@ specification. No scientific implementation or public API is defined.
 4. [Literature and learned functional spaces](literature.md): primary references,
    public implementations, negative-data caveats and inference-time guidance.
 5. [Architectural alternatives](architecture_alternatives.md): alternative B
-   accepted conceptually; other alternatives preserved as design history.
-6. [Three worked design problems](design_examples.md): scientific intent,
-   alternative plans, execution evidence, chemical identity and contradictions.
+   accepted conceptually; revised P07 alternatives for proposals, chemistry and evaluations.
+6. [Four worked design problems](design_examples.md): scientific intent,
+   alternative plans, execution evidence, incomplete proposals and contradictions;
+   target-free CPP + AMP and brief probes of additional functional meanings.
 7. [Preliminary roadmap](roadmap.md): incremental capabilities without selecting
    a definitive model or experimental demonstrator.
 8. [Decisions and discussion history](decisions.md): accepted working directions,
    proposals, hypotheses and the correction of earlier recommendations.
 9. [Open questions](open_questions.md): prioritized scientific and technical
    decisions for discussion, one at a time.
+10. [Design and implementation methodology](design_methodology.md): scientific
+    discussion and approval, implementation readiness and technical freedom.
 
 ## Evidence and status
 
@@ -49,7 +52,8 @@ The [worked examples](design_examples.md) test this separation. A newer
 [literature-grounded function review](functional_families.md) expands beyond the
 three frequently discussed labels (CPP, AMP, ACP) to many potentially overlapping
 functions; its catalog proposal has not been approved as an ontology or API. The next proposed
-decision concerns chemical candidate identity versus representations and states;
+decision concerns incomplete proposals, chemical realizations, representations,
+states and the concrete subject of evaluation;
 see [Q3](open_questions.md#q3-candidate-chemistry-and-representation). This proposal
 does not approve an API, identifier syntax or initial chemistry support envelope.
 

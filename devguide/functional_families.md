@@ -100,7 +100,10 @@ See [literature.md](literature.md) for the existing negative-data examples and p
 
 ## Architecture stress tests and research questions
 
-The existing [three target-directed cases](design_examples.md) remain useful but are **not** sufficient to cover this breadth. Proposed additional conceptual cases (none selected for experiments):
+The [worked cases](design_examples.md) now include three target-directed examples
+and a developed target-free CPP + AMP case, followed by brief probes prioritized
+for distinct semantic failure modes. They remain **insufficient** to exhaust
+this breadth. Conceptual stress tests (none selected for experiments):
 
 - **CPP + AMP without a defined molecular target**, to ensure target-free, multi-family generation is genuine.
 - Antiparasitic + target recognition (e.g. a trypanosomatid protein), testing organism context and a chosen mechanism.

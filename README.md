@@ -20,7 +20,8 @@ been selected.
 
 The accepted conceptual architecture separates scientific design intent,
 computational plans and execution evidence. Functional families remain independent
-of their models. See the [three worked cases](devguide/design_examples.md);
+of their models. See the [four worked cases](devguide/design_examples.md), including
+target-free CPP + AMP design, and the [working methodology](devguide/design_methodology.md);
 class names, APIs and storage representations remain open.
 
 ## Ecosystem and admission
@@ -45,6 +46,8 @@ become accepted decisions automatically.
 
 The current scope authorizes documentation and repository setup only. Scientific
 implementation and development issues require a subsequent agreement.
+Incomplete sequence/backbone proposals are within the intended design scope;
+their relationship to chemical candidates and evaluated views is under discussion.
 
 Documentation and commit messages use English, following the suite convention.
 Scientific discussion with the investigators may continue in Spanish.

@@ -66,6 +66,10 @@ or chemical states, and unavailable/uncertain structural information. Desired
 binding is not necessarily inhibition or activation.
 
 Sequence strings are convenient views, not complete chemical identity.
+Useful proposals can be sequence-only, backbone-first or otherwise incomplete;
+chemical completion is not a universal prerequisite to generation or supported
+early evaluation. Missing chemistry and omitted information in a view of a known
+molecule must remain distinguishable. The revised P07 alternatives are pending.
 Termini, chirality, modifications, cyclization and links can distinguish candidates
 with the same one-letter sequence. Unsupported chemistry must be rejected or
 explicitly marked unassessed, not simplified silently.
@@ -81,9 +85,12 @@ and family membership may depend on context.
 | Intracellular binder + CPP | Targets, family objectives, proposal/evaluation/search, diversity and provenance | Distinguish sequence compatibility, uptake and compartment access; preserve delivery context. |
 | Antibacterial or antifungal peptide against a protein | Same candidate/evaluator/constraint machinery, positive and negative targets | Binding, inhibition, organism activity and access remain separate; membrane-active families need no protein target. |
 | CPP + ACP against a target | Multi-family objectives, biological context and target-specific evaluations | Cell/genotype context, off-target effects and nonspecific toxicity; joint predictions do not demonstrate joint activity. |
+| CPP + AMP without a molecular target | Optional target requirement, family proposals/evaluators, multiobjective search and guidance | CPP and antibacterial contexts differ; no protein mechanism or docking is mandatory. |
 
-The platform should represent all three without making the mechanism of one
-case mandatory for the others.
+The platform should represent all four without making the mechanism of one
+case mandatory for the others. The [additional probes](design_examples.md#9-additional-probes-from-the-broader-functional-catalog)
+test overlapping labels, mechanism versus physiological effect and localization
+at different biological scales. They are not selected experimental projects.
 
 ## Outside the present phase
 

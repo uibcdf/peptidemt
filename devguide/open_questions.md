@@ -32,15 +32,31 @@ How do model-specific label semantics affect multifamily requests?
 
 ## Q3. Candidate chemistry and representation
 
-**Proposed next decision (P07), awaiting approval:** distinguish one chemical
-candidate from its sequence/graph/file representations and from molecular states,
-conformers, bound poses and generated derivatives. Decide which differences
-create a different chemical candidate before choosing identifier formats.
+**Revised next decision (P07), awaiting approval:** how should potentially
+incomplete proposals relate to chemical realizations, views, molecular states,
+conformers/poses and the actual subject of evaluation? Compare the
+[three alternatives and recommendation](architecture_alternatives.md#p07-reconsidered-proposals-chemistry-views-and-evaluation-subjects).
+Sequence/backbone proposals must not require fabricated chemistry or coordinates
+to become useful results. No mandatory hierarchy follows from that requirement.
+
+Begin with attribution: what can a supported sequence-only prediction claim when
+termini remain unresolved, and what must be reconsidered after branching into
+free-terminal and amidated candidates? Preserve original inputs and assumptions
+rather than retroactively filling them in. What minimum known/unknown information
+is needed for each evaluator? When is a chemical realization sufficiently defined,
+and how are completion, redesign and lossless/lossy conversion distinguished?
+How should multiple derivations converging on one molecule remain traceable?
+Which state differences should be grouped under a parent without merging the
+evaluated chemical species? Identifier formats and persistence are later choices.
 
 What is the initial supported subset, and how do we preserve unsupported
 modifications? How do sequence, chemical identity, conformer and target-bound
 pose remain distinguishable? Which MolSysMT experimental boundaries require
 pinned adapters? No canonical-only permanent scope is adopted.
+
+Use the [target-free case and broader probes](design_examples.md) to test these
+semantics. The inflammatory/immune, ACE/physiology and tumor-homing examples
+stress different endpoint meanings without adopting a family ontology (P08).
 
 ## Q4. Labels, negatives and applicability
 

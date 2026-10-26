@@ -3,7 +3,8 @@
 Navigation: [index](README.md) · [scope](vision_scope.md) · [alternatives](architecture_alternatives.md).
 Date of initial record: **2026-10-26**. Approval authority: the investigators.
 
-Updated: **2026-10-26**, after explicit investigator approval of alternative B.
+Updated: **2026-10-26**, including the investigator-directed methodology and
+reconsideration of P07 after the expanded functional-family review.
 
 ## Accepted working directions
 
@@ -19,6 +20,7 @@ These are explicit user instructions, not approval of a final architecture.
 | D06 | No scientific implementation, fixed API, definitive generator or first experimental demonstrator now. | Investigator clarification. |
 | D07 | No development issues without prior agreement; preserve pending proposals locally during this phase. | Investigator instruction. |
 | D08 | Reuse existing ecosystem responsibilities and retain audit evidence, uncertainty and alternatives. | Investigator instruction. |
+| D14 | Scientific design and approval precede implementation of a capability; investigators/ChatGPT/Work lead design, Codex leads later implementation within approved contracts. | Explicit investigator methodology instruction; see [working agreement](design_methodology.md). Major design changes return to discussion. |
 
 The provisional definition in vision_scope.md is adopted only as a **working
 formulation for discussion**, not as an immutable scientific or API contract.
@@ -35,7 +37,7 @@ they are repository setup choices, not scientific decisions.
 | D12 | Keep family representation initially simple and extensible. | No complex family ontology is authorized. |
 | D13 | Simultaneous target- and family-conditioned design remains central, while target-free tasks stay in scope. | Target-free support does not dilute the central joint-design objective. |
 
-The [three worked examples](design_examples.md) are conceptual stress tests and
+The [four worked examples](design_examples.md) are conceptual stress tests and
 pending analysis, not selected demonstrators, executed campaigns or additional
 accepted architecture. They preserve the approved three-way separation.
 
@@ -48,7 +50,7 @@ accepted architecture. They preserve the approved three-way separation.
 | P04 | Retain objective vectors, feasibility, applicability and diversity rather than only one scalar reward. | Decide which selection policies are required initially. |
 | P05 | Use black-box external optimization and rollout/tree guidance as routes to reuse existing family models. | Select bounded comparison experiments later. |
 | P06 | Formal suite admission and official Python starter generation. | Agree the central process; no issue or sibling-registry change is authorized by this initial documentation publication. |
-| P07 | Distinguish chemical candidate identity, its representations and its molecular states/poses, with explicit projection boundaries. | Proposed next conceptual decision; no identifier format, full chemical model or support envelope approved. |
+| P07 | Relate potentially incomplete peptide proposals, chemical realizations, representations/feature views, states/conformers/poses and concrete evaluation subjects. | Revised after investigator feedback: compare the [three alternatives](architecture_alternatives.md#p07-reconsidered-proposals-chemistry-views-and-evaluation-subjects), permit early sequence/backbone outputs and qualified evaluation, preserve branching and attribution. No hierarchy, identifiers, state grouping, storage or initial chemical envelope approved. |
 | P08 | Explore a simple, extensible functional-concept catalog and source-specific label mappings, broader than CPP/AMP/ACP. | A literature inventory has been added; no fixed ontology, list of supported models, or schema is approved. |
 
 ### Proposal disposition
@@ -90,6 +92,10 @@ installed, trained, benchmarked or experimentally validated for this repository.
 5. At initial publication P01 was only a recommendation. The later explicit
    approval adopts the three-way conceptual separation under D09; names such
    as DesignProblem/ExecutionPlan remain illustrative and unapproved.
+6. The original P07 wording started with a chemical candidate and omitted useful
+   incomplete proposals. The revised analysis includes sequence/backbone-first
+   outputs and distinguishes chemical completion from representation conversion.
+   This correction does not adopt a new entity hierarchy or approve P07.
 
 ## Discussion update — 2026-10-26
 
@@ -110,6 +116,23 @@ published 20/21-label multi-label predictors and Xiao et al.'s 15-major/47-label
 dataset. Its taxonomies, candidate categories and catalog representation are
 **research observations or pending proposals**, not new accepted scientific
 architecture or implemented capabilities. No issues or code created.
+
+## Proposal identity and working-method update — 2026-10-26
+
+Reviewed and preserved the investigators' functional-family additions from
+repository revision `e3a5e1613b086ccf484e62a6e41883dc343397a3`. The investigators
+consider alternative B to have passed its first conceptual test; that is not
+empirical validation or approval of the pending refinements.
+
+Reformulated P07 to accommodate incomplete sequence/backbone proposals and
+heterogeneous evaluators. Added explicit alternatives and a pending recommendation
+in architecture_alternatives.md, the target-free CPP + AMP case and additional
+functional probes in design_examples.md. No proposal is required to arrive as a
+fully defined molecule; the proposed attribution/realization semantics remain
+for discussion. Added the investigator-directed design_methodology.md (D14) and
+aligned navigation, scope, roadmap and open questions. P07 and P08 remain pending.
+The source-pinned integration audit is unchanged. No scientific code, execution
+result, fixed API, selected experiment or development issue is introduced.
 
 ## Change protocol
 

@@ -125,3 +125,145 @@ wrapped. Backbone diffusion may not expose sequence states: family scoring may
 belong at inverse folding or an outer alternating search.
 
 No generator/predictor contract or concrete method name is adopted here.
+
+## P07 reconsidered: proposals, chemistry, views and evaluation subjects
+
+Status: **pending alternatives and recommendation**, 2026-10-26. The investigators
+require useful incomplete proposals and heterogeneous evaluators to be considered;
+the distinctions below are not an approved class hierarchy or storage design.
+See the [four cases and additional probes](design_examples.md).
+
+The earlier candidate-versus-representation proposal omitted a stage: a useful
+design output may not yet specify a chemical molecule. A sequence may leave
+termini, chirality or modifications unresolved. A backbone-first proposal may
+lack residue identities and side chains. Missing coordinates alone, however,
+do not make chemical identity incomplete. A representation missing information
+also does not imply that its referenced candidate lacks that information.
+
+### Alternatives within the accepted three-way architecture
+
+These alternatives concern P07; they do not reopen architectural alternatives A/B/C.
+
+| Alternative | Advantages | Costs and scientific failure modes |
+| --- | --- | --- |
+| I. Require a chemically defined candidate at entry | Uniform molecular references and fewer downstream completion checks. | Forces invented defaults or excludes sequence/backbone outputs and early evaluators. Admissible as a particular plan's gate, but unsuitable as the platform entry requirement. |
+| II. Keep one generic design item with optional fields that are filled in over time | Low initial ceremony; supports any generator output. | Evaluations can appear to apply to chemistry determined later. Mutation in place obscures assumptions, branching and provenance unless historical views and relations are made explicit. With those safeguards it approaches III in meaning. |
+| III. Permit incomplete proposals and explicitly relate their chemical realizations, views and evaluations | Supports early predictions, chemical branching and convergent derivations without inventing chemistry; matches heterogeneous engines. | Requires explicit unknowns, transformations and attribution. Can become overengineered if each distinction becomes a mandatory object or workflow stage. |
+
+**Recommendation: III, with minimal semantic distinctions rather than mandatory
+layers.** A fully specified chemical proposal can already serve as a candidate;
+there need not be an artificial completion operation. The same conceptual record
+format could express several roles if it preserves their meaning and history.
+No universal molecular representation, five-class inheritance tree or workflow
+engine follows from this recommendation. II remains viable if it satisfies the
+same attribution and branching obligations. The choice is about scientific
+semantics before software structure.
+
+### Proposed semantic obligations, not an API
+
+- A **peptide proposal** preserves what was actually generated, its origin,
+  determined information, unresolved choices and declared assumptions. It may
+  be a sequence, partial backbone, masked sequence or other useful partial design.
+  Some evaluations can apply immediately; others must wait or abstain.
+- A **chemical candidate** specifies enough molecular identity to distinguish
+  the chemical alternatives under discussion: building blocks, connectivity,
+  applicable stereochemistry, termini and covalent modifications. This does not
+  require coordinates, a preferred conformer or a bound pose. What counts as
+  sufficient identity, and how protonation/tautomer states are grouped under a
+  parent, remain unresolved; preserve the actual species used in an evaluation.
+- **Representations and feature views** need not preserve the same information.
+  A sequence, molecular graph, coordinate file and descriptor vector are not
+  automatically mutually convertible. Descriptors are lossy derived inputs;
+  they are not a new chemical identity. Preserve what a view omits, and whether
+  missing information was unknown in the proposal or discarded from a known
+  candidate. A file hash can identify an input artifact, not prove molecular
+  equivalence across formats.
+- **States, conformers and poses** qualify the molecular situation evaluated.
+  A pose additionally depends on the target/state and preparation. No assumption
+  that all such changes either preserve or change candidate identity is adopted.
+- An **evaluation subject** identifies the proposal/candidate or partial design,
+  the exact input view and relevant state/complex. Preserve determined chemistry,
+  transformations/defaults, evaluator/model version, actual predicted property,
+  context and attribution limits. A sequence-only score is a valid result on
+  that input when supported; it is not automatically evidence for every later
+  cap, stereoisomer or crosslinked realization.
+
+| Evaluator input | Information it actually needs | Boundary of attribution |
+| --- | --- | --- |
+| Amino-acid sequence | A supported, sufficiently resolved residue sequence and the model's input conventions. | Does not resolve omitted termini, links or delivery context. |
+| Physicochemical descriptors | The declared descriptor definitions, computation inputs and assumptions (including chemistry/pH where relevant). | Sequence-derived charge and species-specific molecular charge are different inputs/claims. |
+| Molecular structure | Supported chemistry plus the coordinates/state or ensemble required by the method. | One conformer is not automatically an ensemble result or a bound state. |
+| Target complex | Specified peptide and target preparations, states, pose/interface and any relevant environment. | Interaction evidence is not automatically inhibition, organism activity or cell access. |
+
+This is a conceptual compatibility table, not four mandatory adapter types. An
+evaluator may consume several inputs; a sequence model may also require a target
+sequence. Unsupported input can lead to deferral or abstention while other
+evaluations proceed. Scientific hard-constraint satisfaction may itself remain
+unknown until the required information is determined.
+
+The scientific problem declares the allowed domain and desired functions. The
+plan decides when to complete chemistry, prepare views, evaluate or defer, and
+how to select under missing evidence. The execution records the actual branches,
+assumptions and outputs. An unfinished proposal can be a legitimate campaign
+result, explicitly distinguished from a chemically specified final shortlist.
+Neither condition alone proves functional activity.
+
+### Relations and counterexamples that matter
+
+One sequence proposal can branch into free-terminal and amidated candidates.
+That completion adds chemical information; it is not merely a file conversion.
+An explicit all-L convention comes from recorded problem/plan assumptions, not
+from the appearance of uppercase letters alone. Two independent generators can
+arrive at the same chemically specified molecule: chemical deduplication must
+preserve both derivations. Redesign instead changes specified features; retain
+the parent and edit assumptions. One proposal may also be rejected as outside
+the scientific domain without losing its generation record.
+
+A backbone proposal can lead to several sequence designs and chemical candidates.
+A backbone geometry evaluation applies to that backbone; a sequence predictor
+requires a supported sequence completion or rollout. The rollout is an evaluated
+hypothesis, not the unique identity of the parent partial design. Its score may
+guide search under a recorded policy but must not be presented as a direct
+measurement of an unfinished backbone's bioactivity.
+
+Completing a proposal later does not retroactively complete the chemistry seen
+by an earlier evaluation. Reusing a cached result requires an explicit
+input/model/context equivalence policy and justified attribution; sharing a
+one-letter sequence is insufficient. Conflicting evaluations remain separate.
+Distinguish genuine disagreement on comparable claims from different organisms,
+endpoints, chemical realizations, input projections or applicability failures.
+
+### MolSysMT reuse and additional PeptideMT meaning
+
+Use the [source-pinned audit](integration_audit.md#molsysmt): public molecular
+`get/select/convert/extract`, `build.build_peptide`, `build.mutate`, preparation
+reports and available correspondence maps belong to MolSysMT. Its experimental
+`physchem.get_peptide_chemical_template` is coordinate-free but does not supply
+arbitrary capped/cyclic/modified chemistry or declared stereochemistry.
+`native.ChemicalStates` uses a stable atom-index domain; it does not establish
+our parent/species identity policy or represent every atom-inventory change.
+Missing-heavy-atom mutation outputs are not proof of universal partial-design
+support. These are inspected code boundaries, not new execution qualifications.
+
+PeptideMT should retain design-specific meaning **around**, rather than duplicate,
+those molecular artifacts: proposal-to-realization and parent/redesign relations;
+known/unknown/assumed chemistry; evaluation-to-view associations; transformation
+purpose and losses; and which design requirements remain assessable. Atom/residue
+correspondences should reference MolSysMT maps where actually available, not
+invent an independent topology engine. Generic missing molecular capabilities
+belong with MolSysMT; negotiation of extensions is future work.
+
+A partial proposal need not be forced into a supposedly complete MolSysMT system.
+Keep the native partial output and its interpretation until a supported conversion
+is possible. Record unavailable mappings explicitly. Nothing here establishes a
+new partial-molecule backend, identifier syntax, persistence service or adapter.
+
+### Evidence and remaining uncertainty
+
+The existing sequence, structural and multi-label model precedents justify
+heterogeneous inputs; the cases expose why chemical branching and output
+attribution matter. They do not prove an implementation of III is preferable
+in cost or usability. Review whether these minimal distinctions suffice for
+mixed-chemistry inputs, ambiguous mixtures and source annotations later; do not
+add a comprehensive entity ontology now. P07 and the broader family-catalog
+proposal P08 remain pending and independently discussable.

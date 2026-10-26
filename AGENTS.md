@@ -15,6 +15,8 @@ documents consistently and preserve the reasoning and sources behind changes.
 Do not convert an assistant recommendation, hypothetical API or research
 hypothesis into an accepted decision without explicit investigator approval.
 A provisional definition remains provisional.
+Follow the investigator-approved responsibilities and implementation-readiness
+agreement in `devguide/design_methodology.md`; major design changes return to discussion.
 
 Do not implement scientific functionality, freeze an API, choose a definitive
 generator or first experimental demonstrator, or create development issues
