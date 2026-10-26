@@ -18,7 +18,11 @@ central objective. See [worked examples](design_examples.md).
 Practical research utility takes priority over inventing a new algorithm.
 Target-directed design is central, but optional for tasks where a protein-binding
 mechanism is inappropriate or unknown. The scope includes CPPs, AMPs, ACPs, AFPs,
-other families, and combinations such as CPP+ACP or CPP+AMP.
+other families, and combinations such as CPP+ACP or CPP+AMP. The
+[literature-based functional-family survey](functional_families.md) identifies
+many additional antimicrobial, antiviral, antiparasitic, physiological, delivery,
+signaling and mechanistic categories; none is automatically a qualified model
+or a supported implementation.
 
 A completed computational campaign produces a reproducible set of proposals,
 evaluations, selection decisions and explicit limitations. Experimental evidence
