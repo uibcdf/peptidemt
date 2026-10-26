@@ -10,17 +10,19 @@ specification. No scientific implementation or public API is defined.
    definition, boundaries and the computational role of functional families.
 2. [Integration audit](integration_audit.md): preserved findings from all eleven
    MolSysSuite repositories and six MolI repositories, pinned to inspected source.
-3. [Literature and learned functional spaces](literature.md): primary references,
+3. [Bioactive functional families and multifunctional datasets](functional_families.md):
+   verified 20/21/47-label precedents, a broadened function map, and catalog proposals.
+4. [Literature and learned functional spaces](literature.md): primary references,
    public implementations, negative-data caveats and inference-time guidance.
-4. [Architectural alternatives](architecture_alternatives.md): alternative B
+5. [Architectural alternatives](architecture_alternatives.md): alternative B
    accepted conceptually; other alternatives preserved as design history.
-5. [Three worked design problems](design_examples.md): scientific intent,
+6. [Three worked design problems](design_examples.md): scientific intent,
    alternative plans, execution evidence, chemical identity and contradictions.
-6. [Preliminary roadmap](roadmap.md): incremental capabilities without selecting
+7. [Preliminary roadmap](roadmap.md): incremental capabilities without selecting
    a definitive model or experimental demonstrator.
-7. [Decisions and discussion history](decisions.md): accepted working directions,
+8. [Decisions and discussion history](decisions.md): accepted working directions,
    proposals, hypotheses and the correction of earlier recommendations.
-8. [Open questions](open_questions.md): prioritized scientific and technical
+9. [Open questions](open_questions.md): prioritized scientific and technical
    decisions for discussion, one at a time.
 
 ## Evidence and status
@@ -43,7 +45,10 @@ plan and execution evidence, with functional families independent of their
 models (D09–D13). Desired bioactivity remains distinct from operational score
 criteria; no complex ontology is required.
 
-The [worked examples](design_examples.md) test this separation. The next proposed
+The [worked examples](design_examples.md) test this separation. A newer
+[literature-grounded function review](functional_families.md) expands beyond the
+three frequently discussed labels (CPP, AMP, ACP) to many potentially overlapping
+functions; its catalog proposal has not been approved as an ontology or API. The next proposed
 decision concerns chemical candidate identity versus representations and states;
 see [Q3](open_questions.md#q3-candidate-chemistry-and-representation). This proposal
 does not approve an API, identifier syntax or initial chemistry support envelope.
