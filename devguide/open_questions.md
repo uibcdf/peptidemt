@@ -16,6 +16,14 @@ adopt the separation. See D09–D13 and the worked cases.
 
 ## Q2. Family definitions and evidence
 
+The [extended literature inventory](functional_families.md) documents more than
+CPP/AMP/ACP: MultiPep (20 labels), PrMFTP/ETFC (21) and Xiao et al.'s dataset
+(15 major categories, 47 labels including 15 generic labels). These schemes are
+not interchangeable ontologies. **Open:** how to map source-specific labels to
+shared concepts without requiring a fixed enumeration or treating nested labels
+as independent functions? How will label provenance and model availability be tracked?
+
+
 Which differences require distinct family definitions versus contexts or assays?
 How do CPP membership, uptake and cytosolic access relate without being merged?
 How should AFP relate to the chosen broad or narrow meaning of AMP?
