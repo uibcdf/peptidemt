@@ -10,6 +10,11 @@ evaluates and optimizes peptide sequences, exploring regions of sequence space
 conditioned on molecular targets, bioactive functional families and configurable
 constraints.
 
+Conceptual architecture D09 separates this scientific intent, a computational
+plan and execution evidence. D10–D13 keep families independent of their models,
+initially simple/extensible, and preserve joint target/family conditioning as a
+central objective. See [worked examples](design_examples.md).
+
 Practical research utility takes priority over inventing a new algorithm.
 Target-directed design is central, but optional for tasks where a protein-binding
 mechanism is inappropriate or unknown. The scope includes CPPs, AMPs, ACPs, AFPs,
@@ -39,6 +44,12 @@ A family is a scientific/computational concept independent of a concrete model.
 The same family may have several definitions, assays, model implementations and
 learned modes. A CPP sequence model, PAMPA predictor and cytosolic-access assay
 must not be silently treated as interchangeable.
+
+A desired family property is distinct from an operational proxy. For example,
+cytosolic access is a scientific objective; selecting candidates above a model
+score threshold is a plan policy and establishes only the stated score result.
+No full family ontology is needed to preserve a short definition, context,
+references and explicit unknowns. These semantic fields remain proposals.
 
 ## Scientific distinctions retained
 

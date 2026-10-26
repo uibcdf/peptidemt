@@ -3,14 +3,16 @@
 Navigation: [index](README.md) · [alternatives](architecture_alternatives.md) · [decisions](decisions.md).
 All questions remain open unless an explicit decision is recorded.
 
+Updated: 2026-10-26. Alternative B is accepted under D09–D13; the
+[worked cases](design_examples.md) are analysis, not additional approvals.
+
 ## Q1. Design intent and execution
 
-Should scientific intent remain invariant when generators, evaluators and search
-policies change? Alternative B recommends separating intent from realization;
-A can encode that boundary as two sections initially. What are the minimum
-semantics of a functional-family requirement independent of its predictor?
-
-Resolve this before choosing the first model or experimental demonstrator.
+**Resolved conceptually:** scientific intent, computational plan and execution
+evidence are separate; families are independent of their models. No class names,
+API, storage or implementation is approved. Remaining questions concern minimal
+representations, evidence obligations and plan comparability, not whether to
+adopt the separation. See D09–D13 and the worked cases.
 
 ## Q2. Family definitions and evidence
 
@@ -21,6 +23,11 @@ Can context be unavailable while still permitting a computational task?
 How do model-specific label semantics affect multifamily requests?
 
 ## Q3. Candidate chemistry and representation
+
+**Proposed next decision (P07), awaiting approval:** distinguish one chemical
+candidate from its sequence/graph/file representations and from molecular states,
+conformers, bound poses and generated derivatives. Decide which differences
+create a different chemical candidate before choosing identifier formats.
 
 What is the initial supported subset, and how do we preserve unsupported
 modifications? How do sequence, chemical identity, conformer and target-bound

@@ -18,6 +18,11 @@ documentation, not an implemented scientific library or a fixed public API.
 No generator, predictor, molecular representation or first demonstrator has
 been selected.
 
+The accepted conceptual architecture separates scientific design intent,
+computational plans and execution evidence. Functional families remain independent
+of their models. See the [three worked cases](devguide/design_examples.md);
+class names, APIs and storage representations remain open.
+
 ## Ecosystem and admission
 
 PeptideMT is intended to evolve into a MolSysSuite scientific component.

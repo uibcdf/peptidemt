@@ -8,7 +8,7 @@ demonstrator or a redesign-only entry point.
 
 | Stage | Candidate deliverable | Evidence to retain |
 | --- | --- | --- |
-| 0. Design | Agree the minimum design-problem semantics; preserve alternatives and source audit. | Investigator decisions and source/literature evidence. |
+| 0. Design | Validate the accepted problem/plan/execution-evidence separation with worked cases; resolve minimal semantics without choosing an API. | D09–D13, conceptual counterexamples, investigator decisions and preserved audit. |
 | 1. Common evaluation | Family/model bindings, candidate identity, hard constraints, provenance, selection and applicability. Accept supplied and newly generated candidates. | Reproducible evaluation fixtures, unsupported-chemistry behavior and score meaning. |
 | 2. Baseline proposal adapters | At least one de novo route and one seed-based route conceptually using the same evaluation/selection layer. Implementation order remains open. | Exact engine/checkpoint/configuration; compared coverage and costs. |
 | 3. External optimization | Evolutionary, Bayesian or other black-box search over proposals; preserve edit constraints, diversity and objective vectors. | Matched-budget comparison with generate-and-filter; failures and discarded candidates. |

@@ -1,6 +1,8 @@
 # Alternatives for representing design problems
 
-Status: **pending proposals**, not an API specification.
+Status: **alternative B accepted conceptually on 2026-10-26** (D09–D13).
+Alternatives A/C are retained as discussion history, not competing adopted
+architectures. No API, class names or storage schema is approved.
 Navigation: [index](README.md) · [literature](literature.md) · [open questions](open_questions.md).
 
 ## Shared requirements
@@ -23,6 +25,9 @@ generator and a family predictor provide different capabilities; neither is
 inferred merely from the other's presence.
 
 These are semantic requirements, not a decision to create a large class hierarchy.
+Families remain initially simple and extensible. Joint target/family design is
+central; target-free tasks remain possible. See the
+[worked examples](design_examples.md) for the first conceptual stress test.
 
 ## A. One declarative design specification
 
@@ -38,9 +43,9 @@ options if generic dictionaries replace semantics.
 This remains viable if the problem/execution distinction is visible as sections,
 even before separate objects exist.
 
-## B. Scientific problem + computational realization
+## B. Scientific problem, computational plan and execution evidence
 
-The problem describes candidate domain, targets, families, objectives,
+**Accepted conceptual separation (D09).** The problem describes candidate domain, targets, families, objectives,
 constraints, optional context and evidence/selection requirements. A separate
 plan binds evaluators, proposal mechanisms, optimizers, budgets, seeds and
 policies. A run records actual choices, attempts and results.
@@ -52,10 +57,18 @@ a clear unit.
 Some requirements depend on method support, so preparation must detect an
 unexecutable request without silently weakening it.
 
-**Current recommendation, awaiting approval:** use this conceptual separation,
-but permit an initial small document with two sections. Do not invent a platform
-Run, scheduler or project database: local design execution evidence is distinct
-from Nextia's project-scientific history and Praxis method records.
+Approval covers the separation, not how it is encoded. A future small document
+could contain distinct sections; separate files or objects are also possible.
+Execution evidence must distinguish the intended plan from what actually ran,
+including partial coverage, failures and deviations. Do not invent a platform
+Run, scheduler or project database: local computational evidence is distinct
+from Nextia's project-scientific Evidence and Praxis method records.
+
+Replacing a generator or predictor can preserve the scientific problem while
+changing the evidential strength of the answer. A plan may explore only a
+declared subset of the allowed domain. Changing the target, required chemistry,
+functional meaning or scientifically required preservation changes the problem
+or creates an explicitly related variant; it is not a silent plan substitution.
 
 ## C. Typed objective/constraint graph
 
@@ -76,6 +89,11 @@ scientist-facing specification.
 A hard sequence/chemistry constraint has an exact declared predicate over the
 candidate representation. A predictor threshold can be enforced exactly on a
 score but cannot guarantee the underlying biological activity.
+Desired access to a compartment belongs to scientific intent; a threshold on
+model X's CPP score belongs to a plan's operational policy. Conversely, a
+scientific requirement such as a binding-affinity bound with explicit units and
+conditions can belong to the problem. Its surrogate must not replace its meaning.
+If the actual requested quantity is unmeasured/unassessed, retain that status.
 Masking residues does not enforce a global compositional rule automatically;
 partial-state feasibility and final validation are separate obligations.
 

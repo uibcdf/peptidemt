@@ -3,6 +3,8 @@
 Navigation: [index](README.md) · [scope](vision_scope.md) · [alternatives](architecture_alternatives.md).
 Date of initial record: **2026-10-26**. Approval authority: the investigators.
 
+Updated: **2026-10-26**, after explicit investigator approval of alternative B.
+
 ## Accepted working directions
 
 These are explicit user instructions, not approval of a final architecture.
@@ -23,16 +25,37 @@ formulation for discussion**, not as an immutable scientific or API contract.
 Initial MIT licensing and English documentation follow existing suite conventions;
 they are repository setup choices, not scientific decisions.
 
+## Accepted conceptual architecture
+
+| ID | Decision | Scope and limits |
+| --- | --- | --- |
+| D09 | Separate scientific design intent, the computational plan used to address it, and the evidence produced by each execution (alternative B). | Explicit investigator approval on 2026-10-26. No class names, API, serialization, storage or implementation approved. |
+| D10 | Functional families remain scientific/computational concepts independent of predictors and generative models. | Minimal family semantics and evaluator bindings remain to be designed. |
+| D11 | Distinguish a desired functional property from operational criteria used to select candidates. | A score threshold does not define or establish bioactivity. A scientifically meaningful numerical requirement can still belong to the problem. |
+| D12 | Keep family representation initially simple and extensible. | No complex family ontology is authorized. |
+| D13 | Simultaneous target- and family-conditioned design remains central, while target-free tasks stay in scope. | Target-free support does not dilute the central joint-design objective. |
+
+The [three worked examples](design_examples.md) are conceptual stress tests and
+pending analysis, not selected demonstrators, executed campaigns or additional
+accepted architecture. They preserve the approved three-way separation.
+
 ## Pending proposals
 
 | ID | Proposal | Decision still needed |
 | --- | --- | --- |
-| P01 | Separate a scientific design problem from its execution plan and run evidence. | Approve the conceptual boundary before choosing class names or schemas. |
-| P02 | Represent functional-family concepts independently of predictor/generator implementations. | Define the minimal family semantics and provenance without building an ontology prematurely. |
+| P02 | Define the minimal semantics of an independent functional-family requirement and its evaluator bindings. | Independence is accepted under D10; concrete representation remains open under D12. |
 | P03 | Keep a small sequence/design core with optional molecular and model adapters. | Compare dependency cost against uniform molecular integration. |
 | P04 | Retain objective vectors, feasibility, applicability and diversity rather than only one scalar reward. | Decide which selection policies are required initially. |
 | P05 | Use black-box external optimization and rollout/tree guidance as routes to reuse existing family models. | Select bounded comparison experiments later. |
 | P06 | Formal suite admission and official Python starter generation. | Agree the central process; no issue or sibling-registry change is authorized by this initial documentation publication. |
+| P07 | Distinguish chemical candidate identity, its representations and its molecular states/poses, with explicit projection boundaries. | Proposed next conceptual decision; no identifier format, full chemical model or support envelope approved. |
+
+### Proposal disposition
+
+P01 was proposed in the initial publication and **accepted conceptually as D09**
+on 2026-10-26. This resolves the architectural choice without approving names,
+schemas or implementation. P02's independence principle is accepted as D10;
+its minimal semantic contract remains pending.
 
 ## Research hypotheses
 
@@ -63,8 +86,20 @@ installed, trained, benchmarked or experimentally validated for this repository.
 3. Redesign of a known binder was recommended as a first demonstrator. The user
    deferred that choice; it must not determine platform boundaries.
 4. Protein-target binding is not a universal mechanism for CPP/AMP/ACP/AFP.
-5. Proposal P01 is a recommendation only. Recording it does not adopt the
-   two-layer alternative or freeze the words DesignProblem/ExecutionPlan.
+5. At initial publication P01 was only a recommendation. The later explicit
+   approval adopts the three-way conceptual separation under D09; names such
+   as DesignProblem/ExecutionPlan remain illustrative and unapproved.
+
+## Discussion update — 2026-10-26
+
+Investigator approval: alternative B plus family independence, the distinction
+between functional intent and operational proxies, a simple extensible family
+representation, and continued emphasis on joint target/family conditioning.
+Updated architecture_alternatives.md, vision_scope.md, roadmap.md, README.md and
+open_questions.md consistently. Added design_examples.md to examine three cases,
+method substitution, chemical identity, contradictory predictions and traceability.
+The audit snapshot is unchanged. No code, development issue or experimental
+result is introduced. P07 is a recommendation awaiting approval.
 
 ## Change protocol
 

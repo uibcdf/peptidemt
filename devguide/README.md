@@ -12,13 +12,15 @@ specification. No scientific implementation or public API is defined.
    MolSysSuite repositories and six MolI repositories, pinned to inspected source.
 3. [Literature and learned functional spaces](literature.md): primary references,
    public implementations, negative-data caveats and inference-time guidance.
-4. [Architectural alternatives](architecture_alternatives.md): three ways to
-   represent a design problem and unresolved ownership boundaries.
-5. [Preliminary roadmap](roadmap.md): incremental capabilities without selecting
+4. [Architectural alternatives](architecture_alternatives.md): alternative B
+   accepted conceptually; other alternatives preserved as design history.
+5. [Three worked design problems](design_examples.md): scientific intent,
+   alternative plans, execution evidence, chemical identity and contradictions.
+6. [Preliminary roadmap](roadmap.md): incremental capabilities without selecting
    a definitive model or experimental demonstrator.
-6. [Decisions and discussion history](decisions.md): accepted working directions,
+7. [Decisions and discussion history](decisions.md): accepted working directions,
    proposals, hypotheses and the correction of earlier recommendations.
-7. [Open questions](open_questions.md): prioritized scientific and technical
+8. [Open questions](open_questions.md): prioritized scientific and technical
    decisions for discussion, one at a time.
 
 ## Evidence and status
@@ -36,10 +38,15 @@ PeptideMT integration are separate evidence levels.
 
 ## Current discussion
 
-The first architectural question is how to represent scientific design intent
-independently of its computational realization, while making functional families
-first-class concepts independent of any predictor. See
-[alternatives](architecture_alternatives.md) and [Q1](open_questions.md#q1-design-intent-and-execution).
+The investigators approved separating scientific design intent, computational
+plan and execution evidence, with functional families independent of their
+models (D09–D13). Desired bioactivity remains distinct from operational score
+criteria; no complex ontology is required.
+
+The [worked examples](design_examples.md) test this separation. The next proposed
+decision concerns chemical candidate identity versus representations and states;
+see [Q3](open_questions.md#q3-candidate-chemistry-and-representation). This proposal
+does not approve an API, identifier syntax or initial chemistry support envelope.
 
 De novo generation and redesign remain equally in scope. No first experimental
 demonstrator has been chosen. Completion of a computational campaign does not
