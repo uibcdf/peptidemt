@@ -49,6 +49,7 @@ accepted architecture. They preserve the approved three-way separation.
 | P05 | Use black-box external optimization and rollout/tree guidance as routes to reuse existing family models. | Select bounded comparison experiments later. |
 | P06 | Formal suite admission and official Python starter generation. | Agree the central process; no issue or sibling-registry change is authorized by this initial documentation publication. |
 | P07 | Distinguish chemical candidate identity, its representations and its molecular states/poses, with explicit projection boundaries. | Proposed next conceptual decision; no identifier format, full chemical model or support envelope approved. |
+| P08 | Explore a simple, extensible functional-concept catalog and source-specific label mappings, broader than CPP/AMP/ACP. | A literature inventory has been added; no fixed ontology, list of supported models, or schema is approved. |
 
 ### Proposal disposition
 
@@ -100,6 +101,15 @@ open_questions.md consistently. Added design_examples.md to examine three cases,
 method substitution, chemical identity, contradictory predictions and traceability.
 The audit snapshot is unchanged. No code, development issue or experimental
 result is introduced. P07 is a recommendation awaiting approval.
+
+## Additional literature review — 2026-10-26
+
+The investigators requested an expanded survey beyond CPP/AMP/ACP. Added
+[functional_families.md](functional_families.md), a source-grounded review of
+published 20/21-label multi-label predictors and Xiao et al.'s 15-major/47-label
+dataset. Its taxonomies, candidate categories and catalog representation are
+**research observations or pending proposals**, not new accepted scientific
+architecture or implemented capabilities. No issues or code created.
 
 ## Change protocol
 
