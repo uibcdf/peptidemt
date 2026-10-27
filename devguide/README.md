@@ -69,7 +69,8 @@ specification. No scientific implementation or public API is defined.
 21. [Increment 1 commissioning and readiness brief](increment_1_work_order.md):
     scientific closure versus operational prerequisites; draft central admission,
     staged starter integration, W0–W4 deliverables, engine-free/live test lanes,
-    Codex discretion and the evidence required for acceptance. Awaiting authorization.
+    Codex discretion and required evidence. Authorized under D36; W0 started,
+    W1–W4 conditional on completed admission/bootstrap.
 
 ## Evidence and status
 
@@ -167,10 +168,12 @@ coverage (AMP compatibility plus adverse hemolysis) and qualification order
 conservative sequence preservation, native output/precision/mapping, both exact
 selectors, M1–M8 and provisional canonical single-peptide/<100 operational scope.
 Its scientific design is closed within those limits. Actual qualification,
-operational conditions, suite admission and commissioning remain pending. The
-[work order](increment_1_work_order.md) now defines that bounded preparation,
-W0–W4 and the evidence Codex must return. H0–H4 remains a proposal. No code,
-model installation/execution, issues or future-horizon scope expansion.
+operational conditions and suite admission remain pending. **D36 authorizes
+W0–W4**, with the specific central admission issue exception. W0 has started in
+[MolSysSuite #146](https://github.com/uibcdf/molsyssuite/issues/146); W1–W4 remain
+gated on accepted published registration and official bootstrap. The
+[work order](increment_1_work_order.md) tracks the handoff and required evidence.
+H0–H4, other development issues, package publication and horizon expansion are excluded.
 
 De novo generation and redesign remain equally in scope. No first experimental
 demonstrator has been chosen. Completion of a computational campaign does not
@@ -181,4 +184,5 @@ require demonstrating a complete biological mechanism.
 The repository follows the suite's naming, English documentation, owner-boundary
 and evidence conventions. It is not yet registered or qualified as a MolSysSuite
 Python component. The central starter procedure and synchronized-policy adoption
-are future work requiring agreement; no development issues were opened.
+are authorized W0 work subject to actual central acceptance. Only the central
+admission issue #146 has been opened; no other development issue is authorized.

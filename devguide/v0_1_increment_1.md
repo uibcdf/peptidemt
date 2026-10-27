@@ -2,10 +2,10 @@
 
 Status: **increment-1 scientific contract, conservative preprocessing, both
 selectors and M1–M8 accepted under D35; scientific design closed within its
-provisional scope**, 2026-10-27. Resource qualification/operational decisions and
-explicit commissioning remain pending. Macrel first, HydrAMP second are candidates, not accepted
-versions/checkpoints, qualified deployments or permission to implement. No code,
-model installation/execution, weight download or issues are authorized here.
+provisional scope**, 2026-10-27. D36 authorizes W0–W4 with W1 gated on completed
+W0. Exact Macrel assets, terms, fixtures, environment and effective limits must
+be identified before actual qualification. HydrAMP remains a candidate outside
+this assignment; other development issues and package publication remain excluded.
 
 Navigation: [index](README.md) · [decisions](decisions.md) · [V0.1 scope](v0_1_scope.md)
 · [owner audit](integration_audit.md) · [working agreement](design_methodology.md)
@@ -405,7 +405,8 @@ The [suite optional-engine contract](https://github.com/uibcdf/molsyssuite/blob/
 requires selected-route guards, lazy imports, original result/mapping provenance
 and actual installed-provider evidence. This specification is its local scientific
 review precursor, not completed adoption. Formal admission/starter generation
-remains a preimplementation task after authorization; no issues are opened now.
+is now authorized under D36 and started in uibcdf/molsyssuite#146; no other
+development issue is authorized. Actual admission/bootstrap remains incomplete.
 
 Minimum extension obligations are concrete: external and generated proposals use
 the same attribution/evaluation boundary; one native resource can return multiple
@@ -423,8 +424,9 @@ native output/mapping/precision behavior, both selectors and M1–M8. The scient
 design of increment 1 is closed within those limits, subject to real qualification
 and review of any material applicability limitation. Exact builds/assets/terms,
 permitted fixtures, environment/resource bounds, suite admission and commissioning
-remain operational prerequisites; they do not reopen the general design. HydrAMP
-H0–H4 remains a proposal with no execution authorized or assets selected. The
+remain operational prerequisites; they do not reopen the general design. W0–W4
+is now authorized under D36, with W1 conditional on completed W0. HydrAMP H0–H4
+remains a proposal with no execution authorized or assets selected. The
 [commissioning brief](increment_1_work_order.md) records the bounded next tasks.
 
 Within approved contracts, Codex can choose internal types, run-local token syntax,
@@ -432,6 +434,6 @@ layout/serialization, batching, safe worker mechanics and routine test mechanics
 It may not silently change sequences, resource roles, native thresholds, eligibility,
 precision affecting choices or scientific attribution. Concrete Python interfaces
 are a small next implementation-design task, not permission to replace these
-contracts with a generic plugin framework. The next review is explicit authorization
-of the admission/implementation assignment and its indispensable operational
-conditions, not reapproval of the settled scientific contract.
+contracts with a generic plugin framework. The current task is the authorized
+admission/implementation assignment and its indispensable operational conditions,
+not reapproval of the settled scientific contract.

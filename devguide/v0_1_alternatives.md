@@ -7,8 +7,9 @@ minimum useful increment 2, priority feedback extension and target milestone.
 P04 is conceptually closed under D32, including C1–C5. D35 subsequently accepts
 increment 1's scientific contract, provisional scope and M1–M8; see the
 [commissioning brief](increment_1_work_order.md). Later capability contracts,
-exact engines, broader chemistry and interfaces remain pending. No code or
-issues are authorized; the original comparison below is retained as reasoning.
+exact engines, broader chemistry and interfaces remain pending. D36 now authorizes
+only the bounded W0–W4 assignment, starting with central admission #146; the
+original comparison below is retained as reasoning, not broader work authority.
 
 Navigation: [index](README.md) · [decisions](decisions.md)
 · [accepted P04 synthesis](uncertainty_diversity_budget.md)

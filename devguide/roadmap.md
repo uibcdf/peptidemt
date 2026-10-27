@@ -1,8 +1,9 @@
 # Preliminary roadmap
 
 Status: **V0.1 direction/first coverage/order and increment-1 scientific contract
-accepted under D33–D35; commissioning proposal**, updated 2026-10-27,
-with no delivery dates or implementation authorization.
+accepted under D33–D35; W0–W4 authorized under D36**, updated 2026-10-27.
+W0 is in progress; W1–W4 remain gated on completed admission/bootstrap. No dates
+or package publication are authorized.
 Navigation: [index](README.md) · [decisions](decisions.md).
 
 The tracks below are incremental capabilities, not a commitment to one
@@ -51,7 +52,8 @@ P08's conceptual separation and qualified guidance are accepted under D17–D20;
 concrete catalogs, evidence encodings, interfaces and reward policies remain open.
 The [five-strategy comparison](generative_strategies.md) is pending analysis under
 P05, not a definitive generator or mandatory implementation sequence. This
-roadmap does not authorize programming.
+roadmap does not itself authorize the broader tracks; D36 authorizes only the
+bounded W0–W4 increment-1 assignment under its actual admission/qualification gates.
 
 P09's conceptual organization and seven principles are accepted under D25–D26;
 operation-specific contracts/interfaces remain future work. The bounded V0.2
@@ -87,7 +89,7 @@ D33 adopts **B with A as the first internal increment**. The
 
 | Milestone | Status and intended outcome |
 | --- | --- |
-| Increment 1 | Scientific contract, conservative sequence preservation, provisional scope, both selectors and M1–M8 accepted under D35. Actual qualification, operational conditions, suite admission and implementation authorization remain pending. |
+| Increment 1 | D35 scientific contract and M1–M8 accepted; W0–W4 authorized under D36. W0 admission started in uibcdf/molsyssuite#146; actual qualification/operational conditions and completed W0 still gate W1–W4. |
 | Increment 2 | Accepted minimum useful V0.1: a concrete real generation/redesign route plus functional assessment and selection. Mock-only demonstrations and increment 1 alone are insufficient. |
 | Increment 3 | Priority genuine functional feedback affecting later proposals/actions; exact inclusion in V0.1 depends on actual generator viability. Postfiltering is not feedback. |
 | Target-directed milestone after the functional core | Explicit priority: qualify one permitted target-conditioned route and qualified functional assessment, preserving target context and distinct conditioning/compatibility/recognition meanings. It can proceed alongside increment 3; it is not deferred behind all feedback or broad-family expansion. |
@@ -99,8 +101,8 @@ checkpoint or deployment is adopted. The [increment-1 specification](v0_1_increm
 now records D35's scientific approval, both selectors and M1–M8. The conservative
 leading-M policy is settled; empirical coverage and actual execution remain bounded
 qualification questions. H0–H4 stays proposed, without authorized execution.
-The [W0–W4 work order](increment_1_work_order.md) is the next bounded assignment
-for explicit authorization, not another scientific-design round.
+The [W0–W4 work order](increment_1_work_order.md) is authorized under D36 and
+started at central admission, not another scientific-design round.
 The target milestone must resolve an actual route, assets/terms and supported
 domain; PepMLM is not an unrestricted mandatory dependency. Initial chemistry,
 policies/budgets, environments, concrete interfaces and acceptance fixtures still

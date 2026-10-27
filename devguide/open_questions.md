@@ -21,7 +21,8 @@ AMP compatibility/adverse hemolysis as first coverage and Macrel then HydrAMP as
 qualification candidates. D35 accepts the increment-1 contract, conservative
 preprocessing, provisional chemistry/lengths, both selectors and M1–M8; its scientific
 design is closed within scope. Exact builds/assets/terms, operational conditions,
-central admission and implementation authorization remain pending.
+central admission and qualification remain pending. D36 now authorizes W0–W4
+with the central admission issue exception and W1 gated on completed W0.
 The bounded horizon review adds only
 a pending collective-design distinction (P10), not new MVP obligations.
 
@@ -144,7 +145,7 @@ documents and dated decision history. No universal policy, confidence scale,
 probabilistic model, metric or selector is adopted. Actual capability contracts
 still need supported inputs, scientific meanings and failure/acceptance behavior.
 
-**Current next decision: authorize the bounded admission/implementation assignment.**
+**Current operation: W0 formal admission under D36.**
 D35 closes increment 1's scientific design, approving the
 [contract and M1–M8](v0_1_increment_1.md), both selectors and the conservative
 sequence-preserving route. Leading-M originals are incompatible with that route,
@@ -152,8 +153,10 @@ not invalid molecules; derivative and unchanged-feature alternatives are deferre
 Do not request another approval of that policy. The
 [work order](increment_1_work_order.md) identifies actual bundle/permission,
 environment/budget, central admission/starter and evidence prerequisites, W0–W4,
-engine-free/live test lanes and Codex discretion. Those operational conditions
-and execution/implementation are not yet authorized. H0–H4 remains a proposal;
+engine-free/live test lanes and Codex discretion. W0–W4 is now authorized;
+uibcdf/molsyssuite#146 records the requested central admission. Central acceptance,
+published registration and official staged starter still precede W1. Actual
+assets/terms, fixtures and effective limits precede live qualification. H0–H4 remains a proposal;
 feedback/target-directed milestones remain after the functional core. Only bounded
 V0.1 portions of P02/P03/P05/P06 need resolution; P10/horizons add none.
 

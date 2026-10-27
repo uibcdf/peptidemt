@@ -44,8 +44,11 @@ User-approved directions, pending proposals, research hypotheses, verified
 observations and open questions have separate statuses. Recommendations do not
 become accepted decisions automatically.
 
-The current scope authorizes documentation and repository setup only. Scientific
-implementation and development issues require a subsequent agreement.
+D36 authorizes the increment-1 W0–W4 work order under D35/M1–M8. W0 is in progress
+in [MolSysSuite #146](https://github.com/uibcdf/molsyssuite/issues/146); W1–W4 start
+only after genuine central admission and official staged bootstrap complete.
+This is a specific admission-issue exception, not authority to open other
+development issues or publish packages.
 P07 is accepted conceptually: incomplete proposals, chemical realizations and
 evaluated views retain explicit relationships and attribution. Hypothetical
 realizations may supply missing information without rewriting original proposals.
@@ -91,8 +94,9 @@ and **Macrel then HydrAMP** as qualification candidates. The
 provisional chemical/length scope. Its scientific design is closed, subject to
 real qualification. The [commissioning brief](devguide/increment_1_work_order.md)
 specifies operational prerequisites, official admission/starter work, test lanes
-and required evidence. Builds/assets, actual environment/terms, admission and
-explicit implementation authorization remain pending. H0–H4 stays a proposal.
+and required evidence. D36 now grants conditional implementation authorization;
+builds/assets, actual environment/terms and completed admission remain to qualify.
+H0–H4 stays a proposal outside this assignment.
 The [expanded engine review](devguide/protein_peptide_design_engines.md)
 examines general protein/peptide engines, Chaperone and RFD4, their evidence and
 optional integration routes. No definitive generator, mandatory backend or API

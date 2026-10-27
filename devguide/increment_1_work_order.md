@@ -1,10 +1,11 @@
 # Increment 1: implementation readiness and commissioning brief
 
-Status: **scientific design closed within the agreed scope under D35;
-commissioning/admission brief proposed, not authorized for execution**,
-2026-10-27. No issue, central registration, bootstrap, scientific code, model
-installation or execution is authorized by this document. HydrAMP remains outside
-this implementation assignment; H0–H4 remain a qualification proposal.
+Status: **W0–W4 authorized under D36 within D35/M1–M8; W0 started**,
+2026-10-27. The specific central admission issue is
+[MolSysSuite #146](https://github.com/uibcdf/molsyssuite/issues/146).
+Central acceptance/publication and official bootstrap remain prerequisites for
+W1–W4. No other development issues or package publication are authorized.
+HydrAMP remains outside this assignment; H0–H4 remains a proposal.
 
 Navigation: [index](README.md) · [accepted scientific contract](v0_1_increment_1.md)
 · [decisions](decisions.md) · [working agreement](design_methodology.md).
@@ -47,10 +48,12 @@ new model training, releases, package publication or development issues now.
 The minimum useful generative V0.1 still requires increment 2; completing this
 assignment must not be announced as completing B or the whole V0.1.
 
-## 2. Operational decisions still required
+## 2. Authorized qualification target and operational prerequisites
 
-These resolve execution, not scientific intent. The following are proposed
-defaults or qualification tasks, not adopted assets/environments.
+These resolve execution, not scientific intent. D36 authorizes qualification of
+Macrel 1.6.1 and its actual dependencies/models on the proposed Linux CPU/Python
+3.14 target; compatibility of the combination is unestablished. Terms, actual
+assets, fixtures and effective limits must be identified before real model runs.
 
 | Item | Concrete preparation and decision boundary |
 | --- | --- |
@@ -85,17 +88,18 @@ The official [starter guide](https://github.com/uibcdf/molsyssuite/blob/14b2e74c
 and [generator](https://github.com/uibcdf/molsyssuite/blob/14b2e74c4395e112a47cdcd51259767e7af7589d/devtools/scripts/bootstrap_component.py)
 require the following sequence:
 
-1. **Authorize and submit the central admission proposal.** Describe purpose,
+1. **Authorized under D36; proposal submitted as #146.** Describe purpose,
    accountable owner and boundaries with existing tools. Proposed classification:
    `name=peptidemt`, `repository=uibcdf/peptidemt`, `role=scientific-component`,
    `membership=primary`, `maturity=incubating`, `development-mode=active`,
-   `capabilities=[python-package]`. These classification values are a recommendation
-   for approval, not a registry entry. Identify the responsible owner explicitly.
+   `capabilities=[python-package]`. D36 approves proposing these values, subject
+   to central acceptance; they are not yet an accepted registry entry. The
+   responsible scientific/component owner is Diego Prada-Gracia, UIBCDF.
 2. **Publish accepted registration in central `suite.toml`.** Central reporting
    uses an owning issue/proposal; reuse an existing one where appropriate rather
-   than invent an identifier. The investigators currently prohibit opening issues,
-   so this step remains unperformed pending separate authorization. Scientific
-   D35 approval does not itself confer central admission or waive that procedure.
+   than invent an identifier. D36 permits this specific issue exception; no
+   other development issue is authorized. The central review/publication is still
+   required: neither D35 nor D36 grants automatic central acceptance.
 3. **Generate against real immutable policy/admission evidence.** Fetch the
    selected published policy tag and accepted central history. If PeptideMT is
    absent from the frozen policy registry, use the supported `--admission-sha`
@@ -133,7 +137,7 @@ authorized merely to deliver this source-level increment. Follow those separate
 contracts when a release is later commissioned. Preserve mandatory admission
 gates now; do not substitute a smoke-only or all-skipped run.
 
-## 4. Proposed implementation work packages after authorization
+## 4. Authorized work packages and sequencing gates
 
 | Package | Concrete result and boundary |
 | --- | --- |
@@ -201,14 +205,46 @@ input/output identity, model/precision discrepancies, needed scientific scope ch
 or lack of usable real-provider evidence. Do not weaken a gate or substitute a
 mock to manufacture completion. No biological efficacy/safety claim follows.
 
-## 7. Next authorization, not another design round
+## 7. Operational handoff started under D36
 
-The next decision is whether to commission W0 and the bounded Macrel operational
-qualification/implementation W1–W4, with an approved owner, environment/use/budget
-and central issue/admission route. It need not select HydrAMP assets or authorize
-H0–H4 execution. The scientific contract is already closed; package/asset findings
-return to science only if they expose a material limitation of that agreed scope.
+The investigators have authorized W0–W4. The no-issues exception is limited to
+the necessary central admission theme; a search found no appropriate existing
+issue, so #146 was created. The accountable component owner and scientific
+boundaries are explicit there. The registration change is submitted in
+[MolSysSuite PR #147](https://github.com/uibcdf/molsyssuite/pull/147), commit
+`b652fc9a24158f0ae46c66e70a9b698ca0c2546e`, for central review; it is not accepted
+automatically. No PeptideMT starter is generated from an
+unaccepted branch, and W1 cannot begin early.
 
-This brief is ready for explicit authorization. At present W0–W4 are **not
-started**, PeptideMT remains unregistered, and no scientific model or executable
-implementation has been produced by this readiness review.
+| Work/evidence | Current status |
+| --- | --- |
+| W0 admission | Issue uibcdf/molsyssuite#146 and registration PR #147 submitted; central acceptance/publication and official staged starter pending. |
+| W1–W4 | Authorized conditionally; not started because W0 is incomplete. |
+| Macrel package/models | 1.6.1 is the authorized qualification candidate, not an installed/qualified bundle. |
+| M1–M8 | Approved; none executed for PeptideMT/Macrel yet. Central governance tests do not count as these tests. |
+| HydrAMP/increments 2–3/target generation/publication | Excluded from D36. |
+
+No scientific model or PeptideMT implementation has been produced during W0
+admission preparation. Actual package/asset findings return to science only if
+they expose a material limitation of the accepted scope; do not repeat general
+design approval or relax acceptance criteria to label partial work complete.
+
+W0 preparation evidence: the central governance/index/dependency validator and
+administrative Conda controls passed. The full official governance runner passed
+544 tests with one explicitly opt-in native Mamba test skipped, in an isolated
+Python 3.14.4 CI-style environment. A focused 161-test run passed in the existing
+Conda Python 3.14.7 environment; its full nested-fixture run exposed pre-existing
+dependency conflicts, so that shared environment is not claimed qualified for
+Macrel. The central proposal records the exact scope/provenance and hosted PR
+checks separately. None of this is PeptideMT M1–M8 execution.
+
+Hosted review evidence for PR #147/head b652fc9a:
+[governance run 40555531021](https://github.com/uibcdf/molsyssuite/actions/runs/40555531021)
+completed successfully with registry validation, the full governance test step
+and administrative publisher checks actually executed. The
+[development-profile preflight](https://github.com/uibcdf/molsyssuite/actions/runs/40555530484)
+and [label-analysis preflight](https://github.com/uibcdf/molsyssuite/actions/runs/40555530787)
+also passed. Their trusted-main live jobs and the default-branch coverage upload
+are inapplicable/skipped on this PR; they establish no laboratory/shared-runtime,
+cross-repository label-write or public-coverage adoption. The PR is mergeable but
+unmerged; acceptance and a published admission SHA are still pending.

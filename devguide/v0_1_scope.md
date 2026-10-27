@@ -4,9 +4,10 @@ Status: **B accepted under D33; AMP/hemolysis coverage and Macrel-then-HydrAMP
 qualification order accepted under D34; increment-1 scientific design closed
 under D35**, updated 2026-10-27. The [increment-1 specification](v0_1_increment_1.md)
 now carries accepted contracts/selectors/M1–M8 and provisional chemistry/length
-scope. Exact resources, operational qualification, admission and commissioning
-remain pending; see the [work order](increment_1_work_order.md). H0–H4 remains proposed.
-No scientific implementation, model installation/execution or issues are authorized.
+scope. D36 authorizes W0–W4; exact resources, operational qualification and
+completed admission remain pending. See the [work order](increment_1_work_order.md):
+W0 has started in uibcdf/molsyssuite#146; W1 follows completed W0. H0–H4,
+other development issues and package publication are not authorized.
 P04/P09 remain conceptually closed. This document narrows their application rather
 than designing a universal optimizer or reopening the general architecture.
 
@@ -201,8 +202,8 @@ qualified evidence, if later available, retains its separate role under C5.
 
 The increment-1 contract is accepted under D35; the later increments' rows remain
 proposed **scientific acceptance contracts**, not Python signatures or permission
-to implement now. Explicit commissioning and the central admission
-route precede development. Actual qualification will require authorized execution
+to implement the later increments. D36 grants commissioning for W0–W4; the real
+central admission route still precedes W1. Actual qualification requires execution
 in a chosen environment; source inspection does not satisfy these gates.
 
 | Increment | Obligatory result if that increment is commissioned | Acceptance evidence before claiming it works |
@@ -328,17 +329,18 @@ Before commissioning development, the remaining items are:
    feedback operation after qualification, its inclusion in V0.1 or the next
    increment, and the bounded target-route evaluation following the functional
    core. Neither the exact feedback algorithm nor a target engine is selected.
-5. **Admission and implementation authorization:** settle the selected P02/P03/
+5. **Authorized admission/implementation:** settle the selected P02/P03/
    P05/P06 portions, the suite starter route and small concrete interfaces after
-   these scientific contracts. No code/issues/bootstrap are authorized now.
+   these scientific contracts. D36 permits W0–W4 and only the central admission
+   issue exception; W1 is gated on actual completed W0.
 
 Codex can then resolve internal data structures, batching, process management,
 serialization details, deterministic tie implementation and routine tests within
 the approved meanings, ownership and observable guarantees. Changing scientific
 attribution, permitted chemistry, a resource's role, terms-dependent deployment,
 selection meaning or claims requires review. The immediate next discussion should
-authorize **the bounded increment-1 admission/implementation assignment** when
-its operational conditions are ready. D35 closes the scientific contract;
+execute **W0 of the authorized increment-1 assignment**, then W1–W4 after its
+actual completion and operational prerequisites. D35 closes the scientific contract;
 exact bundles, terms, environment, fixtures/budget and central admission remain.
 The [work order](increment_1_work_order.md) makes those tasks reviewable without
 another general architecture or model study.

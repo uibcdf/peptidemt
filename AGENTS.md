@@ -2,8 +2,9 @@
 
 Read `README.md`, `devguide/README.md`, `devguide/decisions.md` and the
 canonical [MolSysSuite component guide](https://github.com/uibcdf/molsyssuite/blob/main/MOLSYSSUITE_GUIDE.md)
-before making changes. PeptideMT is currently a documentation-only design
-workspace; formal suite admission and Python-package bootstrap remain pending.
+before making changes. D36 authorizes the W0–W4 increment-1 work order. W0 formal
+suite admission is in progress; Python-package bootstrap and W1–W4 remain gated
+on its actual completion. Preserve the existing scientific design history.
 
 Use English for maintained documentation and commits. Keep changes focused,
 preserve human work and do not publish secrets, private attachments or raw
@@ -18,12 +19,16 @@ A provisional definition remains provisional.
 Follow the investigator-approved responsibilities and implementation-readiness
 agreement in `devguide/design_methodology.md`; major design changes return to discussion.
 
-Do not implement scientific functionality, freeze an API, choose a definitive
-generator or first experimental demonstrator, or create development issues
-without a subsequent agreement. The investigators explicitly deferred issue
-creation during this design phase. Record unresolved proposals here without
-inventing issue identifiers. This scope does not waive the future central
-admission procedure.
+Follow D35, M1–M8 and the authorized W0–W4 work order. W1 begins only after W0
+completes through accepted published central registration and the official
+staged starter. The specific issue exception is the central admission theme,
+uibcdf/molsyssuite#146; do not create other development issues without approval.
+Do not treat a proposed registration branch as accepted admission or fabricate
+an admission SHA. HydrAMP, increments 2/3, target-conditioned generation, other
+scientific models, package publication and a new architecture are not authorized.
+Material changes to chemistry, preprocessing, attribution, selectors or scientific
+acceptance return to the investigators. Routine internal technical choices are
+delegated to Codex within these contracts.
 
 Check existing owner APIs before proposing new functionality. Reuse MolSysSuite
 molecular operations; preserve the separate responsibilities of Praxis, Recorda,

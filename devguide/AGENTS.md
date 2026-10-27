@@ -9,9 +9,10 @@ proposal as a past agreement. Link verified code observations to exact revisions
 and distinguish source inspection, implementation execution, installed-package
 qualification and scientific validation.
 
-Do not create development issues in this phase. Central issue-backed proposal
-queues and generated reporting indexes are pending the agreed admission route;
-the topical design documents are not counterfeit issue-backed lifecycle records.
+D36 allows the specific central admission issue uibcdf/molsyssuite#146. It does
+not authorize other development issues. Central issue-backed proposal queues and
+the official starter's reporting machinery follow the real admission route;
+the topical scientific documents are not counterfeit issue-backed lifecycle records.
 
 Keep scientific review summaries separate from imported code or data. Cite
 primary research and official implementations; record unavailable evidence.

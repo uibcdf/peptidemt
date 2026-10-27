@@ -26,8 +26,11 @@ hemolysis as the first bounded coverage, with Macrel then HydrAMP as qualificati
 candidates.** D35 now accepts the conservative sequence-preserving Macrel contract,
 both reference selectors and M1–M8, closing increment 1's scientific design within
 its provisional chemistry/length scope. Real qualification, operational conditions,
-suite admission and explicit implementation authorization remain pending; see the
-[commissioning/readiness brief](increment_1_work_order.md).
+suite admission and operational execution remain to qualify. **D36 authorizes
+W0–W4**, with W1 conditional on completed W0 and the specific central admission
+issue exception. W0 has started in [MolSysSuite #146](https://github.com/uibcdf/molsyssuite/issues/146);
+central acceptance/publication and the official starter are not yet complete.
+See the [authorized work order](increment_1_work_order.md).
 
 ## Accepted working directions
 
@@ -83,6 +86,7 @@ D32 closes that conceptual question without retroactively changing those decisio
 | D33 | Adopt B as PeptideMT V0.1's conceptual direction, using A as the first internal increment. A real generation/redesign route, real qualified functional evaluation and reproducible selection constitute the minimum useful second increment; simulated-only demonstrations do not suffice. | Explicit investigator approval. Retain supplied-proposal evaluation, all evaluations/failures and explicit policies. Functional feedback that changes later proposals/parents/edits/allocation is a priority third increment, with exact inclusion conditional on actual generator viability; postfiltering alone is not feedback. Joint target/family design stays central; initial target-free work is allowed without requiring recognition assessment or structural generation. Target-directed capability is an explicit priority after the first functional core. C is deferred, not rejected. Preserve target context/actual conditioning and distinguish conditioning, compatibility and independent recognition. No engine, initial family subset, chemistry, API, deployment or implementation is approved. Review applicable resource terms, particularly PepMLM's additional access commitments; Work-shell checks are not laboratory audits. |
 | D34 | Adopt AMP compatibility as the desired function and hemolysis as the adverse property for the first bounded V0.1 coverage; qualify Macrel first and HydrAMP second. | Explicit investigator approval on 2026-10-27. Preserve predictive/native meanings; neither score is measured antimicrobial activity, percent hemolysis or safety. Core responsibilities stay independent of these functions/resources. Qualification order does not select a version/checkpoint or establish execution, applicability or permission. The initial HydrAMP de novo candidate uses filter_out=False, n_attempts=1 and bounded proposal count, retaining conditioning, internal scoring/order, external Macrel evaluation and PeptideMT selection distinctly. Do not require Python 3.8 in the main host; assess isolation if needed. No implementation/installation/issues authorized. Chemistry/lengths, preprocessing policy, exact selectors, fixtures, concrete interfaces and qualification acceptance remain to approve. |
 | D35 | Approve increment 1's scientific Macrel contract and M1–M8, including strict sequence preservation, both exact reference selectors and provisional single-peptide canonical-symbol/<100-residue operational scope. Close its scientific design within those limits, subject to actual provider qualification and indispensable operational decisions. | Explicit investigator approval on 2026-10-27. Leading-M originals remain valid proposals but incompatible with a native route that clips them. Derived-clipped and unchanged-sequence feature routes are deferred and need separate qualification; AMP training also uses native normalization. Preserve per-occurrence correspondence, negatives, both scores, labels/categories, precision, evidence/provenance, original chemistry/unknowns and explicit empty/unavailable/failed/anomalous outcomes. AMP-descending/Hemo-ascending or Hemo-ascending/AMP-descending ordering uses original occurrence as final tie; neither is biological acceptance, safety, selectivity or synthesis approval. No universal fitness/cutoffs or empirical validation of every <100 length. H0–H4 remains a suitable proposal, not execution permission or definitive HydrAMP adoption; retain the stated native candidate/isolated legacy-runtime boundary. No implementation, installation or issues authorized. Prepare the bounded commissioning/admission brief; actual bundles, terms, environment/budget and execution evidence remain pending. |
+| D36 | Authorize W0–W4 within D35 and M1–M8, starting formal admission. Propose primary scientific-component/incubating/active/python-package classification, subject to central acceptance. W1 starts only after W0 completes correctly. | Explicit investigator authorization on 2026-10-27. Allow the necessary central admission issue if none exists, as a specific exception to the no-issues rule; no general development-issue authority. Name the responsible owner and preserve ecosystem boundaries. Use accepted published central registration, immutable policy and genuine admission SHA when required, official starter in an empty temporary target and reviewed preservation of existing content/history. Core works without Macrel; one real Macrel 1.6.1 qualification candidate on Linux CPU/Python 3.14 must resolve and execute both ONNX models, with assets/terms/fixtures/effective limits identified first. Native integration cannot pass on mocks/skips or reduced criteria. Codex owns routine internal implementation; scientific changes return to review. No HydrAMP, increments 2/3, target-conditioned generation, new scientific models, package publication or new architecture. Delivery requires identifiable commit, admission and package/model evidence, and executed M1–M8 with engine-free/live distinctions; partial work remains partial. |
 
 The [four worked examples](design_examples.md) are conceptual stress tests and
 conceptual analysis, not selected demonstrators or executed campaigns. Their
@@ -96,14 +100,15 @@ the semantic responsibilities adopted through P07 are recorded under D15–D16.
 | P02 | Refine context, qualified label/resource mappings and evaluator bindings within D10/D17–D20. | Macrel increment-1 scientific meanings/bindings are accepted under D35; concrete encodings/interfaces and other resources remain open. |
 | P03 | Keep a small sequence/design core with optional molecular and model adapters. | Compare dependency cost against uniform molecular integration. |
 | P05 | Compare and compose filtering, external optimization, sampling-time guidance, functional distributions and learned conditioning through explicit capabilities. | Current [strategy analysis](generative_strategies.md); no definitive generator, common API, capability schema or first comparison experiment selected. |
-| P06 | Formal suite admission and official Python starter generation. | Agree the central process; no issue or sibling-registry change is authorized by this initial documentation publication. |
+| P06 | Formal suite admission and official Python starter generation. | W0 now authorized under D36 and initiated in uibcdf/molsyssuite#146; central acceptance/publication, actual admission SHA, staged official generation and qualification remain pending. |
 | P10 | Distinguish collective/distributional library proposals from individual molecular proposals, including incomplete individuals. | Pending bounded recommendation from [V0.2 case A](future_horizons.md#9-bounded-extensibility-review-after-p09-approval). No library support, generic population hierarchy or MVP requirement adopted; concrete semantics can wait until such a capability is prioritized. |
 
 The [V0.1 direction is accepted under D33](v0_1_scope.md), D34 fixes first coverage/
 qualification order, and D35 closes increment 1's scientific contract including
-M1–M8. The next review is the [commissioning/readiness brief](increment_1_work_order.md),
-not another scientific/architectural round. Exact bundles/permissions, operational
-limits, admission, implementation authorization and later feedback remain pending.
+M1–M8. The [work order](increment_1_work_order.md) is authorized under D36, with W0
+started and W1–W4 gated on its completion. Exact bundles/permissions, operational
+limits, central acceptance/publication and actual qualification remain pending;
+do not repeat the scientific/architectural approval. Later feedback is outside scope.
 P02/P03/P05/P06 need only the selected capability-specific portions; P10 and future
 horizons add no requirement. Earlier unapproved A/B/C records below are history.
 
@@ -618,6 +623,31 @@ the prior audit, without claiming installer/asset equality or installed executio
 No model survey, central registry edit, issue, package bootstrap, installation or
 scientific implementation was performed. Updated current statuses without rewriting
 older dated decisions; documentary checks do not execute M/H acceptance gates.
+
+## W0–W4 authorization and formal admission initiated — 2026-10-27
+
+Recorded D36: the investigators authorize W0–W4 within D35/M1–M8, starting W0
+and gating W1 on actual completed admission/bootstrap. The permitted issue
+exception is limited to necessary central admission, not general development
+reporting. Scientific scope changes, other models, HydrAMP/increments 2–3/target
+generation, package publication and new architecture remain excluded.
+
+No existing appropriate admission issue was found; opened
+[uibcdf/molsyssuite#146](https://github.com/uibcdf/molsyssuite/issues/146), identifying
+Diego Prada-Gracia (UIBCDF) as accountable owner and preserving ecosystem boundaries.
+Submitted registration and truthful pending review/inventory records in
+[PR #147](https://github.com/uibcdf/molsyssuite/pull/147), candidate commit
+`b652fc9a24158f0ae46c66e70a9b698ca0c2546e`. Central acceptance and publication
+remain pending; this candidate is not an admission SHA and has not been used
+to generate a PeptideMT starter.
+
+Central offline governance and administrative publication controls pass; full
+governance tests passed (544 tests, one documented opt-in Mamba skip) in isolated
+Python 3.14.4. The focused 161-test Conda Python 3.14.7 run passed; a full shared-
+environment run exposed unrelated dependency conflicts, preserved rather than
+silently repaired. No scientific provider/model was installed or executed, no
+M1–M8 qualification is claimed and W1 has not started. Hosted PR evidence is
+separate. Updated working instructions and current handoff status for D36.
 
 ## Change protocol
 

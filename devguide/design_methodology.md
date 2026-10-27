@@ -12,9 +12,10 @@ Macrel then HydrAMP for qualification. The
 [increment-1 specification](v0_1_increment_1.md) is scientifically accepted under
 D35, including M1–M8 and both selectors. The
 [commissioning brief](increment_1_work_order.md) now specifies operational/admission
-prerequisites and the proposed executable assignment; avoid reopening broad
-architecture without a concrete contradiction. No implementation is authorized
-yet. Scientific utility, extensibility and MolSysSuite interoperability guide
+prerequisites and the executable assignment. D36 now authorizes W0–W4, with W1
+conditional on completed W0; the specific admission issue is uibcdf/molsyssuite#146.
+Avoid reopening broad architecture without a concrete contradiction.
+Scientific utility, extensibility and MolSysSuite interoperability guide
 choices; an elegant implementation alone is insufficient evidence.
 
 The investigators, ChatGPT and Work formulate scientific problems, research
@@ -36,7 +37,9 @@ Discuss consequential choices progressively, using concrete cases and
 counterexamples. Record accepted decisions, pending proposals, hypotheses and
 open questions distinctly, with rationale, sources and document revisions.
 Keep `devguide/` consistent; do not replace discussion with automatic specification
-production. Do not create development issues or scientific code in this phase.
+production. D36 permits the central admission issue and the staged W0–W4 work;
+other development issues, scientific scope changes and package publication
+remain outside the authorization. Do not start W1 before W0 completes.
 
 Before authorizing a capability's implementation, agree its scientific meaning,
 responsibility boundaries, input/output obligations, important failure behavior
