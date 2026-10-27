@@ -695,8 +695,8 @@ reproduced in PeptideMT.
 **Disposition:** scientific trajectory and future case are contextual
 research/design documentation, not new D decisions, accepted model/target
 selection, live scientific evidence or expanded W0–W4/M1–M8 contracts.
-D33–D36, the W0 pause, the two receiving issues and no-new-issues boundaries
-are unchanged. The next authorized work remains finishing W0 before W1.
+D33–D36, the W0 engineering/receiving rules and no-new-issues boundaries
+are unchanged; the historical W0 pause has since been resolved. The next authorized work remains finishing W0 before W1.
 
 ## CPP guided-case coverage expansion — 2026-10-27
 
@@ -739,5 +739,5 @@ than duplicated as distinct implementations.
 
 These are scientific development guides using primary published evidence,
 not approved model packages, experimental replications, execution,
-additional scientific requirements or D decisions. D33–D36, W0's paused
-central receiving, Macrel M1–M8 and the existing issues are unchanged.
+additional scientific requirements or D decisions. D33–D36, the already completed W0 engineering receiving,
+Macrel M1–M8 and the existing issue boundaries are unchanged.
