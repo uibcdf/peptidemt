@@ -8,6 +8,10 @@ see [functional_families.md](functional_families.md). This document concentrates
 on learned search and integration strategies rather than an exhaustive function list.
 The [strategy comparison](generative_strategies.md) develops mathematical and
 capability implications without selecting a generative architecture.
+The [five-model capability matrix](capabilities_and_composition.md#5-matrix-from-public-implementations)
+adds bounded source inspection of inputs/outputs, internal versus exposed
+operations and proposed adaptations. The inspected HEAD snapshots were rechecked
+on 2026-10-26; none was installed or executed.
 
 Primary papers establish reported evidence; official source inspection establishes
 bounded implementation observations. No listed model was installed or executed

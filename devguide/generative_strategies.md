@@ -212,6 +212,12 @@ an implementation sequence or selected demonstrator.
 
 ## 6. Implication for the next decision
 
+The [capability/composition analysis](capabilities_and_composition.md) now refines
+this recommendation under pending P09. Available operations belong to providers
+through their adapters; strategies have requirements; plans select explicit
+compositions; execution records actual use. This is a proposal, not an approved
+capability contract or four additional stages.
+
 **Recommendation, pending:** discuss capability-based strategy composition (P05),
 starting with complete proposals plus external evaluation/search, while preserving
 optional infill, continuation, logits/likelihoods and compatible gradient access.
@@ -222,8 +228,8 @@ This identifies the least access needed for reuse without making all generators
 implement universal hooks. Separate capability presence from empirical scientific
 qualification; preserve model/environment boundaries and MolSysMT ownership.
 
-First decide what intervention capabilities a plan must declare to support a
-fair comparison of filtering and feedback search. Select concrete engines and
-experiments later from that evidence. Sampling-time guidance and learned
+First discuss the ownership and matching of provider capabilities, strategy
+requirements and plan-selected usage to support fair comparisons. Select concrete
+engines and experiments later from that evidence. Sampling-time guidance and learned
 conditioning should remain alternatives that can outperform or complement a
 baseline, not mandatory stages or a definitive generative architecture.

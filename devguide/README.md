@@ -30,6 +30,9 @@ specification. No scientific implementation or public API is defined.
     discussion and approval, implementation readiness and technical freedom.
 11. [Generative strategy comparison](generative_strategies.md): five approaches,
     mathematical limits, actual engine access, cost, diversity and training needs.
+12. [Capabilities and composition](capabilities_and_composition.md): pending P09
+    responsibility separation, operation families, compatibility alternatives,
+    five-model matrix and boundaries for future implementation.
 
 ## Evidence and status
 
@@ -66,10 +69,12 @@ associations and relations, justified indirect/exploratory guidance, and distinc
 reward versus independent assessment roles. No formal ontology, evidence-state
 enum, API or definitive model is adopted.
 
-The current discussion compares [generative strategies](generative_strategies.md)
-under P05: how existing functional models can change exploration in a
-target-conditioned generator, with capabilities, cost and scientific limits
-explicit. Strategies can compete or cooperate; recommendations remain pending.
+The [strategy comparison](generative_strategies.md) under P05 remains relevant;
+the investigators endorse potentially complementary strategies and simple
+comparison references. The current pending discussion is
+[P09's capability/composition organization](capabilities_and_composition.md):
+provider availability, strategy requirements, plan selection and actual use,
+without universal interfaces or mandatory stages. Its principles are proposals.
 
 De novo generation and redesign remain equally in scope. No first experimental
 demonstrator has been chosen. Completion of a computational campaign does not

@@ -53,8 +53,10 @@ Canonical identity, state grouping, identifiers, persistence, concrete interface
 and initial chemistry support remain open. P08 also adopts an extensible
 [functional concept catalog and qualified resources](devguide/functional_families.md#p08-conceptual-alternatives-and-generative-use),
 including justified indirect guidance and distinct search/assessment roles.
-The current [strategy discussion](devguide/generative_strategies.md) compares
-ways to reuse existing models without selecting a definitive generator.
+The [strategy comparison](devguide/generative_strategies.md) explores reuse of
+existing models. The current [capability/composition discussion](devguide/capabilities_and_composition.md)
+examines provider operations, strategy requirements, plan choices and actual
+execution; these proposed principles do not select a definitive generator or API.
 
 Documentation and commit messages use English, following the suite convention.
 Scientific discussion with the investigators may continue in Spanish.

@@ -5,7 +5,7 @@ All questions remain open unless an explicit decision is recorded.
 
 Updated: 2026-10-26. Alternative B is accepted under D09–D13 and revised P07
 under D15–D16. P08 is accepted under D17–D20. The worked cases remain illustrative,
-with no selected demonstrator; P05's generative-strategy composition is current.
+with no selected demonstrator; P09's capability/composition organization is current.
 
 ## Q1. Design intent and execution
 
@@ -86,13 +86,20 @@ When should an evaluator abstain rather than extrapolate?
 
 ## Q5. Combining families and recognition
 
-**Current strategy discussion (P05):** the
-[five-way comparison](generative_strategies.md) covers final filtering, external
+The [five-way strategy comparison](generative_strategies.md) under P05 covers final filtering, external
 optimization, sampling-time guidance, distribution composition and learned
-conditioning. Which actual engine capabilities must a plan declare to compare
-interventions fairly? A complete-sample interface supports filtering and some
+conditioning. Available operations belong to providers through adapters,
+requirements to strategies and selected use to plans. The
+[P09 alternatives](capabilities_and_composition.md) assess that proposed separation
+and recommend small optional descriptions plus explicit compositions; this is
+not yet an accepted software contract. Which representation/preservation semantics
+must be checked, and how should native versus adapter/composite support be stated?
+A complete-sample interface supports filtering and some
 outer search, not automatically continuation, infill, density ratios or gradients.
 How should several compatible strategies compete or cooperate within one budget?
+Which compatibility checks can be made before execution, which depend on runtime
+resources, and what scientific limits remain after a composition is operational?
+What alternatives may a plan explicitly authorize without silent strategy changes?
 
 Use independent predictors, a multilabel model, family priors, expert
 combinations, Pareto selection, or several together? How will correlated
@@ -102,6 +109,8 @@ recognition when a family-driven optimizer edits a binder?
 ## Q6. Guidance access and budgets
 
 Which engines expose partial states, infilling, likelihoods or gradients?
+Does a saved trajectory contain a resumable algorithm state, or only molecular
+coordinates? Which variable and quantity does a claimed gradient connect?
 Can completed rollouts support a black-box family evaluator?
 What predictor budget and independent validation suffice to show enrichment
 beyond final filtering? Count rollouts, denoising/forward calls, structural work

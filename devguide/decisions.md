@@ -3,9 +3,9 @@
 Navigation: [index](README.md) · [scope](vision_scope.md) · [alternatives](architecture_alternatives.md).
 Date of initial record: **2026-10-26**. Approval authority: the investigators.
 
-Updated: **2026-10-26**, including conceptual approval of P08 with qualified
-indirect guidance and role-aware evaluation. Generative strategy composition
-is the current discussion; no algorithm or API is selected.
+Updated: **2026-10-26**. P07/P08 remain accepted within their limits. The current
+pending discussion is P09: provider capabilities, strategy requirements, plan
+composition and realized use; no algorithm or API is selected.
 
 ## Accepted working directions
 
@@ -58,6 +58,7 @@ the semantic responsibilities adopted through P07 are recorded under D15–D16.
 | P04 | Retain objective vectors, feasibility, applicability and diversity rather than only one scalar reward. | Decide which selection policies are required initially. |
 | P05 | Compare and compose filtering, external optimization, sampling-time guidance, functional distributions and learned conditioning through explicit capabilities. | Current [strategy analysis](generative_strategies.md); no definitive generator, common API, capability schema or first comparison experiment selected. |
 | P06 | Formal suite admission and official Python starter generation. | Agree the central process; no issue or sibling-registry change is authorized by this initial documentation publication. |
+| P09 | Separate provider-declared capabilities, strategy requirements, plan-selected compositions and execution-level actual use; compare explicit compatibility organizations. | [Analysis, real-model matrix and proposed principles](capabilities_and_composition.md). All organizational alternatives and the seven principles remain pending; no capability schema, contracts, classes or universal API approved. |
 
 ### Proposal disposition
 
@@ -93,6 +94,12 @@ without a rigid evidence hierarchy. Computational resource types remain separate
 Approval does not adopt storage, API, classes, a formal ontology, fixed evidence
 states, reward policies or definitive models. The new [strategy comparison](generative_strategies.md)
 is analysis and pending recommendations under P05, not an approved algorithm.
+
+The investigators endorse retaining the five strategy families as potentially
+complementary and establishing simple computational references before comparing
+more sophisticated procedures. This does not select an engine or implementation
+order. Their proposed four-role capability separation is being evaluated under
+P09; it is not recorded as an accepted architecture merely because it was proposed.
 
 The dated discussion updates below preserve the status at each revision. Current
 approval status is given in the accepted decisions and proposal disposition above.
@@ -134,6 +141,10 @@ installed, trained, benchmarked or experimentally validated for this repository.
    outputs and distinguishes chemical completion from representation conversion.
    At that revision this correction did not approve P07. The subsequent explicit
    approval adopts its semantic alternative III under D15–D16, without a hierarchy.
+7. The phrase 'capabilities a plan must declare' obscured provider ownership.
+   P09 now distinguishes provider availability, strategy requirements, selected
+   composition and actual execution. This corrects the discussion without
+   treating the proposed organization or its contracts as approved.
 
 ## Discussion update — 2026-10-26
 
@@ -200,6 +211,23 @@ access, cost/diversity/training requirements and illustrative mathematical searc
 targets. Extended the literature with FK steering/correctors and bounded source
 observations. The existing integration audit remains unchanged. No scientific
 code, issues, new model training, executed benchmark or generator selection.
+
+## Capability and composition review — 2026-10-26
+
+Added capabilities_and_composition.md under pending P09: critical assessment of
+the four proposed responsibilities, generative/evaluator capability families,
+representation-dependent requirements, three compatibility alternatives, a
+source-pinned five-model matrix, seven proposed principles and boundaries of
+future implementation freedom. Recommended small capability descriptions and
+explicit compositions rather than a universal interface or automatic planner.
+
+Rechecked the public HEAD revisions of PepMLM, DiffPepBuilder, PepTune, HydrAMP
+and PrMFTP; they match the earlier pinned revisions. Inspected additional source
+for trajectory export versus continuation, target-conditioned rewards versus a
+conditioned denoiser, and internal generation/filtering policies. All verification
+is source-level; no engine was installed or executed. Updated earlier plan-centric
+wording and navigation consistently. The ecosystem audit is unchanged. No new
+scientific code, development issue, software contract or architecture approval.
 
 ## Change protocol
 
