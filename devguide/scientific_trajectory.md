@@ -29,7 +29,7 @@ This is a scientific product question, not merely a Python interoperability test
 | Engine independence | Optional capabilities and direct/composite pathways are accepted. | Installed, permitted, maintainable engines with faithful input/output mapping. |
 | Chemistry | No silent inference of full chemistry from sequence; explicit realizations and views. | Operation-specific support for staples, macrocycles, termini, stereochemistry, chemical transformations. |
 | Evaluation/selection | Claims, scores, constraints and purposes are distinct. | Fidelity and scientific value of actual evaluated and selected peptides. |
-| Existing engineering | Central admission and starter baseline were published with reproducible CI receipts. | W0 central receiving is partial at the 2026-10-27 pause; W1–W4 and M1–M8 unexecuted. |
+| Existing engineering | Central admission and starter baseline were published with reproducible CI receipts. | W0 engineering receiving completed centrally; scientific W1–W4 and M1–M8 are distinct gates and have no completed scientific evidence in this design inventory. |
 
 **Principal strategic risk:** building excellent provenance/integration infrastructure without reaching **useful generative peptide design**. A collection of model wrappers is a useful but limited product; a scientifically grounded discovery tool must support repeatable problems, bounded proposals, qualified evaluations and interpretable improvement.
 
@@ -113,7 +113,7 @@ A completed **computational** study may truthfully report negative or inconclusi
 
 ## 6. Process and boundaries
 
-- The current **immediate** task is to complete W0 central receiving at the pause checkpoint `bf79de5`; no W1 begins until received. Follow [W0 record](pending_proposals/complete_w0.md) and [authorized work order](increment_1_work_order.md).
+- The **engineering W0** bootstrap has since been centrally received; its durable [archived evidence](archive/complete_w0.md) documents the previous pause and its eventual completion. Next actions follow the already [authorized W1–W4 work order](increment_1_work_order.md), not this strategic note. W0's successful engineering tests do not qualify Macrel or M1–M8.
 - D33–D36 and M1–M8 govern V0.1's commissioned increment. Nothing in this strategic note authorizes extra issues, engines, installations, scientific code, model training or package publication.
 - Future horizons include macrocycles, delivery, multi-state/allosteric recognition, chemistry-aware transformation, active learning, library design and more; see [future horizons](future_horizons.md). These need capability-specific scientific review when prioritized, **not** a new up-front general architecture round.
 - Codex will implement approved operations and return measured evidence. Investigators retain authority over claims, scientific meanings, permitted transformations and meaningful policy changes.
