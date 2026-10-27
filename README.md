@@ -67,8 +67,13 @@ The X/Y selectivity case adopts distinct scientific requirements, operational
 checks and explicit evidence links (D29), without universal thresholds or a
 constraint engine. The [multiobjective analysis](devguide/multiobjective_optimization.md)
 compares scalar, Pareto, hierarchical/constrained, uncertainty-aware and diversity
-policies on invented X/Y/CPP/hemolysis candidates. P04 stays open; no optimizer,
-selector, reward or numerical policy is adopted.
+policies on invented X/Y/CPP/hemolysis candidates. D30 now accepts preserving
+original objectives/evaluations and separating exploration, results/tradeoffs and
+purpose-specific selection. No mandatory Pareto archive or universal fitness
+follows. The operational extension compares continued generation, additional
+computation and synthesis/experimental selection, with proposed obligations for
+future components. P04 stays open for restriction handling, uncertainty, diversity
+and policies under budget; no concrete optimizer or numerical policy is adopted.
 The [expanded engine review](devguide/protein_peptide_design_engines.md)
 examines general protein/peptide engines, Chaperone and RFD4, their evidence and
 optional integration routes. No definitive generator, mandatory backend or API

@@ -1,10 +1,14 @@
 # Multiobjective optimization: recognition, avoidance, CPP and hemolysis
 
-Status: **conceptual analysis and pending alternatives**, 2026-10-26. D27–D29
-establish evaluation/selection and requirement/check/evidence meanings. They do
-not select an optimizer, scalar reward, Pareto policy, threshold, uncertainty
-model, missing-data rule or diversity metric. P04 remains open. No scientific
-software or public API is specified here.
+Status: **search/results/selection separation accepted (D30); concrete policies
+pending**, 2026-10-26. D27–D29 establish evaluation/selection and requirement/check/
+evidence meanings. D30 permits distinct exploration/optimization and action-specific
+selection policies while preserving original objectives/evaluations. No universal
+optimizer, scalar reward, mandatory Pareto archive, threshold, uncertainty model,
+missing-data rule or diversity metric is adopted. P04 remains open for restriction
+handling during exploration, uncertainty, diversity and policies under budget.
+Sections 10–13 are operational analysis and recommendations pending discussion,
+not additional approved contracts. No scientific software or public API is specified.
 
 Navigation: [index](README.md) · [accepted semantics](evaluation_and_selection.md)
 · [decisions](decisions.md) · [open questions](open_questions.md#p04-proposed-discussion-sequence)
@@ -57,7 +61,7 @@ mandatory execution stages:
 | Evidence archive and assessments | Original results and qualified derived comparisons, with their subjects and provenance. | Automatic sufficiency for each requirement. |
 | Action-specific selection policy | Which candidates are chosen for another computation, an exploratory panel or another declared action. | That the search reward must be the final selection criterion. |
 
-A scalar-guided generator can populate a Pareto archive; a Pareto-based optimizer
+**Accepted conceptual flexibility (D30):** a scalar-guided generator can populate a Pareto archive; a Pareto-based optimizer
 can feed a constrained final shortlist. A complete-output-only engine can be used
 in either comparison without acquiring internal trajectory controls it lacks.
 
@@ -389,21 +393,252 @@ not expose every internal decision; record that limit rather than inventing a
 trace. Several selection reports can coexist without overwriting evidence or
 discarding convergent provenance. No identifier or persistence scheme is selected.
 
-**Pending recommendation:** support multiple optimization policies over qualified
-evidence, while retaining original objective vectors whenever they are available.
-A useful first conceptual comparison uses a scalar policy, a nondominated archive
-and an epsilon-constraint policy on fixed evidence, before testing search effects.
+**Accepted direction (D30):** support multiple optimization/exploration and selection
+policies while preserving original objectives, evaluations and found tradeoffs.
+No Pareto archive is compulsory. **Still pending:** a first comparison using a
+scalar policy, a nondominated archive and an epsilon-constraint policy on fixed
+evidence, before testing search effects.
 This is not approval to implement three engines or a mandatory implementation order.
 
-The next concrete discussion should settle the **exploratory versus action-specific
+The operational analysis below addresses the **exploratory versus action-specific
 tradeoff policy for this X/Y/CPP/hemolysis problem**: which requirements cannot be
 compensated for a declared action, which proxy tradeoffs may guide exploration,
 and how unresolved candidates remain available for informative evaluation.
-Then agree a small reproducible comparison protocol and only afterwards specify
-the first authorized optimizer capability. Scientific thresholds need real context;
+Proceed next to uncertainty and diversity (section 13), then qualify a small
+reproducible comparison and any first optimizer capability before implementation.
+Scientific thresholds need real context;
 toy values must not migrate into defaults. The choice among weighted utilities,
 Pareto, constrained/hierarchical and uncertainty/diversity variants remains open.
 
 The cited primary papers establish mathematical/algorithmic precedents. This
 review did not install or execute their implementations, reproduce benchmarks,
 generate peptides, validate predictors, select a demonstrator or create issues.
+
+## 10. Restriction scope, provisional exploration and uncheckable requirements
+
+The following are context-dependent roles, not four universal categories or a
+new state system. The same requirement can constrain one procedure throughout,
+be assessed only for final solutions in another, and remain unestablished for a
+third use. Chemical versus biological meaning alone does not decide its role.
+
+| Role in a particular problem/plan/action | Consequence | Limit |
+| --- | --- | --- |
+| Invariant for a declared search operation or branch | Every admitted state/edit covered by that scope must respect it; a scalar reward cannot purchase an exception. | State whether it concerns molecular outputs, edits, retained parents or another actual operation. It does not automatically apply to every internal numerical tensor or partial proposal. |
+| Requirement for acceptance as a satisfactory solution | A candidate cannot be accepted on that basis while the required support is absent or adverse under the agreed assessment. | An intermediate candidate need not satisfy it unless it is also a search invariant. Selection for another purpose is not such acceptance. |
+| Operational exploration criterion with explicitly permitted relaxation | A plan may temporarily broaden a gate or use a different search preference within its declared scope and budget. | Record the relaxation and the decisions using it. It changes the procedure, not the scientific requirement or past evidence. |
+| Scientific requirement whose fulfillment cannot yet be established | Preserve the requirement and what is missing; decide which actions can proceed with that limitation. | Unresolved does not mean fulfilled or violated. Lack of a suitable evaluator does not make a scientific restriction compensable. |
+
+For example, unfavorable hemolysis predictions may make A useful as a parent for
+improving derivatives under a permissive exploration policy. That is different
+from accepting A as satisfactory. If low hemolysis is a prerequisite for a
+particular solution claim, a high X reward cannot substitute for its required
+support. Conversely, the instruction to *minimize* hemolysis alone does not define
+an absolute biological cutoff; one cannot invent that cutoff to reject candidates.
+Adverse proxy evidence is also not automatically a demonstrated biological violation.
+
+**Proposed operational discipline:** qualify a restriction's scope, the basis for
+checking it and what the plan may do when it is unmet or unresolved. For a temporary
+operational relaxation, identify the affected branch/action, grounds, stopping or
+reassessment condition and retained limitation. A preauthorized adaptive policy
+may change its gates according to that rule; otherwise a material change requires
+explicit plan revision. No automatic relaxation hierarchy is proposed. A mandatory
+scientific condition cannot be waived by renaming its proxy a soft reward.
+
+An invariant only has the guarantee its means of enforcement support. If the plan
+requires verified satisfaction at every admitted molecular state but no suitable
+check, constructive guarantee or necessary information exists, that branch cannot
+be represented as enforcing it. Options are to obtain the missing means, choose
+a different compatible procedure, or explicitly approve a weaker procedural
+guarantee while leaving the scientific requirement unresolved. None retroactively
+proves compliance. A different action may continue with acknowledged uncertainty
+if its policy allows; scientific strictness need not imply proof at every search step.
+
+A generator can emit a prohibited output despite an intended invariant. Record
+that outcome and prevent its admission to the affected search population; do not
+erase the output or count it as a compliant state. A repair route is allowed only
+within its declared scope and actual capabilities. If the invariant forbids even
+that use of a violating input, repair is not an implicit exception. A repaired
+realization/edit has its own provenance and qualified reevaluations; its success
+does not erase the earlier violation. No compulsory chemistry-first stage follows.
+
+## 11. Operational stress test: four candidates, three purposes
+
+The following continues section 2 using A, F and H and adding I. **All numbers,
+model assessments and comparisons are invented.** X/Y/H use the same illustrative
+column meanings. No biological thresholds or initial chemistry support are chosen.
+
+| Candidate | X | Y | CPP evidence | H | Chemical check | Salient limitation |
+| --- | ---: | ---: | --- | ---: | --- | --- |
+| F | 92 | Absent | M1 score 0.90 | 1 | Pass | Y avoidance is unassessed. |
+| I | 82 | 15 | M1 score 0.90 with favorable assessment; M2 score 0.25 with adverse assessment | 2 | Pass | Contradictory CPP assessments after alignment. |
+| H | 90 | 10 | M1 score 0.95 | 1 | Fail | Known violation of the checked chemical predicate. |
+| A | 95 | 80 | M1 score 0.95 | 8 | Pass | Excellent X score, adverse hemolysis-related evidence and unfavorable Y score. |
+
+For I, assume the same chemical realization, compatible evaluated views, intended
+CPP endpoint and conditions have been checked for alignment. The opposing
+assessments use each source's own interpretation; equal numeric ranges do not
+establish shared calibration. The disagreement is invented but explicit, not
+inferred merely from unequal raw scores. M1 denotes the illustrative CPP source
+used for the original A–E values. Independence of M1 and M2 is not established.
+Retain both original outputs and their qualifications, not an averaged pseudo-result
+or a best-of-model CPP label. If endpoint or chemistry alignment fails in a real
+case, record noncomparability instead of declaring a genuine contradiction.
+
+### A. Continue generative exploration
+
+Consider a **proposed** branch that preserves the checked chemical condition for
+admitted molecular parents, allows unresolved/adverse functional evidence for
+exploration, and aims to improve X/Y/CPP/H jointly. This is one policy, not a default.
+
+| Candidate | Possible use under that branch | Conditions and scientific limits |
+| --- | --- | --- |
+| F | Continue compatible generation/redesign or request Y evidence. | Use a declared partial-purpose search signal, bounds/scenarios if justified, or another compatible optimizer. No zero Y penalty, full-utility equivalence or selective-binder claim. A strategy requiring Y cannot execute without that operation. |
+| I | Explore derivatives under separately identified CPP scenarios, or seek a discriminating assessment. | No silent favorable-model selection or automatic average. Whether it remains a parent is a plan choice; another branch could require resolved CPP support. |
+| H | Do not admit H as a valid molecular parent where the chemical invariant applies. | Preserve the result. Only a separately authorized, compatible repair use whose scope permits this input can produce a newly assessed candidate; if the invariant prohibits that use, it cannot proceed. |
+| A | Retain as a parent for improving derivatives if the branch allows adverse Y/H evidence. | Strong X does not satisfy Y avoidance or low-hemolysis requirements. Derivatives require their own evaluations; parent scores do not transfer automatically. |
+
+A branch requiring a supported operational hemolysis gate for every parent could
+exclude A instead. Both branches can address the same final scientific problem,
+provided the latter's intended solutions are unchanged. This does not authorize
+relaxing a scientific invariant that the problem explicitly applies throughout.
+
+### B. Select additional computational evaluations
+
+Choose actions that could change a relevant decision, using actual available
+evaluators, their applicability and marginal cost. Missingness, disagreement or
+an excellent X score is not by itself an acquisition rule. A qualitative policy
+can compare decision relevance, likely resolvability and cost without pretending
+to know calibrated probabilities of success or information gain.
+
+| Candidate | Potential next action | Why it might be useful / when to defer |
+| --- | --- | --- |
+| F | Obtain a compatible Y assessment, including required preparation. | Could change eligibility or search priorities if the other evidence makes F relevant. If no qualified Y operation exists, preserve the gap; priority does not create capability. |
+| I | Audit alignment, then choose evidence that could distinguish the conflicting CPP interpretations. | Repeating the same prediction adds little if it is deterministic; a different model with shared bias is not automatically independent. Defer if no available assessment addresses the source of conflict. |
+| H | Confirm the applicable check/identity if its attribution is doubtful; otherwise assess only an allowed repair or comparison purpose. | No need to buy repeated X/CPP predictions to establish a chemical predicate already known to fail. Their value can differ for a specifically authorized repair task. |
+| A | Assess the unfavorable Y/H evidence or evaluate newly proposed derivatives if that could alter the planned action. | Another expensive structure prediction is not inherently more informative about hemolysis. Genuine adverse evidence should not be rechecked until a favorable result appears. |
+
+A budget focused on completing plausible candidates might prioritize F. Another
+focused on model disagreement might prioritize I. A repair-focused budget might
+allocate to H's permitted derivatives. Those are alternative purposes; the table
+does not establish their optimal order or adopt any budget split. Count joint
+multi-label calls as actual resource use, preserve all outputs, and distinguish
+reused results, failed requests and genuinely new evidence. Required chemistry/
+representation preparation is part of the marginal cost and attribution.
+
+### C. Select for synthesis and experimental evaluation
+
+Synthesis selection needs a stated scientific purpose and action-specific chemical,
+preparation and evidence prerequisites. No universal synthesis-feasibility estimator
+or minimum computational evidence threshold is assumed. Passing the toy chemical
+check alone does not establish synthesizability. Two possible purposes are:
+
+- **A shortlist supported by a declared computational assessment policy:** require
+  the evidence that policy specifies for X, Y, CPP and H. On the facts above, F
+  cannot pass a prerequisite of assessed Y avoidance; I cannot be described as
+  having consistent CPP support; H cannot pass the checked chemical condition;
+  A cannot be treated as favorable on Y/H. This does not make them biologically
+  negative by decree or establish that no candidate can ever be selected.
+- **An exploratory or discriminating experimental panel:** F may probe unresolved
+  Y recognition; I may test the CPP disagreement; A may be a deliberate comparison
+  if the actual experimental purpose and prerequisites permit it. Selection must
+  state that rationale rather than call them satisfactory solutions. H remains
+  excluded wherever the chemical restriction applies; testing a chemically
+  redesigned comparator requires an explicit separate purpose/identity, not an
+  invisible exception. No experimental protocol or universal panel is selected.
+
+If a scientific requirement is noncompensable for accepted solutions, an
+exploratory synthesis choice does not waive it: the candidate was selected to
+learn, not accepted as meeting it. Unsupported, contradictory and adverse evidence
+remain visible. Selection establishes no measured binding/selectivity, CPP activity,
+low hemolysis, mechanism or general safety. If no candidates meet an action's
+prerequisites, an empty selection is a legitimate outcome; do not fabricate values
+or quietly loosen the policy to fill the batch.
+
+### Derived fronts, explored sets and evidence revisions
+
+Preserve four distinct meanings under D30: original evaluations/results; the
+candidates actually explored or made observable; nondominated subsets derived
+from comparable evidence; and selections for particular actions. They are neither
+four required classes nor obligatory optimizer stages. Internal unexposed engine
+candidates cannot be reconstructed by assertion; record observation/coverage limits.
+
+In the invented complete subset A–E, the front is {A, B, C, D}. Add I using its
+M1 CPP output, keeping that evaluator/context fixed: I dominates B and E, and
+the front of A–E plus I becomes **{A, C, D, I}**. B's evaluations did not change;
+the comparison pool did. I's M2 result remains conflicting evidence, not permission
+to overwrite M1 or choose a favorable scientific conclusion. A scenario-specific
+M1 front is not a declaration of robust nondominance across unknown M2 results.
+F, G's incompatible Y output and H's check failure retain their different reasons
+for exclusion from a particular comparable/admissible computation.
+
+Updating an evaluator requires a newly qualified comparison set; replacing only
+I's CPP value with M2 and leaving other candidates' M1 values does not automatically
+give a valid mixed-model front. Where a cross-model mapping is justified, retain
+its assumptions and provenance. New Y evidence, target contexts, objective sets
+or supported chemical views can also change derived fronts. Keep their evidence
+snapshot, pool, directions, admissibility/comparability policy and derivation method
+traceable. No absolute candidate label 'Pareto-optimal' is warranted. Algorithms
+may maintain bounded fronts, compute them after a run or never use them; archive
+truncation is another policy, not a reason to erase original evaluated results.
+Past selections retain their historical basis even if a candidate later leaves a front.
+
+## 12. Obligations for future implementable contracts
+
+These are **proposed scientific obligations for later capability specifications**,
+not a new approved universal contract, public API or storage inventory. The
+accepted meanings D09–D30 constrain that future work; concrete obligations need
+qualification for the capability actually authorized.
+
+| Proposed obligation | Consequence in the operational case |
+| --- | --- |
+| Respect the declared scope of noncompensable restrictions and allowed operations | A reward cannot override a required chemical invariant; a repair route needs actual authorized support and cannot conceal a violating trajectory. |
+| Keep scientific intent independent of operational gates/rewards and their revisions | Relaxing a search gate records a plan change or application of a preauthorized rule; it does not certify A or redefine low hemolysis. |
+| Operate only on compatible inputs with explicit attribution | Do not combine different chemical realizations into a fictitious joint objective vector; hypothetical completion, representation change and redesign remain distinct. |
+| Retain native evaluations, unresolved cases and qualified derived values | F's absent Y, I's contradictory CPP, G's incompatible Y and H's checked violation cannot collapse into one penalty or fabricated fitness. |
+| Scope every ordering/front to its objectives, evidence and candidate set | Preserve M1-specific comparison and pool changes; unavailable evaluations are not favorable or adverse numbers. A scalar-only provider need not fabricate hidden objective outputs. |
+| Distinguish eligibility, actual choice and solution-acceptance meaning for each action | A can contribute to improvement or a declared comparison panel without being accepted as satisfying the problem; eligible candidates need not fit the budget. |
+| Record policy use, available execution provenance and resource use honestly | Attribute reward, survival, requested evaluation and final selection where observable; state native trace limits and count cached/new/failed calls distinctly. |
+| Report unsupported operations, insufficient evidence/budget and empty outcomes | An acquisition preference does not create a Y evaluator or repair capability. No silent model substitution, gate relaxation or batch filling. |
+
+**Investigators approve** scientific requirements and their scope, noncompensable
+conditions, permitted exploratory exceptions to operational criteria, acceptable
+proxy use and evidence prerequisites for each action. They also approve policies
+for unresolved/conflicting results, uncertainty aggregation or scenarios, diversity
+meaning, budget priorities and comparison/acceptance criteria before those become
+binding behavior. Approval can concern a parameterized policy family rather than
+every runtime choice: execution may follow an already approved adaptive rule.
+
+**Codex can later resolve internal implementation** within such approved contracts:
+data structures, indexing, batching, dispatch, parallel scheduling, cache mechanics
+and report rendering. Scientific equivalence for reuse, canonical identity/state
+grouping, public interfaces and persistence remain separately deferred. Internal
+choices cannot silently alter scientific meaning, supported chemistry, restriction
+scope, missing-data behavior, effective budgets or comparisons. Numerical tolerance
+or rounding that changes eligibility/dominance is a policy-relevant choice, not
+automatically a cosmetic optimization. If implementation cannot honor an obligation,
+report the limitation and return the consequential change to discussion.
+
+## 13. Next discussions: uncertainty, then diversity
+
+The operational case narrows the next work without closing P04. **Proposed order:**
+first uncertainty handling, then diversity/exploration and their budget interaction.
+No new uncertainty hierarchy, confidence scale or diversity metric is adopted.
+
+For uncertainty, begin with F versus I: absent Y is not CPP disagreement, and
+neither is an uncertainty probability. Compare retaining model/context scenarios,
+justified robust bounds, qualified aggregation and additional-evaluation policies.
+Ask when a decision is stable across scenarios, when unresolved disagreement is
+acceptable for exploration, and when an action needs more evidence. Use calibrated
+probabilistic methods only when their assumptions are established; uncalibrated
+but justified ranking remains possible under D18. Do not average away I's conflict
+or treat correlated models as independent observations. This is the next pending
+policy discussion, not a requirement to invent a universal uncertainty estimator.
+
+For diversity, distinguish redundant proposed molecules, redundant objective
+profiles and redundant information from further evaluations. Compare diversity
+during generation, population survival and batch selection, and the costs of each.
+Operational sequence/chemical/structural comparisons need declared scope without
+pretending to settle canonical identity or all chemistry first. Novelty, model
+disagreement and usefulness are distinct: a diverse batch can remain scientifically
+uninformative. The investigators' eventual policies should determine which
+differences matter for the action and what exploration budget is justified.

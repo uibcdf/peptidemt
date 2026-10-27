@@ -47,6 +47,8 @@ specification. No scientific implementation or public API is defined.
 16. [Multiobjective optimization](multiobjective_optimization.md): scalar, Pareto,
     hierarchical/constrained, uncertainty-aware and diversity alternatives; invented
     X/Y/CPP/hemolysis examples and reproducible policy versus search comparisons.
+    Accepted search/results/selection separation (D30), a three-purpose operational
+    case and proposed scientific obligations for future implementable components.
 
 ## Evidence and status
 
@@ -113,7 +115,14 @@ P04 remains open: the [X/Y selectivity case](evaluation_and_selection.md#7-selec
 compares requirements, checks, evidence and eligibility for three actions. Its
 alternative 2 and all seven qualifications are now accepted under D29. The
 [multiobjective discussion](multiobjective_optimization.md) advances to concrete
-policy effects and alternative optimizers without choosing one. The
+policy effects and alternative optimizers without choosing one. D30 accepts
+preserving original objectives/evaluations while separating exploration,
+results/tradeoffs and purpose-specific selection. Pareto membership is contextual,
+and an archive is optional. The [operational extension](multiobjective_optimization.md#11-operational-stress-test-four-candidates-three-purposes)
+compares missing Y, contradictory CPP, a chemical violation and adverse hemolysis
+evidence for generation, further evaluation and synthesis/experimental selection.
+Its restriction-handling recommendations and future scientific obligations remain
+pending. Uncertainty, then diversity, are the proposed next discussions. The
 [optimization agenda](open_questions.md#p04-proposed-discussion-sequence) remains
 open: no universal threshold, fitness, selector, confidence scale or diversity metric.
 

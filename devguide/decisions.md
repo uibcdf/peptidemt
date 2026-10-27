@@ -10,10 +10,12 @@ interfaces, schemas and implementation remain deferred. A bounded V0.2 horizon
 review proposes a collective-design distinction without adopting it; P10 remains
 pending by explicit request. P04 alternative 2 and its seven minimal principles
 are accepted under D27, with the MOLI interpretation boundary under D28. P04
-now also accepts the X/Y requirement/check/evidence separation under D29. P04
-remains open for optimization, uncertainty, diversity and budgeted policies.
-The multiobjective comparison contains pending alternatives, not an adopted
-selector, optimizer or threshold. No API is selected.
+now also accepts the X/Y requirement/check/evidence separation under D29 and
+distinct search, preserved results/tradeoffs and purpose-specific selection
+under D30. P04 remains open for restriction handling during exploration,
+uncertainty, diversity and budgeted policies. The operational case contains
+pending recommendations, not an adopted selector, optimizer or threshold.
+No API is selected.
 
 ## Accepted working directions
 
@@ -60,6 +62,7 @@ they are repository setup choices, not scientific decisions.
 | D27 | Adopt P04 alternative 2 and all seven minimal principles in evaluation_and_selection.md: evaluation, feasibility knowledge, purpose-specific selection and bounded scientific claims have distinct meanings. | Explicit investigator approval. No four classes/services/stages, state machine or mandatory global grade. Selection is purpose-relative; strictness and checkability are independent; preserve established violations, cutoff failures, missing/failed evaluations, contradiction and applicability limits without universal penalties. Retain original evidence, policies, operational criteria and selection reasons; different policies can address the same problem without rewriting results. P04 remains open for concrete restrictions and optimization/selection policies. |
 | D28 | PeptideMT retains evaluations, selection grounds and computational conclusions scoped to their evidence; it is not a general scientific-interpretation or project-claim management engine. | Explicit investigator qualification of D27. Global interpretation and project decisions belong to investigators and, eventually, appropriate MOLI components, especially Nextia. This boundary must preserve scientifically interpretable native results; no dependency on a currently implemented Nextia runtime or automated claim adjudicator is approved. |
 | D29 | Adopt X/Y alternative 2: distinguish scientific requirements, operational checks and explicit evidence links for assessing compliance, with all seven investigator qualifications. | Requirements exist independently of available evaluators. An exact score predicate is not an exact biological check. Preserve original subjects, representations, conditions, models, uncertainty and provenance. Many-to-many evidence links imply no automatic sufficiency. Distinguish favorable, adverse, contradictory, insufficient and absent evidence without a universal state scheme. Eligibility is action/policy-specific; absent Y evidence is not demonstrated selectivity. Comparisons respect meaning, units, conditions and domains; structural scores are not arbitrarily converted to affinities or selectivity ratios. No universal thresholds, rejection rules, Python classes or formal constraint engine. P04 remains open for optimization and selection. |
+| D30 | Preserve original objectives and evaluations, and permit different optimization, exploration and selection policies on the same scientific problem. Distinguish generation/exploration, evaluated results/tradeoffs and selection for a concrete purpose. | Explicit investigator approval. Scalar search may coexist with nondominated results and a different subsequent selector, without redefining scientific intent. No universal algorithm, fitness or mandatory Pareto archive. Nondominance is derived relative to objectives, evaluators, contexts, comparable candidate subset and evidence snapshot, not an absolute scientific property. Preserve original evaluations, actually explored/observable sets, qualified derived fronts and action-specific selections distinctly; no fabricated scores for incomplete/incompatible/pending results. Compensatory exploration does not authorize compensation against every scientific restriction. Treatment of restrictions, uncertainty, diversity and budgeted policies remains open under P04. No API, classes or persistence schema approved. |
 
 The [four worked examples](design_examples.md) are conceptual stress tests and
 conceptual analysis, not selected demonstrators or executed campaigns. Their
@@ -72,7 +75,7 @@ the semantic responsibilities adopted through P07 are recorded under D15–D16.
 | --- | --- | --- |
 | P02 | Refine context, qualified label/resource mappings and evaluator bindings within D10/D17–D20. | Conceptual separation is accepted; concrete fields, mapping policies and interfaces remain open. |
 | P03 | Keep a small sequence/design core with optional molecular and model adapters. | Compare dependency cost against uniform molecular integration. |
-| P04 | Objectives, operational policies, uncertainty, diversity and purpose-specific selection under budget. | Evaluation/selection separation accepted under D27–D28; X/Y requirement/check/evidence alternative 2 and seven qualifications accepted under D29. The [multiobjective comparison](multiobjective_optimization.md) analyzes scalar, Pareto, hierarchical/constrained, uncertainty-aware and diversity policies. No optimizer, universal threshold, fitness, selector, missing-data rule or diversity metric adopted. |
+| P04 | Restriction handling during exploration, uncertainty, diversity and purpose-specific policies under budget. | D27–D29 accept evaluation/selection and requirement/check/evidence meanings. D30 accepts distinct search, preserved results/tradeoffs and selection policies over the same problem. The [operational case](multiobjective_optimization.md#11-operational-stress-test-four-candidates-three-purposes) and [future scientific obligations](multiobjective_optimization.md#12-obligations-for-future-implementable-contracts) remain analysis for discussion. No concrete optimizer, restriction-relaxation policy, threshold, uncertainty aggregation, diversity metric or budget allocation adopted. |
 | P05 | Compare and compose filtering, external optimization, sampling-time guidance, functional distributions and learned conditioning through explicit capabilities. | Current [strategy analysis](generative_strategies.md); no definitive generator, common API, capability schema or first comparison experiment selected. |
 | P06 | Formal suite admission and official Python starter generation. | Agree the central process; no issue or sibling-registry change is authorized by this initial documentation publication. |
 | P10 | Distinguish collective/distributional library proposals from individual molecular proposals, including incomplete individuals. | Pending bounded recommendation from [V0.2 case A](future_horizons.md#9-bounded-extensibility-review-after-p09-approval). No library support, generic population hierarchy or MVP requirement adopted; concrete semantics can wait until such a capability is prioritized. |
@@ -141,14 +144,18 @@ accepted architecture. Only the collective-versus-individual distinction is
 proposed as P10. No new top-level architecture is recommended for state panels
 or precursor/product relationships. None of these horizons becomes an MVP gate.
 
-P04 now has **partial conceptual approval under D27–D29**: alternative 2 and all
+P04 now has **partial conceptual approval under D27–D30**: alternative 2 and all
 seven minimum principles are accepted with purpose-relative selection, independent
 strictness/checkability, preserved evidence and bounded interpretation. It is not
 closed for restrictions, uncertainty, diversity, optimization or budgeted selection.
 The X/Y requirement/check/evidence alternative 2 is now explicitly accepted under
 D29, with its seven qualifications and no software representation selected.
-The [multiobjective analysis](multiobjective_optimization.md) remains a set of
-alternatives: no optimizer, numerical policy or implementation is adopted.
+D30 accepts preserving objectives/evaluations and separating search, results/
+tradeoffs and action-specific selection; no mandatory Pareto archive follows.
+The [multiobjective analysis](multiobjective_optimization.md) retains pending
+restriction-handling and uncertainty/diversity/budget policies. Its operational
+case and future contract obligations are recommendations, not newly adopted rules.
+No optimizer, numerical policy or implementation is adopted.
 No later policy can retroactively convert a missing assessment into established
 compliance or selection into validated activity.
 
@@ -421,6 +428,36 @@ the pinned ecosystem and engine audits without changing their source snapshots.
 Updated navigation and current-status documents consistently. No scientific
 software, model execution, benchmark reproduction, experiment or development issue.
 All new optimization recommendations remain pending investigator discussion.
+
+## Search/results/selection approval and operational case — 2026-10-26
+
+Recorded explicit conceptual approval as D30: preserve original objectives and
+evaluations while permitting different exploration/optimization and purpose-specific
+selection policies on one scientific problem. Included the investigators' limits:
+no universal fitness/algorithm, no compulsory Pareto archive or absolute candidate
+Pareto status, and no invented missing scores. P04 remains open for restriction
+handling during exploration, uncertainty, diversity and policies under budget.
+
+Extended [multiobjective_optimization.md](multiobjective_optimization.md) with
+scope-dependent search invariants, final-solution requirements, temporarily relaxed
+operational criteria and scientifically unresolved requirements. These are roles
+for a particular use, not a universal restriction taxonomy. An uncheckable strict
+requirement cannot silently become satisfied, violated or deleted; a plan cannot
+promise verified enforcement without the needed means.
+
+Reused invented A/F/H and added invented I with aligned but opposing CPP
+assessments. Compared continued generation, additional computational evaluation
+and synthesis/experimental selection under explicit alternative purposes. Kept
+the prior incompatible-Y case G distinct. Illustrated how expanding a comparable
+pool changes nondominance without rewriting old evidence. Added pending scientific
+obligations for future components and investigator versus implementation choices,
+without signatures, storage or classes. Prioritized uncertainty, then diversity,
+as subsequent discussions; neither is resolved by this update.
+
+Reused the existing literature and pinned ecosystem/engine evidence; no new model
+support, installation, runtime behavior, biological result or benchmark is claimed.
+Updated related navigation/status documents and checked documentation consistency
+and invented dominance arithmetic. No scientific implementation or issues.
 
 ## Change protocol
 

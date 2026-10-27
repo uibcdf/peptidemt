@@ -247,7 +247,16 @@ The [multiobjective analysis](multiobjective_optimization.md) now separates sear
 rewards, evaluation acquisition, population survival and action-specific final
 selection on an invented X/Y/CPP/hemolysis case. Scalar guidance can feed a Pareto
 archive or a constrained shortlist; a Pareto search need not dictate the final
-choice. D29 accepts requirement/check/evidence meanings, not these policies.
+choice. D29 accepts requirement/check/evidence meanings; D30 now accepts distinct
+search/results/selection policies with preservation of original objectives and
+evaluations. No particular optimizer, fitness or mandatory Pareto archive follows.
 Compare fixed-evidence policy effects separately from end-to-end search effects,
 with retained raw objectives, unresolved evaluations and declared costs. No
 optimizer or generator capability is selected by this extension.
+
+The [operational case](multiobjective_optimization.md#11-operational-stress-test-four-candidates-three-purposes)
+adds restriction scope, absent Y, contradictory CPP, a chemical-check violation
+and adverse hemolysis evidence. A candidate's permitted contribution to generation
+depends on the branch/action; exploratory use is not acceptance as a satisfactory
+solution. An unavailable check cannot provide verified enforcement. These concrete
+policy recommendations remain pending, with uncertainty and diversity next.

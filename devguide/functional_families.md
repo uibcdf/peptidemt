@@ -334,7 +334,11 @@ missing evidence, disagreement and extrapolation have different meanings. The
 records the accepted organization of requirements, checks and compliance
 evidence under D29. The [multiobjective discussion](multiobjective_optimization.md)
 compares alternative uses of family signals without adopting a scalar or Pareto
-selector. Family labels or structural confidence do not by themselves establish
+selector. D30 accepts preserving original objectives/evaluations while using
+different exploration and action-specific selection policies. Its operational
+case retains opposing CPP assessments instead of silently averaging or choosing
+the favorable one; their uncertainty treatment remains pending. Family labels or
+structural confidence do not by themselves establish
 target selectivity, and global project interpretation stays outside PeptideMT.
 
 Compare only sufficiently aligned subjects, chemical views, contexts and claims

@@ -7,6 +7,13 @@ feasibility taxonomy, API or implementation is approved. P04 remains open for
 restrictions, optimization, uncertainty, diversity and budgeted selection. P09
 stays conceptually closed and P10 stays pending without an MVP obligation.
 
+D30 subsequently accepts distinct exploration, preserved results/tradeoffs and
+purpose-specific selection over the same problem, with original objectives and
+evaluations retained. It selects no algorithm or mandatory Pareto archive. The
+[operational case](multiobjective_optimization.md#11-operational-stress-test-four-candidates-three-purposes)
+compares three actions; restriction treatment, uncertainty, diversity and policies
+under budget remain open.
+
 Navigation: [index](README.md) · [decisions](decisions.md) · [P04 agenda](open_questions.md#p04-proposed-discussion-sequence)
 · [families](functional_families.md#selection-contradictions-and-assessment)
 · [multiobjective discussion](multiobjective_optimization.md)
@@ -161,6 +168,7 @@ activity. Experimental observations, if later obtained, form new attributed evid
 | D21–D26 | Strategies require actual compatible operations; plans choose explicit policies/compositions; execution records what happened. A purpose does not create a missing evaluator, and unknown support remains unknown. |
 | D27–D28 | Alternative 2 and all seven principles are accepted; local computational conclusions remain interpretable without a general scientific/project-claim engine. Concrete constraint and selection policies are still open. |
 | D29 | Requirements, operational checks and many-to-many evidence links are distinct; links alone do not establish sufficiency. Preserve original evaluations and qualified comparisons, with action-relative eligibility and no default treatment of missing Y as selectivity. |
+| D30 | Preserve original objectives/evaluations while permitting different exploration and selection policies. Explored sets, comparable derived fronts and action-specific choices have distinct meanings; no mandatory Pareto archive or absolute candidate Pareto status. |
 
 The [preserved audit](integration_audit.md) remains the source-level basis for
 owner boundaries; this discussion does not claim new ecosystem implementations:
@@ -232,7 +240,8 @@ threshold or minimum evidence bar follows from that approval.
 
 The [multiobjective analysis](multiobjective_optimization.md) now compares scalar,
 Pareto and hierarchical/constrained policies, uncertainty, diversity and budgets
-on an invented X/Y/CPP/hemolysis example. Its recommendations remain pending.
+on an invented X/Y/CPP/hemolysis example. D30 accepts search/results/selection
+separation; its concrete policies and proposed contract obligations remain pending.
 P10 stays pending; no library
 engine or general decision/planning system is needed for the present analysis.
 
@@ -401,9 +410,11 @@ End-to-end optimizers can additionally generate different candidates; compare
 their problem scope, budgets, coverage and actual evaluations explicitly.
 
 **Current next discussion:** compare optimization and selection policies in
-[multiobjective_optimization.md](multiobjective_optimization.md). Start with which
-tradeoffs may guide exploration and which prerequisites a particular action needs;
-use alternative optimizers on the same problem without rewriting evidence.
+[multiobjective_optimization.md](multiobjective_optimization.md). Its operational
+extension now examines restriction scope and prerequisites for three actions;
+these recommendations await discussion. D30 accepts alternative optimizers on
+the same problem without rewriting evidence. Proceed next to uncertainty, then
+diversity and their budget implications, without a universal confidence scheme.
 Numerical requirements and operational rules need a stated scientific use.
 P04 remains open; no universal fitness, selector, formal constraint solver, code
 or issue is introduced.
