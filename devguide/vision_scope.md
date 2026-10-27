@@ -20,6 +20,12 @@ function-guided proposal search and molecular-target engagement remains central
 as implementation progresses. The [published-evidence-anchored MDM2/MDMX-p53
 cell-permeating anticancer peptide case](case_study_cpp_anticancer_mdm2_mdmx.md)
 offers a stringent future reference without changing V0.1 chemistry or targets.
+The [CPP development-case portfolio](cpp_case_portfolio.md) broadens this
+reference with simpler linear and cargo examples, an intrinsically cell-permeant
+**p28–p53** anticancer peptide, and scientifically distinct conditional and
+chemically modified delivery cases. "CPP" remains a qualified, context-dependent
+concept; tumor tissue penetration and endosomal escape are not automatically
+cytosolic-delivery labels.
 
 The [representative CPP project pool](cpp_guided_projects.md) deliberately distinguishes
 sequence-level uptake, cargo delivery, endosomal escape, cytosolic access,
