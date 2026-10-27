@@ -1,6 +1,7 @@
 # Future scientific horizons and design stress tests
 
-Status: **strategic opportunity inventory and pending questions**, 2026-10-26.
+Version: **V0.2 scientific horizon review**, 2026-10-26.
+Status: **strategic opportunity inventory and pending questions**, not approved architecture.
 This document is not an approved roadmap, API specification, implementation commitment, benchmark result, or change to current accepted decisions.
 
 Navigation: [index](README.md) · [vision](vision_scope.md) · [roadmap](roadmap.md) · [open questions](open_questions.md) · [decisions](decisions.md) · [working methodology](design_methodology.md).
@@ -10,6 +11,8 @@ Navigation: [index](README.md) · [vision](vision_scope.md) · [roadmap](roadmap
 PeptideMT aims to generate, redesign, evaluate and optimize peptides under molecular-target, functional-family, chemical and contextual objectives. The accepted problem/plan/execution separation (D09), peptide-proposal and chemical-realization semantics (D15–D16), functional-concept/resource separation (D17–D20), and domain-aware composition (D21–D24) provide a promising foundation.
 
 Our design discussions have so far concentrated on **how** heterogeneous generators and functional predictors work together. This document complements that work by asking **which scientific questions** a powerful peptide-design platform may need to answer over the next several years. A future application is worth keeping visible without implementing it, designing a universal abstraction for it, or making it a prerequisite for the first useful release.
+
+The V0.2 review adds combinatorial/display libraries, peptide immunology, systemic exposure, molecular proximity/degradation, peptide transformation networks, high-throughput experimental landscapes and nontherapeutic probes/materials. These are literature-motivated directions, not new mandatory platform contracts.
 
 The opportunity is not primarily to compete with foundational protein generators. It is to combine their proposals with peptide-specific chemistry, rigorous molecular assessment, biological context, multiobjective search and reproducible evidence. Both target-directed and target-free problems remain in scope; experimental verification is not a prerequisite to complete a computational campaign.
 
@@ -30,6 +33,8 @@ A practical, model-independent system capable of reproducibly expressing and com
 - **Multiobjective selection:** feasibility, tradeoffs, uncertainty, diversity and cost, without reducing every objective to one opaque score.
 - **Reproducibility and benchmarking:** exact model/checkpoint, data/negative-label construction, domain, evaluated representation, settings, budget, failures and independent assessment.
 - **Campaign usability:** inspection, comparison, export and re-evaluation of designs; researchers can interrogate *why* a candidate was selected.
+- **Library-aware hypotheses:** future support for representing a combinatorial sequence space, degenerate alphabet or constrained position pattern *without materializing every member*. A library specification and a sampled individual peptide have different identities, provenance and feasibility claims.
+- **High-throughput evidence:** preserve raw counts, selection rounds, replicate/library context and censoring rather than flattening screening/NGS results prematurely into an unqualified positive/negative label.
 
 **Important boundary:** a useful first implementation need not provide every Horizon A capability. Its contracts should make known gaps explicit and should avoid preventing the other capabilities later.
 
@@ -51,6 +56,13 @@ Capabilities that operate beyond sequence classification and single predicted co
 
 7. **Multifidelity evaluation.** Sequence-level classifiers and chemical checks; structures/complexes and interaction models; ensemble/dynamics calculations; rigorous binding free-energy or kinetic estimates where validated; experimental assay evidence when available. More expensive computation is not automatically more accurate, and cheap triage can introduce false negatives.
 
+#### Additional Horizon B opportunities highlighted in V0.2
+
+- **Immunological epitope and antigen design.** Explore peptides in the context of antigen processing, HLA/MHC allele presentation and T-cell receptor recognition. In a TCR–pMHC task the functional target is a multi-component recognition system, not necessarily an isolated target protein; presentation, specificity and immunogenicity are separate endpoints. An [EPIC diffusion study (2026)](https://doi.org/10.1093/bioinformatics/btag358) provides a *computational* precedent for decomposing this design into coupled objectives; its predictions are not measured vaccine or T-cell responses.
+- **Pharmacokinetics, ADMET and systemic exposure.** Route- and formulation-dependent bioavailability, absorption, tissue distribution, proteolytic and renal clearance, plasma binding, dose/exposure and immunogenicity can affect the utility of a therapeutic peptide. Exposure is not always an intrinsic property of the isolated candidate. A [2026 therapeutic-peptide pharmacokinetics review](https://doi.org/10.1007/s40262-025-01615-z) motivates explicit context/units/model scope, *not* a requirement to build an in-house pharmacokinetic simulator.
+- **Molecular proximity and targeted degradation.** Design peptide-mediated recruitment or delivery of payloads to promote productive multi-component complexes, including peptide–degrader conjugates. The [GLP-1-guided BRD4 degrader report (2026)](https://pubmed.ncbi.nlm.nih.gov/42283322/) motivates this modality; it does not demonstrate de novo generation of such constructs or universal intracellular delivery. The desired effect may depend on complex stoichiometry, geometry, compartment and dynamics, not peptide-target affinity alone.
+- **Peptide transformations and metabolites.** Represent precursor, proteolysis products, modified derivatives and active/inactive fragments with scoped conditions and (where justified) rate/abundance estimates. [ML cleavage-site work on cyclic/noncanonical peptides (2026)](https://doi.org/10.1038/s41598-026-50335-2) illustrates a possible specialized evaluator; site predictions alone do not determine fragment abundance or biological activity. This intersects with activatable constructs under Horizon C, without requiring a general reaction engine.
+
 **Ownership:** PeptideMT states peptide-design requirements, orchestrates peptide-specific scoring/selection and preserves attribution. MolSysMT owns molecular representations/manipulations, while target geometry, docking, interaction evidence, dynamics and pharmacophores should reuse qualified existing MolSysSuite components or external engines rather than duplicating them. Any proposed free-energy or mechanism engine requires a distinct capability/domain review.
 
 ### Horizon C — adaptive and programmable discovery
@@ -70,6 +82,12 @@ Capabilities that operate beyond sequence classification and single predicted co
 14. **Mechanism/assay-aware experimental design assistance.** Propose discriminating assays and negative controls; distinguish target engagement, phenotypic response and nonspecific effects. Design decisions can identify which experimental measurements would reduce ambiguity. PeptideMT should not become a general laboratory information management system.
 
 15. **Scientist-facing interactive exploration.** Inspect conflicting models, compare runs, audit provenance and model applicability, export synthesis/evaluation candidate sets and explore design histories. This supports human decisions rather than creating a separate, autonomous scientific agent. Generic AI-agent orchestration belongs to MOLI/MolSys-AI.
+
+#### Additional Horizon C opportunities highlighted in V0.2
+
+- **Computational design of experimental libraries.** Optimize a constrained *population* rather than only an individual: alphabet/position degeneracy, scaffold and motif preservation, member coverage, redundancy, anticipated display/synthesis biases, expected diversity, and sampling/selection budgets. A library might encode 10^6 or >10^12 possible members without explicitly enumerating them; this is a **representation goal**, not a claim of synthesizing or scoring that many molecules. Link the library definition to realized sequences and selection results. [Architectural design of phage-displayed libraries (2026)](https://doi.org/10.1002/bit.70370) and [mRNA/RaPID display with noncanonical residues (2026)](https://doi.org/10.1016/j.copbio.2026.103477) motivate this direction.
+- **High-throughput sequence–function landscapes.** Treat deep mutational scanning, selection/enrichment, phage/mRNA display sequencing and combinatorial screening as structured evidence with library design, batch, round, read-depth, controls, replicate and assay context. Enrichment is not automatically calibrated affinity; zero counts are not measured inactivity. This can improve model training and adaptive library redesign. [NGS/phage display methods review (2026)](https://doi.org/10.1007/s00726-025-03492-z) provides a relevant operational precedent.
+- **Nontherapeutic probes, imaging, diagnostics and materials.** Targeting/affinity probes, fluorescent and radiolabeled imaging constructs, biosensors, surface/mineral-binding peptides, self-assembling hydrogels and biomineralization demand objectives outside conventional therapeutic bioactivity. A [2026 review of responsive peptide imaging probes](https://doi.org/10.1002/rpm2.70064) and a [2026 self-assembly review](https://doi.org/10.1038/s12276-026-01691-6) illustrate the breadth. Device/material performance must not be relabeled as a therapeutic phenotype.
 
 ### Additional possible directions, not presently prioritized
 
@@ -95,6 +113,13 @@ These ideas are **not** a mandate to add separate packages, models, APIs or new 
 | Active learning and assay feedback | More informative iteration and use of expensive measurements | Leakage, nonrandom missing data and selection bias | Evidence lineage, assay identity, proposal policy, cost accounting |
 | Robustness across variants | Better selectivity/coverage under change | A few tested variants misrepresented as universal coverage | Panels and distributions with explicit scope |
 | Atlas/navigation | Scientific understanding of learned spaces and diverse discovery | Projection artifacts mistaken for real topological or thermodynamic barriers | Optional analysis/visualization, not mandatory design-core dependency |
+| Combinatorial library design | Efficiently sample/design large constrained populations; link to display screens | Implicit library treated as enumerated/individually evaluated; display/NGS bias omitted | Collective design object with constraint semantics and population-level evidence |
+| TCR–pMHC epitope design | Immunology and context-dependent multi-component recognition | Single-peptide affinity score interpreted as antigenicity or immunogenicity | Target/context may involve several participants and allele/assay-specific effects |
+| Systemic exposure/ADMET | Translational feasibility under route and dose constraints | Sequence-only PK score presented as measured in vivo exposure | Contextual, unit-bearing model and experiment associations |
+| Proximity/degradation | Productive ternary complexes, cargo recruitment and degradation | Pairwise binding interpreted as ternary cooperativity or degradation | Compositional mechanism/complex hypothesis and separate endpoints |
+| Proteolytic transformation products | Predict stability and possible downstream bioactive species | Predicted cut assumed to imply exact products/rates or phenotype | Explicit precursor-to-product relationships and conditional evaluation |
+| High-throughput functional evidence | Learn from mutational scans, selection rounds and large screens | Sequencing enrichment interpreted as direct affinity; negatives inferred from dropout | Population-specific assay/provenance; replicate/censoring/batch data |
+| Nontherapeutic peptide engineering | Imaging, sensing, binding materials and assemblies | Therapeutic class ontology imposed on materials endpoints | Open functional concepts and property-specific evaluators (D17–D20) |
 
 ## 4. Which questions matter *before* a core architecture is considered stable?
 
@@ -118,7 +143,29 @@ Do **not** demand all future capabilities be specified before implementing an MV
 
 **S8 — target-free peptide and functional atlas:** Sample novel CPP+AMP candidates with no protein target. How can an embedding exploration guide search without being treated as true calibrated functional density?
 
+**S9 — combinatorial library without enumeration:** Define a constrained library (for example, 10^6 theoretical variants with fixed motifs and position degeneracy), sample a few designs, and attach phage/mRNA display or NGS selection data. Is the library a collective proposal with its own provenance and coverage, distinct from realized members? Can a model score sampled members without pretending to have evaluated the whole library?
+
+**S10 — TCR–peptide–MHC recognition:** Design an epitope with a specific HLA allele and receptor context. Does the scientific problem express presentation, TCR engagement and immunogenicity as distinct properties of an interacting multi-component system? Must not reduce the objective to one pairwise affinity or assume immunogenicity from a pMHC pose.
+
+**S11 — transformation and degradant network:** Represent a parent pro-peptide, a cleaved active product and a potentially toxic secondary fragment under protease/pH conditions. Can each species receive distinct evidence and estimated formation propensities without equating a cleavage-site prediction to a measured product distribution?
+
+**S12 — exposure-constrained design:** Select a target-binding candidate under a therapeutic route and exposure requirement (e.g., half-life/clearance in a stated species). Can we keep molecular properties separate from model-specific dose, formulation and physiology assumptions? A missing PK model must not silently become a negative design score.
+
 These are **test cases**, not implementation requirements or selected biological demonstrators. Document failures and counterexamples. Avoid building a full general ontology or workflow planner merely to accommodate hypothetical cases.
+
+### Architectural impact versus development commitment (V0.2 triage)
+
+| Opportunity | New scientific meaning or new evaluation domain? | Early *semantic* stress test? | Implementation can wait? | Current owner/likely extension boundary |
+| --- | --- | --- | --- | --- |
+| Combinatorial/display library | Collective/distributional design versus chemical individual | **Yes — S9** | **Yes** | PeptideMT library-design meaning; Praxis/experimental systems own protocols |
+| TCR–pMHC immunological epitope | Context-dependent multi-component recognition and endpoints | **Yes — S10** | **Yes** | PeptideMT problem/selection; structural tools handle qualified complexes |
+| PK/ADMET and exposure | Contextual dose/route/species-dependent properties | Useful — S12 | **Yes** | External PK/ADMET evaluators; avoid a PeptideMT physiologic simulator |
+| Molecular proximity / induced degradation | Multi-component mechanism and cargo species | Useful with S3/S6 | **Yes** | Molecular-system evaluation and mechanism-specific optional tools |
+| Degradants and activation products | Parent-to-product chemical transformation, multiple effects | **Yes — S11** | **Yes** | MolSysMT handles molecular identity; PeptideMT keeps design relations |
+| High-throughput/DMS/display selections | Population- and round-specific evidence | Useful with S5/S9 | **Yes** | Experiment source data and PeptideMT evaluated population/provenance |
+| Imaging/sensors/materials | Nontherapeutic function semantics and application-specific endpoints | Can defer | **Yes** | Functional catalog plus optional specialized evaluators |
+
+"Yes" means worth **checking for a conceptual contradiction before finalizing a core contract**, not an implementation gate or a requirement to build its evaluation method. If no new core distinction is needed, leave the capability to its eventual specialist adapter.
 
 ### Decisions to settle before a *particular capability* is implemented
 
@@ -149,7 +196,20 @@ These are **test cases**, not implementation requirements or selected biological
 7. **Make negative knowledge useful.** Preserve failed designs, negative measurements, dead ends and contradictory predictions; their provenance improves both benchmarking and later active learning.
 8. **Prefer modular extension over ownership creep.** PeptideMT owns peptide-specific design semantics and composition; MolSysMT owns molecule handling; specialist methods and platform-wide orchestration remain with appropriate tools.
 
-## 6. Relationship to current work
+## 6. Selected scientific anchors (not an exhaustive evidence review)
+
+These sources motivate future directions and test cases. None establishes performance of PeptideMT, a selected implementation, or a validated universal predictor:
+
+- **Display and library architecture:** [Ling, Peng & Lim, *Biotechnology and Bioengineering* (2026)](https://doi.org/10.1002/bit.70370), overview of linear-to-multicyclic phage-displayed libraries; [Bakhshinejad & Kjaer, *Amino Acids* (2026)](https://doi.org/10.1007/s00726-025-03492-z), NGS-aware phage-display workflows; [mRNA/RaPID display and chemical diversification (2026)](https://doi.org/10.1016/j.copbio.2026.103477).
+- **Immunological peptide design:** [Huang et al., EPIC, *Bioinformatics* (2026)](https://doi.org/10.1093/bioinformatics/btag358), computational TCR–pMHC epitope design with multiple objectives.
+- **Systemic pharmacokinetics:** [Nordell et al., *Clinical Pharmacokinetics* (2026)](https://doi.org/10.1007/s40262-025-01615-z), peptide disposition and size-/mechanism-related scaling limitations.
+- **Targeted proximity/degradation:** [Multicomponent stapled GLP-1-guided degrader (2026)](https://pubmed.ncbi.nlm.nih.gov/42283322/), experimental receptor-guided conjugate example; not a generic peptide-design model.
+- **Proteolysis and chemical modalities:** [Cifuentes et al., *Scientific Reports* (2026)](https://doi.org/10.1038/s41598-026-50335-2), model-based prediction of cleavage sites in cyclic and noncanonical peptides.
+- **Nontherapeutic and responsive systems:** [Responsive peptide fluorescent probes (2026)](https://doi.org/10.1002/rpm2.70064); [biomimetic peptide self-assembly (2026)](https://doi.org/10.1038/s12276-026-01691-6).
+
+No claim here that model weights, databases, displayed libraries or commercial use are available under compatible licenses. These require separate qualification.
+
+## 7. Relationship to current work
 
 - [Vision and scope](vision_scope.md) gives the **present** working purpose. This document does not replace it.
 - [Roadmap](roadmap.md) proposes **incremental deliverables**, with no implementation authorization. Horizon concepts here do not automatically become roadmap stages.
@@ -158,8 +218,8 @@ These are **test cases**, not implementation requirements or selected biological
 - [Four worked problems](design_examples.md) establish initial stress tests; this adds **additional hypothetical stress tests**, without selecting a target.
 - [Decisions](decisions.md) alone records investigator approval. No item in this file changes D09–D24 or closes P02–P09.
 
-## 7. Next suggested design discussion (not an approval request for all horizons)
+## 8. Next suggested design discussion (not an approval request for all horizons)
 
-Preserve the current P09 capability/compatibility discussion. In parallel, evaluate **two or three strategically different stress tests**—one chemical modality, one multi-state/negative-target task, and one adaptive/multifidelity campaign—against the accepted semantic principles. If one truly requires a new core distinction, propose it with counterexamples; otherwise defer its concrete implementation.
+Preserve the current P09 capability/compatibility discussion. In parallel, evaluate **two or three strategically different stress tests**—for example one chemical modality, one multi-state/negative-target task and one combinatorial-library or adaptive/multifidelity task—against the accepted semantic principles. The new S9–S12 probes add library-level, immune, transformation and exposure semantics; they do not require running all tests before a useful first release. If one truly requires a new core distinction, propose it with counterexamples; otherwise defer its concrete implementation.
 
 **North star:** robust and extensible peptide molecular engineering, not a monolithic model zoo or a general-purpose replacement for MolSysSuite/MOLI. Keep a small trustworthy core, optional domain-qualified methods, and a path from computational hypotheses to experimental evidence.
