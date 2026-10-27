@@ -491,6 +491,23 @@ The [working methodology](design_methodology.md) governs how these questions
 mature into approved contracts before implementation.
 
 
+## CPP-specific case-guided project pool
+
+The separate [CPP guided-project pool](cpp_guided_projects.md) expands the case
+inventory with **CPP-01 through CPP-10**, arranged from linear R8/R9 and
+penetratin to cargo delivery (TAT), endosomal escape (dfTAT), cancer-cell
+preference and a **p53-targeting p28 peptide**, proteolysis-dependent iRGD
+tissue penetration, pHLIP acid-triggered delivery, cyclic CPP12,
+stapled ATSP-7041 and multi-functional CPP+AMP search.
+
+This is a **scientifically diverse guide for future milestones**, not ten
+approved implementations or additional W0–W4/M1–M8 requirements. It complements
+rather than replaces the original conceptual Cases A–D and the published
+structure/oncology reference Case E. In particular, **p28 directly associates
+with p53 in its cited studies**, whereas ATSP-7041 is a chemically stapled
+peptide targeting **MDM2/MDMX**; the two exemplify distinct mechanisms and
+chemical difficulties.
+
 ## 11. Case E — experimentally anchored cell-permeating anticancer binder: ATSP-7041 versus MDM2/MDMX
 
 **Status: proposed case-guided scientific reference, not the approved V0.1 demonstrator.**
