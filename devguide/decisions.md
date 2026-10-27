@@ -3,12 +3,12 @@
 Navigation: [index](README.md) · [scope](vision_scope.md) · [alternatives](architecture_alternatives.md).
 Date of initial record: **2026-10-26**. Approval authority: the investigators.
 
-Updated: **2026-10-26**. P07/P08 remain accepted within their limits. P09's four
-responsibility owners and three compatibility dimensions are accepted under
-D21–D22. D23–D24 now accept architecture/origin independence, qualified effective
-support and optional individual/composite access without inherited capabilities.
-P09's definitive organization, minimum semantic obligations and concrete contracts
-remain open; no algorithm or API is selected.
+Updated: **2026-10-26**. P07/P08 remain accepted within their limits. P09 is
+**resolved conceptually** under D21–D26: alternative B, all seven principles and
+context-sensitive semantic obligations are accepted. Concrete contracts,
+interfaces, schemas and implementation remain deferred. A bounded V0.2 horizon
+review proposes a collective-design distinction without adopting it; P04 is the
+next discussion block. No algorithm or API is selected.
 
 ## Accepted working directions
 
@@ -46,10 +46,12 @@ they are repository setup choices, not scientific decisions.
 | D18 | Permit justified indirect predictors and exploratory use beyond validated empirical scope to guide generation/optimization. | Keep desired function, actual predicted property, search signal and result evidence distinct. Declare input compatibility, extrapolation limits and whether utility is a hypothesis. Perfect calibration is not required for useful search rankings; scores are not automatically real bioactivity probabilities or comparable across models. |
 | D19 | Distinguish guidance/reward/selection roles from candidate assessment and independent evaluation. | One model may serve several roles, but improved reward is not independent confirmation. Preserve direct prediction, indirect/partial support, absent evaluation and doubtful applicability as conceptual distinctions, without a fixed state taxonomy or universal confidence scale. No experimental validation is required for computational completion. |
 | D20 | Preserve independent computational capabilities and compatible adapters. | Distinguish predictors, learned distributions, conditioned generators, rewards, search/guidance and datasets/evidence. No common internal representation, differentiability or ML architecture is required; no concrete interface or model selection is approved. |
-| D21 | Providers and adapters declare effective capabilities; search strategies define requirements; computational plans select/configure compatible compositions; executions record actual operations, results and limitations. | Explicit conceptual agreement in the P09 expansion request. Responsibilities, not mandatory stages or objects. P09 remains open; no capability schema, API, automatic planner or organizational alternative is approved. |
+| D21 | Providers and adapters declare effective capabilities; search strategies define requirements; computational plans select/configure compatible compositions; executions record actual operations, results and limitations. | Initially approved as responsibilities, not mandatory stages or objects. D25–D26 subsequently resolve P09's conceptual organization; no schema, API or automatic planner is approved. |
 | D22 | Distinguish operational, runtime/resource and scientific compatibility. | Explicit conceptual agreement in the same request. Technical input acceptance and successful execution do not establish scientific validity. No fixed compatibility taxonomy, scoring rule or admission threshold is approved. |
 | D23 | Admit design engines independently of their original architecture/purpose, with explicit chemical/scientific domains, effective capabilities and access-route evidence. | Explicit investigator approval following the expanded review. Associate support with an identifiable engine, version, checkpoint, adapter, configuration and conditions of use; a short-peptide input is not validated short-peptide design. PeptideMT's peptide-design scope is unchanged. No declaration schema or initial chemistry envelope is approved. |
 | D24 | Permit individual and composite providers, with native, adapted or explicitly composed capabilities; distinguish underlying operations from actually exposed access. | Internal capabilities are not automatically inherited through workflows, services or adapters. Chaperone is an optional workflow/execution provider, not a mandatory dependency or replacement for PeptideMT's scientific responsibilities. Direct access to generative internals remains conceptually possible; no obligation to implement both adapter routes, export all states, reimplement engines or adopt concrete contracts. |
+| D25 | Adopt P09 alternative B: small optional capabilities, evidence-linked semantic declarations and explicit compositions, including all seven principles in capabilities_and_composition.md. | Explicit investigator approval closes P09's conceptual organization. Preserve information/preservation meaning, optional specialized access, three compatibility dimensions, explicit mismatches/substitutions, provenance/attribution and ecosystem ownership. No Python interfaces, classes, schemas, registries, automatic composition or scientific implementation approved. |
+| D26 | A capability declaration must justify the concrete use without a universal field inventory; distinguish fundamental, contextual and optional information. | Explicit investigator approval. Unknown restrictions do not demonstrate support. Required operations must actually be established; scientific uncertainty can permit justified exploration but cannot replace missing operations. Detailed attributes/checks are specified with particular implementable capabilities rather than reopened as separate conceptual approvals. |
 
 The [four worked examples](design_examples.md) are conceptual stress tests and
 conceptual analysis, not selected demonstrators or executed campaigns. Their
@@ -62,10 +64,10 @@ the semantic responsibilities adopted through P07 are recorded under D15–D16.
 | --- | --- | --- |
 | P02 | Refine context, qualified label/resource mappings and evaluator bindings within D10/D17–D20. | Conceptual separation is accepted; concrete fields, mapping policies and interfaces remain open. |
 | P03 | Keep a small sequence/design core with optional molecular and model adapters. | Compare dependency cost against uniform molecular integration. |
-| P04 | Retain objective vectors, feasibility, applicability and diversity rather than only one scalar reward. | Decide which selection policies are required initially. |
+| P04 | Evaluation, objectives, constraints, uncertainty, diversity and candidate selection. | Next discussion block; [proposed progressive sequence](open_questions.md#p04-proposed-discussion-sequence). No universal selector, uncertainty scale, reward or Pareto policy adopted. |
 | P05 | Compare and compose filtering, external optimization, sampling-time guidance, functional distributions and learned conditioning through explicit capabilities. | Current [strategy analysis](generative_strategies.md); no definitive generator, common API, capability schema or first comparison experiment selected. |
 | P06 | Formal suite admission and official Python starter generation. | Agree the central process; no issue or sibling-registry change is authorized by this initial documentation publication. |
-| P09 | Organize capability descriptions and compatible compositions, including general protein engines and composite/external workflows. | D21–D24 accept owners, compatibility dimensions, domain-aware support and optional non-transitive access. Alternative B remains preferred but not fully approved. [Minimum semantics and three cases](capabilities_and_composition.md#8-three-tests-of-minimum-capability-meaning) are pending analysis. No schema, contracts, classes, automatic planner or universal API approved. |
+| P10 | Distinguish collective/distributional library proposals from individual molecular proposals, including incomplete individuals. | Pending bounded recommendation from [V0.2 case A](future_horizons.md#9-bounded-extensibility-review-after-p09-approval). No library support, generic population hierarchy or MVP requirement adopted; concrete semantics can wait until such a capability is prioritized. |
 
 ### Proposal disposition
 
@@ -109,13 +111,27 @@ order. The subsequent P09 expansion request explicitly accepts its four-role
 responsibility separation and three compatibility dimensions (D21–D22), while
 requiring more investigation before closing the organizational decision.
 
-The next explicit approval adopts the domain-aware, origin-independent principle
+The next explicit approval adopted the domain-aware, origin-independent principle
 and its eight qualifications as D23–D24. It preserves optional direct/internal
-and composed-workflow use without requiring both implementations. P09 remains
-partially open: the investigators request analysis of minimum capability meaning,
+and composed-workflow use without requiring both implementations. At that stage
+P09 remained partially open: the investigators requested minimum capability meaning,
 not adoption of the proposed information list as a mandatory schema. Small
-optional capabilities with explicit compositions remain the preferred pending
-organization; no general planner or duplicate MOLI orchestration is requested.
+optional capabilities with explicit compositions were the preferred pending
+organization; no general planner or duplicate MOLI orchestration was requested.
+
+P09 is now **resolved conceptually as D25–D26**, adopting alternative B and all
+seven principles within the previous limits. Fundamental/contextual/optional
+information distinctions and sufficient evidence for actual required operations
+are accepted without approving every illustrative table entry as a mandatory
+field. P09 is not left open merely because concrete software contracts remain
+unwritten. Those contracts, representations, identifiers, schema/registry details,
+deployment and capability-specific checks belong to later specifications under
+the accepted organization; P07's chemistry/identity deferrals also remain open.
+
+The bounded library/state/transformation review is design analysis, not a new
+accepted architecture. Only the collective-versus-individual distinction is
+proposed as P10. No new top-level architecture is recommended for state panels
+or precursor/product relationships. None of these horizons becomes an MVP gate.
 
 The dated discussion updates below preserve the status at each revision. Current
 approval status is given in the accepted decisions and proposal disposition above.
@@ -299,6 +315,27 @@ This material is **not an accepted decision, fixed roadmap, implementation scope
 new selected demonstrator or additional precondition to a useful MVP**. Current
 P09 discussion continues; any core distinction uncovered by stress tests requires
 independent scientific discussion and explicit approval. No code or issues created.
+
+## P09 conceptual closure and bounded horizon review — 2026-10-26
+
+Recorded explicit approval of alternative B, all seven principles and the
+context-sensitive information obligation as D25–D26. Removed P09 from pending
+conceptual proposals and separated concrete contracts/interfaces from that
+resolved choice. Retained earlier partial-approval records as dated history.
+
+Before editing, fetched and fast-forwarded through the investigators' GitHub
+changes to `e28fbd3`; read future_horizons.md V0.2 and S1–S12. Preserved that
+inventory and added a bounded review of implicit combinatorial libraries,
+multi-state/antitarget design and precursors/transformation products. Proposed
+P10 only for collective-design meaning; no class hierarchy or library feature
+was adopted. State panels fit the existing separation; transformation relations
+need explicit meaning without becoming a universal reaction engine.
+
+Proposed a progressive P04 discussion beginning with evaluation meaning and
+feasibility/evidence, then tradeoffs, uncertainty, diversity and budgeted selection.
+No P04 choice is approved by that proposed order. Updated related current-status
+documents consistently, without changing the ecosystem/engine audit snapshots,
+selecting a demonstrator, implementing scientific code or opening issues.
 
 ## Change protocol
 

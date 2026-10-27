@@ -216,10 +216,137 @@ No claim here that model weights, databases, displayed libraries or commercial u
 - [Functional families](functional_families.md) covers label/resource meaning; this document asks what additional functional, mechanistic and chemical objectives could matter.
 - [Generative strategies](generative_strategies.md), [capabilities/composition](capabilities_and_composition.md) and [engine survey](protein_peptide_design_engines.md) examine concrete generator access. This document tests their future scientific expressivity.
 - [Four worked problems](design_examples.md) establish initial stress tests; this adds **additional hypothetical stress tests**, without selecting a target.
-- [Decisions](decisions.md) alone records investigator approval. No item in this file changes D09–D24 or closes P02–P09.
+- [Decisions](decisions.md) alone records investigator approval. The inventory does not change accepted decisions or close proposals. Subsequent explicit approval closes P09 conceptually under D25–D26; the bounded analysis below adopts no additional architecture.
 
 ## 8. Next suggested design discussion (not an approval request for all horizons)
 
-Preserve the current P09 capability/compatibility discussion. In parallel, evaluate **two or three strategically different stress tests**—for example one chemical modality, one multi-state/negative-target task and one combinatorial-library or adaptive/multifidelity task—against the accepted semantic principles. The new S9–S12 probes add library-level, immune, transformation and exposure semantics; they do not require running all tests before a useful first release. If one truly requires a new core distinction, propose it with counterexamples; otherwise defer its concrete implementation.
+P09's capability/compatibility organization is now accepted conceptually. The bounded review below addresses the investigators' selected library, multi-state/antitarget and precursor/product cases before returning to P04. S9–S12 do not require running all tests before a useful first release. If one truly requires a new core distinction, propose it with counterexamples; otherwise defer its concrete implementation.
 
 **North star:** robust and extensible peptide molecular engineering, not a monolithic model zoo or a general-purpose replacement for MolSysSuite/MOLI. Keep a small trustworthy core, optional domain-qualified methods, and a path from computational hypotheses to experimental evidence.
+
+## 9. Bounded extensibility review after P09 approval
+
+Date: **2026-10-26**. Basis: investigators' V0.2 at repository revision
+[`e28fbd3`](https://github.com/uibcdf/peptidemt/tree/e28fbd3), read before this update.
+Status: **conceptual analysis and limited recommendations**, not new accepted
+features. P09 is resolved under D25–D26; the observations here do not reopen it.
+No models were executed and the horizon literature inventory was not re-audited.
+
+| Selected scenario | Are current decisions enough? | Real boundary / proposed response | What can wait? |
+| --- | --- | --- | --- |
+| A. Implicit combinatorial libraries (S9) | D09 and P09 support problem/plan/evidence and optional providers, but P07 does not explicitly distinguish a collective design intention from an incomplete individual. | Propose that distinction as P10 before promising library design. Do not redefine a molecular realization as a library member or adopt a universal population hierarchy. | Library syntax, distribution representation, counting, samplers, display models and library-level optimizers; all are outside the present MVP commitment. |
+| B. Positive/negative target states (S2) | Yes for conceptual separation and attribution; no implemented target-panel or ensemble API is claimed. | Preserve state/context-specific evaluations and explicit positive/negative requirements; defer aggregation and selection policies to P04. No new top-level architecture is needed. | State naming/grouping, ensemble weights, free-energy methods, exchange kinetics and specialist adapters. |
+| C. Precursors and transformation products (S4/S11) | P07 supports distinct molecular subjects, realizations, views and provenance; it is not already a reaction/process model. | Use explicit precursor-to-product relationships with their meaning and evidence when this capability is specified. Transformation is neither chemical completion nor mere conversion. No general reaction graph is justified now. | Reaction representation, product enumeration, kinetics, mixtures, activation models and transformation-specific contracts. |
+
+### A. A library is an intention about a population
+
+An individual incomplete proposal says that some information about an intended
+molecular design remains unresolved. A combinatorial library deliberately spans
+many members. A finite computational batch is yet another thing: it is a sample
+or work allocation, not necessarily the scientific library being designed.
+Treating all three as 'a sequence with unknown positions' loses their meanings.
+
+**What can already be expressed conceptually:** the problem requests a library
+with variable positions, preserved motifs and global restrictions; the plan
+chooses how to represent/sample/evaluate it; execution records samples and the
+evidence actually obtained. P09 permits an optional provider with such outputs.
+Neither D09 nor P09 requires enumerating all possible molecules.
+
+**Actual gap:** P07's individual proposal/realization semantics do not by
+themselves establish library membership or population-level claims. The minimal
+pending distinction is a collective/distributional proposal versus an individual
+molecular proposal. Membership/sampling relates them; chemical completion still
+relates an incomplete individual to its realizations. A sampled member can itself
+need chemical realization. These relations must not be collapsed.
+
+A support definition and a sampling distribution also differ: the same allowed
+members can be sampled with different probabilities. Position choices alone need
+not determine a joint distribution after global constraints or correlations.
+The intended library, a computational sampling law and a physically realized
+screening population can differ. Evidence from a few evaluated members does not
+become evidence about every member. Coverage, counts and aggregate estimates
+retain whether they are exact, inferred, sampled or unknown.
+
+**Recommendation, pending P10:** preserve this distinction when a library
+capability is designed. Do not now extend every candidate type, require a measure
+calculus, define identifiers or install a population engine. A first individual-
+peptide implementation can explicitly lack library support without prejudicing
+future extensibility. This finding does not block the next P04 discussion.
+
+### B. States and antitargets fit without a new core entity taxonomy
+
+The scientific problem can favor recognition of specified states of a protein
+and disfavor another state or another molecule. It must distinguish requiring all
+favored states from permitting any one of them. The plan selects representations,
+evaluators and an explicit comparison policy; execution retains each candidate,
+target/state/site, context, model/input and result, including missing evaluations.
+These are uses of D09, P07 and P09, not a new mandatory sequence of stages.
+
+**Semantic guardrails:** a conformation, a chemical/protonation state, a different
+target and a sampler state are not interchangeable. Preserve their relationships
+without deciding canonical identity/grouping here. Structural instances and their
+weights have source/assumption scope; a list of conformers is not automatically an
+equilibrium ensemble. Averaging confidence or docking scores is not automatically
+a thermodynamic or state-selectivity estimate. Stabilization of a state is a
+stronger mechanistic claim than a favorable predicted complex in that state.
+
+The problem's positive/negative intent must survive the plan's aggregation. Do
+not compare unrelated predictor scales as if they were common affinity units,
+or infer selectivity because no antitarget evaluation exists. Whether to seek
+worst-case performance, use justified weights or retain separate objectives is
+part of the specific problem/plan and pending P04, not a universal default.
+
+**Conclusion:** no contradiction in the accepted organization. A state-panel or
+ensemble capability needs later input/evaluation contracts and domain-qualified
+methods; those are extensions, not grounds to build an ensemble engine now.
+
+### C. Transformation products are separate evaluation subjects
+
+A precursor and its activation/degradation products may have different chemistry,
+recognition and functional effects. Each can have incomplete proposals, explicit
+realizations and evaluated views under P07. The problem can request properties of
+the precursor and of particular products in stated contexts; the plan selects
+how to propose products and assess them; execution preserves the actual species,
+assumptions, transformations, predictions and observations.
+
+**P07 is necessary but does not supply transformation meaning automatically.**
+Completing an unresolved terminus, converting a representation, computationally
+redesigning a peptide and proposing a biological cleavage have different meanings.
+A future specialized relation should identify source/product participants and
+the transformation hypothesis/context, preserving whether evidence is predicted,
+assumed or observed. It need not be a universal reaction object or a kinetic model.
+
+Products must not be silently grouped as conformations or chemical states of one
+unchanged molecular subject. The audited MolSysMT
+[ChemicalStates](https://github.com/uibcdf/molsysmt/blob/e395e52646dab2ecb480d3d67aa7254be99b8524/molsysmt/native/chemical_states.py)
+uses a stable atom-index domain; changing atom inventories does not automatically
+fit that representation. Keep supported molecular operations with MolSysMT and
+design-specific transformation attribution with PeptideMT.
+
+A predicted cleavage site does not establish product abundance, formation rate
+or functional activity. An assay on a mixture is not automatically attributable
+to one fragment. A precursor's score cannot be transferred to its products
+without justification, and several precursor paths can reach the same product
+without losing provenance. Missing chemical details remain unresolved or enter
+explicit hypothetical realizations, rather than being filled retrospectively.
+
+**Conclusion:** distinct subjects and explicit, evidence-qualified relations are
+sufficient at this level. Specify the transformation relation when needed; no
+new top-level architecture or compulsory reaction/activation engine is warranted.
+Time, stoichiometry, product distributions and kinetic equations can wait unless
+a particular future claim depends on them.
+
+### Disposition and return to the operational core
+
+Only A exposes a new collective-versus-individual distinction worth proposing
+separately. B and C require disciplined use and later extension of existing
+semantics, not a redesign of problem/plan/evidence or capability composition.
+None of these findings is implementation approval or an MVP prerequisite.
+Canonical identity, initial chemistry support and the other P07 deferrals remain
+open. P10 remains pending; no additional proposal hierarchy is introduced.
+
+Return now to [P04's proposed discussion sequence](open_questions.md#p04-proposed-discussion-sequence):
+evaluation meaning and constraints/evidence first, then objective tradeoffs,
+uncertainty, diversity and budgeted selection. The horizons provide counterexamples
+when useful; they do not expand the initial evaluation layer into every future
+domain or require resolving S1–S12 before proceeding.

@@ -284,13 +284,16 @@ P08 alternative 2 is also accepted under D17–D20; see its
 [record and model-composition exercise](functional_families.md#p08-conceptual-alternatives-and-generative-use).
 The current [strategy comparison](generative_strategies.md) concerns capabilities
 and intervention choices, not an API or definitive generative architecture.
-[P09](capabilities_and_composition.md) now has partial conceptual approval:
-D21–D24 establish responsibility owners, three compatibility dimensions and
-domain-aware optional access without inherited internal capabilities.
-Its organization, minimum semantics and concrete contracts stay pending. The [expanded engine
+[P09](capabilities_and_composition.md) is now resolved conceptually under D21–D26:
+alternative B, all seven principles and context-sensitive semantic obligations
+are accepted, with no universal declaration fields or internal-state interface.
+Concrete contracts and implementation stay deferred. The [expanded engine
 review](protein_peptide_design_engines.md) tests optional individual/composite
 providers, general protein engines and domain-specific evidence without
-selecting an implementation or closing P09.
+selecting an implementation.
 The current [three-case semantic analysis](capabilities_and_composition.md#8-three-tests-of-minimum-capability-meaning)
 examines what a strategy needs to know without imposing the same declaration
 fields or internal-state interface on every provider.
+The [bounded V0.2 horizon review](future_horizons.md#9-bounded-extensibility-review-after-p09-approval)
+leaves only a collective-design distinction as pending P10; it does not reopen
+P09, change P07 or adopt ensemble/reaction/library requirements for the MVP.

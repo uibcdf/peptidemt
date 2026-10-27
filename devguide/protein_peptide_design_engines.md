@@ -1,10 +1,11 @@
 # Protein and peptide design engines: evidence and composition
 
-Status: **source/literature review, accepted domain/access principles and pending
-P09 organization**, 2026-10-26. D21–D24 accept responsibility owners, compatibility
+Status: **source/literature review and conceptually resolved P09**, 2026-10-26.
+D21–D24 accept responsibility owners, compatibility
 dimensions and origin-independent, domain-aware optional individual/composite
-access. P09's organizational alternative B, minimum semantics and concrete
-contracts remain pending. No engine is selected or executed.
+access. D25–D26 adopt alternative B, all seven principles and context-sensitive
+semantic obligations. Concrete contracts remain deferred. No engine is selected
+or executed.
 
 Navigation: [index](README.md) · [capabilities](capabilities_and_composition.md)
 · [strategies](generative_strategies.md) · [families](functional_families.md)
@@ -447,10 +448,11 @@ including rejected samples, rollouts, oracles and unavailable telemetry.
 
 ## 8. Revised P09 recommendation and next approvals
 
-**Alternative B remains the preferred pending organization:** small capability
+**Alternative B is accepted conceptually (D25):** small capability
 descriptions plus explicit compositions, with specialized integrations where
 needed. The following domain/access qualifications now have conceptual approval
-under D23–D24; their concrete expression and minimum obligations remain open:
+under D23–D24; D26 accepts sufficient contextual information without adopting
+universal fields. Concrete contracts remain open:
 
 1. Describe effective support for a resolved **engine + adapter + model assets +
    deployment/configuration + domain**. These are semantic dependencies, not a
@@ -475,8 +477,9 @@ domain/capability/evidence awareness; configuration-qualified support; optional
 individual/composite providers; and non-transitive internal access. Chaperone is
 optional and direct generative intervention remains possible. This does not
 approve a dependency, two mandatory adapter implementations, declaration schema,
-contracts or the definitive organization of P09. Explicit small compositions
-remain the preferred pending alternative; no general planner is requested.
+contracts. Subsequent D25–D26 resolve P09's conceptual organization with explicit
+small compositions and sufficient information for actual use; no general planner
+is requested.
 
 **Needs more evidence before a concrete commitment:** useful short-peptide domain
 for the current RFD4 pair; exact chemistry-preserving conversions; hosted custom-
@@ -484,12 +487,14 @@ metric/state access and resolved terms; reproducible environments and cost
 profiles; qualification of a specific multi-label predictor; and an informative
 comparison design. These do not block a conceptual decision about optionality.
 
-**Current discussion:** decide what minimum meaning a capability/domain claim
-must preserve when a composite or service exposes less than the underlying model.
+**Conceptual discussion resolved:** capability/domain claims must retain meaning
+and justify actual use, including when a service exposes less than its base model.
 The [three-case semantic analysis](capabilities_and_composition.md#8-three-tests-of-minimum-capability-meaning)
 compares delegated RFD4 guidance, complete Chaperone procedures and exploratory
 short-peptide use, distinguishing fundamental/contextual/optional information.
-Keep chemistry
+The [bounded horizon review](future_horizons.md#9-bounded-extensibility-review-after-p09-approval)
+introduces no engine-selection or implementation requirement. Return next to
+[P04](open_questions.md#p04-proposed-discussion-sequence). Keep chemistry
 identity, initial support, storage, IDs, concrete interfaces, model selection and
 the first demonstrator open. No implementation or issue creation follows from
 this review.

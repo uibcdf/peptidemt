@@ -1,19 +1,21 @@
 # Capabilities, strategy requirements and explicit composition
 
-Status: **partial conceptual approval (D21–D24), remaining P09 proposals and
-source-level analysis**, 2026-10-26. No capability schema, software contract, API
+Status: **P09 resolved conceptually (D21–D26), contracts and implementation
+deferred**, 2026-10-26. No capability schema, software contract, API
 or class hierarchy is approved. Navigation: [index](README.md) · [strategies](generative_strategies.md)
 · [families](functional_families.md) · [decisions](decisions.md).
 
 The [expanded engine review](protein_peptide_design_engines.md) adds general
 protein-design engines, Chaperone, RFD4, short-peptide benchmarks and revised
 composition recommendations. The five-model matrix below is the earlier bounded
-subset, not an exclusion of general protein engines. **P09 remains open.**
+subset, not an exclusion of general protein engines. **P09 is conceptually closed.**
 
 D23–D24 accept origin-independent, domain-aware support and optional individual/
-composite access without automatic inheritance. The new minimum-semantics
-analysis below is **pending**, including which information is fundamental,
-contextual or optional. It is not an API or mandatory declaration schema.
+composite access without automatic inheritance. D25–D26 now adopt alternative B,
+all seven principles and the distinction between fundamental, contextual and
+optional information sufficient to justify actual use. The illustrative details
+below are not a mandatory field inventory or API. Further attribute-by-attribute
+approval is unnecessary; concrete contracts follow capability-specific design.
 
 ## 1. Responsibility rather than four execution stages
 
@@ -69,13 +71,13 @@ absence from uninspected/unknown support or temporary runtime unavailability.
 No fixed capability-name enum or availability-state taxonomy is adopted here.
 A single boolean such as 'supports guidance' would conceal too much information.
 
-### Proposed minimum meaning, not a mandatory record
+### Minimum meaning, not a mandatory record
 
 A capability is useful **relative to an intended strategy and use context**.
 The strategy's required operations and information must be justified by the
 actual provider route. A broad catalog description can remain unresolved while
-a particular plan needs more detail. The following is a pending recommendation
-about meaning; information can be referenced from versioned documentation,
+a particular plan needs more detail. This obligation is accepted under D26;
+information can be referenced from versioned documentation,
 resource descriptions or evidence rather than duplicated in every declaration.
 
 **Fundamental** means needed to interpret a claim without changing its meaning.
@@ -83,8 +85,11 @@ resource descriptions or evidence rather than duplicated in every declaration.
 less important. **Optional** means useful without being a prerequisite for the
 stated use. Unknown information must not masquerade as a guarantee; an explicit
 unknown can be an honest description without satisfying a particular requirement.
+Absence of known restrictions is not evidence that an operation exists. The table
+illustrates the accepted distinctions, rather than prescribing identical fields
+or claiming every possible provider detail has been specified.
 
-| Information to examine | Proposed semantic obligation | When more detail becomes necessary |
+| Information to examine | Illustrative semantic obligation | When more detail becomes necessary |
 | --- | --- | --- |
 | Operation and output meaning | Fundamental: what is actually provided, by which effective access route, and what the result asserts. | Distinguish generation, sequence assignment, evaluation, continuation and workflow execution; a job receipt is not a generated candidate or a completed evaluation. |
 | Admitted inputs/outputs and evaluation subject | Fundamental: required information, representation and intended subject; permitted incompleteness and output interpretation. | A family evaluator needs the peptide view and label meanings; a state controller needs sampler-state semantics; file-format compatibility alone is insufficient. |
@@ -159,8 +164,9 @@ when no direct evaluator exists.
 
 ## 3. Compatibility has operational, runtime and scientific dimensions
 
-The three dimensions below are **accepted conceptually under D22**. The detailed
-matching/policy organization remains a recommendation: match requirements against
+The three dimensions below are **accepted conceptually under D22**. D25–D26
+accept explicit semantic matching; concrete checking mechanisms remain to be
+specified. Match requirements against
 capabilities under the selected configuration, using an explicit composition when direct
 matching fails. Do not demand the union of all possible operations from every
 engine. Compatibility can require several operations together, or one of several
@@ -216,7 +222,7 @@ alternative B separating scientific problem, plan and execution evidence.
 | B. Small composable capability descriptions plus explicit plan recipes | Reuses matching concepts across engines while keeping optional operations optional; composite adaptations and costs remain reviewable. | Requires careful descriptions and pre/postconditions; too many names can become an ontology or hidden universal interface. |
 | C. General typed operation graph with automatic planning/inference | Can discover compositions and validate complicated chains. | Significant semantic/solver infrastructure; may select scientifically questionable conversions and duplicate Praxis or workflow responsibilities. No demonstrated current need. |
 
-**Recommendation: B as conceptual direction**, with a small vocabulary grounded
+**Accepted conceptual choice: B (D25)**, with a small vocabulary grounded
 in these cases and manual explicit compositions initially. Retain A for genuinely
 specialized integration details. Revisit C only if concrete cases justify it;
 no registry schema, type system or general planning engine is proposed for
@@ -224,11 +230,11 @@ implementation. A universal interface containing every operation would mostly
 encode unsupported methods and is not required by B.
 
 The [expanded assessment](protein_peptide_design_engines.md#8-revised-p09-recommendation-and-next-approvals)
-retains B as a **pending** recommendation, with domain/deployment-specific support
+supports B, now **accepted conceptually**, with domain/deployment-specific support
 and non-transitive access through optional composite providers. Chaperone is not
 made mandatory, and a native model's operations are not automatically exposed by
 a workflow/service adapter. Those conceptual support/access principles are now
-accepted under D23–D24; B's detailed organization remains pending. No universal
+accepted under D23–D24; concrete contracts remain deferred. No universal
 interface follows from composability.
 
 ## 5. Matrix from public implementations
@@ -267,12 +273,10 @@ composition demand still stronger variable/derivative or probability semantics.
 Reusable policy does not mean identical cost, valid chemistry, neighborhood,
 sampling law or scientific evidential strength.
 
-## 6. Minimal principles proposed for approval
+## 6. Seven accepted conceptual principles
 
-Principles 1 and 4 have **conceptual approval under D21–D22**; the other
-refinements are further qualified by D23–D24's accepted domain/access principles.
-The minimum semantic obligations and detailed organization remain pending under
-P09; do not infer blanket approval of all seven. None is a software contract:
+**All seven principles are conceptually approved under D25**, within D15–D24's
+limits and D26's information obligation. None is a concrete software contract:
 
 1. Providers declare conditional operations and their evidence; strategies state
    requirements; plans select explicit compositions; executions record actual use.
@@ -293,8 +297,8 @@ P09; do not infer blanket approval of all seven. None is a software contract:
 The earlier phrase 'capabilities a plan must declare' is corrected: the plan
 declares **selected usage and composition**; available capabilities come from
 the providers and requirements from the strategy. The investigators now approve
-the responsibility separation and compatibility dimensions, without approving
-the organizational alternative, all refinements or a software contract.
+the organization and all seven principles; concrete interfaces, classes, schemas,
+registries and automatic composition mechanisms remain unapproved.
 
 ## 7. Ownership and what remains for Codex
 
@@ -320,8 +324,8 @@ choices explicitly deferred in P07 also remain open, rather than being silently
 delegated or decided here. No code or development issue is introduced.
 
 The domain-aware provider principle and optional composite access are now
-accepted. The following cases test the still-pending minimum meaning and matching
-alternatives. They are conceptual probes, not selected implementations or runs.
+accepted. The following cases support the now-accepted conceptual meaning and
+organization. They remain probes, not selected implementations or runs.
 
 ## 8. Three tests of minimum capability meaning
 
@@ -454,7 +458,7 @@ on completing a computational campaign.
 
 ## 9. Alternatives for expressing and checking the meaning
 
-These alternatives concern expression/checking within the preferred P09 direction;
+These alternatives explain expression/checking within the accepted P09 direction;
 they are not new names for the earlier A–C organizational alternatives.
 
 | Expression approach | Benefits | Limits exposed by the three cases |
@@ -463,12 +467,12 @@ they are not new names for the earlier A–C organizational alternatives.
 | Small evidence-linked semantic claims plus explicit strategy requirements and contextual checks | Shared meaning where justified, optional method-specific detail, explanations of satisfied/failed/unresolved requirements. Supports native delegated search and opaque procedures without a universal state API. | Needs careful scientific definitions and a policy for unknowns; a structured form must not pretend all empirical judgments are decidable. |
 | Formal pre/postcondition/domain calculus and automatic composition | Strong mechanical checks and potential discovery of long compositions. | Premature vocabulary/solver burden, uncertain scientific inference, and overlap with Praxis/execution systems. The cases do not justify a general planner. |
 
-**Pending recommendation:** the middle approach, with narrative evidence and
+**Accepted conceptual approach (D25–D26):** the middle approach, with narrative evidence and
 method-specific checks where formalization adds little. Retain simple manual
 composition. No file format, field list, class/interface, logic language, registry
 or automatic matching implementation is selected.
 
-A proposed matching explanation answers: which strategy requirement is addressed,
+A matching explanation should answer: which strategy requirement is addressed,
 by which resolved operation, under which assumptions, with which limits, and what
 is established or still unresolved across D22's three dimensions. A requirement
 can be satisfied by an explicit composition; identical operation names or shared
@@ -486,11 +490,16 @@ that change the search or scientific claim are not an implementation detail.
 
 ## 10. Next decision and implementation freedom
 
-**For investigator discussion:** should the minimum semantic obligation be
-defined by preserving the meaning of a claim and justifying a particular
-strategy's requirements, rather than completing the same universal metadata
-record for every resource? The table in section 2 is a proposed analysis, not
-approved mandatory fields. The three cases support this relevance-based approach.
+**Resolved conceptually:** preserve the meaning of a claim and justify the
+particular strategy's requirements without a universal mandatory metadata record.
+The section 2 examples do not require separate approval of each possible attribute.
+Concrete operation contracts, interfaces, schemas, registries and checks remain
+to be specified when a particular capability is prepared for implementation.
+
+The [bounded horizon review](future_horizons.md#9-bounded-extensibility-review-after-p09-approval)
+checks libraries, state panels and transformation products without reopening P09
+or adopting future features. The next major discussion is
+[P04 evaluation and selection](open_questions.md#p04-proposed-discussion-sequence).
 
 Next scientific/architectural choices include required molecular preservation,
 permitted approximations and attribution, exploratory-use rationale, treatment of
@@ -499,7 +508,7 @@ Reward versus independent assessment and scientific intent versus operational
 criteria remain distinct. Many functional families and joint target/family
 guidance remain central, without requiring PeptideMT-owned foundation models.
 
-After those obligations and capability-specific acceptance criteria are mature,
+After capability-specific obligations and acceptance criteria are mature,
 Codex can choose internal structures, dispatch, validation machinery, batching,
 cache mechanics and process wrappers within them. API/contracts and P07's explicit
 identity/chemistry/storage deferrals still require their own discussion; they are

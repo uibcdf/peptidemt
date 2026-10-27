@@ -213,13 +213,15 @@ an implementation sequence or selected demonstrator.
 ## 6. Implication for the next decision
 
 The [capability/composition analysis](capabilities_and_composition.md) now refines
-this recommendation under pending P09. Available operations belong to providers
+this recommendation under conceptually resolved P09. Available operations belong to providers
 through their adapters; strategies have requirements; plans select explicit
 compositions; execution records actual use. These owners and the three
 compatibility dimensions now have conceptual approval (D21–D22), not an approved
 capability contract or four additional stages. The [expanded engine review](protein_peptide_design_engines.md)
 adds general protein-design methods, composite procedures, domain-specific
-evidence and optional direct/Chaperone routes; P09's organization remains open.
+evidence and optional direct/Chaperone routes. D25–D26 now adopt small optional,
+evidence-linked capabilities and explicit compositions, including all seven
+principles. Concrete contracts remain deferred.
 
 **Recommendation, pending:** discuss capability-based strategy composition (P05),
 starting with complete proposals plus external evaluation/search, while preserving
@@ -235,8 +237,8 @@ The domain-aware provider principle and optional individual/composite access now
 have approval under D23–D24. The [minimum-semantics cases](capabilities_and_composition.md#8-three-tests-of-minimum-capability-meaning)
 distinguish delegated native reward search from externally controlled branching;
 only the latter inherently needs externally exposed state-control operations.
-Next discuss strategy-relative semantic obligations and matching alternatives.
-Select concrete engines and experiments
-later from that evidence. Sampling-time guidance and learned
+The semantic obligation and conceptual composition choice are now accepted.
+Return to [P04 evaluation and selection](open_questions.md#p04-proposed-discussion-sequence);
+select concrete engines and experiments later from that evidence. Sampling-time guidance and learned
 conditioning should remain alternatives that can outperform or complement a
 baseline, not mandatory stages or a definitive generative architecture.

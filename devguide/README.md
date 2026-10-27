@@ -30,17 +30,17 @@ specification. No scientific implementation or public API is defined.
     discussion and approval, implementation readiness and technical freedom.
 11. [Generative strategy comparison](generative_strategies.md): five approaches,
     mathematical limits, actual engine access, cost, diversity and training needs.
-12. [Capabilities and composition](capabilities_and_composition.md): accepted P09
-    owners, compatibility and domain/access principles; pending minimum semantics
-    tested with RFD4 rewards, Chaperone workflows and exploratory short-peptide use;
-    matching alternatives, original five-model matrix and implementation boundaries.
+12. [Capabilities and composition](capabilities_and_composition.md): conceptually
+    resolved P09, accepted seven principles and context-sensitive semantic meaning;
+    RFD4/Chaperone/short-peptide probes and deferred concrete contracts.
 13. [Protein and peptide design engines](protein_peptide_design_engines.md):
     expanded evidence matrices, Chaperone/RFD4 source review, short-peptide
-    benchmarks, optional integration routes and revised P09 recommendations.
+    benchmarks, optional integration routes and the evidence underlying P09.
 14. [Future scientific horizons — V0.2](future_horizons.md):
     long-term peptide engineering, combinatorial libraries, TCR–pMHC design,
     pharmacokinetics, proteolytic transformations, massive screening and
-    nontherapeutic applications, with architectural triage and S1–S12 stress tests.
+    nontherapeutic applications, with architectural triage, S1–S12 stress tests
+    and a bounded library/state/transformation review after P09 approval.
 
 ## Evidence and status
 
@@ -79,22 +79,28 @@ enum, API or definitive model is adopted.
 
 The [strategy comparison](generative_strategies.md) under P05 remains relevant;
 the investigators endorse potentially complementary strategies and simple
-comparison references. The current pending discussion is
-[P09's capability/composition organization](capabilities_and_composition.md).
+comparison references. [P09's capability/composition organization](capabilities_and_composition.md)
+is now **resolved conceptually**.
 Provider availability, strategy requirements, plan selection and actual use are
 accepted responsibilities (D21); operational/runtime/scientific compatibility are
 accepted dimensions (D22). D23–D24 accept origin-independent, domain-aware support
 and optional individual/composite access without inherited internal capabilities.
 No mandatory Chaperone dependency or obligation to implement both routes follows.
-The organizational alternative, minimum semantic obligations and concrete contracts
-remain pending. The [three semantic cases](capabilities_and_composition.md#8-three-tests-of-minimum-capability-meaning)
-test fundamental/contextual/optional information and matching alternatives using
-the [expanded engine evidence](protein_peptide_design_engines.md). No model,
-universal interface or mandatory execution stages are selected.
+D25–D26 adopt alternative B, all seven principles and sufficient fundamental/
+contextual/optional information for actual use. Unknown operations remain unknown;
+exploratory applicability cannot supply a missing operation. Concrete contracts,
+interfaces, schemas and implementation remain deferred. The [three semantic cases](capabilities_and_composition.md#8-three-tests-of-minimum-capability-meaning)
+and [expanded engine evidence](protein_peptide_design_engines.md) preserve the
+reasoning. No model, universal interface or mandatory execution stages are selected.
 
 The [future horizons](future_horizons.md) are strategic research opportunities,
 not accepted specifications, a revised implementation roadmap or new mandatory
 work before the first useful release.
+The [bounded review](future_horizons.md#9-bounded-extensibility-review-after-p09-approval)
+proposes only a collective-design distinction (P10); it does not adopt library,
+ensemble or reaction capabilities. Return next to [P04](open_questions.md#p04-proposed-discussion-sequence):
+evaluation meaning, constraints/evidence, tradeoffs, uncertainty, diversity and
+budgeted selection, progressively and without a selected universal policy.
 
 De novo generation and redesign remain equally in scope. No first experimental
 demonstrator has been chosen. Completion of a computational campaign does not

@@ -5,9 +5,10 @@ All questions remain open unless an explicit decision is recorded.
 
 Updated: 2026-10-26. Alternative B is accepted under D09–D13 and revised P07
 under D15–D16. P08 is accepted under D17–D20. The worked cases remain illustrative,
-with no selected demonstrator. D21–D24 accept P09's owners, compatibility
-dimensions and domain-aware optional individual/composite access. Minimum
-semantic obligations, organization and concrete contracts remain open.
+with no selected demonstrator. P09 is resolved conceptually under D21–D26,
+including alternative B and all seven principles; concrete contracts remain
+deferred. P04 is the next discussion block. The bounded horizon review adds only
+a pending collective-design distinction (P10), not new MVP obligations.
 
 ## Q1. Design intent and execution
 
@@ -93,10 +94,10 @@ optimization, sampling-time guidance, distribution composition and learned
 conditioning. Available operations belong to providers through adapters,
 requirements to strategies and selected use to plans. The
 [P09 alternatives](capabilities_and_composition.md) preserve that accepted separation
-and recommend small optional descriptions plus explicit compositions; the
-organization is pending and no software contract is accepted. Which representation/
-preservation semantics must be checked, and how should native versus adapter/
-composite support be stated?
+and now resolve the conceptual organization: small optional, evidence-linked
+capabilities plus explicit compositions. The seven principles and context-sensitive
+information obligation are accepted; concrete contracts will be specified for
+particular capabilities, without approving every possible attribute separately.
 A complete-sample interface supports filtering and some
 outer search, not automatically continuation, infill, density ratios or gradients.
 How should several compatible strategies compete or cooperate within one budget?
@@ -109,6 +110,51 @@ combinations, Pareto selection, or several together? How will correlated
 descriptors and overlapping training sets be detected? What preserves
 recognition when a family-driven optimizer edits a binder?
 
+### P04 proposed discussion sequence
+
+Status: **pending discussion agenda**, not adopted evaluation/selection policies.
+Return to the individual-peptide operational core; library, ensemble and
+transformation cases remain optional counterexamples rather than required features.
+
+1. **Evaluation meaning and decision context.** What is evaluated: which proposal,
+   chemical realization/view, target/state/context and property? Keep raw results,
+   units/score meaning, applicability, source and dependencies distinct from the
+   objective or reward using them. Identify whether a result guides search,
+   assesses a candidate or provides genuinely independent evidence.
+2. **Constraints and evidence sufficiency.** Separate the desired scientific
+   requirement, an exact check and a model-based operational criterion. What
+   happens when a required assessment is missing, fails or has doubtful scope?
+   Distinguish an observed violation, an unmet operational criterion and absence
+   of evidence without adopting a mandatory status enum or universal rejection.
+3. **Multiple objectives and tradeoffs.** Which objectives remain separate and
+   which comparisons are meaningful? Compare documented scalarization, Pareto,
+   lexicographic and other policies without selecting one universal optimizer.
+   Missing/uncertain entries and incomparable scales affect what can be ranked.
+4. **Uncertainty and robustness.** Distinguish prediction uncertainty where
+   available, model disagreement, applicability limits, experimental variation
+   and context/state variability. Determine what may influence decisions without
+   fabricating a common confidence scale or requiring calibrated probabilities.
+5. **Diversity and budgeted selection.** Define relevant sequence/chemical/
+   structural/function diversity and novelty, avoiding duplicate molecular
+   counting while preserving convergent provenance. Then discuss batch size,
+   cost, exploration and active-learning extensions. No universal distance,
+   acquisition rule or experimental loop is adopted now.
+
+These are discussion slices, not execution stages. Before choosing selection
+algorithms, use a small counterexample: candidate A has stronger predicted target
+recognition but lacks a relevant antitarget assessment; candidate B has weaker
+predicted recognition with more complete evidence. Neither is automatically the
+winner. Can a candidate advance to further evaluation while remaining ineligible
+for a claim that all scientific requirements are satisfied? Which requirements
+make a particular selection provisional, and what evidence would resolve it?
+
+**Suggested first discussion:** agree what information and scientific meaning
+evaluation results must preserve, and how feasibility differs from missing
+evidence. Only then discuss a policy for comparing candidates. D11/D18/D19/D26
+already rule out treating a proxy as activity, missing evidence as inactivity or
+reward improvement as independent validation; P04 must make their consequences
+useful for selection without reopening those principles.
+
 ## Q6. Guidance access and budgets
 
 The [expanded engine matrix](protein_peptide_design_engines.md) compares general
@@ -119,11 +165,11 @@ composite access and non-inheritance of internal capabilities. Concrete adapters
 and simultaneous implementation of both routes are not approved.
 
 The [three-case semantic analysis](capabilities_and_composition.md#8-three-tests-of-minimum-capability-meaning)
-asks which information is fundamental, contextual or optional for a particular
-strategy/use. Should we adopt meaning-preserving, evidence-linked claims plus
-explicit requirements, rather than a universal mandatory metadata record?
-When can unresolved information remain exploratory and when does it prevent
-justifying the required operation? What must a matching explanation retain?
+now supports D25–D26: meaning-preserving, evidence-linked claims and explicit
+requirements, with fundamental/contextual/optional information for actual use,
+not a universal metadata record. Unknown support is not established support.
+Operation-specific contracts/checks remain future specifications, rather than
+an unresolved conceptual choice for P09.
 Delegated native reward search can work without exported sampler states;
 external PeptideMT branching needs additional operations. Which exact intervention
 and molecular-view promises suffice for each, without a universal state API?
@@ -172,13 +218,15 @@ TCR–pMHC design, screening landscapes, molecular proximity, imaging/materials 
 other extensions. S9–S12 are additional semantic stress tests, **not** newly
 approved design objects or mandatory gates.
 
-Which two or three cases expose genuinely new **core semantic** requirements
-rather than deferrable specialist modules? Can P07 distinguish a precursor,
-modified derivative and transformation product? Can D09 express state-selective
-and negative-target objectives without treating structural confidence as mechanism?
-Can evaluations at varying cost, unknown applicability and later assay feedback
-be traced without adding a general workflow engine? Can an implicit combinatorial library be represented without enumerating its members?
-Can a multi-component TCR–peptide–MHC problem be distinguished from one pairwise
-binder? Can precursor/product transformations and dose/route-dependent exposure be
-expressed without turning them into universal core engines? None of the
-opportunities is automatically adopted or required for the first implementation.
+The [bounded three-scenario review](future_horizons.md#9-bounded-extensibility-review-after-p09-approval)
+finds a pending collective-versus-individual distinction (P10). State panels fit
+the accepted separation, with aggregation/claim limits for P04; precursor/products
+need distinct subjects and a future transformation relation, not a general reaction
+engine. These conclusions do not claim implemented support or adopt new architecture.
+
+When library design is prioritized, what separates an implicit member set, a
+sampling distribution, realized screening material and a computational batch?
+For future transformation capabilities, which participants/context/evidence are
+essential without requiring a kinetics model? Detailed schemas can wait. Immune,
+exposure, materials and other horizon-specific capabilities remain strategic
+opportunities, not compulsory checks before the first implementation.
