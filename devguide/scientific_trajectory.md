@@ -69,6 +69,16 @@ A particularly instructive **later case-guided scientific reference** is intrace
 
 **Critical limitation:** the selected AMP/Macrel/HydrAMP first increment does **not** implement CPP, ACP, MDM2/MDMX recognition or stapled-peptide physics. The target/CPP/anticancer example must not become an implicit W0 gate or a spurious V0.1 end-to-end claim.
 
+The [CPP-guided project pool](cpp_guided_projects.md) adds a **graded scientific
+ladder**: R8/R9 and penetratin for minimal sequence evaluation, TAT/dfTAT for
+cargo and endosomal escape, **p28–p53 as a lower-chemistry first anticancer
+target+CPP-like reference**, iRGD/pHLIP for conditional localization/delivery,
+and cyclic CPPs and ATSP-7041 for advanced chemistry. Different projects test
+different mechanisms, rather than treating one stapled anticancer peptide as
+representative of all CPPs. p28 targets **p53**, whereas ATSP-7041 targets
+**MDM2/MDMX**; neither a generic CPP score nor an ACP label validates either
+intracellular mechanism. All remain future case-study references.
+
 The target milestone may proceed in parallel with a future feedback increment when a route is qualified; it need not wait for every optimizer, chemical family or structural engine to be supported.
 
 ## 4. What would differentiate a strong PeptideMT product?
