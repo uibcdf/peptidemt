@@ -191,7 +191,7 @@ The ordering is illustrative, **not** a claim that literature reproducibility, s
 
 ## 6. Current boundary: do not change W0–W4, V0.1 or the scientific contract
 
-D33–D36 approved **AMP/hemolysis with Macrel first**, then a separately considered HydrAMP generative increment. W0 is still partially received at the 2026-10-27 pause; W1 is not started and M1–M8 have no live scientific evidence. This new CPP project pool **does not** authorize new models, datasets, installations, issues, development changes, target-directed work, experimental protocols or a broader V0.1 acceptance gate.
+D33–D36 approved **AMP/hemolysis with Macrel first**, then a separately considered HydrAMP generative increment. W0 engineering receiving is now centrally completed according to the current repository record; W1–W4 and M1–M8 remain separate scientific implementation/qualification gates, not results of this CPP inventory. This new CPP project pool **does not** authorize new models, datasets, installations, issues, development changes, target-directed work, experimental protocols or a broader V0.1 acceptance gate.
 
 Use the pool as a **scientific compass** and a candidate backlog of future **case-guided contracts**, not as automatic planned releases. An investigator must explicitly select a case and its supported operations before Codex implements it.
 
