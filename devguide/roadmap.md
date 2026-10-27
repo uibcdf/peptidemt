@@ -1,6 +1,7 @@
 # Preliminary roadmap
 
-Status: **proposal**, with no dates or implementation authorization.
+Status: **V0.1 direction accepted under D33; detailed implementation proposal**,
+with no delivery dates or implementation authorization.
 Navigation: [index](README.md) · [decisions](decisions.md).
 
 The tracks below are incremental capabilities, not a commitment to one
@@ -12,7 +13,7 @@ implementation plan or authorize work.
 
 | Stage | Candidate deliverable | Evidence to retain |
 | --- | --- | --- |
-| 0. Design | Test accepted problem/plan/evidence, proposal/realization, function/resource, capability/composition and requirement/check/evidence/selection semantics with cases; compare strategies without choosing an API. | D09–D32; P04/P09 conceptually closed, counterexamples, investigator decisions and preserved audit. |
+| 0. Design | Test accepted problem/plan/evidence, proposal/realization, function/resource, capability/composition and requirement/check/evidence/selection semantics with cases; compare strategies without choosing an API. | D09–D33; P04/P09 conceptually closed, V0.1 direction accepted, counterexamples, investigator decisions and preserved audit. |
 | 1. Common evaluation | Family/model bindings, proposal-to-candidate relations, evaluated views, hard constraints, provenance, selection and applicability. Accept supplied/generated and potentially incomplete proposals where evaluators support them. | Reproducible evaluation fixtures, determined/unknown chemistry, attribution limits, unsupported-input behavior and score meaning. |
 | 2. Baseline proposal adapters | At least one de novo route and one seed-based route conceptually using the same evaluation/selection layer. Implementation order remains open. | Exact engine/checkpoint/configuration; compared coverage and costs. |
 | 3. External optimization | Evolutionary, Bayesian or other black-box search over proposals; preserve edit constraints, diversity and objective vectors. | Matched-budget comparison with generate-and-filter; failures and discarded candidates. |
@@ -31,8 +32,9 @@ outcomes only.
 A target-aware generator plus a family filter is the initial comparison baseline,
 not an adopted first implementation. Compare family-first proposals plus
 target optimization, target-first proposals plus family optimization, and guided
-proposals when supported. Do not compare methods under unmatched budgets or with
-the same predictor as both search reward and sole validation oracle.
+proposals when supported. Disclose budget mismatches and do not present the
+search-reward predictor as independent validation. Independent evidence may be
+unavailable; report that limitation rather than make a second predictor compulsory.
 
 Use held-out predictors with different data where possible, temporal/clustered
 splits and matched-length/composition controls. Experiments are a subsequent
@@ -52,9 +54,9 @@ roadmap does not authorize programming.
 
 P09's conceptual organization and seven principles are accepted under D25–D26;
 operation-specific contracts/interfaces remain future work. The bounded V0.2
-review introduces no new implementation stage or MVP requirement. P04 is the
-[current discussion block](open_questions.md#p04-proposed-discussion-sequence),
-now examined in [evaluation_and_selection.md](evaluation_and_selection.md),
+review introduces no new implementation stage or MVP requirement. P04 is now
+[closed conceptually](open_questions.md#p04-proposed-discussion-sequence),
+with its reasoning preserved in [evaluation_and_selection.md](evaluation_and_selection.md),
 with evaluation meaning and requirement/check/evidence separation accepted before
 selecting multiobjective or diversity policies. The library distinction P10 stays pending.
 
@@ -77,19 +79,27 @@ diversity and budget; **C1–C5 and conceptual P04 closure are accepted under D3
 Concrete capability policies/contracts remain to be specified. This adds no
 implementation stage, fixed contract or new MVP requirement.
 
-The current milestone is to define **PeptideMT V0.1**: select a small
-useful capability set and supported scientific/chemical scope, then agree minimum
-contracts, representative positive/negative/incomplete/conflicting cases and
-acceptance criteria under D14. This is the proposed scope-setting task, not an
-adopted capability inventory, definitive model, first demonstrator or release date.
-Algorithm choices can be bounded by those capabilities without implementing every
-reviewed alternative. Future horizons and P10 add no V0.1 obligation.
+## Accepted V0.1 direction and next target milestone
 
-The specific [V0.1 comparison](v0_1_alternatives.md) now recommends A as the
-evaluation/selection slice inside a useful B sequence-generation/functional-knowledge
-scope, with C structural integration later if selected. Its native-resource review,
-minimum contracts and acceptance cases are pending recommendations. No mandatory
-model, chemistry envelope, first demonstrator or implementation order is adopted.
+D33 adopts **B with A as the first internal increment**. The
+[scope proposal](v0_1_scope.md) makes the bounded sequence concrete:
+
+| Milestone | Status and intended outcome |
+| --- | --- |
+| Increment 1 | Accepted internal direction: supplied proposals, a real functional evaluator, original evaluations/failures and explicit reproducible selection. Contracts/resource choice remain pending. |
+| Increment 2 | Accepted minimum useful V0.1: a concrete real generation/redesign route plus functional assessment and selection. Mock-only demonstrations and increment 1 alone are insufficient. |
+| Increment 3 | Priority genuine functional feedback affecting later proposals/actions; exact inclusion in V0.1 depends on actual generator viability. Postfiltering is not feedback. |
+| Target-directed milestone after the functional core | Explicit priority: qualify one permitted target-conditioned route and qualified functional assessment, preserving target context and distinct conditioning/compatibility/recognition meanings. It can proceed alongside increment 3; it is not deferred behind all feedback or broad-family expansion. |
+| Structural C and broader strategies | Deferred selectable capabilities, not rejected; no universal structural backend or future-horizon prerequisite. |
+
+Macrel and a bounded HydrAMP route are proposed qualification candidates, not
+selected engines; AMP/hemolysis is proposed coverage, not an adopted demonstrator.
+The target milestone must resolve an actual route, assets/terms and supported
+domain; PepMLM is not an unrestricted mandatory dependency. Initial chemistry,
+policies/budgets, environments, concrete interfaces and acceptance fixtures still
+require review. P10 and future horizons add no V0.1 obligation. The earlier broad
+tracks are possible growth, not requirements to implement both proposal types or
+all optimizers for V0.1.
 
 Before Python implementation, agree formal admission to MolSysSuite and use
 its official registered-component starter. Pin model/license/weight provenance

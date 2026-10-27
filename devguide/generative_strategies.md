@@ -2,7 +2,11 @@
 
 Status: **comparative scientific analysis and pending recommendations**,
 2026-10-26. P08's concept/resource separation and qualified indirect guidance
-are accepted under D17–D20; no generative strategy or implementation is selected.
+are accepted under D17–D20; P08 selected no specific engine or algorithm.
+Subsequently D33 accepts B's sequence-generation direction, A as its first
+increment and genuine feedback as a priority conditional extension. The
+[bounded V0.1 proposal](v0_1_scope.md) identifies concrete operations and controls;
+no specific engine or feedback algorithm is adopted.
 Navigation: [index](README.md) · [families](functional_families.md) ·
 [literature](literature.md) · [decisions](decisions.md).
 
@@ -262,7 +266,7 @@ solution. An unavailable check cannot provide verified enforcement. D31 now acce
 that conceptual restriction reasoning; concrete policies remain pending. The
 [bounded integrated synthesis](uncertainty_diversity_budget.md) examines uncertainty,
 diversity, budget and reward exploitation; C1–C5 and conceptual P04 closure are
-now accepted under D32. The current [V0.1 comparison](v0_1_alternatives.md) bounds
-real proposal and functional-evaluation routes, distinguishing postselection from
-feedback that changes later exploration. No generator, algorithm or demonstrator
-is selected by the recommended A-inside-B increment.
+now accepted under D32. D33 adopts B with A as the first internal increment.
+The [bounded V0.1 proposal](v0_1_scope.md) distinguishes postselection from genuine
+feedback and defines an explicit target-directed milestone after the functional
+core. Engines, algorithms, chemistry and first demonstrator remain pending.

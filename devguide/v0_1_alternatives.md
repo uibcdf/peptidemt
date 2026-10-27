@@ -1,10 +1,12 @@
 # PeptideMT V0.1: useful capabilities and verifiable contracts
 
-Status: **specific alternatives and recommendation, pending investigator approval**,
-2026-10-26. P04 is conceptually closed under D32, including C1–C5 on the basis of
-D27–D31. Its concrete contracts and policies remain capability-specific. This
-document does not select a definitive version, mandatory model, chemistry envelope,
-first demonstrator, public API or implementation. No code or issues are authorized.
+Status: **comparison preserved; B is now accepted conceptually under D33**,
+2026-10-26, with A as its first internal increment and C deferred. The
+[bounded scope proposal](v0_1_scope.md) carries the subsequent feasibility review,
+minimum useful increment 2, priority feedback extension and target milestone.
+P04 is conceptually closed under D32, including C1–C5. Concrete contracts/policies,
+engines, chemistry, first demonstrator and interfaces remain pending. No code or
+issues are authorized; the original comparison below is retained as reasoning.
 
 Navigation: [index](README.md) · [decisions](decisions.md)
 · [accepted P04 synthesis](uncertainty_diversity_budget.md)
@@ -149,12 +151,13 @@ CPP/ACP/target design merely by adding a family label. Each needs an actual
 access-route, checkpoint, environment and chemical-domain contract. Optional
 assets retain their own terms. No Chaperone dependency or dual adapter route is required.
 
-**Execution actually checked in this task:** a read-only check of the selected
+**Execution checked in the preceding alternatives review:** a read-only check of the selected
 shell interpreter found Python 3.12.8 on Linux x86_64; torch, TensorFlow,
 Transformers, MolSysMT and Macrel were not discoverable there. The NVIDIA inventory
 command failed to communicate with the driver. This does not prove absence of
-physical GPUs or packages in other environments. It does not qualify CPU or GPU
-model execution. No generator/evaluator was installed, invoked or benchmarked;
+physical GPUs or packages in other environments. This is not a laboratory hardware
+or environment audit. It does not qualify CPU or GPU model execution.
+No generator/evaluator was installed, invoked or benchmarked;
 no weights were downloaded. Local driver availability and an external/isolated
 worker are alternative deployment questions, not settled infrastructure choices.
 
@@ -317,9 +320,9 @@ implemented components cannot be treated as ready affinity oracles. Praxis/Recor
 integration can preserve methodology/observable calls within their audited scope;
 no Nextia/agent runtime or general orchestration layer is a V0.1 prerequisite.
 
-## 8. Recommendation and the next bounded decision
+## 8. Original recommendation and subsequent disposition
 
-**Recommendation, not adopted:** choose B as the target useful V0.1 scope, using A
+**Original recommendation, subsequently accepted in direction under D33:** choose B as the target useful V0.1 scope, using A
 as its first internal implementation slice rather than its only scientific product.
 Qualify one learned sequence generator and one functional resource, a small supported
 domain, one reproducible selection route and an actual end-to-end case. Consider
@@ -335,10 +338,11 @@ to demonstrate useful family knowledge. No combination here is selected or local
 qualified; if a candidate fails qualification, return a concrete alternative rather
 than silently substitute it or announce that A alone fulfilled B.
 
-Recommended decision sequence: (1) approve A/B/C or the bounded A-inside-B scope;
-(2) choose the initial scientific domain/family subset and whether target conditioning
-and/or recognition assessment are required in that increment; (3) select permitted,
-executable provider assets/access routes; (4) approve the resulting minimum contracts,
-cases and acceptance evidence, then the implementation order and admission work.
-Native qualification can inform those choices; it has not been performed in this task.
-No new broad conceptual review is needed to make that small set of decisions.
+**Disposition:** the investigators approved B with A as the first internal
+increment, increment 2 as the minimum useful product, genuine feedback as a
+priority conditional extension and target-directed capability as a priority after
+the functional core. Initial target-free work is allowed; recognition and advanced
+structural generation are not initial requirements. No model or chemistry was
+selected. The [concrete scope proposal](v0_1_scope.md) now defines the bounded
+resource/domain/contract decisions still needed before development. Native runtime
+qualification remains unperformed; no new broad conceptual review is required.

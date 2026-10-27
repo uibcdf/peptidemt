@@ -4,6 +4,9 @@ Status: **literature observations and P08 alternative 2 accepted conceptually**,
 2026-10-26 (D17–D20). Family/model independence and P07 attribution remain in
 force. The alternative comparison preserves reasoning; detailed field sketches
 are not approved schemas, APIs, a formal ontology or implementation claims.
+For the first implementation scope, the [V0.1 proposal](v0_1_scope.md) considers
+AMP/hemolysis and qualified Macrel/HydrAMP resources. These are pending choices,
+not adopted family definitions or mandatory models under the accepted B direction.
 
 Navigation: [index](README.md) · [learned functional spaces](literature.md) · [scope](vision_scope.md) · [open questions](open_questions.md).
 

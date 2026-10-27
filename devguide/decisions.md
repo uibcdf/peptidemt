@@ -17,9 +17,12 @@ uncheckable requirements and contextual Pareto results with seven qualifications
 **P04 is now closed conceptually under D32**, accepting C1–C5 on the basis of
 D27–D31. Concrete capability contracts/interfaces remain pending; no universal
 algorithm, fitness, uncertainty scale or diversity metric is adopted. General
-conceptual design now gives way to [V0.1 alternatives](v0_1_alternatives.md):
-A, B, C and an incremental A-inside-B recommendation, all pending selection.
-No definitive model, demonstrator, release scope or implementation is approved.
+conceptual design now gives way to [V0.1 scope](v0_1_scope.md): **B is accepted
+under D33**, with A as its first internal increment, real generation/redesign as
+the minimum useful increment and feedback as a priority conditional extension.
+Target-directed capability follows the first functional core as an explicit
+priority; C remains a later option. Concrete engines, chemistry, interfaces,
+first demonstrator and implementation authorization remain pending.
 
 ## Accepted working directions
 
@@ -72,6 +75,7 @@ D32 closes that conceptual question without retroactively changing those decisio
 | D30 | Preserve original objectives and evaluations, and permit different optimization, exploration and selection policies on the same scientific problem. Distinguish generation/exploration, evaluated results/tradeoffs and selection for a concrete purpose. | Explicit investigator approval. Scalar search may coexist with nondominated results and a different subsequent selector, without redefining scientific intent. No universal algorithm, fitness or mandatory Pareto archive. Nondominance is derived relative to objectives, evaluators, contexts, comparable candidate subset and evidence snapshot, not an absolute scientific property. Preserve original evaluations, actually explored/observable sets, qualified derived fronts and action-specific selections distinctly; no fabricated scores for incomplete/incompatible/pending results. Compensatory exploration does not authorize compensation against every scientific restriction. Treatment of restrictions, uncertainty, diversity and budgeted policies remains open under P04. No API, classes or persistence schema approved. |
 | D31 | Accept the proposed conceptual treatment of scoped restrictions, provisional exploration, uncheckable requirements and contextual Pareto results, with all seven investigator qualifications. | Scope belongs to problem/procedure/action, not a permanent candidate classification. Required conditions within an operation cannot be compensated by reward. Solution-acceptance requirements may differ explicitly and justifiably from exploratory criteria. Provisional relaxations need authorization and scope without silently changing science. Guarantees require actual operations/evaluators; checking final candidates does not establish all internal states' compliance. Empty selections, failed evaluations and inability to establish a requirement can be valid reported outcomes, without making failures successful predictions. Fronts are relative derived results retaining original evaluations and comparison provenance. No universal restriction policy, fitness, algorithm or implementation interface; P04 remains open. |
 | D32 | Adopt all five C1–C5 principles and close P04 conceptually on the basis of D27–D31 and the agreed qualifications. | Explicit investigator approval. Preserve specific uncertainty meanings/dependencies without a universal confidence scale or unjustified aggregation; optional purpose/view-relative diversity; distinct score/diversity/uncertainty/decision-impact acquisition grounds; honest estimated/observed cost, failures, reuse and observability; reward optimization distinct from activity evidence with model bias/limitations retained. No particular algorithm, universal uncertainty policy, diversity metric, probabilistic model or general decision system. Concrete contracts/interfaces are specified for the selected capabilities. V0.1 capability/model/demonstrator selection and implementation remain unapproved. |
+| D33 | Adopt B as PeptideMT V0.1's conceptual direction, using A as the first internal increment. A real generation/redesign route, real qualified functional evaluation and reproducible selection constitute the minimum useful second increment; simulated-only demonstrations do not suffice. | Explicit investigator approval. Retain supplied-proposal evaluation, all evaluations/failures and explicit policies. Functional feedback that changes later proposals/parents/edits/allocation is a priority third increment, with exact inclusion conditional on actual generator viability; postfiltering alone is not feedback. Joint target/family design stays central; initial target-free work is allowed without requiring recognition assessment or structural generation. Target-directed capability is an explicit priority after the first functional core. C is deferred, not rejected. Preserve target context/actual conditioning and distinguish conditioning, compatibility and independent recognition. No engine, initial family subset, chemistry, API, deployment or implementation is approved. Review applicable resource terms, particularly PepMLM's additional access commitments; Work-shell checks are not laboratory audits. |
 
 The [four worked examples](design_examples.md) are conceptual stress tests and
 conceptual analysis, not selected demonstrators or executed campaigns. Their
@@ -88,10 +92,11 @@ the semantic responsibilities adopted through P07 are recorded under D15–D16.
 | P06 | Formal suite admission and official Python starter generation. | Agree the central process; no issue or sibling-registry change is authorized by this initial documentation publication. |
 | P10 | Distinguish collective/distributional library proposals from individual molecular proposals, including incomplete individuals. | Pending bounded recommendation from [V0.2 case A](future_horizons.md#9-bounded-extensibility-review-after-p09-approval). No library support, generic population hierarchy or MVP requirement adopted; concrete semantics can wait until such a capability is prioritized. |
 
-The current scope decision is [PeptideMT V0.1](v0_1_alternatives.md), not another
-general architectural round. Its A/B/C alternatives, proposed bounded contracts
-and implementation slices remain recommendations. P02/P03/P05/P06 need only the
-selected capability-specific portions; P10 and future horizons add no requirement.
+The [V0.1 direction is accepted under D33](v0_1_scope.md), not another general
+architectural round. Resource/domain selection, proposed bounded contracts,
+qualification, feedback inclusion and concrete interfaces remain pending.
+P02/P03/P05/P06 need only the selected capability-specific portions; P10 and future
+horizons add no requirement. Earlier unapproved A/B/C records below are history.
 
 ### Proposal disposition
 
@@ -170,8 +175,9 @@ whole proposed contract table. The [bounded synthesis](uncertainty_diversity_bud
 proposed five additional principles and closure; both are now explicitly accepted
 under D32. C1–C5 retain their labels as subordinate principles, not five new decision
 IDs. P04 is not left open because concrete interfaces or algorithms remain unwritten.
-Those choices belong to later capability specifications, starting with the proposed
-V0.1 scope. No optimizer, numerical policy, interface or implementation is adopted.
+Those choices belong to capability specifications, now narrowed to the V0.1
+direction accepted under D33. No optimizer, numerical policy, interface or
+implementation is adopted.
 No later policy can retroactively convert a missing assessment into established
 compliance or selection into validated activity.
 
@@ -530,6 +536,30 @@ No scientific model was installed or run, no benchmark reproduced, no scientific
 code implemented and no issue created. Documentation checks do not establish
 runtime or biological validation. General conceptual design moves to bounded
 V0.1 capability selection and specifications under D14.
+
+## V0.1 B approval and bounded implementation proposal — 2026-10-26
+
+Recorded the investigators' approval as D33, including A as increment 1, real
+generation/redesign plus functional assessment as the minimum useful increment 2,
+and genuine feedback as a priority conditional increment 3. C is deferred; joint
+target/family design remains central with an explicit target-directed milestone
+after the first functional core. No engine, chemistry, API or implementation is
+adopted. Preserved the earlier alternatives/recommendation as dated reasoning.
+
+Added [v0_1_scope.md](v0_1_scope.md): bounded candidate feasibility, proposed AMP/
+hemolysis coverage, increment contracts, failure/acceptance behavior, controls,
+shared-data/bias limitations, owner boundaries and the remaining approval sequence.
+Macrel and a bounded HydrAMP route are candidates to qualify, not selected models.
+Rechecked the existing source pins and official PepMLM model-card conditions;
+inspected HydrAMP's native/starter quota loops and finite-batch alternative,
+starter training provenance, and Macrel's training/export source. Exact cross-model
+training overlap is unknown, not inferred from Macrel's internal overlap comment.
+No new field-wide survey or laboratory hardware audit was undertaken.
+
+Updated navigation, current statuses, roadmap and open questions. This is source/
+metadata/documentation work only: no provider installation/execution, checkpoint
+download, access agreement, scientific implementation, issue or runtime qualification.
+The proposed acceptance tests are future work; documentation checks cannot pass them.
 
 ## Change protocol
 

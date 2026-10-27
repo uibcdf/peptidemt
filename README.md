@@ -77,12 +77,15 @@ D31 now accepts scoped restrictions, authorized provisional exploration,
 uncheckable requirements and contextual fronts with seven qualifications. The
 [bounded uncertainty/diversity/budget synthesis](devguide/uncertainty_diversity_budget.md)
 records **C1–C5 accepted and P04 closed conceptually under D32**. Capability-specific
-contracts/interfaces remain pending. The current [V0.1 comparison](devguide/v0_1_alternatives.md)
-examines external-proposal assessment (A), real sequence generation/redesign with
-functional knowledge (B), and structural generation (C). It recommends A as an
-internal slice of B, without selecting a definitive scope, mandatory model,
-chemistry envelope or first demonstrator. The work now moves to small implementable
-scientific capabilities and acceptance criteria; no implementation is authorized here.
+contracts/interfaces remain pending. D33 now accepts **B as the V0.1 direction**:
+A external-proposal assessment is increment 1; real sequence generation/redesign
+with functional evaluation and reproducible selection is the minimum useful
+increment 2. Genuine feedback is a priority extension subject to viability; C
+structural integration is deferred. The [bounded scope proposal](devguide/v0_1_scope.md)
+reviews Macrel/HydrAMP/PepMLM feasibility, controls, contracts and acceptance cases.
+Target-directed capability is an explicit priority after the first functional core.
+Engines, initial families/chemistry, interfaces and first demonstrator remain
+pending; no implementation is authorized here.
 The [expanded engine review](devguide/protein_peptide_design_engines.md)
 examines general protein/peptide engines, Chaperone and RFD4, their evidence and
 optional integration routes. No definitive generator, mandatory backend or API

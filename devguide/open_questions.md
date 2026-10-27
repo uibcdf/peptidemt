@@ -14,8 +14,11 @@ separate exploration, preserved results/tradeoffs and purpose-specific selection
 on one problem, without a universal optimizer or mandatory Pareto archive.
 D31 accepts scoped restrictions, provisional exploration, uncheckable requirements
 and contextual fronts. D32 accepts all C1–C5 principles and closes P04 conceptually.
-The current decision is the [V0.1 scope](v0_1_alternatives.md); no capability set,
-model, first demonstrator, interface or implementation is selected.
+D33 accepts B as the [V0.1 direction](v0_1_scope.md), with A as increment 1,
+real functional generation as the minimum useful increment 2, priority conditional
+feedback and a target-directed milestone after the functional core. Models,
+initial chemistry/families, concrete contracts/interfaces, first demonstrator and
+implementation authorization remain pending.
 The bounded horizon review adds only
 a pending collective-design distinction (P10), not new MVP obligations.
 
@@ -138,14 +141,17 @@ documents and dated decision history. No universal policy, confidence scale,
 probabilistic model, metric or selector is adopted. Actual capability contracts
 still need supported inputs, scientific meanings and failure/acceptance behavior.
 
-**Current next decision: PeptideMT V0.1 scope.** Compare the
-[A/B/C alternatives](v0_1_alternatives.md) and the recommended A-inside-B increment.
-Select a small useful capability set with actual generation/redesign and functional
-knowledge; decide initial chemistry/families and whether target conditioning and/or
-recognition assessment are required. Then qualify provider assets/access routes
-and agree minimum contracts, cases and acceptance criteria before implementation.
-The recommendation is pending, not a selected model, first demonstrator or API.
-Only bounded V0.1 portions of P02/P03/P05/P06 need resolution; P10/horizons add none.
+**Current next decision: the small V0.1 scientific coverage and qualification
+target.** B is accepted under D33; do not repeat the A/B/C scope choice. The
+[concrete proposal](v0_1_scope.md) recommends assessing AMP/hemolysis coverage,
+Macrel first and a bounded HydrAMP route next, subject to assets/terms/runtime and
+domain qualification. Agree supported chemistry/lengths, policy/failure behavior,
+controls, budgets and acceptance cases before implementation. Feedback inclusion
+depends on the real proposal operation; target-directed capability is the priority
+after the functional core without requiring initial recognition or structural
+generation. These resources/domains/contracts are pending, not selected models,
+first demonstrator or API. Only bounded V0.1 portions of P02/P03/P05/P06 need
+resolution; P10/horizons add none.
 
 ## Q6. Guidance access and budgets
 

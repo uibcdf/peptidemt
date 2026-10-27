@@ -6,8 +6,10 @@ Navigation: [index](README.md) · [decisions](decisions.md) · [questions](open_
 ## Current phase and responsibilities
 
 The general conceptual-design phase has reached P04/P09 closure. The current
-task is to define a small implementable PeptideMT V0.1 capability set, minimum
-scientific contracts, cases and acceptance criteria; avoid reopening broad
+task is to specify the small capabilities accepted in direction under D33:
+B, with A first and real generation/redesign as the minimum useful increment.
+The [bounded proposal](v0_1_scope.md) leaves resource/domain selection and minimum
+scientific contracts, cases and acceptance criteria to review; avoid reopening broad
 architecture without a concrete contradiction. No implementation is authorized
 yet. Scientific utility, extensibility and MolSysSuite interoperability guide
 choices; an elegant implementation alone is insufficient evidence.

@@ -57,7 +57,11 @@ specification. No scientific implementation or public API is defined.
 18. [PeptideMT V0.1 alternatives and minimum contracts](v0_1_alternatives.md):
     A/B/C compared, actual candidate resources/terms/environment evidence, proposed
     capability contracts, acceptance cases and bounded P02/P03/P05/P06 decisions.
-    A-inside-B is recommended, not selected; no mandatory model or demonstrator.
+    B with A as its first increment is now accepted under D33; no model selected.
+19. [V0.1 bounded scope and implementation proposal](v0_1_scope.md): accepted
+    increments versus pending resource/domain choices; targeted feasibility,
+    generation/selection/feedback controls, shared-bias limits, failure contracts,
+    acceptance cases, ownership and the priority target-directed milestone.
 
 ## Evidence and status
 
@@ -142,13 +146,16 @@ diversity metric, probabilistic model or general decision system is adopted.
 Concrete contracts are specified for the capabilities selected next rather than
 reopening the general architectural block.
 
-The current task is [PeptideMT V0.1](v0_1_alternatives.md): a small scientifically
-useful capability set with real generation/redesign and functional knowledge,
-evaluations, selection and reproducible evidence. The comparison recommends B
-with A as its first internal slice and C as a later selectable capability, all
-pending approval. Target/family-directed design stays central; target conditioning
-does not itself establish recognition. Models, chemistry, first demonstrator and
-contracts remain to select. No code, issues or future-horizon scope expansion.
+The current task is the [bounded PeptideMT V0.1 proposal](v0_1_scope.md).
+**D33 accepts B with A as its first internal increment**. Real generation/redesign,
+functional evaluation and reproducible selection constitute the minimum useful
+increment 2; genuine feedback is a priority extension conditional on viability.
+C structural integration is deferred. Target/family-directed design stays central,
+with an explicit priority target milestone after the functional core; target
+conditioning does not itself establish recognition. Macrel and HydrAMP are
+candidates to qualify, not adopted models. Initial families/chemistry, interfaces,
+first demonstrator and concrete contracts remain to approve. No code, issues or
+future-horizon scope expansion.
 
 De novo generation and redesign remain equally in scope. No first experimental
 demonstrator has been chosen. Completion of a computational campaign does not

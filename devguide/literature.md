@@ -338,3 +338,14 @@ native filtering/rounding, resource terms and actual local environment limitatio
 This is bounded source/metadata inspection; no scientific provider was installed
 or run, no checkpoint downloaded and no V0.1 model selected. The prior structural
 and ecosystem snapshots are preserved.
+
+After B's approval under D33, the [bounded scope proposal](v0_1_scope.md) examines
+native HydrAMP sampling/analogue operations and quota loops, the official starter's
+training provenance, Macrel's training/export path and PepMLM's conflicting MIT
+metadata/additional access commitments. It proposes Macrel and bounded HydrAMP
+qualification, not model adoption. Native filtering, shared-data/physicochemical
+bias and unknown cross-resource training overlap limit interpretation of score
+gains. Controls distinguish generation, selection and actual feedback; neither
+a second model nor procedural controls establish experimental validation.
+This adds source evidence and a narrower implementation proposal, not a new
+field-wide survey or successful runtime qualification.
