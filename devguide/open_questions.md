@@ -5,9 +5,9 @@ All questions remain open unless an explicit decision is recorded.
 
 Updated: 2026-10-26. Alternative B is accepted under D09–D13 and revised P07
 under D15–D16. P08 is accepted under D17–D20. The worked cases remain illustrative,
-with no selected demonstrator. D21–D22 accept P09's responsibility owners and
-three compatibility dimensions; organization, domain semantics and composite
-access remain under discussion after the expanded engine review.
+with no selected demonstrator. D21–D24 accept P09's owners, compatibility
+dimensions and domain-aware optional individual/composite access. Minimum
+semantic obligations, organization and concrete contracts remain open.
 
 ## Q1. Design intent and execution
 
@@ -113,12 +113,20 @@ recognition when a family-driven optimizer edits a binder?
 
 The [expanded engine matrix](protein_peptide_design_engines.md) compares general
 protein and specialized peptide engines, with separate documented/source/runtime/
-benchmark/adaptation/unknown evidence. Should we adopt the proposed principle of
-architecture/origin independence with domain/capability/evidence awareness?
-Which minimum task/chemistry/access-route meaning must a capability claim retain?
-Can direct engines and optional composite procedures coexist without inferring
-access to their internal components? Chaperone, native RFD4 and hosted NIM expose
-different controls. Hybrid availability is recommended, not adopted.
+benchmark/adaptation/unknown evidence. D23–D24 now adopt architecture/origin
+independence with domain/capability/evidence awareness, optional individual/
+composite access and non-inheritance of internal capabilities. Concrete adapters
+and simultaneous implementation of both routes are not approved.
+
+The [three-case semantic analysis](capabilities_and_composition.md#8-three-tests-of-minimum-capability-meaning)
+asks which information is fundamental, contextual or optional for a particular
+strategy/use. Should we adopt meaning-preserving, evidence-linked claims plus
+explicit requirements, rather than a universal mandatory metadata record?
+When can unresolved information remain exploratory and when does it prevent
+justifying the required operation? What must a matching explanation retain?
+Delegated native reward search can work without exported sampler states;
+external PeptideMT branching needs additional operations. Which exact intervention
+and molecular-view promises suffice for each, without a universal state API?
 
 For RFD4 specifically, what evidence qualifies short/cyclic/modified peptide use
 for the current matched checkpoint pair? Can an adapted family metric preserve

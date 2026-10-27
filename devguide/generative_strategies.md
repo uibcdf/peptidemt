@@ -231,8 +231,12 @@ This identifies the least access needed for reuse without making all generators
 implement universal hooks. Separate capability presence from empirical scientific
 qualification; preserve model/environment boundaries and MolSysMT ownership.
 
-Next discuss the proposed domain-aware provider principle and matching semantics
-for individual/composite/service routes. Select concrete engines and experiments
+The domain-aware provider principle and optional individual/composite access now
+have approval under D23–D24. The [minimum-semantics cases](capabilities_and_composition.md#8-three-tests-of-minimum-capability-meaning)
+distinguish delegated native reward search from externally controlled branching;
+only the latter inherently needs externally exposed state-control operations.
+Next discuss strategy-relative semantic obligations and matching alternatives.
+Select concrete engines and experiments
 later from that evidence. Sampling-time guidance and learned
 conditioning should remain alternatives that can outperform or complement a
 baseline, not mandatory stages or a definitive generative architecture.

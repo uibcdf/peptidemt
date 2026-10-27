@@ -1,9 +1,10 @@
 # Protein and peptide design engines: evidence and composition
 
-Status: **source/literature review and pending P09 recommendations**, 2026-10-26.
-The four responsibility owners and three compatibility dimensions are accepted
-under D21–D22. P09's organizational alternative B, its concrete contracts and the
-additional principles below remain pending. No engine is selected or executed.
+Status: **source/literature review, accepted domain/access principles and pending
+P09 organization**, 2026-10-26. D21–D24 accept responsibility owners, compatibility
+dimensions and origin-independent, domain-aware optional individual/composite
+access. P09's organizational alternative B, minimum semantics and concrete
+contracts remain pending. No engine is selected or executed.
 
 Navigation: [index](README.md) · [capabilities](capabilities_and_composition.md)
 · [strategies](generative_strategies.md) · [families](functional_families.md)
@@ -15,8 +16,8 @@ A model's original description as a protein or peptide generator is a poor
 admission boundary. Actual operation, chemistry, conditioning, exposed access
 and evidence matter. Accepting a 15-residue input is different from designing
 useful 15-residue binders. Conversely, general protein engines already provide
-relevant short-peptide results. This motivates a **proposed**, domain-aware
-extension of P09, not a blanket endorsement of every engine.
+relevant short-peptide results. This motivates the domain-aware principle now
+accepted under D23, not a blanket endorsement of every engine.
 
 The matrix uses six separate evidence questions, not an ordinal confidence scale:
 
@@ -344,7 +345,8 @@ exposure check; shared weights do not prove identical search interfaces.
 
 ## 5. Direct adapters, Chaperone or both?
 
-These are integration alternatives, not selected implementations:
+These are integration alternatives, not selected implementations. D24 now accepts
+conceptual availability of individual/composite routes without requiring both.
 
 | Route | Advantages | Costs and limits |
 | --- | --- | --- |
@@ -352,8 +354,9 @@ These are integration alternatives, not selected implementations:
 | Optional Chaperone adapter | Reuse existing block composition, containers, submission and result tables; import complete pipelines without rebuilding them. | Adapter sees only exposed block/workflow controls; host dependencies and schema translation; no inherited internal access or scientific qualification. |
 | Hybrid | Complete workflows and specialized direct interventions can coexist; choose by required access and environment. | Prevent duplicate scheduling, hidden defaults and double counting; identify actual models across both routes. |
 
-**Pending recommendation: hybrid availability**, without implementing both routes
-immediately or making Chaperone mandatory. It remains reasonable for an initial
+**Accepted conceptual optionality (D24), implementation still open:** direct and
+composite routes may coexist without implementing both or making Chaperone
+mandatory. It remains reasonable for an initial
 bounded adapter to use only one route. Preserve native workflow settings/results;
 do not decompose BindCraft, PepTune or a Chaperone pipeline merely to fit a common
 set of classes. Conversely, a composite may expose optional internal operations
@@ -446,7 +449,8 @@ including rejected samples, rollouts, oracles and unavailable telemetry.
 
 **Alternative B remains the preferred pending organization:** small capability
 descriptions plus explicit compositions, with specialized integrations where
-needed. The review adds four qualifications:
+needed. The following domain/access qualifications now have conceptual approval
+under D23–D24; their concrete expression and minimum obligations remain open:
 
 1. Describe effective support for a resolved **engine + adapter + model assets +
    deployment/configuration + domain**. These are semantic dependencies, not a
@@ -466,11 +470,13 @@ This avoids the growth of pairwise compatibility logic in alternative A without
 the premature solver, ontology and cross-tool planner of alternative C. It does
 not justify selecting an engine, class hierarchy or operation-name enumeration.
 
-**Suitable for conceptual approval next, still pending:** the architecture/origin-
-independent but domain/capability/evidence-aware principle; optional direct and
-composite providers with non-transitive access; and explicit rather than automatic
-initial composition. Hybrid availability is a recommendation, not a dependency
-choice. The current request approves only D21–D22 and asks to investigate the rest.
+**Now accepted conceptually (D23–D24):** architecture/origin independence with
+domain/capability/evidence awareness; configuration-qualified support; optional
+individual/composite providers; and non-transitive internal access. Chaperone is
+optional and direct generative intervention remains possible. This does not
+approve a dependency, two mandatory adapter implementations, declaration schema,
+contracts or the definitive organization of P09. Explicit small compositions
+remain the preferred pending alternative; no general planner is requested.
 
 **Needs more evidence before a concrete commitment:** useful short-peptide domain
 for the current RFD4 pair; exact chemistry-preserving conversions; hosted custom-
@@ -478,9 +484,12 @@ metric/state access and resolved terms; reproducible environments and cost
 profiles; qualification of a specific multi-label predictor; and an informative
 comparison design. These do not block a conceptual decision about optionality.
 
-**Suggested next discussion:** approve or revise the domain-aware provider principle
-first. Then decide what minimum meaning a capability/domain claim must preserve
-when a composite or service exposes less than the underlying model. Keep chemistry
+**Current discussion:** decide what minimum meaning a capability/domain claim
+must preserve when a composite or service exposes less than the underlying model.
+The [three-case semantic analysis](capabilities_and_composition.md#8-three-tests-of-minimum-capability-meaning)
+compares delegated RFD4 guidance, complete Chaperone procedures and exploratory
+short-peptide use, distinguishing fundamental/contextual/optional information.
+Keep chemistry
 identity, initial support, storage, IDs, concrete interfaces, model selection and
 the first demonstrator open. No implementation or issue creation follows from
 this review.

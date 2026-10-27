@@ -1,6 +1,6 @@
 # Capabilities, strategy requirements and explicit composition
 
-Status: **partial conceptual approval (D21–D22), remaining P09 proposals and
+Status: **partial conceptual approval (D21–D24), remaining P09 proposals and
 source-level analysis**, 2026-10-26. No capability schema, software contract, API
 or class hierarchy is approved. Navigation: [index](README.md) · [strategies](generative_strategies.md)
 · [families](functional_families.md) · [decisions](decisions.md).
@@ -9,6 +9,11 @@ The [expanded engine review](protein_peptide_design_engines.md) adds general
 protein-design engines, Chaperone, RFD4, short-peptide benchmarks and revised
 composition recommendations. The five-model matrix below is the earlier bounded
 subset, not an exclusion of general protein engines. **P09 remains open.**
+
+D23–D24 accept origin-independent, domain-aware support and optional individual/
+composite access without automatic inheritance. The new minimum-semantics
+analysis below is **pending**, including which information is fundamental,
+contextual or optional. It is not an API or mandatory declaration schema.
 
 ## 1. Responsibility rather than four execution stages
 
@@ -63,6 +68,47 @@ Distinguish native, adapter-provided and composed support, and distinguish known
 absence from uninspected/unknown support or temporary runtime unavailability.
 No fixed capability-name enum or availability-state taxonomy is adopted here.
 A single boolean such as 'supports guidance' would conceal too much information.
+
+### Proposed minimum meaning, not a mandatory record
+
+A capability is useful **relative to an intended strategy and use context**.
+The strategy's required operations and information must be justified by the
+actual provider route. A broad catalog description can remain unresolved while
+a particular plan needs more detail. The following is a pending recommendation
+about meaning; information can be referenced from versioned documentation,
+resource descriptions or evidence rather than duplicated in every declaration.
+
+**Fundamental** means needed to interpret a claim without changing its meaning.
+**Contextual** means needed when a selected strategy/domain relies on it, not
+less important. **Optional** means useful without being a prerequisite for the
+stated use. Unknown information must not masquerade as a guarantee; an explicit
+unknown can be an honest description without satisfying a particular requirement.
+
+| Information to examine | Proposed semantic obligation | When more detail becomes necessary |
+| --- | --- | --- |
+| Operation and output meaning | Fundamental: what is actually provided, by which effective access route, and what the result asserts. | Distinguish generation, sequence assignment, evaluation, continuation and workflow execution; a job receipt is not a generated candidate or a completed evaluation. |
+| Admitted inputs/outputs and evaluation subject | Fundamental: required information, representation and intended subject; permitted incompleteness and output interpretation. | A family evaluator needs the peptide view and label meanings; a state controller needs sampler-state semantics; file-format compatibility alone is insufficient. |
+| Molecular information required, changed and preserved | Fundamental for affected information, including what is unresolved or discarded; not an inventory of all possible chemistry. | Sequence versus coordinates, termini, stereochemistry, links, target identity/pose, edits and hypothetical completions become explicit when the operation relies on or can change them. |
+| Conditions and restrictions | State conditions defining the claimed support and the actual kind of restriction. Detailed controls are contextual. | A strategy requiring fixed target coordinates, an exact residue mask or ring preservation needs that specific promise; a preference or post-filter cannot silently replace it. |
+| Intermediate access/intervention | Contextual; no universal state, gradient or callback obligation. Missing access cannot satisfy a strategy that needs it. | Native reward injection can suffice for delegated search; externally controlled branching additionally requires compatible state/continuation/branch operations. Trajectory export is a different capability. |
+| Execution requirements | Fundamental to distinguish declared support from resolved availability; concrete resources/assets are contextual to a plan and environment. | Required weights, dependencies, permissions, GPU/runtime compatibility and significant cost multipliers must be resolved where relevant. Exact peak memory can remain unknown; an executable plan then needs an explicit way to handle that uncertainty. |
+| Evidence and applicability | Fundamental: the basis and bounds of the claim, or what is unknown. No minimum benchmark quality or universal confidence number is imposed. | A scientific use needs its task/chemistry/length/context interpretation. Code acceptance, producer execution and functional evidence support different claims; exploratory extrapolation stays explicit. |
+| Known limits, failure and unavailable results | Fundamental where they affect meaning or required behavior. Exhaustive failure catalogs are unnecessary. | Missing scores, unsupported chemistry, partial output and failed execution cannot become negative bioactivity or successful completion. A strategy depending on their handling needs an explicit policy. |
+| Efficiency and extra observability | Optional unless the strategy depends on them. | Batching, derivatives, uncertainty estimates, caches, state export and detailed timing can become requirements for a particular strategy. No fabricated uncertainty or hidden telemetry is required. |
+
+Identifiability under D23 need not prescribe an identifier scheme. The claim must
+be scoped to its engine/version/model assets/adapter/configuration/conditions;
+execution records what actually resolved. A deterministic descriptor may have
+no checkpoint. A composite can reference its recipe and known constituents while
+leaving inaccessible service assets explicitly unknown. Such opacity may limit
+reproduction without making every black-box use impossible.
+
+Three extra distinctions are needed. The provider describes the meaning of an
+output; the plan chooses a reward/selection policy using it. Neither defines the
+scientific family. Provider requirements describe reusable support; current GPU
+availability and measured costs are facts of preparation/execution. A prediction
+on a view has an attribution scope; computational reuse does not extend it to
+every realization under P07. These distinctions do not require separate classes.
 
 ### Generative and intervention capabilities
 
@@ -181,7 +227,9 @@ The [expanded assessment](protein_peptide_design_engines.md#8-revised-p09-recomm
 retains B as a **pending** recommendation, with domain/deployment-specific support
 and non-transitive access through optional composite providers. Chaperone is not
 made mandatory, and a native model's operations are not automatically exposed by
-a workflow/service adapter. No universal interface follows from composability.
+a workflow/service adapter. Those conceptual support/access principles are now
+accepted under D23–D24; B's detailed organization remains pending. No universal
+interface follows from composability.
 
 ## 5. Matrix from public implementations
 
@@ -222,8 +270,9 @@ sampling law or scientific evidential strength.
 ## 6. Minimal principles proposed for approval
 
 Principles 1 and 4 have **conceptual approval under D21–D22**; the other
-refinements and the detailed organization remain pending under P09. None is an
-accepted software contract:
+refinements are further qualified by D23–D24's accepted domain/access principles.
+The minimum semantic obligations and detailed organization remain pending under
+P09; do not infer blanket approval of all seven. None is a software contract:
 
 1. Providers declare conditional operations and their evidence; strategies state
    requirements; plans select explicit compositions; executions record actual use.
@@ -270,8 +319,190 @@ is not an unrestricted internal implementation detail. Representation/interface
 choices explicitly deferred in P07 also remain open, rather than being silently
 delegated or decided here. No code or development issue is introduced.
 
-**Next discussion proposed:** agree or revise the domain-aware provider principle
-in the [expanded review](protein_peptide_design_engines.md#8-revised-p09-recommendation-and-next-approvals),
-then discuss minimal operation/domain semantics and optional composite access.
-The responsibility owners are settled conceptually; all seven refinements and a
-universal interface do not follow from that agreement.
+The domain-aware provider principle and optional composite access are now
+accepted. The following cases test the still-pending minimum meaning and matching
+alternatives. They are conceptual probes, not selected implementations or runs.
+
+## 8. Three tests of minimum capability meaning
+
+### Case A — RFD4 with a CPP or multi-label evaluator
+
+**Invariant intent:** propose peptides recognizing a specified molecular target
+with the requested functional property/properties. A predictor's score is an
+operational search signal under its own source definitions, not that intent.
+
+There are two different strategies, which must not be assigned the same needs:
+
+| Strategy | What must be effectively accessible | What need not be exposed to PeptideMT |
+| --- | --- | --- |
+| Delegate RFD4's native reward search | Target/design conditions; a supported way to bind the external evaluator and reward outputs to native search; relevant evaluation checkpoints/policy and actual result/limitation reporting. | Raw sampler tensors, external step/branch control or an exported trajectory, if the native procedure manages them itself. |
+| Let PeptideMT control trajectory allocation | Compatible initialization/advance, continuation and branching semantics; supported scoring views/completions; evaluator access and policy/cost control. | A common tensor format across engines, gradients or a new implementation of the denoiser. These are not required merely for black-box reward use. |
+
+**Evidence boundary:** the inspected RFD4
+[search configuration logic](https://github.com/RosettaCommons/RFD4-Proteina/blob/aaccdd2ad0720c180468df5f9cf037a713d403e5/src/rfproteina/search/beam_search.py)
+checks selected metrics and their groups. Clean-prediction checkpoints admit
+design metrics only; refolding metrics require an explicitly selected oracle.
+Thus even native 'custom metric support' is conditional on where and how a metric
+runs. An external PeptideMT step/branch adapter is not established by that code.
+See the [engine review](protein_peptide_design_engines.md#4-rfd4-proteina-unusually-relevant-access-still-domain-limited-evidence)
+for pinned native search, metric, reward and deployment evidence.
+
+**Inputs and subjects:** generation uses the supported target/design context,
+conditions and sampling state. Evaluation uses a specific completed continuation
+or decoded clean estimate, the selected peptide region, correspondence to the
+complex and the predictor's actual supported view. Complete-sequence decoding
+does not by itself resolve termini, links or stereochemistry. A sequence-only
+method may evaluate the available partial proposal directly when it admits it;
+if it requires missing chemistry, introduce explicit hypothetical realizations.
+Do not silently invent those realizations merely to simplify the data model.
+
+For cyclic/modified candidates, extracting canonical letters is a projection
+with attribution limits, not proof of chemical equivalence. Evaluate several
+explicit realizations if warranted, preserving which one produced each result.
+The reward attached to a continuation is not a direct functional evaluation of
+its incomplete parent, nor of every realization sharing its letters.
+
+**Function and intervention:** one multi-label evaluator can expose several
+source-qualified outputs. Select relevant outputs; preserve the raw vector and
+contradictory evidence. Thresholded-only output and continuous score access are
+different operations. Neither all 21 outputs nor perfect calibration is required.
+Native search may consume a scalarized reward while PeptideMT retains the
+underlying objectives and missing values. A missing metric must remain missing,
+even if the backend assigns it an exclusion reward. Evaluation must affect later
+allocation to count as search guidance; final-only filtering does not supply it.
+
+**Compatibility conclusion:** delegated reward search can be a valid composition
+without externally exposed sampler states. It still needs an actual evaluator
+extension, correct molecular views, usable environments and declared scientific
+limits. The current CPP/multi-label integration is a proposal, not an implemented
+capability. A different service route may fail the operation requirement even
+while using related model weights. No gradient compatibility is assumed.
+
+### Case B — Chaperone running a structural workflow
+
+**Intent and plan:** address the same kind of design problem using a selected
+complete workflow. PeptideMT selects the recipe, inputs and exposed controls;
+Chaperone can own its internal block execution and resource submission.
+
+**Claim that can be made:** execute this configured procedure on these admitted
+inputs and return its observed proposals/results/artifact references and limits.
+Its internal generation/refold/filter stages can be documented constituents
+without becoming individually callable PeptideMT capabilities. The inspected
+[block entry](https://github.com/RosettaCommons/chaperone/blob/a86eb8355c6e362590238c381de13dcba9bef0e0/src/chaperone/block_config/base.py)
+and [result schema](https://github.com/RosettaCommons/chaperone/blob/a86eb8355c6e362590238c381de13dcba9bef0e0/src/chaperone/data/schema.py)
+support block/data-handler execution and molecular/metric/lineage outputs;
+neither creates a universal internal-state or family-reward interface.
+
+Fundamental information includes **which entity is designed and which is the
+target**, the admitted molecular views, exposed conditions and preservation
+semantics, workflow/version/assets where identifiable, result meanings and
+scientific evidence/unknowns. The inverse-direction peptide-binder example in the
+engine review demonstrates why a recipe title is insufficient. Target sequence
+preservation and target-coordinate preservation must remain distinguishable.
+
+Dependencies, containers, weights, site configuration and total resource policy
+become contextual requirements for execution. Separate submitted/running/completed
+work and produced/filtered/no candidates without imposing an execution-status
+enum here. Zero retained candidates can be a completed procedure; a skipped stage
+was not executed. Rerun/caching behavior matters when a plan depends on fresh
+sampling, but does not require exposing every internal random variable.
+
+**Compatibility conclusion:** this route can satisfy a complete-proposal workflow
+strategy while failing a requirement to inject a reward inside its generator.
+It could support that stronger requirement only if the actual block/recipe exposes
+it. Do not infer support from a constituent model or relabel between-block filters
+as within-generator guidance. Unknown internal proposals/costs remain unknown.
+
+Retain native artifacts and known lineage plus P07 attribution; do not promote
+workflow IDs to canonical chemical identity. MolSysMT owns supported molecular
+operations, Praxis reusable methodology, Chaperone this delegated execution and
+Recorda observable recording. Assign scheduling ownership per boundary and avoid
+duplicate job submission/counting. No general orchestrator is needed in PeptideMT.
+
+### Case C — a general protein engine used for short peptides
+
+**Hypothetical probe, not a new experimental result:** a resolved target-conditioned
+engine accepts a 15-residue design, and a bounded execution in that configuration
+has succeeded. Available scientific evidence is mainly for longer globular
+proteins; peptide performance remains poorly established.
+
+The operation/input requirements can be met and runtime availability demonstrated
+while scientific applicability remains uncertain. Record what was executed,
+the target/design chemistry and length, constraints, known training/benchmark
+coverage and its gaps. Do not infer unsupported length limits from a default,
+turn a larger-protein benchmark into a peptide benchmark, or create a universal
+'validated generator' flag. Output chemistry may still be incomplete under P07.
+
+Under D18 an explicitly exploratory plan may use this engine, with a rationale
+for how its proposals and evaluations address the problem and with bounded
+interpretation. The same evidence may be insufficient for a claim that the
+engine reliably designs that peptide class. The purpose of use matters: generating
+diverse hypotheses, ranking them and independently assessing them make different
+claims. No default numerical applicability score is justified.
+
+This permission does not repair a mechanical incompatibility. If the resolved
+model cannot represent the requested ring, accepts only a different alphabet or
+the adapter fails to preserve a required condition, call that mismatch explicitly.
+A hypothetical projection/completion or altered strategy is a plan change with
+its own assumptions, not scientific evidence supplied by the protein engine.
+
+**Compatibility conclusion:** limited empirical evidence need not exclude useful
+exploration, but technical success cannot satisfy an unsupported scientific
+promise. The evidence gaps, transformations, budget, assessment role and outcome
+must remain traceable. No requirement for new experimental validation is imposed
+on completing a computational campaign.
+
+## 9. Alternatives for expressing and checking the meaning
+
+These alternatives concern expression/checking within the preferred P09 direction;
+they are not new names for the earlier A–C organizational alternatives.
+
+| Expression approach | Benefits | Limits exposed by the three cases |
+| --- | --- | --- |
+| Narrative resource profiles plus method-specific human checks | Minimal infrastructure; accommodates opaque workflows and unusual chemistry. | Easy to overlook the same input/preservation mismatch repeatedly; difficult to compare changes across versions or automate even basic checks. |
+| Small evidence-linked semantic claims plus explicit strategy requirements and contextual checks | Shared meaning where justified, optional method-specific detail, explanations of satisfied/failed/unresolved requirements. Supports native delegated search and opaque procedures without a universal state API. | Needs careful scientific definitions and a policy for unknowns; a structured form must not pretend all empirical judgments are decidable. |
+| Formal pre/postcondition/domain calculus and automatic composition | Strong mechanical checks and potential discovery of long compositions. | Premature vocabulary/solver burden, uncertain scientific inference, and overlap with Praxis/execution systems. The cases do not justify a general planner. |
+
+**Pending recommendation:** the middle approach, with narrative evidence and
+method-specific checks where formalization adds little. Retain simple manual
+composition. No file format, field list, class/interface, logic language, registry
+or automatic matching implementation is selected.
+
+A proposed matching explanation answers: which strategy requirement is addressed,
+by which resolved operation, under which assumptions, with which limits, and what
+is established or still unresolved across D22's three dimensions. A requirement
+can be satisfied by an explicit composition; identical operation names or shared
+input types are insufficient. Operational composition must preserve relevant
+meaning, not just data flow. Some checks are static, some require preparation/
+execution and some remain scientific judgment.
+
+Do not default unknown information to either a guarantee or a global rejection.
+An unknown indispensable operation leaves that strategy unresolved until inspected,
+adapted or revised; uncertain biological applicability can support a justified
+exploratory use. An unavailable GPU is a runtime condition, not loss of the model's
+generative operation. An unavailable internal callback cannot be fixed by more
+runtime resources. Explicit alternative plans are allowed; silent substitutions
+that change the search or scientific claim are not an implementation detail.
+
+## 10. Next decision and implementation freedom
+
+**For investigator discussion:** should the minimum semantic obligation be
+defined by preserving the meaning of a claim and justifying a particular
+strategy's requirements, rather than completing the same universal metadata
+record for every resource? The table in section 2 is a proposed analysis, not
+approved mandatory fields. The three cases support this relevance-based approach.
+
+Next scientific/architectural choices include required molecular preservation,
+permitted approximations and attribution, exploratory-use rationale, treatment of
+missing/conflicting evaluations and acceptable exposure at each execution boundary.
+Reward versus independent assessment and scientific intent versus operational
+criteria remain distinct. Many functional families and joint target/family
+guidance remain central, without requiring PeptideMT-owned foundation models.
+
+After those obligations and capability-specific acceptance criteria are mature,
+Codex can choose internal structures, dispatch, validation machinery, batching,
+cache mechanics and process wrappers within them. API/contracts and P07's explicit
+identity/chemistry/storage deferrals still require their own discussion; they are
+not automatically delegated. A technical choice that changes preservation,
+attribution, strategy or the scientific promise returns to the investigators.
+No software or issue creation is authorized by this semantic analysis.

@@ -5,8 +5,10 @@ Date of initial record: **2026-10-26**. Approval authority: the investigators.
 
 Updated: **2026-10-26**. P07/P08 remain accepted within their limits. P09's four
 responsibility owners and three compatibility dimensions are accepted under
-D21–D22. Its organization and additional principles remain open after the
-expanded protein/peptide-engine review; no algorithm or API is selected.
+D21–D22. D23–D24 now accept architecture/origin independence, qualified effective
+support and optional individual/composite access without inherited capabilities.
+P09's definitive organization, minimum semantic obligations and concrete contracts
+remain open; no algorithm or API is selected.
 
 ## Accepted working directions
 
@@ -46,6 +48,8 @@ they are repository setup choices, not scientific decisions.
 | D20 | Preserve independent computational capabilities and compatible adapters. | Distinguish predictors, learned distributions, conditioned generators, rewards, search/guidance and datasets/evidence. No common internal representation, differentiability or ML architecture is required; no concrete interface or model selection is approved. |
 | D21 | Providers and adapters declare effective capabilities; search strategies define requirements; computational plans select/configure compatible compositions; executions record actual operations, results and limitations. | Explicit conceptual agreement in the P09 expansion request. Responsibilities, not mandatory stages or objects. P09 remains open; no capability schema, API, automatic planner or organizational alternative is approved. |
 | D22 | Distinguish operational, runtime/resource and scientific compatibility. | Explicit conceptual agreement in the same request. Technical input acceptance and successful execution do not establish scientific validity. No fixed compatibility taxonomy, scoring rule or admission threshold is approved. |
+| D23 | Admit design engines independently of their original architecture/purpose, with explicit chemical/scientific domains, effective capabilities and access-route evidence. | Explicit investigator approval following the expanded review. Associate support with an identifiable engine, version, checkpoint, adapter, configuration and conditions of use; a short-peptide input is not validated short-peptide design. PeptideMT's peptide-design scope is unchanged. No declaration schema or initial chemistry envelope is approved. |
+| D24 | Permit individual and composite providers, with native, adapted or explicitly composed capabilities; distinguish underlying operations from actually exposed access. | Internal capabilities are not automatically inherited through workflows, services or adapters. Chaperone is an optional workflow/execution provider, not a mandatory dependency or replacement for PeptideMT's scientific responsibilities. Direct access to generative internals remains conceptually possible; no obligation to implement both adapter routes, export all states, reimplement engines or adopt concrete contracts. |
 
 The [four worked examples](design_examples.md) are conceptual stress tests and
 conceptual analysis, not selected demonstrators or executed campaigns. Their
@@ -61,7 +65,7 @@ the semantic responsibilities adopted through P07 are recorded under D15–D16.
 | P04 | Retain objective vectors, feasibility, applicability and diversity rather than only one scalar reward. | Decide which selection policies are required initially. |
 | P05 | Compare and compose filtering, external optimization, sampling-time guidance, functional distributions and learned conditioning through explicit capabilities. | Current [strategy analysis](generative_strategies.md); no definitive generator, common API, capability schema or first comparison experiment selected. |
 | P06 | Formal suite admission and official Python starter generation. | Agree the central process; no issue or sibling-registry change is authorized by this initial documentation publication. |
-| P09 | Organize capability descriptions and compatible compositions, including general protein engines and composite/external workflows. | D21–D22 accept the responsibility owners and three compatibility dimensions. [Revised alternative B and engine evidence](protein_peptide_design_engines.md#8-revised-p09-recommendation-and-next-approvals) remain recommendations: domain-aware support, optional direct/composite routes and non-transitive access. No schema, contracts, classes, automatic planner or universal API approved. |
+| P09 | Organize capability descriptions and compatible compositions, including general protein engines and composite/external workflows. | D21–D24 accept owners, compatibility dimensions, domain-aware support and optional non-transitive access. Alternative B remains preferred but not fully approved. [Minimum semantics and three cases](capabilities_and_composition.md#8-three-tests-of-minimum-capability-meaning) are pending analysis. No schema, contracts, classes, automatic planner or universal API approved. |
 
 ### Proposal disposition
 
@@ -104,6 +108,14 @@ more sophisticated procedures. This does not select an engine or implementation
 order. The subsequent P09 expansion request explicitly accepts its four-role
 responsibility separation and three compatibility dimensions (D21–D22), while
 requiring more investigation before closing the organizational decision.
+
+The next explicit approval adopts the domain-aware, origin-independent principle
+and its eight qualifications as D23–D24. It preserves optional direct/internal
+and composed-workflow use without requiring both implementations. P09 remains
+partially open: the investigators request analysis of minimum capability meaning,
+not adoption of the proposed information list as a mandatory schema. Small
+optional capabilities with explicit compositions remain the preferred pending
+organization; no general planner or duplicate MOLI orchestration is requested.
 
 The dated discussion updates below preserve the status at each revision. Current
 approval status is given in the accepted decisions and proposal disposition above.
@@ -254,6 +266,27 @@ No engine was installed or executed, benchmark reproduced, scientific code
 implemented, model/demonstrator selected, issue created or pending interface
 decision resolved. Provider-reported execution and published experiments are
 explicitly attributed to their producers.
+
+## Domain-aware approval and minimum-semantics discussion — 2026-10-26
+
+Recorded explicit approval as D23–D24, including configuration-qualified support,
+non-inherited internal operations, optional Chaperone and conceptually available
+direct integration. Preserved the earlier review's dated pending status as history.
+Updated the engine review's current disposition, guide index, README, alternatives,
+strategy discussion and open questions consistently.
+
+Expanded capabilities_and_composition.md with pending fundamental/contextual/
+optional information distinctions; RFD4/external-evaluator, opaque Chaperone and
+short-peptide extrapolation cases; alternatives for expressing/matching support;
+and investigator versus future implementation decisions. Distinguish native
+delegated reward search from PeptideMT-controlled branching: only the latter
+necessarily needs externally exposed state-control operations. A record's syntax
+and schema remain open, as do P07's explicit chemistry/identity deferrals.
+
+Reused the immutable engine/ecosystem evidence and rechecked selected metric,
+search, block and result-schema sources. No model installation/execution,
+scientific implementation, benchmark reproduction, issue or selected demonstrator.
+The semantic recommendation itself awaits approval.
 
 ## Change protocol
 

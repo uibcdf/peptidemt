@@ -285,8 +285,12 @@ P08 alternative 2 is also accepted under D17–D20; see its
 The current [strategy comparison](generative_strategies.md) concerns capabilities
 and intervention choices, not an API or definitive generative architecture.
 [P09](capabilities_and_composition.md) now has partial conceptual approval:
-D21–D22 establish responsibility owners and three compatibility dimensions.
-Its organization and remaining refinements stay pending. The [expanded engine
+D21–D24 establish responsibility owners, three compatibility dimensions and
+domain-aware optional access without inherited internal capabilities.
+Its organization, minimum semantics and concrete contracts stay pending. The [expanded engine
 review](protein_peptide_design_engines.md) tests optional individual/composite
 providers, general protein engines and domain-specific evidence without
 selecting an implementation or closing P09.
+The current [three-case semantic analysis](capabilities_and_composition.md#8-three-tests-of-minimum-capability-meaning)
+examines what a strategy needs to know without imposing the same declaration
+fields or internal-state interface on every provider.
