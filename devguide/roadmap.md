@@ -16,12 +16,11 @@ not a revision to D33–D36, a new release timetable or a requirement to impleme
 all at once. The [ATSP-7041/MDM2–MDMX case](case_study_cpp_anticancer_mdm2_mdmx.md)
 is an evidence-grounded **later** case-guided reference, not a substitute for
 the already commissioned target-free Macrel increment 1.
-For broader representative CPP-specific planning, the
-[CPP case-guided portfolio](cpp_case_portfolio.md) explicitly distinguishes
-canonical delivery, cargo carriage, **p28–p53 intrinsic anticancer action**,
-tumor-tissue/low-pH/endosomal transport, organelles and noncanonical/cyclic/stapled
-peptides. These are selectable **future** scientific cases, not a revised
-mandatory sequence of implementation milestones.
+The [canonical twelve-case CPP development ladder](cpp_guided_projects.md)
+is complemented by [four additional scientific cases](cpp_case_portfolio.md)
+covering noncovalent protein cargo (Pep-1), GALA-assisted escape,
+mitochondrial targeting and bacterial buforin II penetration.
+These guide **future** capability decisions; they do not revise W0–W4.
 The separate [future horizons review](future_horizons.md) records potential
 chemical, mechanistic, multi-state, delivery, experimental and interactive
 extensions plus design stress tests. They do **not** extend this preliminary
