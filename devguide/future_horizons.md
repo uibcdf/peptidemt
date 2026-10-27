@@ -22,7 +22,8 @@ anticancer peptide** is developed in
 The [graded CPP case-guided pool](cpp_guided_projects.md) additionally
 distinguishes basic sequence uptake, cargo and compartment delivery, p28
 intracellular anticancer target engagement, tissue-homing iRGD, pHLIP
-condition-dependent insertion, cyclic endosomal-escape peptides and stapled
+condition-dependent insertion, protease-unmasked CPPs, nucleic-acid nanocomplex
+cargo, cyclic endosomal-escape peptides and stapled
 binders. Their scientific boundaries are intentionally not unified into one CPP
 classifier output.
 Neither the pool nor either previously linked document adds a mandatory V0.1
