@@ -162,3 +162,18 @@ Which seed-based and de novo cases best discriminate the competing strategies?
 What assays and collaborators are available? What evidence would support
 mechanism, specificity or joint activity? No answer is required to approve the
 general computational design scope.
+
+## Q9. Future horizon stress tests — exploratory, not a freeze gate
+
+The [future horizons](future_horizons.md) inventory considers modified/cyclic
+chemistry, multiple target conformations, mechanistic selectivity, delivery,
+activatable constructs, synthesis/developability, multi-fidelity evaluation,
+feedback learning, functional-space exploration and other extensions.
+
+Which two or three cases expose genuinely new **core semantic** requirements
+rather than deferrable specialist modules? Can P07 distinguish a precursor,
+modified derivative and transformation product? Can D09 express state-selective
+and negative-target objectives without treating structural confidence as mechanism?
+Can evaluations at varying cost, unknown applicability and later assay feedback
+be traced without adding a general workflow engine? None of the opportunities
+is automatically adopted or required for the first implementation.
