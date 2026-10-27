@@ -83,10 +83,11 @@ specification. No scientific implementation or public API is defined.
     pH insertion, endosomal escape, cyclic/stapled chemistry, organelles and
     bacterial AMP penetration, with explicit literature, limitations and tiers.
 24. [Representative CPP case-guided project pool](cpp_guided_projects.md):
-    ten progressively demanding guides spanning arginine-rich/penetratin CPPs,
+    twelve complementary guides spanning arginine-rich/penetratin CPPs,
     cargo delivery and endosomal escape, p28 anticancer target engagement,
     iRGD tissue penetration, pHLIP pH dependence, cyclic CPPs, stapled binders
-    and joint CPP+AMP guidance; future references, not V0.1 commitments.
+    joint CPP+AMP guidance, oligonucleotide delivery and proteolytically
+    activatable CPPs; future references, not V0.1 commitments.
 
 ## Engineering receiving and reporting
 
