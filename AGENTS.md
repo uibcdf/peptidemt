@@ -166,10 +166,9 @@ citations and whitespace. Do not claim scientific tests or CI qualification from
 a documentation check. The official reporting checker and baseline package tests
 are present; they do not qualify Macrel or execute the scientific M1–M8 gates.
 
-Before Python implementation, follow the official central admission and starter
-process. Required policy workflows, package metadata, development environments,
-guide synchronization and release controls belong to that future qualified
-bootstrap. Do not fabricate policy pins, admission commits, badges or support
+Before scientific implementation, complete official W0 receiving. The integrated
+starter supplies policy workflows, package metadata, development environments and
+guide synchronization; retain its real gates and applicable release controls. Do not fabricate policy pins, admission commits, badges or support
 claims. This initial repository publication is not a versioned software release.
 
 For work in `devguide/`, also read `devguide/AGENTS.md`.

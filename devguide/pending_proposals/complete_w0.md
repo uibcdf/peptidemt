@@ -1,7 +1,7 @@
 ---
 summary: Receive the official PeptideMT starter after accepted suite registration.
 issue: uibcdf/peptidemt#1
-status: active
+status: partial
 opened: 2026-10-27
 closed:
 verification: measured
@@ -142,3 +142,92 @@ resources at closeout and preserve primary checkouts and shared environments.
 Pending: exact committed installed artifact and hosted routine/full matrix,
 actual operator inspection, central dependency/review inventory and failed-audit
 recovery, and central W0 receiving. W1 remains gated.
+
+## Executed committed-source and hosted evidence
+
+The published starter integration candidate is
+**`bed3df6908cee7e3c3325e1205afdf3d1f96aa13`**, with design parent `7781293`.
+The complete two-test baseline passes locally, with no skips.
+
+| Gate | Exact-candidate evidence | Scope |
+| --- | --- | --- |
+| Routine push / quality | [40568925289](https://github.com/uibcdf/peptidemt/actions/runs/40568925289), attempt 1, test job `122417570461`, quality job `122417571120` | Actual build/install, `pip check`, neutral installed import and 2-test full baseline; Ruff lint/format. Scheduled-only matrix skipped here by design. |
+| Frozen policy / admission | [40568925878](https://github.com/uibcdf/peptidemt/actions/runs/40568925878), attempt 1, `122417574381` | Actual admission validation, frozen policy checkout and conformance, lint and format; no scientific evidence. |
+| Complete Linux matrix | [40568960388](https://github.com/uibcdf/peptidemt/actions/runs/40568960388), attempt 1 | Python 3.11 job `122417696779`, 3.12 `122417696624`, 3.13 `122417696903`, 3.14 `122417696804`: all installed/closure/import and full baseline test steps executed and succeeded. Quality job `122417696189` passed. Push-only routine job skipped, not counted. |
+
+Native run identity and required job/step conclusions were inspected separately.
+GH Run Receptor **1.3.0**, from the actual `uibcdf` noarch Conda artifact, reports
+PASS for the matrix (5 executed jobs, one event-inapplicable skipped job).
+The initially requested 1.2.0 was not available through PyPI or current UIBCDF
+solver records; no use of that version is claimed. A partial `/tmp` operator
+installation hit the host's quota and was removed; the actual operator was
+installed in a task-owned workspace directory. No shared environment was repaired.
+
+The local exact-source wheel is
+`peptidemt-0.1.0+34.gbed3df6-py3-none-any.whl`, SHA-256
+`145f3e0ce01ba65e962e7467231c5c07a8e0e3900945495f582701caeb5cfc20`.
+It was installed with `--no-deps --force-reinstall` into the task's dependency-clean
+Python 3.14.10 environment. From `/tmp`, isolated Python verifies the import
+matches the installed distribution's `peptidemt/__init__.py`, rather than the
+source tree. This development wheel was not uploaded or publicly distributed.
+
+Native administration now verifies Actions enabled and main protection with
+strict required checks `test`, `quality`, `policy / conformance`; force pushes
+and deletions disabled. Ordinary changes require PR checks; administrator
+bypass remains available for the explicitly authorized internal direct-push
+route (`enforce_admins=false`). No new scientific approval or peer-review count
+was imposed (`required_approving_review_count=0`).
+
+The hosted baseline at `bed3df6` establishes engineering compatibility only.
+Any later receiving-document commit has its own run identity; original candidate
+and wheel provenance remain unchanged. No actual PR-event run was used for the
+above evidence; the full PR suite is configured as the same tested routine gate.
+Central receiving must judge that distinction, not treat a configured event as an
+executed PR. No science or Macrel test was run, omitted or relabeled.
+
+Still due: publish the central test-/CI-tooling edges and member review evidence,
+recover the applicable central audits, and obtain actual W0 receiving. The
+source-only distribution review can remain partial for future publication work;
+no Conda recipe/public artifact is commissioned. Keep both #1 and central #146
+open until receiving. W1 has not started.
+
+## Pause requested by the investigators — 2026-10-27
+
+**W0 is partial and paused; W1 has not started.** The investigators request a
+clean, reported handoff before continuing implementation with Codex. This does
+not revoke D35–D36 or authorize skipping any gate. Retain the existing issues;
+no replacement admission issue, alternative starter or new architecture is needed.
+
+The [durable evidence receipt](../evidence/w0_baseline.json) records source,
+policy/admission, exact local wheel, actual Conda package identities and tested
+scope. All three baseline hosted runs also received a PASS from published
+GH Run Receptor 1.3.0; native job/step verification is independent. The receipt
+contains no model binaries, private transcript or credentials.
+
+### Resume in this order
+
+1. Read D35–D36, `increment_1_work_order.md`, this record, PeptideMT #1 and
+   central #146. Inspect actual current heads and preserve concurrent changes.
+2. Return the existing W0 evidence to central review; record the actual test-/CI-
+   tooling relationships and member-specific applicability reviews. The initial
+   manifest failure is the unrecorded `test: pytest-receptor` extra edge, not a
+   runtime dependency or failed native model. GH Run Receptor's actual operator
+   use is a separate CI-tooling edge. Use exact component source references.
+3. Rerun/inspect central component-guide, dependency and vendored-guide audits.
+   The earlier global vendored-guide failure did not expose paths; do not assert
+   that it was exclusively PeptideMT or fix unrelated components silently.
+4. Obtain actual central W0 receiving. Keep #1 and #146 open until that result;
+   archive this local record only upon genuine completion. The full PR lane is
+   configured but no PR-event execution is claimed by the baseline evidence.
+5. Only then execute W1–W4 within the existing authorization. First W1 must work
+   without Macrel. W2 integrates one genuine Macrel route. W3 needs Macrel 1.6.1
+   and both actual ONNX heads on the Linux CPU/Python 3.14 qualification target,
+   with assets/terms/fixtures/effective resource bounds identified first.
+   M1–M8 remain entirely unexecuted at this pause. W4 supplies reproducible
+   example, tests/docs and exact evidence; incomplete work remains incomplete.
+
+HydrAMP, increments 2/3, target-conditioned generation, new scientific models,
+package publication and other development issues remain excluded. Scientific
+changes return to the investigators. Temporary source/environments/artifact and
+receptor caches are task-owned and may be removed after durable evidence and
+issue handoff; reproduce from the official routes, not those transient paths.
