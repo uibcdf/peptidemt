@@ -697,3 +697,26 @@ research/design documentation, not new D decisions, accepted model/target
 selection, live scientific evidence or expanded W0–W4/M1–M8 contracts.
 D33–D36, the W0 pause, the two receiving issues and no-new-issues boundaries
 are unchanged. The next authorized work remains finishing W0 before W1.
+
+## CPP guided-case coverage expansion — 2026-10-27
+
+At the investigators' request, added [cpp_guided_projects.md](cpp_guided_projects.md)
+to build a representative **CPP-specific** case-guided research pool. Ten
+literature-grounded guides span linear arginine-rich/penetratin peptides,
+CPP/cargo, endosomal escape, **azurin-derived p28 with direct p53 interaction
+and anticancer context**, iRGD-mediated tumor/tissue penetration, pHLIP pH-driven
+membrane insertion, cyclic CPP cytosolic delivery, stapled ATSP-7041 directed
+to **MDM2/MDMX**, and a multifunctional CPP+AMP search hypothesis. The case
+pool explicitly distinguishes cell uptake, endosomal escape, cytosolic access,
+cargo/tissue delivery, intracellular molecular recognition and anticancer
+phenotype, with different chemical species and biological contexts.
+
+Updated [worked cases](design_examples.md), [vision](vision_scope.md),
+[scientific trajectory](scientific_trajectory.md), [roadmap](roadmap.md) and
+[future horizons](future_horizons.md) as cross-references. The new cases
+are literature-anchored future research/project references, **not** newly
+approved scientific capabilities, experimental results, automatic benchmark
+fixtures or new release obligations. The current V0.1 AMP/Macrel/HydrAMP
+direction, D33–D36, M1–M8, W0 central receiving gate and issue authority
+remain unchanged. No model installation, new scientific run or code/issue
+was authorized by this documentation addition.
