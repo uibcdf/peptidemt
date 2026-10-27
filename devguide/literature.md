@@ -13,11 +13,18 @@ adds bounded source inspection of inputs/outputs, internal versus exposed
 operations and proposed adaptations. The inspected HEAD snapshots were rechecked
 on 2026-10-26; none was installed or executed.
 
+The [expanded protein/peptide-engine review](protein_peptide_design_engines.md)
+adds Chaperone, RFD4-Proteina, RFD3, BoltzGen, BindCraft and structural auxiliaries,
+with immutable code references, runtime/terms distinctions and bounded evidence
+from the BoltzGen experiments and 2026 GPCR assessment. It distinguishes peptide
+targets from generated peptides, internal search from external chaining, and
+documented chemistry from qualified short-peptide performance.
+
 Primary papers establish reported evidence; official source inspection establishes
 bounded implementation observations. No listed model was installed or executed
 here. This is a working review, not an exhaustive systematic survey or model
-selection decision. Weights, licenses, compute and reproducibility need a later
-engine-specific review.
+selection decision. The expanded review records available weight/license/compute
+information; exact deployment qualification and reproduction remain future work.
 
 ## A. Predictors, distributions and conditions are different assets
 

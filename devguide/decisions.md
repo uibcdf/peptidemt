@@ -3,9 +3,10 @@
 Navigation: [index](README.md) · [scope](vision_scope.md) · [alternatives](architecture_alternatives.md).
 Date of initial record: **2026-10-26**. Approval authority: the investigators.
 
-Updated: **2026-10-26**. P07/P08 remain accepted within their limits. The current
-pending discussion is P09: provider capabilities, strategy requirements, plan
-composition and realized use; no algorithm or API is selected.
+Updated: **2026-10-26**. P07/P08 remain accepted within their limits. P09's four
+responsibility owners and three compatibility dimensions are accepted under
+D21–D22. Its organization and additional principles remain open after the
+expanded protein/peptide-engine review; no algorithm or API is selected.
 
 ## Accepted working directions
 
@@ -43,6 +44,8 @@ they are repository setup choices, not scientific decisions.
 | D18 | Permit justified indirect predictors and exploratory use beyond validated empirical scope to guide generation/optimization. | Keep desired function, actual predicted property, search signal and result evidence distinct. Declare input compatibility, extrapolation limits and whether utility is a hypothesis. Perfect calibration is not required for useful search rankings; scores are not automatically real bioactivity probabilities or comparable across models. |
 | D19 | Distinguish guidance/reward/selection roles from candidate assessment and independent evaluation. | One model may serve several roles, but improved reward is not independent confirmation. Preserve direct prediction, indirect/partial support, absent evaluation and doubtful applicability as conceptual distinctions, without a fixed state taxonomy or universal confidence scale. No experimental validation is required for computational completion. |
 | D20 | Preserve independent computational capabilities and compatible adapters. | Distinguish predictors, learned distributions, conditioned generators, rewards, search/guidance and datasets/evidence. No common internal representation, differentiability or ML architecture is required; no concrete interface or model selection is approved. |
+| D21 | Providers and adapters declare effective capabilities; search strategies define requirements; computational plans select/configure compatible compositions; executions record actual operations, results and limitations. | Explicit conceptual agreement in the P09 expansion request. Responsibilities, not mandatory stages or objects. P09 remains open; no capability schema, API, automatic planner or organizational alternative is approved. |
+| D22 | Distinguish operational, runtime/resource and scientific compatibility. | Explicit conceptual agreement in the same request. Technical input acceptance and successful execution do not establish scientific validity. No fixed compatibility taxonomy, scoring rule or admission threshold is approved. |
 
 The [four worked examples](design_examples.md) are conceptual stress tests and
 conceptual analysis, not selected demonstrators or executed campaigns. Their
@@ -58,7 +61,7 @@ the semantic responsibilities adopted through P07 are recorded under D15–D16.
 | P04 | Retain objective vectors, feasibility, applicability and diversity rather than only one scalar reward. | Decide which selection policies are required initially. |
 | P05 | Compare and compose filtering, external optimization, sampling-time guidance, functional distributions and learned conditioning through explicit capabilities. | Current [strategy analysis](generative_strategies.md); no definitive generator, common API, capability schema or first comparison experiment selected. |
 | P06 | Formal suite admission and official Python starter generation. | Agree the central process; no issue or sibling-registry change is authorized by this initial documentation publication. |
-| P09 | Separate provider-declared capabilities, strategy requirements, plan-selected compositions and execution-level actual use; compare explicit compatibility organizations. | [Analysis, real-model matrix and proposed principles](capabilities_and_composition.md). All organizational alternatives and the seven principles remain pending; no capability schema, contracts, classes or universal API approved. |
+| P09 | Organize capability descriptions and compatible compositions, including general protein engines and composite/external workflows. | D21–D22 accept the responsibility owners and three compatibility dimensions. [Revised alternative B and engine evidence](protein_peptide_design_engines.md#8-revised-p09-recommendation-and-next-approvals) remain recommendations: domain-aware support, optional direct/composite routes and non-transitive access. No schema, contracts, classes, automatic planner or universal API approved. |
 
 ### Proposal disposition
 
@@ -98,8 +101,9 @@ is analysis and pending recommendations under P05, not an approved algorithm.
 The investigators endorse retaining the five strategy families as potentially
 complementary and establishing simple computational references before comparing
 more sophisticated procedures. This does not select an engine or implementation
-order. Their proposed four-role capability separation is being evaluated under
-P09; it is not recorded as an accepted architecture merely because it was proposed.
+order. The subsequent P09 expansion request explicitly accepts its four-role
+responsibility separation and three compatibility dimensions (D21–D22), while
+requiring more investigation before closing the organizational decision.
 
 The dated discussion updates below preserve the status at each revision. Current
 approval status is given in the accepted decisions and proposal disposition above.
@@ -228,6 +232,28 @@ conditioned denoiser, and internal generation/filtering policies. All verificati
 is source-level; no engine was installed or executed. Updated earlier plan-centric
 wording and navigation consistently. The ecosystem audit is unchanged. No new
 scientific code, development issue, software contract or architecture approval.
+
+## Expanded engines and partial P09 approval — 2026-10-26
+
+Recorded only the investigators' explicit conceptual agreements as D21–D22.
+P09 is **not closed**. The proposed architecture/origin-independent but
+domain/capability/evidence-aware principle is being investigated, not treated as
+an approved contract. Organizational alternative B remains recommended.
+
+Added [protein_peptide_design_engines.md](protein_peptide_design_engines.md):
+general and specialized engine matrices, auxiliary-model roles, costs/terms,
+source-pinned Chaperone and RFD4 analyses, direct/composite/hybrid alternatives,
+the GyrA and GPCR evidence limits, and implications for functional guidance.
+Verified native RFD4 search/metric seams separately from differentiable guidance;
+no named RFD4 block was observed in Chaperone's inspected inventory. Preserved
+the opposite direction and failed quality gates of its peptide-binder example.
+
+Reused the existing MolSysSuite/MolI audit without changing its snapshots.
+Updated navigation, strategy/capability discussion, literature and open questions.
+No engine was installed or executed, benchmark reproduced, scientific code
+implemented, model/demonstrator selected, issue created or pending interface
+decision resolved. Provider-reported execution and published experiments are
+explicitly attributed to their producers.
 
 ## Change protocol
 

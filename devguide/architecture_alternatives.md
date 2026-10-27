@@ -284,5 +284,9 @@ P08 alternative 2 is also accepted under D17–D20; see its
 [record and model-composition exercise](functional_families.md#p08-conceptual-alternatives-and-generative-use).
 The current [strategy comparison](generative_strategies.md) concerns capabilities
 and intervention choices, not an API or definitive generative architecture.
-Pending [P09](capabilities_and_composition.md) refines who declares available
-operations, strategy requirements, selected plan composition and actual use.
+[P09](capabilities_and_composition.md) now has partial conceptual approval:
+D21–D22 establish responsibility owners and three compatibility dimensions.
+Its organization and remaining refinements stay pending. The [expanded engine
+review](protein_peptide_design_engines.md) tests optional individual/composite
+providers, general protein engines and domain-specific evidence without
+selecting an implementation or closing P09.

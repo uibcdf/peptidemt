@@ -30,9 +30,12 @@ specification. No scientific implementation or public API is defined.
     discussion and approval, implementation readiness and technical freedom.
 11. [Generative strategy comparison](generative_strategies.md): five approaches,
     mathematical limits, actual engine access, cost, diversity and training needs.
-12. [Capabilities and composition](capabilities_and_composition.md): pending P09
-    responsibility separation, operation families, compatibility alternatives,
-    five-model matrix and boundaries for future implementation.
+12. [Capabilities and composition](capabilities_and_composition.md): accepted P09
+    responsibility owners/compatibility dimensions, pending organization and
+    operation semantics, original five-model matrix and implementation boundaries.
+13. [Protein and peptide design engines](protein_peptide_design_engines.md):
+    expanded evidence matrices, Chaperone/RFD4 source review, short-peptide
+    benchmarks, optional integration routes and revised P09 recommendations.
 
 ## Evidence and status
 
@@ -72,9 +75,14 @@ enum, API or definitive model is adopted.
 The [strategy comparison](generative_strategies.md) under P05 remains relevant;
 the investigators endorse potentially complementary strategies and simple
 comparison references. The current pending discussion is
-[P09's capability/composition organization](capabilities_and_composition.md):
-provider availability, strategy requirements, plan selection and actual use,
-without universal interfaces or mandatory stages. Its principles are proposals.
+[P09's capability/composition organization](capabilities_and_composition.md).
+Provider availability, strategy requirements, plan selection and actual use are
+accepted responsibilities (D21); operational/runtime/scientific compatibility are
+accepted dimensions (D22). The organizational alternative and remaining principles
+are pending. The [expanded engine review](protein_peptide_design_engines.md)
+tests general protein engines, specialized peptide tools and composite workflows;
+it recommends domain-aware support and optional hybrid access, without selecting
+an engine, mandatory Chaperone dependency, universal interface or execution stages.
 
 De novo generation and redesign remain equally in scope. No first experimental
 demonstrator has been chosen. Completion of a computational campaign does not

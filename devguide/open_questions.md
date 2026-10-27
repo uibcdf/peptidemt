@@ -5,7 +5,9 @@ All questions remain open unless an explicit decision is recorded.
 
 Updated: 2026-10-26. Alternative B is accepted under D09–D13 and revised P07
 under D15–D16. P08 is accepted under D17–D20. The worked cases remain illustrative,
-with no selected demonstrator; P09's capability/composition organization is current.
+with no selected demonstrator. D21–D22 accept P09's responsibility owners and
+three compatibility dimensions; organization, domain semantics and composite
+access remain under discussion after the expanded engine review.
 
 ## Q1. Design intent and execution
 
@@ -90,10 +92,11 @@ The [five-way strategy comparison](generative_strategies.md) under P05 covers fi
 optimization, sampling-time guidance, distribution composition and learned
 conditioning. Available operations belong to providers through adapters,
 requirements to strategies and selected use to plans. The
-[P09 alternatives](capabilities_and_composition.md) assess that proposed separation
-and recommend small optional descriptions plus explicit compositions; this is
-not yet an accepted software contract. Which representation/preservation semantics
-must be checked, and how should native versus adapter/composite support be stated?
+[P09 alternatives](capabilities_and_composition.md) preserve that accepted separation
+and recommend small optional descriptions plus explicit compositions; the
+organization is pending and no software contract is accepted. Which representation/
+preservation semantics must be checked, and how should native versus adapter/
+composite support be stated?
 A complete-sample interface supports filtering and some
 outer search, not automatically continuation, infill, density ratios or gradients.
 How should several compatible strategies compete or cooperate within one budget?
@@ -107,6 +110,21 @@ descriptors and overlapping training sets be detected? What preserves
 recognition when a family-driven optimizer edits a binder?
 
 ## Q6. Guidance access and budgets
+
+The [expanded engine matrix](protein_peptide_design_engines.md) compares general
+protein and specialized peptide engines, with separate documented/source/runtime/
+benchmark/adaptation/unknown evidence. Should we adopt the proposed principle of
+architecture/origin independence with domain/capability/evidence awareness?
+Which minimum task/chemistry/access-route meaning must a capability claim retain?
+Can direct engines and optional composite procedures coexist without inferring
+access to their internal components? Chaperone, native RFD4 and hosted NIM expose
+different controls. Hybrid availability is recommended, not adopted.
+
+For RFD4 specifically, what evidence qualifies short/cyclic/modified peptide use
+for the current matched checkpoint pair? Can an adapted family metric preserve
+chemical projections, source-label meanings and missing-output causes? Which
+state/metric operations are genuinely exposed by each deployment? Neither the
+Chaperone inverse-direction example nor a service token limit answers these.
 
 Which engines expose partial states, infilling, likelihoods or gradients?
 Does a saved trajectory contain a resumable algorithm state, or only molecular
@@ -125,6 +143,10 @@ Which minimal optional adapters justify initial dependencies?
 How do local design attempts reference future Nextia project Candidates?
 How do Praxis Protocols refer to PeptideMT algorithm settings without duplicating
 them? Recorda captures operations; what native result provenance stays local?
+If Chaperone owns an external workflow's job submission, how do surrounding
+Praxis/PeptideMT calls retain one scheduling owner and avoid double-counted work?
+Which native artifacts and pinned assets are sufficient for design attribution,
+and which hidden operations must remain explicitly unobserved?
 
 ## Q8. Demonstrators and experiments — explicitly deferred
 

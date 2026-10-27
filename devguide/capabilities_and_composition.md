@@ -1,13 +1,18 @@
 # Capabilities, strategy requirements and explicit composition
 
-Status: **proposed conceptual principles and source-level analysis (P09)**,
-2026-10-26. No capability schema, software contract, API or class hierarchy is
-approved. Navigation: [index](README.md) · [strategies](generative_strategies.md)
+Status: **partial conceptual approval (D21–D22), remaining P09 proposals and
+source-level analysis**, 2026-10-26. No capability schema, software contract, API
+or class hierarchy is approved. Navigation: [index](README.md) · [strategies](generative_strategies.md)
 · [families](functional_families.md) · [decisions](decisions.md).
+
+The [expanded engine review](protein_peptide_design_engines.md) adds general
+protein-design engines, Chaperone, RFD4, short-peptide benchmarks and revised
+composition recommendations. The five-model matrix below is the earlier bounded
+subset, not an exclusion of general protein engines. **P09 remains open.**
 
 ## 1. Responsibility rather than four execution stages
 
-The investigators propose four distinct responsibilities within the accepted
+The investigators accept four distinct responsibilities (D21) within the accepted
 scientific-problem / computational-plan / execution-evidence architecture:
 
 | Responsibility | Meaning | Important boundary |
@@ -17,7 +22,7 @@ scientific-problem / computational-plan / execution-evidence architecture:
 | Computational plan | Selects resources, compatible strategy instances, transformations/completions, parameters and authorized alternatives for the scientific problem. | Selects and configures capabilities; does not own or redefine the engine's available operations. |
 | Execution evidence | Records actual resolved resources, operations, inputs, adaptations, capability use, failures, deviations, costs and outputs. | Attempted, available, selected and successfully used capabilities may differ. |
 
-**Assessment:** this separation is useful. It keeps capability truth with its
+**Accepted conceptual separation:** it keeps capability truth with its
 provider and makes strategy reuse testable without changing the scientific
 problem. It is not an additional four-stage workflow or four required objects.
 Strategy logic belongs in the computational solution; engine capability evidence
@@ -108,8 +113,9 @@ when no direct evaluator exists.
 
 ## 3. Compatibility has operational, runtime and scientific dimensions
 
-**Recommendation:** match a strategy's requirements against provider capabilities
-under the selected configuration, using an explicit composition when direct
+The three dimensions below are **accepted conceptually under D22**. The detailed
+matching/policy organization remains a recommendation: match requirements against
+capabilities under the selected configuration, using an explicit composition when direct
 matching fails. Do not demand the union of all possible operations from every
 engine. Compatibility can require several operations together, or one of several
 documented alternatives; names or input-file extensions alone are insufficient.
@@ -171,6 +177,12 @@ no registry schema, type system or general planning engine is proposed for
 implementation. A universal interface containing every operation would mostly
 encode unsupported methods and is not required by B.
 
+The [expanded assessment](protein_peptide_design_engines.md#8-revised-p09-recommendation-and-next-approvals)
+retains B as a **pending** recommendation, with domain/deployment-specific support
+and non-transitive access through optional composite providers. Chaperone is not
+made mandatory, and a native model's operations are not automatically exposed by
+a workflow/service adapter. No universal interface follows from composability.
+
 ## 5. Matrix from public implementations
 
 Snapshot check on **2026-10-26** confirmed the five repository HEAD revisions
@@ -209,7 +221,9 @@ sampling law or scientific evidential strength.
 
 ## 6. Minimal principles proposed for approval
 
-These are **pending principles under P09**, not accepted software contracts:
+Principles 1 and 4 have **conceptual approval under D21–D22**; the other
+refinements and the detailed organization remain pending under P09. None is an
+accepted software contract:
 
 1. Providers declare conditional operations and their evidence; strategies state
    requirements; plans select explicit compositions; executions record actual use.
@@ -229,9 +243,9 @@ These are **pending principles under P09**, not accepted software contracts:
 
 The earlier phrase 'capabilities a plan must declare' is corrected: the plan
 declares **selected usage and composition**; available capabilities come from
-the providers and requirements from the strategy. The investigators endorse
-complementary strategies and simple computational references, but have not yet
-approved this P09 organization or a software contract.
+the providers and requirements from the strategy. The investigators now approve
+the responsibility separation and compatibility dimensions, without approving
+the organizational alternative, all refinements or a software contract.
 
 ## 7. Ownership and what remains for Codex
 
@@ -256,8 +270,8 @@ is not an unrestricted internal implementation detail. Representation/interface
 choices explicitly deferred in P07 also remain open, rather than being silently
 delegated or decided here. No code or development issue is introduced.
 
-**Next discussion proposed:** first agree who declares capability availability,
-requirements, selected composition and realized use, including the conditional
-role of adapters. Discuss the minimum compatible-operation semantics afterwards;
-do not approve all seven principles or a universal interface merely because
-alternative B seems convenient to implement.
+**Next discussion proposed:** agree or revise the domain-aware provider principle
+in the [expanded review](protein_peptide_design_engines.md#8-revised-p09-recommendation-and-next-approvals),
+then discuss minimal operation/domain semantics and optional composite access.
+The responsibility owners are settled conceptually; all seven refinements and a
+universal interface do not follow from that agreement.

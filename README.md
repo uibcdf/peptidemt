@@ -55,8 +55,11 @@ and initial chemistry support remain open. P08 also adopts an extensible
 including justified indirect guidance and distinct search/assessment roles.
 The [strategy comparison](devguide/generative_strategies.md) explores reuse of
 existing models. The current [capability/composition discussion](devguide/capabilities_and_composition.md)
-examines provider operations, strategy requirements, plan choices and actual
-execution; these proposed principles do not select a definitive generator or API.
+records accepted responsibility owners and compatibility dimensions (D21–D22),
+while keeping P09's organization open. The [expanded engine review](devguide/protein_peptide_design_engines.md)
+examines general protein/peptide engines, Chaperone and RFD4, their evidence and
+optional integration routes. No definitive generator, mandatory backend or API
+is selected.
 
 Documentation and commit messages use English, following the suite convention.
 Scientific discussion with the investigators may continue in Spanish.
