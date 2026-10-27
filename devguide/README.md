@@ -72,6 +72,17 @@ specification. No scientific implementation or public API is defined.
     Codex discretion and required evidence. Authorized under D36; W0 started,
     W1–W4 conditional on completed admission/bootstrap.
 
+## Engineering receiving and reporting
+
+- [W0 integration and qualification](pending_proposals/complete_w0.md): genuine
+  admission/starter provenance, applicability reviews and executed evidence.
+- [Local reporting protocol](reporting_protocol.md) and generated
+  [pending proposals](pending_proposals/README.md), [pending bugs](pending_bugs/README.md)
+  and [archive](archive/README.md). Scientific topical discussions remain outside
+  those issue-backed queues.
+- [Optional-engine review](optional_engine_review.md): no implemented route in W0;
+  revisit with W2. [Release titles](release_titles.md) apply only when commissioned.
+
 ## Evidence and status
 
 - **Accepted direction:** explicitly requested/approved by the investigators.

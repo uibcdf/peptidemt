@@ -1,0 +1,80 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+  schedule:
+    # PeptideMT weekly baseline matrix; no scientific provider execution.
+    - cron: "47 6 * * 3"
+
+permissions:
+  contents: read
+
+jobs:
+  quality:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.14"
+      - run: python -m pip install ruff==0.16.5
+      - run: ruff check .
+      - run: ruff format --check .
+
+  test:
+    if: github.event_name == 'push' || github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: mamba-org/setup-micromamba@v3.2.1
+        with:
+          environment-file: devtools/conda-envs/test_env.yaml
+          environment-name: test
+          condarc: |
+            channels:
+              - uibcdf
+              - conda-forge
+            channel_priority: strict
+          create-args: python=3.14
+      - run: python -m pip install --no-deps --no-build-isolation .
+        shell: bash -l {0}
+      - name: Verify installed package and dependency closure
+        run: |
+          python -m pip check
+          cd "$RUNNER_TEMP"
+          python -I -c 'from importlib.metadata import distribution; from pathlib import Path; import peptidemt; d = distribution("peptidemt"); assert Path(peptidemt.__file__).resolve() == Path(d.locate_file("peptidemt/__init__.py")).resolve(); print(d.version, peptidemt.__file__)'
+        shell: bash -l {0}
+      - run: python -m pytest --receptor=ci
+        shell: bash -l {0}
+
+  full_matrix:
+    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.11", "3.12", "3.13", "3.14"]
+    steps:
+      - uses: actions/checkout@v6
+      - uses: mamba-org/setup-micromamba@v3.2.1
+        with:
+          environment-file: devtools/conda-envs/test_env.yaml
+          environment-name: test
+          condarc: |
+            channels:
+              - uibcdf
+              - conda-forge
+            channel_priority: strict
+          create-args: python=${{ matrix.python-version }}
+      - run: python -m pip install --no-deps --no-build-isolation .
+        shell: bash -l {0}
+      - name: Verify installed package and dependency closure
+        run: |
+          python -m pip check
+          cd "$RUNNER_TEMP"
+          python -I -c 'from importlib.metadata import distribution; from pathlib import Path; import peptidemt; d = distribution("peptidemt"); assert Path(peptidemt.__file__).resolve() == Path(d.locate_file("peptidemt/__init__.py")).resolve(); print(d.version, peptidemt.__file__)'
+        shell: bash -l {0}
+      - run: python -m pytest --receptor=ci
+        shell: bash -l {0}

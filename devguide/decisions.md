@@ -100,7 +100,7 @@ the semantic responsibilities adopted through P07 are recorded under D15–D16.
 | P02 | Refine context, qualified label/resource mappings and evaluator bindings within D10/D17–D20. | Macrel increment-1 scientific meanings/bindings are accepted under D35; concrete encodings/interfaces and other resources remain open. |
 | P03 | Keep a small sequence/design core with optional molecular and model adapters. | Compare dependency cost against uniform molecular integration. |
 | P05 | Compare and compose filtering, external optimization, sampling-time guidance, functional distributions and learned conditioning through explicit capabilities. | Current [strategy analysis](generative_strategies.md); no definitive generator, common API, capability schema or first comparison experiment selected. |
-| P06 | Formal suite admission and official Python starter generation. | W0 now authorized under D36 and initiated in uibcdf/molsyssuite#146; central acceptance/publication, actual admission SHA, staged official generation and qualification remain pending. |
+| P06 | Formal suite admission and official Python starter generation. | W0 authorized under D36; accepted registration published at 8a94e16f. Official starter integrated; component qualification and central receiving remain pending in uibcdf/molsyssuite#146 and uibcdf/peptidemt#1. |
 | P10 | Distinguish collective/distributional library proposals from individual molecular proposals, including incomplete individuals. | Pending bounded recommendation from [V0.2 case A](future_horizons.md#9-bounded-extensibility-review-after-p09-approval). No library support, generic population hierarchy or MVP requirement adopted; concrete semantics can wait until such a capability is prioritized. |
 
 The [V0.1 direction is accepted under D33](v0_1_scope.md), D34 fixes first coverage/
@@ -656,3 +656,19 @@ status, rationale, affected documents and evidence. Preserve superseded reasonin
 Do not manufacture meeting approvals, experiments, issue numbers or consensus.
 Git history provides the document revision record; a more elaborate ADR system
 is unnecessary at this stage.
+
+## Accepted central registration and component W0 receiving — 2026-10-27
+
+Central maintainers accepted and published registration through PR #147 at
+`8a94e16f1ba26122304df264e89c4eca15afaf5a`; checkpoint `784d7cb7` records
+partial W0, not scientific implementation. The official starter was generated in
+an empty temporary destination from that central checkpoint using immutable
+`policy-v1.5.10` (`1c38d50337ffd67e20eb02f5e02b24152073b3b4`) and the real
+`--admission-sha`. Its baseline is integrated without replacing scientific history.
+
+The investigators expressly authorized one additional local issue,
+[uibcdf/peptidemt#1](https://github.com/uibcdf/peptidemt/issues/1), for W0 evidence
+and receiving because the applicable member reviews require member-owned issues.
+This is an operational extension of D36's reporting authority, not a new scientific
+or architectural decision or authority for other issues. W1 remains gated on W0
+receiving. See the [receiving record](pending_proposals/complete_w0.md).

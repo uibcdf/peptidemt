@@ -1,4 +1,24 @@
-# Design-guide working instructions
+# peptidemt developer-guide instructions
+
+Read `../AGENTS.md` for repository-wide rules and `reporting_protocol.md` for
+the local issue and report lifecycle. Active issue-backed analyses live in
+`pending_bugs/` and `pending_proposals/`; `archive/` preserves resolved and
+superseded history. Use the generated indexes to find current work. Read an
+archived report when tracing a decision, then check the current replacement
+before treating it as a rule.
+
+Keep technical facts and defect details in maintained documents, tests and
+owning issues. Put only lasting working instructions specific to this
+directory here, and repository-wide working instructions in the root
+`AGENTS.md`. Follow the local reporting protocol to synchronize issues and
+report states. After a report lifecycle change, run
+`python devtools/devguide_index.py` to regenerate indexes, then run it with
+`--check` to verify them.
+
+Follow [the canonical instruction policy](../MOLSYSSUITE_GUIDE.md#durable-working-instructions)
+for accepted lasting actions and feedback beyond this component.
+
+## PeptideMT scientific working agreement
 
 Read `../AGENTS.md` and `README.md` first. Keep this guide small and navigable.
 Scientific details belong in the topical documents, not in working instructions.
@@ -9,8 +29,10 @@ proposal as a past agreement. Link verified code observations to exact revisions
 and distinguish source inspection, implementation execution, installed-package
 qualification and scientific validation.
 
-D36 allows the specific central admission issue uibcdf/molsyssuite#146. It does
-not authorize other development issues. Central issue-backed proposal queues and
+D36 allows the specific central admission issue uibcdf/molsyssuite#146. The
+investigators additionally authorized uibcdf/peptidemt#1 for W0 evidence and
+receiving on 2026-10-27. No other development issue is authorized. Central
+issue-backed proposal queues and
 the official starter's reporting machinery follow the real admission route;
 the topical scientific documents are not counterfeit issue-backed lifecycle records.
 

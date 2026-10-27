@@ -3,8 +3,10 @@
 Status: **W0–W4 authorized under D36 within D35/M1–M8; W0 started**,
 2026-10-27. The specific central admission issue is
 [MolSysSuite #146](https://github.com/uibcdf/molsyssuite/issues/146).
-Central acceptance/publication and official bootstrap remain prerequisites for
-W1–W4. No other development issues or package publication are authorized.
+Central registration is accepted at `8a94e16f`; integrated official bootstrap
+qualification and central W0 receiving remain prerequisites for W1–W4.
+PeptideMT #1 is the expressly authorized local W0 evidence issue. No other
+development issues or package publication are authorized.
 HydrAMP remains outside this assignment; H0–H4 remains a proposal.
 
 Navigation: [index](README.md) · [accepted scientific contract](v0_1_increment_1.md)
@@ -248,3 +250,19 @@ also passed. Their trusted-main live jobs and the default-branch coverage upload
 are inapplicable/skipped on this PR; they establish no laboratory/shared-runtime,
 cross-repository label-write or public-coverage adoption. The PR is mergeable but
 unmerged; acceptance and a published admission SHA are still pending.
+
+## W0 receiving update — 2026-10-27
+
+The central classification is accepted, not merely proposed, through
+[merged PR #147](https://github.com/uibcdf/molsyssuite/pull/147), admission
+`8a94e16f1ba26122304df264e89c4eca15afaf5a`. The preceding source review remains a
+dated account of the earlier state. Central checkpoint `784d7cb7` and #146
+require component bootstrap qualification and failed member-audit recovery before W1.
+
+Official generation and reviewed integration preserve all scientific design files
+and existing Git history. [PeptideMT #1](https://github.com/uibcdf/peptidemt/issues/1)
+and its [W0 record](pending_proposals/complete_w0.md) hold actual component
+checks, environment/review evidence and remaining receiving obligations.
+That single local issue was explicitly authorized by the investigators; no
+additional general issue authority follows. W0 engineering checks cannot clear
+Macrel qualification or any scientific M1–M8 gate.

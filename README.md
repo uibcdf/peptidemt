@@ -1,6 +1,11 @@
 # PeptideMT
 
-**Experimental scientific and architectural design workspace.**
+[![MolSysSuite: Scientific Component](https://img.shields.io/badge/MolSysSuite-scientific%20component-0b7285?labelColor=24292f)](https://github.com/uibcdf/molsyssuite/blob/main/devguide/repository_badges.md#scientific-component)
+[![MolSysSuite policy](https://github.com/uibcdf/peptidemt/actions/workflows/molsyssuite-policy.yml/badge.svg?branch=main)](https://github.com/uibcdf/peptidemt/actions/workflows/molsyssuite-policy.yml)
+[![Python 3.11 | 3.12 | 3.13](https://img.shields.io/badge/Python-3.11%20%7C%203.12%20%7C%203.13-3776AB?logo=python&logoColor=white)](https://github.com/uibcdf/molsyssuite/blob/main/devguide/python_policy.md)
+[![License](https://img.shields.io/github/license/uibcdf/peptidemt)](https://github.com/uibcdf/peptidemt/blob/main/LICENSE)
+
+**Incubating MolSysSuite component; official bootstrap qualification in progress.**
 
 PeptideMT is a computational peptide-design platform intended to generate,
 redesign, evaluate and optimize peptide sequences by exploring regions of
@@ -15,8 +20,8 @@ evidence and demonstrated activity must remain distinguishable.
 
 Start with the [design guide](devguide/README.md). The present repository contains
 documentation, not an implemented scientific library or a fixed public API.
-No generator, predictor, molecular representation or first demonstrator has
-been selected.
+Macrel 1.6.1 is the approved first evaluator qualification candidate. No scientific
+operation or provider is implemented or qualified by this bootstrap.
 
 The accepted conceptual architecture separates scientific design intent,
 computational plans and execution evidence. Functional families remain independent
@@ -26,16 +31,37 @@ class names, APIs and storage representations remain open.
 
 ## Ecosystem and admission
 
-PeptideMT is intended to evolve into a MolSysSuite scientific component.
-Formal registration in the central `suite.toml`, Python-component generation,
-policy workflow adoption and installation qualification are **pending**.
-Creating this design repository does not establish suite admission.
+PeptideMT is registered as a primary, incubating, actively developed scientific
+Python component. Central admission is
+[`8a94e16f`](https://github.com/uibcdf/molsyssuite/commit/8a94e16f1ba26122304df264e89c4eca15afaf5a),
+under [MolSysSuite #146](https://github.com/uibcdf/molsyssuite/issues/146).
+The official starter is integrated using `policy-v1.5.10` plus that separate
+admission SHA. Component W0 receiving remains pending in
+[PeptideMT #1](https://github.com/uibcdf/peptidemt/issues/1).
 
-The [official starter route](https://github.com/uibcdf/molsyssuite/blob/14b2e74c4395e112a47cdcd51259767e7af7589d/devguide/new_component_starter_kit.md)
-requires admission before generating a Python package. This documentation-only
-workspace deliberately makes no package, platform-support or release claim.
-Its eventual implementation must use that route rather than treating this
-minimal workspace as an already qualified component.
+The source package currently exposes no scientific public API. Baseline import,
+reporting, lint and installed-package checks establish engineering readiness only.
+No package has been publicly distributed and no OS-support claim is made.
+Required Python compatibility lanes cover 3.11–3.14, with 3.14 for routine work.
+PeptideMT remains outside the named shared suite development profile pending its
+separate receiving qualification. See the
+[W0 record](devguide/pending_proposals/complete_w0.md).
+
+## Development
+
+Read [MOLSYSSUITE_GUIDE.md](MOLSYSSUITE_GUIDE.md) and [AGENTS.md](AGENTS.md).
+Create the component's Python 3.14 Conda environment from
+`devtools/conda-envs/development_env.yaml`, then install the checkout with
+`python -m pip install --no-deps --no-build-isolation --editable .`.
+Check interpreter/import origins and `python -m pip check` before running
+`python -m pytest --receptor=llm`, `ruff check .`, `ruff format --check .` and
+`python devtools/devguide_index.py --check`.
+
+The full baseline suite runs for pushes/PRs on Linux/Python 3.14, and on every
+supported minor through manual dispatch and the weekly matrix. The source-only
+baseline has no meaningful scientific coverage report; no Codecov percentage,
+model readiness or package-channel badge is claimed. Reassess coverage when W1
+introduces scientific behavior. This is not a release or a public install route.
 
 ## Working agreement
 
