@@ -1,6 +1,9 @@
 # Bioactive peptide functions and multifunctional learning
 
-Status: **verified literature observations and proposed design implications**, 2026-10-26. This is a research catalog, **not** an approved peptide-function ontology, an implementation inventory or a frozen scope.
+Status: **verified literature observations and pending P08 alternatives**,
+2026-10-26. Family/model independence is accepted (D10); P07's attribution
+responsibilities are accepted (D15–D16). The catalog/resource proposal below
+is not an approved ontology, API, implementation inventory or frozen scope.
 
 Navigation: [index](README.md) · [learned functional spaces](literature.md) · [scope](vision_scope.md) · [open questions](open_questions.md).
 
@@ -116,3 +119,193 @@ this breadth. Conceptual stress tests (none selected for experiments):
 Questions to resolve in discussion: What minimal label/family semantics must be fixed before a first adapter? How do source-specific labels map to shared concepts? What hierarchy is useful without overengineering? What counts as a real joint-function observation? How do we compare independent predictors with multi-label models when source datasets overlap? How can family distributions seed target-conditioned generation without collapsing diversity?
 
 **No new architecture approval, first demonstration, library implementation, development issue or class/API decision is implied by this research note.**
+
+## P08: conceptual alternatives and generative use
+
+Status: **discussion and recommendation, not approval**. The function inventory
+above is evidence for breadth, not a reason to adopt its label sets wholesale.
+This section develops P08 without selecting models or prescribing an API.
+
+### Three alternatives
+
+| Alternative | Benefit | Limitation |
+| --- | --- | --- |
+| 1. Catalog of model/database labels | Small initial effort; faithfully exposes each resource's vocabulary. | The same scientific request changes when a model changes. Synonyms, broader labels and incompatible source meanings become hard to distinguish. A useful import inventory, insufficient as the scientific problem's vocabulary. |
+| 2. Small scientific concept catalog with qualified source/resource associations | Keeps intent stable across models, supports unknown functions and many-to-many resources, and can record overlap without a complete ontology. | Requires curation of definitions and mappings; unresolved mappings must remain visible. Excessive mandatory metadata would recreate an ontology indirectly. |
+| 3. Formal ontology with inference rules and comprehensive relations | Can support rich queries and consistent hierarchical reasoning once definitions and evidence justify them. | Premature consensus, migration burden and false deductions from heterogeneous labels; unnecessary for the current design cases. |
+
+**Recommendation: alternative 2.** Start with short scientific definitions and
+source-qualified associations only where needed by a problem or resource.
+Do not require a complete catalog before a campaign or adopt a 21/47-function
+enumeration. Alternative 1 remains useful for raw imports. Revisit richer
+reasoning only when concrete scientific use cases require it.
+
+### Separate scientific meaning, source meaning and computational use
+
+The minimal scientific concept can be a name, short definition, reference or
+definition provenance, and relevant context/explicit unknowns. It denotes a
+function under a definition, not necessarily a homologous group or a single
+compact region of sequence/feature space. Meaning facets
+(phenotype, access, mechanism, signaling, etc.) can be descriptive rather than
+mandatory categories. No universal assay, protein target or numeric activity
+threshold is required to name a function. A concept can exist with no qualified
+computational model, and a campaign can introduce a provisional definition.
+
+A problem requests a function with its relevant context and intended direction
+(promote, avoid or characterize); a generic catalog definition need not contain
+every campaign's cell line or endpoint. A source label retains its own dataset
+definition, curation/negative rules and conditions. An association states what
+part of the requested function a resource can address, with evidence and limits.
+The plan selects actual resources, operational score criteria, rewards and
+aggregation. Execution records their versions, actual inputs and results under
+P07. These are responsibilities, not four required software objects.
+
+In particular, a predictor that calls a sequence CPP-compatible may provide a
+limited proxy for a campaign requesting cytosolic delivery. Calling it a proxy
+does not establish the desired access. A classifier's antihypertensive label
+does not make it an ACE-inhibition evaluator. A source's generic antimicrobial
+label can mean a residual category, as in Xiao et al., rather than the broad
+umbrella concept used elsewhere. Similar wording cannot establish equivalence.
+
+Keep source-to-concept associations qualified as equivalent within stated scope,
+narrower, broader, partial/proxy or unresolved when useful; these are proposed
+descriptions, not a fixed relation enum. Mapping direction matters. A source
+label can cover several possible interpretations, and several labels can refer
+to overlapping parts of one concept. Unknown mappings should not be guessed to
+make a model appear to cover the scientific request. A changed interpretation
+must remain traceable rather than retroactively changing prior outputs.
+
+### Relations and overlap without an ontology engine
+
+Distinguish three different claims:
+
+- **Scientific relations:** a justified broader/narrower meaning, mechanistic
+  connection, overlap or context-dependent opposition. Preserve source, direction,
+  scope and uncertainty. ACE inhibition may support an antihypertensive hypothesis;
+  that is not equivalence or a universal parent/child relation. Tumor homing and
+  CPP concern different access/localization properties.
+- **Dataset relations:** co-annotation, apparent exclusivity or missing labels
+  under particular curation. Counts depend on sampling and annotation. Parent/
+  child labels are not automatically two independent functional achievements.
+- **Model relations:** shared features, correlated outputs, common training data
+  or a learned dependency. These do not establish biological implication or
+  independent corroboration. Multi-label prediction need not supply a calibrated
+  joint distribution over activities.
+
+Initially retain a small number of explanatory assertions when they affect a
+decision. Do not infer activity transitively, populate a complete relationship
+graph or assert mutually exclusive families from absence of co-annotations.
+Conflicting source assertions can coexist with their provenance. A new relation
+must not silently change a campaign's objective or double its reward.
+
+### Five resource roles, associated rather than owned by a family
+
+| Resource | Contribution | Qualification needed |
+| --- | --- | --- |
+| Individual or multi-label discriminative predictor | Scores/labels for one or several source-defined functions. | Per-output semantics/order, score versus probability, threshold, calibration evidence, input chemistry, empirical support, negatives/missing labels and provenance. |
+| Learned family-enriched distribution | Proposals or a prior favoring patterns learned from family data. | Conditioning/training definition, sampling support, bias and diversity; an implicit sampler need not expose likelihoods. Sampling is not proof of membership. |
+| Conditional generator | Proposals responding to supported target/function/context conditions. | Actual accepted conditions and representation, editable states/native constraints and tested combinations; no arbitrary function can be enabled by naming it. |
+| Reward or guidance procedure | A reward transforms evaluations into a search preference; guidance uses it to change proposals or sampling. | Preserve component scores, direction/scaling, missing-input policy and actual intervention/access. A reward is not the scientific function, and an optimizer is not a predictor. |
+| Dataset or evidence collection | Observations, annotations, definitions, examples or training/evaluation material. | Chemical identity/partiality, assays, sources, measured versus unannotated negatives, splits, coverage, permissions and contradictions; data availability is not an inference capability. |
+
+Associations are many-to-many: one multi-label model is one versioned resource
+with several output bindings, not 21 independent scientific resources. The same
+model can be used for final evaluation or search feedback; that role is plan
+specific. Several resources may address one function and disagree. A condition's
+availability does not imply an independently qualified evaluator exists, nor the
+reverse. Preserve scientific requirements that have no applicable resource as
+unassessed; model availability must not define the scope of PeptideMT.
+
+### Integration exercise: 21-function predictor plus a protein-conditioned generator
+
+**Scientific problem:** retain the existing target-directed CPP/binder intent
+(case A), without specifying a predictor. Other requested functions could be
+added with their own meanings; unrequested outputs are not automatically desired
+or forbidden. The 21 output slots do not become the platform's function list.
+
+**Concrete precedents:** PrMFTP is sequence based; a structural target-conditioned
+engine such as DiffPepBuilder operates on a target and peptide sequence/structure
+proposals. Their inspected interfaces are documented in
+[the integration observations](literature.md#prmftp--21-label-source-level-integration-observations).
+This is a proposed composition, not a tested adapter or model choice.
+
+First compare the generator's output and empirical domain with the predictor's
+input and training/evaluation scope. Keep the scientific allowed domain separate
+from the subset a plan can assess. The overlap may be narrow or empty. Length/
+alphabet acceptance alone is insufficient: a modified binder, constrained fold,
+unusual sequence distribution or assay context may lack supporting predictor
+evidence even when its sequence can be encoded.
+
+| Situation | Conceptual plan response | Evidence boundary |
+| --- | --- | --- |
+| Target generator supplies a supported complete residue sequence plus a complex | Retain the complex for recognition; derive a sequence view with recorded correspondence and evaluate the mapped function outputs. | The sequence predictor does not evaluate the complex, target specificity or the requested site mechanism. |
+| Generator supplies only a backbone or partial sequence | Defer the sequence evaluation or score supported explicit completions/rollouts. | A completion's family score is attributed to that hypothesis, not automatically to its unfinished source. Geometry can be evaluated separately. |
+| Realization contains a link, cap or stereochemistry absent from the predictor's input | Use a qualified projection only with explicit scientific limits, obtain another compatible evaluator, or abstain for that requirement. | Removing chemistry to encode a sequence cannot establish full-molecule function. Hypothetical completion under P07 does not fix model-domain mismatch. |
+| No applicable mapping/output or no supported joint domain | Record missing coverage; use another plan or report the limitation without rewriting the intent. | Unsupported is not inactive, zero score, or permission to substitute another functional meaning. |
+
+The recognition result and family outputs remain separate. Family prediction is
+not made target-specific merely because the sequence came from a target-conditioned
+generator. A shared peptide input couples the searches operationally, not as proof
+of a joint mechanistic probability. Use MolSysMT for supported molecular extraction/
+conversion and maps; PeptideMT retains the design association and evaluation
+attribution. No shared embedding, tokenizer, framework or differentiability is
+required for a first external composition. Legacy engines may require separate
+environments; launch/serialization behavior still needs qualification.
+
+The same problem permits several intervention levels:
+
+1. **Generate then filter/rank:** evaluate completed proposals using mapped
+   outputs and recognition evidence. This is the simplest baseline and does not
+   change the generator's original sampling.
+2. **External multiobjective optimization:** use compatible edits/resampling and
+   predictor feedback to change subsequent proposals. Reevaluate target recognition
+   after sequence changes; the original pose/score is not preserved by default.
+3. **Sampling-time guidance:** only if the engine exposes usable sampling access.
+   Complete supported rollouts before applying a clean-sequence classifier when
+   partial/noisy inputs are unsupported. The existing reviews of PepTune and NOS
+   provide different precedents, not a native PrMFTP/DiffPepBuilder callback.
+4. **Learned joint conditioning:** reuse qualified native conditions or consider
+   adaptation/training later if evidence and cost justify it. A discriminative
+   family predictor alone does not supply a target/function conditional sampler.
+
+For backbone-first methods, the useful intervention may be inverse folding or an
+outer alternating search. Nothing in a classifier adapter establishes gradients
+through discrete sequence extraction or the generator's hidden states. If only
+thresholded labels are available, they can support a coarse policy; continuous
+rewards require access to the underlying scores and their interpretation, not
+fabricated numerical precision.
+
+### Selection, contradictions and assessment
+
+Choose the requested subset of outputs with justified mappings; preserve the
+other outputs when available without optimizing all 21 toward high activity.
+Avoid rewarding broad/narrower synonyms twice or treating unrequested function
+labels as negative requirements. Keep raw values and label-specific policies;
+do not sum arbitrary scales or multiply marginals into a joint probability.
+Objective vectors, constraints and diversity remain preferable subjects for
+discussion (P04), not an adopted universal selector. Missing evidence may lead
+to abstention/deferment; the plan must state how it affects search and selection.
+
+Compare only sufficiently aligned subjects, chemical views, contexts and claims
+before calling outputs contradictory. Keep disagreement and calibration evidence
+separate from selection policy. Shared training data weaken claims of independent
+confirmation. A score used repeatedly as a reward can be exploited; compare
+strategies using matched budgets, coverage/diversity, independent evaluations
+where feasible, and actual changes in sampling. Without assays, conclusions are
+computational rather than demonstrated multifunctional activity.
+
+For target-free tasks, omit the target/recognition requirement rather than
+inventing one; the same family mappings, resources and attribution still apply.
+Family priors and mixtures can seed either kind of task, but neither co-annotation
+nor combining sampler densities guarantees conjunction, mode coverage or access
+to candidates outside their support.
+
+### Next decision proposed for discussion
+
+Agree first whether P08 should distinguish **scientific function concepts,
+source-specific labels and qualified resource associations** as in alternative 2,
+without fixing their encoding. Then discuss the minimum meaning of a qualified
+association: what does an evaluator assess directly, what is only a proxy, and
+when must the requested function remain unassessed? Catalog relation rules,
+reward policies, exact model selection, API and registry mechanics remain later
+questions. This recommendation does not adopt P08 or close P02/P04.

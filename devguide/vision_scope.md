@@ -69,7 +69,11 @@ Sequence strings are convenient views, not complete chemical identity.
 Useful proposals can be sequence-only, backbone-first or otherwise incomplete;
 chemical completion is not a universal prerequisite to generation or supported
 early evaluation. Missing chemistry and omitted information in a view of a known
-molecule must remain distinguishable. The revised P07 alternatives are pending.
+molecule must remain distinguishable. P07 alternative III is accepted under
+D15–D16: explicit relations and evaluation attribution, including hypothetical
+realizations, without mandatory stages or a fixed hierarchy. Canonical identity,
+chemical-state grouping, identifiers, storage, interfaces and initial chemistry
+support remain open.
 Termini, chirality, modifications, cyclization and links can distinguish candidates
 with the same one-letter sequence. Unsupported chemistry must be rejected or
 explicitly marked unassessed, not simplified silently.

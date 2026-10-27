@@ -38,8 +38,9 @@ evidence layer, not a definition of computational completion.
 
 Follow the [agreed working methodology](design_methodology.md): mature scientific
 requirements and acceptance criteria before authorizing a capability, without
-prescribing all implementation details. P07/P08 remain pending; this roadmap does
-not resolve their representation choices or authorize programming.
+prescribing all implementation details. P07's semantic responsibilities are
+accepted under D15–D16; concrete identity/representation choices remain open.
+P08 remains pending. This roadmap does not authorize programming.
 
 Before Python implementation, agree formal admission to MolSysSuite and use
 its official registered-component starter. Pin model/license/weight provenance

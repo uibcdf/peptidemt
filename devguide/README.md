@@ -11,11 +11,12 @@ specification. No scientific implementation or public API is defined.
 2. [Integration audit](integration_audit.md): preserved findings from all eleven
    MolSysSuite repositories and six MolI repositories, pinned to inspected source.
 3. [Bioactive functional families and multifunctional datasets](functional_families.md):
-   verified 20/21/47-label precedents, a broadened function map, and catalog proposals.
+   verified 20/21/47-label precedents and pending P08 alternatives for concepts,
+   source labels, resource associations and generative use.
 4. [Literature and learned functional spaces](literature.md): primary references,
    public implementations, negative-data caveats and inference-time guidance.
 5. [Architectural alternatives](architecture_alternatives.md): alternative B
-   accepted conceptually; revised P07 alternatives for proposals, chemistry and evaluations.
+   accepted conceptually; P07 alternative III accepted as semantic responsibilities.
 6. [Four worked design problems](design_examples.md): scientific intent,
    alternative plans, execution evidence, incomplete proposals and contradictions;
    target-free CPP + AMP and brief probes of additional functional meanings.
@@ -51,11 +52,16 @@ criteria; no complex ontology is required.
 The [worked examples](design_examples.md) test this separation. A newer
 [literature-grounded function review](functional_families.md) expands beyond the
 three frequently discussed labels (CPP, AMP, ACP) to many potentially overlapping
-functions; its catalog proposal has not been approved as an ontology or API. The next proposed
-decision concerns incomplete proposals, chemical realizations, representations,
-states and the concrete subject of evaluation;
-see [Q3](open_questions.md#q3-candidate-chemistry-and-representation). This proposal
-does not approve an API, identifier syntax or initial chemistry support envelope.
+functions. P07 alternative III and explicit hypothetical-realization evaluations
+are accepted (D15–D16), with traceability, no automatic score transfer and no
+mandatory stages. Canonical identity, state grouping, identifiers, persistence,
+concrete interfaces and initial chemistry support remain open; see
+[Q3](open_questions.md#q3-candidate-chemistry-and-representation).
+
+The current discussion is [P08](functional_families.md#p08-conceptual-alternatives-and-generative-use):
+scientific function concepts, qualified source-label/resource associations,
+overlap and their use in target-directed or target-free generation. Its catalog
+recommendation is pending; no ontology or API is adopted.
 
 De novo generation and redesign remain equally in scope. No first experimental
 demonstrator has been chosen. Completion of a computational campaign does not

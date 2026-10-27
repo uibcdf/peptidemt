@@ -128,9 +128,11 @@ No generator/predictor contract or concrete method name is adopted here.
 
 ## P07 reconsidered: proposals, chemistry, views and evaluation subjects
 
-Status: **pending alternatives and recommendation**, 2026-10-26. The investigators
-require useful incomplete proposals and heterogeneous evaluators to be considered;
-the distinctions below are not an approved class hierarchy or storage design.
+Status: **alternative III accepted conceptually as D15–D16**, 2026-10-26,
+including explicit hypothetical realizations and qualified evaluations. The
+comparison below preserves the reasoning; no class hierarchy or storage design
+is approved. Canonical identity, state grouping, identifiers, persistence,
+concrete interfaces and initial chemistry support remain open.
 See the [four cases and additional probes](design_examples.md).
 
 The earlier candidate-versus-representation proposal omitted a stage: a useful
@@ -150,16 +152,20 @@ These alternatives concern P07; they do not reopen architectural alternatives A/
 | II. Keep one generic design item with optional fields that are filled in over time | Low initial ceremony; supports any generator output. | Evaluations can appear to apply to chemistry determined later. Mutation in place obscures assumptions, branching and provenance unless historical views and relations are made explicit. With those safeguards it approaches III in meaning. |
 | III. Permit incomplete proposals and explicitly relate their chemical realizations, views and evaluations | Supports early predictions, chemical branching and convergent derivations without inventing chemistry; matches heterogeneous engines. | Requires explicit unknowns, transformations and attribution. Can become overengineered if each distinction becomes a mandatory object or workflow stage. |
 
-**Recommendation: III, with minimal semantic distinctions rather than mandatory
+**Accepted conceptual choice: III, with semantic distinctions rather than mandatory
 layers.** A fully specified chemical proposal can already serve as a candidate;
 there need not be an artificial completion operation. The same conceptual record
 format could express several roles if it preserves their meaning and history.
 No universal molecular representation, five-class inheritance tree or workflow
-engine follows from this recommendation. II remains viable if it satisfies the
-same attribution and branching obligations. The choice is about scientific
-semantics before software structure.
+engine follows from this approval. A generic record as in II remains an encoding
+possibility if it preserves the adopted distinctions, attribution and branching.
+The choice concerns scientific semantics before software structure.
 
-### Proposed semantic obligations, not an API
+### Accepted responsibilities and illustrative detail, not an API
+
+The seven approved P07 principles are recorded in [decisions](decisions.md).
+The following elaborates their meaning; individual field inventories and the
+compatibility table are illustrative rather than approved schemas.
 
 - A **peptide proposal** preserves what was actually generated, its origin,
   determined information, unresolved choices and declared assumptions. It may
@@ -207,6 +213,13 @@ how to select under missing evidence. The execution records the actual branches,
 assumptions and outputs. An unfinished proposal can be a legitimate campaign
 result, explicitly distinguished from a chemically specified final shortlist.
 Neither condition alone proves functional activity.
+
+When information is missing, the plan may introduce one or more **explicit
+hypothetical chemical realizations** to meet an evaluator's requirements. Keep
+the original proposal unchanged in meaning, the introduced assumptions and each
+evaluation's actual subject. A realization need not be experimental or known to
+exist in the sampled biological environment. A directly generated complete
+molecule, partial sequence or backbone need not traverse artificial stages.
 
 ### Relations and counterexamples that matter
 
@@ -265,5 +278,7 @@ heterogeneous inputs; the cases expose why chemical branching and output
 attribution matter. They do not prove an implementation of III is preferable
 in cost or usability. Review whether these minimal distinctions suffice for
 mixed-chemistry inputs, ambiguous mixtures and source annotations later; do not
-add a comprehensive entity ontology now. P07 and the broader family-catalog
-proposal P08 remain pending and independently discussable.
+add a comprehensive entity ontology now. P07's semantic alternative is accepted;
+the explicitly deferred identity/interface/storage questions remain open. The
+broader family-catalog proposal P08 is the next discussion; see its
+[alternatives and model-composition exercise](functional_families.md#p08-conceptual-alternatives-and-generative-use).

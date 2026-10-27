@@ -155,6 +155,41 @@ context illustrates why optional process/environment adapters may be necessary.
 
 ## D. Positive, negative and missing labels
 
+### PrMFTP — 21-label source-level integration observations
+
+Additional inspection: **2026-10-26**, no model installation or execution.
+[Yan et al. (2022)](https://doi.org/10.1371/journal.pcbi.1010511) reports
+sequence-based multi-label prediction, sigmoid outputs and a 0.5 label threshold.
+This is not demonstrated calibration or a learned joint activity distribution.
+
+At official source revision
+[`42488d2`](https://github.com/xialab-ahu/PrMFTP/tree/42488d2e1a2cc2855375717fa926d21c8887783e),
+[`predictor.py`](https://github.com/xialab-ahu/PrMFTP/blob/42488d2e1a2cc2855375717fa926d21c8887783e/predictor.py)
+encodes sequence letters, pads to 50 positions, averages ten checkpoints and
+thresholds the averages before exporting named labels. Its fixed output-name
+order must accompany the checkpoint. An exported `none` means no thresholded
+label, not measured absence of all functions. It does not export the continuous
+scores as a ready-made reward interface.
+
+[`MLTP/main.py`](https://github.com/xialab-ahu/PrMFTP/blob/42488d2e1a2cc2855375717fa926d21c8887783e/MLTP/main.py)
+filters training inputs above 50 residues; the prediction script does not provide
+equivalent explicit length rejection. Its `X` encoding does not establish
+qualified prediction on masked/ambiguous proposals. The
+[requirements](https://github.com/xialab-ahu/PrMFTP/blob/42488d2e1a2cc2855375717fa926d21c8887783e/requirements.txt)
+pin legacy Keras/TensorFlow; environment and launch-path qualification remain
+pending. These are source observations, not a successful runtime check.
+
+**Proposed adaptation, not implemented:** preserve per-output scores and model
+provenance before thresholding when accessible; distinguish the discrete-label
+capability from continuous scoring. Validate chemical/input applicability and
+label mapping separately. The
+[P08 composition exercise](functional_families.md#p08-conceptual-alternatives-and-generative-use)
+considers a structural target-conditioned generator. Its concrete counterpart,
+[DiffPepBuilder's inspected instructions](https://github.com/YuzheWangPKU/DiffPepBuilder/blob/c19eb4f0cd2419d3bcc116184c0868243b6c4169/README.md),
+uses prepared receptor data, sequence/structure generation and optional disulfide
+construction/postprocessing. That chemistry cannot be assumed covered by a
+sequence-only functional predictor. No native cross-model guidance is established.
+
 | Family/example | Primary evidence about dataset construction | Consequence for PeptideMT |
 | --- | --- | --- |
 | CPP: CPPred-FL | [DOI 10.1093/bib/bby091](https://doi.org/10.1093/bib/bby091) describes CPP924 positives from CPPsite and random-sequence negatives. | Score may distinguish curated CPPs from that artificial background, not experimentally tested nonpenetrators in our candidate population. |

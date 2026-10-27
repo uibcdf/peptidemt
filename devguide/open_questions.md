@@ -3,8 +3,8 @@
 Navigation: [index](README.md) · [alternatives](architecture_alternatives.md) · [decisions](decisions.md).
 All questions remain open unless an explicit decision is recorded.
 
-Updated: 2026-10-26. Alternative B is accepted under D09–D13; the
-[worked cases](design_examples.md) are analysis, not additional approvals.
+Updated: 2026-10-26. Alternative B is accepted under D09–D13 and revised P07
+under D15–D16. The worked cases remain illustrative, with no selected demonstrator.
 
 ## Q1. Design intent and execution
 
@@ -15,6 +15,25 @@ representations, evidence obligations and plan comparability, not whether to
 adopt the separation. See D09–D13 and the worked cases.
 
 ## Q2. Family definitions and evidence
+
+**Current discussion (P08), not approved:** compare a catalog of source labels,
+a small scientific concept catalog with qualified source/resource associations,
+and a richer ontology. The [analysis and recommendation](functional_families.md#p08-conceptual-alternatives-and-generative-use)
+favors the middle option without specifying software objects. Family/model
+independence is already accepted; association and relation semantics remain open.
+
+Start with whether scientific concepts, source-specific labels and resource
+associations need distinct meanings. What minimum definition/context/reference
+is sufficient? When is a label mapping equivalent, narrower, partial/proxy or
+unresolved? Can a model assist search while leaving the requested scientific
+function unassessed? How do we distinguish scientific relations from dataset
+co-annotation and correlated model outputs without a reasoning ontology?
+
+The 21-label predictor/structural target-generator exercise exposes representation
+conversion versus empirical applicability, partial completions under P07, discrete
+labels versus scores, and final filtering versus actual sampling intervention.
+Which qualification is needed for a resource to guide exploration, and which
+additional evidence is needed to assess a selected candidate's requested function?
 
 The [extended literature inventory](functional_families.md) documents more than
 CPP/AMP/ACP: MultiPep (20 labels), PrMFTP/ETFC (21) and Xiao et al.'s dataset
@@ -32,22 +51,20 @@ How do model-specific label semantics affect multifamily requests?
 
 ## Q3. Candidate chemistry and representation
 
-**Revised next decision (P07), awaiting approval:** how should potentially
-incomplete proposals relate to chemical realizations, views, molecular states,
-conformers/poses and the actual subject of evaluation? Compare the
-[three alternatives and recommendation](architecture_alternatives.md#p07-reconsidered-proposals-chemistry-views-and-evaluation-subjects).
-Sequence/backbone proposals must not require fabricated chemistry or coordinates
-to become useful results. No mandatory hierarchy follows from that requirement.
+**Resolved conceptually (D15–D16):** P07 alternative III permits incomplete
+proposals, explicit realizations and evaluated-view relationships. Supported
+direct evaluations and evaluations of explicit hypothetical chemical realizations
+are allowed, without rewriting the original proposal. Preserve actual inputs,
+chemistry, assumptions, transformations, model and attribution limits. Completion,
+conversion and redesign differ; calculation reuse does not guarantee scientific
+transfer. Retain convergent provenance and do not impose mandatory stages.
 
-Begin with attribution: what can a supported sequence-only prediction claim when
-termini remain unresolved, and what must be reconsidered after branching into
-free-terminal and amidated candidates? Preserve original inputs and assumptions
-rather than retroactively filling them in. What minimum known/unknown information
-is needed for each evaluator? When is a chemical realization sufficiently defined,
-and how are completion, redesign and lossless/lossy conversion distinguished?
-How should multiple derivations converging on one molecule remain traceable?
-Which state differences should be grouped under a parent without merging the
-evaluated chemical species? Identifier formats and persistence are later choices.
+**Explicitly still open:** canonical molecular identity, grouping of chemical
+states, identifier schemes, persistence, concrete interfaces and initial chemical
+support. What minimum known/unknown information is needed by each evaluator?
+When is a chemical realization sufficiently defined? Which species differences
+can be grouped under a parent without merging evaluation subjects? See the
+[accepted P07 record](architecture_alternatives.md#p07-reconsidered-proposals-chemistry-views-and-evaluation-subjects).
 
 What is the initial supported subset, and how do we preserve unsupported
 modifications? How do sequence, chemical identity, conformer and target-bound

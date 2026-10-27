@@ -5,6 +5,9 @@ Date: **2026-10-26**. Navigation: [index](README.md) ·
 
 **Accepted:** the conceptual separation of scientific problem, computational plan
 and execution evidence (D09–D13).
+P07's semantic relationships and explicit hypothetical-realization evaluations
+are now accepted under D15–D16; concrete encodings and chemical-state grouping
+remain open.
 **Proposed analysis:** every target choice, chemistry envelope, plan and example
 outcome below. These are thought experiments, not selected demonstrators, executed
 campaigns, discovered peptides or new API/storage decisions. No sequences, assay
@@ -40,8 +43,10 @@ envelopes below constrain possible realizations; they do not require generators
 to emit fully specified molecules. A plan may evaluate a supported sequence
 before completing chemistry, recording its unknowns and assumptions. Whether
 the plan returns proposals or a chemically defined shortlist must be explicit.
-The [P07 alternatives](architecture_alternatives.md#p07-reconsidered-proposals-chemistry-views-and-evaluation-subjects)
-discuss this distinction without adopting a hierarchy.
+The [P07 record](architecture_alternatives.md#p07-reconsidered-proposals-chemistry-views-and-evaluation-subjects)
+documents the accepted distinction without adopting a hierarchy. An evaluator
+that needs more chemical information may consume an explicit hypothetical
+realization, retaining assumptions rather than retroactively completing its source.
 
 ## 2. Case A — protein binder with CPP properties
 
@@ -234,7 +239,7 @@ noncanonical stereochemistry where applicable, parent/derivative relationships,
 which structure/state/pose each evaluation used, and any projection into a model's
 input alphabet. A change of staple, cap or residue chirality creates a chemically
 different candidate for this analysis; conformer/chemical-state identity is a
-separate question still awaiting P07 approval.
+separate question explicitly deferred beyond P07's semantic approval.
 
 An illustrative linear candidate can receive favorable CPP and unfavorable ACP
 outputs; a second ACP model may disagree. Preserve both outputs, dataset scopes,
@@ -364,15 +369,16 @@ capability checks; and execution-level subjects/views, determined chemistry,
 evaluations, selection history, uncertainty/applicability and lineage.
 No special case requires redefining the accepted three-way separation.
 
-The following are **proposed refinements**, not adopted schemas:
+The following combines accepted P07 responsibilities with further analysis.
+It does not adopt schemas, canonical identity or selection/status policies:
 
 1. **Proposals, chemical identity and views.** A useful proposal may be incomplete
    and still support some evaluations. A sequence, SMILES and molecular file can
    represent one candidate with different fidelity. Changed caps/links/chirality
    can instead describe a derivative. Candidate identity cannot be a one-letter
    sequence alone. Molecular states/conformers/poses need qualified references;
-   deciding their precise identity relationships and proposal-to-candidate
-   realization is P07, not settled here. Completing chemistry is not necessarily
+   P07 adopts explicit proposal-to-realization relations, but canonical identity
+   and state grouping remain unsettled. Completing chemistry is not necessarily
    a lossless representation conversion, and multiple derivations can converge
    on one chemical candidate without erasing their provenance.
    In particular, protonation/tautomer states may be grouped under a designed
@@ -469,11 +475,10 @@ and exposes why evaluation can precede chemical completion. It does not prove
 biological feasibility or an implemented target-free workflow. The expanded
 catalog requires heterogeneous function/context meanings, not a fixed ontology.
 
-The next proposed discussion is **what a prediction is attributable to when a
-proposal is incomplete or branches into chemical realizations**. The revised
-[P07 alternatives](architecture_alternatives.md#p07-reconsidered-proposals-chemistry-views-and-evaluation-subjects)
-recommend permitting proposals, explicit realizations and evaluated views without
-a mandatory hierarchy. P07 is still pending. Leave identifier syntax, molecular
-canonicalization, state grouping, persistence, exact adapters and initial chemistry
-support open. The [working methodology](design_methodology.md) governs how these
-questions mature into approved contracts before implementation.
+P07's conceptual alternative III is now accepted under D15–D16, including explicit
+hypothetical realizations, evaluated-view attribution and no mandatory hierarchy.
+Identifier syntax, molecular canonicalization, state grouping, persistence,
+concrete interfaces and initial chemistry support remain open. The next discussion
+is [P08's family/resource semantics](functional_families.md#p08-conceptual-alternatives-and-generative-use).
+The [working methodology](design_methodology.md) governs how these questions
+mature into approved contracts before implementation.

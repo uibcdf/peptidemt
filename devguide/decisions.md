@@ -3,8 +3,8 @@
 Navigation: [index](README.md) · [scope](vision_scope.md) · [alternatives](architecture_alternatives.md).
 Date of initial record: **2026-10-26**. Approval authority: the investigators.
 
-Updated: **2026-10-26**, including the investigator-directed methodology and
-reconsideration of P07 after the expanded functional-family review.
+Updated: **2026-10-26**, including conceptual approval of P07 and explicit
+hypothetical realizations; P08 is the current pending discussion.
 
 ## Accepted working directions
 
@@ -36,10 +36,13 @@ they are repository setup choices, not scientific decisions.
 | D11 | Distinguish a desired functional property from operational criteria used to select candidates. | A score threshold does not define or establish bioactivity. A scientifically meaningful numerical requirement can still belong to the problem. |
 | D12 | Keep family representation initially simple and extensible. | No complex family ontology is authorized. |
 | D13 | Simultaneous target- and family-conditioned design remains central, while target-free tasks stay in scope. | Target-free support does not dilute the central joint-design objective. |
+| D15 | Adopt P07 alternative III: admit potentially incomplete peptide proposals explicitly related to chemical realizations, representations, molecular states and evaluations. | Explicit investigator approval. Semantic responsibilities only; no mandatory stages, class hierarchy, API or persistence schema. Preserve convergent generation provenance. |
+| D16 | Allow evaluations of explicit hypothetical chemical realizations when a method needs information absent from the original proposal. | The plan may branch into several realizations; retain actual inputs, chemistry, assumptions, transformations, model and attribution limits without retroactively completing the original. Computational reuse needs justified equivalence and does not by itself establish scientific transfer. |
 
 The [four worked examples](design_examples.md) are conceptual stress tests and
-pending analysis, not selected demonstrators, executed campaigns or additional
-accepted architecture. They preserve the approved three-way separation.
+conceptual analysis, not selected demonstrators or executed campaigns. Their
+individual targets, chemistry envelopes and plans are not approved architecture;
+the semantic responsibilities adopted through P07 are recorded under D15–D16.
 
 ## Pending proposals
 
@@ -50,8 +53,7 @@ accepted architecture. They preserve the approved three-way separation.
 | P04 | Retain objective vectors, feasibility, applicability and diversity rather than only one scalar reward. | Decide which selection policies are required initially. |
 | P05 | Use black-box external optimization and rollout/tree guidance as routes to reuse existing family models. | Select bounded comparison experiments later. |
 | P06 | Formal suite admission and official Python starter generation. | Agree the central process; no issue or sibling-registry change is authorized by this initial documentation publication. |
-| P07 | Relate potentially incomplete peptide proposals, chemical realizations, representations/feature views, states/conformers/poses and concrete evaluation subjects. | Revised after investigator feedback: compare the [three alternatives](architecture_alternatives.md#p07-reconsidered-proposals-chemistry-views-and-evaluation-subjects), permit early sequence/backbone outputs and qualified evaluation, preserve branching and attribution. No hierarchy, identifiers, state grouping, storage or initial chemical envelope approved. |
-| P08 | Explore a simple, extensible functional-concept catalog and source-specific label mappings, broader than CPP/AMP/ACP. | A literature inventory has been added; no fixed ontology, list of supported models, or schema is approved. |
+| P08 | Compare source-label catalogs, a small scientific concept catalog with qualified resource/label associations, and richer ontologies; study use of heterogeneous resources in generative design. | Current discussion in [functional_families.md](functional_families.md#p08-conceptual-alternatives-and-generative-use). Family independence is already accepted; the catalog, relationship rules and resource-binding semantics proposed here remain pending. No fixed ontology, model list or schema. |
 
 ### Proposal disposition
 
@@ -59,6 +61,23 @@ P01 was proposed in the initial publication and **accepted conceptually as D09**
 on 2026-10-26. This resolves the architectural choice without approving names,
 schemas or implementation. P02's independence principle is accepted as D10;
 its minimal semantic contract remains pending.
+
+P07 alternative III is **accepted conceptually as D15**, together with explicit
+hypothetical-realization evaluation under D16, after the revised analysis.
+This approval includes seven principles: useful incomplete outputs and supported
+direct evaluation; explicit hypothetical branching; actual-input/assumption/model
+traceability; distinct completion, conversion and redesign; no automatic score
+attribution and justified reuse; preservation of convergent provenance; and no
+mandatory order of stages. MolSysMT continues to own molecular representation
+and manipulation; PeptideMT retains design-specific meaning.
+
+Canonical molecular identity, chemical-state grouping, identifier schemes,
+persistence, concrete interfaces and the initial chemical support envelope remain
+open. P08 has not been approved. P02's remaining family semantics are discussed
+alongside P08 rather than silently resolved by P07.
+
+The dated discussion updates below preserve the status at each revision. Current
+approval status is given in the accepted decisions and proposal disposition above.
 
 ## Research hypotheses
 
@@ -95,7 +114,8 @@ installed, trained, benchmarked or experimentally validated for this repository.
 6. The original P07 wording started with a chemical candidate and omitted useful
    incomplete proposals. The revised analysis includes sequence/backbone-first
    outputs and distinguishes chemical completion from representation conversion.
-   This correction does not adopt a new entity hierarchy or approve P07.
+   At that revision this correction did not approve P07. The subsequent explicit
+   approval adopts its semantic alternative III under D15–D16, without a hierarchy.
 
 ## Discussion update — 2026-10-26
 
@@ -133,6 +153,20 @@ for discussion. Added the investigator-directed design_methodology.md (D14) and
 aligned navigation, scope, roadmap and open questions. P07 and P08 remain pending.
 The source-pinned integration audit is unchanged. No scientific code, execution
 result, fixed API, selected experiment or development issue is introduced.
+
+## P07 approval and P08 discussion — 2026-10-26
+
+The investigators explicitly adopted revised P07 alternative III and hypothetical
+realization evaluation with the seven principles above (D15–D16). Updated current
+status and limits across the guide; retained the preceding alternatives and dated
+pending records as history. The four examples remain illustrative.
+
+Expanded functional_families.md with pending P08 alternatives, qualified relations,
+five resource roles and a 21-label sequence-predictor/structural target-generator
+integration exercise. Added source-level PrMFTP observations in literature.md;
+no model was executed or adapter implemented. P08, selection rules, concrete
+interfaces and the explicitly deferred identity/storage questions remain open.
+No scientific code, development issue or new demonstrator is introduced.
 
 ## Change protocol
 
