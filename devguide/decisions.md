@@ -741,3 +741,22 @@ These are scientific development guides using primary published evidence,
 not approved model packages, experimental replications, execution,
 additional scientific requirements or D decisions. D33–D36, the already completed W0 engineering receiving,
 Macrel M1–M8 and the existing issue boundaries are unchanged.
+
+## Investigator governance clarification — 2026-10-27
+
+After W0 engineering receiving, the investigator explicitly requires PeptideMT
+to follow the existing suite contributor rules: both receptors, canonical
+release/tag identities, the authorized principal-maintainer direct-push route
+versus external full-suite PRs, owning-issue feedback and reuse of domain owners.
+This clarifies operational governance; it creates no scientific decision number
+or additional scientific implementation/publication authority.
+
+The earlier D36/W0-only issue restriction and its dated extensions describe the
+bootstrap authorization then in force. They are superseded **for reporting**:
+actionable bugs, limitations and improvements in any component must reach its
+owning issue with consumer evidence. PeptideMT owns peptide-specific design,
+selection and interpretation; MolSysMT owns general molecular-system operations,
+MolSysViewer visualization and TopoMT cavities/topography. Existing APIs are
+reviewed before adding functionality; missing general capabilities are proposed
+to their owners. The [governance map](governance.md) routes the full applicable
+policy set. D35/D36's scientific meaning and M1–M8 remain unchanged.

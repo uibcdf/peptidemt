@@ -297,3 +297,13 @@ policy/quality gates protect their respective import, reporting and engineering
 contracts; the reporting test alone does not prove scientific readiness.
 W1–W4, Macrel/M1–M8 and publication remain separate, unexecuted component work.
 Final documentation-only closeout is followed by its own applicable native gates.
+
+## Post-receiving instruction clarification — 2026-10-27
+
+At the investigator's request, the active root/nested instructions, methodology
+and work-order entry points now make the established suite operating rules
+explicit. The former W0-only restriction is superseded for owning-issue feedback;
+its historical statements above remain unchanged. The local
+[governance map](../governance.md) links the canonical full policies and names
+MolSysMT/MolSysViewer/TopoMT responsibilities. This is local policy adoption,
+not a new suite policy or scientific scope decision.

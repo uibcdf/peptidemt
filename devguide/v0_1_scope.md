@@ -5,9 +5,11 @@ qualification order accepted under D34; increment-1 scientific design closed
 under D35**, updated 2026-10-27. The [increment-1 specification](v0_1_increment_1.md)
 now carries accepted contracts/selectors/M1–M8 and provisional chemistry/length
 scope. D36 authorizes W0–W4; exact resources, operational qualification and
-completed admission remain pending. See the [work order](increment_1_work_order.md):
-W0 has started in uibcdf/molsyssuite#146; W1 follows completed W0. H0–H4,
-other development issues and package publication are not authorized.
+scientific operational readiness remain pending. W0 engineering is received
+under uibcdf/molsyssuite#146; W1 retains its own scientific gates. See the
+[work order](increment_1_work_order.md). H0–H4 and package publication remain
+outside this assignment; normal owning-issue feedback follows
+[the governance map](governance.md).
 P04/P09 remain conceptually closed. This document narrows their application rather
 than designing a universal optimizer or reopening the general architecture.
 

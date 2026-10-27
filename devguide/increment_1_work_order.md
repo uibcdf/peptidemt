@@ -6,8 +6,10 @@ Status: **W0–W4 authorized under D36 within D35/M1–M8; W0 engineering receiv
 Central registration is accepted at `8a94e16f`; official bootstrap qualification
 and central W0 engineering receiving are complete. W1–W4 retain their own
 component-owned scientific acceptance gates.
-PeptideMT #1 is the expressly authorized local W0 evidence issue. No other
-development issues or package publication are authorized.
+PeptideMT #1 is the local W0 evidence issue. Normal owning-issue reporting
+for bugs, limitations and improvements follows the investigator's later
+governance clarification and [operational map](governance.md). Reporting does
+not authorize publication or changes to the scientific work order.
 HydrAMP remains outside this assignment; H0–H4 remains a proposal.
 
 Navigation: [index](README.md) · [accepted scientific contract](v0_1_increment_1.md)
@@ -100,9 +102,10 @@ require the following sequence:
    responsible scientific/component owner is Diego Prada-Gracia, UIBCDF.
 2. **Publish accepted registration in central `suite.toml`.** Central reporting
    uses an owning issue/proposal; reuse an existing one where appropriate rather
-   than invent an identifier. D36 permits this specific issue exception; no
-   other development issue is authorized. The central review/publication is still
-   required: neither D35 nor D36 grants automatic central acceptance.
+   than invent an identifier. D36 originally permitted this specific admission
+   exception; the later governance clarification restores normal owning-issue
+   feedback for all actionable findings. Central acceptance still requires its
+   own review; it does not follow automatically from a scientific decision.
 3. **Generate against real immutable policy/admission evidence.** Fetch the
    selected published policy tag and accepted central history. If PeptideMT is
    absent from the frozen policy registry, use the supported `--admission-sha`
@@ -208,7 +211,7 @@ input/output identity, model/precision discrepancies, needed scientific scope ch
 or lack of usable real-provider evidence. Do not weaken a gate or substitute a
 mock to manufacture completion. No biological efficacy/safety claim follows.
 
-## 7. Operational handoff started under D36
+## 7. Initial operational handoff under D36 (historical state)
 
 The investigators have authorized W0–W4. The no-issues exception is limited to
 the necessary central admission theme; a search found no appropriate existing

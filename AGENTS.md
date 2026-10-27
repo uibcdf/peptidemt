@@ -4,9 +4,13 @@ Read `MOLSYSSUITE_GUIDE.md` before making changes. It routes suite-wide policy,
 compatibility, tooling and cross-component proposals to `uibcdf/molsyssuite` while this
 repository remains authoritative for its implementation and product behavior.
 
-Read `PYTEST_RECEPTOR_GUIDE.md` before selecting test reporting and
-`GH_RUN_RECEPTOR_GUIDE.md` before inspecting hosted workflow evidence. These
-registered synchronized copies supplement the canonical suite guide.
+Read `devguide/governance.md` for the local operational map of applicable suite
+rules and component responsibilities. Read `PYTEST_RECEPTOR_GUIDE.md` before
+selecting test reporting and `GH_RUN_RECEPTOR_GUIDE.md` before inspecting hosted
+workflow evidence. Use `python -m pytest --receptor=llm` for local agent tests
+and `--receptor=ci` in CI. Use GH Run Receptor for first Actions inspection,
+then verify native required run/job/step conclusions. These registered guides
+supplement, and do not replace, the canonical suite guide.
 
 Use English in code, documentation, issues and commits. Keep changes focused, test
 user-visible behavior, preserve human work and never commit secrets.
@@ -44,7 +48,18 @@ Retain completed local results while tested code, inputs, environment and scope
 remain applicable; rerun or broaden when changes or failures invalidate them.
 Follow [the common checkpoint route](MOLSYSSUITE_GUIDE.md#direct-pushes-and-validation-checkpoints)
 for conditional internal batching/skips, exact-head CI verification and visible
-recovery debt. Full PR and release gates remain mandatory.
+recovery debt. Full PR and release gates remain mandatory. Do not introduce
+CI skip markers without the conditional daily full-suite recovery required by
+that policy; the current baseline executes its complete two-test suite.
+
+For PeptideMT work by or directly supervised by Diego (`dprada`) or Liliana
+(`LMMV`), use the authorized internal commit/direct-push route within the granted
+scope. Existing authorization persists; do not request permission again for each
+commit. Other contributors use a pull request with the complete required suite
+before integration. An internal maintainer choosing a PR follows the same PR
+gates. A direct push is not permission to omit mandatory admission/publication
+evidence. Fixes in another owner's repository retain the separate contribution
+route below; shared team membership alone grants no write authority.
 
 Follow `devguide/reporting_protocol.md` for every durable bug or proposal record. Open
 the owning GitHub issue first, regenerate indexes after lifecycle changes, and archive
@@ -82,7 +97,10 @@ pip-only CI lane with a verified dependency acquisition route.
 
 When preparing, publishing or intentionally editing a public GitHub Release, use
 exactly `X.Y.Z` as its title/name, matching the canonical tag and package/project
-version. Put descriptions in the body/notes. Read
+version. Public version tags are also exact `X.Y.Z`, without a `v` prefix or
+public prerelease suffix. Put descriptions in the body/notes. Historical
+experiments use stable `archive/<description>` tags under the separate archive
+policy; they do not authorize a release or package upload. Read
 [the local release-title guide](devguide/release_titles.md) and
 [the canonical rule](MOLSYSSUITE_GUIDE.md#github-release-titles).
 
@@ -152,9 +170,12 @@ agreement in `devguide/design_methodology.md`; major design changes return to di
 
 Follow D35, M1–M8 and the authorized W0–W4 work order. W1 begins only after W0
 completes through accepted published central registration and the official
-staged starter. Issue authority is limited to the central admission theme
-`uibcdf/molsyssuite#146` and the explicitly authorized local W0 evidence issue
-`uibcdf/peptidemt#1`; do not create other development issues without approval.
+staged starter. Report actionable bugs, limitations and improvements in the
+owning component, or update an existing issue, under the canonical feedback
+policy. Cross-link consumer evidence and any workaround/removal condition. The
+earlier W0-only issue restriction no longer limits this reporting duty. Reporting
+a need does not authorize its implementation, a scientific scope change or
+publication. Preserve confidentiality and existing declined/deferred disclosures.
 Do not treat a proposed registration branch as accepted admission or fabricate
 an admission SHA. HydrAMP, increments 2/3, target-conditioned generation, other
 scientific models, package publication and a new architecture are not authorized.
@@ -162,9 +183,15 @@ Material changes to chemistry, preprocessing, attribution, selectors or scientif
 acceptance return to the investigators. Routine internal technical choices are
 delegated to Codex within these contracts.
 
-Check existing owner APIs before proposing new functionality. Reuse MolSysSuite
-molecular operations; preserve the separate responsibilities of Praxis, Recorda,
-Sabueso, Nextia and MolSys-AI. Cross-component source links must identify a
+Check existing owner APIs before proposing new functionality. Delegate molecular
+system representation, manipulation, interoperability and general molecular
+analysis to MolSysMT; molecular visualization to MolSysViewer; cavities and
+molecular topography to TopoMT. Keep peptide-specific scientific questions,
+design/selection policy, orchestration and interpretation in PeptideMT. Reuse the
+other registered domain owners in the suite roster and preserve the separate
+responsibilities of Praxis, Recorda, Sabueso, Nextia and MolSys-AI. A missing owner
+capability requires an owning issue and linked consumer evidence, not a silent
+local reimplementation. Do not add an unused dependency before a boundary exists. Cross-component source links must identify a
 repository and preferably an immutable commit.
 
 For documentation changes, check relative links, navigation, status consistency,

@@ -5,7 +5,9 @@ selectors and M1–M8 accepted under D35; scientific design closed within its
 provisional scope**, 2026-10-27. D36 authorizes W0–W4 with W1 gated on completed
 W0. Exact Macrel assets, terms, fixtures, environment and effective limits must
 be identified before actual qualification. HydrAMP remains a candidate outside
-this assignment; other development issues and package publication remain excluded.
+this scientific assignment, and package publication remains excluded. Normal
+owning-issue reporting follows [the governance map](governance.md); it does not
+expand the approved scientific work.
 
 Navigation: [index](README.md) · [decisions](decisions.md) · [V0.1 scope](v0_1_scope.md)
 · [owner audit](integration_audit.md) · [working agreement](design_methodology.md)

@@ -80,8 +80,10 @@ D36 authorizes the increment-1 W0–W4 work order under D35/M1–M8. W0 engineer
 receiving is complete in [MolSysSuite #146](https://github.com/uibcdf/molsyssuite/issues/146).
 W1–W4 retain their component-owned scientific gates; no scientific implementation
 or model run was performed by this homologation task.
-This is a specific admission-issue exception, not authority to open other
-development issues or publish packages.
+Actionable bugs, limitations and improvements follow the normal owning-issue
+reporting policy, including provider findings. Reporting does not authorize
+scientific scope changes or package publication. Read the
+[development governance map](devguide/governance.md) before beginning work.
 P07 is accepted conceptually: incomplete proposals, chemical realizations and
 evaluated views retain explicit relationships and attribution. Hypothetical
 realizations may supply missing information without rewriting original proposals.

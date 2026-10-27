@@ -37,9 +37,13 @@ Discuss consequential choices progressively, using concrete cases and
 counterexamples. Record accepted decisions, pending proposals, hypotheses and
 open questions distinctly, with rationale, sources and document revisions.
 Keep `devguide/` consistent; do not replace discussion with automatic specification
-production. D36 permits the central admission issue and the staged W0–W4 work;
-other development issues, scientific scope changes and package publication
-remain outside the authorization. Do not start W1 before W0 completes.
+production. D36 authorizes the staged W0–W4 scientific work within its agreed
+limits. The later investigator governance clarification requires normal
+owning-issue reporting for actionable bugs, limitations and improvements,
+including those found in other components; the former W0-only issue restriction
+does not limit that reporting duty. Scientific scope changes and package
+publication still need their own authorization. W0 engineering receiving is
+complete; later scientific gates remain distinct. See [governance](governance.md).
 
 Before authorizing a capability's implementation, agree its scientific meaning,
 responsibility boundaries, input/output obligations, important failure behavior

@@ -29,11 +29,13 @@ proposal as a past agreement. Link verified code observations to exact revisions
 and distinguish source inspection, implementation execution, installed-package
 qualification and scientific validation.
 
-D36 allows the specific central admission issue uibcdf/molsyssuite#146. The
-investigators additionally authorized uibcdf/peptidemt#1 for W0 evidence and
-receiving on 2026-10-27. No other development issue is authorized. Central
-issue-backed proposal queues and
-the official starter's reporting machinery follow the real admission route;
+Apply the canonical owning-issue reporting duty to actionable bugs, limitations
+and improvements in PeptideMT or any provider. The investigator's governance
+clarification supersedes the former W0-only issue restriction for reporting,
+without expanding scientific implementation or publication authority. W0 history
+remains in uibcdf/molsyssuite#146 and uibcdf/peptidemt#1. Read `governance.md`
+for the operational map. Central issue-backed proposal queues and the official
+starter's reporting machinery follow the real admission route;
 the topical scientific documents are not counterfeit issue-backed lifecycle records.
 
 Keep scientific review summaries separate from imported code or data. Cite

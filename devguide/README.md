@@ -90,6 +90,9 @@ specification. No scientific implementation or public API is defined.
 
 ## Engineering receiving and reporting
 
+- [Development governance map](governance.md): required tools, direct-push/PR
+  routes, release identities, owning issues and component responsibility boundaries.
+
 - [W0 integration and qualification](archive/complete_w0.md): genuine
   admission/starter provenance, applicability reviews and executed evidence.
 - [Local reporting protocol](reporting_protocol.md) and generated
@@ -200,7 +203,8 @@ W0–W4**, with the specific central admission issue exception. W0 engineering i
 received in [MolSysSuite #146](https://github.com/uibcdf/molsyssuite/issues/146).
 W1–W4 retain their scientific acceptance gates and have not been executed here. The
 [work order](increment_1_work_order.md) tracks the handoff and required evidence.
-H0–H4, other development issues, package publication and horizon expansion are excluded.
+H0–H4, package publication and horizon expansion remain outside this assignment.
+Normal owning-issue feedback follows [the governance map](governance.md).
 
 De novo generation and redesign remain equally in scope. No first experimental
 demonstrator has been chosen. Completion of a computational campaign does not
@@ -213,5 +217,7 @@ PeptideMT is registered as a primary incubating scientific Python component at
 starter is integrated and W0 engineering receiving is complete in
 uibcdf/molsyssuite#146 and the expressly authorized uibcdf/peptidemt#1. Routine development uses the
 shared `molsyssuite@uibcdf_3.14` environment; member Conda recipes remain clean
-qualification fixtures. No other development issue, scientific implementation
-or package publication is authorized by this engineering receiving task.
+qualification fixtures. The [governance map](governance.md) explains normal owning-issue reporting,
+authorized internal direct pushes, required PRs and domain owners. Reporting
+is not restricted to W0; scientific scope changes and publication retain their
+own authorization.

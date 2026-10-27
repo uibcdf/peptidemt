@@ -302,6 +302,10 @@ selection work; calibration and experimental efficacy require their own evidence
 | P05: strategy | Choose one real proposal path and a stated assessment/selection baseline; decide whether the bounded B feedback capability is in the initial scope or a subsequent increment. | Universal optimizer, all five generative strategy families, custom gradients, retraining and advanced conditioned generation. |
 | P06: suite admission/bootstrap | Before Python implementation, agree central registration/admission and official starter, host support, applicable support-library/policy adoption and dependency licensing. This documentation repository is not already admitted. | Public release packaging details and broad model distributions not needed for the selected first implementation; admission itself is not waived. No issues/bootstrap changes now. |
 
+The P06 row preserves the earlier design-stage admission restriction. Completed
+W0 and normal owning-issue reporting now follow
+[the governance map](governance.md); no new scientific scope follows.
+
 P04's semantic organization is **closed**, not reopened to choose each scalar
 weight or metric. P10 and future horizons add no V0.1 requirements. Initial
 scientific/chemical limits and concrete interfaces remain to approve for the
