@@ -19,7 +19,7 @@ These are **projects that can guide future scientific capability increments**. T
 
 **Priority/complexity levels:** L1 = simple sequence and endpoint distinctions; L2 = peptide/cargo, membrane trafficking and context; L3 = cell selectivity, molecular target and multifaceted phenotype; L4 = cyclic/stapled/conditional chemistry. These represent **scientific teaching and qualification difficulty**, not release phases, dates or mandatory execution order. The true implementation difficulty can differ substantially with the available engines.
 
-## 2. Coverage matrix: ten different project-guide cases
+## 2. Coverage matrix: twelve complementary project-guide cases
 
 | ID | Case and research question | Predominant CPP/delivery mode | Conceptual difficulty | Scientific capability it would exercise |
 | --- | --- | --- | --- | --- |
@@ -33,6 +33,8 @@ These are **projects that can guide future scientific capability increments**. T
 | **CPP-08** | cFΦR4 and CPP12: can a constrained peptide deliver cargo to the **cytosol**? | Cyclic CPP with noncanonical/stereochemical features | L4 | Explicit cyclic chemistry, cargo topology, endosomal escape and stability; no sequence-only shortcuts |
 | **CPP-09** | ATSP-7041: combine **intracellular target engagement** and anticancer effect | Cell-permeating hydrocarbon-stapled p53 mimetic | L4 | MDM2/MDMX target recognition, modified chemistry, TP53 context and evidence/claim separation |
 | **CPP-10** | CPP + AMP multifunctional design: does joint guided search differ from **generate then filter**? | Target-free, joint bioactivity prediction/generative design | L2→L3 | True multi-label guidance, rewards versus evaluation, matched-budget controls and negative-function evidence |
+| **CPP-11** | PepFect14: can CPPs deliver functional **oligonucleotides** in nanocomplexes? | Amphipathic/lipidated CPP and noncovalent SCO cargo | L3–L4 | Formulation identity and gene-function readout, not peptide score alone |
+| **CPP-12** | Activatable CPPs: can local proteolysis **unmask** uptake? | Polycation–cleavable linker–polyanion peptide | L3–L4 | Separate cleavage precursor/product, trigger context and conditional access |
 
 **Boundary cases matter:** CPP-06 is largely **tumor-homing and tissue/cellular penetration**, not a generic proof of cytosolic access. CPP-07 is **pH-driven membrane insertion** rather than a classic cationic CPP. CPP-09 may be cell-permeable without belonging to the supported domain of a standard CPP sequence classifier. Their inclusion deliberately prevents PeptideMT from equating all delivery phenomena to one class label.
 
@@ -138,6 +140,26 @@ These are **projects that can guide future scientific capability increments**. T
 
 **Gate:** reward improvement and high multi-label scores are not independent biological validation. A CPP-like classifier trained on unrelated cell types need not be meaningful for the selected context.
 
+### CPP-11 — PepFect14: oligonucleotide delivery through a nanocomplex
+
+**Problem:** distinguish a CPP acting as an intrinsic bioactive molecule from a **carrier formulation** that delivers a splice-correcting oligonucleotide (SCO). Biological success is **splice correction**, not simply peptide uptake.
+
+**Primary evidence:** [Ezzat et al. (2011), PepFect14 (PF14) and SCO delivery](https://pubmed.ncbi.nlm.nih.gov/21345932/); [Ezzat et al. (2012), scavenger-receptor uptake of CPP–oligonucleotide complexes](https://pubmed.ncbi.nlm.nih.gov/22138034/).
+
+**Future PeptideMT exercise:** preserve the lipidated/amphipathic CPP, its nucleic-acid cargo and the **noncovalent nanocomplex** as distinct participants. Consider declared formulation, ratio and serum context; separate internalization, endosomal escape and functional splice-correction evidence. A peptide predictor alone cannot qualify a nanocomplex or restore an oligonucleotide's biological function. A specialized molecular/material representation may be needed later.
+
+**Limits:** cargo complexation, size and charge depend on formulation, not only on the CPP sequence. This complements TAT protein cargo with **nucleic-acid cargo** and does not expand V0.1.
+
+### CPP-12 — Activatable CPPs (ACPPs): proteolytic unmasking near tumors
+
+**Problem:** conditionally enable polyarginine-associated uptake by removing a negatively charged inhibitory segment through cleavage of a linker in a specific protease context.
+
+**Primary evidence:** [Jiang et al. (2004), tumor imaging by proteolytic CPP activation](https://pubmed.ncbi.nlm.nih.gov/15601762/).
+
+**Future PeptideMT exercise:** preserve the masked precursor, its cleavage hypothesis, the released CPP and other products as **distinct molecular subjects**. Specify applicable protease context, any cargo, cell association/uptake and imaging readout. Compare intact and processed species without transferring scores or asserting tumor selectivity from a cleavage predictor alone.
+
+**Limits:** ACPP activation differs from iRGD: iRGD cleavage exposes a CendR motif for neuropilin-mediated penetration, whereas ACPP cleavage removes an inhibitory polyanion. Neither mechanism automatically proves cytosolic delivery or anticancer drug activity.
+
 ## 4. A minimal common case-study contract before implementation
 
 A selected CPP guided project should be described with **scientific meaning first**, not an arbitrary shared Python interface:
@@ -159,9 +181,9 @@ An **optional later experimental record** can track uptake, compartment access, 
 ## 5. Suggested adoption order and scientific value
 
 - **First CPP-focused case after qualified CPP evaluation exists:** CPP-01 R8/R9, with CPP-02 penetratin for counterexamples. These are simpler than target-directed oncology and expose label/assay ambiguity with minimal chemistry.
-- **First delivery-function extension:** CPP-03 TAT carrier/cargo and CPP-04 dfTAT endosomal escape. This reveals a critical distinction that naive CPP classification misses.
+- **First delivery-function extension:** CPP-03 TAT carrier/cargo and CPP-04 dfTAT endosomal escape. CPP-11 then adds **noncovalent oligonucleotide cargo/formulation**, which a peptide-only classifier cannot characterize.
 - **First *target + CPP-like + anticancer* case:** **CPP-05 p28**, because its historical molecule is a short azurin-derived fragment and its p53 binding/anticancer context is experimentally described without requiring a staple.
-- **More demanding conditional delivery cases:** CPP-06 iRGD and CPP-07 pHLIP, each with different multi-step biological meaning.
+- **More demanding conditional delivery cases:** CPP-06 iRGD, CPP-07 pHLIP and CPP-12 protease-activated ACPPs, each with a different conditional biological mechanism.
 - **Advanced chemistry and dual target/function cases:** CPP-08 cyclic CPPs and CPP-09 stapled ATSP-7041.
 - **Parallel computational hypothesis test:** CPP-10 CPP+AMP joint guidance versus filtering, whenever a qualified CPP resource is available.
 
