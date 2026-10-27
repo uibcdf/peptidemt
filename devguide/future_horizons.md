@@ -19,8 +19,14 @@ see [scientific_trajectory.md](scientific_trajectory.md). A mechanistically
 grounded case of a **cell-permeating, MDM2/MDMX-directed, p53-mimetic stapled
 anticancer peptide** is developed in
 [case_study_cpp_anticancer_mdm2_mdmx.md](case_study_cpp_anticancer_mdm2_mdmx.md).
-Neither document adds a mandatory V0.1 milestone or adopts a new experimental
-demonstrator.
+The [graded CPP case-guided pool](cpp_guided_projects.md) additionally
+distinguishes basic sequence uptake, cargo and compartment delivery, p28
+intracellular anticancer target engagement, tissue-homing iRGD, pHLIP
+condition-dependent insertion, cyclic endosomal-escape peptides and stapled
+binders. Their scientific boundaries are intentionally not unified into one CPP
+classifier output.
+Neither the pool nor either previously linked document adds a mandatory V0.1
+milestone or adopts a new experimental demonstrator.
 
 The opportunity is not primarily to compete with foundational protein generators. It is to combine their proposals with peptide-specific chemistry, rigorous molecular assessment, biological context, multiobjective search and reproducible evidence. Both target-directed and target-free problems remain in scope; experimental verification is not a prerequisite to complete a computational campaign.
 
