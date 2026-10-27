@@ -3,8 +3,9 @@
 Navigation: [index](README.md) · [scope](vision_scope.md) · [alternatives](architecture_alternatives.md).
 Date of initial record: **2026-10-26**. Approval authority: the investigators.
 
-Updated: **2026-10-26**, including conceptual approval of P07 and explicit
-hypothetical realizations; P08 is the current pending discussion.
+Updated: **2026-10-26**, including conceptual approval of P08 with qualified
+indirect guidance and role-aware evaluation. Generative strategy composition
+is the current discussion; no algorithm or API is selected.
 
 ## Accepted working directions
 
@@ -32,12 +33,16 @@ they are repository setup choices, not scientific decisions.
 | ID | Decision | Scope and limits |
 | --- | --- | --- |
 | D09 | Separate scientific design intent, the computational plan used to address it, and the evidence produced by each execution (alternative B). | Explicit investigator approval on 2026-10-26. No class names, API, serialization, storage or implementation approved. |
-| D10 | Functional families remain scientific/computational concepts independent of predictors and generative models. | Minimal family semantics and evaluator bindings remain to be designed. |
+| D10 | Functional families remain scientific/computational concepts independent of predictors and generative models. | P08 refines conceptual semantics under D17; concrete interfaces/bindings remain to be designed. |
 | D11 | Distinguish a desired functional property from operational criteria used to select candidates. | A score threshold does not define or establish bioactivity. A scientifically meaningful numerical requirement can still belong to the problem. |
 | D12 | Keep family representation initially simple and extensible. | No complex family ontology is authorized. |
 | D13 | Simultaneous target- and family-conditioned design remains central, while target-free tasks stay in scope. | Target-free support does not dilute the central joint-design objective. |
 | D15 | Adopt P07 alternative III: admit potentially incomplete peptide proposals explicitly related to chemical realizations, representations, molecular states and evaluations. | Explicit investigator approval. Semantic responsibilities only; no mandatory stages, class hierarchy, API or persistence schema. Preserve convergent generation provenance. |
 | D16 | Allow evaluations of explicit hypothetical chemical realizations when a method needs information absent from the original proposal. | The plan may branch into several realizations; retain actual inputs, chemistry, assumptions, transformations, model and attribution limits without retroactively completing the original. Computational reuse needs justified equivalence and does not by itself establish scientific transfer. |
+| D17 | Adopt P08 alternative 2: a simple extensible catalog of scientific functional concepts explicitly associated with source labels and computational resources. | Functions can lack qualified models; one multi-label predictor remains one resource with multiple outputs. Distinguish scientific relations, database co-annotations and model correlations; retain justified context/provenance without automatic biological implication or a general inference engine. No closed catalog or formal ontology. |
+| D18 | Permit justified indirect predictors and exploratory use beyond validated empirical scope to guide generation/optimization. | Keep desired function, actual predicted property, search signal and result evidence distinct. Declare input compatibility, extrapolation limits and whether utility is a hypothesis. Perfect calibration is not required for useful search rankings; scores are not automatically real bioactivity probabilities or comparable across models. |
+| D19 | Distinguish guidance/reward/selection roles from candidate assessment and independent evaluation. | One model may serve several roles, but improved reward is not independent confirmation. Preserve direct prediction, indirect/partial support, absent evaluation and doubtful applicability as conceptual distinctions, without a fixed state taxonomy or universal confidence scale. No experimental validation is required for computational completion. |
+| D20 | Preserve independent computational capabilities and compatible adapters. | Distinguish predictors, learned distributions, conditioned generators, rewards, search/guidance and datasets/evidence. No common internal representation, differentiability or ML architecture is required; no concrete interface or model selection is approved. |
 
 The [four worked examples](design_examples.md) are conceptual stress tests and
 conceptual analysis, not selected demonstrators or executed campaigns. Their
@@ -48,19 +53,18 @@ the semantic responsibilities adopted through P07 are recorded under D15–D16.
 
 | ID | Proposal | Decision still needed |
 | --- | --- | --- |
-| P02 | Define the minimal semantics of an independent functional-family requirement and its evaluator bindings. | Independence is accepted under D10; concrete representation remains open under D12. |
+| P02 | Refine context, qualified label/resource mappings and evaluator bindings within D10/D17–D20. | Conceptual separation is accepted; concrete fields, mapping policies and interfaces remain open. |
 | P03 | Keep a small sequence/design core with optional molecular and model adapters. | Compare dependency cost against uniform molecular integration. |
 | P04 | Retain objective vectors, feasibility, applicability and diversity rather than only one scalar reward. | Decide which selection policies are required initially. |
-| P05 | Use black-box external optimization and rollout/tree guidance as routes to reuse existing family models. | Select bounded comparison experiments later. |
+| P05 | Compare and compose filtering, external optimization, sampling-time guidance, functional distributions and learned conditioning through explicit capabilities. | Current [strategy analysis](generative_strategies.md); no definitive generator, common API, capability schema or first comparison experiment selected. |
 | P06 | Formal suite admission and official Python starter generation. | Agree the central process; no issue or sibling-registry change is authorized by this initial documentation publication. |
-| P08 | Compare source-label catalogs, a small scientific concept catalog with qualified resource/label associations, and richer ontologies; study use of heterogeneous resources in generative design. | Current discussion in [functional_families.md](functional_families.md#p08-conceptual-alternatives-and-generative-use). Family independence is already accepted; the catalog, relationship rules and resource-binding semantics proposed here remain pending. No fixed ontology, model list or schema. |
 
 ### Proposal disposition
 
 P01 was proposed in the initial publication and **accepted conceptually as D09**
 on 2026-10-26. This resolves the architectural choice without approving names,
 schemas or implementation. P02's independence principle is accepted as D10;
-its minimal semantic contract remains pending.
+P08 adds conceptual semantics under D17–D20, while concrete bindings remain open.
 
 P07 alternative III is **accepted conceptually as D15**, together with explicit
 hypothetical-realization evaluation under D16, after the revised analysis.
@@ -73,8 +77,22 @@ and manipulation; PeptideMT retains design-specific meaning.
 
 Canonical molecular identity, chemical-state grouping, identifier schemes,
 persistence, concrete interfaces and the initial chemical support envelope remain
-open. P08 has not been approved. P02's remaining family semantics are discussed
-alongside P08 rather than silently resolved by P07.
+open. These questions are not silently resolved by P07 or P08.
+
+P08 alternative 2 is **accepted conceptually as D17–D20**, including the
+investigators' qualifications. Functions, source definitions and resources stay
+distinct, with many-to-many associations and a single multi-label resource's
+per-output meaning. Scientific relations differ from co-annotation and learned
+correlation. Indirect or extrapolative signals may guide exploratory search with
+justification and limitations; their practical utility can remain a hypothesis.
+Guide and assessment roles may share a model but cannot turn reward improvement
+into independent validation. Direct prediction remains computational evidence;
+indirect, unavailable and doubtful-applicability assessments remain distinguishable
+without a rigid evidence hierarchy. Computational resource types remain separate.
+
+Approval does not adopt storage, API, classes, a formal ontology, fixed evidence
+states, reward policies or definitive models. The new [strategy comparison](generative_strategies.md)
+is analysis and pending recommendations under P05, not an approved algorithm.
 
 The dated discussion updates below preserve the status at each revision. Current
 approval status is given in the accepted decisions and proposal disposition above.
@@ -167,6 +185,21 @@ integration exercise. Added source-level PrMFTP observations in literature.md;
 no model was executed or adapter implemented. P08, selection rules, concrete
 interfaces and the explicitly deferred identity/storage questions remain open.
 No scientific code, development issue or new demonstrator is introduced.
+
+## P08 approval and generative-strategy discussion — 2026-10-26
+
+Recorded explicit conceptual approval of P08 alternative 2 with the qualifications
+in D17–D20. Updated current status across the guide and preserved earlier pending
+records as history. Split rewards from search/guidance resource roles; clarified
+that uncalibrated rankings and justified extrapolation can aid exploration without
+claiming reliable functional evidence. Applicability is not a universal confidence
+score or a fixed evidence taxonomy.
+
+Added generative_strategies.md comparing five reusable approaches, actual engine
+access, cost/diversity/training requirements and illustrative mathematical search
+targets. Extended the literature with FK steering/correctors and bounded source
+observations. The existing integration audit remains unchanged. No scientific
+code, issues, new model training, executed benchmark or generator selection.
 
 ## Change protocol
 

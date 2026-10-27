@@ -279,6 +279,8 @@ attribution matter. They do not prove an implementation of III is preferable
 in cost or usability. Review whether these minimal distinctions suffice for
 mixed-chemistry inputs, ambiguous mixtures and source annotations later; do not
 add a comprehensive entity ontology now. P07's semantic alternative is accepted;
-the explicitly deferred identity/interface/storage questions remain open. The
-broader family-catalog proposal P08 is the next discussion; see its
-[alternatives and model-composition exercise](functional_families.md#p08-conceptual-alternatives-and-generative-use).
+the explicitly deferred identity/interface/storage questions remain open.
+P08 alternative 2 is also accepted under D17–D20; see its
+[record and model-composition exercise](functional_families.md#p08-conceptual-alternatives-and-generative-use).
+The current [strategy comparison](generative_strategies.md) concerns capabilities
+and intervention choices, not an API or definitive generative architecture.

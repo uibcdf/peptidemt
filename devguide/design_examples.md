@@ -461,7 +461,8 @@ and viral probes add organism/life-stage/access stress; structurally they partly
 repeat case B, so do not develop both exhaustively unless a new limitation emerges.
 Keep low hemolysis as an avoidance objective across cases rather than automatically
 calling it an additional desired functional family. Catalog membership and model
-availability remain separate, and P08 remains pending.
+availability remain separate, as accepted under P08 (D17–D20). Individual family
+definitions, relation vocabularies and model choices are not fixed by that approval.
 
 ## 10. Assessment and next proposed decision
 
@@ -478,7 +479,10 @@ catalog requires heterogeneous function/context meanings, not a fixed ontology.
 P07's conceptual alternative III is now accepted under D15–D16, including explicit
 hypothetical realizations, evaluated-view attribution and no mandatory hierarchy.
 Identifier syntax, molecular canonicalization, state grouping, persistence,
-concrete interfaces and initial chemistry support remain open. The next discussion
-is [P08's family/resource semantics](functional_families.md#p08-conceptual-alternatives-and-generative-use).
+concrete interfaces and initial chemistry support remain open. P08's
+[family/resource semantics](functional_families.md#p08-conceptual-alternatives-and-generative-use)
+are now accepted under D17–D20, including justified indirect guidance and
+role-aware assessment. The next discussion compares
+[generative intervention strategies](generative_strategies.md).
 The [working methodology](design_methodology.md) governs how these questions
 mature into approved contracts before implementation.

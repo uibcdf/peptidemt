@@ -8,7 +8,7 @@ demonstrator or a redesign-only entry point.
 
 | Stage | Candidate deliverable | Evidence to retain |
 | --- | --- | --- |
-| 0. Design | Validate the accepted problem/plan/execution-evidence separation with worked cases; resolve minimal semantics without choosing an API. | D09–D13, conceptual counterexamples, investigator decisions and preserved audit. |
+| 0. Design | Test accepted problem/plan/evidence, proposal/realization and function/resource semantics with cases; compare generative strategies without choosing an API. | D09–D20, conceptual counterexamples, investigator decisions and preserved audit. |
 | 1. Common evaluation | Family/model bindings, proposal-to-candidate relations, evaluated views, hard constraints, provenance, selection and applicability. Accept supplied/generated and potentially incomplete proposals where evaluators support them. | Reproducible evaluation fixtures, determined/unknown chemistry, attribution limits, unsupported-input behavior and score meaning. |
 | 2. Baseline proposal adapters | At least one de novo route and one seed-based route conceptually using the same evaluation/selection layer. Implementation order remains open. | Exact engine/checkpoint/configuration; compared coverage and costs. |
 | 3. External optimization | Evolutionary, Bayesian or other black-box search over proposals; preserve edit constraints, diversity and objective vectors. | Matched-budget comparison with generate-and-filter; failures and discarded candidates. |
@@ -40,7 +40,11 @@ Follow the [agreed working methodology](design_methodology.md): mature scientifi
 requirements and acceptance criteria before authorizing a capability, without
 prescribing all implementation details. P07's semantic responsibilities are
 accepted under D15–D16; concrete identity/representation choices remain open.
-P08 remains pending. This roadmap does not authorize programming.
+P08's conceptual separation and qualified guidance are accepted under D17–D20;
+concrete catalogs, evidence encodings, interfaces and reward policies remain open.
+The [five-strategy comparison](generative_strategies.md) is pending analysis under
+P05, not a definitive generator or mandatory implementation sequence. This
+roadmap does not authorize programming.
 
 Before Python implementation, agree formal admission to MolSysSuite and use
 its official registered-component starter. Pin model/license/weight provenance

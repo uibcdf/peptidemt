@@ -1,9 +1,9 @@
 # Bioactive peptide functions and multifunctional learning
 
-Status: **verified literature observations and pending P08 alternatives**,
-2026-10-26. Family/model independence is accepted (D10); P07's attribution
-responsibilities are accepted (D15–D16). The catalog/resource proposal below
-is not an approved ontology, API, implementation inventory or frozen scope.
+Status: **literature observations and P08 alternative 2 accepted conceptually**,
+2026-10-26 (D17–D20). Family/model independence and P07 attribution remain in
+force. The alternative comparison preserves reasoning; detailed field sketches
+are not approved schemas, APIs, a formal ontology or implementation claims.
 
 Navigation: [index](README.md) · [learned functional spaces](literature.md) · [scope](vision_scope.md) · [open questions](open_questions.md).
 
@@ -77,7 +77,7 @@ Some major categories above receive only their generic label in the published 47
 
 The following are **scope candidates for future evidence mapping**, *not* classes already supported by a single published 21- or 47-label model: peptide hormones and receptor agonists/antagonists; enzyme inhibitors such as ACE, renin, DPP-IV, alpha-amylase, alpha-glucosidase; anticoagulant/antithrombotic and thrombin-inhibiting peptides; immunomodulators; chemotactic and signaling peptides; surface/mineral binders; self-assembling peptides; antifreeze peptides; sensory peptides (e.g. bitter/umami); and toxicity/hemolysis as frequently *undesired* rather than desired outputs. Specific sources, datasets, activity definitions and model availability require individual verification before catalog inclusion as qualified computable objectives. Mechanistic and indication labels should not automatically be placed at the same semantic level.
 
-## Proposal: simple, extensible function catalog (not yet adopted as a schema)
+## Simple extensible function catalog: accepted concept, illustrative metadata
 
 Treat each *function concept* as independent of the models that implement it. At the conceptual level, consider retaining:
 
@@ -87,7 +87,12 @@ Treat each *function concept* as independent of the models that implement it. At
 - References and evidence, plus typed relations such as broader/narrower, overlaps/related-to or potentially opposite. Relations must be justified, not inferred from similar names.
 - Available **separate** assets: discriminative predictors, learned family-enriched proposal distributions, inference-time guidance/conditional generators and datasets, each with versions, chemistry support, annotation/negative-label assumptions, domain of applicability and output meaning.
 
-This is **not** a requirement to create a complete ontology, a fixed 47-type enum, one predictor per label, a single calibrated multi-label model or a mandatory target for every task. One predictor may cover several functions, one function may have many predictors, and some functions may have no qualified model. No model names/API/registry implementation are approved here.
+P08 adopts this conceptual separation and extensibility, not the individual
+fields or relation names listed above. This is **not** a requirement for a complete
+ontology, fixed 47-type enum, one predictor per label, single calibrated model or
+mandatory target. One predictor may cover several functions, one function may
+have many resources, and some functions may have no qualified model. Model names,
+API and registry implementation remain open.
 
 ## Scientific and computational safeguards
 
@@ -118,11 +123,17 @@ this breadth. Conceptual stress tests (none selected for experiments):
 
 Questions to resolve in discussion: What minimal label/family semantics must be fixed before a first adapter? How do source-specific labels map to shared concepts? What hierarchy is useful without overengineering? What counts as a real joint-function observation? How do we compare independent predictors with multi-label models when source datasets overlap? How can family distributions seed target-conditioned generation without collapsing diversity?
 
-**No new architecture approval, first demonstration, library implementation, development issue or class/API decision is implied by this research note.**
+**Original research-note disposition:** the inventory did not itself approve
+architecture, a first demonstration, implementation, issues or classes/APIs.
+
+The preceding inventory was initially a research note. Subsequent investigator
+approval adopts P08's semantic alternative below (D17–D20), not the literature's
+taxonomy, a selected demonstrator or a concrete implementation.
 
 ## P08: conceptual alternatives and generative use
 
-Status: **discussion and recommendation, not approval**. The function inventory
+Status: **alternative 2 accepted conceptually with qualifications (D17–D20)**.
+The function inventory
 above is evidence for breadth, not a reason to adopt its label sets wholesale.
 This section develops P08 without selecting models or prescribing an API.
 
@@ -134,7 +145,7 @@ This section develops P08 without selecting models or prescribing an API.
 | 2. Small scientific concept catalog with qualified source/resource associations | Keeps intent stable across models, supports unknown functions and many-to-many resources, and can record overlap without a complete ontology. | Requires curation of definitions and mappings; unresolved mappings must remain visible. Excessive mandatory metadata would recreate an ontology indirectly. |
 | 3. Formal ontology with inference rules and comprehensive relations | Can support rich queries and consistent hierarchical reasoning once definitions and evidence justify them. | Premature consensus, migration burden and false deductions from heterogeneous labels; unnecessary for the current design cases. |
 
-**Recommendation: alternative 2.** Start with short scientific definitions and
+**Accepted conceptual choice: alternative 2.** Start with short scientific definitions and
 source-qualified associations only where needed by a problem or resource.
 Do not require a complete catalog before a campaign or adopt a 21/47-function
 enumeration. Alternative 1 remains useful for raw imports. Revisit richer
@@ -198,14 +209,15 @@ graph or assert mutually exclusive families from absence of co-annotations.
 Conflicting source assertions can coexist with their provenance. A new relation
 must not silently change a campaign's objective or double its reward.
 
-### Five resource roles, associated rather than owned by a family
+### Six resource roles, associated rather than owned by a family
 
 | Resource | Contribution | Qualification needed |
 | --- | --- | --- |
 | Individual or multi-label discriminative predictor | Scores/labels for one or several source-defined functions. | Per-output semantics/order, score versus probability, threshold, calibration evidence, input chemistry, empirical support, negatives/missing labels and provenance. |
 | Learned family-enriched distribution | Proposals or a prior favoring patterns learned from family data. | Conditioning/training definition, sampling support, bias and diversity; an implicit sampler need not expose likelihoods. Sampling is not proof of membership. |
 | Conditional generator | Proposals responding to supported target/function/context conditions. | Actual accepted conditions and representation, editable states/native constraints and tested combinations; no arbitrary function can be enabled by naming it. |
-| Reward or guidance procedure | A reward transforms evaluations into a search preference; guidance uses it to change proposals or sampling. | Preserve component scores, direction/scaling, missing-input policy and actual intervention/access. A reward is not the scientific function, and an optimizer is not a predictor. |
+| Reward function | Transforms evaluations or other justified signals into a search preference. | Preserve component scores, direction/scaling, assumptions and missing-input policy; a reward is not the desired scientific function. |
+| Search or guidance procedure | Uses rewards/evaluations to change proposals, trajectory allocation or sampling. | Actual intervention/access and cost must be explicit; an optimizer is not a predictor, and tree reward backpropagation need not mean gradients. |
 | Dataset or evidence collection | Observations, annotations, definitions, examples or training/evaluation material. | Chemical identity/partiality, assays, sources, measured versus unannotated negatives, splits, coverage, permissions and contradictions; data availability is not an inference capability. |
 
 Associations are many-to-many: one multi-label model is one versioned resource
@@ -243,6 +255,13 @@ evidence even when its sequence can be encoded.
 | Realization contains a link, cap or stereochemistry absent from the predictor's input | Use a qualified projection only with explicit scientific limits, obtain another compatible evaluator, or abstain for that requirement. | Removing chemistry to encode a sequence cannot establish full-molecule function. Hypothetical completion under P07 does not fix model-domain mismatch. |
 | No applicable mapping/output or no supported joint domain | Record missing coverage; use another plan or report the limitation without rewriting the intent. | Unsupported is not inactive, zero score, or permission to substitute another functional meaning. |
 
+Input acceptance and empirically validated applicability are different. A model
+outside its validated empirical domain may still be used exploratorily with a
+scientific/empirical rationale and explicit uncertainty about utility. That does
+not repair unsupported input encodings or establish reliable full-molecule
+evidence. Preserve the difference between executable, useful-for-search and
+scientifically supported assessment rather than imposing one universal gate.
+
 The recognition result and family outputs remain separate. Family prediction is
 not made target-specific merely because the sequence came from a target-conditioned
 generator. A shared peptide input couples the searches operationally, not as proof
@@ -277,6 +296,26 @@ fabricated numerical precision.
 
 ### Selection, contradictions and assessment
 
+**Accepted role distinction (D18–D19):** a resource can guide, reward, select,
+evaluate candidates, or serve several of these roles. Distinguish desired
+function, actual predicted property, operational search signal and available
+candidate evidence. Reusing a reward model to report its own score improvements
+is allowed but is not independent validation. Independent computational assessors
+are useful when available; shared data can compromise that independence.
+
+Perfect probability calibration is not a prerequisite for useful ranking or
+evolutionary rewards. Empirical discrimination in the explored domain and gains
+on independent criteria are relevant tests of usefulness. A justified heuristic
+can be tried before such utility is established, with its status as a hypothesis
+retained. Do not interpret its score as a true activity probability or compare it
+numerically with arbitrary outputs from other models.
+
+Preserve conceptual distinctions among directly evaluated properties (still
+predictions when model based), indirect/partial support and unavailable evaluation.
+Applicability can be doubtful for a direct or indirect output; it is an additional
+question, not necessarily a higher/lower rung of one evidence ladder. No rigid
+evidence-state classification or universal confidence scale is adopted.
+
 Choose the requested subset of outputs with justified mappings; preserve the
 other outputs when available without optimizing all 21 toward high activity.
 Avoid rewarding broad/narrower synonyms twice or treating unrequested function
@@ -300,12 +339,14 @@ Family priors and mixtures can seed either kind of task, but neither co-annotati
 nor combining sampler densities guarantees conjunction, mode coverage or access
 to candidates outside their support.
 
-### Next decision proposed for discussion
+### Next discussion: how functional resources intervene in generation
 
-Agree first whether P08 should distinguish **scientific function concepts,
-source-specific labels and qualified resource associations** as in alternative 2,
-without fixing their encoding. Then discuss the minimum meaning of a qualified
-association: what does an evaluator assess directly, what is only a proxy, and
-when must the requested function remain unassessed? Catalog relation rules,
-reward policies, exact model selection, API and registry mechanics remain later
-questions. This recommendation does not adopt P08 or close P02/P04.
+P08's concept/source/resource separation and the qualifications above are accepted.
+Detailed metadata, relation vocabularies, reward/selection policies, model choices,
+API and registry mechanics remain open; P02/P04 are not silently closed.
+
+The next [comparative analysis](generative_strategies.md) examines filtering,
+external optimization, sampling-time guidance, combinations of distributions and
+learned conditioning. It separates actual engine access, applicability, cost,
+diversity and training needs. Several strategies may compete or cooperate; none
+is selected as a definitive generative architecture.

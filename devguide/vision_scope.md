@@ -53,7 +53,18 @@ A desired family property is distinct from an operational proxy. For example,
 cytosolic access is a scientific objective; selecting candidates above a model
 score threshold is a plan policy and establishes only the stated score result.
 No full family ontology is needed to preserve a short definition, context,
-references and explicit unknowns. These semantic fields remain proposals.
+references and explicit unknowns. P08 alternative 2 accepts a small extensible
+scientific concept catalog linked to source definitions and resources (D17–D20);
+the exact fields and encoding remain proposals. Scientific relations, co-annotation
+and model correlations remain distinct. Multiple roles and outputs do not turn
+one multi-label model into independent confirmations.
+
+Justified indirect or exploratory signals may guide proposals without directly
+assessing the desired function. Perfect calibration is not required for useful
+search ranking; applicability, utility hypotheses and independent assessment
+must remain explicit. Improvement of the reward used in search is not independent
+evidence of improved biology. Direct/indirect/unavailable evidence and doubtful
+applicability are conceptual distinctions, not a formal state hierarchy.
 
 ## Scientific distinctions retained
 

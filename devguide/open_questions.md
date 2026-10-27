@@ -4,7 +4,8 @@ Navigation: [index](README.md) · [alternatives](architecture_alternatives.md) �
 All questions remain open unless an explicit decision is recorded.
 
 Updated: 2026-10-26. Alternative B is accepted under D09–D13 and revised P07
-under D15–D16. The worked cases remain illustrative, with no selected demonstrator.
+under D15–D16. P08 is accepted under D17–D20. The worked cases remain illustrative,
+with no selected demonstrator; P05's generative-strategy composition is current.
 
 ## Q1. Design intent and execution
 
@@ -16,18 +17,19 @@ adopt the separation. See D09–D13 and the worked cases.
 
 ## Q2. Family definitions and evidence
 
-**Current discussion (P08), not approved:** compare a catalog of source labels,
-a small scientific concept catalog with qualified source/resource associations,
-and a richer ontology. The [analysis and recommendation](functional_families.md#p08-conceptual-alternatives-and-generative-use)
-favors the middle option without specifying software objects. Family/model
-independence is already accepted; association and relation semantics remain open.
+**Resolved conceptually (P08, D17–D20):** a small extensible scientific catalog
+with explicit source-label/resource associations; scientific relations differ
+from co-annotation and learned correlations. Justified indirect/exploratory models
+can guide search while leaving the desired function unassessed. Reward improvement
+is not independent validation. No common representation, differentiability,
+formal ontology or evidence-state scale is required. See the
+[accepted record](functional_families.md#p08-conceptual-alternatives-and-generative-use).
 
-Start with whether scientific concepts, source-specific labels and resource
-associations need distinct meanings. What minimum definition/context/reference
-is sufficient? When is a label mapping equivalent, narrower, partial/proxy or
-unresolved? Can a model assist search while leaving the requested scientific
-function unassessed? How do we distinguish scientific relations from dataset
-co-annotation and correlated model outputs without a reasoning ontology?
+**Still open:** minimum concrete metadata and mapping policies. What context and
+provenance suffice for a qualified association? How do equivalent, narrower,
+partial/proxy and unresolved mappings behave without implying biological truth?
+How do we represent direct/indirect/absent evidence and doubtful applicability
+without turning these distinctions into a rigid hierarchy?
 
 The 21-label predictor/structural target-generator exercise exposes representation
 conversion versus empirical applicability, partial completions under P07, discrete
@@ -73,7 +75,7 @@ pinned adapters? No canonical-only permanent scope is adopted.
 
 Use the [target-free case and broader probes](design_examples.md) to test these
 semantics. The inflammatory/immune, ACE/physiology and tumor-homing examples
-stress different endpoint meanings without adopting a family ontology (P08).
+stress different endpoint meanings without a formal family ontology (P08).
 
 ## Q4. Labels, negatives and applicability
 
@@ -83,6 +85,14 @@ Which PU/one-class approaches help under source selection bias?
 When should an evaluator abstain rather than extrapolate?
 
 ## Q5. Combining families and recognition
+
+**Current strategy discussion (P05):** the
+[five-way comparison](generative_strategies.md) covers final filtering, external
+optimization, sampling-time guidance, distribution composition and learned
+conditioning. Which actual engine capabilities must a plan declare to compare
+interventions fairly? A complete-sample interface supports filtering and some
+outer search, not automatically continuation, infill, density ratios or gradients.
+How should several compatible strategies compete or cooperate within one budget?
 
 Use independent predictors, a multilabel model, family priors, expert
 combinations, Pareto selection, or several together? How will correlated
@@ -94,7 +104,10 @@ recognition when a family-driven optimizer edits a binder?
 Which engines expose partial states, infilling, likelihoods or gradients?
 Can completed rollouts support a black-box family evaluator?
 What predictor budget and independent validation suffice to show enrichment
-beyond final filtering? Do improvements survive length/composition controls?
+beyond final filtering? Count rollouts, denoising/forward calls, structural work
+and training rather than only selected candidates. When independent evidence is
+unavailable, report reward improvement without inferring biological gain.
+Do improvements survive length/composition controls and retain diverse modes?
 
 ## Q7. Ecosystem and publication
 

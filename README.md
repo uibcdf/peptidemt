@@ -50,8 +50,11 @@ P07 is accepted conceptually: incomplete proposals, chemical realizations and
 evaluated views retain explicit relationships and attribution. Hypothetical
 realizations may supply missing information without rewriting original proposals.
 Canonical identity, state grouping, identifiers, persistence, concrete interfaces
-and initial chemistry support remain open. The current discussion concerns
-[functional families and their computational resources](devguide/functional_families.md#p08-conceptual-alternatives-and-generative-use) (P08).
+and initial chemistry support remain open. P08 also adopts an extensible
+[functional concept catalog and qualified resources](devguide/functional_families.md#p08-conceptual-alternatives-and-generative-use),
+including justified indirect guidance and distinct search/assessment roles.
+The current [strategy discussion](devguide/generative_strategies.md) compares
+ways to reuse existing models without selecting a definitive generator.
 
 Documentation and commit messages use English, following the suite convention.
 Scientific discussion with the investigators may continue in Spanish.

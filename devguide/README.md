@@ -11,8 +11,8 @@ specification. No scientific implementation or public API is defined.
 2. [Integration audit](integration_audit.md): preserved findings from all eleven
    MolSysSuite repositories and six MolI repositories, pinned to inspected source.
 3. [Bioactive functional families and multifunctional datasets](functional_families.md):
-   verified 20/21/47-label precedents and pending P08 alternatives for concepts,
-   source labels, resource associations and generative use.
+   verified 20/21/47-label precedents and accepted P08 conceptual separation of
+   functions, source labels and qualified resources.
 4. [Literature and learned functional spaces](literature.md): primary references,
    public implementations, negative-data caveats and inference-time guidance.
 5. [Architectural alternatives](architecture_alternatives.md): alternative B
@@ -28,6 +28,8 @@ specification. No scientific implementation or public API is defined.
    decisions for discussion, one at a time.
 10. [Design and implementation methodology](design_methodology.md): scientific
     discussion and approval, implementation readiness and technical freedom.
+11. [Generative strategy comparison](generative_strategies.md): five approaches,
+    mathematical limits, actual engine access, cost, diversity and training needs.
 
 ## Evidence and status
 
@@ -58,10 +60,16 @@ mandatory stages. Canonical identity, state grouping, identifiers, persistence,
 concrete interfaces and initial chemistry support remain open; see
 [Q3](open_questions.md#q3-candidate-chemistry-and-representation).
 
-The current discussion is [P08](functional_families.md#p08-conceptual-alternatives-and-generative-use):
-scientific function concepts, qualified source-label/resource associations,
-overlap and their use in target-directed or target-free generation. Its catalog
-recommendation is pending; no ontology or API is adopted.
+[P08 alternative 2](functional_families.md#p08-conceptual-alternatives-and-generative-use)
+is accepted (D17–D20): an extensible scientific catalog, qualified source/resource
+associations and relations, justified indirect/exploratory guidance, and distinct
+reward versus independent assessment roles. No formal ontology, evidence-state
+enum, API or definitive model is adopted.
+
+The current discussion compares [generative strategies](generative_strategies.md)
+under P05: how existing functional models can change exploration in a
+target-conditioned generator, with capabilities, cost and scientific limits
+explicit. Strategies can compete or cooperate; recommendations remain pending.
 
 De novo generation and redesign remain equally in scope. No first experimental
 demonstrator has been chosen. Completion of a computational campaign does not

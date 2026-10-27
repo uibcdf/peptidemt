@@ -6,6 +6,8 @@ Navigation: [index](README.md) · [scope](vision_scope.md) · [alternatives](arc
 For a broader inventory of multifunctional peptide labels, datasets and models,
 see [functional_families.md](functional_families.md). This document concentrates
 on learned search and integration strategies rather than an exhaustive function list.
+The [strategy comparison](generative_strategies.md) develops mathematical and
+capability implications without selecting a generative architecture.
 
 Primary papers establish reported evidence; official source inspection establishes
 bounded implementation observations. No listed model was installed or executed
@@ -48,7 +50,7 @@ Products of family distributions can collapse diversity or double-count a shared
 sequence prior; mixtures preserve alternatives but do not enforce conjunction.
 Compare combinations empirically and retain component scores and family modes.
 
-## B. Five compatible intervention levels
+## B. Compatible intervention levels and constraint controls
 
 | Intervention | Existing family models reusable without full generator retraining? | Required access / limits |
 | --- | --- | --- |
@@ -102,7 +104,7 @@ head may avoid full retraining; a new surrogate/head may still need training.
 
 ### PepMLM — target-sequence-conditioned linear binder proposals
 
-Chen et al., 2025,
+Chen et al., online publication 2025 (journal issue 2026),
 [Target sequence-conditioned design of peptide binders using masked language modeling](https://doi.org/10.1038/s41587-025-02761-2).
 Official [implementation instructions](https://github.com/programmablebio/pepmlm/blob/3169c4920f8c383948e0a5d3a7c8f87e5e7d2436/README.md)
 load a masked language model and tokenizer with a published model identifier.
@@ -112,6 +114,14 @@ without full retraining. Infill/decoding or logit guidance are possible adaptati
 questions, not verified native family-guidance interfaces. Reported
 intracellular results involving expressed fusions do not establish delivery of
 the corresponding free synthetic peptide.
+
+Additional source observation: the inspected
+[generation routine](https://github.com/programmablebio/pepmlm/blob/3169c4920f8c383948e0a5d3a7c8f87e5e7d2436/scripts/generation.py)
+samples per-position top-k logits for a fully masked binder region, then computes
+pseudo-perplexity. It does not expose a native family-feedback or autoregressive
+continuation loop. Custom remasking/decoding is an adaptation to qualify;
+pseudo-perplexity must not be treated as normalized molecular likelihood or
+binding affinity. No execution is claimed.
 
 ### DiffPepBuilder — structural target-conditioned co-design
 
@@ -240,3 +250,48 @@ assessment of annotation completeness.
 The existence of these methods makes learned-family-guided binder search
 plausible. Transfer to CPP+ACP/AMP, reliable joint activity and improved
 experimental yield remain research hypotheses, not adopted capabilities.
+
+## F. Inference-time steering and distribution composition
+
+### FK steering: non-gradient trajectory allocation
+
+Singhal et al., ICML 2025,
+[A General Framework for Inference-time Scaling and Steering of Diffusion Models](https://proceedings.mlr.press/v267/singhal25b.html).
+The paper studies intermediate resampling of diffusion trajectories using
+reward-related potentials, including gradient-free steering. Its experiments
+concern image/text generation, not joint peptide target/family design.
+
+**Proposed relevance:** an external predictor can influence which compatible
+trajectories are continued without differentiating through that predictor.
+This requires access to intermediate states and continuation plus justified
+future-reward estimates; a complete-output-only API does not provide these by
+itself. Applying the method to peptide engines or partial chemical views needs
+separate qualification. Paper inspected; no code/runtime audit claimed here.
+
+### Feynman-Kac Correctors: a limit of naive model composition
+
+Skreta et al., ICML 2025,
+[Feynman-Kac Correctors in Diffusion: Annealing, Guidance, and Product of Experts](https://proceedings.mlr.press/v267/skreta25a.html).
+The paper derives weighted simulation/correction methods for annealed and
+composed diffusion distributions, with molecular and image examples.
+It shows why heuristic score combinations need not track the intended
+intermediate distributions.
+
+**Proposed relevance:** combining pretrained models can avoid universal
+retraining, but a product of models' scores is not automatically a sampler for
+the desired terminal distribution. Shared output domains, normalization/support,
+representation multiplicity and the cost of corrections must be examined.
+No arbitrary cross-tokenizer peptide composition or drop-in MolSysSuite adapter
+is established. This is a methodological precedent, not an adopted engine;
+paper inspected, implementation and peptide-family transfer unqualified.
+
+### Interpretation of uncalibrated and extrapolative rewards
+
+Under accepted D18–D19, perfect calibration is not required to try a justified
+ranking signal. Model-data/chemistry support, observed discrimination and
+independent assessment remain separate questions. Exploration may be justified
+beyond a model's validated domain, but the score is then qualified as such;
+syntactic acceptance is not scientific applicability. Improvement against the
+reward model alone establishes reward optimization. Independent evidence may
+be absent; computational completion does not require inventing it or claiming
+biological validation. No formal evidence hierarchy is introduced here.
