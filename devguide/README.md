@@ -80,7 +80,7 @@ specification. No scientific implementation or public API is defined.
 24. [Representative CPP case-guided project pool](cpp_guided_projects.md):
     twelve complementary guides spanning arginine-rich/penetratin CPPs,
     cargo delivery and endosomal escape, p28 anticancer target engagement,
-    iRGD tissue penetration, pHLIP pH dependence, cyclic CPPs, stapled binders
+    iRGD tissue penetration, pHLIP pH dependence, cyclic CPPs, stapled binders,
     joint CPP+AMP guidance, oligonucleotide delivery and proteolytically
     activatable CPPs; future references, not V0.1 commitments.
 25. [Supplementary CPP guide cases](cpp_case_portfolio.md): four non-overlapping
