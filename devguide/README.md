@@ -69,8 +69,8 @@ specification. No scientific implementation or public API is defined.
 21. [Increment 1 commissioning and readiness brief](increment_1_work_order.md):
     scientific closure versus operational prerequisites; draft central admission,
     staged starter integration, W0–W4 deliverables, engine-free/live test lanes,
-    Codex discretion and required evidence. Authorized under D36; W0 started,
-    W1–W4 conditional on completed admission/bootstrap.
+    Codex discretion and required evidence. Authorized under D36; W0 engineering
+    received, W1–W4 retain their own scientific gates.
 22. [Scientific north star and milestone trajectory](scientific_trajectory.md):
     original target+functional-family hypothesis, differentiating value, risks,
     evidence-based progress milestones and no-implementation-scope guardrails.
@@ -91,7 +91,7 @@ specification. No scientific implementation or public API is defined.
 
 ## Engineering receiving and reporting
 
-- [W0 integration and qualification](pending_proposals/complete_w0.md): genuine
+- [W0 integration and qualification](archive/complete_w0.md): genuine
   admission/starter provenance, applicability reviews and executed evidence.
 - [Local reporting protocol](reporting_protocol.md) and generated
   [pending proposals](pending_proposals/README.md), [pending bugs](pending_bugs/README.md)
@@ -197,9 +197,9 @@ conservative sequence preservation, native output/precision/mapping, both exact
 selectors, M1–M8 and provisional canonical single-peptide/<100 operational scope.
 Its scientific design is closed within those limits. Actual qualification,
 operational conditions and suite admission remain pending. **D36 authorizes
-W0–W4**, with the specific central admission issue exception. W0 has started in
-[MolSysSuite #146](https://github.com/uibcdf/molsyssuite/issues/146); W1–W4 remain
-gated on accepted published registration and official bootstrap. The
+W0–W4**, with the specific central admission issue exception. W0 engineering is
+received in [MolSysSuite #146](https://github.com/uibcdf/molsyssuite/issues/146).
+W1–W4 retain their scientific acceptance gates and have not been executed here. The
 [work order](increment_1_work_order.md) tracks the handoff and required evidence.
 H0–H4, other development issues, package publication and horizon expansion are excluded.
 
@@ -211,8 +211,8 @@ require demonstrating a complete biological mechanism.
 
 PeptideMT is registered as a primary incubating scientific Python component at
 `uibcdf/molsyssuite@8a94e16f1ba26122304df264e89c4eca15afaf5a`. The official
-starter is integrated. Central W0 receiving is tracked in uibcdf/molsyssuite#146
-and the expressly authorized uibcdf/peptidemt#1. Routine development uses the
+starter is integrated and W0 engineering receiving is complete in
+uibcdf/molsyssuite#146 and the expressly authorized uibcdf/peptidemt#1. Routine development uses the
 shared `molsyssuite@uibcdf_3.14` environment; member Conda recipes remain clean
 qualification fixtures. No other development issue, scientific implementation
 or package publication is authorized by this engineering receiving task.

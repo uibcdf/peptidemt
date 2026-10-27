@@ -1,10 +1,11 @@
 # Increment 1: implementation readiness and commissioning brief
 
-Status: **W0–W4 authorized under D36 within D35/M1–M8; W0 started**,
+Status: **W0–W4 authorized under D36 within D35/M1–M8; W0 engineering received**,
 2026-10-27. The specific central admission issue is
 [MolSysSuite #146](https://github.com/uibcdf/molsyssuite/issues/146).
-Central registration is accepted at `8a94e16f`; integrated official bootstrap
-qualification and central W0 receiving remain prerequisites for W1–W4.
+Central registration is accepted at `8a94e16f`; official bootstrap qualification
+and central W0 engineering receiving are complete. W1–W4 retain their own
+component-owned scientific acceptance gates.
 PeptideMT #1 is the expressly authorized local W0 evidence issue. No other
 development issues or package publication are authorized.
 HydrAMP remains outside this assignment; H0–H4 remains a proposal.
@@ -14,8 +15,8 @@ Navigation: [index](README.md) · [accepted scientific contract](v0_1_increment_
 
 ## 1. Readiness finding and fixed scope
 
-**Scientifically ready for a bounded implementation assignment; admission and
-operational readiness are not yet established.** D35 approves the Macrel contract,
+**Scientifically ready for a bounded implementation assignment; W0 engineering
+is received, while scientific operational readiness still needs actual qualification.** D35 approves the Macrel contract,
 M1–M8 and both reference selection policies. Do not reopen general architecture
 or compare more model families before implementing this agreed capability.
 
@@ -261,8 +262,22 @@ require component bootstrap qualification and failed member-audit recovery befor
 
 Official generation and reviewed integration preserve all scientific design files
 and existing Git history. [PeptideMT #1](https://github.com/uibcdf/peptidemt/issues/1)
-and its [W0 record](pending_proposals/complete_w0.md) hold actual component
+and its [W0 record](archive/complete_w0.md) hold actual component
 checks, environment/review evidence and remaining receiving obligations.
 That single local issue was explicitly authorized by the investigators; no
 additional general issue authority follows. W0 engineering checks cannot clear
 Macrel qualification or any scientific M1–M8 gate.
+
+## Completed W0 engineering receiving — 2026-10-27
+
+The official baseline is received under uibcdf/molsyssuite#146 and
+uibcdf/peptidemt#1. The [archived W0 record](archive/complete_w0.md) binds
+actual source/installed evidence, Python 3.11–3.14 routine/full/policy gates,
+registered guides and applicability reviews. A fresh fifteen-source shared
+development environment passes editable installation, dependency closure and
+source/official-Qt imports. Daily work uses `molsyssuite@uibcdf_3.14`.
+
+Earlier tables and receiving updates above preserve their dated initial states.
+W1 has not been executed here. The next component-owned step is W1 under the
+existing D35/D36 work order, followed by actual W2 Macrel qualification; neither
+the engine-free baseline nor this receiving executes M1–M8 or publishes packages.

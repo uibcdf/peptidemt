@@ -1,14 +1,14 @@
 ---
 summary: Receive the official PeptideMT starter after accepted suite registration.
 issue: uibcdf/peptidemt#1
-status: partial
+status: resolved
 opened: 2026-10-27
-closed:
+closed: 2026-10-27
 verification: measured
 area: [governance, packaging, ci]
 guard:
-normative:
-blocked_by: [uibcdf/molsyssuite#146]
+normative: MOLSYSSUITE_GUIDE.md
+blocked_by: []
 supersedes: []
 ---
 
@@ -266,3 +266,34 @@ Final consumer gates, central guide/dependency audits and expanded-cohort
 integration must succeed before W0 is marked received. The frozen policy and
 admission SHA remain unchanged. Public Python admission is distinct from
 shared-development authorization and the executed source compatibility matrix.
+
+## Resolution — 2026-10-27
+
+Central W0 engineering receiving is accepted under the investigator-authorized
+route. The baseline candidate `9fb287b6bbf4ef2c5817ea203e56b4616d9a0ac7`
+passes routine CI 40579200735, full Linux/Python 3.11–3.14 matrix 40579199849
+and frozen-policy/admission 40579201439, with native required job/step facts
+verified. The original wheel remains tied to its original candidate.
+
+Central delivery `8f4222591f67ffa7eb26cb347dfa82a1db12c294` passes the
+16-Python-member manifest audit (40579261933), 17-member common-guide/AGENTS
+audit (40579262139) and the fresh fifteen-member shared editable integration
+(40579262099, Python 3.14.10). The latter includes this exact PeptideMT baseline,
+clean dependency closure, native C/Rust probes and source/official-Qt imports.
+The recovered central governance gate at `73b9055a8432b4422848dac80ebbf63bfc1b6591`
+passes 544 tests with one existing opt-in native Mamba test skipped
+(40579703176). The PeptideMT baseline has no skipped test.
+
+All three registered PeptideMT guide copies match committed canonical sources.
+The global vendored-guide run 40579262061 still fails for twelve pre-existing
+GH Run Receptor guide copies in other members; it is not reported green and
+that provider rollout is outside this PeptideMT-only scope. This does not erase
+its debt or establish adoption by those consumers. Central retains its bounded
+diagnostic and independent PeptideMT comparison in the receiving receipt.
+
+The durable policy is `MOLSYSSUITE_GUIDE.md`, the genuine frozen-policy caller
+and central registration/reviews. The existing full baseline tests and native
+policy/quality gates protect their respective import, reporting and engineering
+contracts; the reporting test alone does not prove scientific readiness.
+W1–W4, Macrel/M1–M8 and publication remain separate, unexecuted component work.
+Final documentation-only closeout is followed by its own applicable native gates.

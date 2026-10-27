@@ -132,9 +132,10 @@ for ownership, uncertainty, privacy and exceptions.
 Read `README.md`, `devguide/README.md`, `devguide/decisions.md` and the
 canonical [MolSysSuite component guide](https://github.com/uibcdf/molsyssuite/blob/main/MOLSYSSUITE_GUIDE.md)
 before making changes. D36 authorizes the W0–W4 increment-1 work order. Central
-registration is accepted at `8a94e16f`; W0 component bootstrap and qualification
-are in progress. W1–W4 remain gated on actual W0 receiving. Preserve the existing
-scientific design history.
+registration is accepted at `8a94e16f`; official W0 engineering receiving is
+recorded in `devguide/archive/complete_w0.md`. Before continuing W1–W4, read that
+receipt and the component-owned work order; engineering checks do not establish
+scientific execution. Preserve the existing scientific design history.
 
 Use English for maintained documentation and commits. Keep changes focused,
 preserve human work and do not publish secrets, private attachments or raw

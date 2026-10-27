@@ -5,7 +5,7 @@
 [![Python 3.11 | 3.12 | 3.13](https://img.shields.io/badge/Python-3.11%20%7C%203.12%20%7C%203.13-3776AB?logo=python&logoColor=white)](https://github.com/uibcdf/molsyssuite/blob/main/devguide/python_policy.md)
 [![License](https://img.shields.io/github/license/uibcdf/peptidemt)](https://github.com/uibcdf/peptidemt/blob/main/LICENSE)
 
-**Incubating MolSysSuite component; official bootstrap qualification in progress.**
+**Incubating MolSysSuite component; official W0 engineering baseline received.**
 
 PeptideMT is a computational peptide-design platform intended to generate,
 redesign, evaluate and optimize peptide sequences by exploring regions of
@@ -36,7 +36,7 @@ Python component. Central admission is
 [`8a94e16f`](https://github.com/uibcdf/molsyssuite/commit/8a94e16f1ba26122304df264e89c4eca15afaf5a),
 under [MolSysSuite #146](https://github.com/uibcdf/molsyssuite/issues/146).
 The official starter is integrated using `policy-v1.5.10` plus that separate
-admission SHA. Component W0 receiving remains pending in
+admission SHA. Completed component W0 receiving is recorded in
 [PeptideMT #1](https://github.com/uibcdf/peptidemt/issues/1).
 
 The source package currently exposes no scientific public API. Baseline import,
@@ -44,8 +44,8 @@ reporting, lint and installed-package checks establish engineering readiness onl
 No package has been publicly distributed and no OS-support claim is made.
 Required Python compatibility lanes cover 3.11–3.14, with 3.14 for routine work.
 Routine development uses the shared `molsyssuite@uibcdf_3.14` environment.
-Central registration of this development authorization and its fresh integration
-receipt are tracked in the [W0 record](devguide/pending_proposals/complete_w0.md).
+The fresh fifteen-member editable integration passed on Linux/Python 3.14.10;
+its exact sources and scope are recorded in the [W0 record](devguide/archive/complete_w0.md).
 The badge above follows the frozen policy's public-admission inventory; the
 executed source compatibility matrix separately covers Python 3.11–3.14.
 
@@ -76,9 +76,10 @@ User-approved directions, pending proposals, research hypotheses, verified
 observations and open questions have separate statuses. Recommendations do not
 become accepted decisions automatically.
 
-D36 authorizes the increment-1 W0–W4 work order under D35/M1–M8. W0 is in progress
-in [MolSysSuite #146](https://github.com/uibcdf/molsyssuite/issues/146); W1–W4 start
-only after genuine central admission and official staged bootstrap complete.
+D36 authorizes the increment-1 W0–W4 work order under D35/M1–M8. W0 engineering
+receiving is complete in [MolSysSuite #146](https://github.com/uibcdf/molsyssuite/issues/146).
+W1–W4 retain their component-owned scientific gates; no scientific implementation
+or model run was performed by this homologation task.
 This is a specific admission-issue exception, not authority to open other
 development issues or publish packages.
 P07 is accepted conceptually: incomplete proposals, chemical realizations and
