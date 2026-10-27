@@ -165,15 +165,20 @@ general computational design scope.
 
 ## Q9. Future horizon stress tests — exploratory, not a freeze gate
 
-The [future horizons](future_horizons.md) inventory considers modified/cyclic
-chemistry, multiple target conformations, mechanistic selectivity, delivery,
-activatable constructs, synthesis/developability, multi-fidelity evaluation,
-feedback learning, functional-space exploration and other extensions.
+The [future horizons V0.2](future_horizons.md) inventory considers modified/cyclic
+chemistry, target ensembles and selectivity, delivery, activation and degradants,
+synthesis, PK/ADMET exposure, multifidelity learning, combinatorial/display libraries,
+TCR–pMHC design, screening landscapes, molecular proximity, imaging/materials and
+other extensions. S9–S12 are additional semantic stress tests, **not** newly
+approved design objects or mandatory gates.
 
 Which two or three cases expose genuinely new **core semantic** requirements
 rather than deferrable specialist modules? Can P07 distinguish a precursor,
 modified derivative and transformation product? Can D09 express state-selective
 and negative-target objectives without treating structural confidence as mechanism?
 Can evaluations at varying cost, unknown applicability and later assay feedback
-be traced without adding a general workflow engine? None of the opportunities
-is automatically adopted or required for the first implementation.
+be traced without adding a general workflow engine? Can an implicit combinatorial library be represented without enumerating its members?
+Can a multi-component TCR–peptide–MHC problem be distinguished from one pairwise
+binder? Can precursor/product transformations and dose/route-dependent exposure be
+expressed without turning them into universal core engines? None of the
+opportunities is automatically adopted or required for the first implementation.
