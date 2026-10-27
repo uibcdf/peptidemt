@@ -672,3 +672,28 @@ and receiving because the applicable member reviews require member-owned issues.
 This is an operational extension of D36's reporting authority, not a new scientific
 or architectural decision or authority for other issues. W1 remains gated on W0
 receiving. See the [receiving record](pending_proposals/complete_w0.md).
+
+## Strategic trajectory and experimental-reference case — 2026-10-27
+
+At the investigators' request, added
+[scientific_trajectory.md](scientific_trajectory.md) to preserve the original
+**target-directed plus functional-family-guided peptide design** goal, the
+distinction between scientific architecture and executable usefulness, the
+principal overengineering/reward-model risks, and a proposed four-milestone
+progression: faithful real evaluation, real learned generation, functional
+feedback affecting later proposals, and joint target/function design.
+
+Expanded [design_examples.md](design_examples.md) with a fifth, published-
+evidence-anchored **case E** and added its detailed
+[MDM2/MDMX cell-permeating anticancer peptide study](case_study_cpp_anticancer_mdm2_mdmx.md).
+ATSP-7041 and PDB 4N5T provide experimental and chemical reference evidence;
+the PDB receptor construct is not assumed to be unmodified human MDMX. The
+existing case C remains an independent *conceptual* CPP+ACP problem.
+The experimental results belong to the cited sources and have **not** been
+reproduced in PeptideMT.
+
+**Disposition:** scientific trajectory and future case are contextual
+research/design documentation, not new D decisions, accepted model/target
+selection, live scientific evidence or expanded W0–W4/M1–M8 contracts.
+D33–D36, the W0 pause, the two receiving issues and no-new-issues boundaries
+are unchanged. The next authorized work remains finishing W0 before W1.
