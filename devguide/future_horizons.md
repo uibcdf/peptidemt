@@ -14,6 +14,14 @@ Our design discussions have so far concentrated on **how** heterogeneous generat
 
 The V0.2 review adds combinatorial/display libraries, peptide immunology, systemic exposure, molecular proximity/degradation, peptide transformation networks, high-throughput experimental landscapes and nontherapeutic probes/materials. These are literature-motivated directions, not new mandatory platform contracts.
 
+For a bounded scientific differentiation and near-term implementation trajectory,
+see [scientific_trajectory.md](scientific_trajectory.md). A mechanistically
+grounded case of a **cell-permeating, MDM2/MDMX-directed, p53-mimetic stapled
+anticancer peptide** is developed in
+[case_study_cpp_anticancer_mdm2_mdmx.md](case_study_cpp_anticancer_mdm2_mdmx.md).
+Neither document adds a mandatory V0.1 milestone or adopts a new experimental
+demonstrator.
+
 The opportunity is not primarily to compete with foundational protein generators. It is to combine their proposals with peptide-specific chemistry, rigorous molecular assessment, biological context, multiobjective search and reproducible evidence. Both target-directed and target-free problems remain in scope; experimental verification is not a prerequisite to complete a computational campaign.
 
 **Design rule:** distinguish (a) a long-term opportunity, (b) a semantic implication worth testing before freezing a core contract, (c) a capability-specific specification that can be deferred, and (d) work approved for implementation. Entries here are primarily (a) and (b). No implementation is authorized.
