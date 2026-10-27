@@ -5,6 +5,10 @@ Navigation: [index](README.md) · [decisions](decisions.md).
 
 The tracks below are incremental capabilities, not a commitment to one
 demonstrator or a redesign-only entry point.
+The separate [future horizons review](future_horizons.md) records potential
+chemical, mechanistic, multi-state, delivery, experimental and interactive
+extensions plus design stress tests. They do **not** extend this preliminary
+implementation plan or authorize work.
 
 | Stage | Candidate deliverable | Evidence to retain |
 | --- | --- | --- |
