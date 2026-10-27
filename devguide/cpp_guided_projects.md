@@ -2,7 +2,7 @@
 
 Date: **2026-10-27**. Status: **literature-anchored reference cases and a proposed future case-guided development ladder**, not selected V0.1 demonstrators, accepted scientific models or implementation authorization. The pool complements the four original conceptual design cases and the detailed [ATSP-7041 MDM2/MDMX case](case_study_cpp_anticancer_mdm2_mdmx.md). It deliberately covers distinct **biological endpoints, chemical representations, sources of cell selectivity and delivery mechanisms**, rather than treating every cell-penetrating peptide as a target-binding anticancer agent.
 
-Navigation: [index](README.md) · [worked cases](design_examples.md) · [original scientific goal and trajectory](scientific_trajectory.md) · [functional semantics](functional_families.md) · [future horizons](future_horizons.md) · [V0.1 scope](v0_1_scope.md).
+Navigation: [index](README.md) · [worked cases](design_examples.md) · [original scientific goal and trajectory](scientific_trajectory.md) · [functional semantics](functional_families.md) · [future horizons](future_horizons.md) · [V0.1 scope](v0_1_scope.md). · [four supplementary CPP guide cases](cpp_case_portfolio.md)
 
 ## 1. How to use this pool
 
