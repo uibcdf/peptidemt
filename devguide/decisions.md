@@ -722,3 +722,22 @@ fixtures or new release obligations. The current V0.1 AMP/Macrel/HydrAMP
 direction, D33–D36, M1–M8, W0 central receiving gate and issue authority
 remain unchanged. No model installation, new scientific run or code/issue
 was authorized by this documentation addition.
+
+## Supplemental CPP project cases — 2026-10-27
+
+The investigator requested a representative case-guided pool beyond the
+advanced stapled peptide. The simultaneously published
+[canonical twelve-case CPP progression](cpp_guided_projects.md) is retained
+as owner of **CPP-01–CPP-12**. A separate
+[four-case complementary extension](cpp_case_portfolio.md), with unique
+**CPP-S1–CPP-S4** identifiers, covers Pep-1 noncovalent protein delivery,
+GALA membrane fusion as an endosomal-escape *helper*,
+mitochondria-specific penetrating peptides, and buforin II's
+bacterial intracellular antimicrobial mechanism. The existing abstract
+CPP+ACP target case and ATSP-7041 detailed case remain linked rather
+than duplicated as distinct implementations.
+
+These are scientific development guides using primary published evidence,
+not approved model packages, experimental replications, execution,
+additional scientific requirements or D decisions. D33–D36, W0's paused
+central receiving, Macrel M1–M8 and the existing issues are unchanged.
