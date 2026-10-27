@@ -467,7 +467,7 @@ calling it an additional desired functional family. Catalog membership and model
 availability remain separate, as accepted under P08 (D17–D20). Individual family
 definitions, relation vocabularies and model choices are not fixed by that approval.
 
-## 10. Assessment of the original four conceptual cases
+## 10. Assessment and next proposed decision
 
 Alternative B passes the original **conceptual consistency exercise**: each of cases A–D supports
 multiple plans while retaining its intent, and exposes differences in evidence
