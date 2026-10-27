@@ -242,3 +242,12 @@ Return to [P04 evaluation and selection](open_questions.md#p04-proposed-discussi
 select concrete engines and experiments later from that evidence. Sampling-time guidance and learned
 conditioning should remain alternatives that can outperform or complement a
 baseline, not mandatory stages or a definitive generative architecture.
+
+The [multiobjective analysis](multiobjective_optimization.md) now separates search
+rewards, evaluation acquisition, population survival and action-specific final
+selection on an invented X/Y/CPP/hemolysis case. Scalar guidance can feed a Pareto
+archive or a constrained shortlist; a Pareto search need not dictate the final
+choice. D29 accepts requirement/check/evidence meanings, not these policies.
+Compare fixed-evidence policy effects separately from end-to-end search effects,
+with retained raw objectives, unresolved evaluations and declared costs. No
+optimizer or generator capability is selected by this extension.

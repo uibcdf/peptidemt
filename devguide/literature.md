@@ -306,3 +306,14 @@ syntactic acceptance is not scientific applicability. Improvement against the
 reward model alone establishes reward optimization. Independent evidence may
 be absent; computational completion does not require inventing it or claiming
 biological validation. No formal evidence hierarchy is introduced here.
+
+## G. Multiobjective optimization precedents
+
+The [P04 multiobjective review](multiobjective_optimization.md) links primary
+NSGA-II (Deb et al., 2002), MOEA/D (Zhang and Li, 2007), smooth Tchebycheff
+scalarization (Lin et al., 2024), NEHVI/qNEHVI (Daulton et al., 2021) and PESMO
+(Hernández-Lobato et al., 2016). It distinguishes generic algorithmic results from
+unqualified peptide-domain integration, and optimization from final selection.
+Its numerical examples are invented; no source benchmark or PeptideMT experiment
+is reproduced. These precedents do not select an engine, probability model,
+universal fitness or optimization policy.

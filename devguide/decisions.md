@@ -10,9 +10,10 @@ interfaces, schemas and implementation remain deferred. A bounded V0.2 horizon
 review proposes a collective-design distinction without adopting it; P10 remains
 pending by explicit request. P04 alternative 2 and its seven minimal principles
 are accepted under D27, with the MOLI interpretation boundary under D28. P04
-remains open for constraint/check organization and optimization, uncertainty,
-diversity and budgeted policies. The X/Y selectivity case contains pending
-recommendations, not an adopted selector or threshold. No API is selected.
+now also accepts the X/Y requirement/check/evidence separation under D29. P04
+remains open for optimization, uncertainty, diversity and budgeted policies.
+The multiobjective comparison contains pending alternatives, not an adopted
+selector, optimizer or threshold. No API is selected.
 
 ## Accepted working directions
 
@@ -58,6 +59,7 @@ they are repository setup choices, not scientific decisions.
 | D26 | A capability declaration must justify the concrete use without a universal field inventory; distinguish fundamental, contextual and optional information. | Explicit investigator approval. Unknown restrictions do not demonstrate support. Required operations must actually be established; scientific uncertainty can permit justified exploration but cannot replace missing operations. Detailed attributes/checks are specified with particular implementable capabilities rather than reopened as separate conceptual approvals. |
 | D27 | Adopt P04 alternative 2 and all seven minimal principles in evaluation_and_selection.md: evaluation, feasibility knowledge, purpose-specific selection and bounded scientific claims have distinct meanings. | Explicit investigator approval. No four classes/services/stages, state machine or mandatory global grade. Selection is purpose-relative; strictness and checkability are independent; preserve established violations, cutoff failures, missing/failed evaluations, contradiction and applicability limits without universal penalties. Retain original evidence, policies, operational criteria and selection reasons; different policies can address the same problem without rewriting results. P04 remains open for concrete restrictions and optimization/selection policies. |
 | D28 | PeptideMT retains evaluations, selection grounds and computational conclusions scoped to their evidence; it is not a general scientific-interpretation or project-claim management engine. | Explicit investigator qualification of D27. Global interpretation and project decisions belong to investigators and, eventually, appropriate MOLI components, especially Nextia. This boundary must preserve scientifically interpretable native results; no dependency on a currently implemented Nextia runtime or automated claim adjudicator is approved. |
+| D29 | Adopt X/Y alternative 2: distinguish scientific requirements, operational checks and explicit evidence links for assessing compliance, with all seven investigator qualifications. | Requirements exist independently of available evaluators. An exact score predicate is not an exact biological check. Preserve original subjects, representations, conditions, models, uncertainty and provenance. Many-to-many evidence links imply no automatic sufficiency. Distinguish favorable, adverse, contradictory, insufficient and absent evidence without a universal state scheme. Eligibility is action/policy-specific; absent Y evidence is not demonstrated selectivity. Comparisons respect meaning, units, conditions and domains; structural scores are not arbitrarily converted to affinities or selectivity ratios. No universal thresholds, rejection rules, Python classes or formal constraint engine. P04 remains open for optimization and selection. |
 
 The [four worked examples](design_examples.md) are conceptual stress tests and
 conceptual analysis, not selected demonstrators or executed campaigns. Their
@@ -70,7 +72,7 @@ the semantic responsibilities adopted through P07 are recorded under D15–D16.
 | --- | --- | --- |
 | P02 | Refine context, qualified label/resource mappings and evaluator bindings within D10/D17–D20. | Conceptual separation is accepted; concrete fields, mapping policies and interfaces remain open. |
 | P03 | Keep a small sequence/design core with optional molecular and model adapters. | Compare dependency cost against uniform molecular integration. |
-| P04 | Restrictions/checks, objectives, uncertainty, diversity and purpose-specific selection under budget. | Alternative 2 and seven principles accepted under D27–D28. The [X/Y case](evaluation_and_selection.md#7-selectivity-case-bind-x-while-avoiding-homolog-y) compares requirement/check/evidence alternatives; that organization and concrete optimization policies remain pending. No universal selectivity threshold, fitness, selector or Pareto policy adopted. |
+| P04 | Objectives, operational policies, uncertainty, diversity and purpose-specific selection under budget. | Evaluation/selection separation accepted under D27–D28; X/Y requirement/check/evidence alternative 2 and seven qualifications accepted under D29. The [multiobjective comparison](multiobjective_optimization.md) analyzes scalar, Pareto, hierarchical/constrained, uncertainty-aware and diversity policies. No optimizer, universal threshold, fitness, selector, missing-data rule or diversity metric adopted. |
 | P05 | Compare and compose filtering, external optimization, sampling-time guidance, functional distributions and learned conditioning through explicit capabilities. | Current [strategy analysis](generative_strategies.md); no definitive generator, common API, capability schema or first comparison experiment selected. |
 | P06 | Formal suite admission and official Python starter generation. | Agree the central process; no issue or sibling-registry change is authorized by this initial documentation publication. |
 | P10 | Distinguish collective/distributional library proposals from individual molecular proposals, including incomplete individuals. | Pending bounded recommendation from [V0.2 case A](future_horizons.md#9-bounded-extensibility-review-after-p09-approval). No library support, generic population hierarchy or MVP requirement adopted; concrete semantics can wait until such a capability is prioritized. |
@@ -139,13 +141,16 @@ accepted architecture. Only the collective-versus-individual distinction is
 proposed as P10. No new top-level architecture is recommended for state panels
 or precursor/product relationships. None of these horizons becomes an MVP gate.
 
-P04 now has **partial conceptual approval under D27–D28**: alternative 2 and all
+P04 now has **partial conceptual approval under D27–D29**: alternative 2 and all
 seven minimum principles are accepted with purpose-relative selection, independent
 strictness/checkability, preserved evidence and bounded interpretation. It is not
 closed for restrictions, uncertainty, diversity, optimization or budgeted selection.
-The new X/Y selectivity exercise and its requirement/check/evidence alternatives
-remain proposals. No later policy can retroactively convert a missing assessment
-into established compliance or selection into validated activity.
+The X/Y requirement/check/evidence alternative 2 is now explicitly accepted under
+D29, with its seven qualifications and no software representation selected.
+The [multiobjective analysis](multiobjective_optimization.md) remains a set of
+alternatives: no optimizer, numerical policy or implementation is adopted.
+No later policy can retroactively convert a missing assessment into established
+compliance or selection into validated activity.
 
 The dated discussion updates below preserve the status at each revision. Current
 approval status is given in the accepted decisions and proposal disposition above.
@@ -392,6 +397,30 @@ Boltz-2's documented output/domain limits at the existing audit pin and used NIS
 measurement distinction only as a general conceptual anchor. No new engine was
 selected, installed or executed; no peptide sequence, target structure or experiment
 was produced. Updated related current-status documents. No scientific code or issues.
+
+## X/Y semantic approval and multiobjective discussion — 2026-10-26
+
+Recorded the investigators' explicit approval of X/Y alternative 2 and all seven
+qualifications as D29. Requirements, operational checks and evidence links have
+distinct meanings; no classes, universal status scheme, thresholds, rejection
+rule or constraint engine follows. Earlier dated pending recommendations remain
+history. P04 stays open for optimization and selection.
+
+Added [multiobjective_optimization.md](multiobjective_optimization.md) for the
+X-recognition/Y-avoidance/CPP/hemolysis case: weighted utilities, Pareto archives,
+hierarchical and constrained policies, uncertainty without compulsory calibrated
+probabilities, diversity and cost. Invented candidates expose different choices,
+missing/noncomparable results and a chemical-check violation. Verified their
+arithmetic separately; these are not scientific data or executed model outputs.
+Distinguished search, evaluation acquisition, survival and final action selection;
+proposed fixed-evidence and end-to-end comparisons without choosing a policy.
+
+Consulted primary NSGA-II, MOEA/D, scalarization and Bayesian multiobjective papers;
+their generic algorithms do not establish peptide-domain effectiveness. Reused
+the pinned ecosystem and engine audits without changing their source snapshots.
+Updated navigation and current-status documents consistently. No scientific
+software, model execution, benchmark reproduction, experiment or development issue.
+All new optimization recommendations remain pending investigator discussion.
 
 ## Change protocol
 

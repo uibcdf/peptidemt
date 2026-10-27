@@ -63,9 +63,12 @@ examines libraries, target states and transformation products without new MVP
 commitments. The current [P04 analysis](devguide/evaluation_and_selection.md)
 records accepted alternative 2 and seven principles (D27–D28): evaluation,
 feasibility, purpose-specific selection and bounded computational conclusions.
-The X/Y selectivity case now compares scientific requirements, operational checks
-and compliance evidence; its organization and concrete selection policies remain
-pending, without a universal selector or project-interpretation engine.
+The X/Y selectivity case adopts distinct scientific requirements, operational
+checks and explicit evidence links (D29), without universal thresholds or a
+constraint engine. The [multiobjective analysis](devguide/multiobjective_optimization.md)
+compares scalar, Pareto, hierarchical/constrained, uncertainty-aware and diversity
+policies on invented X/Y/CPP/hemolysis candidates. P04 stays open; no optimizer,
+selector, reward or numerical policy is adopted.
 The [expanded engine review](devguide/protein_peptide_design_engines.md)
 examines general protein/peptide engines, Chaperone and RFD4, their evidence and
 optional integration routes. No definitive generator, mandatory backend or API

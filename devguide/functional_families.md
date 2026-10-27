@@ -331,8 +331,10 @@ Alternative 2 and seven principles are now accepted under D27–D28. A scientifi
 requirement can be strict without an exact available evaluator; cutoff failure,
 missing evidence, disagreement and extrapolation have different meanings. The
 [X/Y selectivity case](evaluation_and_selection.md#7-selectivity-case-bind-x-while-avoiding-homolog-y)
-tests the still-pending organization of requirements, checks and compliance
-evidence. Family labels or structural confidence do not by themselves establish
+records the accepted organization of requirements, checks and compliance
+evidence under D29. The [multiobjective discussion](multiobjective_optimization.md)
+compares alternative uses of family signals without adopting a scalar or Pareto
+selector. Family labels or structural confidence do not by themselves establish
 target selectivity, and global project interpretation stays outside PeptideMT.
 
 Compare only sufficiently aligned subjects, chemical views, contexts and claims

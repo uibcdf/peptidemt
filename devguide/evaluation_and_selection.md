@@ -1,13 +1,15 @@
 # Evaluation, feasibility, selection and scientific claims
 
-Status: **P04 alternative 2 and seven principles accepted (D27–D28); constraint/
-check alternatives and concrete policies pending**, 2026-10-26. No selector,
+Status: **P04 alternative 2 and seven principles accepted (D27–D28); X/Y
+requirement/check/evidence alternative 2 accepted (D29); optimization policies pending**,
+2026-10-26. No selector,
 feasibility taxonomy, API or implementation is approved. P04 remains open for
 restrictions, optimization, uncertainty, diversity and budgeted selection. P09
 stays conceptually closed and P10 stays pending without an MVP obligation.
 
 Navigation: [index](README.md) · [decisions](decisions.md) · [P04 agenda](open_questions.md#p04-proposed-discussion-sequence)
 · [families](functional_families.md#selection-contradictions-and-assessment)
+· [multiobjective discussion](multiobjective_optimization.md)
 · [capabilities](capabilities_and_composition.md) · [ecosystem audit](integration_audit.md).
 
 ## 1. Alternatives and accepted conceptual separation
@@ -158,6 +160,7 @@ activity. Experimental observations, if later obtained, form new attributed evid
 | D17–D20 | Preserve qualified functional mappings, indirect/exploratory signals and search-versus-assessment roles. A resource may serve several roles without becoming independent validation. |
 | D21–D26 | Strategies require actual compatible operations; plans choose explicit policies/compositions; execution records what happened. A purpose does not create a missing evaluator, and unknown support remains unknown. |
 | D27–D28 | Alternative 2 and all seven principles are accepted; local computational conclusions remain interpretable without a general scientific/project-claim engine. Concrete constraint and selection policies are still open. |
+| D29 | Requirements, operational checks and many-to-many evidence links are distinct; links alone do not establish sufficiency. Preserve original evaluations and qualified comparisons, with action-relative eligibility and no default treatment of missing Y as selectivity. |
 
 The [preserved audit](integration_audit.md) remains the source-level basis for
 owner boundaries; this discussion does not claim new ecosystem implementations:
@@ -224,12 +227,13 @@ because a model is called through another route.
 **Resolved conceptually:** the four semantic responsibilities and purpose-relative
 eligibility/feasibility distinction. The X/Y case below now tests a specific
 scientific requirement, its operational checks and evidence for different actions.
-Its proposed requirement/check/evidence organization remains pending; no universal
-threshold or minimum evidence bar follows from the approval.
+Its requirement/check/evidence organization is now accepted under D29; no universal
+threshold or minimum evidence bar follows from that approval.
 
-Afterwards compare hard/soft objectives, Pareto and hierarchical/lexicographic
-policies, reward scaling, uncertainty, diversity, budgets and value of evaluation
-progressively. This document selects none of them. P10 stays pending; no library
+The [multiobjective analysis](multiobjective_optimization.md) now compares scalar,
+Pareto and hierarchical/constrained policies, uncertainty, diversity and budgets
+on an invented X/Y/CPP/hemolysis example. Its recommendations remain pending.
+P10 stays pending; no library
 engine or general decision/planning system is needed for the present analysis.
 
 Investigators should settle scientific meaning, constraint scope, allowed proxy
@@ -242,9 +246,9 @@ for capabilities authorized later. No code or development issues are introduced.
 
 ## 7. Selectivity case: bind X while avoiding homolog Y
 
-Status: **hypothetical scientific case and pending representation alternatives**.
+Status: **hypothetical scientific case; alternative 2 accepted conceptually (D29)**.
 X and Y are placeholders, not selected targets; no candidate, evaluation or assay
-is produced. D27–D28 apply, while the organization proposed here awaits approval.
+is produced. D27–D29 apply; numerical policies and concrete representations remain open.
 
 ### Scientific requirement independent of evaluators
 
@@ -360,13 +364,24 @@ their distinct meanings under D27.
 | Distinct scientific requirements, operational checks and evidence/assessment links | A requirement can exist without an evaluator; several checks may inform it and one evaluation may inform several requirements. Exact checks, proxies and unresolved applicability remain explicit. | Needs disciplined links and attribution, but not three classes, fixed schemas or a general inference engine. |
 | General formal constraint/evidence calculus with automatic aggregation | Could help a future specialized optimizer reason about complex predicates and uncertainty. | Premature logic/solver and confidence assumptions; the present case does not justify a universal constraint or decision engine. |
 
-**Pending recommendation: the second alternative.** Distinguish (a) scientific
+**Accepted conceptual choice (D29): the second alternative.** Distinguish (a) scientific
 requirement, (b) the actual predicate/procedure used to check something and (c)
 which evaluations, assumptions and applicability justify an assessment. A model
 cutoff checks its own operational criterion; its relationship to the scientific
 requirement must remain qualified. The first alternative can still be an internal
 representation if it preserves these meanings. No API or compulsory field set
 is selected, and absence of a check does not delete the requirement.
+
+The approval includes all seven investigator qualifications: requirements remain
+independent of methods; checks retain their specific operational meaning; original
+evaluations retain subjects, representations, conditions, models, uncertainty and
+provenance; many-to-many evidence links do not imply sufficiency; favorable,
+adverse, contradictory, insufficient and absent evidence remain distinguishable
+without a universal status scheme; eligibility depends on the action's requirements
+and selection policy, with missing Y never demonstrated selectivity; comparisons
+respect meaning, units, conditions and applicability. A structural score cannot be
+arbitrarily recast as an affinity or selectivity ratio. No universal thresholds,
+rejection rules, Python classes or formal constraint engine are adopted.
 
 ### Traceability, comparison and next discussion
 
@@ -385,9 +400,10 @@ section 3 still needs its actual content; completeness is not favorable evidence
 End-to-end optimizers can additionally generate different candidates; compare
 their problem scope, budgets, coverage and actual evaluations explicitly.
 
-**Suggested next decision:** accept or revise the linked requirement/check/evidence
-semantics, then specify the effect of a particular check on a particular action.
-Choose numerical selectivity requirements and operational rules only for a stated
-scientific use. Afterwards address multiobjective/Pareto, hierarchical priorities,
-uncertainty and diversity. P04 remains open; no universal threshold, fitness,
-selector, formal constraint solver, code or issue is introduced.
+**Current next discussion:** compare optimization and selection policies in
+[multiobjective_optimization.md](multiobjective_optimization.md). Start with which
+tradeoffs may guide exploration and which prerequisites a particular action needs;
+use alternative optimizers on the same problem without rewriting evidence.
+Numerical requirements and operational rules need a stated scientific use.
+P04 remains open; no universal fitness, selector, formal constraint solver, code
+or issue is introduced.

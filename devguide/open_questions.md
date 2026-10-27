@@ -8,8 +8,9 @@ under D15–D16. P08 is accepted under D17–D20. The worked cases remain illust
 with no selected demonstrator. P09 is resolved conceptually under D21–D26,
 including alternative B and all seven principles; concrete contracts remain
 deferred. D27–D28 accept P04 alternative 2 and all seven principles, including
-bounded computational interpretation. P04 remains open for constraints and
-optimization/selection policies. The bounded horizon review adds only
+bounded computational interpretation. D29 accepts distinct scientific requirements,
+operational checks and evidence links with seven qualifications. P04 remains open
+for optimization/selection policies. The bounded horizon review adds only
 a pending collective-design distinction (P10), not new MVP obligations.
 
 ## Q1. Design intent and execution
@@ -114,7 +115,8 @@ recognition when a family-driven optimizer edits a binder?
 
 ### P04 proposed discussion sequence
 
-Status: **pending discussion agenda**, not adopted evaluation/selection policies.
+Status: **evaluation and requirement/check/evidence meanings accepted; optimization
+agenda and policies pending**. No adopted optimizer or numerical policy.
 Return to the individual-peptide operational core; library, ensemble and
 transformation cases remain optional counterexamples rather than required features.
 
@@ -124,20 +126,24 @@ under D27–D28: evaluation, feasibility, purpose-specific selection and computa
 conclusions bounded to evidence. No four classes/states, universal selector or
 global project-claim engine. P09 stays closed and P10 explicitly pending.
 The [X/Y case](evaluation_and_selection.md#7-selectivity-case-bind-x-while-avoiding-homolog-y)
-now tests scientific requirements, exact versus estimated checks and evidence
-without adopting its representation alternatives or a numerical selectivity rule.
+now tests scientific requirements, exact versus estimated checks and evidence.
+Its alternative 2 and seven qualifications are accepted under D29; numerical
+selectivity rules and software representations remain open. The
+[multiobjective analysis](multiobjective_optimization.md) uses invented
+X/Y/CPP/hemolysis candidates to expose scalar, Pareto, hierarchy/constraint,
+uncertainty and diversity choices without adopting them.
 
-1. **Evaluation meaning and decision context.** What is evaluated: which proposal,
+1. **Evaluation meaning and decision context — accepted conceptual boundaries.** What is evaluated: which proposal,
    chemical realization/view, target/state/context and property? Keep raw results,
    units/score meaning, applicability, source and dependencies distinct from the
    objective or reward using them. Identify whether a result guides search,
    assesses a candidate or provides genuinely independent evidence.
-2. **Constraints and evidence sufficiency.** Separate the desired scientific
+2. **Constraints and evidence sufficiency — separation accepted under D29.** Separate the desired scientific
    requirement, an exact check and a model-based operational criterion. What
    happens when a required assessment is missing, fails or has doubtful scope?
    Distinguish an observed violation, an unmet operational criterion and absence
    of evidence without adopting a mandatory status enum or universal rejection.
-3. **Multiple objectives and tradeoffs.** Which objectives remain separate and
+3. **Multiple objectives and tradeoffs — current discussion.** Which objectives remain separate and
    which comparisons are meaningful? Compare documented scalarization, Pareto,
    lexicographic and other policies without selecting one universal optimizer.
    Missing/uncertain entries and incomparable scales affect what can be ranked.
@@ -160,17 +166,21 @@ Can a candidate be eligible for information gathering or exploratory optimizatio
 while a selectivity claim remains unsupported? Which prerequisite belongs to the
 action, and which restriction belongs to the scientific problem?
 
-**Suggested next agreement:** compare the X/Y case's requirement-centered
-summaries, linked requirement/check/evidence meanings and general formal calculus.
-The linked alternative is recommended, still pending, without classes or a solver.
-Does the scientific requirement mean relative X/Y preference, sufficient X
-recognition and/or a bound on Y recognition in a stated context? Which operational
-checks and applicability justify an assessment for optimization, another evaluation
-or synthesis selection? Missing Y remains unresolved under every policy; an
-exploratory choice does not turn it into compliance. Numerical requirements and
-action-specific evidence gates remain to be chosen for concrete scientific uses.
-D11/D18/D19/D26–D28 already separate proxy, evidence, purpose and interpretation;
-this discussion does not reopen those approved principles.
+**Proposed next concrete choice, pending:** define exploratory tradeoffs versus
+prerequisites for one declared action on the X/Y/CPP/hemolysis problem. Should
+scalar guidance coexist with an observed Pareto archive? Which requirements are
+noncompensable for that action? How are candidates with unresolved Y assessed
+or retained for further evaluation? Compare policies first on fixed evidence,
+then compare end-to-end searches under declared budgets and a common assessment
+policy where possible. No universal biological cutoff or optimizer follows from
+that comparison. Search/survival/acquisition and final selection can differ.
+
+For a concrete use, still clarify whether the scientific requirement means
+relative X/Y preference, sufficient X recognition and/or a bound on Y recognition.
+Numerical requirements and action-specific evidence gates need that context;
+missing Y remains unresolved under every policy. D29 resolves the linked
+requirement/check/evidence organization, not these numerical choices. The next
+discussion advances to optimization rather than reopening that separation.
 
 ## Q6. Guidance access and budgets
 

@@ -43,7 +43,10 @@ specification. No scientific implementation or public API is defined.
     and a bounded library/state/transformation review after P09 approval.
 15. [Evaluation, feasibility, selection and claims](evaluation_and_selection.md):
     accepted P04 alternative 2 and seven principles, bounded MOLI responsibility,
-    A/B/C cases and the pending X/Y requirement/check/evidence alternatives.
+    A/B/C cases and accepted X/Y requirement/check/evidence separation (D29).
+16. [Multiobjective optimization](multiobjective_optimization.md): scalar, Pareto,
+    hierarchical/constrained, uncertainty-aware and diversity alternatives; invented
+    X/Y/CPP/hemolysis examples and reproducible policy versus search comparisons.
 
 ## Evidence and status
 
@@ -107,9 +110,12 @@ feasibility, selection purpose and bounded scientific claims without classes or
 mandatory states. Alternative 2 and all seven principles are accepted under
 D27–D28, including the boundary with global project interpretation and Nextia.
 P04 remains open: the [X/Y selectivity case](evaluation_and_selection.md#7-selectivity-case-bind-x-while-avoiding-homolog-y)
-compares requirements, checks, evidence and eligibility for three actions. Those
-representation alternatives and the later [optimization agenda](open_questions.md#p04-proposed-discussion-sequence)
-remain pending; no universal threshold, fitness, selector or confidence scale.
+compares requirements, checks, evidence and eligibility for three actions. Its
+alternative 2 and all seven qualifications are now accepted under D29. The
+[multiobjective discussion](multiobjective_optimization.md) advances to concrete
+policy effects and alternative optimizers without choosing one. The
+[optimization agenda](open_questions.md#p04-proposed-discussion-sequence) remains
+open: no universal threshold, fitness, selector, confidence scale or diversity metric.
 
 De novo generation and redesign remain equally in scope. No first experimental
 demonstrator has been chosen. Completion of a computational campaign does not
