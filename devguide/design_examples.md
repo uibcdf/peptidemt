@@ -1,4 +1,4 @@
-# Four worked design problems
+# Five worked design problems: four conceptual cases and one evidence-anchored development reference
 
 Date: **2026-10-26**. Navigation: [index](README.md) ·
 [accepted decisions](decisions.md) · [architecture](architecture_alternatives.md).
@@ -8,10 +8,13 @@ and execution evidence (D09–D13).
 P07's semantic relationships and explicit hypothetical-realization evaluations
 are now accepted under D15–D16; concrete encodings and chemical-state grouping
 remain open.
-**Proposed analysis:** every target choice, chemistry envelope, plan and example
-outcome below. These are thought experiments, not selected demonstrators, executed
-campaigns, discovered peptides or new API/storage decisions. No sequences, assay
-results, model scores, runs or molecule identifiers are fabricated as real data.
+**Proposed analysis:** Cases A–D remain conceptual thought experiments and were not
+executed, selected as implementation demonstrators, or treated as scientific discoveries.
+**New Case E** is anchored in previously published experimental work on an actual
+cell-permeating anticancer peptide; its evidence belongs to the cited studies, **not**
+to a PeptideMT execution or newly designed molecule. No API/storage decision,
+new scientific implementation or W0–W4 acceptance gate follows.
+See [the complete evidence-anchored case](case_study_cpp_anticancer_mdm2_mdmx.md).
 
 The examples are complete at the level of scientific intent and responsibility.
 Actual execution would additionally require frozen target/seed assets, model and
@@ -464,9 +467,9 @@ calling it an additional desired functional family. Catalog membership and model
 availability remain separate, as accepted under P08 (D17–D20). Individual family
 definitions, relation vocabularies and model choices are not fixed by that approval.
 
-## 10. Assessment and next proposed decision
+## 10. Assessment of the original four conceptual cases
 
-Alternative B passes this **conceptual consistency exercise**: each case supports
+Alternative B passes the original **conceptual consistency exercise**: each of cases A–D supports
 multiple plans while retaining its intent, and exposes differences in evidence
 without redefining the desired function. This is not empirical validation,
 implementation proof or approval of the proposed refinements.
@@ -486,3 +489,49 @@ role-aware assessment. The next discussion compares
 [generative intervention strategies](generative_strategies.md).
 The [working methodology](design_methodology.md) governs how these questions
 mature into approved contracts before implementation.
+
+
+## 11. Case E — experimentally anchored cell-permeating anticancer binder: ATSP-7041 versus MDM2/MDMX
+
+**Status: proposed case-guided scientific reference, not the approved V0.1 demonstrator.**
+
+This case complements abstract [Case C](#4-case-c--cpp--acp-conditioned-on-a-molecular-target)
+with an actual published intracellular peptide and an experimental structure:
+
+- **Scientific intent:** design or redesign a peptide that accesses the relevant
+  intracellular compartment and disrupts **MDM2 and/or MDMX inhibition of p53**,
+  seeking a p53-dependent anticancer response in a defined **TP53-WT** context.
+  Recognition, CPP-like access, pathway activation and cellular anticancer
+  phenotype are different endpoints; generic CPP/ACP classifier scores cannot
+  be promoted into measured biological claims.
+- **Published starting point:** **ATSP-7041**, a hydrocarbon-stapled, p53-mimetic
+  peptide with reported MDM2/MDMX binding, cellular target engagement and
+  p53-dependent antitumor activity in the authors' tested models.
+  [Chang et al., PNAS 2013](https://pmc.ncbi.nlm.nih.gov/articles/PMC3767549/)
+  and [mechanistic validation 2016](https://pubmed.ncbi.nlm.nih.gov/27721413/).
+- **Physical reference:** [PDB 4N5T](https://www.rcsb.org/structure/4N5T)
+  captures MDMX with ATSP-7041 at **1.7 Å**, but the receptor is a **modified
+  Danio rerio construct**; do not silently treat it as an unmodified human
+  MDMX structure or collapse the peptide's noncanonical chemistry into letters.
+- **Contrasting medicinal-chemistry reference:** [ALRN-6924](https://pubmed.ncbi.nlm.nih.gov/37439511/)
+  is a related but distinct cell-permeating stapled p53 mimetic with later
+  preclinical/clinical literature; do not merge molecules or transfer their
+  assay evidence without justification.
+- **Case-driven progression:** reproduce literature/structure identity and
+  chemistry attribution first; then qualify structural target assessment, access
+  evaluation, biological mechanism/context and eventual actual proposal/redesign
+  operations as their respective capabilities become available. Compare target-
+  first, family/access-first, postfilter and genuine feedback-guided search only
+  within actually supported chemical and operational domains.
+- **Current implementation boundary:** Macrel + HydrAMP AMP/hemolysis **does not**
+  constitute a CPP/ACP or MDM2/MDMX recognizer and does not support ATSP-7041's
+  staple by default. E is a *future* molecular target/function case, not W0–W4,
+  M1–M8 or an initial PeptideMT V0.1 requirement.
+
+The full research-grounded scientific problem, multiple plans, experimental and
+computational evidence levels, failure counterexamples and E0–E7 future case-
+guided exercises are in
+**[case_study_cpp_anticancer_mdm2_mdmx.md](case_study_cpp_anticancer_mdm2_mdmx.md)**.
+This example preserves the central original target+function ambition discussed in
+[the strategic trajectory](scientific_trajectory.md) without committing to a
+clinical claim, model, workflow or implementation date.
