@@ -4,8 +4,10 @@ Status: **comparison preserved; B is now accepted conceptually under D33**,
 2026-10-26, with A as its first internal increment and C deferred. The
 [bounded scope proposal](v0_1_scope.md) carries the subsequent feasibility review,
 minimum useful increment 2, priority feedback extension and target milestone.
-P04 is conceptually closed under D32, including C1–C5. Concrete contracts/policies,
-engines, chemistry, first demonstrator and interfaces remain pending. No code or
+P04 is conceptually closed under D32, including C1–C5. D35 subsequently accepts
+increment 1's scientific contract, provisional scope and M1–M8; see the
+[commissioning brief](increment_1_work_order.md). Later capability contracts,
+exact engines, broader chemistry and interfaces remain pending. No code or
 issues are authorized; the original comparison below is retained as reasoning.
 
 Navigation: [index](README.md) · [decisions](decisions.md)

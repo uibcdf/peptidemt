@@ -7,8 +7,9 @@ are not approved schemas, APIs, a formal ontology or implementation claims.
 For the first implementation scope, D34 accepts AMP compatibility and adverse
 hemolysis, with Macrel then HydrAMP as qualification candidates. This bounded
 coverage does not redefine the catalog or select mandatory builds/checkpoints.
-The [increment-1 specification](v0_1_increment_1.md) proposes native output meanings,
-including HemoPI-1 sampled-negative limitations; concrete contracts remain pending.
+The [increment-1 specification](v0_1_increment_1.md) is accepted under D35, including
+native meanings and HemoPI-1 sampled-negative limitations. Exact resource execution/
+terms remain to qualify; this does not define all future function bindings.
 
 Navigation: [index](README.md) · [learned functional spaces](literature.md) · [scope](vision_scope.md) · [open questions](open_questions.md).
 

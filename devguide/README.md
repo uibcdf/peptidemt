@@ -63,9 +63,13 @@ specification. No scientific implementation or public API is defined.
     generation/selection/feedback controls, shared-bias limits, failure contracts,
     acceptance cases, ownership and the priority target-directed milestone.
 20. [Increment 1 specification and HydrAMP qualification](v0_1_increment_1.md):
-    D34 accepts AMP/hemolysis and candidate order; proposed Macrel input/chemical/
-    length/precision/mapping contracts, leading-M handling, two exact selectors,
-    M1–M8 acceptance tests and H0–H4 bounded generator qualification gates.
+    D35 accepts the Macrel scientific contract, conservative leading-M treatment,
+    provisional chemistry/length scope, two exact selectors and M1–M8. H0–H4
+    remains a bounded generator qualification proposal; no gates executed.
+21. [Increment 1 commissioning and readiness brief](increment_1_work_order.md):
+    scientific closure versus operational prerequisites; draft central admission,
+    staged starter integration, W0–W4 deliverables, engine-free/live test lanes,
+    Codex discretion and the evidence required for acceptance. Awaiting authorization.
 
 ## Evidence and status
 
@@ -159,11 +163,14 @@ with an explicit priority target milestone after the functional core; target
 conditioning does not itself establish recognition. **D34 accepts the first bounded
 coverage (AMP compatibility plus adverse hemolysis) and qualification order
 (Macrel, then HydrAMP).** No version/checkpoint or deployment is adopted. The
-[increment-1 specification](v0_1_increment_1.md) now proposes input/view/chemical
-scope, native output/precision/mapping behavior, preprocessing/length qualifications,
-two exact selectors, M1–M8 acceptance tests and H0–H4 HydrAMP gates. Those contracts,
-exact resources, chemistry and interfaces await review before commissioning.
-No code, model installation/execution, issues or future-horizon scope expansion.
+[increment-1 specification](v0_1_increment_1.md) is now **accepted under D35**:
+conservative sequence preservation, native output/precision/mapping, both exact
+selectors, M1–M8 and provisional canonical single-peptide/<100 operational scope.
+Its scientific design is closed within those limits. Actual qualification,
+operational conditions, suite admission and commissioning remain pending. The
+[work order](increment_1_work_order.md) now defines that bounded preparation,
+W0–W4 and the evidence Codex must return. H0–H4 remains a proposal. No code,
+model installation/execution, issues or future-horizon scope expansion.
 
 De novo generation and redesign remain equally in scope. No first experimental
 demonstrator has been chosen. Completion of a computational campaign does not

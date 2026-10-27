@@ -1,13 +1,15 @@
 # Increment 1 specification and bounded HydrAMP qualification
 
-Status: **scientific coverage and qualification order accepted under D34;
-implementable contracts and tests proposed for investigator approval**,
-2026-10-27. Macrel first, HydrAMP second are qualification candidates, not accepted
+Status: **increment-1 scientific contract, conservative preprocessing, both
+selectors and M1–M8 accepted under D35; scientific design closed within its
+provisional scope**, 2026-10-27. Resource qualification/operational decisions and
+explicit commissioning remain pending. Macrel first, HydrAMP second are candidates, not accepted
 versions/checkpoints, qualified deployments or permission to implement. No code,
 model installation/execution, weight download or issues are authorized here.
 
 Navigation: [index](README.md) · [decisions](decisions.md) · [V0.1 scope](v0_1_scope.md)
-· [owner audit](integration_audit.md) · [working agreement](design_methodology.md).
+· [owner audit](integration_audit.md) · [working agreement](design_methodology.md)
+· [commissioning/readiness brief](increment_1_work_order.md).
 
 ## 1. Approved scientific task and evidence boundary
 
@@ -42,7 +44,7 @@ absence. The implementation evidence below remains directly inspectable.
 
 ### 2.1 Supplied proposals and evaluated views
 
-**Proposed initial entry representations:** ordered records containing complete
+**Accepted initial entry representations:** ordered records containing complete
 one-letter sequence proposals, and amino-acid FASTA records. Preserve each original
 record, full source header, occurrence and any supplied chemical/context metadata.
 Multiline FASTA joining is a declared formatting operation; DNA translation,
@@ -61,7 +63,7 @@ is manufactured from an unspecified proposal. Supplied D residues, cyclization,
 crosslinks, terminal modifications or other chemistry are preserved; the first
 route does not automatically project them away and rank their parent molecules.
 A user-authorized projection could later be evaluated explicitly with limited
-attribution, but is not part of the proposed default. Standard cysteine symbols
+attribution, but is not part of the accepted default. Standard cysteine symbols
 do not specify disulfide connectivity. A sequence-only result is not evidence for
 every realization or molecular state.
 
@@ -72,7 +74,7 @@ calculation. That changes the peptide sequence; its name does not make it a
 chemistry-preserving operation. The FASTA parser also keeps only the first header
 word by default. Both facts affect attribution.
 
-**Recommended first contract, still pending:** execute the native feature/predict
+**Accepted conservative contract under D35:** execute the native feature/predict
 route only where preprocessing preserves the supplied residue sequence. For a
 leading-M proposal, retain the original and report this route as unable to evaluate
 it without a sequence-changing transformation. This is a route limitation, not
@@ -80,12 +82,15 @@ a declaration that methionine-containing peptides are scientifically invalid.
 Single-M input also exposes an indexing risk in the inspected normalizer after
 removal; this is source reasoning, not a reproduced crash.
 
-Alternatives requiring a separate choice are (a) explicitly create/evaluate the
+Deferred alternatives requiring specific future qualification are (a) explicitly create/evaluate the
 clipped derived proposal with ancestry and no automatic score attribution to its
 parent, or (b) qualify a route using Macrel's existing `compute_all` on the unchanged
 sequence. Option (b) changes preprocessing relative to the native FASTA/training
-path; it cannot inherit qualification automatically. Do not copy or patch feature
-formulas into PeptideMT. This consequential choice must be settled before coding.
+path; it cannot inherit qualification automatically. The AMP
+[training preparation](https://github.com/BigDataBiology/macrel/blob/8c1f7321618ccde2a28b960d32525620d2c737e3/train/build-AMP-table.py)
+also calls `fasta_features` and its normalizer. Do not copy or patch feature
+formulas into PeptideMT. D35 excludes both alternatives from increment 1; this
+preprocessing choice is settled, not an obstacle requiring another design round.
 
 ### 2.3 Length: no invented supported interval
 
@@ -96,7 +101,7 @@ formulas into PeptideMT. This consequential choice must be settled before coding
 | Feature vectors have fixed dimension from variable-length sequences; upstream tests include one-/two-residue examples. | There is no inspected padded-input cap or evidence-based minimum length here. Computational acceptance of an extremely short input does not establish predictive usefulness. |
 | Training scripts identify source datasets but do not establish a qualified per-head length distribution for the selected installed assets. | Minimum/maximum and sparsity of training/test lengths remain to verify if accessible and permitted. No arbitrary 8-, 10- or 25-residue lower cutoff is proposed for Macrel. |
 
-**Proposed initial operational rule:** record original/evaluated length and the
+**Accepted provisional operational rule:** record original/evaluated length and the
 specific evidence scope for both heads. Rank only sequence-preserving, otherwise
 compatible views within the declared <100 envelope under the exploratory policies
 below; make the unknown lower empirical coverage explicit. This is a conservative
@@ -115,7 +120,7 @@ scope the support claim accordingly; do not invent a numerical boundary.
 
 ### 3.1 Meaning and precision of native prediction outputs
 
-Propose using the native Python prediction result with `keep_negatives=True`;
+The accepted contract uses the native Python prediction result with `keep_negatives=True`;
 this preserves precision and native labels rather than relying on rounded CLI
 exports. This is one version-qualified access route, not a stable upstream API
 promise. Native extraction/scoring must remain Macrel-owned.
@@ -187,11 +192,11 @@ state what the classifier cannot condition on. An updated model produces new
 evaluations; it does not rewrite old scores. No uncertainty interval or global
 confidence is manufactured when the provider supplies none.
 
-## 4. Two concrete proposed selection policies
+## 4. Two accepted reference selection policies
 
 Both policies operate on a named evaluation snapshot and the **same supplied
 proposal occurrences**. Eligibility requires sequence-preserving attribution,
-the proposed operational scope, and both finite comparable scores from one
+the agreed provisional operational scope, and both finite comparable scores from one
 qualified bundle. Exclude unresolved/failed/incompatible rows from ranking while
 retaining them with reasons. No score imputation, calibration, averaging across
 resources, native-label gate or biological acceptance threshold is implied.
@@ -228,7 +233,7 @@ Q1, Q2, Q3, Q4, Q5; k=2; the first four otherwise meet operational eligibility.
 
 Expected AMP-first order: Q3, Q4, Q1, Q2; selection Q3/Q4. Expected hemolysis-first
 order: Q2, Q3, Q4, Q1; selection Q2/Q3. Q5 remains unranked without imputation.
-Q3 precedes Q4 by the stable occurrence rule. Q2 demonstrates that this proposal's
+Q3 precedes Q4 by the stable occurrence rule. Q2 demonstrates that the accepted
 hemolysis-first selector can select a native AMP-negative result; that is an
 explicit computational preference, not acceptance of AMP function. If investigators
 want an additional eligibility gate for a particular action, it must be specified
@@ -236,7 +241,7 @@ separately rather than silently added to these tests.
 
 ## 5. Acceptance specification for increment 1
 
-The following tests are **proposed, not run**. Semantic fixtures and real-provider
+The following tests are **accepted under D35, not run**. Semantic fixtures and real-provider
 evidence have different purposes; a mock-only suite cannot qualify this increment.
 
 | Test | Pass criterion |
@@ -261,7 +266,8 @@ heads, not merely run tests named 'prediction'. Provider-reported metrics or an
 all-skipped CI run are insufficient. Ordinary lightweight tests can omit large
 external resources with explicit reasons; a designated installed-provider gate
 must actually run them. Completion means computational integration within the
-declared scope, not biological validation. All these gates are currently pending.
+declared scope, not biological validation. Actual execution of these accepted
+gates remains pending; approval is not a pass result.
 
 ## 6. Bounded HydrAMP contract and qualification plan
 
@@ -346,7 +352,7 @@ No retraining or bulk training-data redistribution is required for increment 1.
 | Resource disposition | Evidence that justifies it |
 | --- | --- |
 | **Recommend accepting a specific Macrel bundle for the agreed scope** | M1–M8 pass, actual installed assets/import route are identified, applicable use/fixture terms are acceptable, and investigators accept the stated chemical/preprocessing/applicability limitations for exploratory ranking. This is not generic acceptance of every Macrel version. |
-| **Reconsider or decline Macrel** | Unresolvable identity/row/negative-loss behavior, inability to preserve/justify precision, unusable installed route, unacceptable asset terms, or a domain mismatch that makes it unsuitable for the agreed task. A visible bounded limitation such as leading-M handling can instead be reviewed explicitly; it is not automatically biological invalidity or total resource rejection. |
+| **Reconsider or decline Macrel** | Unresolvable identity/row/negative-loss behavior, inability to preserve/justify precision, unusable installed route, unacceptable asset terms, or a domain mismatch that makes it unsuitable for the agreed task. The bounded leading-M incompatibility is already accepted under D35; it is not biological invalidity or total resource rejection. |
 | **Recommend accepting a specific HydrAMP route** | H0–H4 pass with usable native output, acceptable terms and isolated-environment maintenance, honest representation/observability limits, and a real Macrel integration within approved bounds. |
 | **Reconsider or decline HydrAMP** | Required artifacts/permissions unavailable, unmaintainable or unsafe environment, failed native loading/generation, no usable compatible output in the bounded qualification, or irreconcilable output attribution. Report what failed; no surrogate generator or completion claim follows. |
 
@@ -412,18 +418,20 @@ neither can meet an unassessed recognition requirement. Increment 3 needs actual
 subsequent permitted proposal calls; the priority target-directed milestone still
 follows the functional core without waiting for a universal framework.
 
-Investigators still need to approve the proposed sequence-preserving preprocessing
-policy (especially leading M), length/applicability and chemical-view treatment,
-both exact selectors and selection unit, failure/parity criteria and permitted
-fixtures. Exact provider builds/assets/terms, actual deployment limits and the
-HydrAMP gate budget also remain to qualify/approve. Scientific implementation
-requires a subsequent explicit commissioning decision; D34 is not that decision.
+D35 accepts sequence-preserving preprocessing, provisional chemistry/length scope,
+native output/mapping/precision behavior, both selectors and M1–M8. The scientific
+design of increment 1 is closed within those limits, subject to real qualification
+and review of any material applicability limitation. Exact builds/assets/terms,
+permitted fixtures, environment/resource bounds, suite admission and commissioning
+remain operational prerequisites; they do not reopen the general design. HydrAMP
+H0–H4 remains a proposal with no execution authorized or assets selected. The
+[commissioning brief](increment_1_work_order.md) records the bounded next tasks.
 
 Within approved contracts, Codex can choose internal types, run-local token syntax,
 layout/serialization, batching, safe worker mechanics and routine test mechanics.
 It may not silently change sequences, resource roles, native thresholds, eligibility,
 precision affecting choices or scientific attribution. Concrete Python interfaces
 are a small next implementation-design task, not permission to replace these
-contracts with a generic plugin framework. The next review should resolve the
-preprocessing policy and these increment-1 acceptance obligations, then commission
-the bounded resource qualification when appropriate.
+contracts with a generic plugin framework. The next review is explicit authorization
+of the admission/implementation assignment and its indispensable operational
+conditions, not reapproval of the settled scientific contract.

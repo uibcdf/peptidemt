@@ -86,10 +86,13 @@ reviews Macrel/HydrAMP/PepMLM feasibility, controls, contracts and acceptance ca
 Target-directed capability is an explicit priority after the first functional core.
 D34 now accepts **AMP compatibility plus adverse hemolysis** as first coverage
 and **Macrel then HydrAMP** as qualification candidates. The
-[increment-1 specification](devguide/v0_1_increment_1.md) proposes exact evaluation/
-selection contracts, native preprocessing/length qualifications, acceptance tests
-and bounded HydrAMP gates. Builds/assets, chemical scope, interfaces and contract
-approval remain pending; no implementation is authorized here.
+[increment-1 specification](devguide/v0_1_increment_1.md) is now accepted under
+**D35**, including strict sequence preservation, both selectors, M1–M8 and
+provisional chemical/length scope. Its scientific design is closed, subject to
+real qualification. The [commissioning brief](devguide/increment_1_work_order.md)
+specifies operational prerequisites, official admission/starter work, test lanes
+and required evidence. Builds/assets, actual environment/terms, admission and
+explicit implementation authorization remain pending. H0–H4 stays a proposal.
 The [expanded engine review](devguide/protein_peptide_design_engines.md)
 examines general protein/peptide engines, Chaperone and RFD4, their evidence and
 optional integration routes. No definitive generator, mandatory backend or API

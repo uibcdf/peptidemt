@@ -1,10 +1,11 @@
 # PeptideMT V0.1: bounded scope and implementation proposal
 
 Status: **B accepted under D33; AMP/hemolysis coverage and Macrel-then-HydrAMP
-qualification order accepted under D34**, updated 2026-10-27. Exact resource,
-chemistry, policy and interface choices remain proposals. The
-[increment-1 specification](v0_1_increment_1.md) now carries the concrete contracts,
-preprocessing/length qualifications and bounded HydrAMP plan for review.
+qualification order accepted under D34; increment-1 scientific design closed
+under D35**, updated 2026-10-27. The [increment-1 specification](v0_1_increment_1.md)
+now carries accepted contracts/selectors/M1–M8 and provisional chemistry/length
+scope. Exact resources, operational qualification, admission and commissioning
+remain pending; see the [work order](increment_1_work_order.md). H0–H4 remains proposed.
 No scientific implementation, model installation/execution or issues are authorized.
 P04/P09 remain conceptually closed. This document narrows their application rather
 than designing a universal optimizer or reopening the general architecture.
@@ -38,8 +39,9 @@ may be target-free; recognition assessment and advanced structural generation
 are not mandatory V0.1 capabilities. **Target-directed capability is the next
 priority milestone after that core**, not an indefinite optional horizon and
 not contingent on completing every feedback extension. C remains a later option.
-Exact engine bundles, chemistry envelope, API and deployment remain unadopted;
-D34 separately settles the first functional coverage and qualification order.
+Exact engine bundles, API and deployment remain unadopted. D34 settles first
+coverage/order; D35 accepts increment 1's provisional chemistry/length envelope
+and scientific contract without qualifying every chemical realization or length.
 
 ## 2. Bounded resource review
 
@@ -117,25 +119,26 @@ qualified against the actual intended host/worker environment.
 
 **Coverage accepted under D34:** desired AMP compatibility plus adverse hemolysis,
 with Macrel then HydrAMP as qualification candidates. A target-free first native
-route is consistent with D33; its chemistry, versions and policies remain pending.
+route is consistent with D33. D35 accepts increment 1's contract, provisional
+operation envelope and two selectors; exact bundles/execution remain pending.
 It exercises more than one objective without promising
 CPP/ACP or target recognition. Define the intended antimicrobial context and the
 classifier's narrower operational label separately: generic AMP classification
 does not establish activity against a chosen organism/protein. Low hemolysis
 score does not demonstrate absence of hemolysis, general cytotoxicity or safety.
 
-**Proposed operation envelope:** complete, single-chain sequences using the 20
-standard residue symbols, without chemical edits in the first native route.
-Choose and approve the length interval within actual generator/evaluator support
-after boundary tests; HydrAMP uses a 25-position representation and its starter
-documents training sequences of at most 25 residues. Those facts do not validate
-every length, sequence or model projection. No length interval is adopted here.
-Initial chemistry is still open: a sequence symbol string is a proposal/view,
+**Increment-1 provisional envelope accepted under D35:** complete single-peptide
+sequences using the 20 canonical symbols, with strict sequence preservation and
+<100-residue operational scope as qualified in the accepted specification. This
+is not empirical support for every size. HydrAMP uses a 25-position representation
+and its starter documents training sequences of at most 25 residues; its actual
+generative domain still requires qualification. Neither fact validates every
+sequence/model projection. Broader chemistry remains open: a symbol string is a proposal/view,
 not automatically a fully specified all-L, free-terminal chemical species.
 Retain supplied termini, stereochemistry and modifications even when an operation
 cannot use them. No silent stripping or score transfer to all realizations.
 
-For the first selectors, propose a transparent **ordered-preference comparison**:
+For the first selectors, D35 accepts the **ordered-preference comparison**:
 one configuration prioritizes higher AMP model score, breaking ties by lower
 hemolysis score; another reverses that priority. Retain both scores and the exact
 evaluation snapshot, declared precision, candidate pool, requested count and
@@ -143,7 +146,7 @@ stable tie rule. These are operational preferences, not biological acceptance
 rules; lexicographic ordering permits no tradeoff on its first objective. Require
 both comparable evaluations for these specific rankings, retain other subjects
 as unranked with reasons, and permit fewer than the requested count. This small
-proposal avoids a universal scalar fitness, calibrated-probability assumption
+contract avoids a universal scalar fitness, calibrated-probability assumption
 or compulsory Pareto archive. Other approved selectors can follow later.
 
 ### Controls that make the contributions interpretable
@@ -196,8 +199,9 @@ qualified evidence, if later available, retains its separate role under C5.
 
 ## 4. Proposed implementation sequence and minimum acceptance
 
-Each row is a proposed **scientific acceptance contract**, not a Python signature
-or permission to implement now. Investigator approval and the central admission
+The increment-1 contract is accepted under D35; the later increments' rows remain
+proposed **scientific acceptance contracts**, not Python signatures or permission
+to implement now. Explicit commissioning and the central admission
 route precede development. Actual qualification will require authorized execution
 in a chosen environment; source inspection does not satisfy these gates.
 
@@ -305,21 +309,21 @@ to a campaign or pseudo-perplexity to its results does not satisfy that requirem
 The target milestone can proceed alongside increment 3; neither requires all
 future-horizon capabilities or a universal optimizer first.
 
-Before commissioning development, investigators still need to approve:
+Before commissioning development, the remaining items are:
 
-1. **Operation envelope and contract:** AMP/hemolysis coverage is accepted under
-   D34. Approve the concrete output interpretation, permitted proposal chemistry/
-   lengths, preprocessing and unsupported-input behavior in the
-   [increment-1 specification](v0_1_increment_1.md). Full canonical
-   identity, state grouping and broad chemistry can remain deferred.
+1. **Approved increment-1 contract, now fixed:** D35 settles the scientific
+   [specification](v0_1_increment_1.md), conservative preprocessing, provisional
+   chemistry/lengths, selectors and M1–M8. Operational qualification may expose a
+   material limitation to review; full canonical identity, state grouping and
+   broad chemistry remain deferred rather than prerequisites.
 2. **Exact qualification bundle:** Macrel first and HydrAMP second is accepted
    under D34; qualify exact assets/terms, intended host/worker environment
    and what would justify returning with an alternative. These are candidates,
    not mandatory dependencies approved by B.
-3. **Concrete acceptance and selection contract:** policies/precision/ties,
-   required comparisons, positive/failure fixtures, budgets and observability.
-   Choose meaningful bounds after actual environment/resource information;
-   there is no universal biological cutoff or promised runtime here.
+3. **Operational execution conditions:** select permitted fixtures, actual
+   environment/budgets and real-provider evidence for the accepted M1–M8.
+   Policies/precision/ties are already agreed; there is no new universal
+   biological cutoff or promised runtime. See the bounded commissioning brief.
 4. **Feedback and target milestone commissioning:** choose the first actual
    feedback operation after qualification, its inclusion in V0.1 or the next
    increment, and the bounded target-route evaluation following the functional
@@ -333,7 +337,8 @@ serialization details, deterministic tie implementation and routine tests within
 the approved meanings, ownership and observable guarantees. Changing scientific
 attribution, permitted chemistry, a resource's role, terms-dependent deployment,
 selection meaning or claims requires review. The immediate next discussion should
-resolve **the concrete increment-1 contract and qualification gates**. D34 has
-settled coverage and candidate order; exact bundles, preprocessing, chemistry,
-selectors, fixtures and execution bounds remain pending. This is specification
-work before commissioning, not a new broad architecture review.
+authorize **the bounded increment-1 admission/implementation assignment** when
+its operational conditions are ready. D35 closes the scientific contract;
+exact bundles, terms, environment, fixtures/budget and central admission remain.
+The [work order](increment_1_work_order.md) makes those tasks reviewable without
+another general architecture or model study.

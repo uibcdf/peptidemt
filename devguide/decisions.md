@@ -23,9 +23,11 @@ the minimum useful increment and feedback as a priority conditional extension.
 Target-directed capability follows the first functional core as an explicit
 priority; C remains a later option. **D34 accepts AMP compatibility plus adverse
 hemolysis as the first bounded coverage, with Macrel then HydrAMP as qualification
-candidates.** Exact resources, chemistry, interfaces, concrete contracts and
-implementation authorization remain pending; see the
-[increment-1 specification and qualification plan](v0_1_increment_1.md).
+candidates.** D35 now accepts the conservative sequence-preserving Macrel contract,
+both reference selectors and M1–M8, closing increment 1's scientific design within
+its provisional chemistry/length scope. Real qualification, operational conditions,
+suite admission and explicit implementation authorization remain pending; see the
+[commissioning/readiness brief](increment_1_work_order.md).
 
 ## Accepted working directions
 
@@ -80,6 +82,7 @@ D32 closes that conceptual question without retroactively changing those decisio
 | D32 | Adopt all five C1–C5 principles and close P04 conceptually on the basis of D27–D31 and the agreed qualifications. | Explicit investigator approval. Preserve specific uncertainty meanings/dependencies without a universal confidence scale or unjustified aggregation; optional purpose/view-relative diversity; distinct score/diversity/uncertainty/decision-impact acquisition grounds; honest estimated/observed cost, failures, reuse and observability; reward optimization distinct from activity evidence with model bias/limitations retained. No particular algorithm, universal uncertainty policy, diversity metric, probabilistic model or general decision system. Concrete contracts/interfaces are specified for the selected capabilities. V0.1 capability/model/demonstrator selection and implementation remain unapproved. |
 | D33 | Adopt B as PeptideMT V0.1's conceptual direction, using A as the first internal increment. A real generation/redesign route, real qualified functional evaluation and reproducible selection constitute the minimum useful second increment; simulated-only demonstrations do not suffice. | Explicit investigator approval. Retain supplied-proposal evaluation, all evaluations/failures and explicit policies. Functional feedback that changes later proposals/parents/edits/allocation is a priority third increment, with exact inclusion conditional on actual generator viability; postfiltering alone is not feedback. Joint target/family design stays central; initial target-free work is allowed without requiring recognition assessment or structural generation. Target-directed capability is an explicit priority after the first functional core. C is deferred, not rejected. Preserve target context/actual conditioning and distinguish conditioning, compatibility and independent recognition. No engine, initial family subset, chemistry, API, deployment or implementation is approved. Review applicable resource terms, particularly PepMLM's additional access commitments; Work-shell checks are not laboratory audits. |
 | D34 | Adopt AMP compatibility as the desired function and hemolysis as the adverse property for the first bounded V0.1 coverage; qualify Macrel first and HydrAMP second. | Explicit investigator approval on 2026-10-27. Preserve predictive/native meanings; neither score is measured antimicrobial activity, percent hemolysis or safety. Core responsibilities stay independent of these functions/resources. Qualification order does not select a version/checkpoint or establish execution, applicability or permission. The initial HydrAMP de novo candidate uses filter_out=False, n_attempts=1 and bounded proposal count, retaining conditioning, internal scoring/order, external Macrel evaluation and PeptideMT selection distinctly. Do not require Python 3.8 in the main host; assess isolation if needed. No implementation/installation/issues authorized. Chemistry/lengths, preprocessing policy, exact selectors, fixtures, concrete interfaces and qualification acceptance remain to approve. |
+| D35 | Approve increment 1's scientific Macrel contract and M1–M8, including strict sequence preservation, both exact reference selectors and provisional single-peptide canonical-symbol/<100-residue operational scope. Close its scientific design within those limits, subject to actual provider qualification and indispensable operational decisions. | Explicit investigator approval on 2026-10-27. Leading-M originals remain valid proposals but incompatible with a native route that clips them. Derived-clipped and unchanged-sequence feature routes are deferred and need separate qualification; AMP training also uses native normalization. Preserve per-occurrence correspondence, negatives, both scores, labels/categories, precision, evidence/provenance, original chemistry/unknowns and explicit empty/unavailable/failed/anomalous outcomes. AMP-descending/Hemo-ascending or Hemo-ascending/AMP-descending ordering uses original occurrence as final tie; neither is biological acceptance, safety, selectivity or synthesis approval. No universal fitness/cutoffs or empirical validation of every <100 length. H0–H4 remains a suitable proposal, not execution permission or definitive HydrAMP adoption; retain the stated native candidate/isolated legacy-runtime boundary. No implementation, installation or issues authorized. Prepare the bounded commissioning/admission brief; actual bundles, terms, environment/budget and execution evidence remain pending. |
 
 The [four worked examples](design_examples.md) are conceptual stress tests and
 conceptual analysis, not selected demonstrators or executed campaigns. Their
@@ -90,17 +93,17 @@ the semantic responsibilities adopted through P07 are recorded under D15–D16.
 
 | ID | Proposal | Decision still needed |
 | --- | --- | --- |
-| P02 | Refine context, qualified label/resource mappings and evaluator bindings within D10/D17–D20. | Conceptual separation is accepted; concrete fields, mapping policies and interfaces remain open. |
+| P02 | Refine context, qualified label/resource mappings and evaluator bindings within D10/D17–D20. | Macrel increment-1 scientific meanings/bindings are accepted under D35; concrete encodings/interfaces and other resources remain open. |
 | P03 | Keep a small sequence/design core with optional molecular and model adapters. | Compare dependency cost against uniform molecular integration. |
 | P05 | Compare and compose filtering, external optimization, sampling-time guidance, functional distributions and learned conditioning through explicit capabilities. | Current [strategy analysis](generative_strategies.md); no definitive generator, common API, capability schema or first comparison experiment selected. |
 | P06 | Formal suite admission and official Python starter generation. | Agree the central process; no issue or sibling-registry change is authorized by this initial documentation publication. |
 | P10 | Distinguish collective/distributional library proposals from individual molecular proposals, including incomplete individuals. | Pending bounded recommendation from [V0.2 case A](future_horizons.md#9-bounded-extensibility-review-after-p09-approval). No library support, generic population hierarchy or MVP requirement adopted; concrete semantics can wait until such a capability is prioritized. |
 
-The [V0.1 direction is accepted under D33](v0_1_scope.md), and D34 fixes the first
-coverage and qualification order. The next review is the
-[concrete increment-1 contract](v0_1_increment_1.md), not another general
-architectural round. Exact resource/domain limits, proposed bounded contracts,
-qualification, feedback inclusion and concrete interfaces remain pending.
+The [V0.1 direction is accepted under D33](v0_1_scope.md), D34 fixes first coverage/
+qualification order, and D35 closes increment 1's scientific contract including
+M1–M8. The next review is the [commissioning/readiness brief](increment_1_work_order.md),
+not another scientific/architectural round. Exact bundles/permissions, operational
+limits, admission, implementation authorization and later feedback remain pending.
 P02/P03/P05/P06 need only the selected capability-specific portions; P10 and future
 horizons add no requirement. Earlier unapproved A/B/C records below are history.
 
@@ -591,6 +594,30 @@ Aligned current coverage/status/navigation without rewriting older dated approva
 Read central suite/optional-engine guidance; formal admission and route qualification
 remain future work. No model was installed/run, no weights downloaded, no issue or
 scientific implementation created. Documentation checks do not execute M/H gates.
+
+## Increment-1 scientific closure and commissioning preparation — 2026-10-27
+
+Recorded D35: explicit acceptance of the conservative preprocessing policy,
+Macrel scientific contract, both reference selectors and M1–M8, with provisional
+single-peptide canonical-symbol/<100 scope and no fabricated chemistry or empirical
+length guarantee. Deferred clipped-derivative and unchanged-feature alternatives;
+retained H0–H4 as an appropriate proposal without execution permission. Approved
+science does not establish installed execution, rights, admission or implementation.
+
+Added [increment_1_work_order.md](increment_1_work_order.md): fixed scope, operational
+prerequisites, a draft central classification/admission route, non-destructive
+starter integration, W0–W4 deliverables, engine-free versus real-provider tests,
+Codex discretion/review boundaries and the evidence required for acceptance.
+The work order is ready for explicit authorization, not an executed assignment.
+
+The bounded final review confirmed PeptideMT absent from central suite.toml at
+14b2e74c; checked official starter/refusal of nonempty destinations and separate
+immutable policy/admission route. Published policy-v1.5.10 resolves to 1c38d503.
+Confirmed official Macrel v1.6.1 release/tag (19046260); three key source blobs match
+the prior audit, without claiming installer/asset equality or installed execution.
+No model survey, central registry edit, issue, package bootstrap, installation or
+scientific implementation was performed. Updated current statuses without rewriting
+older dated decisions; documentary checks do not execute M/H acceptance gates.
 
 ## Change protocol
 
