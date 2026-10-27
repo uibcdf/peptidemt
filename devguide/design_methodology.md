@@ -5,10 +5,12 @@ Navigation: [index](README.md) · [decisions](decisions.md) · [questions](open_
 
 ## Current phase and responsibilities
 
-PeptideMT is in research, reflection, planning and scientific/architectural
-design. There is no urgency to begin programming. Scientific utility,
-extensibility and MolSysSuite interoperability guide choices; an elegant
-implementation is not sufficient evidence for accepting an architecture.
+The general conceptual-design phase has reached P04/P09 closure. The current
+task is to define a small implementable PeptideMT V0.1 capability set, minimum
+scientific contracts, cases and acceptance criteria; avoid reopening broad
+architecture without a concrete contradiction. No implementation is authorized
+yet. Scientific utility, extensibility and MolSysSuite interoperability guide
+choices; an elegant implementation alone is insufficient evidence.
 
 The investigators, ChatGPT and Work formulate scientific problems, research
 existing methods, compare alternatives, define requirements and assess risks.

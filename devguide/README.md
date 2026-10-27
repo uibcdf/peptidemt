@@ -52,8 +52,12 @@ specification. No scientific implementation or public API is defined.
     obligations for future implementable components.
 17. [Uncertainty, diversity, budget and P04 synthesis](uncertainty_diversity_budget.md):
     F/I evidence limits, optional diversity measures, decision-relevant evaluation
-    allocation, cost/reuse accounting and five pending closure principles. Formal
-    P04 closure is proposed, not approved; V0.1 scope is the next proposed milestone.
+    allocation and cost/reuse accounting. C1–C5 and conceptual P04 closure are
+    accepted under D32; concrete capability contracts remain to be specified.
+18. [PeptideMT V0.1 alternatives and minimum contracts](v0_1_alternatives.md):
+    A/B/C compared, actual candidate resources/terms/environment evidence, proposed
+    capability contracts, acceptance cases and bounded P02/P03/P05/P06 decisions.
+    A-inside-B is recommended, not selected; no mandatory model or demonstrator.
 
 ## Evidence and status
 
@@ -116,7 +120,7 @@ The current [P04 analysis](evaluation_and_selection.md) distinguishes evaluation
 feasibility, selection purpose and bounded scientific claims without classes or
 mandatory states. Alternative 2 and all seven principles are accepted under
 D27–D28, including the boundary with global project interpretation and Nextia.
-P04 remains open: the [X/Y selectivity case](evaluation_and_selection.md#7-selectivity-case-bind-x-while-avoiding-homolog-y)
+The [X/Y selectivity case](evaluation_and_selection.md#7-selectivity-case-bind-x-while-avoiding-homolog-y)
 compares requirements, checks, evidence and eligibility for three actions. Its
 alternative 2 and all seven qualifications are now accepted under D29. The
 [multiobjective discussion](multiobjective_optimization.md) advances to concrete
@@ -132,11 +136,19 @@ honest guarantees and valid empty/failed/unresolved outcomes. Concrete policies
 and the entire future contract table are not thereby adopted. The
 [bounded integrated synthesis](uncertainty_diversity_budget.md) now examines
 uncertainty, diversity and budget, finds no unresolved conceptual contradiction
-in the current cases and proposes five additional principles (C1–C5) and closure.
-**P04 remains open pending that approval**, rather than awaiting selection of all
-algorithms. No universal threshold, fitness, confidence scale or diversity metric.
-If approved, define a small V0.1 capability set and its minimum contracts, cases
-and acceptance criteria before implementation; no future-horizon expansion is needed.
+in the current cases. **The investigators have accepted C1–C5 and closed P04
+conceptually under D32.** No universal threshold, fitness, confidence scale,
+diversity metric, probabilistic model or general decision system is adopted.
+Concrete contracts are specified for the capabilities selected next rather than
+reopening the general architectural block.
+
+The current task is [PeptideMT V0.1](v0_1_alternatives.md): a small scientifically
+useful capability set with real generation/redesign and functional knowledge,
+evaluations, selection and reproducible evidence. The comparison recommends B
+with A as its first internal slice and C as a later selectable capability, all
+pending approval. Target/family-directed design stays central; target conditioning
+does not itself establish recognition. Models, chemistry, first demonstrator and
+contracts remain to select. No code, issues or future-horizon scope expansion.
 
 De novo generation and redesign remain equally in scope. No first experimental
 demonstrator has been chosen. Completion of a computational campaign does not

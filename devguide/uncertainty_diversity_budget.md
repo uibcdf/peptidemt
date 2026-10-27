@@ -1,11 +1,11 @@
 # Uncertainty, diversity and budget: bounded P04 synthesis
 
-Status: **analysis and formal proposal for conceptual closure; approval pending**,
-2026-10-26. D27–D31 are accepted within their recorded limits. This document
-proposes five additional principles, not an implementation, universal selector,
-confidence scale or extension to future horizons. **P04 remains open** until the
-investigators approve its closure. PeptideMT V0.1 is the proposed subsequent
-scope-setting milestone, not an already selected release specification.
+Status: **C1–C5 accepted and P04 closed conceptually under D32**, 2026-10-26,
+on the basis of D27–D31 and their agreed limits. This does not adopt an
+implementation, universal selector, confidence scale, probability model or
+extension to future horizons. Concrete contracts/interfaces belong to the
+capabilities selected next. The [V0.1 alternatives](v0_1_alternatives.md) are
+pending scope recommendations, not an already selected release specification.
 
 Navigation: [index](README.md) · [decisions](decisions.md)
 · [evaluation meanings](evaluation_and_selection.md)
@@ -218,14 +218,16 @@ invent outcomes to fill a final batch.
 | D29 | Scientific requirements, operational checks and many-to-many evidence links are distinct; score predicates are not exact biological tests. |
 | D30 | Preserve original objectives/evaluations; permit different exploration/optimization and selection policies on one problem, with contextual optional Pareto comparisons. |
 | D31 | Restriction scope is problem/procedure/action-relative; required conditions cannot be bought off by rewards. Relaxation must be authorized; guarantees require actual means; valid empty/failed/unresolved outcomes and contextual fronts retain provenance. |
+| D32 | All C1–C5 principles and conceptual P04 closure are accepted; capability-specific contracts/interfaces and algorithms remain to select. |
 
 D09, P07, P08 and P09 remain supporting agreements, not new decisions reopened
 here. Incomplete proposals, qualified exploratory predictors and optional provider
 capabilities remain compatible with the P04 meanings above.
 
-### Five additional principles recommended for approval
+### Five additional principles accepted under D32
 
-**C1–C5 below are local closure-proposal labels, not accepted decision IDs.**
+**All C1–C5 below are conceptually accepted under D32.** Their local labels are
+retained from the closure proposal; they are not five separate decision IDs.
 
 1. **C1 — Qualified uncertainty:** preserve the different sources, scope and
    dependence of uncertainty/evidence limitations. Permit scenarios, sensitivity,
@@ -248,9 +250,9 @@ capabilities remain compatible with the P04 meanings above.
    available checks against shared bias. Optimizing a reward is not independent
    confirmation; no particular safeguard or independent evaluator is universally required.
 
-These principles specify meanings/obligations, not a universal policy engine.
-Some restate consequences of accepted agreements to make closure explicit. They
-do not adopt every example, measure or algorithm discussed in this document.
+These accepted principles specify meanings/obligations, not a universal policy
+engine. Some restate consequences of previous agreements to make closure explicit.
+Approval does not adopt every example, measure or algorithm in this document.
 
 ## 6. Deferred contracts, algorithm alternatives and coherence
 
@@ -289,20 +291,21 @@ return it to discussion, but speculative future features are not a closure gate.
 
 ## 7. Formal closure proposal and PeptideMT V0.1 handoff
 
-**Proposed resolution, awaiting investigator approval:** close P04 conceptually
+**Accepted resolution (D32):** close P04 conceptually
 on the basis of D27–D31 plus C1–C5. Treat uncertainty, diversity, resource allocation
 and selection as qualified, interchangeable plan policies acting on preserved
 evidence, within scoped restrictions and declared scientific purposes. Do not
 adopt interfaces, algorithms, universal thresholds or a general decision engine.
 Capability-specific contracts and choices move to subsequent bounded specifications.
 
-**Current disposition: P04 remains open.** This proposal does not record approval,
-authorize implementation or create issues. No further general conceptual expansion
-is recommended before investigators decide on this bounded closure proposal.
+**Current disposition: P04 is closed conceptually.** The investigators explicitly
+approved C1–C5 and closure after the preceding revision's proposal. This does not
+authorize implementation or issues, choose algorithms or freeze interfaces.
 
-If approved, the next milestone is **define PeptideMT V0.1**, with a small useful
-set of scientific capabilities, not every alternative reviewed. The next discussion
-should choose its intended use/chemical envelope and capability shortlist, then
+The next milestone is **define PeptideMT V0.1**, with a small useful set of
+scientific capabilities, not every alternative reviewed. The specific
+[V0.1 comparison](v0_1_alternatives.md) now supports that decision. Choose its
+intended use/chemical envelope and capability shortlist, then
 record each capability's minimum scientific contract, concrete positive/negative/
 incomplete/conflicting cases, failure behavior and acceptance evidence. Only then
 authorize implementation under D14 and the existing MolSysSuite admission/starter

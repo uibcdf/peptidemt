@@ -12,7 +12,7 @@ implementation plan or authorize work.
 
 | Stage | Candidate deliverable | Evidence to retain |
 | --- | --- | --- |
-| 0. Design | Test accepted problem/plan/evidence, proposal/realization, function/resource, capability/composition and requirement/check/evidence/selection semantics with cases; compare strategies without choosing an API. | D09–D31, conceptual counterexamples, investigator decisions and preserved audit. |
+| 0. Design | Test accepted problem/plan/evidence, proposal/realization, function/resource, capability/composition and requirement/check/evidence/selection semantics with cases; compare strategies without choosing an API. | D09–D32; P04/P09 conceptually closed, counterexamples, investigator decisions and preserved audit. |
 | 1. Common evaluation | Family/model bindings, proposal-to-candidate relations, evaluated views, hard constraints, provenance, selection and applicability. Accept supplied/generated and potentially incomplete proposals where evaluators support them. | Reproducible evaluation fixtures, determined/unknown chemistry, attribution limits, unsupported-input behavior and score meaning. |
 | 2. Baseline proposal adapters | At least one de novo route and one seed-based route conceptually using the same evaluation/selection layer. Implementation order remains open. | Exact engine/checkpoint/configuration; compared coverage and costs. |
 | 3. External optimization | Evolutionary, Bayesian or other black-box search over proposals; preserve edit constraints, diversity and objective vectors. | Matched-budget comparison with generate-and-filter; failures and discarded candidates. |
@@ -73,17 +73,23 @@ handling during exploration, uncertainty, diversity and budgeted policies remain
 open for concrete policies. D31 now accepts the scoped-restriction reasoning,
 authorized provisional exploration, uncheckable requirements and contextual fronts.
 The [bounded P04 synthesis](uncertainty_diversity_budget.md) integrates uncertainty,
-diversity and budget and formally proposes conceptual closure using C1–C5;
-**closure remains pending**. This adds no implementation stage, fixed contract
-or new MVP requirement.
+diversity and budget; **C1–C5 and conceptual P04 closure are accepted under D32**.
+Concrete capability policies/contracts remain to be specified. This adds no
+implementation stage, fixed contract or new MVP requirement.
 
-After approval, the next milestone is to define **PeptideMT V0.1**: select a small
+The current milestone is to define **PeptideMT V0.1**: select a small
 useful capability set and supported scientific/chemical scope, then agree minimum
 contracts, representative positive/negative/incomplete/conflicting cases and
 acceptance criteria under D14. This is the proposed scope-setting task, not an
 adopted capability inventory, definitive model, first demonstrator or release date.
 Algorithm choices can be bounded by those capabilities without implementing every
 reviewed alternative. Future horizons and P10 add no V0.1 obligation.
+
+The specific [V0.1 comparison](v0_1_alternatives.md) now recommends A as the
+evaluation/selection slice inside a useful B sequence-generation/functional-knowledge
+scope, with C structural integration later if selected. Its native-resource review,
+minimum contracts and acceptance cases are pending recommendations. No mandatory
+model, chemistry envelope, first demonstrator or implementation order is adopted.
 
 Before Python implementation, agree formal admission to MolSysSuite and use
 its official registered-component starter. Pin model/license/weight provenance

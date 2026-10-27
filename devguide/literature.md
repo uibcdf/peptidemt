@@ -326,4 +326,15 @@ under-shift evidence from Ovadia et al. (2019), conservative offline optimizatio
 2019), alongside the existing PESMO precedent. It distinguishes those methods'
 assumptions from nonprobabilistic scenario/sensitivity and qualitative acquisition
 policies. Neither peptide-domain qualification nor a new implementation follows;
-all additional closure principles remain pending approval.
+C1–C5 and conceptual P04 closure are now accepted under D32. Concrete algorithms
+remain alternatives.
+
+## I. V0.1 resource qualification
+
+The [V0.1 comparison](v0_1_alternatives.md) refreshes selected PepMLM/HydrAMP/PrMFTP
+source identities, adds Macrel's current ONNX prediction/packaging path and inspects
+the official HydrAMP starter kit. It records generation versus recognition meaning,
+native filtering/rounding, resource terms and actual local environment limitations.
+This is bounded source/metadata inspection; no scientific provider was installed
+or run, no checkpoint downloaded and no V0.1 model selected. The prior structural
+and ecosystem snapshots are preserved.

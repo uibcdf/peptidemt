@@ -3,21 +3,24 @@
 Status: **P04 alternative 2 and seven principles accepted (D27–D28); X/Y
 requirement/check/evidence alternative 2 accepted (D29); optimization policies pending**,
 2026-10-26. No selector,
-feasibility taxonomy, API or implementation is approved. P04 remains open for
-restrictions, optimization, uncertainty, diversity and budgeted selection. P09
+feasibility taxonomy, API or implementation is approved. **P04 is closed
+conceptually under D32**, including C1–C5; concrete capability policies/contracts
+remain unselected. P09
 stays conceptually closed and P10 stays pending without an MVP obligation.
 
 D30 subsequently accepts distinct exploration, preserved results/tradeoffs and
 purpose-specific selection over the same problem, with original objectives and
 evaluations retained. It selects no algorithm or mandatory Pareto archive. The
 [operational case](multiobjective_optimization.md#11-operational-stress-test-four-candidates-three-purposes)
-compares three actions; restriction treatment, uncertainty, diversity and policies
-under budget remain open.
+compares three actions; concrete restriction, uncertainty, diversity and budget
+policies remain capability-specific.
 
 D31 now accepts the scoped-restriction treatment with seven qualifications,
 including honest internal-versus-final guarantee scope and legitimate empty,
 failed or unresolved outcomes. The [bounded P04 synthesis](uncertainty_diversity_budget.md)
-recommends five additional principles and conceptual closure; approval is pending.
+records C1–C5 and conceptual closure accepted under D32. The current
+[V0.1 comparison](v0_1_alternatives.md) turns those principles into proposed minimum
+contracts and acceptance cases without selecting models, interfaces or a demonstrator.
 
 Navigation: [index](README.md) · [decisions](decisions.md) · [P04 agenda](open_questions.md#p04-proposed-discussion-sequence)
 · [families](functional_families.md#selection-contradictions-and-assessment)
@@ -175,6 +178,7 @@ activity. Experimental observations, if later obtained, form new attributed evid
 | D29 | Requirements, operational checks and many-to-many evidence links are distinct; links alone do not establish sufficiency. Preserve original evaluations and qualified comparisons, with action-relative eligibility and no default treatment of missing Y as selectivity. |
 | D30 | Preserve original objectives/evaluations while permitting different exploration and selection policies. Explored sets, comparable derived fronts and action-specific choices have distinct meanings; no mandatory Pareto archive or absolute candidate Pareto status. |
 | D31 | Restriction scope is problem/procedure/action-relative; required conditions cannot be compensated by reward. Authorized relaxation cannot change science silently; actual operations/evaluators bound guarantees. Final checks do not prove every internal state's compliance; empty/failed/unresolved outcomes and contextual fronts retain their actual meaning/provenance. |
+| D32 | C1–C5 and conceptual P04 closure are accepted; concrete uncertainty, diversity, budget and selection policies belong to the selected capabilities, not a universal decision engine. |
 
 The [preserved audit](integration_audit.md) remains the source-level basis for
 owner boundaries; this discussion does not claim new ecosystem implementations:
@@ -421,9 +425,10 @@ extension examines restriction scope and prerequisites for three actions; D31
 now accepts that conceptual reasoning, without the concrete policies. D30 accepts
 alternative optimizers on the same problem without rewriting evidence. The
 [integrated uncertainty/diversity/budget analysis](uncertainty_diversity_budget.md)
-now proposes conceptual P04 closure, still pending investigator approval. Concrete
+records conceptual P04 closure approved under D32. Concrete
 contracts and algorithm choices can be qualified with the capabilities selected
 for V0.1 after that decision, rather than extending general conceptual analysis.
 Numerical requirements and operational rules need a stated scientific use.
-P04 remains open; no universal fitness, selector, formal constraint solver, code
-or issue is introduced.
+P04 is conceptually closed; no universal fitness, selector, formal constraint
+solver, code or issue is introduced. The [V0.1 alternatives](v0_1_alternatives.md)
+are the current bounded scope decision, not another general architecture review.

@@ -9,13 +9,13 @@ with no selected demonstrator. P09 is resolved conceptually under D21–D26,
 including alternative B and all seven principles; concrete contracts remain
 deferred. D27–D28 accept P04 alternative 2 and all seven principles, including
 bounded computational interpretation. D29 accepts distinct scientific requirements,
-operational checks and evidence links with seven qualifications. P04 remains open
-for restriction handling, uncertainty, diversity and budgeted policies. D30 accepts
+operational checks and evidence links with seven qualifications. D30 accepts
 separate exploration, preserved results/tradeoffs and purpose-specific selection
 on one problem, without a universal optimizer or mandatory Pareto archive.
 D31 accepts scoped restrictions, provisional exploration, uncheckable requirements
-and contextual fronts. The integrated P04 analysis now proposes five additional
-principles and closure, still awaiting approval; no V0.1 capability set is selected.
+and contextual fronts. D32 accepts all C1–C5 principles and closes P04 conceptually.
+The current decision is the [V0.1 scope](v0_1_alternatives.md); no capability set,
+model, first demonstrator, interface or implementation is selected.
 The bounded horizon review adds only
 a pending collective-design distinction (P10), not new MVP obligations.
 
@@ -121,89 +121,31 @@ recognition when a family-driven optimizer edits a binder?
 
 ### P04 proposed discussion sequence
 
-Status: **evaluation, requirement/check/evidence and search/results/selection
-separations and scoped-restriction reasoning accepted (D27–D31); concrete policies
-pending**. No adopted optimizer or numerical policy. A
-[bounded integrated analysis](uncertainty_diversity_budget.md) now prepares a
-formal closure decision rather than additional open-ended conceptual review.
-Return to the individual-peptide operational core; library, ensemble and
-transformation cases remain optional counterexamples rather than required features.
+Status: **resolved conceptually under D27–D32**, including all C1–C5 principles.
+This heading retains its navigation anchor; the agenda is complete, not reopened
+because particular algorithms or interfaces remain unwritten.
 
-The [current P04 analysis](evaluation_and_selection.md) records accepted alternative
-2 and [all seven principles](evaluation_and_selection.md#5-seven-accepted-principles-before-multiobjective-policies)
-under D27–D28: evaluation, feasibility, purpose-specific selection and computational
-conclusions bounded to evidence. No four classes/states, universal selector or
-global project-claim engine. P09 stays closed and P10 explicitly pending.
-The [X/Y case](evaluation_and_selection.md#7-selectivity-case-bind-x-while-avoiding-homolog-y)
-now tests scientific requirements, exact versus estimated checks and evidence.
-Its alternative 2 and seven qualifications are accepted under D29; numerical
-selectivity rules and software representations remain open. The
-[multiobjective analysis](multiobjective_optimization.md) uses invented
-X/Y/CPP/hemolysis candidates to expose scalar, Pareto, hierarchy/constraint,
-uncertainty and diversity choices. D30 accepts multiple policies and preservation
-of originals; its [operational extension](multiobjective_optimization.md#11-operational-stress-test-four-candidates-three-purposes)
-compares three purposes without adopting concrete restriction, uncertainty,
-diversity or budget policies. D31 now accepts its conceptual restriction treatment
-and seven investigator qualifications; detailed policy choices remain deferred.
+| Resolved meaning | Maintained reasoning |
+| --- | --- |
+| Evaluation, feasibility knowledge, purpose-specific selection and bounded conclusions | [Evaluation analysis](evaluation_and_selection.md), D27–D28. |
+| Requirements, checks and qualified evidence links | [X/Y case](evaluation_and_selection.md#7-selectivity-case-bind-x-while-avoiding-homolog-y), D29. |
+| Preserved objectives/results and different search/selection policies | [Multiobjective alternatives](multiobjective_optimization.md), D30. |
+| Scoped restrictions, honest guarantees, provisional exploration and contextual fronts | [Operational case](multiobjective_optimization.md#11-operational-stress-test-four-candidates-three-purposes), D31. |
+| Qualified uncertainty, optional diversity, distinct acquisition grounds, cost/reuse and reward bias | [Integrated synthesis](uncertainty_diversity_budget.md), C1–C5 accepted with closure under D32. |
 
-1. **Evaluation meaning and decision context — accepted conceptual boundaries.** What is evaluated: which proposal,
-   chemical realization/view, target/state/context and property? Keep raw results,
-   units/score meaning, applicability, source and dependencies distinct from the
-   objective or reward using them. Identify whether a result guides search,
-   assesses a candidate or provides genuinely independent evidence.
-2. **Constraints and evidence sufficiency — separation accepted under D29.** Separate the desired scientific
-   requirement, an exact check and a model-based operational criterion. What
-   happens when a required assessment is missing, fails or has doubtful scope?
-   Distinguish an observed violation, an unmet operational criterion and absence
-   of evidence without adopting a mandatory status enum or universal rejection.
-3. **Multiple objectives and tradeoffs — separation accepted under D30; policies open.** Which objectives remain separate and
-   which comparisons are meaningful? Compare documented scalarization, Pareto,
-   lexicographic and other policies without selecting one universal optimizer.
-   Missing/uncertain entries and incomparable scales affect what can be ranked.
-4. **Uncertainty and robustness — closure principles proposed.** The synthesis
-   distinguishes evidence limits, scenarios, bounds, sensitivity and probabilistic
-   assumptions, using F/I and shared-bias/reward-exploitation counterexamples.
-   C1/C5 await approval; no common confidence scale or automatic averaging rule.
-5. **Diversity and budgeted selection — closure principles proposed.** The synthesis
-   compares seven diversity meanings, partial views, four uses, acquisition purposes
-   and actual cost/reuse/failure accounting. C2–C4 await approval; no universal
-   metric, allocation ratio, acquisition rule or experimental loop is adopted.
+The cases, counterexamples and earlier recommendations remain in their topical
+documents and dated decision history. No universal policy, confidence scale,
+probabilistic model, metric or selector is adopted. Actual capability contracts
+still need supported inputs, scientific meanings and failure/acceptance behavior.
 
-These are discussion slices, not execution stages. The earlier A/B/C cases in
-[evaluation_and_selection.md](evaluation_and_selection.md#3-a-b-and-a-third-candidate-with-conflicting-predictions)
-use A with a stronger target prediction and missing antitarget assessment, B with
-a weaker prediction and broader evidence, and C with conflicting predictions.
-B's evidence is not necessarily favorable; C's outputs need aligned
-subjects/endpoints before being called contradictory. None is a universal winner.
-Can a candidate be eligible for information gathering or exploratory optimization
-while a selectivity claim remains unsupported? Which prerequisite belongs to the
-action, and which restriction belongs to the scientific problem?
-
-The operational case compares search-invariant restrictions, final-solution
-requirements, provisional operational relaxation and scientifically unresolved
-requirements. D31 accepts these context-dependent roles, not universal categories.
-Its [proposed obligations](multiobjective_optimization.md#12-obligations-for-future-implementable-contracts)
-separate investigator policy choices from later internal implementation freedom;
-they are not an approved universal contract.
-
-**Proposed next decision: conceptual closure of P04.** The
-[formal proposal](uncertainty_diversity_budget.md#7-formal-closure-proposal-and-peptidemt-v01-handoff)
-uses D27–D31 plus five explicitly pending principles C1–C5. The bounded coherence
-check finds no unresolved conceptual contradiction in the current cases. P04
-remains open awaiting investigator disposition; approving closure would not choose
-interfaces, all algorithm alternatives or every future capability's policy.
-No further horizon expansion or general uncertainty/diversity analysis is proposed
-as a prerequisite. If approved, proceed to a small PeptideMT V0.1 capability set,
-minimum contracts, cases and acceptance criteria under D14 before implementation.
-
-For a concrete use, still clarify whether the scientific requirement means
-relative X/Y preference, sufficient X recognition and/or a bound on Y recognition.
-Numerical requirements and action-specific evidence gates need that context;
-missing Y remains unresolved under every policy. D29 resolves the linked
-requirement/check/evidence organization, not these numerical choices. The next
-decision can close the conceptual block while deferring these concrete choices
-to the capabilities selected for V0.1; it does not reopen accepted separations
-or freeze an API.
+**Current next decision: PeptideMT V0.1 scope.** Compare the
+[A/B/C alternatives](v0_1_alternatives.md) and the recommended A-inside-B increment.
+Select a small useful capability set with actual generation/redesign and functional
+knowledge; decide initial chemistry/families and whether target conditioning and/or
+recognition assessment are required. Then qualify provider assets/access routes
+and agree minimum contracts, cases and acceptance criteria before implementation.
+The recommendation is pending, not a selected model, first demonstrator or API.
+Only bounded V0.1 portions of P02/P03/P05/P06 need resolution; P10/horizons add none.
 
 ## Q6. Guidance access and budgets
 

@@ -261,6 +261,8 @@ depends on the branch/action; exploratory use is not acceptance as a satisfactor
 solution. An unavailable check cannot provide verified enforcement. D31 now accepts
 that conceptual restriction reasoning; concrete policies remain pending. The
 [bounded integrated synthesis](uncertainty_diversity_budget.md) examines uncertainty,
-diversity, budget and reward exploitation, then formally proposes P04 closure.
-The five closure principles and closure itself await investigator approval;
-capability/algorithm selection for V0.1 is the next proposed milestone.
+diversity, budget and reward exploitation; C1–C5 and conceptual P04 closure are
+now accepted under D32. The current [V0.1 comparison](v0_1_alternatives.md) bounds
+real proposal and functional-evaluation routes, distinguishing postselection from
+feedback that changes later exploration. No generator, algorithm or demonstrator
+is selected by the recommended A-inside-B increment.

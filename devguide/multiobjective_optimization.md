@@ -5,13 +5,13 @@ accepted; concrete policies pending**, 2026-10-26. D27–D29 establish evaluatio
 evidence meanings. D30 permits distinct exploration/optimization and action-specific
 selection policies while preserving original objectives/evaluations. No universal
 optimizer, scalar reward, mandatory Pareto archive, threshold, uncertainty model,
-missing-data rule or diversity metric is adopted. P04 remains open for restriction
-handling policies, uncertainty, diversity and policies under budget.
+missing-data rule or diversity metric is adopted. **P04 is closed conceptually
+under D32**, including C1–C5; concrete capability policies remain to be selected.
 D31 accepts section 10's conceptual treatment with seven investigator qualifications,
 not every illustrative policy or the full section 12 contract table. The
 [bounded synthesis and closure proposal](uncertainty_diversity_budget.md) now
-integrates the remaining P04 questions; closure remains pending. No scientific
-software or public API is specified.
+records the accepted closure. The [V0.1 alternatives](v0_1_alternatives.md) now
+address a small implementable scope. No scientific software or public API is specified.
 
 Navigation: [index](README.md) · [accepted semantics](evaluation_and_selection.md)
 · [decisions](decisions.md) · [open questions](open_questions.md#p04-proposed-discussion-sequence)
@@ -634,10 +634,10 @@ report the limitation and return the consequential change to discussion.
 
 ## 13. Next discussions: uncertainty, then diversity
 
-The operational case narrows the next work without closing P04. The subsequent
+The operational case narrowed the next work. The subsequent
 investigator request now combines uncertainty, diversity and budget in the
-[bounded P04 synthesis](uncertainty_diversity_budget.md), with a formal closure
-proposal awaiting approval. The discussion probes below remain its motivation,
+[bounded P04 synthesis](uncertainty_diversity_budget.md); C1–C5 and conceptual
+closure are now approved under D32. The discussion probes below remain its motivation,
 not additional mandatory analysis before closure. No new uncertainty hierarchy,
 confidence scale or diversity metric is adopted.
 

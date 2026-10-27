@@ -339,8 +339,10 @@ different exploration and action-specific selection policies. Its operational
 case retains opposing CPP assessments instead of silently averaging or choosing
 the favorable one. The [bounded P04 synthesis](uncertainty_diversity_budget.md)
 compares qualified scenarios, bounds, sensitivity and probabilistic assumptions,
-with dependence and reward-exploitation limits. Its closure principles remain
-pending; no universal uncertainty aggregation is adopted. Family labels or
+with dependence and reward-exploitation limits. C1–C5 and conceptual P04 closure
+are accepted under D32; no universal uncertainty aggregation is adopted. The
+[V0.1 comparison](v0_1_alternatives.md) requires only a small qualified functional
+subset and a real generator/evaluator route, not all 21 outputs. Family labels or
 structural confidence do not by themselves establish
 target selectivity, and global project interpretation stays outside PeptideMT.
 
