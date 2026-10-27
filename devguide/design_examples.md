@@ -16,6 +16,13 @@ to a PeptideMT execution or newly designed molecule. No API/storage decision,
 new scientific implementation or W0–W4 acceptance gate follows.
 See [the complete evidence-anchored case](case_study_cpp_anticancer_mdm2_mdmx.md).
 
+A broader [CPP case-guided portfolio](cpp_case_portfolio.md) now groups fourteen
+complementary guide projects (Tat/oligoarginine, penetratin, Pep-1, protein-cargo
+fusions, p28, iRGD, pHLIP, GALA, cyclic cFΦR4, ATSP-7041, organellar carriers,
+buforin II and existing conceptual CPP+AMP/CPP+ACP requests). It is a **guide pool**,
+not fourteen implemented examples, a set of universal CPP classifier labels or an
+expansion of the approved Macrel increment-1 deliverable.
+
 The examples are complete at the level of scientific intent and responsibility.
 Actual execution would additionally require frozen target/seed assets, model and
 weight versions, configurations, budgets and operational policies. Missing assets
