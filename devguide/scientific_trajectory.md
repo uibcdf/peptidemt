@@ -73,7 +73,8 @@ The [CPP-guided project pool](cpp_guided_projects.md) adds a **graded scientific
 ladder**: R8/R9 and penetratin for minimal sequence evaluation, TAT/dfTAT for
 cargo and endosomal escape, **p28–p53 as a lower-chemistry first anticancer
 target+CPP-like reference**, iRGD/pHLIP for conditional localization/delivery,
-and cyclic CPPs and ATSP-7041 for advanced chemistry. Different projects test
+and cyclic CPPs and ATSP-7041 for advanced chemistry, plus
+PepFect14 oligonucleotide nanocomplexes and protease-unmasked ACPPs. Different projects test
 different mechanisms, rather than treating one stapled anticancer peptide as
 representative of all CPPs. p28 targets **p53**, whereas ATSP-7041 targets
 **MDM2/MDMX**; neither a generic CPP score nor an ACP label validates either
