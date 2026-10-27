@@ -501,11 +501,12 @@ mature into approved contracts before implementation.
 ## CPP-specific case-guided project pool
 
 The separate [CPP guided-project pool](cpp_guided_projects.md) expands the case
-inventory with **CPP-01 through CPP-10**, arranged from linear R8/R9 and
+inventory with **CPP-01 through CPP-12**, arranged from linear R8/R9 and
 penetratin to cargo delivery (TAT), endosomal escape (dfTAT), cancer-cell
 preference and a **p53-targeting p28 peptide**, proteolysis-dependent iRGD
 tissue penetration, pHLIP acid-triggered delivery, cyclic CPP12,
-stapled ATSP-7041 and multi-functional CPP+AMP search.
+stapled ATSP-7041, multi-functional CPP+AMP search, PepFect14
+oligonucleotide nanocomplex delivery and activatable protease-unmasked CPPs.
 
 This is a **scientifically diverse guide for future milestones**, not ten
 approved implementations or additional W0–W4/M1–M8 requirements. It complements
