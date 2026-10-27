@@ -107,6 +107,11 @@ case mandatory for the others. The [additional probes](design_examples.md#9-addi
 test overlapping labels, mechanism versus physiological effect and localization
 at different biological scales. They are not selected experimental projects.
 
+For possible longer-term scientific directions and what should be stress-tested
+before freezing core contracts, see the [future horizons review](future_horizons.md).
+It is an opportunity inventory, not an expansion of currently approved scope or
+a commitment to implement the listed features.
+
 ## Outside the present phase
 
 No scientific implementation, fixed API, mandatory generator, frozen molecular
