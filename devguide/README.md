@@ -77,6 +77,11 @@ specification. No scientific implementation or public API is defined.
 23. [Case-guided CPP-like anticancer binder: ATSP-7041](case_study_cpp_anticancer_mdm2_mdmx.md):
     published MDM2/MDMX-p53 mechanism, PDB 4N5T chemical/construct caveats,
     separate access, recognition and cellular endpoints, plus E0–E7 future tests.
+24. [Representative CPP case-guided project pool](cpp_guided_projects.md):
+    ten progressively demanding guides spanning arginine-rich/penetratin CPPs,
+    cargo delivery and endosomal escape, p28 anticancer target engagement,
+    iRGD tissue penetration, pHLIP pH dependence, cyclic CPPs, stapled binders
+    and joint CPP+AMP guidance; future references, not V0.1 commitments.
 
 ## Engineering receiving and reporting
 
