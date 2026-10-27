@@ -31,6 +31,15 @@ implementation plan or authorize work.
 | 5. Learned conditioning | Reuse an existing conditional model or adapt one only if its benefit justifies new data/training. | Training labels/negatives, data splits, calibration, distribution shift and comparison to unmodified generators. |
 | 6. Experimental feedback | Ingest assays and support active selection/retraining when experiments are available. | Assay conditions, replicates, censored results, measured negatives and independent validation. |
 
+The [graded CPP project pool](cpp_guided_projects.md) provides more
+representative case-driven references than the advanced stapled MDM2/MDMX
+example alone. It suggests **linear polyarginine/penetratin → carrier/cargo
+and endosomal escape → p28 intracellular p53 anticancer design → conditional
+tumor penetration → cyclic/stapled chemistry** as alternative scientific
+qualification probes. This is not an approved dependency sequence: actual
+availability, supported chemistry and investigator-selected research questions
+determine which case is commissioned. W0–W4 stays unchanged.
+
 ## Evaluation before claims
 
 A computational run can complete at any stage without experimental data.
