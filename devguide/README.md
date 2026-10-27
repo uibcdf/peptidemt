@@ -37,6 +37,9 @@ specification. No scientific implementation or public API is defined.
 13. [Protein and peptide design engines](protein_peptide_design_engines.md):
     expanded evidence matrices, Chaperone/RFD4 source review, short-peptide
     benchmarks, optional integration routes and revised P09 recommendations.
+14. [Future scientific horizons and design stress tests](future_horizons.md):
+    long-term peptide engineering directions, scientific evaluation opportunities
+    and questions to stress-test before committing to core interfaces.
 
 ## Evidence and status
 
@@ -87,6 +90,10 @@ remain pending. The [three semantic cases](capabilities_and_composition.md#8-thr
 test fundamental/contextual/optional information and matching alternatives using
 the [expanded engine evidence](protein_peptide_design_engines.md). No model,
 universal interface or mandatory execution stages are selected.
+
+The [future horizons](future_horizons.md) are strategic research opportunities,
+not accepted specifications, a revised implementation roadmap or new mandatory
+work before the first useful release.
 
 De novo generation and redesign remain equally in scope. No first experimental
 demonstrator has been chosen. Completion of a computational campaign does not
