@@ -701,12 +701,14 @@ are unchanged. The next authorized work remains finishing W0 before W1.
 ## CPP guided-case coverage expansion — 2026-10-27
 
 At the investigators' request, added [cpp_guided_projects.md](cpp_guided_projects.md)
-to build a representative **CPP-specific** case-guided research pool. Ten
+to build a representative **CPP-specific** case-guided research pool. Twelve
 literature-grounded guides span linear arginine-rich/penetratin peptides,
 CPP/cargo, endosomal escape, **azurin-derived p28 with direct p53 interaction
 and anticancer context**, iRGD-mediated tumor/tissue penetration, pHLIP pH-driven
 membrane insertion, cyclic CPP cytosolic delivery, stapled ATSP-7041 directed
-to **MDM2/MDMX**, and a multifunctional CPP+AMP search hypothesis. The case
+to **MDM2/MDMX**, a multifunctional CPP+AMP search hypothesis, **PepFect14
+oligonucleotide nanocomplex cargo delivery**, and **protease-activatable
+polyanion-masked CPPs (ACPPs)**. The case
 pool explicitly distinguishes cell uptake, endosomal escape, cytosolic access,
 cargo/tissue delivery, intracellular molecular recognition and anticancer
 phenotype, with different chemical species and biological contexts.
