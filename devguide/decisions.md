@@ -671,7 +671,7 @@ The investigators expressly authorized one additional local issue,
 and receiving because the applicable member reviews require member-owned issues.
 This is an operational extension of D36's reporting authority, not a new scientific
 or architectural decision or authority for other issues. W1 remains gated on W0
-receiving. See the [receiving record](pending_proposals/complete_w0.md).
+receiving. See the [receiving record](archive/complete_w0.md).
 
 ## Strategic trajectory and experimental-reference case — 2026-10-27
 
