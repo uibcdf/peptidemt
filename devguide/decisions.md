@@ -288,6 +288,18 @@ search, block and result-schema sources. No model installation/execution,
 scientific implementation, benchmark reproduction, issue or selected demonstrator.
 The semantic recommendation itself awaits approval.
 
+## Future scientific horizons — exploratory addition, 2026-10-26
+
+At the investigators' request, added [future_horizons.md](future_horizons.md)
+as an opportunity inventory and a set of conceptual stress tests: advanced peptide
+chemistry, conformational/state-selective design, negative targets, mechanism,
+delivery, synthesis/developability, active learning, activatable/multifunctional
+constructs, functional atlases, natural-peptide mining and multifidelity evaluation.
+This material is **not an accepted decision, fixed roadmap, implementation scope,
+new selected demonstrator or additional precondition to a useful MVP**. Current
+P09 discussion continues; any core distinction uncovered by stress tests requires
+independent scientific discussion and explicit approval. No code or issues created.
+
 ## Change protocol
 
 For each consequential discussion update, record date, approval or proposal
