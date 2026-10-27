@@ -7,7 +7,9 @@ Updated: 2026-10-26. Alternative B is accepted under D09–D13 and revised P07
 under D15–D16. P08 is accepted under D17–D20. The worked cases remain illustrative,
 with no selected demonstrator. P09 is resolved conceptually under D21–D26,
 including alternative B and all seven principles; concrete contracts remain
-deferred. P04 is the current discussion block. The bounded horizon review adds only
+deferred. D27–D28 accept P04 alternative 2 and all seven principles, including
+bounded computational interpretation. P04 remains open for constraints and
+optimization/selection policies. The bounded horizon review adds only
 a pending collective-design distinction (P10), not new MVP obligations.
 
 ## Q1. Design intent and execution
@@ -116,11 +118,14 @@ Status: **pending discussion agenda**, not adopted evaluation/selection policies
 Return to the individual-peptide operational core; library, ensemble and
 transformation cases remain optional counterexamples rather than required features.
 
-The [current P04 analysis](evaluation_and_selection.md) compares alternatives for
-evaluation, feasibility, purpose-specific selection and claims, with A/B/C cases
-and [minimal principles awaiting approval](evaluation_and_selection.md#5-minimal-principles-proposed-before-multiobjective-policies).
-It does not introduce four classes or states, a universal decision engine or
-an accepted selector. P09 remains conceptually closed and P10 explicitly pending.
+The [current P04 analysis](evaluation_and_selection.md) records accepted alternative
+2 and [all seven principles](evaluation_and_selection.md#5-seven-accepted-principles-before-multiobjective-policies)
+under D27–D28: evaluation, feasibility, purpose-specific selection and computational
+conclusions bounded to evidence. No four classes/states, universal selector or
+global project-claim engine. P09 stays closed and P10 explicitly pending.
+The [X/Y case](evaluation_and_selection.md#7-selectivity-case-bind-x-while-avoiding-homolog-y)
+now tests scientific requirements, exact versus estimated checks and evidence
+without adopting its representation alternatives or a numerical selectivity rule.
 
 1. **Evaluation meaning and decision context.** What is evaluated: which proposal,
    chemical realization/view, target/state/context and property? Keep raw results,
@@ -155,13 +160,17 @@ Can a candidate be eligible for information gathering or exploratory optimizatio
 while a selectivity claim remains unsupported? Which prerequisite belongs to the
 action, and which restriction belongs to the scientific problem?
 
-**Suggested next agreement:** accept or revise the four semantic responsibilities
-and purpose-relative eligibility/feasibility distinction. Then discuss a specific
-strict requirement, its operational check and missing-evidence consequences for
-a specific action. D11/D18/D19/D26
-already rule out treating a proxy as activity, missing evidence as inactivity or
-reward improvement as independent validation; P04 must make their consequences
-useful for selection without reopening those principles.
+**Suggested next agreement:** compare the X/Y case's requirement-centered
+summaries, linked requirement/check/evidence meanings and general formal calculus.
+The linked alternative is recommended, still pending, without classes or a solver.
+Does the scientific requirement mean relative X/Y preference, sufficient X
+recognition and/or a bound on Y recognition in a stated context? Which operational
+checks and applicability justify an assessment for optimization, another evaluation
+or synthesis selection? Missing Y remains unresolved under every policy; an
+exploratory choice does not turn it into compliance. Numerical requirements and
+action-specific evidence gates remain to be chosen for concrete scientific uses.
+D11/D18/D19/D26–D28 already separate proxy, evidence, purpose and interpretation;
+this discussion does not reopen those approved principles.
 
 ## Q6. Guidance access and budgets
 

@@ -42,8 +42,8 @@ specification. No scientific implementation or public API is defined.
     nontherapeutic applications, with architectural triage, S1–S12 stress tests
     and a bounded library/state/transformation review after P09 approval.
 15. [Evaluation, feasibility, selection and claims](evaluation_and_selection.md):
-    pending P04 alternatives, strict requirements versus proxy cutoffs and missing
-    evidence, A/B/C cases for six selection purposes, ownership and minimal principles.
+    accepted P04 alternative 2 and seven principles, bounded MOLI responsibility,
+    A/B/C cases and the pending X/Y requirement/check/evidence alternatives.
 
 ## Evidence and status
 
@@ -103,11 +103,13 @@ The [bounded review](future_horizons.md#9-bounded-extensibility-review-after-p09
 proposes only a collective-design distinction (P10); it does not adopt library,
 ensemble or reaction capabilities. P10 remains pending as explicitly requested.
 The current [P04 analysis](evaluation_and_selection.md) distinguishes evaluation,
-feasibility, selection purpose and scientific claims without classes or mandatory
-states. It tests A/B/C against different uses and proposes minimal principles;
-these recommendations await approval. The [progressive agenda](open_questions.md#p04-proposed-discussion-sequence)
-then covers tradeoffs, uncertainty, diversity and budgeted selection without a
-selected universal policy.
+feasibility, selection purpose and bounded scientific claims without classes or
+mandatory states. Alternative 2 and all seven principles are accepted under
+D27–D28, including the boundary with global project interpretation and Nextia.
+P04 remains open: the [X/Y selectivity case](evaluation_and_selection.md#7-selectivity-case-bind-x-while-avoiding-homolog-y)
+compares requirements, checks, evidence and eligibility for three actions. Those
+representation alternatives and the later [optimization agenda](open_questions.md#p04-proposed-discussion-sequence)
+remain pending; no universal threshold, fitness, selector or confidence scale.
 
 De novo generation and redesign remain equally in scope. No first experimental
 demonstrator has been chosen. Completion of a computational campaign does not

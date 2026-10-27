@@ -327,9 +327,13 @@ to abstention/deferment; the plan must state how it affects search and selection
 
 The [current P04 analysis](evaluation_and_selection.md) tests evaluation,
 feasibility, purpose-specific selection and scientific claims with A/B/C cases.
-Its alternatives and minimal principles remain pending. A scientific requirement
-can be strict without an exact available evaluator; failing a model cutoff,
-missing evidence, disagreement and extrapolation have different meanings.
+Alternative 2 and seven principles are now accepted under D27–D28. A scientific
+requirement can be strict without an exact available evaluator; cutoff failure,
+missing evidence, disagreement and extrapolation have different meanings. The
+[X/Y selectivity case](evaluation_and_selection.md#7-selectivity-case-bind-x-while-avoiding-homolog-y)
+tests the still-pending organization of requirements, checks and compliance
+evidence. Family labels or structural confidence do not by themselves establish
+target selectivity, and global project interpretation stays outside PeptideMT.
 
 Compare only sufficiently aligned subjects, chemical views, contexts and claims
 before calling outputs contradictory. Keep disagreement and calibration evidence

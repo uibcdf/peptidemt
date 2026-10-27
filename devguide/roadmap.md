@@ -12,7 +12,7 @@ implementation plan or authorize work.
 
 | Stage | Candidate deliverable | Evidence to retain |
 | --- | --- | --- |
-| 0. Design | Test accepted problem/plan/evidence, proposal/realization, function/resource and capability/composition semantics with cases; compare generative strategies without choosing an API. | D09–D26, conceptual counterexamples, investigator decisions and preserved audit. |
+| 0. Design | Test accepted problem/plan/evidence, proposal/realization, function/resource, capability/composition and evaluation/selection semantics with cases; compare strategies without choosing an API. | D09–D28, conceptual counterexamples, investigator decisions and preserved audit. |
 | 1. Common evaluation | Family/model bindings, proposal-to-candidate relations, evaluated views, hard constraints, provenance, selection and applicability. Accept supplied/generated and potentially incomplete proposals where evaluators support them. | Reproducible evaluation fixtures, determined/unknown chemistry, attribution limits, unsupported-input behavior and score meaning. |
 | 2. Baseline proposal adapters | At least one de novo route and one seed-based route conceptually using the same evaluation/selection layer. Implementation order remains open. | Exact engine/checkpoint/configuration; compared coverage and costs. |
 | 3. External optimization | Evolutionary, Bayesian or other black-box search over proposals; preserve edit constraints, diversity and objective vectors. | Matched-budget comparison with generate-and-filter; failures and discarded candidates. |
@@ -57,6 +57,11 @@ review introduces no new implementation stage or MVP requirement. P04 is the
 now examined in [evaluation_and_selection.md](evaluation_and_selection.md),
 starting with evaluation meaning and constraints/evidence before selecting
 multiobjective or diversity policies. The library distinction P10 stays pending.
+
+P04 alternative 2 and its seven principles are accepted under D27–D28, with no
+mandatory classes/states or global project-interpretation engine. The X/Y case
+continues the pending restriction/check/evidence discussion; no selectivity
+threshold, optimization policy or implementation deliverable is adopted by it.
 
 Before Python implementation, agree formal admission to MolSysSuite and use
 its official registered-component starter. Pin model/license/weight provenance
