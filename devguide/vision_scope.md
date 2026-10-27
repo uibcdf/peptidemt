@@ -29,7 +29,8 @@ cytosolic-delivery labels.
 
 The [representative CPP project pool](cpp_guided_projects.md) deliberately distinguishes
 sequence-level uptake, cargo delivery, endosomal escape, cytosolic access,
-tumor-homing/tissue penetration, pH-dependent membrane insertion and
+tumor-homing/tissue penetration, proteolytic activation, pH-dependent membrane insertion,
+oligonucleotide cargo and
 intracellular targeted anticancer function. They are different evidence endpoints
 and chemical modalities, not interchangeable labels or V0.1 requirements.
 
