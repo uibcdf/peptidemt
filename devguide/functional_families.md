@@ -325,6 +325,12 @@ Objective vectors, constraints and diversity remain preferable subjects for
 discussion (P04), not an adopted universal selector. Missing evidence may lead
 to abstention/deferment; the plan must state how it affects search and selection.
 
+The [current P04 analysis](evaluation_and_selection.md) tests evaluation,
+feasibility, purpose-specific selection and scientific claims with A/B/C cases.
+Its alternatives and minimal principles remain pending. A scientific requirement
+can be strict without an exact available evaluator; failing a model cutoff,
+missing evidence, disagreement and extrapolation have different meanings.
+
 Compare only sufficiently aligned subjects, chemical views, contexts and claims
 before calling outputs contradictory. Keep disagreement and calibration evidence
 separate from selection policy. Shared training data weaken claims of independent

@@ -7,8 +7,10 @@ Updated: **2026-10-26**. P07/P08 remain accepted within their limits. P09 is
 **resolved conceptually** under D21–D26: alternative B, all seven principles and
 context-sensitive semantic obligations are accepted. Concrete contracts,
 interfaces, schemas and implementation remain deferred. A bounded V0.2 horizon
-review proposes a collective-design distinction without adopting it; P04 is the
-next discussion block. No algorithm or API is selected.
+review proposes a collective-design distinction without adopting it; P10 remains
+pending by explicit request. P04 now compares four semantic responsibilities,
+purpose-specific eligibility and the A/B/C cases; its recommendations await
+approval and are not new accepted decisions. No algorithm or API is selected.
 
 ## Accepted working directions
 
@@ -64,7 +66,7 @@ the semantic responsibilities adopted through P07 are recorded under D15–D16.
 | --- | --- | --- |
 | P02 | Refine context, qualified label/resource mappings and evaluator bindings within D10/D17–D20. | Conceptual separation is accepted; concrete fields, mapping policies and interfaces remain open. |
 | P03 | Keep a small sequence/design core with optional molecular and model adapters. | Compare dependency cost against uniform molecular integration. |
-| P04 | Evaluation, objectives, constraints, uncertainty, diversity and candidate selection. | Next discussion block; [proposed progressive sequence](open_questions.md#p04-proposed-discussion-sequence). No universal selector, uncertainty scale, reward or Pareto policy adopted. |
+| P04 | Evaluation, objectives, constraints, uncertainty, diversity and candidate selection. | Active [conceptual analysis](evaluation_and_selection.md): evaluation/feasibility/selection/claim alternatives and A/B/C cases, with minimal principles pending approval. No classes, state machine, global grade, universal selector, uncertainty scale or Pareto policy adopted. |
 | P05 | Compare and compose filtering, external optimization, sampling-time guidance, functional distributions and learned conditioning through explicit capabilities. | Current [strategy analysis](generative_strategies.md); no definitive generator, common API, capability schema or first comparison experiment selected. |
 | P06 | Formal suite admission and official Python starter generation. | Agree the central process; no issue or sibling-registry change is authorized by this initial documentation publication. |
 | P10 | Distinguish collective/distributional library proposals from individual molecular proposals, including incomplete individuals. | Pending bounded recommendation from [V0.2 case A](future_horizons.md#9-bounded-extensibility-review-after-p09-approval). No library support, generic population hierarchy or MVP requirement adopted; concrete semantics can wait until such a capability is prioritized. |
@@ -336,6 +338,28 @@ feasibility/evidence, then tradeoffs, uncertainty, diversity and budgeted select
 No P04 choice is approved by that proposed order. Updated related current-status
 documents consistently, without changing the ecosystem/engine audit snapshots,
 selecting a demonstrator, implementing scientific code or opening issues.
+
+## P04 evaluation and purpose-specific selection discussion — 2026-10-26
+
+The investigators concur with P09's closure and the horizon review, explicitly
+retaining P10 as pending without a library-design MVP requirement. They request
+conceptual P04 analysis and further approval before adopting its recommendations;
+no D27 or new accepted evaluation/selection bundle is recorded.
+
+Added [evaluation_and_selection.md](evaluation_and_selection.md), comparing direct
+selection-specific checks, four explicit semantic responsibilities and a general
+decision framework. Recommended the middle approach without four classes/stages,
+a global candidate grade or a general decision engine. Compared strict violations,
+operational cutoffs, missing/failed evaluation, conflicting predictions and
+out-of-domain signals. The A/B/C cases preserve that more complete evidence need
+not be favorable, disagreement need not be comparable, and selection alone
+adds no functional evidence.
+
+Proposed seven minimal P04 principles for discussion, not approval, and separated
+fixed-evidence policy comparison from end-to-end search comparison. Reused the
+pinned ecosystem audit; no new runtime capability or empirical result is claimed.
+Updated navigation, current discussion and related family/evaluation guidance.
+No scientific code, model execution, development issue or selected experiment.
 
 ## Change protocol
 

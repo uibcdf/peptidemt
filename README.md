@@ -60,7 +60,9 @@ capabilities and explicit compositions, with all seven principles accepted.
 Concrete interfaces, schemas and implementation remain deferred.
 The [bounded horizon review](devguide/future_horizons.md#9-bounded-extensibility-review-after-p09-approval)
 examines libraries, target states and transformation products without new MVP
-commitments. The next discussion is [P04 evaluation and selection](devguide/open_questions.md#p04-proposed-discussion-sequence).
+commitments. The current [P04 analysis](devguide/evaluation_and_selection.md)
+compares evaluation, feasibility, purpose-specific selection and supported claims;
+its alternatives and minimal principles remain pending, without a universal selector.
 The [expanded engine review](devguide/protein_peptide_design_engines.md)
 examines general protein/peptide engines, Chaperone and RFD4, their evidence and
 optional integration routes. No definitive generator, mandatory backend or API

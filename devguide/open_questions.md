@@ -7,7 +7,7 @@ Updated: 2026-10-26. Alternative B is accepted under D09–D13 and revised P07
 under D15–D16. P08 is accepted under D17–D20. The worked cases remain illustrative,
 with no selected demonstrator. P09 is resolved conceptually under D21–D26,
 including alternative B and all seven principles; concrete contracts remain
-deferred. P04 is the next discussion block. The bounded horizon review adds only
+deferred. P04 is the current discussion block. The bounded horizon review adds only
 a pending collective-design distinction (P10), not new MVP obligations.
 
 ## Q1. Design intent and execution
@@ -116,6 +116,12 @@ Status: **pending discussion agenda**, not adopted evaluation/selection policies
 Return to the individual-peptide operational core; library, ensemble and
 transformation cases remain optional counterexamples rather than required features.
 
+The [current P04 analysis](evaluation_and_selection.md) compares alternatives for
+evaluation, feasibility, purpose-specific selection and claims, with A/B/C cases
+and [minimal principles awaiting approval](evaluation_and_selection.md#5-minimal-principles-proposed-before-multiobjective-policies).
+It does not introduce four classes or states, a universal decision engine or
+an accepted selector. P09 remains conceptually closed and P10 explicitly pending.
+
 1. **Evaluation meaning and decision context.** What is evaluated: which proposal,
    chemical realization/view, target/state/context and property? Keep raw results,
    units/score meaning, applicability, source and dependencies distinct from the
@@ -141,16 +147,18 @@ transformation cases remain optional counterexamples rather than required featur
    acquisition rule or experimental loop is adopted now.
 
 These are discussion slices, not execution stages. Before choosing selection
-algorithms, use a small counterexample: candidate A has stronger predicted target
-recognition but lacks a relevant antitarget assessment; candidate B has weaker
-predicted recognition with more complete evidence. Neither is automatically the
-winner. Can a candidate advance to further evaluation while remaining ineligible
-for a claim that all scientific requirements are satisfied? Which requirements
-make a particular selection provisional, and what evidence would resolve it?
+algorithms, use A with a stronger target prediction and missing antitarget
+assessment, B with a weaker prediction and broader evidence, and C with conflicting
+predictions. B's evidence is not necessarily favorable; C's outputs need aligned
+subjects/endpoints before being called contradictory. None is a universal winner.
+Can a candidate be eligible for information gathering or exploratory optimization
+while a selectivity claim remains unsupported? Which prerequisite belongs to the
+action, and which restriction belongs to the scientific problem?
 
-**Suggested first discussion:** agree what information and scientific meaning
-evaluation results must preserve, and how feasibility differs from missing
-evidence. Only then discuss a policy for comparing candidates. D11/D18/D19/D26
+**Suggested next agreement:** accept or revise the four semantic responsibilities
+and purpose-relative eligibility/feasibility distinction. Then discuss a specific
+strict requirement, its operational check and missing-evidence consequences for
+a specific action. D11/D18/D19/D26
 already rule out treating a proxy as activity, missing evidence as inactivity or
 reward improvement as independent validation; P04 must make their consequences
 useful for selection without reopening those principles.

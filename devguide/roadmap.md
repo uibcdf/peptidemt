@@ -53,7 +53,8 @@ roadmap does not authorize programming.
 P09's conceptual organization and seven principles are accepted under D25–D26;
 operation-specific contracts/interfaces remain future work. The bounded V0.2
 review introduces no new implementation stage or MVP requirement. P04 is the
-[next proposed discussion block](open_questions.md#p04-proposed-discussion-sequence),
+[current discussion block](open_questions.md#p04-proposed-discussion-sequence),
+now examined in [evaluation_and_selection.md](evaluation_and_selection.md),
 starting with evaluation meaning and constraints/evidence before selecting
 multiobjective or diversity policies. The library distinction P10 stays pending.
 
