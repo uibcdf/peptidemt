@@ -4,9 +4,11 @@ Status: **literature observations and P08 alternative 2 accepted conceptually**,
 2026-10-26 (D17–D20). Family/model independence and P07 attribution remain in
 force. The alternative comparison preserves reasoning; detailed field sketches
 are not approved schemas, APIs, a formal ontology or implementation claims.
-For the first implementation scope, the [V0.1 proposal](v0_1_scope.md) considers
-AMP/hemolysis and qualified Macrel/HydrAMP resources. These are pending choices,
-not adopted family definitions or mandatory models under the accepted B direction.
+For the first implementation scope, D34 accepts AMP compatibility and adverse
+hemolysis, with Macrel then HydrAMP as qualification candidates. This bounded
+coverage does not redefine the catalog or select mandatory builds/checkpoints.
+The [increment-1 specification](v0_1_increment_1.md) proposes native output meanings,
+including HemoPI-1 sampled-negative limitations; concrete contracts remain pending.
 
 Navigation: [index](README.md) · [learned functional spaces](literature.md) · [scope](vision_scope.md) · [open questions](open_questions.md).
 

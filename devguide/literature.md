@@ -349,3 +349,13 @@ gains. Controls distinguish generation, selection and actual feedback; neither
 a second model nor procedural controls establish experimental validation.
 This adds source evidence and a narrower implementation proposal, not a new
 field-wide survey or successful runtime qualification.
+
+Under D34 the first coverage and candidate order are accepted. The
+[increment-1 specification](v0_1_increment_1.md) records further bounded source
+observations: initial-M/terminal-stop removal and FASTA header handling, declared
+<100-residue scope versus the >=110 warning, native precision/labels and the
+training scripts' AmPEP/HemoPI-1 origins. The primary HemoPI paper distinguishes
+its Swiss-Prot-sampled negatives from experimental nonhemolysis evidence. HydrAMP's
+token-to-string projection, native scoring/order and external evaluation retain
+separate attribution. These observations support proposed tests and qualification
+gates, not installed compatibility or biological validation.

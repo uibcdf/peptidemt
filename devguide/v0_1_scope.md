@@ -1,7 +1,10 @@
 # PeptideMT V0.1: bounded scope and implementation proposal
 
-Status: **B is accepted as the V0.1 direction under D33; concrete resource,
-chemistry, policy and interface choices below remain proposals**, 2026-10-26.
+Status: **B accepted under D33; AMP/hemolysis coverage and Macrel-then-HydrAMP
+qualification order accepted under D34**, updated 2026-10-27. Exact resource,
+chemistry, policy and interface choices remain proposals. The
+[increment-1 specification](v0_1_increment_1.md) now carries the concrete contracts,
+preprocessing/length qualifications and bounded HydrAMP plan for review.
 No scientific implementation, model installation/execution or issues are authorized.
 P04/P09 remain conceptually closed. This document narrows their application rather
 than designing a universal optimizer or reopening the general architecture.
@@ -35,7 +38,8 @@ may be target-free; recognition assessment and advanced structural generation
 are not mandatory V0.1 capabilities. **Target-directed capability is the next
 priority milestone after that core**, not an indefinite optional horizon and
 not contingent on completing every feedback extension. C remains a later option.
-No engine, family subset, chemistry envelope, API or deployment is thereby adopted.
+Exact engine bundles, chemistry envelope, API and deployment remain unadopted;
+D34 separately settles the first functional coverage and qualification order.
 
 ## 2. Bounded resource review
 
@@ -109,11 +113,12 @@ unsuccessful). It is not an audit of laboratory hardware, other environments,
 GPU absence or the feasibility of CPU/external execution. Deployment must be
 qualified against the actual intended host/worker environment.
 
-## 3. Proposed first scientific coverage and comparison
+## 3. Accepted first coverage and proposed comparison
 
-**Recommendation, not adoption:** a target-free, small AMP-oriented sequence task,
-with Macrel hemolysis output as a separate adverse-property signal, is a defensible
-first coverage to qualify. It exercises more than one objective without promising
+**Coverage accepted under D34:** desired AMP compatibility plus adverse hemolysis,
+with Macrel then HydrAMP as qualification candidates. A target-free first native
+route is consistent with D33; its chemistry, versions and policies remain pending.
+It exercises more than one objective without promising
 CPP/ACP or target recognition. Define the intended antimicrobial context and the
 classifier's narrower operational label separately: generic AMP classification
 does not establish activity against a chosen organism/protein. Low hemolysis
@@ -302,12 +307,13 @@ future-horizon capabilities or a universal optimizer first.
 
 Before commissioning development, investigators still need to approve:
 
-1. **Initial scientific coverage and operation envelope:** whether AMP plus
-   hemolysis is the chosen task, what these outputs mean for that task, permitted
-   proposal chemistry/lengths and unsupported-input behavior. Full canonical
+1. **Operation envelope and contract:** AMP/hemolysis coverage is accepted under
+   D34. Approve the concrete output interpretation, permitted proposal chemistry/
+   lengths, preprocessing and unsupported-input behavior in the
+   [increment-1 specification](v0_1_increment_1.md). Full canonical
    identity, state grouping and broad chemistry can remain deferred.
-2. **Resource qualification target:** whether to qualify Macrel first and the
-   bounded HydrAMP route next; exact assets/terms, intended host/worker environment
+2. **Exact qualification bundle:** Macrel first and HydrAMP second is accepted
+   under D34; qualify exact assets/terms, intended host/worker environment
    and what would justify returning with an alternative. These are candidates,
    not mandatory dependencies approved by B.
 3. **Concrete acceptance and selection contract:** policies/precision/ties,
@@ -327,6 +333,7 @@ serialization details, deterministic tie implementation and routine tests within
 the approved meanings, ownership and observable guarantees. Changing scientific
 attribution, permitted chemistry, a resource's role, terms-dependent deployment,
 selection meaning or claims requires review. The immediate next discussion should
-choose **the small scientific coverage and resource qualification target together**:
-AMP/hemolysis with Macrel and bounded HydrAMP is the recommendation to assess,
-not an adopted first demonstrator.
+resolve **the concrete increment-1 contract and qualification gates**. D34 has
+settled coverage and candidate order; exact bundles, preprocessing, chemistry,
+selectors, fixtures and execution bounds remain pending. This is specification
+work before commissioning, not a new broad architecture review.

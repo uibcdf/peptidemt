@@ -84,8 +84,12 @@ increment 2. Genuine feedback is a priority extension subject to viability; C
 structural integration is deferred. The [bounded scope proposal](devguide/v0_1_scope.md)
 reviews Macrel/HydrAMP/PepMLM feasibility, controls, contracts and acceptance cases.
 Target-directed capability is an explicit priority after the first functional core.
-Engines, initial families/chemistry, interfaces and first demonstrator remain
-pending; no implementation is authorized here.
+D34 now accepts **AMP compatibility plus adverse hemolysis** as first coverage
+and **Macrel then HydrAMP** as qualification candidates. The
+[increment-1 specification](devguide/v0_1_increment_1.md) proposes exact evaluation/
+selection contracts, native preprocessing/length qualifications, acceptance tests
+and bounded HydrAMP gates. Builds/assets, chemical scope, interfaces and contract
+approval remain pending; no implementation is authorized here.
 The [expanded engine review](devguide/protein_peptide_design_engines.md)
 examines general protein/peptide engines, Chaperone and RFD4, their evidence and
 optional integration routes. No definitive generator, mandatory backend or API

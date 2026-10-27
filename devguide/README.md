@@ -1,6 +1,6 @@
 # PeptideMT design guide
 
-Updated: **2026-10-26**. This is the maintained design source of truth.
+Updated: **2026-10-27**. This is the maintained design source of truth.
 It supports scientific discussion rather than replacing it with a completed
 specification. No scientific implementation or public API is defined.
 
@@ -62,6 +62,10 @@ specification. No scientific implementation or public API is defined.
     increments versus pending resource/domain choices; targeted feasibility,
     generation/selection/feedback controls, shared-bias limits, failure contracts,
     acceptance cases, ownership and the priority target-directed milestone.
+20. [Increment 1 specification and HydrAMP qualification](v0_1_increment_1.md):
+    D34 accepts AMP/hemolysis and candidate order; proposed Macrel input/chemical/
+    length/precision/mapping contracts, leading-M handling, two exact selectors,
+    M1–M8 acceptance tests and H0–H4 bounded generator qualification gates.
 
 ## Evidence and status
 
@@ -152,10 +156,14 @@ functional evaluation and reproducible selection constitute the minimum useful
 increment 2; genuine feedback is a priority extension conditional on viability.
 C structural integration is deferred. Target/family-directed design stays central,
 with an explicit priority target milestone after the functional core; target
-conditioning does not itself establish recognition. Macrel and HydrAMP are
-candidates to qualify, not adopted models. Initial families/chemistry, interfaces,
-first demonstrator and concrete contracts remain to approve. No code, issues or
-future-horizon scope expansion.
+conditioning does not itself establish recognition. **D34 accepts the first bounded
+coverage (AMP compatibility plus adverse hemolysis) and qualification order
+(Macrel, then HydrAMP).** No version/checkpoint or deployment is adopted. The
+[increment-1 specification](v0_1_increment_1.md) now proposes input/view/chemical
+scope, native output/precision/mapping behavior, preprocessing/length qualifications,
+two exact selectors, M1–M8 acceptance tests and H0–H4 HydrAMP gates. Those contracts,
+exact resources, chemistry and interfaces await review before commissioning.
+No code, model installation/execution, issues or future-horizon scope expansion.
 
 De novo generation and redesign remain equally in scope. No first experimental
 demonstrator has been chosen. Completion of a computational campaign does not

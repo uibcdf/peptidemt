@@ -3,7 +3,7 @@
 Navigation: [index](README.md) · [alternatives](architecture_alternatives.md) · [decisions](decisions.md).
 All questions remain open unless an explicit decision is recorded.
 
-Updated: 2026-10-26. Alternative B is accepted under D09–D13 and revised P07
+Updated: 2026-10-27. Alternative B is accepted under D09–D13 and revised P07
 under D15–D16. P08 is accepted under D17–D20. The worked cases remain illustrative,
 with no selected demonstrator. P09 is resolved conceptually under D21–D26,
 including alternative B and all seven principles; concrete contracts remain
@@ -16,9 +16,10 @@ D31 accepts scoped restrictions, provisional exploration, uncheckable requiremen
 and contextual fronts. D32 accepts all C1–C5 principles and closes P04 conceptually.
 D33 accepts B as the [V0.1 direction](v0_1_scope.md), with A as increment 1,
 real functional generation as the minimum useful increment 2, priority conditional
-feedback and a target-directed milestone after the functional core. Models,
-initial chemistry/families, concrete contracts/interfaces, first demonstrator and
-implementation authorization remain pending.
+feedback and a target-directed milestone after the functional core. D34 accepts
+AMP compatibility/adverse hemolysis as first coverage and Macrel then HydrAMP as
+qualification candidates. Exact builds/assets, chemistry, concrete contracts/
+interfaces and implementation authorization remain pending.
 The bounded horizon review adds only
 a pending collective-design distinction (P10), not new MVP obligations.
 
@@ -141,17 +142,19 @@ documents and dated decision history. No universal policy, confidence scale,
 probabilistic model, metric or selector is adopted. Actual capability contracts
 still need supported inputs, scientific meanings and failure/acceptance behavior.
 
-**Current next decision: the small V0.1 scientific coverage and qualification
-target.** B is accepted under D33; do not repeat the A/B/C scope choice. The
-[concrete proposal](v0_1_scope.md) recommends assessing AMP/hemolysis coverage,
-Macrel first and a bounded HydrAMP route next, subject to assets/terms/runtime and
-domain qualification. Agree supported chemistry/lengths, policy/failure behavior,
-controls, budgets and acceptance cases before implementation. Feedback inclusion
-depends on the real proposal operation; target-directed capability is the priority
-after the functional core without requiring initial recognition or structural
-generation. These resources/domains/contracts are pending, not selected models,
-first demonstrator or API. Only bounded V0.1 portions of P02/P03/P05/P06 need
-resolution; P10/horizons add none.
+**Current next decision: approve the concrete increment-1 contract and bounded
+qualification plan.** D33/D34 settle direction, first coverage and candidate order;
+do not repeat those choices. The [specification](v0_1_increment_1.md) proposes
+sequence-preserving Macrel admission, explicit native labels/precision, a qualified
+length rule with no invented empirical minimum, two lexicographic selectors and
+M1–M8 tests. In particular, decide how to handle Macrel's removal of leading M:
+decline that route for affected originals, explicitly evaluate a derived sequence,
+or separately qualify unchanged-sequence feature access. None is adopted yet.
+Review chemistry, applicability, selection unit, fixtures, parity/failure criteria,
+exact permitted resource bundles and H0–H4 bounds before commissioning execution
+or implementation. Feedback inclusion depends on the real operation; target-directed
+capability remains the priority after the functional core. Only bounded V0.1
+portions of P02/P03/P05/P06 need resolution; P10/horizons add none.
 
 ## Q6. Guidance access and budgets
 
