@@ -8,6 +8,14 @@ Navigation: [index](README.md) · [decisions](decisions.md).
 
 The tracks below are incremental capabilities, not a commitment to one
 demonstrator or a redesign-only entry point.
+The [scientific north star and success trajectory](scientific_trajectory.md)
+preserve the original target+function ambition across four meaningful scientific
+milestones: real evaluation, learned generation, functional feedback and joint
+target/function design. Those milestones are guidance for scientific value,
+not a revision to D33–D36, a new release timetable or a requirement to implement
+all at once. The [ATSP-7041/MDM2–MDMX case](case_study_cpp_anticancer_mdm2_mdmx.md)
+is an evidence-grounded **later** case-guided reference, not a substitute for
+the already commissioned target-free Macrel increment 1.
 The separate [future horizons review](future_horizons.md) records potential
 chemical, mechanistic, multi-state, delivery, experimental and interactive
 extensions plus design stress tests. They do **not** extend this preliminary
