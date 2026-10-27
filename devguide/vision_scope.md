@@ -15,6 +15,12 @@ plan and execution evidence. D10–D13 keep families independent of their models
 initially simple/extensible, and preserve joint target/family conditioning as a
 central objective. See [worked examples](design_examples.md).
 
+The [scientific north star](scientific_trajectory.md) records why combining
+function-guided proposal search and molecular-target engagement remains central
+as implementation progresses. The [published-evidence-anchored MDM2/MDMX-p53
+cell-permeating anticancer peptide case](case_study_cpp_anticancer_mdm2_mdmx.md)
+offers a stringent future reference without changing V0.1 chemistry or targets.
+
 Practical research utility takes priority over inventing a new algorithm.
 Target-directed design is central, but optional for tasks where a protein-binding
 mechanism is inappropriate or unknown. The scope includes CPPs, AMPs, ACPs, AFPs,
