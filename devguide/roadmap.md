@@ -2,7 +2,7 @@
 
 Status: **V0.1 direction/first coverage/order and increment-1 scientific contract
 accepted under D33–D35; W0–W4 authorized under D36**, updated 2026-10-27.
-W0 is in progress; W1–W4 remain gated on completed admission/bootstrap. No dates
+W0 engineering receiving is now completed; W1–W4 retain their scientific/provider qualification gates. No dates
 or package publication are authorized.
 Navigation: [index](README.md) · [decisions](decisions.md).
 
@@ -111,7 +111,7 @@ D33 adopts **B with A as the first internal increment**. The
 
 | Milestone | Status and intended outcome |
 | --- | --- |
-| Increment 1 | D35 scientific contract and M1–M8 accepted; W0–W4 authorized under D36. W0 admission started in uibcdf/molsyssuite#146; actual qualification/operational conditions and completed W0 still gate W1–W4. |
+| Increment 1 | D35 scientific contract and M1–M8 accepted; W0–W4 authorized under D36. W0 was centrally received in uibcdf/molsyssuite#146; the live Macrel qualification/operational conditions and M1–M8 still govern W1–W4. |
 | Increment 2 | Accepted minimum useful V0.1: a concrete real generation/redesign route plus functional assessment and selection. Mock-only demonstrations and increment 1 alone are insufficient. |
 | Increment 3 | Priority genuine functional feedback affecting later proposals/actions; exact inclusion in V0.1 depends on actual generator viability. Postfiltering is not feedback. |
 | Target-directed milestone after the functional core | Explicit priority: qualify one permitted target-conditioned route and qualified functional assessment, preserving target context and distinct conditioning/compatibility/recognition meanings. It can proceed alongside increment 3; it is not deferred behind all feedback or broad-family expansion. |
