@@ -81,6 +81,13 @@ intracellular mechanism. All remain future case-study references.
 
 The target milestone may proceed in parallel with a future feedback increment when a route is qualified; it need not wait for every optimizer, chemical family or structural engine to be supported.
 
+The [CPP guide-project portfolio](cpp_case_portfolio.md) supplies fourteen
+scientifically distinct cases spanning canonical Tat/R8 and penetratin through
+cargo, **p28 as a simpler intrinsic anticancer CPP–p53 binder**, tissue and
+endosomal contexts, cyclic/noncanonical structures and the existing ATSP-7041
+stapled MDM2/MDMX reference. It is a resource for choosing future *bounded*
+tests, not an additional V0.1 implementation gate.
+
 ## 4. What would differentiate a strong PeptideMT product?
 
 1. **Scientific intent survives method substitution.** Same requested functions/targets/chemistry can be compared across plans with honest coverage gaps.
