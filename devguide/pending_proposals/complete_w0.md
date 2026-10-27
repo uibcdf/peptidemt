@@ -73,7 +73,7 @@ Guide bytes and policy adoption are separate evidence.
 | CI and platforms | Full baseline tests for routine Linux/Python 3.14 push/PR; weekly/manual Linux 3.11–3.14 matrix. No skip markers or deferred expensive suite. No public OS support claim yet; no macOS/Windows claim or Intel macOS target. Configured jobs do not prove execution. |
 | Distribution | Source-only developer installation, no runtime dependencies and no vendored scientific assets. No Conda recipe, credential request, package-channel claim, public version/tag, release, DOI or archival claim. Publication controls are not applicable until separately commissioned. |
 | Resources and coverage | No generated/binary scientific resources. Baseline import and reporting tests are engineering evidence, not meaningful scientific coverage; no coverage percentage badge. Reassess under the same W0 issue when W1 introduces behavior. |
-| Shared development environment | PeptideMT is not in the qualified shared development cohort. Use its official member-specific Python 3.14 Conda environment. Shared admission needs an actual future integrated install/closure/test receipt, not an editable install alone. |
+| Shared development environment | The investigator confirms `molsyssuite@uibcdf_3.14` for routine development. PeptideMT installs editable there with verified neutral import and no added dependency findings. The original clean member fixture remains qualification evidence; central fresh expanded-cohort integration is a separate gate. |
 
 No required runtime edges exist. The test extra's Pytest Receptor and actual GH
 Run Receptor operator use must be represented as distinct test-tooling/ci-tooling
@@ -231,3 +231,38 @@ package publication and other development issues remain excluded. Scientific
 changes return to the investigators. Temporary source/environments/artifact and
 receptor caches are task-owned and may be removed after durable evidence and
 issue handoff; reproduce from the official routes, not those transient paths.
+
+## Central W0 receiving follow-up — 2026-10-27
+
+The investigator confirmed the named shared Linux development environment,
+`molsyssuite@uibcdf_3.14`, rather than a separate member environment for daily
+work. Actual Python 3.14.7 installation from source
+`d1d6b1c3949a95abed1e4072f6b6fb0223a971cd` succeeds using
+`pip install --no-deps --no-build-isolation --editable`. Neutral-directory
+`python -I` resolves the primary clone's `src/peptidemt/__init__.py`. The two
+baseline tests pass. Twelve pre-existing host dependency findings remain
+unchanged, with zero new findings; this does not assert globally clean closure.
+Seven are earlier external Amber-related findings and five concern stale local
+Recorda/Praxis metadata, separately tracked under uibcdf/molsyssuite#135.
+Neither those sources nor the local editable receptor installations were changed.
+
+The central native receiver independently verifies the original exact-candidate
+routine, manual full-matrix and policy gates: 40568925289, 40568960388 and
+40568925878. All ten qualification input files remain identical through
+`6be2d6ad4d9ef7148200d17dde1b2fcf1c5deec0`. Subsequent scientific design
+prose is preserved. Original installed-wheel identity remains attached to its
+original source; it is not rebound to a later commit.
+
+The registered Pytest Receptor and GH Run Receptor guides are delivered with the
+official synchronizer from committed canonical provider sources. Root
+instructions require them. Central inventory records the existing test-tooling
+and CI-tooling edges, W0 applicability reviews, full routine baseline policy and
+source-only distribution review. No unused runtime support dependency, Conda
+publisher, public platform claim or model execution is introduced.
+
+The central receipt is
+`uibcdf/molsyssuite:devguide/rollouts/peptidemt_w0_receiving_146_20261027.json`.
+Final consumer gates, central guide/dependency audits and expanded-cohort
+integration must succeed before W0 is marked received. The frozen policy and
+admission SHA remain unchanged. Public Python admission is distinct from
+shared-development authorization and the executed source compatibility matrix.

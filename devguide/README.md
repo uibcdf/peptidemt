@@ -198,8 +198,10 @@ require demonstrating a complete biological mechanism.
 
 ## Repository status
 
-The repository follows the suite's naming, English documentation, owner-boundary
-and evidence conventions. It is not yet registered or qualified as a MolSysSuite
-Python component. The central starter procedure and synchronized-policy adoption
-are authorized W0 work subject to actual central acceptance. Only the central
-admission issue #146 has been opened; no other development issue is authorized.
+PeptideMT is registered as a primary incubating scientific Python component at
+`uibcdf/molsyssuite@8a94e16f1ba26122304df264e89c4eca15afaf5a`. The official
+starter is integrated. Central W0 receiving is tracked in uibcdf/molsyssuite#146
+and the expressly authorized uibcdf/peptidemt#1. Routine development uses the
+shared `molsyssuite@uibcdf_3.14` environment; member Conda recipes remain clean
+qualification fixtures. No other development issue, scientific implementation
+or package publication is authorized by this engineering receiving task.

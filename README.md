@@ -43,17 +43,23 @@ The source package currently exposes no scientific public API. Baseline import,
 reporting, lint and installed-package checks establish engineering readiness only.
 No package has been publicly distributed and no OS-support claim is made.
 Required Python compatibility lanes cover 3.11–3.14, with 3.14 for routine work.
-PeptideMT remains outside the named shared suite development profile pending its
-separate receiving qualification. See the
-[W0 record](devguide/pending_proposals/complete_w0.md).
+Routine development uses the shared `molsyssuite@uibcdf_3.14` environment.
+Central registration of this development authorization and its fresh integration
+receipt are tracked in the [W0 record](devguide/pending_proposals/complete_w0.md).
+The badge above follows the frozen policy's public-admission inventory; the
+executed source compatibility matrix separately covers Python 3.11–3.14.
 
 ## Development
 
 Read [MOLSYSSUITE_GUIDE.md](MOLSYSSUITE_GUIDE.md) and [AGENTS.md](AGENTS.md).
-Create the component's Python 3.14 Conda environment from
-`devtools/conda-envs/development_env.yaml`, then install the checkout with
-`python -m pip install --no-deps --no-build-isolation --editable .`.
-Check interpreter/import origins and `python -m pip check` before running
+Activate the shared Conda environment `molsyssuite@uibcdf_3.14`, then install
+this clone with `python -m pip install --no-deps --no-build-isolation --editable .`.
+The member's `devtools/conda-envs/development_env.yaml` and `test_env.yaml` remain
+bootstrap/CI and clean qualification fixtures. They do not require a separate
+daily environment. Read [PYTEST_RECEPTOR_GUIDE.md](PYTEST_RECEPTOR_GUIDE.md) and
+[GH_RUN_RECEPTOR_GUIDE.md](GH_RUN_RECEPTOR_GUIDE.md) for reporting and Actions
+evidence. Check interpreter/import origins and `python -m pip check`, retaining
+any existing dependency findings explicitly, before running
 `python -m pytest --receptor=llm`, `ruff check .`, `ruff format --check .` and
 `python devtools/devguide_index.py --check`.
 

@@ -4,14 +4,19 @@ Read `MOLSYSSUITE_GUIDE.md` before making changes. It routes suite-wide policy,
 compatibility, tooling and cross-component proposals to `uibcdf/molsyssuite` while this
 repository remains authoritative for its implementation and product behavior.
 
+Read `PYTEST_RECEPTOR_GUIDE.md` before selecting test reporting and
+`GH_RUN_RECEPTOR_GUIDE.md` before inspecting hosted workflow evidence. These
+registered synchronized copies supplement the canonical suite guide.
+
 Use English in code, documentation, issues and commits. Keep changes focused, test
 user-visible behavior, preserve human work and never commit secrets.
 
-Routine development and pytest use Python 3.14 in a compatible Conda environment.
-Install the local clone with `python -m pip install --no-deps --editable .` after
-Conda supplies dependencies; verify interpreter, dependency closure and import
-origins. Use the suite's named Linux development profile when this member is
-eligible; otherwise track the missing integration as the canonical guide directs.
+Routine Linux development and pytest use the shared Conda environment
+`molsyssuite@uibcdf_3.14`. Install this local clone with
+`python -m pip install --no-deps --editable .` after Conda supplies dependencies;
+verify Python 3.14, dependency findings and editable import origins. The generated
+member environments are bootstrap/CI and clean qualification fixtures, not an
+alternative required daily workspace.
 Native builds may need declared in-environment tools and `--no-build-isolation`.
 
 Choose local gates before committing from the changed code, inputs and scope:
