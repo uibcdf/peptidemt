@@ -17,9 +17,9 @@ specification. No scientific implementation or public API is defined.
    public implementations, negative-data caveats and inference-time guidance.
 5. [Architectural alternatives](architecture_alternatives.md): alternative B
    accepted conceptually; P07 alternative III accepted as semantic responsibilities.
-6. [Four worked design problems](design_examples.md): scientific intent,
-   alternative plans, execution evidence, incomplete proposals and contradictions;
-   target-free CPP + AMP and brief probes of additional functional meanings.
+6. [Five worked design problems](design_examples.md): the original four
+   conceptual cases plus a published-evidence-anchored intracellular CPP-like,
+   MDM2/MDMX-directed anticancer peptide case (ATSP-7041); not a V0.1 gate.
 7. [Preliminary roadmap](roadmap.md): incremental capabilities without selecting
    a definitive model or experimental demonstrator.
 8. [Decisions and discussion history](decisions.md): accepted working directions,
@@ -71,6 +71,12 @@ specification. No scientific implementation or public API is defined.
     staged starter integration, W0–W4 deliverables, engine-free/live test lanes,
     Codex discretion and required evidence. Authorized under D36; W0 started,
     W1–W4 conditional on completed admission/bootstrap.
+22. [Scientific north star and milestone trajectory](scientific_trajectory.md):
+    original target+functional-family hypothesis, differentiating value, risks,
+    evidence-based progress milestones and no-implementation-scope guardrails.
+23. [Case-guided CPP-like anticancer binder: ATSP-7041](case_study_cpp_anticancer_mdm2_mdmx.md):
+    published MDM2/MDMX-p53 mechanism, PDB 4N5T chemical/construct caveats,
+    separate access, recognition and cellular endpoints, plus E0–E7 future tests.
 
 ## Engineering receiving and reporting
 
