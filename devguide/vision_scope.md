@@ -21,6 +21,12 @@ as implementation progresses. The [published-evidence-anchored MDM2/MDMX-p53
 cell-permeating anticancer peptide case](case_study_cpp_anticancer_mdm2_mdmx.md)
 offers a stringent future reference without changing V0.1 chemistry or targets.
 
+The [representative CPP project pool](cpp_guided_projects.md) deliberately distinguishes
+sequence-level uptake, cargo delivery, endosomal escape, cytosolic access,
+tumor-homing/tissue penetration, pH-dependent membrane insertion and
+intracellular targeted anticancer function. They are different evidence endpoints
+and chemical modalities, not interchangeable labels or V0.1 requirements.
+
 Practical research utility takes priority over inventing a new algorithm.
 Target-directed design is central, but optional for tasks where a protein-binding
 mechanism is inappropriate or unknown. The scope includes CPPs, AMPs, ACPs, AFPs,
