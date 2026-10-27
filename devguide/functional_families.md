@@ -337,7 +337,10 @@ compares alternative uses of family signals without adopting a scalar or Pareto
 selector. D30 accepts preserving original objectives/evaluations while using
 different exploration and action-specific selection policies. Its operational
 case retains opposing CPP assessments instead of silently averaging or choosing
-the favorable one; their uncertainty treatment remains pending. Family labels or
+the favorable one. The [bounded P04 synthesis](uncertainty_diversity_budget.md)
+compares qualified scenarios, bounds, sensitivity and probabilistic assumptions,
+with dependence and reward-exploitation limits. Its closure principles remain
+pending; no universal uncertainty aggregation is adopted. Family labels or
 structural confidence do not by themselves establish
 target selectivity, and global project interpretation stays outside PeptideMT.
 

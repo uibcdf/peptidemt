@@ -1,14 +1,17 @@
 # Multiobjective optimization: recognition, avoidance, CPP and hemolysis
 
-Status: **search/results/selection separation accepted (D30); concrete policies
-pending**, 2026-10-26. D27–D29 establish evaluation/selection and requirement/check/
+Status: **search/results/selection separation (D30) and scoped restrictions (D31)
+accepted; concrete policies pending**, 2026-10-26. D27–D29 establish evaluation/selection and requirement/check/
 evidence meanings. D30 permits distinct exploration/optimization and action-specific
 selection policies while preserving original objectives/evaluations. No universal
 optimizer, scalar reward, mandatory Pareto archive, threshold, uncertainty model,
 missing-data rule or diversity metric is adopted. P04 remains open for restriction
-handling during exploration, uncertainty, diversity and policies under budget.
-Sections 10–13 are operational analysis and recommendations pending discussion,
-not additional approved contracts. No scientific software or public API is specified.
+handling policies, uncertainty, diversity and policies under budget.
+D31 accepts section 10's conceptual treatment with seven investigator qualifications,
+not every illustrative policy or the full section 12 contract table. The
+[bounded synthesis and closure proposal](uncertainty_diversity_budget.md) now
+integrates the remaining P04 questions; closure remains pending. No scientific
+software or public API is specified.
 
 Navigation: [index](README.md) · [accepted semantics](evaluation_and_selection.md)
 · [decisions](decisions.md) · [open questions](open_questions.md#p04-proposed-discussion-sequence)
@@ -416,6 +419,10 @@ generate peptides, validate predictors, select a demonstrator or create issues.
 
 ## 10. Restriction scope, provisional exploration and uncheckable requirements
 
+**Accepted conceptually under D31**, with the seven qualifications in decisions.md.
+The concrete policies below remain examples. Approval does not adopt a universal
+classification, relaxation rule, fitness, algorithm or implementation interface.
+
 The following are context-dependent roles, not four universal categories or a
 new state system. The same requirement can constrain one procedure throughout,
 be assessed only for final solutions in another, and remain unestablished for a
@@ -460,6 +467,13 @@ within its declared scope and actual capabilities. If the invariant forbids even
 that use of a violating input, repair is not an implicit exception. A repaired
 realization/edit has its own provenance and qualified reevaluations; its success
 does not erase the earlier violation. No compulsory chemistry-first stage follows.
+
+D31 additionally makes the guarantee boundary explicit: checking final outputs
+does not necessarily establish compliance throughout an opaque generator's internal
+states. Empty selection, failed evaluation or inability to establish a requirement
+can be legitimate outcomes to report; an execution failure is not a successful
+scientific assessment. Original evaluations and contextual comparison provenance
+remain preserved. No universal outcome-state scheme is adopted.
 
 ## 11. Operational stress test: four candidates, three purposes
 
@@ -620,9 +634,12 @@ report the limitation and return the consequential change to discussion.
 
 ## 13. Next discussions: uncertainty, then diversity
 
-The operational case narrows the next work without closing P04. **Proposed order:**
-first uncertainty handling, then diversity/exploration and their budget interaction.
-No new uncertainty hierarchy, confidence scale or diversity metric is adopted.
+The operational case narrows the next work without closing P04. The subsequent
+investigator request now combines uncertainty, diversity and budget in the
+[bounded P04 synthesis](uncertainty_diversity_budget.md), with a formal closure
+proposal awaiting approval. The discussion probes below remain its motivation,
+not additional mandatory analysis before closure. No new uncertainty hierarchy,
+confidence scale or diversity metric is adopted.
 
 For uncertainty, begin with F versus I: absent Y is not CPP disagreement, and
 neither is an uncertainty probability. Compare retaining model/context scenarios,

@@ -48,7 +48,12 @@ specification. No scientific implementation or public API is defined.
     hierarchical/constrained, uncertainty-aware and diversity alternatives; invented
     X/Y/CPP/hemolysis examples and reproducible policy versus search comparisons.
     Accepted search/results/selection separation (D30), a three-purpose operational
-    case and proposed scientific obligations for future implementable components.
+    case, accepted scoped-restriction reasoning (D31) and proposed scientific
+    obligations for future implementable components.
+17. [Uncertainty, diversity, budget and P04 synthesis](uncertainty_diversity_budget.md):
+    F/I evidence limits, optional diversity measures, decision-relevant evaluation
+    allocation, cost/reuse accounting and five pending closure principles. Formal
+    P04 closure is proposed, not approved; V0.1 scope is the next proposed milestone.
 
 ## Evidence and status
 
@@ -121,10 +126,17 @@ results/tradeoffs and purpose-specific selection. Pareto membership is contextua
 and an archive is optional. The [operational extension](multiobjective_optimization.md#11-operational-stress-test-four-candidates-three-purposes)
 compares missing Y, contradictory CPP, a chemical violation and adverse hemolysis
 evidence for generation, further evaluation and synthesis/experimental selection.
-Its restriction-handling recommendations and future scientific obligations remain
-pending. Uncertainty, then diversity, are the proposed next discussions. The
-[optimization agenda](open_questions.md#p04-proposed-discussion-sequence) remains
-open: no universal threshold, fitness, selector, confidence scale or diversity metric.
+D31 accepts the scoped-restriction reasoning with seven qualifications: no
+reward compensation against applicable required conditions, authorized relaxation,
+honest guarantees and valid empty/failed/unresolved outcomes. Concrete policies
+and the entire future contract table are not thereby adopted. The
+[bounded integrated synthesis](uncertainty_diversity_budget.md) now examines
+uncertainty, diversity and budget, finds no unresolved conceptual contradiction
+in the current cases and proposes five additional principles (C1–C5) and closure.
+**P04 remains open pending that approval**, rather than awaiting selection of all
+algorithms. No universal threshold, fitness, confidence scale or diversity metric.
+If approved, define a small V0.1 capability set and its minimum contracts, cases
+and acceptance criteria before implementation; no future-horizon expansion is needed.
 
 De novo generation and redesign remain equally in scope. No first experimental
 demonstrator has been chosen. Completion of a computational campaign does not

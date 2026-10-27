@@ -317,3 +317,13 @@ unqualified peptide-domain integration, and optimization from final selection.
 Its numerical examples are invented; no source benchmark or PeptideMT experiment
 is reproduced. These precedents do not select an engine, probability model,
 universal fitness or optimization policy.
+
+## H. Bounded uncertainty, diversity and budget synthesis
+
+The [P04 closure proposal](uncertainty_diversity_budget.md) adds primary uncertainty-
+under-shift evidence from Ovadia et al. (2019), conservative offline optimization
+(Trabucco et al., COMs, 2021) and distribution-based design (Brookes et al., CbAS,
+2019), alongside the existing PESMO precedent. It distinguishes those methods'
+assumptions from nonprobabilistic scenario/sensitivity and qualitative acquisition
+policies. Neither peptide-domain qualification nor a new implementation follows;
+all additional closure principles remain pending approval.

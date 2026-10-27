@@ -13,6 +13,9 @@ operational checks and evidence links with seven qualifications. P04 remains ope
 for restriction handling, uncertainty, diversity and budgeted policies. D30 accepts
 separate exploration, preserved results/tradeoffs and purpose-specific selection
 on one problem, without a universal optimizer or mandatory Pareto archive.
+D31 accepts scoped restrictions, provisional exploration, uncheckable requirements
+and contextual fronts. The integrated P04 analysis now proposes five additional
+principles and closure, still awaiting approval; no V0.1 capability set is selected.
 The bounded horizon review adds only
 a pending collective-design distinction (P10), not new MVP obligations.
 
@@ -119,8 +122,10 @@ recognition when a family-driven optimizer edits a binder?
 ### P04 proposed discussion sequence
 
 Status: **evaluation, requirement/check/evidence and search/results/selection
-separations accepted (D27–D30); concrete policies pending**. No adopted optimizer
-or numerical policy. The operational case prepares uncertainty and diversity discussions.
+separations and scoped-restriction reasoning accepted (D27–D31); concrete policies
+pending**. No adopted optimizer or numerical policy. A
+[bounded integrated analysis](uncertainty_diversity_budget.md) now prepares a
+formal closure decision rather than additional open-ended conceptual review.
 Return to the individual-peptide operational core; library, ensemble and
 transformation cases remain optional counterexamples rather than required features.
 
@@ -138,7 +143,8 @@ X/Y/CPP/hemolysis candidates to expose scalar, Pareto, hierarchy/constraint,
 uncertainty and diversity choices. D30 accepts multiple policies and preservation
 of originals; its [operational extension](multiobjective_optimization.md#11-operational-stress-test-four-candidates-three-purposes)
 compares three purposes without adopting concrete restriction, uncertainty,
-diversity or budget policies.
+diversity or budget policies. D31 now accepts its conceptual restriction treatment
+and seven investigator qualifications; detailed policy choices remain deferred.
 
 1. **Evaluation meaning and decision context — accepted conceptual boundaries.** What is evaluated: which proposal,
    chemical realization/view, target/state/context and property? Keep raw results,
@@ -154,15 +160,14 @@ diversity or budget policies.
    which comparisons are meaningful? Compare documented scalarization, Pareto,
    lexicographic and other policies without selecting one universal optimizer.
    Missing/uncertain entries and incomparable scales affect what can be ranked.
-4. **Uncertainty and robustness.** Distinguish prediction uncertainty where
-   available, model disagreement, applicability limits, experimental variation
-   and context/state variability. Determine what may influence decisions without
-   fabricating a common confidence scale or requiring calibrated probabilities.
-5. **Diversity and budgeted selection.** Define relevant sequence/chemical/
-   structural/function diversity and novelty, avoiding duplicate molecular
-   counting while preserving convergent provenance. Then discuss batch size,
-   cost, exploration and active-learning extensions. No universal distance,
-   acquisition rule or experimental loop is adopted now.
+4. **Uncertainty and robustness — closure principles proposed.** The synthesis
+   distinguishes evidence limits, scenarios, bounds, sensitivity and probabilistic
+   assumptions, using F/I and shared-bias/reward-exploitation counterexamples.
+   C1/C5 await approval; no common confidence scale or automatic averaging rule.
+5. **Diversity and budgeted selection — closure principles proposed.** The synthesis
+   compares seven diversity meanings, partial views, four uses, acquisition purposes
+   and actual cost/reuse/failure accounting. C2–C4 await approval; no universal
+   metric, allocation ratio, acquisition rule or experimental loop is adopted.
 
 These are discussion slices, not execution stages. The earlier A/B/C cases in
 [evaluation_and_selection.md](evaluation_and_selection.md#3-a-b-and-a-third-candidate-with-conflicting-predictions)
@@ -176,28 +181,29 @@ action, and which restriction belongs to the scientific problem?
 
 The operational case compares search-invariant restrictions, final-solution
 requirements, provisional operational relaxation and scientifically unresolved
-requirements. These are roles for a particular use, not adopted universal categories.
+requirements. D31 accepts these context-dependent roles, not universal categories.
 Its [proposed obligations](multiobjective_optimization.md#12-obligations-for-future-implementable-contracts)
 separate investigator policy choices from later internal implementation freedom;
 they are not an approved universal contract.
 
-**Proposed next discussion: uncertainty.** Using F's missing Y and I's contradictory
-CPP, compare explicit scenarios, justified robust bounds, qualified aggregation and
-additional-evaluation policies. What evidence can each policy use without inventing
-calibrated probabilities? What uncertainty can remain for exploration, and what
-support does another action require? No automatic averaging, rejection or confidence
-scale follows from D30. After that, discuss diversity in generation/survival/final
-batches, redundancy of information and budget allocation. No common metric or
-compulsory Pareto archive is adopted. Fixed-evidence and end-to-end comparisons
-remain distinct and reproducible within their declared scope.
+**Proposed next decision: conceptual closure of P04.** The
+[formal proposal](uncertainty_diversity_budget.md#7-formal-closure-proposal-and-peptidemt-v01-handoff)
+uses D27–D31 plus five explicitly pending principles C1–C5. The bounded coherence
+check finds no unresolved conceptual contradiction in the current cases. P04
+remains open awaiting investigator disposition; approving closure would not choose
+interfaces, all algorithm alternatives or every future capability's policy.
+No further horizon expansion or general uncertainty/diversity analysis is proposed
+as a prerequisite. If approved, proceed to a small PeptideMT V0.1 capability set,
+minimum contracts, cases and acceptance criteria under D14 before implementation.
 
 For a concrete use, still clarify whether the scientific requirement means
 relative X/Y preference, sufficient X recognition and/or a bound on Y recognition.
 Numerical requirements and action-specific evidence gates need that context;
 missing Y remains unresolved under every policy. D29 resolves the linked
 requirement/check/evidence organization, not these numerical choices. The next
-discussion advances from the operational case to uncertainty and diversity rather
-than reopening that separation or freezing an API.
+decision can close the conceptual block while deferring these concrete choices
+to the capabilities selected for V0.1; it does not reopen accepted separations
+or freeze an API.
 
 ## Q6. Guidance access and budgets
 

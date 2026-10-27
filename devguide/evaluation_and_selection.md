@@ -14,6 +14,11 @@ evaluations retained. It selects no algorithm or mandatory Pareto archive. The
 compares three actions; restriction treatment, uncertainty, diversity and policies
 under budget remain open.
 
+D31 now accepts the scoped-restriction treatment with seven qualifications,
+including honest internal-versus-final guarantee scope and legitimate empty,
+failed or unresolved outcomes. The [bounded P04 synthesis](uncertainty_diversity_budget.md)
+recommends five additional principles and conceptual closure; approval is pending.
+
 Navigation: [index](README.md) · [decisions](decisions.md) · [P04 agenda](open_questions.md#p04-proposed-discussion-sequence)
 · [families](functional_families.md#selection-contradictions-and-assessment)
 · [multiobjective discussion](multiobjective_optimization.md)
@@ -169,6 +174,7 @@ activity. Experimental observations, if later obtained, form new attributed evid
 | D27–D28 | Alternative 2 and all seven principles are accepted; local computational conclusions remain interpretable without a general scientific/project-claim engine. Concrete constraint and selection policies are still open. |
 | D29 | Requirements, operational checks and many-to-many evidence links are distinct; links alone do not establish sufficiency. Preserve original evaluations and qualified comparisons, with action-relative eligibility and no default treatment of missing Y as selectivity. |
 | D30 | Preserve original objectives/evaluations while permitting different exploration and selection policies. Explored sets, comparable derived fronts and action-specific choices have distinct meanings; no mandatory Pareto archive or absolute candidate Pareto status. |
+| D31 | Restriction scope is problem/procedure/action-relative; required conditions cannot be compensated by reward. Authorized relaxation cannot change science silently; actual operations/evaluators bound guarantees. Final checks do not prove every internal state's compliance; empty/failed/unresolved outcomes and contextual fronts retain their actual meaning/provenance. |
 
 The [preserved audit](integration_audit.md) remains the source-level basis for
 owner boundaries; this discussion does not claim new ecosystem implementations:
@@ -411,10 +417,13 @@ their problem scope, budgets, coverage and actual evaluations explicitly.
 
 **Current next discussion:** compare optimization and selection policies in
 [multiobjective_optimization.md](multiobjective_optimization.md). Its operational
-extension now examines restriction scope and prerequisites for three actions;
-these recommendations await discussion. D30 accepts alternative optimizers on
-the same problem without rewriting evidence. Proceed next to uncertainty, then
-diversity and their budget implications, without a universal confidence scheme.
+extension examines restriction scope and prerequisites for three actions; D31
+now accepts that conceptual reasoning, without the concrete policies. D30 accepts
+alternative optimizers on the same problem without rewriting evidence. The
+[integrated uncertainty/diversity/budget analysis](uncertainty_diversity_budget.md)
+now proposes conceptual P04 closure, still pending investigator approval. Concrete
+contracts and algorithm choices can be qualified with the capabilities selected
+for V0.1 after that decision, rather than extending general conceptual analysis.
 Numerical requirements and operational rules need a stated scientific use.
 P04 remains open; no universal fitness, selector, formal constraint solver, code
 or issue is introduced.

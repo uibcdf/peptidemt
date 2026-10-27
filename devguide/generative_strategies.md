@@ -258,5 +258,9 @@ The [operational case](multiobjective_optimization.md#11-operational-stress-test
 adds restriction scope, absent Y, contradictory CPP, a chemical-check violation
 and adverse hemolysis evidence. A candidate's permitted contribution to generation
 depends on the branch/action; exploratory use is not acceptance as a satisfactory
-solution. An unavailable check cannot provide verified enforcement. These concrete
-policy recommendations remain pending, with uncertainty and diversity next.
+solution. An unavailable check cannot provide verified enforcement. D31 now accepts
+that conceptual restriction reasoning; concrete policies remain pending. The
+[bounded integrated synthesis](uncertainty_diversity_budget.md) examines uncertainty,
+diversity, budget and reward exploitation, then formally proposes P04 closure.
+The five closure principles and closure itself await investigator approval;
+capability/algorithm selection for V0.1 is the next proposed milestone.

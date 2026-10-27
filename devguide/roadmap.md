@@ -12,7 +12,7 @@ implementation plan or authorize work.
 
 | Stage | Candidate deliverable | Evidence to retain |
 | --- | --- | --- |
-| 0. Design | Test accepted problem/plan/evidence, proposal/realization, function/resource, capability/composition and requirement/check/evidence/selection semantics with cases; compare strategies without choosing an API. | D09–D30, conceptual counterexamples, investigator decisions and preserved audit. |
+| 0. Design | Test accepted problem/plan/evidence, proposal/realization, function/resource, capability/composition and requirement/check/evidence/selection semantics with cases; compare strategies without choosing an API. | D09–D31, conceptual counterexamples, investigator decisions and preserved audit. |
 | 1. Common evaluation | Family/model bindings, proposal-to-candidate relations, evaluated views, hard constraints, provenance, selection and applicability. Accept supplied/generated and potentially incomplete proposals where evaluators support them. | Reproducible evaluation fixtures, determined/unknown chemistry, attribution limits, unsupported-input behavior and score meaning. |
 | 2. Baseline proposal adapters | At least one de novo route and one seed-based route conceptually using the same evaluation/selection layer. Implementation order remains open. | Exact engine/checkpoint/configuration; compared coverage and costs. |
 | 3. External optimization | Evolutionary, Bayesian or other black-box search over proposals; preserve edit constraints, diversity and objective vectors. | Matched-budget comparison with generate-and-filter; failures and discarded candidates. |
@@ -70,8 +70,20 @@ results/tradeoffs and selection for a purpose, with optional contextual Pareto
 fronts. The operational extension examines four candidates and three actions,
 including proposed scientific obligations for future components. Restriction
 handling during exploration, uncertainty, diversity and budgeted policies remain
-open; uncertainty followed by diversity is the proposed next discussion order.
-This adds no implementation stage, fixed contract or new MVP requirement.
+open for concrete policies. D31 now accepts the scoped-restriction reasoning,
+authorized provisional exploration, uncheckable requirements and contextual fronts.
+The [bounded P04 synthesis](uncertainty_diversity_budget.md) integrates uncertainty,
+diversity and budget and formally proposes conceptual closure using C1–C5;
+**closure remains pending**. This adds no implementation stage, fixed contract
+or new MVP requirement.
+
+After approval, the next milestone is to define **PeptideMT V0.1**: select a small
+useful capability set and supported scientific/chemical scope, then agree minimum
+contracts, representative positive/negative/incomplete/conflicting cases and
+acceptance criteria under D14. This is the proposed scope-setting task, not an
+adopted capability inventory, definitive model, first demonstrator or release date.
+Algorithm choices can be bounded by those capabilities without implementing every
+reviewed alternative. Future horizons and P10 add no V0.1 obligation.
 
 Before Python implementation, agree formal admission to MolSysSuite and use
 its official registered-component starter. Pin model/license/weight provenance

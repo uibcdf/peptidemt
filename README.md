@@ -72,8 +72,14 @@ original objectives/evaluations and separating exploration, results/tradeoffs an
 purpose-specific selection. No mandatory Pareto archive or universal fitness
 follows. The operational extension compares continued generation, additional
 computation and synthesis/experimental selection, with proposed obligations for
-future components. P04 stays open for restriction handling, uncertainty, diversity
-and policies under budget; no concrete optimizer or numerical policy is adopted.
+future components. No concrete optimizer or numerical policy is adopted.
+D31 now accepts scoped restrictions, authorized provisional exploration,
+uncheckable requirements and contextual fronts with seven qualifications. The
+[bounded uncertainty/diversity/budget synthesis](devguide/uncertainty_diversity_budget.md)
+proposes five additional principles and conceptual P04 closure. **Closure is
+pending investigator approval**. Defining a small PeptideMT V0.1 capability set,
+minimum contracts, cases and acceptance criteria is the next proposed milestone;
+no implementation, interface or release scope is authorized here.
 The [expanded engine review](devguide/protein_peptide_design_engines.md)
 examines general protein/peptide engines, Chaperone and RFD4, their evidence and
 optional integration routes. No definitive generator, mandatory backend or API
