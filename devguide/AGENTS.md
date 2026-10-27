@@ -40,3 +40,9 @@ the topical scientific documents are not counterfeit issue-backed lifecycle reco
 
 Keep scientific review summaries separate from imported code or data. Cite
 primary research and official implementations; record unavailable evidence.
+
+The common MolSysSuite layer required by the root `AGENTS.md` retains precedence;
+this file refines only local rules within its directory.
+
+Read `../AGENTS.md`, `reporting_protocol.md` and
+[the common instruction policy](../MOLSYSSUITE_GUIDE.md#durable-working-instructions).

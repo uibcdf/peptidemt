@@ -1,41 +1,23 @@
 # peptidemt contributor instructions
 
-Read `MOLSYSSUITE_GUIDE.md` before making changes. It routes suite-wide policy,
-compatibility, tooling and cross-component proposals to `uibcdf/molsyssuite` while this
-repository remains authoritative for its implementation and product behavior.
+## Mandatory MolSysSuite instructions
 
-Read `devguide/governance.md` for the local operational map of applicable suite
-rules and component responsibilities. Read `PYTEST_RECEPTOR_GUIDE.md` before
-selecting test reporting and `GH_RUN_RECEPTOR_GUIDE.md` before inspecting hosted
-workflow evidence. Use `python -m pytest --receptor=llm` for local agent tests
-and `--receptor=ci` in CI. Use GH Run Receptor for first Actions inspection,
-then verify native required run/job/step conclusions. These registered guides
-supplement, and do not replace, the canonical suite guide.
+Read and follow `MOLSYSSUITE_GUIDE.md` before working in this repository.
 
-Use English in code, documentation, issues and commits. Keep changes focused, test
-user-visible behavior, preserve human work and never commit secrets.
+Within their stated scope, its common rules take precedence over this file
+and any nested `AGENTS.md`. Local instructions may refine them; deviations
+require the documented policy exception process.
 
-Routine Linux development and pytest use the shared Conda environment
-`molsyssuite@uibcdf_3.14`. Install this local clone with
-`python -m pip install --no-deps --editable .` after Conda supplies dependencies;
-verify Python 3.14, dependency findings and editable import origins. The generated
-member environments are bootstrap/CI and clean qualification fixtures, not an
-alternative required daily workspace.
-Native builds may need declared in-environment tools and `--no-build-isolation`.
+The synchronized guide is owned by `uibcdf/molsyssuite`. It includes the
+[reusable-tool ownership rules](MOLSYSSUITE_GUIDE.md#modular-reusable-tools)
+and [working-instruction rules](MOLSYSSUITE_GUIDE.md#durable-working-instructions).
+For work under `devguide/`, also read `devguide/AGENTS.md` and its local
+reporting protocol. Keep repository-specific instructions below.
 
-Choose local gates before committing from the changed code, inputs and scope:
+## Local working context
 
-- For documentation, instructions or evidence, run applicable reporting/index,
-  link and synchronized-guide checks. Run `python devtools/devguide_index.py
-  --check` for developer-guide changes; do not require scientific pytest merely
-  because prose changed.
-- For executable behavior, dependencies, metadata, packaging or integration,
-  run relevant code/contract tests and applicable Ruff checks. Broaden to the
-  full suite when the affected boundary, PR, admission or release requires it.
-- For scientific exploration, run informative hypothesis cases and record
-  their limits; do not infer broader equivalence from an administrative CI run.
-
-Available commands (select the applicable checks and test scope):
+Read `devguide/governance.md` for PeptideMT's local scientific scope and W0
+receiving. Select the applicable local commands and test scope:
 
 ```bash
 ruff check .
@@ -44,106 +26,9 @@ python -m pytest --receptor=llm
 python devtools/devguide_index.py --check
 ```
 
-Retain completed local results while tested code, inputs, environment and scope
-remain applicable; rerun or broaden when changes or failures invalidate them.
-Follow [the common checkpoint route](MOLSYSSUITE_GUIDE.md#direct-pushes-and-validation-checkpoints)
-for conditional internal batching/skips, exact-head CI verification and visible
-recovery debt. Full PR and release gates remain mandatory. Do not introduce
-CI skip markers without the conditional daily full-suite recovery required by
-that policy; the current baseline executes its complete two-test suite.
-
-For PeptideMT work by or directly supervised by Diego (`dprada`) or Liliana
-(`LMMV`), use the authorized internal commit/direct-push route within the granted
-scope. Existing authorization persists; do not request permission again for each
-commit. Other contributors use a pull request with the complete required suite
-before integration. An internal maintainer choosing a PR follows the same PR
-gates. A direct push is not permission to omit mandatory admission/publication
-evidence. Fixes in another owner's repository retain the separate contribution
-route below; shared team membership alone grants no write authority.
-
-Follow `devguide/reporting_protocol.md` for every durable bug or proposal record. Open
-the owning GitHub issue first, regenerate indexes after lifecycle changes, and archive
-resolved records instead of deleting them.
-
-Before publishing or rolling out a shared provider change with plausible consumer
-impact, follow
-[the shared-provider notice rule](MOLSYSSUITE_GUIDE.md#shared-stewardship-across-components):
-update the impact issue, identify consumers from registered inventories and send an
-actionable handoff to their owning issues. Keep notice, adoption and tested artifact
-evidence separate.
-
-For a fix in another owner's repository, follow the canonical guide's
-cross-repository contribution route: issue for a need, owner-reviewed PR for a
-proposed fix, or an explicitly authorized route for urgent work by or directly
-with Diego or Liliana. Existing authorization remains valid within its scope.
-
-Report defects and needs in their owning issues; put source behavior, edge
-cases and workarounds in code, regression tests and technical documentation,
-not in `AGENTS.md`. Only when normal repository review accepts a lasting rule
-about how contributors or agents should work across future tasks, place a
-repository-wide working instruction here or a directory-specific one in the
-appropriate nested `AGENTS.md`. Open an adoption issue only if that accepted
-instruction cannot be placed with the fix or decision. Do not ask for a
-separate `AGENTS.md` decision for every defect. Propose a shared member
-working instruction to `uibcdf/molsyssuite` only with evidence beyond this
-repository; raise a cross-MOLI contract in `uibcdf/moli`. For work under
-`devguide/`, also read `devguide/AGENTS.md`.
-
-Before adding a required MolSysSuite sibling to `project.dependencies`, consult
-`uibcdf/molsyssuite/devguide/ci_dependency_resolution.md` and replace the generated
-pip-only CI lane with a verified dependency acquisition route.
-
-## Public release titles
-
-When preparing, publishing or intentionally editing a public GitHub Release, use
-exactly `X.Y.Z` as its title/name, matching the canonical tag and package/project
-version. Public version tags are also exact `X.Y.Z`, without a `v` prefix or
-public prerelease suffix. Put descriptions in the body/notes. Historical
-experiments use stable `archive/<description>` tags under the separate archive
-policy; they do not authorize a release or package upload. Read
-[the local release-title guide](devguide/release_titles.md) and
-[the canonical rule](MOLSYSSUITE_GUIDE.md#github-release-titles).
-
-## Release and package-publication notices
-
-For every new component release, with or without a published package, and every
-new package version/build/distribution route, open or update a release-specific
-issue in `uibcdf/molsyssuite` as part of closeout. Include exact version/tag/source,
-actual package availability and verification evidence, and ecosystem follow-up.
-Follow [the notice policy](MOLSYSSUITE_GUIDE.md#release-and-package-publication-notices).
-
-## Modular reusable tools
-
-Before adding a feature, inspect existing tools and identify the owning module or
-component. Implement or extend independently useful operations as documented reusable
-tools in that owner, with their own contracts and tests; have consumers call them.
-Keep task-specific decisions local and report missing sibling capabilities to the
-provider with linked consumer evidence. Follow
-[MOLSYSSUITE_GUIDE.md#modular-reusable-tools](MOLSYSSUITE_GUIDE.md#modular-reusable-tools)
-for applicability, compatibility, performance and tracked exceptions.
-
-## Temporary development resources
-
-Follow [the common resource policy](MOLSYSSUITE_GUIDE.md#temporary-development-resources).
-Keep ownership clear, retain temporary resources and evidence while needed,
-and remove them when their usefulness ends. Review retention at task/release
-closeout; preserve active/human work and report cleanup failures.
-
-## Durable working instructions
-
-Follow [the canonical instruction policy](MOLSYSSUITE_GUIDE.md#durable-working-instructions)
-when placing accepted lasting contributor actions. Keep technical findings in
-owning issues, tests and maintained guidance. For work in `devguide/`, read
-[devguide/AGENTS.md](devguide/AGENTS.md) and its local reporting protocol.
-
-## Human-facing issue feedback
-
-Surface actionable suspected defects, inconsistencies, missing analyses and
-improvements, including uncertain or nonblocking findings. When working with a
-human, offer an owning issue at a natural pause; retain existing reporting
-authorization and respect declined/deferred disclosure. Follow
-[the accepted feedback route](MOLSYSSUITE_GUIDE.md#human-facing-issue-feedback)
-for ownership, uncertainty, privacy and exceptions.
+Generated member Conda environments remain CI/bootstrap/clean qualification
+fixtures. Routine work uses the authorized named shared profile; the original
+W0 engineering baseline does not qualify Macrel or M1–M8.
 
 ## PeptideMT scientific working agreement
 
@@ -183,16 +68,11 @@ Material changes to chemistry, preprocessing, attribution, selectors or scientif
 acceptance return to the investigators. Routine internal technical choices are
 delegated to Codex within these contracts.
 
-Check existing owner APIs before proposing new functionality. Delegate molecular
-system representation, manipulation, interoperability and general molecular
-analysis to MolSysMT; molecular visualization to MolSysViewer; cavities and
-molecular topography to TopoMT. Keep peptide-specific scientific questions,
-design/selection policy, orchestration and interpretation in PeptideMT. Reuse the
-other registered domain owners in the suite roster and preserve the separate
-responsibilities of Praxis, Recorda, Sabueso, Nextia and MolSys-AI. A missing owner
-capability requires an owning issue and linked consumer evidence, not a silent
-local reimplementation. Do not add an unused dependency before a boundary exists. Cross-component source links must identify a
-repository and preferably an immutable commit.
+Follow the common domain-owner map when selecting providers. PeptideMT owns
+its peptide-specific scientific question, design/selection policy, orchestration
+and interpretation. Preserve the separate responsibilities of Praxis, Recorda,
+Sabueso, Nextia and MolSys-AI and identify cross-component scientific source
+links by repository and preferably immutable commit.
 
 For documentation changes, check relative links, navigation, status consistency,
 citations and whitespace. Do not claim scientific tests or CI qualification from
@@ -209,3 +89,10 @@ For work in `devguide/`, also read `devguide/AGENTS.md`.
 Use the published GH Run Receptor for the first inspection of Actions, then
 verify required native job/step conclusions. Record both surfaces in the W0
 evidence issue. Never infer scientific execution from the baseline CI.
+
+## Registered integration guides
+
+Read the registered consumer guides when working on their respective boundaries:
+
+- `GH_RUN_RECEPTOR_GUIDE.md`
+- `PYTEST_RECEPTOR_GUIDE.md`
