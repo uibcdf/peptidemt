@@ -37,9 +37,10 @@ specification. No scientific implementation or public API is defined.
 13. [Protein and peptide design engines](protein_peptide_design_engines.md):
     expanded evidence matrices, Chaperone/RFD4 source review, short-peptide
     benchmarks, optional integration routes and revised P09 recommendations.
-14. [Future scientific horizons and design stress tests](future_horizons.md):
-    long-term peptide engineering directions, scientific evaluation opportunities
-    and questions to stress-test before committing to core interfaces.
+14. [Future scientific horizons — V0.2](future_horizons.md):
+    long-term peptide engineering, combinatorial libraries, TCR–pMHC design,
+    pharmacokinetics, proteolytic transformations, massive screening and
+    nontherapeutic applications, with architectural triage and S1–S12 stress tests.
 
 ## Evidence and status
 
