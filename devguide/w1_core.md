@@ -2,6 +2,9 @@
 
 Status: engine-independent implementation under D35/D36,
 tracked in [PeptideMT #4](https://github.com/uibcdf/peptidemt/issues/4).
+Post-delivery ownership review: [PeptideMT #5](https://github.com/uibcdf/peptidemt/issues/5)
+tracks replacement of local FASTA interpretation through [MolSysMT #513](https://github.com/uibcdf/molsysmt/issues/513).
+The documented current behavior is retained; provider adoption is pending.
 Navigation: [index](README.md) · [scientific contract](v0_1_increment_1.md)
 · [work order](increment_1_work_order.md).
 

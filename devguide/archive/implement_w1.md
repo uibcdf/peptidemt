@@ -103,3 +103,16 @@ installed or executed by this task, and W2 has not started. Live M1/M2 and the
 native portions of M3–M6/M8 remain W2–W3 obligations. The twelve existing shared
 dependency findings, future coverage reporting and caller qualification assertions
 retain their stated limitations. No scientific contract is changed.
+
+## Post-delivery ownership review — 2026-10-27
+
+The investigators requested a focused MolSysMT reuse review. Its controlled FASTA
+probes identified a reusable interpretation operation in the local W1 parser.
+The earlier characterization as solely proposal ingestion does not establish
+compliance with the format owner's boundary. [PeptideMT #5](https://github.com/uibcdf/peptidemt/issues/5)
+tracks migration under [MolSysMT #513](https://github.com/uibcdf/molsysmt/issues/513);
+see the [current consumer record](../pending_proposals/delegate_fasta_to_molsysmt.md).
+This appended correction preserves the original source/wheel/runtime evidence;
+it does not relabel delivered behavior as completed provider adoption or approve
+another local parser. Scientific contracts and the existing implementation are
+unchanged pending a reviewed, sequence-preserving migration.

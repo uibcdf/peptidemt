@@ -43,6 +43,12 @@ optional-provider availability/diagnostics remain the W2 boundary. See the
 [W1 record](archive/implement_w1.md) for the per-boundary applicability review. No runtime dependency,
 physical-quantity conversion or molecular-system implementation is introduced.
 
+The post-delivery FASTA ownership review is tracked in uibcdf/peptidemt#5 and
+provider uibcdf/molsysmt#513. General format interpretation must be delegated to
+MolSysMT with a qualified source-preserving route. The current local parser is
+a visible migration gap; its behavioral tests do not establish provider adoption.
+See the [consumer migration record](pending_proposals/delegate_fasta_to_molsysmt.md).
+
 The investigator's governance clarification supersedes only the historical
 W0-only reporting restriction. D35/D36, M1–M8, scientific acceptance and publication
 authority remain unchanged. No source-only engineering check qualifies Macrel
