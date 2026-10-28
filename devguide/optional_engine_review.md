@@ -24,11 +24,20 @@ source availability alone is not release evidence.
 
 No optional-engine boundary exists in the generated empty package. This worksheet
 is non-applicable to executed W0 source only, as recorded in
-[the W0 receiving record](pending_proposals/complete_w0.md) and
+[the W0 receiving record](archive/complete_w0.md) and
 [uibcdf/peptidemt#1](https://github.com/uibcdf/peptidemt/issues/1).
 Macrel remains a qualification candidate for W2–W3, not an installed or implemented
 route. Reassess this worksheet before exposing that route. No model was downloaded
 or executed to establish this non-applicability.
+
+## W1 applicability — 2026-10-27
+
+The [W1 core](w1_core.md), tracked in uibcdf/peptidemt#4, receives saved data
+without selecting, importing or invoking an engine. Result-schema, mapping,
+precision and engine-absent replay checks are implemented; no provider-availability
+or execution boundary exists yet. Reassess DepDigest/SMonitor and the route
+inventory at W2. No Macrel installation, native comparison or live qualification
+is established by controlled W1 fixtures. The archived W0 record remains history.
 
 ## Route inventory
 
