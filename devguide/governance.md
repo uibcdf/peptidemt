@@ -51,7 +51,11 @@ See the [consumer migration record](pending_proposals/delegate_fasta_to_molsysmt
 
 The [W2 native boundary](w2_macrel.md), tracked in PeptideMT #6, advances with
 in-memory inputs and MolSysMT-owned serialization. It introduces DepDigest and
-SMonitor at the actual optional boundary. Engine-free controls do not qualify
+SMonitor at the actual optional boundary. Read the registered root
+`DEPDIGEST_GUIDE.md` and `SMONITOR_GUIDE.md` for those active integrations.
+Central receiving is tracked in uibcdf/molsyssuite#151 and records the real
+metadata/Conda provider floors separately from selected optional MolSysMT
+serialization. Engine-free controls do not qualify
 Macrel or complete the live scientific work. Host bounds, installed bundle/terms
 and native parity remain explicit W3 prerequisites.
 
@@ -60,3 +64,24 @@ W0-only reporting restriction. D35/D36, M1–M8, scientific acceptance and publi
 authority remain unchanged. No source-only engineering check qualifies Macrel
 or another scientific model. This local map must be updated with the owning
 change when an applicable boundary or accepted working instruction changes.
+
+## Scientific attribution before live W3 acceptance
+
+The W2 scientific method/result boundary makes the suite's
+[optional attribution policy](https://github.com/uibcdf/molsyssuite/blob/main/devguide/ackredit_client_policy.md)
+applicable. The owning review remains uibcdf/peptidemt#6; this source/guide
+receiving does not install Ackredit or claim client adoption. Before declaring
+live scientific acceptance, complete the applicable host bibliography, actual
+method/software identity, detached saved provenance and optional-provider
+receiving. Preserve explicit absence/failure, application-owned sessions and
+credit only for the branch actually reached. A saved reader does not create new
+scientific credit. Choose a supported capability/floor explicitly and retain
+real provider, compatibility and boundary-test evidence for any claimed client
+integration; mocks or a guide copy alone are insufficient.
+
+No generic digestion or quantity dependency is added by this receiving. Retain
+W1's reviewed ordinary type/count/policy errors and unitless score semantics;
+reassess ArgDigest/PyUnitWizard when those boundaries change. Exact Macrel
+assets/terms/fixtures, authorized live host limits, native parity/M1–M8 and
+SMonitor's src-layout audit uibcdf/smonitor#54 retain their separate evidence
+and owners. No new scientific or publication authority is granted here.

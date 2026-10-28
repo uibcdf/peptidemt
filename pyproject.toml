@@ -45,7 +45,7 @@ receptor_rerun_command = "python -m pytest"
 
 [tool.ruff]
 target-version = "py311"
-extend-exclude = ["MOLSYSSUITE_GUIDE.md", "GH_RUN_RECEPTOR_GUIDE.md", "PYTEST_RECEPTOR_GUIDE.md"]
+extend-exclude = ["MOLSYSSUITE_GUIDE.md", "GH_RUN_RECEPTOR_GUIDE.md", "PYTEST_RECEPTOR_GUIDE.md", "SMONITOR_GUIDE.md", "DEPDIGEST_GUIDE.md"]
 
 [tool.ruff.lint]
 select = ["E4", "E7", "E9", "F", "I"]

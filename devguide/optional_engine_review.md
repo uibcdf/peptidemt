@@ -60,8 +60,13 @@ suite includes requested absence, transitive failure, timeout, owner transport,
 native call arguments, exact worker serialization and original dtype retention.
 The declared support floors pass using operator copies of published packages.
 No actual Macrel models executed and no live native parity is claimed.
-Central dependency/guide and scientific-attribution applicability follow-up are
-tracked with issue #6; none is silently declared adopted from these controls.
+Central dependency/guide receiving is recorded under uibcdf/molsyssuite#151
+and issue #6. The two registered provider guides are delivered via the official
+synchronizer. Selected MolSysMT serialization is a guarded integration, not a
+declared package extra; no metadata requirement is invented. Scientific-attribution
+applicability and remaining host receiving are explicit in [the local governance
+map](governance.md#scientific-attribution-before-live-w3-acceptance). These
+controls and guide copies do not establish live scientific adoption.
 
 Record commands/selectors, source commit, environment, result and limits for:
 

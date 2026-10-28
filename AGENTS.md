@@ -96,3 +96,6 @@ Read the registered consumer guides when working on their respective boundaries:
 
 - `GH_RUN_RECEPTOR_GUIDE.md`
 - `PYTEST_RECEPTOR_GUIDE.md`
+
+- `SMONITOR_GUIDE.md`
+- `DEPDIGEST_GUIDE.md`

@@ -87,8 +87,10 @@ increment, provider-source change, package publication or model redistribution.
 2. Register actual DepDigest/SMonitor runtime and optional MolSysMT relationships
    centrally with immutable source evidence; distinguish guide delivery from use.
    The handoff is [MolSysSuite #151](https://github.com/uibcdf/molsyssuite/issues/151),
-   still pending central receiving. Review the applicable optional scientific
-   attribution/Ackredit obligations there and in #6 before live acceptance.
+   now records declared dependencies, selected integration and registered guide
+   receiving. Review the applicable optional scientific-attribution/Ackredit
+   obligations in [the governance map](../governance.md#scientific-attribution-before-live-w3-acceptance)
+   and #6 before live acceptance; runtime adoption remains pending.
 3. W3 must identify the permitted exact installed bundle/assets, terms, fixtures,
    import origins and investigator-authorized host resource envelope before live
    execution, then supply native parity and the real portions of M1–M8.
