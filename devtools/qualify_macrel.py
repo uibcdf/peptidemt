@@ -39,6 +39,29 @@ def boundary_sequence(length):
     return (PRIMARY * ((length + len(PRIMARY) - 1) // len(PRIMARY)))[:length]
 
 
+def qualification_inputs():
+    from peptidemt import SequenceRecord, prepare_sequences
+
+    return prepare_sequences(
+        [
+            SequenceRecord(PRIMARY, header="same full upstream header"),
+            SECONDARY,
+            "AA",
+            "F",
+            SequenceRecord(PRIMARY, header="same full upstream header"),
+            "M" + PRIMARY,
+            PRIMARY + "*",
+            PRIMARY.lower(),
+            SequenceRecord(None),
+            "",
+            SequenceRecord(PRIMARY, chemistry={"n_terminal": "acetylated"}),
+            "ACDX",
+            "ACD*EF",
+            *(boundary_sequence(length) for length in (99, 100, 109, 110)),
+        ]
+    )
+
+
 def plan():
     return {
         "status": "not-executed",
@@ -180,7 +203,6 @@ def run_qualification(args):
     from peptidemt import (
         MacrelLimits,
         ResultSet,
-        SequenceRecord,
         assess_macrel,
         prepare_sequences,
         select,
@@ -300,24 +322,7 @@ def run_qualification(args):
         assert closure.returncode == 0, (
             "Dependency closure must pass before any model call"
         )
-        inputs = prepare_sequences(
-            [
-                SequenceRecord(PRIMARY, header="same full upstream header"),
-                SECONDARY,
-                "AA",
-                "F",
-                SequenceRecord(PRIMARY, header="same full upstream header"),
-                "M" + PRIMARY,
-                PRIMARY + "*",
-                PRIMARY.lower(),
-                None,
-                "",
-                SequenceRecord(PRIMARY, chemistry={"n_terminal": "acetylated"}),
-                "ACDX",
-                "ACD*EF",
-                *(boundary_sequence(length) for length in (99, 100, 109, 110)),
-            ]
-        )
+        inputs = qualification_inputs()
         compatible = [
             (i.token, i.provider_sequence)
             for i in inputs

@@ -56,6 +56,26 @@ def test_live_qualification_requires_an_explicit_authorization_reference(tmp_pat
     assert not (tmp_path / "must-not-exist").exists()
 
 
+def test_actual_qualification_pool_prepares_all_occurrences_without_an_engine():
+    import runpy
+
+    script = Path(__file__).resolve().parents[1] / "devtools/qualify_macrel.py"
+    namespace = runpy.run_path(str(script), run_name="qualification_fixture")
+    inputs = namespace["qualification_inputs"]()
+    assert len(inputs) == 17
+    assert [i.token for i in inputs if i.provider_sequence is not None] == [
+        "input-0",
+        "input-1",
+        "input-2",
+        "input-3",
+        "input-4",
+        "input-13",
+    ]
+    assert inputs[8].proposal.sequence is None
+    assert inputs[8].issues == ("incomplete_sequence",)
+    assert inputs[0].proposal.header == inputs[4].proposal.header
+
+
 def test_low_host_memory_prevents_any_worker(monkeypatch, tmp_path):
     monkeypatch.setattr(route, "_available_memory_bytes", lambda: 7 * 1024**3)
     monkeypatch.setattr(
