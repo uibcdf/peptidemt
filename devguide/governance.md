@@ -49,6 +49,12 @@ MolSysMT with a qualified source-preserving route. The current local parser is
 a visible migration gap; its behavioral tests do not establish provider adoption.
 See the [consumer migration record](pending_proposals/delegate_fasta_to_molsysmt.md).
 
+The [W2 native boundary](w2_macrel.md), tracked in PeptideMT #6, advances with
+in-memory inputs and MolSysMT-owned serialization. It introduces DepDigest and
+SMonitor at the actual optional boundary. Engine-free controls do not qualify
+Macrel or complete the live scientific work. Host bounds, installed bundle/terms
+and native parity remain explicit W3 prerequisites.
+
 The investigator's governance clarification supersedes only the historical
 W0-only reporting restriction. D35/D36, M1–M8, scientific acceptance and publication
 authority remain unchanged. No source-only engineering check qualifies Macrel

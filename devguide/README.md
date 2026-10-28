@@ -1,6 +1,6 @@
 # PeptideMT design guide
 
-Updated: **2026-10-27**. This is the maintained design source of truth.
+Updated: **2026-10-28**. This is the maintained design source of truth.
 It supports scientific discussion rather than replacing it with a completed
 specification. The bounded W1 core is implemented; real scientific provider
 integration and qualification remain separate W2–W3 obligations.
@@ -8,7 +8,8 @@ integration and qualification remain separate W2–W3 obligations.
 ## Reading path
 
 For implemented W1 tools, see [sequence inputs, saved results and selection](w1_core.md).
-The core works without Macrel; actual provider qualification remains W2–W3.
+The core works without Macrel. The [W2 native boundary](w2_macrel.md) uses
+in-memory inputs and MolSysMT transport; actual provider qualification remains W3.
 
 1. [Scientific vision and scope](vision_scope.md): the current provisional
    definition, boundaries and the computational role of functional families.

@@ -1,8 +1,8 @@
 # Optional engine integration review
 
-This is an unqueued worksheet for uibcdf/peptidemt. It makes no implementation or
-adoption claim. If there is no optional-engine boundary, record non-applicability
-and its source rationale in the component's ecosystem review.
+This review distinguishes historical W0/W1 non-applicability from the current
+[W2 source boundary](w2_macrel.md), tracked in uibcdf/peptidemt#6. Live Macrel
+qualification and complete runtime adoption remain pending.
 
 When a concrete change is needed, open the owning issue first and create its report
 using the local [reporting protocol](reporting_protocol.md). Link that issue here.
@@ -45,6 +45,7 @@ Add one row for each implemented route. Names and directory layout remain local.
 
 | Method/provider | Access route and public selector | Requirement/import/command/service | Actual pip/Conda routes or disabled routes | Owner issue and status |
 | --- | --- | --- | --- | --- |
+| Macrel 1.6.1 | Installed native Python, `assess_macrel` | Lazy `macrel`; selected `molsysmt` serialization and its Biopython route; both packaged ONNX heads | Verified PyPI `macrel==1.6.1`; Macrel Conda hint disabled; MolSysMT `uibcdf` route; no automatic installation | uibcdf/peptidemt#6, source/controlled evidence only; W3 pending |
 
 Distinguish original Python libraries, executables, services, saved files and local
 implementations. Document extras' actual contents. An unavailable selected route
@@ -52,6 +53,15 @@ must not silently switch methods. An intentional automatic selection exposes the
 actual choice and its rule.
 
 ## Evidence per route
+
+Current W2 controls and remaining gates are recorded in the
+[work record](pending_proposals/implement_w2_macrel.md). The 84-test engine-free
+suite includes requested absence, transitive failure, timeout, owner transport,
+native call arguments, exact worker serialization and original dtype retention.
+The declared support floors pass using operator copies of published packages.
+No actual Macrel models executed and no live native parity is claimed.
+Central dependency/guide and scientific-attribution applicability follow-up are
+tracked with issue #6; none is silently declared adopted from these controls.
 
 Record commands/selectors, source commit, environment, result and limits for:
 

@@ -9,6 +9,7 @@ description = "Peptide design and attributable functional evaluation"
 readme = "README.md"
 requires-python = ">=3.11,<3.15"
 license = {text = "MIT"}
+dependencies = ["depdigest>=0.12.0", "smonitor>=0.19.0"]
 
 [tool.versioningit]
 default-version = "0.1.0+unknown"
