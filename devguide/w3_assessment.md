@@ -104,13 +104,20 @@ candidate; the corrected qualification fixture adds one new guard. Original
 routine/policy and Linux Python 3.11–3.14 CI at `7a299d1` pass with 101 tests in
 each test lane, independently checked through published GH Run Receptor 1.3.0
 and native exact-source jobs/steps. The new replay example is an installed CI
-receiving gate. Later receipt-head checks retain their own identities.
+receiving gate. Delivery `ab9d83d` passes **103 source/installed tests**, clean
+reader-profile dependency closure, routine/policy and all four Linux Python
+3.11–3.14 lanes, each executing the installed real-case saved replay. The
+[delivery receipt](evidence/w3_delivery.json) keeps its wheel digest and native
+run identities separate from the original numerical package and driver. No
+additional model execution was performed for these delivery checks.
 
 Portable attribution actually captures through public Ackredit 0.9.0 on the
 completed live adapter call. Its host bibliography survives absence/failure,
 reused references and fresh saved readers in the real-provider controls. Central
 guide/inventory receiving for this new client remains separate from the completed
-W0/W2 receiving and component-owned scientific acceptance.
+W0/W2 receiving and component-owned scientific acceptance. The handoff is
+[MolSysSuite #152](https://github.com/uibcdf/molsyssuite/issues/152); this does
+not reopen the resolved #151 receipt or declare guide delivery already complete.
 
 FASTA migration remains [PeptideMT #5](https://github.com/uibcdf/peptidemt/issues/5).
 MolSysMT #513 has delivered the provider capability, but this qualification

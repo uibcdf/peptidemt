@@ -1,0 +1,107 @@
+{
+  "schema": "peptidemt.w3_delivery@1",
+  "delivery_source_commit": "ab9d83d611aaaf0659105020e8995fe49bc89d64",
+  "qualified_numerical_package_source": "7a299d1a9e1b264c2f872e94d35b76d67c548a0a",
+  "qualification_driver_commit": "a1b5e3a178679eb71f47bf6a693a43955879b97d",
+  "delivery_wheel": {
+    "filename": "peptidemt-0.1.0+97.gab9d83d-py3-none-any.whl",
+    "sha256": "0580a9ec681ce0ea947d6963ed5e6469430775b98a9e23d07ef5223434ff0560",
+    "public": false
+  },
+  "source_tests": {
+    "passed": 103,
+    "skipped": 0
+  },
+  "installed_reader_tests": {
+    "passed": 103,
+    "skipped": 0,
+    "origin_verified": true,
+    "pip_check": "passed",
+    "environment": "temporary reader venv inherits the exact clean qualification profile; original scientific environment/package preserved",
+    "replay": "both original selected occurrence lists and original producer versions preserved; no Macrel/Ackredit import or new scientific credit"
+  },
+  "ci": {
+    "routine": {
+      "url": "https://github.com/uibcdf/peptidemt/actions/runs/40772975298",
+      "attempt": 1,
+      "headSha": "ab9d83d611aaaf0659105020e8995fe49bc89d64",
+      "event": "push",
+      "conclusion": "success",
+      "jobs": [
+        {
+          "name": "test",
+          "conclusion": "success"
+        },
+        {
+          "name": "quality",
+          "conclusion": "success"
+        },
+        {
+          "name": "full_matrix",
+          "conclusion": "skipped"
+        }
+      ]
+    },
+    "policy": {
+      "url": "https://github.com/uibcdf/peptidemt/actions/runs/40772975787",
+      "attempt": 1,
+      "headSha": "ab9d83d611aaaf0659105020e8995fe49bc89d64",
+      "event": "push",
+      "conclusion": "success",
+      "jobs": [
+        {
+          "name": "policy / conformance",
+          "conclusion": "success"
+        }
+      ]
+    },
+    "matrix": {
+      "url": "https://github.com/uibcdf/peptidemt/actions/runs/40772975057",
+      "attempt": 1,
+      "headSha": "ab9d83d611aaaf0659105020e8995fe49bc89d64",
+      "event": "workflow_dispatch",
+      "conclusion": "success",
+      "jobs": [
+        {
+          "name": "full_matrix (3.12)",
+          "conclusion": "success"
+        },
+        {
+          "name": "full_matrix (3.11)",
+          "conclusion": "success"
+        },
+        {
+          "name": "full_matrix (3.14)",
+          "conclusion": "success"
+        },
+        {
+          "name": "quality",
+          "conclusion": "success"
+        },
+        {
+          "name": "full_matrix (3.13)",
+          "conclusion": "success"
+        },
+        {
+          "name": "test",
+          "conclusion": "skipped"
+        }
+      ]
+    }
+  },
+  "native_verification": "Required exact-source attempt-1 jobs and install/closure/pytest/quality/policy steps passed; four Linux 3.11-3.14 matrix cells each report 103 tests and execute the installed live-case saved replay",
+  "first_actions_surface": "published GH Run Receptor 1.3.0, generic/llm; authoritative native follow-up",
+  "new_model_calls_in_delivery_checks": 0,
+  "total_authorized_calls_consumed": 4,
+  "remaining_authorized_calls": 0,
+  "follow_up": {
+    "component": "uibcdf/peptidemt#6",
+    "central_ackredit_receiving": "uibcdf/molsyssuite#152",
+    "fasta_consumer": "uibcdf/peptidemt#5",
+    "fasta_provider": "uibcdf/molsysmt#513 closed, consumer adoption pending",
+    "molsysmt_public_artifact": "uibcdf/molsysmt#359 resolved in source, qualified local wheel retained",
+    "smonitor_sweep": "uibcdf/smonitor#54",
+    "known_old_receptor_warning": "uibcdf/pytest-receptor#4"
+  },
+  "acceptance": "Computational evidence delivered; investigator scientific-bundle disposition remains distinct. No release/publication or later increment."
+}

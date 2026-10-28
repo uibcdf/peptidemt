@@ -29,6 +29,12 @@ relabeled as model execution. Runtime, bundle acceptance, central client-guide
 receiving and the separate FASTA adoption are distinct completion states.
 This record stays partial pending the receiving/acceptance dispositions, rather
 than silently promoting a computational qualification into scientific acceptance.
+The new optional-client guide/inventory handoff is
+[MolSysSuite #152](https://github.com/uibcdf/molsyssuite/issues/152).
+[Delivery evidence](../evidence/w3_delivery.json) records 103 passing source and
+installed tests, all four installed Linux/Python matrix lanes and actual saved
+native-case replay, without further model execution. The four-call allowance is
+fully consumed. Exact scientific wheels/environment remain retained for review.
 
 ## W3 preparation update — 2026-10-28
 
