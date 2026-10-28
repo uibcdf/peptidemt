@@ -651,6 +651,18 @@ separate. Updated working instructions and current handoff status for D36.
 
 ## Change protocol
 
+### W1 implementation under the existing work order — 2026-10-27
+
+After completed central W0 receiving, the investigators commissioned W1 under
+the existing D35/D36 contract. [PeptideMT #4](https://github.com/uibcdf/peptidemt/issues/4)
+tracks ordered sequence/FASTA proposal ingestion, attributed saved provider rows,
+operation-specific validation and both exact replayable selectors. The
+[implementation guide](w1_core.md) documents the small provisional public boundary.
+Controlled engine-free tests exercise parts of M3–M8; no native Macrel execution,
+M1/M2 qualification, HydrAMP or package publication follows. This is implementation
+within the existing decisions, not a new architecture or scientific approval.
+
+
 For each consequential discussion update, record date, approval or proposal
 status, rationale, affected documents and evidence. Preserve superseded reasoning.
 Do not manufacture meeting approvals, experiments, issue numbers or consensus.

@@ -35,6 +35,14 @@ genuine immutable policy/admission, baseline source/installed checks and fresh
 fifteen-member shared integration. Tool/guide delivery, active instruction review,
 runtime adoption, scientific tests and public artifacts are different claims.
 
+The [W1 core](w1_core.md), tracked in uibcdf/peptidemt#4, adds engine-free
+proposal ingestion, attributed saved results and two exact selectors. Input
+incompatibilities and output anomalies are preserved scientific result data.
+Simple public type/count/policy errors need no generic digestion dependency;
+optional-provider availability/diagnostics remain the W2 boundary. See the
+W1 record for the per-boundary applicability review. No runtime dependency,
+physical-quantity conversion or molecular-system implementation is introduced.
+
 The investigator's governance clarification supersedes only the historical
 W0-only reporting restriction. D35/D36, M1–M8, scientific acceptance and publication
 authority remain unchanged. No source-only engineering check qualifies Macrel

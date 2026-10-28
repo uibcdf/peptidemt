@@ -18,10 +18,11 @@ redesign are equally within the intended scope. A computational campaign can
 finish without experimental validation; predicted properties, experimental
 evidence and demonstrated activity must remain distinguishable.
 
-Start with the [design guide](devguide/README.md). The present repository contains
-documentation, not an implemented scientific library or a fixed public API.
-Macrel 1.6.1 is the approved first evaluator qualification candidate. No scientific
-operation or provider is implemented or qualified by this bootstrap.
+Start with the [design guide](devguide/README.md). W1 now supplies
+[ordered sequence/FASTA inputs, attributed saved results and two reproducible
+selectors](devguide/w1_core.md), usable without Macrel. Its public boundary is
+provisional. Macrel 1.6.1 remains the approved first evaluator qualification
+candidate; actual provider integration and qualification remain W2–W3 work.
 
 The accepted conceptual architecture separates scientific design intent,
 computational plans and execution evidence. Functional families remain independent
@@ -39,8 +40,9 @@ The official starter is integrated using `policy-v1.5.10` plus that separate
 admission SHA. Completed component W0 receiving is recorded in
 [PeptideMT #1](https://github.com/uibcdf/peptidemt/issues/1).
 
-The source package currently exposes no scientific public API. Baseline import,
-reporting, lint and installed-package checks establish engineering readiness only.
+The source package exposes the bounded W1 input/result/selection tools. Controlled
+contract tests, import, reporting and installed-package checks establish their
+engine-free behavior; they do not qualify a scientific model.
 No package has been publicly distributed and no OS-support claim is made.
 Required Python compatibility lanes cover 3.11–3.14, with 3.14 for routine work.
 Routine development uses the shared `molsyssuite@uibcdf_3.14` environment.
@@ -63,11 +65,11 @@ any existing dependency findings explicitly, before running
 `python -m pytest --receptor=llm`, `ruff check .`, `ruff format --check .` and
 `python devtools/devguide_index.py --check`.
 
-The full baseline suite runs for pushes/PRs on Linux/Python 3.14, and on every
-supported minor through manual dispatch and the weekly matrix. The source-only
-baseline has no meaningful scientific coverage report; no Codecov percentage,
-model readiness or package-channel badge is claimed. Reassess coverage when W1
-introduces scientific behavior. This is not a release or a public install route.
+The complete engine-free suite runs for pushes/PRs on Linux/Python 3.14, and on
+every supported minor through manual dispatch and the weekly matrix. W1 adds
+contract checks with controlled data, including replay with Macrel imports
+blocked. Coverage reporting is not maintained yet; no percentage or live-provider
+coverage is claimed. This is not a release or a public install route.
 
 ## Working agreement
 
