@@ -102,10 +102,20 @@ The source suite has 84 engine-free tests, including native-call stand-ins,
 owner conversion/transport controls, exact-float worker round trips, failures,
 absence/transitive-import distinctions, limits, diagnostics and core independence.
 It passes against operator copies of published DepDigest 0.12.0 and SMonitor
-0.19.0, separately from shared editable provider tests. Macrel was not installed
+0.19.0 in the parent process, separately from shared editable provider tests;
+isolated children retain their installed environment's providers. Macrel was not installed
 and neither ONNX model executed. This is no claim of M1/M2 or live M3–M8 parity.
 
 W3 still requires the actual installed Linux CPU/Python 3.14 combination, permitted
 terms/fixtures, approved resource envelope, both heads' real execution and direct
 native comparisons. Package publication and broader provider/platform support
 remain unqualified and outside this delivery.
+
+The [exact-source receipt](evidence/w2_boundary.json) records commit `6b86d72`,
+the unpublished installed wheel, 84 passing installed tests, complete passing
+Linux Python 3.11–3.14 CI, and receptor/native job verification. Central
+relations/guide receiving and optional scientific-attribution review are tracked
+in [MolSysSuite #151](https://github.com/uibcdf/molsyssuite/issues/151).
+The external flat-layout audit limitation is reported in
+[SMonitor #54](https://github.com/uibcdf/smonitor/issues/54); direct installed
+catalog/configuration/rendering/reconstruction/export controls pass.

@@ -1,0 +1,323 @@
+{
+  "schema": "peptidemt.w2_boundary_evidence@1",
+  "recorded_utc": "2026-10-28",
+  "issue": "https://github.com/uibcdf/peptidemt/issues/6",
+  "status": "source-and-installed-consumer-controls-passed; live integration remains partial",
+  "source_commit": "6b86d720328820404594536a1c57bc3e94cf1adb",
+  "previous_head": "5f975cb4c448541e4d25f692bb75e2d927281612",
+  "source_files_sha256": {
+    "src/peptidemt/__init__.py": "20e3aa7a020e8ec6fe3dc2f047a3fec77b51ba821262de7a02705b9a78cd94e4",
+    "src/peptidemt/_data.py": "666819c09414a2f73408388bc7ac3ff480363b81647a1ae3809fb40625cefc9d",
+    "src/peptidemt/_depdigest.py": "5bebdf1f6a684753830e1dc643cea03c1cd78c3f96a7b0a7aa9fbbbe4f664f7b",
+    "src/peptidemt/_diagnostics.py": "9c13e203572edff4f6fa268456bc2562f1d7848f07350511f5190a3d844b129b",
+    "src/peptidemt/_macrel_cli.py": "ca004126f5d01331846b591f93e0fee5e529f2004f618f19d28834984e61a566",
+    "src/peptidemt/_macrel_worker.py": "8e72f8bed8c54a96ff5db00c134b3183e4eaaa5a11fad9fa5b1b66b3dc75b7e8",
+    "src/peptidemt/_private/__init__.py": "af7e51046a1234f1c18a29e38315fc590bc9d5f1b97b04c117583bda36764634",
+    "src/peptidemt/_private/smonitor/__init__.py": "8e00d3c40168c3bb1fc81170f2bd31177a042cace19a5f6ade6a1d8616244ade",
+    "src/peptidemt/_private/smonitor/catalog.py": "e1d896ca0f4c5d0004d89cc60b3cf54cf32017bbf80cbbc7165c12621dd8fd66",
+    "src/peptidemt/_private/smonitor/meta.py": "e056bb2ed425e482d7db1db7a06c17eb5e112bf4d1261a26cf8e243172cc0c0c",
+    "src/peptidemt/_smonitor.py": "16b7a911dfe16f9e1378a3a0dfb600784bb186fc4faa5248df3a13f32f591055",
+    "src/peptidemt/inputs.py": "3944cf118a144b8df19f786a3d2f3ac2004cb6a68574cf69b17aae6f4f1cc302",
+    "src/peptidemt/macrel.py": "6caae2c5c4796a7e2083e706fe6b2166e088e59dbd21ba66c01d12d3c4f8ada3",
+    "src/peptidemt/results.py": "8159a77e04c5fda6ebaf0aa497ae66b119985b2d58aa338068db7bee5f437023",
+    "src/peptidemt/selection.py": "cccef6e4c1b212453fcaf2aa3793e0799ec38eb290d39047781769edee5b11c9"
+  },
+  "scope": {
+    "input": "in-memory prepare_sequences occurrences",
+    "local_fasta_parser_used": false,
+    "molecular_serialization_owner": "uibcdf/molsysmt",
+    "native_method": "Macrel fasta_features and AMP_predict.predict keep_negatives=True",
+    "models_installed_or_executed": false,
+    "publication": false
+  },
+  "local": {
+    "python": "3.14.7 | packaged by conda-forge | (main, Sep  2 2026, 21:08:32) [GCC 15.3.0]",
+    "executable": "/home/liliana/Myopt/miniconda3/envs/molsyssuite@uibcdf_3.14/bin/python",
+    "environment": "molsyssuite@uibcdf_3.14",
+    "tests_passed": 84,
+    "tests_skipped": 0,
+    "receptor": "pytest-receptor 1.1.0 published operator copy",
+    "ruff_lint": "passed",
+    "ruff_format": "passed",
+    "devguide_index": "passed",
+    "relative_link_targets": "passed",
+    "whitespace": "passed",
+    "central_repository_conformance": "passed",
+    "shared_pip_check": "12 pre-existing unrelated conflicts; not clean closure",
+    "editable_support_versions": {
+      "depdigest": "0.15.1+8.g0884f0c",
+      "smonitor": "0.22.0+3.gebdd054",
+      "argdigest": "0.17.0+5.gcd9c4f3"
+    },
+    "published_floor_parent_process": {
+      "tests_passed": 84,
+      "depdigest": {
+        "version": "0.12.0",
+        "artifact": "depdigest-0.12.0-py_0.tar.bz2",
+        "sha256": "03d5aa569bfeb95bdd253a52e68e59094d9af5a6c4c7bc4ba228d3e36cfb30a3"
+      },
+      "smonitor": {
+        "version": "0.19.0",
+        "artifact": "smonitor-0.19.0-py_1.tar.bz2",
+        "sha256": "4b876b4993b1e2caeed40851402a931f3b245ed7c1916d9483d81bc90274e31c"
+      },
+      "limit": "PYTHONPATH operator copies override parent imports; isolated child processes use installed environment providers."
+    }
+  },
+  "installed_wheel": {
+    "filename": "peptidemt-0.1.0+92.g6b86d72-py3-none-any.whl",
+    "sha256": "a0f2f315912b948654f00209d6db466b34f515eb042ca599511ae2a0382cf05c",
+    "source_commit": "6b86d720328820404594536a1c57bc3e94cf1adb",
+    "tests_passed": 84,
+    "tests_skipped": 0,
+    "neutral_directory": true,
+    "import_origin_verified": true,
+    "configuration_and_catalog_checks": "passed within installed tests",
+    "public": false,
+    "environment_limit": "temporary venv inherits shared dependencies; not clean closure"
+  },
+  "molsysmt_probe": {
+    "source_commit": "3781031d0c1d08f34b2aa966ad0b82bf3b64a31d",
+    "version": "0.23.0+286.g3781031d0",
+    "input": "amino_acids_1:ACD",
+    "public_calls": [
+      "convert to biopython.SeqRecord",
+      "convert SeqRecord to file:fasta"
+    ],
+    "output_bytes": ">input-0\nACD\n",
+    "provider_warning": "SeqRecord Tier 2 best-effort support",
+    "scope": "one controlled serializer probe, no molecular realization or model execution"
+  },
+  "actual_absence_probe": {
+    "macrel_discoverable": false,
+    "result_failure": "unavailable_dependency",
+    "cause_type": "RequiredDependencyError",
+    "rows": 0,
+    "hint": "pip install macrel==1.6.1",
+    "limits": {
+      "max_records": 1,
+      "max_input_bytes": 64,
+      "wall_seconds": 10,
+      "memory_bytes": 2147483648
+    },
+    "scope": "engine absent; no live model host authorization implied"
+  },
+  "hosted": {
+    "routine": {
+      "url": "https://github.com/uibcdf/peptidemt/actions/runs/40733274545",
+      "headSha": "6b86d720328820404594536a1c57bc3e94cf1adb",
+      "attempt": 1,
+      "event": "push",
+      "conclusion": "success",
+      "run_id": 40733274545,
+      "jobs": [
+        {
+          "name": "quality",
+          "conclusion": "success",
+          "steps": [
+            {
+              "name": "Run python -m pip install ruff==0.16.5",
+              "conclusion": "success"
+            },
+            {
+              "name": "Run ruff check .",
+              "conclusion": "success"
+            },
+            {
+              "name": "Run ruff format --check .",
+              "conclusion": "success"
+            }
+          ]
+        },
+        {
+          "name": "test",
+          "conclusion": "success",
+          "steps": [
+            {
+              "name": "Run python -m pip install --no-deps --no-build-isolation .",
+              "conclusion": "success"
+            },
+            {
+              "name": "Verify installed package and dependency closure",
+              "conclusion": "success"
+            },
+            {
+              "name": "Run python -m pytest --receptor=ci",
+              "conclusion": "success"
+            }
+          ]
+        },
+        {
+          "name": "full_matrix",
+          "conclusion": "skipped",
+          "steps": []
+        }
+      ]
+    },
+    "policy": {
+      "url": "https://github.com/uibcdf/peptidemt/actions/runs/40733275093",
+      "headSha": "6b86d720328820404594536a1c57bc3e94cf1adb",
+      "attempt": 1,
+      "event": "push",
+      "conclusion": "success",
+      "run_id": 40733275093,
+      "jobs": [
+        {
+          "name": "policy / conformance",
+          "conclusion": "success",
+          "steps": [
+            {
+              "name": "Validate immutable admission input",
+              "conclusion": "success"
+            },
+            {
+              "name": "Check repository conformance",
+              "conclusion": "success"
+            },
+            {
+              "name": "Check Python lint and imports",
+              "conclusion": "success"
+            },
+            {
+              "name": "Check Python formatting",
+              "conclusion": "success"
+            }
+          ]
+        }
+      ]
+    },
+    "full_matrix": {
+      "url": "https://github.com/uibcdf/peptidemt/actions/runs/40733272499",
+      "headSha": "6b86d720328820404594536a1c57bc3e94cf1adb",
+      "attempt": 1,
+      "event": "workflow_dispatch",
+      "conclusion": "success",
+      "run_id": 40733272499,
+      "jobs": [
+        {
+          "name": "full_matrix (3.14)",
+          "conclusion": "success",
+          "steps": [
+            {
+              "name": "Run python -m pip install --no-deps --no-build-isolation .",
+              "conclusion": "success"
+            },
+            {
+              "name": "Verify installed package and dependency closure",
+              "conclusion": "success"
+            },
+            {
+              "name": "Run python -m pytest --receptor=ci",
+              "conclusion": "success"
+            }
+          ]
+        },
+        {
+          "name": "full_matrix (3.11)",
+          "conclusion": "success",
+          "steps": [
+            {
+              "name": "Run python -m pip install --no-deps --no-build-isolation .",
+              "conclusion": "success"
+            },
+            {
+              "name": "Verify installed package and dependency closure",
+              "conclusion": "success"
+            },
+            {
+              "name": "Run python -m pytest --receptor=ci",
+              "conclusion": "success"
+            }
+          ]
+        },
+        {
+          "name": "quality",
+          "conclusion": "success",
+          "steps": [
+            {
+              "name": "Run python -m pip install ruff==0.16.5",
+              "conclusion": "success"
+            },
+            {
+              "name": "Run ruff check .",
+              "conclusion": "success"
+            },
+            {
+              "name": "Run ruff format --check .",
+              "conclusion": "success"
+            }
+          ]
+        },
+        {
+          "name": "full_matrix (3.13)",
+          "conclusion": "success",
+          "steps": [
+            {
+              "name": "Run python -m pip install --no-deps --no-build-isolation .",
+              "conclusion": "success"
+            },
+            {
+              "name": "Verify installed package and dependency closure",
+              "conclusion": "success"
+            },
+            {
+              "name": "Run python -m pytest --receptor=ci",
+              "conclusion": "success"
+            }
+          ]
+        },
+        {
+          "name": "full_matrix (3.12)",
+          "conclusion": "success",
+          "steps": [
+            {
+              "name": "Run python -m pip install --no-deps --no-build-isolation .",
+              "conclusion": "success"
+            },
+            {
+              "name": "Verify installed package and dependency closure",
+              "conclusion": "success"
+            },
+            {
+              "name": "Run python -m pytest --receptor=ci",
+              "conclusion": "success"
+            }
+          ]
+        },
+        {
+          "name": "test",
+          "conclusion": "skipped",
+          "steps": []
+        }
+      ]
+    }
+  },
+  "actions_inspection": {
+    "first_surface": "published GH Run Receptor 1.3.0 generic/llm",
+    "artifact": "gh-run-receptor-1.3.0-py_0.tar.bz2",
+    "sha256": "65f33b29dad70eb9e779f917e4c553d27effa4fddc2740a0260d259866746fd3",
+    "native_followup": "exact full SHA, attempt 1, required jobs and install/closure/pytest/Ruff/policy steps verified",
+    "matrix": "84 passed, no test skips on each Linux Python 3.11, 3.12, 3.13, 3.14",
+    "inapplicable_jobs": "push full_matrix and manual test skipped by event conditions; not counted as passing jobs"
+  },
+  "scientific_gates": {
+    "M1": "not executed",
+    "M2": "not executed",
+    "M3-M8": "engine-free controlled portions only; native obligations remain unexecuted"
+  },
+  "follow_up": {
+    "consumer": "uibcdf/peptidemt#6",
+    "fasta_consumer": "uibcdf/peptidemt#5",
+    "fasta_provider": "uibcdf/molsysmt#513",
+    "audit_layout": "uibcdf/smonitor#54",
+    "central_receiving": "uibcdf/molsyssuite#151",
+    "W3": [
+      "exact installed Macrel artifact/assets and terms",
+      "permitted fixture sources",
+      "investigator-authorized live host resource envelope",
+      "optional scientific attribution applicability/adoption",
+      "both heads execution and direct native M1-M8 evidence"
+    ]
+  },
+  "temporary_resource_retention": "operator copies, source inspection files, unpublished wheels, venv and copied tests are task-owned and removed after durable receipt; no binaries committed"
+}

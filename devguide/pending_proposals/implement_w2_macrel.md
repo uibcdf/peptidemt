@@ -40,7 +40,15 @@ The 2026-10-28 engine-free source suite passes **84 tests**, including 31 W2
 controls. It also passes with operator copies of published DepDigest 0.12.0
 and SMonitor 0.19.0, the declared capability floors. Copies do not replace the
 shared environment's editable providers or establish clean dependency closure.
-Ruff lint/format pass. Installed/hosted evidence will be linked from issue #6.
+Ruff lint/format pass. Source commit `6b86d720328820404594536a1c57bc3e94cf1adb`
+also passes all 84 tests from an installed unpublished wheel, with neutral import
+origin verified. Exact-source hosted routine/policy and all Linux Python
+3.11–3.14 installed/closure/test lanes pass. The
+[evidence manifest](../evidence/w2_boundary.json) retains source/wheel digests,
+published receptor identities, native jobs/steps and the limits of each check.
+The temporary installed venv inherits shared dependencies; clean closure evidence
+comes from CI, not that venv. Isolated child tests use environment-installed
+providers; parent-process floor overrides do not change those children.
 
 A direct public MolSysMT conversion/serialization probe in the named shared
 Python 3.14.7 profile preserved ACD and the opaque `input-0` token. Executed
@@ -78,6 +86,9 @@ increment, provider-source change, package publication or model redistribution.
    diagnostic catalogs and exact-head CI evidence for the implemented source.
 2. Register actual DepDigest/SMonitor runtime and optional MolSysMT relationships
    centrally with immutable source evidence; distinguish guide delivery from use.
+   The handoff is [MolSysSuite #151](https://github.com/uibcdf/molsyssuite/issues/151),
+   still pending central receiving. Review the applicable optional scientific
+   attribution/Ackredit obligations there and in #6 before live acceptance.
 3. W3 must identify the permitted exact installed bundle/assets, terms, fixtures,
    import origins and investigator-authorized host resource envelope before live
    execution, then supply native parity and the real portions of M1–M8.
