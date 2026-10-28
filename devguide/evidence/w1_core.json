@@ -1,0 +1,208 @@
+{
+  "schema": "peptidemt.w1-evidence@1",
+  "date": "2026-10-27",
+  "issue": "uibcdf/peptidemt#4",
+  "source_commit": "cbdcfe0557adbc2ff50267b39a46945e03ec3bf5",
+  "implementation_commit": "914cb56",
+  "scientific_contract": "D35/D36; M1\u2013M8 unchanged",
+  "runtime_dependencies_added": [],
+  "local": {
+    "environment": "molsyssuite@uibcdf_3.14",
+    "python": "3.14.7",
+    "source_tests": {
+      "passed": 53,
+      "skipped": 0
+    },
+    "installed_tests": {
+      "passed": 53,
+      "skipped": 0,
+      "source_pythonpath_disabled": true
+    },
+    "neutral_isolated_installed_replay": "pass",
+    "preexisting_dependency_findings": 12,
+    "new_dependency_findings": 0,
+    "globally_clean_dependency_closure_claimed": false,
+    "ruff": "0.16.10; lint and format pass",
+    "report_indexes": "pass",
+    "relative_file_links": "pass"
+  },
+  "wheel": {
+    "filename": "peptidemt-0.1.0+89.gcbdcfe0-py3-none-any.whl",
+    "sha256": "0afe130a1425ec51a2ba83cda793ec4c4c0a48bf49338a998eaf59a2738aa3ee",
+    "published": false
+  },
+  "tooling": {
+    "pytest_receptor": {
+      "version": "1.1.0",
+      "channel": "uibcdf",
+      "build": "py_1",
+      "artifact_sha256": "4b56e6fc7c24e3f01d771c989bd7ed4bac9cf40c05e22f831a0ffff8defcd7dc",
+      "temporary_copy_in_shared_interpreter": true
+    },
+    "gh_run_receptor": {
+      "version": "1.3.0",
+      "channel": "uibcdf",
+      "build": "py_0",
+      "artifact_sha256": "65f33b29dad70eb9e779f917e4c553d27effa4fddc2740a0260d259866746fd3",
+      "first_inspection_verdicts": {
+        "40615166187": "PASS",
+        "40615166719": "PASS",
+        "40615211722": "PASS"
+      }
+    }
+  },
+  "native_gates": [
+    {
+      "run_id": 40615166187,
+      "url": "https://github.com/uibcdf/peptidemt/actions/runs/40615166187",
+      "attempt": 1,
+      "source_commit": "cbdcfe0557adbc2ff50267b39a46945e03ec3bf5",
+      "event": "push",
+      "conclusion": "success",
+      "required_jobs": [
+        {
+          "name": "test",
+          "job_id": 122575831539,
+          "conclusion": "success",
+          "required_steps": {
+            "Run python -m pip install --no-deps --no-build-isolation .": "success",
+            "Verify installed package and dependency closure": "success",
+            "Run python -m pytest --receptor=ci": "success"
+          }
+        },
+        {
+          "name": "quality",
+          "job_id": 122575831842,
+          "conclusion": "success",
+          "required_steps": {
+            "Run python -m pip install ruff==0.16.5": "success",
+            "Run ruff check .": "success",
+            "Run ruff format --check .": "success"
+          }
+        }
+      ],
+      "event_inapplicable_jobs": [
+        "full_matrix"
+      ]
+    },
+    {
+      "run_id": 40615166719,
+      "url": "https://github.com/uibcdf/peptidemt/actions/runs/40615166719",
+      "attempt": 1,
+      "source_commit": "cbdcfe0557adbc2ff50267b39a46945e03ec3bf5",
+      "event": "push",
+      "conclusion": "success",
+      "required_jobs": [
+        {
+          "name": "policy / conformance",
+          "job_id": 122575833416,
+          "conclusion": "success",
+          "required_steps": {
+            "Validate immutable admission input": "success",
+            "Check repository conformance": "success",
+            "Check Python lint and imports": "success",
+            "Check Python formatting": "success"
+          }
+        }
+      ],
+      "event_inapplicable_jobs": []
+    },
+    {
+      "run_id": 40615211722,
+      "url": "https://github.com/uibcdf/peptidemt/actions/runs/40615211722",
+      "attempt": 1,
+      "source_commit": "cbdcfe0557adbc2ff50267b39a46945e03ec3bf5",
+      "event": "workflow_dispatch",
+      "conclusion": "success",
+      "required_jobs": [
+        {
+          "name": "full_matrix (3.11)",
+          "job_id": 122575986619,
+          "conclusion": "success",
+          "required_steps": {
+            "Run python -m pip install --no-deps --no-build-isolation .": "success",
+            "Verify installed package and dependency closure": "success",
+            "Run python -m pytest --receptor=ci": "success"
+          }
+        },
+        {
+          "name": "full_matrix (3.12)",
+          "job_id": 122575986373,
+          "conclusion": "success",
+          "required_steps": {
+            "Run python -m pip install --no-deps --no-build-isolation .": "success",
+            "Verify installed package and dependency closure": "success",
+            "Run python -m pytest --receptor=ci": "success"
+          }
+        },
+        {
+          "name": "full_matrix (3.13)",
+          "job_id": 122575986611,
+          "conclusion": "success",
+          "required_steps": {
+            "Run python -m pip install --no-deps --no-build-isolation .": "success",
+            "Verify installed package and dependency closure": "success",
+            "Run python -m pytest --receptor=ci": "success"
+          }
+        },
+        {
+          "name": "full_matrix (3.14)",
+          "job_id": 122575986601,
+          "conclusion": "success",
+          "required_steps": {
+            "Run python -m pip install --no-deps --no-build-isolation .": "success",
+            "Verify installed package and dependency closure": "success",
+            "Run python -m pytest --receptor=ci": "success"
+          }
+        },
+        {
+          "name": "quality",
+          "job_id": 122575986566,
+          "conclusion": "success",
+          "required_steps": {
+            "Run python -m pip install ruff==0.16.5": "success",
+            "Run ruff check .": "success",
+            "Run ruff format --check .": "success"
+          }
+        }
+      ],
+      "event_inapplicable_jobs": [
+        "test"
+      ]
+    }
+  ],
+  "qualified_input_sha256": {
+    "src/peptidemt/__init__.py": "340de9fdf6ab9d65ecbbc6dbe857811702c55ecf99674e48f810d266e3c6019c",
+    "src/peptidemt/_data.py": "666819c09414a2f73408388bc7ac3ff480363b81647a1ae3809fb40625cefc9d",
+    "src/peptidemt/inputs.py": "3944cf118a144b8df19f786a3d2f3ac2004cb6a68574cf69b17aae6f4f1cc302",
+    "src/peptidemt/results.py": "8159a77e04c5fda6ebaf0aa497ae66b119985b2d58aa338068db7bee5f437023",
+    "src/peptidemt/selection.py": "cccef6e4c1b212453fcaf2aa3793e0799ec38eb290d39047781769edee5b11c9",
+    "tests/test_w1_core.py": "430042d0fb3117a0dd88447bc872c74881f900da250a3fe325a31b3b7940d672",
+    "tests/test_import.py": "f26a38380144173f87eb4659865ea3e4b069f72ca51a3cc21d87f728210b315b",
+    "tests/test_reporting_protocol.py": "fec2c7048d08f3d2a068b880c5c24fd5a7b0c5fcb0be0c07dc3e143549d54ad9",
+    "pyproject.toml": "8c6962e7e286132040416a2a95a603b72ea906772c414e9c894bea8e0fd84b4f",
+    "examples/w1_selection.py": "f0a26b59967e06340069191f918fce85a0d269800f5a8f40452a7f2bde05f533",
+    ".github/workflows/ci.yml": "8ff241e5925ebbc7bb870d28edc456dc90e4a0af165303ec46c56eae317c42d4",
+    ".github/workflows/molsyssuite-policy.yml": "f9f96583a976949a710d11fb5661d84dc02801dd2a352f754ba36b13dc952dd4",
+    "devtools/conda-envs/test_env.yaml": "ff5065314f8c4665a68197f1d38ff090f64a25e163a2ff49f8b60c0195d0025b",
+    "devguide/v0_1_increment_1.md": "ff87b44e005fb1571c96ed4acc26e69551218ff14fc824f676f2443cc0f0ab41"
+  },
+  "scope": {
+    "M3_M8": "engine-free controlled portions only; live obligations remain",
+    "M1_M2": "not executed",
+    "Macrel_installed_by_task": false,
+    "Macrel_executed": false,
+    "W2_started": false,
+    "W3_completed": false,
+    "scientific_provider_qualified": false,
+    "package_published": false
+  },
+  "limitations": [
+    "No real provider integration or native ONNX qualification",
+    "Controlled fixtures are not scientific data",
+    "Explicit chemical realizations remain unassessed by the sequence route",
+    "Qualification references are caller assertions, not W1 certification",
+    "No maintained coverage percentage or global identity system",
+    "Twelve pre-existing shared-environment dependency conflicts remain"
+  ]
+}

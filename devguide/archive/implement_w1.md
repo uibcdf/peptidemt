@@ -1,12 +1,12 @@
 ---
 summary: Implement the engine-independent D35/D36 W1 input, result and selection core.
 issue: uibcdf/peptidemt#4
-status: active
+status: resolved
 opened: 2026-10-27
-closed:
-verification: inspected
+closed: 2026-10-27
+verification: measured
 area: [core, input, results, selection]
-guard:
+guard: tests/test_w1_core.py
 normative:
 blocked_by: []
 supersedes: []
@@ -76,3 +76,30 @@ passes. Installed snapshot replay and applicable hosted checks remain to record.
 
 Coverage reporting remains unmaintained; controlled contract coverage is not
 scientific provider coverage, a percentage badge or native M1–M8 qualification.
+
+## Resolution — 2026-10-27
+
+W1 is delivered at cbdcfe0557adbc2ff50267b39a46945e03ec3bf5, including
+the implementation commit 914cb56. All 53 source and installed-wheel tests pass
+with no skips. The neutral isolated installed example replays both D35 policies.
+Routine CI 40615166187, frozen policy/admission 40615166719 and the complete
+Linux/Python 3.11–3.14 matrix 40615211722 pass at that exact source. Published
+GH Run Receptor 1.3.0 inspected each first; independent native run/job/step
+assertions verify every required job and install/closure/replay/test step.
+Event-inapplicable skipped jobs are explicitly excluded, not counted as passes.
+
+The [durable receipt](../evidence/w1_core.json) retains exact input hashes,
+local tool artifact digests, source/installed scope and native job/step facts.
+The development wheel SHA-256 is
+0afe130a1425ec51a2ba83cda793ec4c4c0a48bf49338a998eaf59a2738aa3ee;
+it was never published. The final reporting/archive-only change has its own
+applicable routine/policy evidence; the full matrix and wheel stay bound to
+the original candidate. The guard protects the actual occurrence mapping,
+input/output validation, precision, policy ordering and engine-absent replay
+mechanisms, not just package import.
+
+W1 is complete within its documented scope. No Macrel distribution/model was
+installed or executed by this task, and W2 has not started. Live M1/M2 and the
+native portions of M3–M6/M8 remain W2–W3 obligations. The twelve existing shared
+dependency findings, future coverage reporting and caller qualification assertions
+retain their stated limitations. No scientific contract is changed.

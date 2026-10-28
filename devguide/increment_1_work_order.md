@@ -284,3 +284,20 @@ Earlier tables and receiving updates above preserve their dated initial states.
 W1 has not been executed here. The next component-owned step is W1 under the
 existing D35/D36 work order, followed by actual W2 Macrel qualification; neither
 the engine-free baseline nor this receiving executes M1–M8 or publishes packages.
+
+## W1 engine-independent delivery — 2026-10-27
+
+W1 is implemented at `cbdcfe0557adbc2ff50267b39a46945e03ec3bf5` under the
+existing D35/D36 contract and [PeptideMT #4](https://github.com/uibcdf/peptidemt/issues/4).
+The [implementation guide](w1_core.md), [archived receiving record](archive/implement_w1.md)
+and [exact-source receipt](evidence/w1_core.json) document sequence/FASTA
+occurrences, original result/provenance preservation and both reproducible
+selectors. Source and installed-wheel suites pass 53 controlled/engineering
+tests; routine, policy and all four Linux/Python 3.11–3.14 matrix cells pass.
+Native required job/step conclusions are verified separately from GH Run Receptor.
+
+W1 can be used without Macrel. No provider is installed or executed by this
+delivery; native M1/M2 and live parts of M3–M6/M8 remain W2–W3 obligations.
+Next is one actual W2 Macrel route under the accepted asset/terms/environment/
+fixture/resource prerequisites, then W3 qualification and W4 delivery. No new
+scientific approval, HydrAMP, later increment or package publication is inferred.

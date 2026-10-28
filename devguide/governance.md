@@ -40,7 +40,7 @@ proposal ingestion, attributed saved results and two exact selectors. Input
 incompatibilities and output anomalies are preserved scientific result data.
 Simple public type/count/policy errors need no generic digestion dependency;
 optional-provider availability/diagnostics remain the W2 boundary. See the
-W1 record for the per-boundary applicability review. No runtime dependency,
+[W1 record](archive/implement_w1.md) for the per-boundary applicability review. No runtime dependency,
 physical-quantity conversion or molecular-system implementation is introduced.
 
 The investigator's governance clarification supersedes only the historical
