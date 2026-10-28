@@ -1,0 +1,74 @@
+{
+  "mapping": {
+    "schema": "peptidemt.macrel_qualification@1",
+    "plan": {
+      "mapping": {
+        "status": "not-executed",
+        "limits": {
+          "mapping": {
+            "max_records": 32,
+            "max_input_bytes": 8192,
+            "wall_seconds": 120,
+            "memory_bytes": 4294967296,
+            "intra_op_threads": 2,
+            "blas_threads": 1,
+            "cpu_ids": [
+              0,
+              1
+            ],
+            "nice": 10,
+            "min_available_memory_bytes": 8589934592
+          }
+        },
+        "max_live_calls": 4,
+        "max_total_wall_seconds": 480,
+        "retries": 0,
+        "fixtures": [
+          "FLPVLAGLTPSIVPKLVCLLTKKC",
+          "HGRHVTLKDIVLDLQPPDPVGLHCYEQLVDSSEDEVDEVDGQDSQPLKQHFQIVTC",
+          "AA",
+          "F"
+        ],
+        "length_probes": [
+          99,
+          100,
+          109,
+          110
+        ],
+        "source": "Macrel 1.6.1 upstream code-test fixtures; generated boundary probes",
+        "requires": "explicit host-envelope authorization and verified isolated environment"
+      }
+    },
+    "authorization_reference": "Investigator authorization 2026-10-28: revised shared-host envelope in devguide/w3_qualification.md",
+    "status": "incomplete",
+    "calls": [],
+    "gates": {
+      "mapping": {}
+    },
+    "python": "3.14.10 | packaged by conda-forge | (main, Oct 26 2026, 11:35:38) [GCC 15.3.0]",
+    "executable": "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/bin/python",
+    "physical_cores": [
+      [
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "1"
+      ]
+    ],
+    "pip_check": {
+      "mapping": {
+        "exit_code": 0,
+        "stdout": "No broken requirements found.\n",
+        "stderr": "WARNING: The directory '/home/liliana/.cache/pip' or its parent directory is not owned or is not writable by the current user. The cache has been disabled. Check the permissions and owner of that directory. If executing pip with sudo, you should use sudo's -H flag.\n"
+      }
+    },
+    "failure": {
+      "mapping": {
+        "type": "TypeError",
+        "message": "Each record must be a string or SequenceRecord"
+      }
+    }
+  }
+}

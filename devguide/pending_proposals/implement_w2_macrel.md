@@ -14,6 +14,22 @@ supersedes: []
 
 # W2 native Macrel route
 
+## Native qualification update — 2026-10-28
+
+All four authorized calls completed with exact native parity, both heads' sign
+coverage and the recorded M1–M8 live/controlled allocation. The
+[assessment](../w3_assessment.md) and [raw manifest](../evidence/w3_native/manifest.json)
+retain the precise scope, actual resource use and failed preparation controls.
+The real source serializer uses the already-fixed MolSysMT #359 source in an
+unpublished installed wheel; its broken public artifact is not declared qualified.
+Portable Ackredit capture succeeds on the actual adapter invocation.
+
+The original source/installed/CI checks below remain historical and are not
+relabeled as model execution. Runtime, bundle acceptance, central client-guide
+receiving and the separate FASTA adoption are distinct completion states.
+This record stays partial pending the receiving/acceptance dispositions, rather
+than silently promoting a computational qualification into scientific acceptance.
+
 ## W3 preparation update — 2026-10-28
 
 The [qualification preparation](../w3_qualification.md) freezes candidate wheel

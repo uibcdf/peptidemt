@@ -46,6 +46,7 @@ jobs:
           cd "$RUNNER_TEMP"
           python -I -c 'from importlib.metadata import distribution; from pathlib import Path; import peptidemt; d = distribution("peptidemt"); assert Path(peptidemt.__file__).resolve() == Path(d.locate_file("peptidemt/__init__.py")).resolve(); print(d.version, peptidemt.__file__)'
           python -I "$GITHUB_WORKSPACE/examples/w1_selection.py"
+          python -I "$GITHUB_WORKSPACE/examples/replay_macrel_qualification.py"
         shell: bash -l {0}
       - run: python -m pytest --receptor=ci
         shell: bash -l {0}
@@ -77,6 +78,7 @@ jobs:
           cd "$RUNNER_TEMP"
           python -I -c 'from importlib.metadata import distribution; from pathlib import Path; import peptidemt; d = distribution("peptidemt"); assert Path(peptidemt.__file__).resolve() == Path(d.locate_file("peptidemt/__init__.py")).resolve(); print(d.version, peptidemt.__file__)'
           python -I "$GITHUB_WORKSPACE/examples/w1_selection.py"
+          python -I "$GITHUB_WORKSPACE/examples/replay_macrel_qualification.py"
         shell: bash -l {0}
       - run: python -m pytest --receptor=ci
         shell: bash -l {0}

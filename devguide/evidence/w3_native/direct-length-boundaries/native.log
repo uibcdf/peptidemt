@@ -1,0 +1,2 @@
+WARNING: 'biopython.SeqRecord' is a best-effort supported form (Tier 2). Results are supported but not contractually guaranteed for all workflows. (Hint: For production workflows, prefer Tier 1 forms where possible. See the support-tier documentation at https://www.uibcdf.org/MolSysMT)
+WARNING: Warning: some input sequences are longer than 100 amino-acids. Macrel models were developed and tested for short peptides (<100 amino-acids). Applying them on longer ones will return a result, but these should be considered less reliable.

@@ -56,8 +56,10 @@ SMonitor at the actual optional boundary. Read the registered root
 Central receiving is tracked in uibcdf/molsyssuite#151 and records the real
 metadata/Conda provider floors separately from selected optional MolSysMT
 serialization. Engine-free controls do not qualify
-Macrel or complete the live scientific work. Host bounds, installed bundle/terms
-and native parity remain explicit W3 prerequisites.
+Macrel or complete the live scientific work. The later
+[W3 assessment](w3_assessment.md) records actual authorized CPU execution,
+exact native parity, terms/fixtures, resource evidence and remaining scientific
+acceptance. Keep that evidence bound to its actual source/artifacts/environment.
 
 The investigator's governance clarification supersedes only the historical
 W0-only reporting restriction. D35/D36, M1–M8, scientific acceptance and publication

@@ -45,7 +45,8 @@ Add one row for each implemented route. Names and directory layout remain local.
 
 | Method/provider | Access route and public selector | Requirement/import/command/service | Actual pip/Conda routes or disabled routes | Owner issue and status |
 | --- | --- | --- | --- | --- |
-| Macrel 1.6.1 | Installed native Python, `assess_macrel` | Lazy `macrel`; selected `molsysmt` serialization and its Biopython route; both packaged ONNX heads | Verified PyPI `macrel==1.6.1`; Macrel Conda hint disabled; MolSysMT `uibcdf` route; no automatic installation | uibcdf/peptidemt#6, source/controlled evidence only; W3 pending |
+| Macrel 1.6.1 | Installed native Python, `assess_macrel` | Lazy `macrel`; selected `molsysmt` serialization and its Biopython route; both packaged ONNX heads | Verified Macrel PyPI file; unqualified installers disabled; exact installed MolSysMT owner-source wheel under #359 | uibcdf/peptidemt#6; actual bounded W3 evidence, investigator acceptance separate |
+| Ackredit >=0.9.0 | Optional portable post-operation capture | Lazy `ackredit`; host bibliography retained without it | Public `uibcdf` Conda route; no pip/required runtime extra invented | uibcdf/peptidemt#6; real controlled receiving plus actual native-call capture |
 
 Distinguish original Python libraries, executables, services, saved files and local
 implementations. Document extras' actual contents. An unavailable selected route
@@ -60,6 +61,10 @@ suite includes requested absence, transitive failure, timeout, owner transport,
 native call arguments, exact worker serialization and original dtype retention.
 The declared support floors pass using operator copies of published packages.
 No actual Macrel models executed and no live native parity is claimed.
+That sentence belongs to the original W2 checkpoint. The later
+[W3 assessment](w3_assessment.md) retains actual four-call execution, exact native
+parity and portable attribution for one installed CPU bundle. Its qualified
+MolSysMT source artifact is distinct from the broken public 0.23.0 file.
 Central dependency/guide receiving is recorded under uibcdf/molsyssuite#151
 and issue #6. The two registered provider guides are delivered via the official
 synchronizer. Selected MolSysMT serialization is a guarded integration, not a

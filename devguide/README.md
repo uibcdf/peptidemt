@@ -2,14 +2,16 @@
 
 Updated: **2026-10-28**. This is the maintained design source of truth.
 It supports scientific discussion rather than replacing it with a completed
-specification. The bounded W1 core is implemented; real scientific provider
-integration and qualification remain separate W2–W3 obligations.
+specification. The bounded W1 core is implemented; one installed Macrel CPU
+bundle now has W3 computational qualification evidence, with scientific
+acceptance and separate provider/consumer follow-up retained.
 
 ## Reading path
 
 For implemented W1 tools, see [sequence inputs, saved results and selection](w1_core.md).
 The core works without Macrel. The [W2 native boundary](w2_macrel.md) uses
-in-memory inputs and MolSysMT transport; actual provider qualification remains W3.
+in-memory inputs and MolSysMT transport. The [W3 assessment](w3_assessment.md)
+records the actual native execution, exact comparisons, limits and saved replay.
 The [W3 preparation](w3_qualification.md) records candidate bytes, upstream
 fixtures, optional scientific attribution and proposed host execution bounds.
 

@@ -1,7 +1,10 @@
 # W2 native Macrel boundary
 
-Status: **source implementation with engine-free controls; live qualification
-pending**. Tracked in [PeptideMT #6](https://github.com/uibcdf/peptidemt/issues/6).
+Status: **implemented; one exact installed CPU bundle has native qualification
+evidence, with investigator acceptance separate**. Tracked in
+[PeptideMT #6](https://github.com/uibcdf/peptidemt/issues/6).
+The [W3 assessment](w3_assessment.md) records actual execution; older source-only
+receipts below retain their original scope.
 See [W3 preparation](w3_qualification.md) for exact candidate assets and proposed host limits.
 Navigation: [guide](README.md) · [work order](increment_1_work_order.md) ·
 [scientific contract](v0_1_increment_1.md) · [work record](pending_proposals/implement_w2_macrel.md).
@@ -93,7 +96,11 @@ changed views, malformed scores/labels and eligibility from retained data.
 
 DepDigest >=0.12.0 guards only the selected native imports. The declaration
 advertises the verified PyPI Macrel 1.6.1 route, disables an unqualified Conda
-Macrel installer, and identifies MolSysMT's `uibcdf` Conda route. MolSysMT's
+Macrel installer, and disables MolSysMT installers at this selected boundary while
+its public 0.23.0 artifact lacks the already-fixed #359 recognition behavior. The
+[W3 assessment](w3_assessment.md) identifies the exact installed owner-source
+wheel; restore a public installer only after an actual published artifact passes
+the conversion/serialization gate. MolSysMT's
 selected SeqRecord conversion also requires its optional Biopython capability.
 Macrel/MolSysMT/Biopython and ONNX dependencies are not installed by PeptideMT
 and are absent from core requirements and engine-free CI environments.
@@ -138,6 +145,12 @@ W3 still requires the actual installed Linux CPU/Python 3.14 combination, permit
 terms/fixtures, approved resource envelope, both heads' real execution and direct
 native comparisons. Package publication and broader provider/platform support
 remain unqualified and outside this delivery.
+
+The preceding paragraph describes the original W2 checkpoint. The later
+[W3 assessment](w3_assessment.md) supplies actual Linux CPU/Python 3.14.10
+execution for the recorded Macrel 1.6.1/MolSysMT source-wheel combination.
+It does not extend that evidence to other provider versions/platforms or silently
+qualify the broken public MolSysMT 0.23.0 artifact.
 
 The [exact-source receipt](evidence/w2_boundary.json) records commit `6b86d72`,
 the unpublished installed wheel, 84 passing installed tests, complete passing

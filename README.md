@@ -22,9 +22,10 @@ Start with the [design guide](devguide/README.md). W1 now supplies
 [ordered sequence/FASTA inputs, attributed saved results and two reproducible
 selectors](devguide/w1_core.md), usable without Macrel. Its public boundary is
 provisional. Macrel 1.6.1 remains the approved first evaluator qualification
-candidate. The [W2 native adapter](devguide/w2_macrel.md) now has engine-free
-source controls using in-memory inputs and MolSysMT-owned transport; actual
-installed-model qualification remains pending W3.
+candidate. The [W2 native adapter](devguide/w2_macrel.md) uses in-memory inputs
+and MolSysMT-owned transport. The [bounded installed W3 assessment](devguide/w3_assessment.md)
+now supplies exact native parity and M1–M8 evidence for one Linux CPU bundle;
+investigator acceptance and the separate FASTA migration remain explicit.
 
 The accepted conceptual architecture separates scientific design intent,
 computational plans and execution evidence. Functional families remain independent

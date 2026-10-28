@@ -1,0 +1,1 @@
+WARNING: 'biopython.SeqRecord' is a best-effort supported form (Tier 2). Results are supported but not contractually guaranteed for all workflows. (Hint: For production workflows, prefer Tier 1 forms where possible. See the support-tier documentation at https://www.uibcdf.org/MolSysMT)

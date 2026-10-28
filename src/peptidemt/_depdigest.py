@@ -13,8 +13,10 @@ LIBRARIES = {
     "molsysmt": {
         "type": "soft",
         "pypi": None,
-        "conda": "molsysmt",
-        "channel": "uibcdf",
+        # Public 0.23.0 lacks the recognition fix qualified under #6/#359.
+        # Consult the documented owner-source route until a published file
+        # passes this selected serialization boundary.
+        "conda": None,
     },
 }
 EXCEPTION_CLASS = RequiredDependencyError

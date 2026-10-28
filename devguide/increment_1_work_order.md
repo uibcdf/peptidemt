@@ -301,3 +301,20 @@ delivery; native M1/M2 and live parts of M3–M6/M8 remain W2–W3 obligations.
 Next is one actual W2 Macrel route under the accepted asset/terms/environment/
 fixture/resource prerequisites, then W3 qualification and W4 delivery. No new
 scientific approval, HydrAMP, later increment or package publication is inferred.
+
+## W3 executed evidence and reviewable delivery — 2026-10-28
+
+The [bounded W3 assessment](w3_assessment.md) now supplies four actual authorized
+Linux CPU/Python 3.14.10 calls, exact native feature/prediction parity, both heads'
+sign coverage and the accepted M1–M8 allocation. It records the specific installed
+Macrel 1.6.1 assets, an unpublished MolSysMT owner-source wheel, original values,
+terms/fixtures and measured resource use. The shared host's revised limits were
+explicitly reviewed and authorized before execution. No additional model call is
+authorized by the completed allowance.
+
+Tests, a small [saved live-case replay](../examples/replay_macrel_qualification.py),
+usage documentation and exact artifact evidence make the increment reviewable.
+Scientific acceptance of this precise bundle and its stated limitations remains
+an investigator disposition. The separate PeptideMT #5 FASTA ownership migration
+and applicable client receiving remain visible. This does not complete the
+generative V0.1, authorize HydrAMP/later increments or publish packages.

@@ -1,0 +1,31 @@
+{
+  "package_version": "0.1.0+95.g7a299d1",
+  "package_origin": "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/peptidemt/__init__.py",
+  "molsysmt_version": "0.23.0+286.g3781031d0",
+  "molsysmt_origin": "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/molsysmt/__init__.py",
+  "resource_controls": {
+    "address_space_bytes": 4294967296,
+    "cpu_ids": [
+      0,
+      1
+    ],
+    "nice": 10,
+    "numerical_environment": {
+      "OPENBLAS_NUM_THREADS": "1",
+      "OMP_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1",
+      "NUMEXPR_NUM_THREADS": "1"
+    }
+  },
+  "resource_usage": {
+    "peak_rss_bytes": 365211648,
+    "user_cpu_seconds": 3.5846359999999997,
+    "system_cpu_seconds": 0.315231
+  },
+  "serializer_records": 5,
+  "model_sessions_created": 0,
+  "model_execution": false,
+  "cpu_providers": [
+    "CPUExecutionProvider"
+  ]
+}

@@ -1,0 +1,444 @@
+{
+  "schema": "peptidemt.w3_summary@1",
+  "status": "computational qualification evidence complete; investigator acceptance and stated follow-up retained",
+  "owner_issue": "uibcdf/peptidemt#6",
+  "package_source_commit": "7a299d1a9e1b264c2f872e94d35b76d67c548a0a",
+  "qualification_driver_commit": "a1b5e3a178679eb71f47bf6a693a43955879b97d",
+  "qualification_driver_sha256": "b9f913b78ac8e6da620ebeec9457e34fd762b1570923ee1f7eba0a5e0855424e",
+  "source_package_wheel": {
+    "filename": "peptidemt-0.1.0+95.g7a299d1-py3-none-any.whl",
+    "sha256": "1630710869dfd615d4067e145a5e9fd0c2f75ce2f08b3dafa4d940f4e916f17d",
+    "public": false
+  },
+  "installed_inputs": {
+    "source_commit": "7a299d1a9e1b264c2f872e94d35b76d67c548a0a",
+    "versions": {
+      "peptidemt": "0.1.0+95.g7a299d1",
+      "macrel": "1.6.1",
+      "molsysmt": "0.23.0+286.g3781031d0",
+      "molsysviewer": "0.24.0",
+      "onnxruntime": "1.25.1",
+      "numpy": "2.5.4",
+      "pandas": "3.1.0",
+      "biopython": "1.88",
+      "pyrodigal": "3.7.1",
+      "ackredit": "0.9.0",
+      "depdigest": "0.15.1",
+      "smonitor": "0.22.0",
+      "argdigest": "0.17.0"
+    },
+    "macrel_installed_sources_match_candidate_wheel": true,
+    "molsysmt_owner_source_commit": "3781031d0c1d08f34b2aa966ad0b82bf3b64a31d",
+    "molsysmt_source_fix": "fd436fc7859591024586d003e327c134d45895e7",
+    "molsysmt_unpublished_wheel_sha256": "36fc0ffc34447727ee65cca6ce5313e45b7abd48a63dfa0ff02cc8abc8ced9a7",
+    "peptidemt_wheel_sha256": "1630710869dfd615d4067e145a5e9fd0c2f75ce2f08b3dafa4d940f4e916f17d",
+    "provider_build_tools": {
+      "python": "3.14.7 shared development profile",
+      "cargo": "1.98.1",
+      "rustc": "1.98.1",
+      "jobs": 2,
+      "nice": 10,
+      "cpu_ids": [
+        0,
+        1
+      ]
+    },
+    "prior_public_provider_failure": "MolsysMT 0.23.0 SeqRecord recognizer compares against wrong Python fullname; owner #359 source fix adopted without editing provider source",
+    "model_calls_so_far": 0
+  },
+  "request_written_utc": "2026-10-28T21:11:17.446409+00:00",
+  "receipt_written_utc": "2026-10-28T21:11:40.245850+00:00",
+  "call_count": 4,
+  "call_attempts_remaining": 0,
+  "automatic_model_retries": 0,
+  "calls": [
+    {
+      "name": "direct-compatible",
+      "host_available_memory_bytes": 18025476096,
+      "owned_storage_bytes": 2028421120,
+      "elapsed_seconds": 5.32964358991012
+    },
+    {
+      "name": "adapter-mixed",
+      "host_available_memory_bytes": 17844932608,
+      "owned_storage_bytes": 2028457984,
+      "elapsed_seconds": 5.541650925995782
+    },
+    {
+      "name": "direct-length-boundaries",
+      "host_available_memory_bytes": 17787428864,
+      "owned_storage_bytes": 2028515328,
+      "elapsed_seconds": 5.279090164927766
+    },
+    {
+      "name": "direct-leading-M",
+      "host_available_memory_bytes": 17740615680,
+      "owned_storage_bytes": 2028548096,
+      "elapsed_seconds": 5.228797123068944
+    }
+  ],
+  "total_call_wall_seconds": 21.37918180390261,
+  "maximum_observed_rss_bytes": 539123712,
+  "direct_observations": {
+    "direct-compatible": {
+      "heads_observed": 2,
+      "rows": 6,
+      "resource_usage": {
+        "peak_rss_bytes": 539123712,
+        "user_cpu_seconds": 4.046078,
+        "system_cpu_seconds": 0.35218
+      },
+      "resource_controls": {
+        "address_space_bytes": 4294967296,
+        "cpu_ids": [
+          0,
+          1
+        ],
+        "nice": 10,
+        "numerical_environment": {
+          "OPENBLAS_NUM_THREADS": "1",
+          "OMP_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1",
+          "NUMEXPR_NUM_THREADS": "1"
+        }
+      }
+    },
+    "direct-length-boundaries": {
+      "heads_observed": 2,
+      "rows": 4,
+      "resource_usage": {
+        "peak_rss_bytes": 538980352,
+        "user_cpu_seconds": 4.051746,
+        "system_cpu_seconds": 0.348978
+      },
+      "resource_controls": {
+        "address_space_bytes": 4294967296,
+        "cpu_ids": [
+          0,
+          1
+        ],
+        "nice": 10,
+        "numerical_environment": {
+          "OPENBLAS_NUM_THREADS": "1",
+          "OMP_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1",
+          "NUMEXPR_NUM_THREADS": "1"
+        }
+      }
+    },
+    "direct-leading-M": {
+      "heads_observed": 2,
+      "rows": 2,
+      "resource_usage": {
+        "peak_rss_bytes": 538800128,
+        "user_cpu_seconds": 4.00404,
+        "system_cpu_seconds": 0.360913
+      },
+      "resource_controls": {
+        "address_space_bytes": 4294967296,
+        "cpu_ids": [
+          0,
+          1
+        ],
+        "nice": 10,
+        "numerical_environment": {
+          "OPENBLAS_NUM_THREADS": "1",
+          "OMP_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1",
+          "NUMEXPR_NUM_THREADS": "1"
+        }
+      }
+    }
+  },
+  "gates": {
+    "M1": "pass: exact tables and two real observed native ONNX heads",
+    "M2": "pass: actual bundle covers both signs for each head; no activity claim",
+    "M3": "pass: real mixed pool and duplicate/full-header occurrences; malformed mapping controls remain engine-free",
+    "M6": "pass: native unchanged values and labels plus existing controlled malformed/0.5/precision tests",
+    "M5": "pass: upstream F/AA and direct 99/100/109/110 probes; ordinary admission stays <100; empirical applicability remains limited",
+    "M4": "pass: leading-M native clipping observed only in qualification; original adapter proposal excluded; chemistry/invalid forms retained",
+    "M7": "pass: unchanged live evaluations replay both policies in a fresh engine-free reader; invented contrasting fixture retained separately",
+    "M8": "pass: real empty/incompatible pools start no provider; absence/load/corruption/interruption controls remain separately engine-free"
+  },
+  "selected": {
+    "amp-first": {
+      "selected": [
+        "input-0",
+        "input-4",
+        "input-2"
+      ],
+      "ranking": [
+        "input-0",
+        "input-4",
+        "input-2",
+        "input-3",
+        "input-13",
+        "input-1"
+      ]
+    },
+    "hemolysis-first": {
+      "selected": [
+        "input-1",
+        "input-3",
+        "input-2"
+      ],
+      "ranking": [
+        "input-1",
+        "input-3",
+        "input-2",
+        "input-13",
+        "input-0",
+        "input-4"
+      ]
+    }
+  },
+  "preparation_failures": [
+    {
+      "kind": "public MolSysMT SeqRecord recognition",
+      "models_executed": 0,
+      "owner": "uibcdf/molsysmt#359",
+      "resolution": "Unchanged accepted owner source in exact installed local wheel; primary provider worktree untouched"
+    },
+    {
+      "kind": "runner raw None input",
+      "models_executed": 0,
+      "record": "w3_native/preparation-zero-call-failure.json",
+      "resolution": "Use existing SequenceRecord(None) contract; dedicated input-pool regression; no model retry consumed"
+    }
+  ],
+  "source_and_installed_controls": {
+    "original_tests_passed": 101,
+    "original_tests_skipped": 0,
+    "installed_clean_profile_tests_passed": 101,
+    "package_scope": "real provider receiving with controlled completion; no model execution in ordinary tests",
+    "post_qualification_source_tests_passed": 103,
+    "post_qualification_changes": "driver input guard, installer-hint regression and saved replay; no new model execution",
+    "runtime_file_differences_from_qualified_wheel": [
+      "src/peptidemt/_depdigest.py"
+    ],
+    "difference_scope": "Only absent-MolSysMT installer hints disabled after the observed public artifact defect; available-provider numerical execution is unchanged"
+  },
+  "ci_at_package_source": {
+    "routine": {
+      "url": "https://github.com/uibcdf/peptidemt/actions/runs/40766992784",
+      "attempt": 1,
+      "headSha": "7a299d1a9e1b264c2f872e94d35b76d67c548a0a",
+      "event": "push",
+      "conclusion": "success",
+      "jobs": [
+        {
+          "name": "test",
+          "conclusion": "success",
+          "required_steps": [
+            {
+              "name": "Run python -m pip install --no-deps --no-build-isolation .",
+              "conclusion": "success"
+            },
+            {
+              "name": "Verify installed package and dependency closure",
+              "conclusion": "success"
+            },
+            {
+              "name": "Run python -m pytest --receptor=ci",
+              "conclusion": "success"
+            }
+          ]
+        },
+        {
+          "name": "quality",
+          "conclusion": "success",
+          "required_steps": [
+            {
+              "name": "Run python -m pip install ruff==0.16.5",
+              "conclusion": "success"
+            },
+            {
+              "name": "Run ruff check .",
+              "conclusion": "success"
+            },
+            {
+              "name": "Run ruff format --check .",
+              "conclusion": "success"
+            }
+          ]
+        },
+        {
+          "name": "full_matrix",
+          "conclusion": "skipped",
+          "required_steps": []
+        }
+      ]
+    },
+    "policy": {
+      "url": "https://github.com/uibcdf/peptidemt/actions/runs/40766992524",
+      "attempt": 1,
+      "headSha": "7a299d1a9e1b264c2f872e94d35b76d67c548a0a",
+      "event": "push",
+      "conclusion": "success",
+      "jobs": [
+        {
+          "name": "policy / conformance",
+          "conclusion": "success",
+          "required_steps": [
+            {
+              "name": "Validate immutable admission input",
+              "conclusion": "success"
+            },
+            {
+              "name": "Check repository conformance",
+              "conclusion": "success"
+            },
+            {
+              "name": "Check Python lint and imports",
+              "conclusion": "success"
+            },
+            {
+              "name": "Check Python formatting",
+              "conclusion": "success"
+            }
+          ]
+        }
+      ]
+    },
+    "matrix": {
+      "url": "https://github.com/uibcdf/peptidemt/actions/runs/40766990691",
+      "attempt": 1,
+      "headSha": "7a299d1a9e1b264c2f872e94d35b76d67c548a0a",
+      "event": "workflow_dispatch",
+      "conclusion": "success",
+      "jobs": [
+        {
+          "name": "quality",
+          "conclusion": "success",
+          "required_steps": [
+            {
+              "name": "Run python -m pip install ruff==0.16.5",
+              "conclusion": "success"
+            },
+            {
+              "name": "Run ruff check .",
+              "conclusion": "success"
+            },
+            {
+              "name": "Run ruff format --check .",
+              "conclusion": "success"
+            }
+          ]
+        },
+        {
+          "name": "full_matrix (3.11)",
+          "conclusion": "success",
+          "required_steps": [
+            {
+              "name": "Run python -m pip install --no-deps --no-build-isolation .",
+              "conclusion": "success"
+            },
+            {
+              "name": "Verify installed package and dependency closure",
+              "conclusion": "success"
+            },
+            {
+              "name": "Run python -m pytest --receptor=ci",
+              "conclusion": "success"
+            }
+          ]
+        },
+        {
+          "name": "full_matrix (3.14)",
+          "conclusion": "success",
+          "required_steps": [
+            {
+              "name": "Run python -m pip install --no-deps --no-build-isolation .",
+              "conclusion": "success"
+            },
+            {
+              "name": "Verify installed package and dependency closure",
+              "conclusion": "success"
+            },
+            {
+              "name": "Run python -m pytest --receptor=ci",
+              "conclusion": "success"
+            }
+          ]
+        },
+        {
+          "name": "full_matrix (3.12)",
+          "conclusion": "success",
+          "required_steps": [
+            {
+              "name": "Run python -m pip install --no-deps --no-build-isolation .",
+              "conclusion": "success"
+            },
+            {
+              "name": "Verify installed package and dependency closure",
+              "conclusion": "success"
+            },
+            {
+              "name": "Run python -m pytest --receptor=ci",
+              "conclusion": "success"
+            }
+          ]
+        },
+        {
+          "name": "full_matrix (3.13)",
+          "conclusion": "success",
+          "required_steps": [
+            {
+              "name": "Run python -m pip install --no-deps --no-build-isolation .",
+              "conclusion": "success"
+            },
+            {
+              "name": "Verify installed package and dependency closure",
+              "conclusion": "success"
+            },
+            {
+              "name": "Run python -m pytest --receptor=ci",
+              "conclusion": "success"
+            }
+          ]
+        },
+        {
+          "name": "test",
+          "conclusion": "skipped",
+          "required_steps": []
+        }
+      ]
+    }
+  },
+  "actions_inspection": {
+    "first_surface": "published GH Run Receptor 1.3.0 generic/llm",
+    "native_followup": "all exact-source attempt-1 required jobs/install/closure/pytest/lint/format/policy steps verified; 101 tests per Linux 3.11-3.14 matrix cell",
+    "artifact_sha256": "65f33b29dad70eb9e779f917e4c553d27effa4fddc2740a0260d259866746fd3"
+  },
+  "limitations": [
+    "Only this Linux x86_64 CPython 3.14.10 installed Macrel/assets/provider configuration was executed",
+    "Unpublished MolSysMT source wheel contains the accepted recognition fix; public 0.23.0 selected route is unqualified",
+    "Very-short/length boundary operations are not empirical applicability, chemistry, efficacy or safety validation",
+    "In-memory inputs only; source-preserving FASTA consumer migration remains peptidemt#5",
+    "Applicable Ackredit guide/inventory receiving is separate from completed component runtime observations",
+    "SMonitor external src-layout sweep limitation remains #54; installed direct checks pass",
+    "Pinned published pytest-receptor 1.1.0 late /dev/null warning is known in its #4; test outcomes remain passing",
+    "No HydrAMP, subsequent increment, public release or package/model publication"
+  ],
+  "artifact_sha256": {
+    "adapter-original.json": "9058a5cdaf4c3f71b84f762cd894b22c2e4396aacf1b68a38091190a37abc017",
+    "direct-compatible/native.json": "e63d2004d92a9f171804262ef41c6a421068393ef67fa903350205fb1e41c92c",
+    "direct-compatible/native.log": "e1d93374c8a84e8c2e427b6c2a1aa3a552008af66d0b1d8d01d6954d9389af34",
+    "direct-compatible/request.json": "d7a4ae94d42a48a309e4c6ea9f680db68b2fd6107143e912038148f85d4da694",
+    "direct-compatible/submitted.fasta": "0b22435f54229a1897fdc7f2092f1dd96d46834a45c2ad076c61ba5e6520b1a4",
+    "direct-leading-M/native.json": "dd73548cf9602d28cf92e1cc7beea23ceb1f787cea012790a09d7ff6bf590f2c",
+    "direct-leading-M/native.log": "e1d93374c8a84e8c2e427b6c2a1aa3a552008af66d0b1d8d01d6954d9389af34",
+    "direct-leading-M/request.json": "3cc66a5e521ab79e28b65eaa6b19652b11e8352bca6d89f64a69952a46b7dbfd",
+    "direct-leading-M/submitted.fasta": "b45642ca4e1febae7b9be8b6401b5cbd3596cf584bcd424664795acbb2d1c3f1",
+    "direct-length-boundaries/native.json": "9e120793513b5fc90ccdc4261e042835ad4a52d7fe4613d3e1842f7310662b32",
+    "direct-length-boundaries/native.log": "e5141343084636a32a96fb99ada30d5c14ccdfba9cbb6951b331695a468d7fcb",
+    "direct-length-boundaries/request.json": "c2a1a1946775968ac0764bc790d08311650d35075a582f0e4dbb814f6934f287",
+    "direct-length-boundaries/submitted.fasta": "abb0cc6807a04076ad10bbbfb6441a6e22fde095cf35f3cce2ba302863f88e1b",
+    "installed-inputs.json": "ac6236e27b9143554d8bb691403978f626603833c72d45e04ee5fc137f099638",
+    "manifest.json": "65912a609b6a1fd5f5d991edd56256117ad83e449b6289656fa9da5d3e07c20c",
+    "preparation-zero-call-failure.json": "761e7aa67e8394b78d83d7c0babc3ede915f6408b55bc8e3fc9f1d81c6b74a39",
+    "process-control-preflight.json": "902a9f73f148beb07992e789cdf21b619d35924d1834b3073db83746c40ddcb9",
+    "qualified-computational.json": "4764ca39e8d4a2d3bed06fb622748f28d143b5743d903b2c09e0d140e92e55f3"
+  },
+  "retention": "Exact local candidate wheels, clean scientific environment and original records remain under ignored local_data/w3-20261028-hNmM4w for receiving/investigator review; owned build scratch removed"
+}

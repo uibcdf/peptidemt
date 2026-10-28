@@ -1,0 +1,379 @@
+{
+  "mapping": {
+    "sessions": [
+      {
+        "mapping": {
+          "model_bytes_sha256": "90d7fea888758a5c1426949cb21a33ed132bfde2216d85324ab6ebc939d59cb4",
+          "providers": [
+            "CPUExecutionProvider"
+          ],
+          "runs": [
+            {
+              "mapping": {
+                "outputs": [
+                  "output_probability"
+                ],
+                "inputs": {
+                  "mapping": {
+                    "input_features": {
+                      "mapping": {
+                        "shape": [
+                          2,
+                          22
+                        ],
+                        "dtype": "float32"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          ],
+          "intra_op_threads": 2,
+          "inter_op_threads": 1,
+          "spinning": "0"
+        }
+      },
+      {
+        "mapping": {
+          "model_bytes_sha256": "172d8ca1b45eeadcfdac9631d6915368bd962177e19d2991e0bdab9fbaea8724",
+          "providers": [
+            "CPUExecutionProvider"
+          ],
+          "runs": [
+            {
+              "mapping": {
+                "outputs": [
+                  "output_probability"
+                ],
+                "inputs": {
+                  "mapping": {
+                    "input_features": {
+                      "mapping": {
+                        "shape": [
+                          2,
+                          22
+                        ],
+                        "dtype": "float32"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          ],
+          "intra_op_threads": 2,
+          "inter_op_threads": 1,
+          "spinning": "0"
+        }
+      }
+    ],
+    "warnings": [],
+    "identities": {
+      "mapping": {
+        "macrel": {
+          "mapping": {
+            "version": "1.6.1",
+            "import_origin": "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/macrel/__init__.py",
+            "distribution_root": "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages"
+          }
+        },
+        "molsysmt": {
+          "mapping": {
+            "version": "0.23.0+286.g3781031d0",
+            "import_origin": "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/molsysmt/__init__.py",
+            "distribution_root": "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages"
+          }
+        },
+        "onnxruntime": {
+          "mapping": {
+            "version": "1.25.1",
+            "import_origin": "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/onnxruntime/__init__.py",
+            "distribution_root": "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages"
+          }
+        }
+      }
+    },
+    "features": {
+      "mapping": {
+        "columns": [
+          "sequence",
+          "group",
+          "tinyAA",
+          "smallAA",
+          "aliphaticAA",
+          "aromaticAA",
+          "nonpolarAA",
+          "polarAA",
+          "chargedAA",
+          "basicAA",
+          "acidicAA",
+          "charge",
+          "pI",
+          "aindex",
+          "instaindex",
+          "boman",
+          "hydrophobicity",
+          "hmoment",
+          "SA.Group1.residue0",
+          "SA.Group2.residue0",
+          "SA.Group3.residue0",
+          "HB.Group1.residue0",
+          "HB.Group2.residue0",
+          "HB.Group3.residue0"
+        ],
+        "dtypes": [
+          "str",
+          "str",
+          "float64",
+          "float64",
+          "float64",
+          "float64",
+          "float64",
+          "float64",
+          "float64",
+          "float64",
+          "float64",
+          "float64",
+          "float64",
+          "float64",
+          "float64",
+          "float64",
+          "float64",
+          "float64",
+          "float64",
+          "float64",
+          "float64",
+          "float64",
+          "float64",
+          "float64"
+        ],
+        "index": [
+          "original",
+          "leading-M"
+        ],
+        "values": [
+          [
+            "FLPVLAGLTPSIVPKLVCLLTKKC",
+            "Unk",
+            {
+              "float_hex": "0x1.2aaaaaaaaaaabp-2"
+            },
+            {
+              "float_hex": "0x1.1555555555555p-1"
+            },
+            {
+              "float_hex": "0x1.d555555555555p-2"
+            },
+            {
+              "float_hex": "0x1.5555555555555p-5"
+            },
+            {
+              "float_hex": "0x1.8000000000000p-1"
+            },
+            {
+              "float_hex": "0x1.0000000000000p-2"
+            },
+            {
+              "float_hex": "0x1.0000000000000p-3"
+            },
+            {
+              "float_hex": "0x1.0000000000000p-3"
+            },
+            {
+              "float_hex": "0x0.0p+0"
+            },
+            {
+              "float_hex": "0x1.7501a1fded2a8p+1"
+            },
+            {
+              "float_hex": "0x1.355e800000000p+3"
+            },
+            {
+              "float_hex": "0x1.3455555555555p+7"
+            },
+            {
+              "float_hex": "0x1.5511111111112p+5"
+            },
+            {
+              "float_hex": "-0x1.3c5f92c5f92c7p+0"
+            },
+            {
+              "float_hex": "0x1.9258bf258bf25p-2"
+            },
+            {
+              "float_hex": "0x1.0a334adf80c04p-1"
+            },
+            {
+              "float_hex": "0x1.0aaaaaaaaaaaap+2"
+            },
+            {
+              "float_hex": "0x1.f400000000000p+5"
+            },
+            {
+              "float_hex": "0x1.9000000000000p+3"
+            },
+            {
+              "float_hex": "0x1.0aaaaaaaaaaaap+3"
+            },
+            {
+              "float_hex": "0x1.0aaaaaaaaaaaap+2"
+            },
+            {
+              "float_hex": "0x1.9000000000000p+3"
+            }
+          ],
+          [
+            "FLPVLAGLTPSIVPKLVCLLTKKC",
+            "Unk",
+            {
+              "float_hex": "0x1.2aaaaaaaaaaabp-2"
+            },
+            {
+              "float_hex": "0x1.1555555555555p-1"
+            },
+            {
+              "float_hex": "0x1.d555555555555p-2"
+            },
+            {
+              "float_hex": "0x1.5555555555555p-5"
+            },
+            {
+              "float_hex": "0x1.8000000000000p-1"
+            },
+            {
+              "float_hex": "0x1.0000000000000p-2"
+            },
+            {
+              "float_hex": "0x1.0000000000000p-3"
+            },
+            {
+              "float_hex": "0x1.0000000000000p-3"
+            },
+            {
+              "float_hex": "0x0.0p+0"
+            },
+            {
+              "float_hex": "0x1.7501a1fded2a8p+1"
+            },
+            {
+              "float_hex": "0x1.355e800000000p+3"
+            },
+            {
+              "float_hex": "0x1.3455555555555p+7"
+            },
+            {
+              "float_hex": "0x1.5511111111112p+5"
+            },
+            {
+              "float_hex": "-0x1.3c5f92c5f92c7p+0"
+            },
+            {
+              "float_hex": "0x1.9258bf258bf25p-2"
+            },
+            {
+              "float_hex": "0x1.0a334adf80c04p-1"
+            },
+            {
+              "float_hex": "0x1.0aaaaaaaaaaaap+2"
+            },
+            {
+              "float_hex": "0x1.f400000000000p+5"
+            },
+            {
+              "float_hex": "0x1.9000000000000p+3"
+            },
+            {
+              "float_hex": "0x1.0aaaaaaaaaaaap+3"
+            },
+            {
+              "float_hex": "0x1.0aaaaaaaaaaaap+2"
+            },
+            {
+              "float_hex": "0x1.9000000000000p+3"
+            }
+          ]
+        ]
+      }
+    },
+    "predictions": {
+      "mapping": {
+        "columns": [
+          "Sequence",
+          "AMP_family",
+          "is_AMP",
+          "AMP_probability",
+          "Hemolytic",
+          "Hemolytic_probability"
+        ],
+        "dtypes": [
+          "str",
+          "str",
+          "bool",
+          "float64",
+          "str",
+          "float64"
+        ],
+        "index": [
+          "original",
+          "leading-M"
+        ],
+        "values": [
+          [
+            "FLPVLAGLTPSIVPKLVCLLTKKC",
+            "CDP",
+            true,
+            {
+              "float_hex": "0x1.0000000000000p+0"
+            },
+            "Hemo",
+            {
+              "float_hex": "0x1.d772100000000p-1"
+            }
+          ],
+          [
+            "FLPVLAGLTPSIVPKLVCLLTKKC",
+            "CDP",
+            true,
+            {
+              "float_hex": "0x1.0000000000000p+0"
+            },
+            "Hemo",
+            {
+              "float_hex": "0x1.d772100000000p-1"
+            }
+          ]
+        ]
+      }
+    },
+    "resource_controls": {
+      "mapping": {
+        "address_space_bytes": 4294967296,
+        "cpu_ids": [
+          0,
+          1
+        ],
+        "nice": 10,
+        "numerical_environment": {
+          "mapping": {
+            "OPENBLAS_NUM_THREADS": "1",
+            "OMP_NUM_THREADS": "1",
+            "MKL_NUM_THREADS": "1",
+            "NUMEXPR_NUM_THREADS": "1"
+          }
+        }
+      }
+    },
+    "resource_usage": {
+      "mapping": {
+        "peak_rss_bytes": 538800128,
+        "user_cpu_seconds": {
+          "float_hex": "0x1.004230fcf80dcp+2"
+        },
+        "system_cpu_seconds": {
+          "float_hex": "0x1.71932d6ece13fp-2"
+        }
+      }
+    }
+  }
+}

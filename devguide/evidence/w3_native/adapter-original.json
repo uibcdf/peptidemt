@@ -1,0 +1,1539 @@
+{
+  "schema": "peptidemt.results@1",
+  "data": {
+    "mapping": {
+      "snapshot_id": "W3-mixed-pool",
+      "inputs": [
+        {
+          "mapping": {
+            "occurrence": 0,
+            "proposal": {
+              "mapping": {
+                "sequence": "FLPVLAGLTPSIVPKLVCLLTKKC",
+                "header": "same full upstream header",
+                "chemistry": {
+                  "mapping": {}
+                },
+                "context": {
+                  "mapping": {}
+                },
+                "source": null,
+                "raw_record": null
+              }
+            }
+          }
+        },
+        {
+          "mapping": {
+            "occurrence": 1,
+            "proposal": {
+              "mapping": {
+                "sequence": "HGRHVTLKDIVLDLQPPDPVGLHCYEQLVDSSEDEVDEVDGQDSQPLKQHFQIVTC",
+                "header": null,
+                "chemistry": {
+                  "mapping": {}
+                },
+                "context": {
+                  "mapping": {}
+                },
+                "source": null,
+                "raw_record": null
+              }
+            }
+          }
+        },
+        {
+          "mapping": {
+            "occurrence": 2,
+            "proposal": {
+              "mapping": {
+                "sequence": "AA",
+                "header": null,
+                "chemistry": {
+                  "mapping": {}
+                },
+                "context": {
+                  "mapping": {}
+                },
+                "source": null,
+                "raw_record": null
+              }
+            }
+          }
+        },
+        {
+          "mapping": {
+            "occurrence": 3,
+            "proposal": {
+              "mapping": {
+                "sequence": "F",
+                "header": null,
+                "chemistry": {
+                  "mapping": {}
+                },
+                "context": {
+                  "mapping": {}
+                },
+                "source": null,
+                "raw_record": null
+              }
+            }
+          }
+        },
+        {
+          "mapping": {
+            "occurrence": 4,
+            "proposal": {
+              "mapping": {
+                "sequence": "FLPVLAGLTPSIVPKLVCLLTKKC",
+                "header": "same full upstream header",
+                "chemistry": {
+                  "mapping": {}
+                },
+                "context": {
+                  "mapping": {}
+                },
+                "source": null,
+                "raw_record": null
+              }
+            }
+          }
+        },
+        {
+          "mapping": {
+            "occurrence": 5,
+            "proposal": {
+              "mapping": {
+                "sequence": "MFLPVLAGLTPSIVPKLVCLLTKKC",
+                "header": null,
+                "chemistry": {
+                  "mapping": {}
+                },
+                "context": {
+                  "mapping": {}
+                },
+                "source": null,
+                "raw_record": null
+              }
+            }
+          }
+        },
+        {
+          "mapping": {
+            "occurrence": 6,
+            "proposal": {
+              "mapping": {
+                "sequence": "FLPVLAGLTPSIVPKLVCLLTKKC*",
+                "header": null,
+                "chemistry": {
+                  "mapping": {}
+                },
+                "context": {
+                  "mapping": {}
+                },
+                "source": null,
+                "raw_record": null
+              }
+            }
+          }
+        },
+        {
+          "mapping": {
+            "occurrence": 7,
+            "proposal": {
+              "mapping": {
+                "sequence": "flpvlagltpsivpklvclltkkc",
+                "header": null,
+                "chemistry": {
+                  "mapping": {}
+                },
+                "context": {
+                  "mapping": {}
+                },
+                "source": null,
+                "raw_record": null
+              }
+            }
+          }
+        },
+        {
+          "mapping": {
+            "occurrence": 8,
+            "proposal": {
+              "mapping": {
+                "sequence": null,
+                "header": null,
+                "chemistry": {
+                  "mapping": {}
+                },
+                "context": {
+                  "mapping": {}
+                },
+                "source": null,
+                "raw_record": null
+              }
+            }
+          }
+        },
+        {
+          "mapping": {
+            "occurrence": 9,
+            "proposal": {
+              "mapping": {
+                "sequence": "",
+                "header": null,
+                "chemistry": {
+                  "mapping": {}
+                },
+                "context": {
+                  "mapping": {}
+                },
+                "source": null,
+                "raw_record": null
+              }
+            }
+          }
+        },
+        {
+          "mapping": {
+            "occurrence": 10,
+            "proposal": {
+              "mapping": {
+                "sequence": "FLPVLAGLTPSIVPKLVCLLTKKC",
+                "header": null,
+                "chemistry": {
+                  "mapping": {
+                    "n_terminal": "acetylated"
+                  }
+                },
+                "context": {
+                  "mapping": {}
+                },
+                "source": null,
+                "raw_record": null
+              }
+            }
+          }
+        },
+        {
+          "mapping": {
+            "occurrence": 11,
+            "proposal": {
+              "mapping": {
+                "sequence": "ACDX",
+                "header": null,
+                "chemistry": {
+                  "mapping": {}
+                },
+                "context": {
+                  "mapping": {}
+                },
+                "source": null,
+                "raw_record": null
+              }
+            }
+          }
+        },
+        {
+          "mapping": {
+            "occurrence": 12,
+            "proposal": {
+              "mapping": {
+                "sequence": "ACD*EF",
+                "header": null,
+                "chemistry": {
+                  "mapping": {}
+                },
+                "context": {
+                  "mapping": {}
+                },
+                "source": null,
+                "raw_record": null
+              }
+            }
+          }
+        },
+        {
+          "mapping": {
+            "occurrence": 13,
+            "proposal": {
+              "mapping": {
+                "sequence": "FLPVLAGLTPSIVPKLVCLLTKKCFLPVLAGLTPSIVPKLVCLLTKKCFLPVLAGLTPSIVPKLVCLLTKKCFLPVLAGLTPSIVPKLVCLLTKKCFLP",
+                "header": null,
+                "chemistry": {
+                  "mapping": {}
+                },
+                "context": {
+                  "mapping": {}
+                },
+                "source": null,
+                "raw_record": null
+              }
+            }
+          }
+        },
+        {
+          "mapping": {
+            "occurrence": 14,
+            "proposal": {
+              "mapping": {
+                "sequence": "FLPVLAGLTPSIVPKLVCLLTKKCFLPVLAGLTPSIVPKLVCLLTKKCFLPVLAGLTPSIVPKLVCLLTKKCFLPVLAGLTPSIVPKLVCLLTKKCFLPV",
+                "header": null,
+                "chemistry": {
+                  "mapping": {}
+                },
+                "context": {
+                  "mapping": {}
+                },
+                "source": null,
+                "raw_record": null
+              }
+            }
+          }
+        },
+        {
+          "mapping": {
+            "occurrence": 15,
+            "proposal": {
+              "mapping": {
+                "sequence": "FLPVLAGLTPSIVPKLVCLLTKKCFLPVLAGLTPSIVPKLVCLLTKKCFLPVLAGLTPSIVPKLVCLLTKKCFLPVLAGLTPSIVPKLVCLLTKKCFLPVLAGLTPSIV",
+                "header": null,
+                "chemistry": {
+                  "mapping": {}
+                },
+                "context": {
+                  "mapping": {}
+                },
+                "source": null,
+                "raw_record": null
+              }
+            }
+          }
+        },
+        {
+          "mapping": {
+            "occurrence": 16,
+            "proposal": {
+              "mapping": {
+                "sequence": "FLPVLAGLTPSIVPKLVCLLTKKCFLPVLAGLTPSIVPKLVCLLTKKCFLPVLAGLTPSIVPKLVCLLTKKCFLPVLAGLTPSIVPKLVCLLTKKCFLPVLAGLTPSIVP",
+                "header": null,
+                "chemistry": {
+                  "mapping": {}
+                },
+                "context": {
+                  "mapping": {}
+                },
+                "source": null,
+                "raw_record": null
+              }
+            }
+          }
+        }
+      ],
+      "rows": [
+        {
+          "mapping": {
+            "token": "input-0",
+            "values": {
+              "mapping": {
+                "Sequence": "FLPVLAGLTPSIVPKLVCLLTKKC",
+                "AMP_family": "CDP",
+                "is_AMP": true,
+                "AMP_probability": {
+                  "float_hex": "0x1.0000000000000p+0"
+                },
+                "Hemolytic": "Hemo",
+                "Hemolytic_probability": {
+                  "float_hex": "0x1.d772100000000p-1"
+                }
+              }
+            }
+          }
+        },
+        {
+          "mapping": {
+            "token": "input-1",
+            "values": {
+              "mapping": {
+                "Sequence": "HGRHVTLKDIVLDLQPPDPVGLHCYEQLVDSSEDEVDEVDGQDSQPLKQHFQIVTC",
+                "AMP_family": "ADP",
+                "is_AMP": false,
+                "AMP_probability": {
+                  "float_hex": "0x1.958be00000000p-5"
+                },
+                "Hemolytic": "NonHemo",
+                "Hemolytic_probability": {
+                  "float_hex": "0x1.958be00000000p-5"
+                }
+              }
+            }
+          }
+        },
+        {
+          "mapping": {
+            "token": "input-2",
+            "values": {
+              "mapping": {
+                "Sequence": "AA",
+                "AMP_family": "CLP",
+                "is_AMP": true,
+                "AMP_probability": {
+                  "float_hex": "0x1.079aa00000000p-1"
+                },
+                "Hemolytic": "NonHemo",
+                "Hemolytic_probability": {
+                  "float_hex": "0x1.8144780000000p-2"
+                }
+              }
+            }
+          }
+        },
+        {
+          "mapping": {
+            "token": "input-3",
+            "values": {
+              "mapping": {
+                "Sequence": "F",
+                "AMP_family": "CLP",
+                "is_AMP": false,
+                "AMP_probability": {
+                  "float_hex": "0x1.958b700000000p-2"
+                },
+                "Hemolytic": "NonHemo",
+                "Hemolytic_probability": {
+                  "float_hex": "0x1.26051c0000000p-2"
+                }
+              }
+            }
+          }
+        },
+        {
+          "mapping": {
+            "token": "input-4",
+            "values": {
+              "mapping": {
+                "Sequence": "FLPVLAGLTPSIVPKLVCLLTKKC",
+                "AMP_family": "CDP",
+                "is_AMP": true,
+                "AMP_probability": {
+                  "float_hex": "0x1.0000000000000p+0"
+                },
+                "Hemolytic": "Hemo",
+                "Hemolytic_probability": {
+                  "float_hex": "0x1.d772100000000p-1"
+                }
+              }
+            }
+          }
+        },
+        {
+          "mapping": {
+            "token": "input-13",
+            "values": {
+              "mapping": {
+                "Sequence": "FLPVLAGLTPSIVPKLVCLLTKKCFLPVLAGLTPSIVPKLVCLLTKKCFLPVLAGLTPSIVPKLVCLLTKKCFLPVLAGLTPSIVPKLVCLLTKKCFLP",
+                "AMP_family": "CDP",
+                "is_AMP": false,
+                "AMP_probability": {
+                  "float_hex": "0x1.446fc00000000p-4"
+                },
+                "Hemolytic": "Hemo",
+                "Hemolytic_probability": {
+                  "float_hex": "0x1.446f880000000p-1"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "provenance": {
+        "mapping": {
+          "provider": "Macrel",
+          "bundle_id": "macrel-1.6.1:0a674ef6f774c26e6d2f80d550df3fc54973ae05bfeee1b9dfd905e027a4a388:6c68af240d43f6fde2eff64645f7f5cedf215b619e510b75c47b257b0713e8b1",
+          "evidence_kind": "native",
+          "qualification_reference": null,
+          "details": {
+            "mapping": {
+              "route": "installed-python/linux-cpu",
+              "keep_negatives": true,
+              "submitted": [
+                [
+                  "input-0",
+                  "FLPVLAGLTPSIVPKLVCLLTKKC"
+                ],
+                [
+                  "input-1",
+                  "HGRHVTLKDIVLDLQPPDPVGLHCYEQLVDSSEDEVDEVDGQDSQPLKQHFQIVTC"
+                ],
+                [
+                  "input-2",
+                  "AA"
+                ],
+                [
+                  "input-3",
+                  "F"
+                ],
+                [
+                  "input-4",
+                  "FLPVLAGLTPSIVPKLVCLLTKKC"
+                ],
+                [
+                  "input-13",
+                  "FLPVLAGLTPSIVPKLVCLLTKKCFLPVLAGLTPSIVPKLVCLLTKKCFLPVLAGLTPSIVPKLVCLLTKKCFLPVLAGLTPSIVPKLVCLLTKKCFLP"
+                ]
+              ],
+              "limits": {
+                "mapping": {
+                  "max_records": 32,
+                  "max_input_bytes": 8192,
+                  "wall_seconds": 120,
+                  "memory_bytes": 4294967296,
+                  "intra_op_threads": 2,
+                  "blas_threads": 1,
+                  "cpu_ids": [
+                    0,
+                    1
+                  ],
+                  "nice": 10,
+                  "min_available_memory_bytes": 8589934592,
+                  "temporary_root": "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-corrected-inputs/adapter-work"
+                }
+              },
+              "retries": 0,
+              "elapsed_seconds": {
+                "float_hex": "0x1.5b9d1186a0000p+2"
+              },
+              "resource_controls": {
+                "mapping": {
+                  "address_space_bytes": 4294967296,
+                  "cpu_ids": [
+                    0,
+                    1
+                  ],
+                  "nice": 10,
+                  "numerical_environment": {
+                    "mapping": {
+                      "OPENBLAS_NUM_THREADS": "1",
+                      "OMP_NUM_THREADS": "1",
+                      "MKL_NUM_THREADS": "1",
+                      "NUMEXPR_NUM_THREADS": "1"
+                    }
+                  }
+                }
+              },
+              "macrel": {
+                "mapping": {
+                  "version": "1.6.1",
+                  "import_origin": "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/macrel/__init__.py",
+                  "distribution_root": "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages"
+                }
+              },
+              "native_source_sha256": {
+                "mapping": {
+                  "AMP_features.py": "0de3d3a0f99a531c8b61f4965c05aab222d07966d48d38a43fdaece8242c9a55",
+                  "AMP_predict.py": "424de48c69ad9455643d69249da3d820feddb0c1702172ade1936ddff43da6c9",
+                  "macrel_features.py": "16df0e11d5b84d3beb3433961b8477c648ef71cf08d93338306c084baca7ca04",
+                  "fasta.py": "090ef09cab37c81c4c75b13c8907ce2aff8166a335280bf5e6c3ab5532a582c8"
+                }
+              },
+              "assets": {
+                "mapping": {
+                  "AMP.onnx.gz": {
+                    "mapping": {
+                      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/macrel/data/models/AMP.onnx.gz",
+                      "sha256": "0a674ef6f774c26e6d2f80d550df3fc54973ae05bfeee1b9dfd905e027a4a388"
+                    }
+                  },
+                  "Hemo.onnx.gz": {
+                    "mapping": {
+                      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/macrel/data/models/Hemo.onnx.gz",
+                      "sha256": "6c68af240d43f6fde2eff64645f7f5cedf215b619e510b75c47b257b0713e8b1"
+                    }
+                  }
+                }
+              },
+              "molsysmt": {
+                "mapping": {
+                  "version": "0.23.0+286.g3781031d0",
+                  "import_origin": "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/molsysmt/__init__.py",
+                  "distribution_root": "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages"
+                }
+              },
+              "transport_sha256": "0b22435f54229a1897fdc7f2092f1dd96d46834a45c2ad076c61ba5e6520b1a4",
+              "native_features": {
+                "mapping": {
+                  "columns": [
+                    "sequence",
+                    "group",
+                    "tinyAA",
+                    "smallAA",
+                    "aliphaticAA",
+                    "aromaticAA",
+                    "nonpolarAA",
+                    "polarAA",
+                    "chargedAA",
+                    "basicAA",
+                    "acidicAA",
+                    "charge",
+                    "pI",
+                    "aindex",
+                    "instaindex",
+                    "boman",
+                    "hydrophobicity",
+                    "hmoment",
+                    "SA.Group1.residue0",
+                    "SA.Group2.residue0",
+                    "SA.Group3.residue0",
+                    "HB.Group1.residue0",
+                    "HB.Group2.residue0",
+                    "HB.Group3.residue0"
+                  ],
+                  "dtypes": [
+                    "str",
+                    "str",
+                    "float64",
+                    "float64",
+                    "float64",
+                    "float64",
+                    "float64",
+                    "float64",
+                    "float64",
+                    "float64",
+                    "float64",
+                    "float64",
+                    "float64",
+                    "float64",
+                    "float64",
+                    "float64",
+                    "float64",
+                    "float64",
+                    "float64",
+                    "float64",
+                    "float64",
+                    "float64",
+                    "float64",
+                    "float64"
+                  ],
+                  "index": [
+                    "input-0",
+                    "input-1",
+                    "input-2",
+                    "input-3",
+                    "input-4",
+                    "input-13"
+                  ],
+                  "values": [
+                    [
+                      "FLPVLAGLTPSIVPKLVCLLTKKC",
+                      "Unk",
+                      {
+                        "float_hex": "0x1.2aaaaaaaaaaabp-2"
+                      },
+                      {
+                        "float_hex": "0x1.1555555555555p-1"
+                      },
+                      {
+                        "float_hex": "0x1.d555555555555p-2"
+                      },
+                      {
+                        "float_hex": "0x1.5555555555555p-5"
+                      },
+                      {
+                        "float_hex": "0x1.8000000000000p-1"
+                      },
+                      {
+                        "float_hex": "0x1.0000000000000p-2"
+                      },
+                      {
+                        "float_hex": "0x1.0000000000000p-3"
+                      },
+                      {
+                        "float_hex": "0x1.0000000000000p-3"
+                      },
+                      {
+                        "float_hex": "0x0.0p+0"
+                      },
+                      {
+                        "float_hex": "0x1.7501a1fded2a8p+1"
+                      },
+                      {
+                        "float_hex": "0x1.355e800000000p+3"
+                      },
+                      {
+                        "float_hex": "0x1.3455555555555p+7"
+                      },
+                      {
+                        "float_hex": "0x1.5511111111112p+5"
+                      },
+                      {
+                        "float_hex": "-0x1.3c5f92c5f92c7p+0"
+                      },
+                      {
+                        "float_hex": "0x1.9258bf258bf25p-2"
+                      },
+                      {
+                        "float_hex": "0x1.0a334adf80c04p-1"
+                      },
+                      {
+                        "float_hex": "0x1.0aaaaaaaaaaaap+2"
+                      },
+                      {
+                        "float_hex": "0x1.f400000000000p+5"
+                      },
+                      {
+                        "float_hex": "0x1.9000000000000p+3"
+                      },
+                      {
+                        "float_hex": "0x1.0aaaaaaaaaaaap+3"
+                      },
+                      {
+                        "float_hex": "0x1.0aaaaaaaaaaaap+2"
+                      },
+                      {
+                        "float_hex": "0x1.9000000000000p+3"
+                      }
+                    ],
+                    [
+                      "HGRHVTLKDIVLDLQPPDPVGLHCYEQLVDSSEDEVDEVDGQDSQPLKQHFQIVTC",
+                      "Unk",
+                      {
+                        "float_hex": "0x1.6db6db6db6db7p-3"
+                      },
+                      {
+                        "float_hex": "0x1.0924924924925p-1"
+                      },
+                      {
+                        "float_hex": "0x1.1249249249249p-2"
+                      },
+                      {
+                        "float_hex": "0x1.b6db6db6db6dbp-4"
+                      },
+                      {
+                        "float_hex": "0x1.db6db6db6db6ep-2"
+                      },
+                      {
+                        "float_hex": "0x1.1249249249249p-1"
+                      },
+                      {
+                        "float_hex": "0x1.5b6db6db6db6ep-2"
+                      },
+                      {
+                        "float_hex": "0x1.0000000000000p-3"
+                      },
+                      {
+                        "float_hex": "0x1.b6db6db6db6dbp-3"
+                      },
+                      {
+                        "float_hex": "-0x1.03a6fe11c99cap+3"
+                      },
+                      {
+                        "float_hex": "0x1.094b000000000p+2"
+                      },
+                      {
+                        "float_hex": "0x1.6fdb6db6db6dbp+6"
+                      },
+                      {
+                        "float_hex": "0x1.3c1d41d41d41bp+5"
+                      },
+                      {
+                        "float_hex": "0x1.0570a3d70a3d7p+1"
+                      },
+                      {
+                        "float_hex": "-0x1.5f15f15f15f15p-5"
+                      },
+                      {
+                        "float_hex": "0x1.ebfd408407f7dp-2"
+                      },
+                      {
+                        "float_hex": "0x1.c924924924924p+1"
+                      },
+                      {
+                        "float_hex": "0x1.56db6db6db6dbp+2"
+                      },
+                      {
+                        "float_hex": "0x1.c924924924924p+0"
+                      },
+                      {
+                        "float_hex": "0x1.c924924924924p+1"
+                      },
+                      {
+                        "float_hex": "0x1.ac92492492492p+4"
+                      },
+                      {
+                        "float_hex": "0x1.c924924924924p+0"
+                      }
+                    ],
+                    [
+                      "AA",
+                      "Unk",
+                      {
+                        "float_hex": "0x1.0000000000000p+0"
+                      },
+                      {
+                        "float_hex": "0x1.0000000000000p+0"
+                      },
+                      {
+                        "float_hex": "0x1.0000000000000p+0"
+                      },
+                      {
+                        "float_hex": "0x0.0p+0"
+                      },
+                      {
+                        "float_hex": "0x1.0000000000000p+0"
+                      },
+                      {
+                        "float_hex": "0x0.0p+0"
+                      },
+                      {
+                        "float_hex": "0x0.0p+0"
+                      },
+                      {
+                        "float_hex": "0x0.0p+0"
+                      },
+                      {
+                        "float_hex": "0x0.0p+0"
+                      },
+                      {
+                        "float_hex": "-0x1.8af1745b690e0p-6"
+                      },
+                      {
+                        "float_hex": "0x1.8667000000000p+2"
+                      },
+                      {
+                        "float_hex": "0x1.9000000000000p+6"
+                      },
+                      {
+                        "float_hex": "0x1.4000000000000p+2"
+                      },
+                      {
+                        "float_hex": "-0x1.cf5c28f5c28f6p+0"
+                      },
+                      {
+                        "float_hex": "0x1.3d70a3d70a3d7p-1"
+                      },
+                      {
+                        "float_hex": "0x1.9817ceb174e9ep-2"
+                      },
+                      {
+                        "float_hex": "0x1.9000000000000p+5"
+                      },
+                      {
+                        "float_hex": "0x0.0p+0"
+                      },
+                      {
+                        "float_hex": "0x0.0p+0"
+                      },
+                      {
+                        "float_hex": "0x1.9000000000000p+5"
+                      },
+                      {
+                        "float_hex": "0x0.0p+0"
+                      },
+                      {
+                        "float_hex": "0x0.0p+0"
+                      }
+                    ],
+                    [
+                      "F",
+                      "Unk",
+                      {
+                        "float_hex": "0x0.0p+0"
+                      },
+                      {
+                        "float_hex": "0x0.0p+0"
+                      },
+                      {
+                        "float_hex": "0x0.0p+0"
+                      },
+                      {
+                        "float_hex": "0x1.0000000000000p+0"
+                      },
+                      {
+                        "float_hex": "0x1.0000000000000p+0"
+                      },
+                      {
+                        "float_hex": "0x0.0p+0"
+                      },
+                      {
+                        "float_hex": "0x0.0p+0"
+                      },
+                      {
+                        "float_hex": "0x0.0p+0"
+                      },
+                      {
+                        "float_hex": "0x0.0p+0"
+                      },
+                      {
+                        "float_hex": "-0x1.8af1745b690e0p-6"
+                      },
+                      {
+                        "float_hex": "0x1.8667000000000p+2"
+                      },
+                      {
+                        "float_hex": "0x0.0p+0"
+                      },
+                      {
+                        "float_hex": "0x0.0p+0"
+                      },
+                      {
+                        "float_hex": "-0x1.7d70a3d70a3d7p+1"
+                      },
+                      {
+                        "float_hex": "0x1.30a3d70a3d70ap+0"
+                      },
+                      {
+                        "float_hex": "0x1.30a3d70a3d70ap+0"
+                      },
+                      {
+                        "float_hex": "0x1.9000000000000p+6"
+                      },
+                      {
+                        "float_hex": "0x0.0p+0"
+                      },
+                      {
+                        "float_hex": "0x0.0p+0"
+                      },
+                      {
+                        "float_hex": "0x0.0p+0"
+                      },
+                      {
+                        "float_hex": "0x1.9000000000000p+6"
+                      },
+                      {
+                        "float_hex": "0x0.0p+0"
+                      }
+                    ],
+                    [
+                      "FLPVLAGLTPSIVPKLVCLLTKKC",
+                      "Unk",
+                      {
+                        "float_hex": "0x1.2aaaaaaaaaaabp-2"
+                      },
+                      {
+                        "float_hex": "0x1.1555555555555p-1"
+                      },
+                      {
+                        "float_hex": "0x1.d555555555555p-2"
+                      },
+                      {
+                        "float_hex": "0x1.5555555555555p-5"
+                      },
+                      {
+                        "float_hex": "0x1.8000000000000p-1"
+                      },
+                      {
+                        "float_hex": "0x1.0000000000000p-2"
+                      },
+                      {
+                        "float_hex": "0x1.0000000000000p-3"
+                      },
+                      {
+                        "float_hex": "0x1.0000000000000p-3"
+                      },
+                      {
+                        "float_hex": "0x0.0p+0"
+                      },
+                      {
+                        "float_hex": "0x1.7501a1fded2a8p+1"
+                      },
+                      {
+                        "float_hex": "0x1.355e800000000p+3"
+                      },
+                      {
+                        "float_hex": "0x1.3455555555555p+7"
+                      },
+                      {
+                        "float_hex": "0x1.5511111111112p+5"
+                      },
+                      {
+                        "float_hex": "-0x1.3c5f92c5f92c7p+0"
+                      },
+                      {
+                        "float_hex": "0x1.9258bf258bf25p-2"
+                      },
+                      {
+                        "float_hex": "0x1.0a334adf80c04p-1"
+                      },
+                      {
+                        "float_hex": "0x1.0aaaaaaaaaaaap+2"
+                      },
+                      {
+                        "float_hex": "0x1.f400000000000p+5"
+                      },
+                      {
+                        "float_hex": "0x1.9000000000000p+3"
+                      },
+                      {
+                        "float_hex": "0x1.0aaaaaaaaaaaap+3"
+                      },
+                      {
+                        "float_hex": "0x1.0aaaaaaaaaaaap+2"
+                      },
+                      {
+                        "float_hex": "0x1.9000000000000p+3"
+                      }
+                    ],
+                    [
+                      "FLPVLAGLTPSIVPKLVCLLTKKCFLPVLAGLTPSIVPKLVCLLTKKCFLPVLAGLTPSIVPKLVCLLTKKCFLPVLAGLTPSIVPKLVCLLTKKCFLP",
+                      "Unk",
+                      {
+                        "float_hex": "0x1.219dbcc48676fp-2"
+                      },
+                      {
+                        "float_hex": "0x1.1219dbcc48677p-1"
+                      },
+                      {
+                        "float_hex": "0x1.d1745d1745d17p-2"
+                      },
+                      {
+                        "float_hex": "0x1.9dbcc48676f31p-5"
+                      },
+                      {
+                        "float_hex": "0x1.83e0f83e0f83ep-1"
+                      },
+                      {
+                        "float_hex": "0x1.f07c1f07c1f08p-3"
+                      },
+                      {
+                        "float_hex": "0x1.f07c1f07c1f08p-4"
+                      },
+                      {
+                        "float_hex": "0x1.f07c1f07c1f08p-4"
+                      },
+                      {
+                        "float_hex": "0x0.0p+0"
+                      },
+                      {
+                        "float_hex": "0x1.77520c2c76482p+3"
+                      },
+                      {
+                        "float_hex": "0x1.4b1f800000000p+3"
+                      },
+                      {
+                        "float_hex": "0x1.32de62433b798p+7"
+                      },
+                      {
+                        "float_hex": "0x1.5f24b81cf62c5p+5"
+                      },
+                      {
+                        "float_hex": "-0x1.4736ec736ec74p+0"
+                      },
+                      {
+                        "float_hex": "0x1.9eab14955bf3fp-2"
+                      },
+                      {
+                        "float_hex": "0x1.0a334adf80c04p-1"
+                      },
+                      {
+                        "float_hex": "0x1.0295fad40a57fp+0"
+                      },
+                      {
+                        "float_hex": "0x1.e4d9364d9364ep+3"
+                      },
+                      {
+                        "float_hex": "0x1.83e0f83e0f83ep+1"
+                      },
+                      {
+                        "float_hex": "0x1.0295fad40a57fp+1"
+                      },
+                      {
+                        "float_hex": "0x1.0295fad40a57fp+0"
+                      },
+                      {
+                        "float_hex": "0x1.83e0f83e0f83ep+1"
+                      }
+                    ]
+                  ]
+                }
+              },
+              "native_configuration": {
+                "mapping": {
+                  "intra_op_num_threads": 2,
+                  "inter_op_num_threads": 1,
+                  "execution_mode": "ORT_SEQUENTIAL",
+                  "spinning": false
+                }
+              },
+              "native_predictions": {
+                "mapping": {
+                  "columns": [
+                    "Sequence",
+                    "AMP_family",
+                    "is_AMP",
+                    "AMP_probability",
+                    "Hemolytic",
+                    "Hemolytic_probability"
+                  ],
+                  "dtypes": [
+                    "str",
+                    "str",
+                    "bool",
+                    "float64",
+                    "str",
+                    "float64"
+                  ],
+                  "index": [
+                    "input-0",
+                    "input-1",
+                    "input-2",
+                    "input-3",
+                    "input-4",
+                    "input-13"
+                  ],
+                  "values": [
+                    [
+                      "FLPVLAGLTPSIVPKLVCLLTKKC",
+                      "CDP",
+                      true,
+                      {
+                        "float_hex": "0x1.0000000000000p+0"
+                      },
+                      "Hemo",
+                      {
+                        "float_hex": "0x1.d772100000000p-1"
+                      }
+                    ],
+                    [
+                      "HGRHVTLKDIVLDLQPPDPVGLHCYEQLVDSSEDEVDEVDGQDSQPLKQHFQIVTC",
+                      "ADP",
+                      false,
+                      {
+                        "float_hex": "0x1.958be00000000p-5"
+                      },
+                      "NonHemo",
+                      {
+                        "float_hex": "0x1.958be00000000p-5"
+                      }
+                    ],
+                    [
+                      "AA",
+                      "CLP",
+                      true,
+                      {
+                        "float_hex": "0x1.079aa00000000p-1"
+                      },
+                      "NonHemo",
+                      {
+                        "float_hex": "0x1.8144780000000p-2"
+                      }
+                    ],
+                    [
+                      "F",
+                      "CLP",
+                      false,
+                      {
+                        "float_hex": "0x1.958b700000000p-2"
+                      },
+                      "NonHemo",
+                      {
+                        "float_hex": "0x1.26051c0000000p-2"
+                      }
+                    ],
+                    [
+                      "FLPVLAGLTPSIVPKLVCLLTKKC",
+                      "CDP",
+                      true,
+                      {
+                        "float_hex": "0x1.0000000000000p+0"
+                      },
+                      "Hemo",
+                      {
+                        "float_hex": "0x1.d772100000000p-1"
+                      }
+                    ],
+                    [
+                      "FLPVLAGLTPSIVPKLVCLLTKKCFLPVLAGLTPSIVPKLVCLLTKKCFLPVLAGLTPSIVPKLVCLLTKKCFLPVLAGLTPSIVPKLVCLLTKKCFLP",
+                      "CDP",
+                      false,
+                      {
+                        "float_hex": "0x1.446fc00000000p-4"
+                      },
+                      "Hemo",
+                      {
+                        "float_hex": "0x1.446f880000000p-1"
+                      }
+                    ]
+                  ]
+                }
+              },
+              "runtime": {
+                "mapping": {
+                  "numpy": "2.5.4",
+                  "pandas": "3.1.0",
+                  "onnxruntime": "1.25.1",
+                  "biopython": "1.88",
+                  "depdigest": "0.15.1",
+                  "smonitor": "0.22.0"
+                }
+              },
+              "python": "3.14.10 | packaged by conda-forge | (main, Oct 26 2026, 11:35:38) [GCC 15.3.0]",
+              "executable": "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/bin/python",
+              "cpu_provider": "CPUExecutionProvider",
+              "resource_usage": {
+                "mapping": {
+                  "peak_rss_bytes": 537694208,
+                  "user_cpu_seconds": {
+                    "float_hex": "0x1.0dbf2f5558213p+2"
+                  },
+                  "system_cpu_seconds": {
+                    "float_hex": "0x1.459d99029ae4fp-2"
+                  }
+                }
+              },
+              "scientific_attribution": {
+                "mapping": {
+                  "schema": "peptidemt.scientific_attribution@1",
+                  "producer": {
+                    "mapping": {
+                      "name": "PeptideMT",
+                      "version": "0.1.0+95.g7a299d1"
+                    }
+                  },
+                  "completed_operations": [
+                    "molecular_serialization",
+                    "native_features",
+                    "native_predictions"
+                  ],
+                  "bibliography": [
+                    {
+                      "mapping": {
+                        "item": {
+                          "mapping": {
+                            "id": "software:PeptideMT:0.1.0+95.g7a299d1",
+                            "type": "software",
+                            "title": "PeptideMT",
+                            "version": "0.1.0+95.g7a299d1",
+                            "url": "https://github.com/uibcdf/peptidemt"
+                          }
+                        },
+                        "roles": [
+                          "executed_software"
+                        ],
+                        "context": {
+                          "mapping": {
+                            "software": "PeptideMT",
+                            "version": "0.1.0+95.g7a299d1",
+                            "completed_operations": [
+                              "molecular_serialization",
+                              "native_features",
+                              "native_predictions"
+                            ]
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "mapping": {
+                        "item": {
+                          "mapping": {
+                            "id": "software:MolSysMT:0.23.0+286.g3781031d0",
+                            "type": "software",
+                            "title": "MolSysMT",
+                            "version": "0.23.0+286.g3781031d0",
+                            "url": "https://github.com/uibcdf/molsysmt"
+                          }
+                        },
+                        "roles": [
+                          "executed_software"
+                        ],
+                        "context": {
+                          "mapping": {
+                            "software": "MolSysMT",
+                            "version": "0.23.0+286.g3781031d0",
+                            "completed_operations": [
+                              "molecular_serialization"
+                            ]
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "mapping": {
+                        "item": {
+                          "mapping": {
+                            "id": "software:Macrel:1.6.1",
+                            "type": "software",
+                            "title": "Macrel",
+                            "version": "1.6.1",
+                            "url": "https://github.com/BigDataBiology/macrel"
+                          }
+                        },
+                        "roles": [
+                          "executed_software"
+                        ],
+                        "context": {
+                          "mapping": {
+                            "software": "Macrel",
+                            "version": "1.6.1",
+                            "completed_operations": [
+                              "native_features",
+                              "native_predictions"
+                            ]
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "mapping": {
+                        "item": {
+                          "mapping": {
+                            "id": "doi:10.7717/peerj.10555",
+                            "type": "article",
+                            "title": "Macrel: antimicrobial peptide screening in genomes and metagenomes",
+                            "author": "Santos-Júnior CD and Pan S and Zhao X and Coelho LP",
+                            "year": "2020",
+                            "journal": "PeerJ",
+                            "volume": "8",
+                            "pages": "e10555",
+                            "doi": "10.7717/peerj.10555"
+                          }
+                        },
+                        "roles": [
+                          "scientific_criterion",
+                          "software_description"
+                        ],
+                        "context": {
+                          "mapping": {
+                            "software": "Macrel",
+                            "version": "1.6.1",
+                            "completed_operations": [
+                              "native_features",
+                              "native_predictions"
+                            ]
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "mapping": {
+                        "item": {
+                          "mapping": {
+                            "id": "implementation:macrel:1.6.1:modlamp-descriptors",
+                            "type": "software",
+                            "title": "modlAMP-derived descriptors adapted inside Macrel",
+                            "url": "https://github.com/BigDataBiology/macrel/blob/190462605913844dca74b184869755609fbb20b2/macrel/macrel_features.py"
+                          }
+                        },
+                        "roles": [
+                          "reference_implementation"
+                        ],
+                        "context": {
+                          "mapping": {
+                            "software": "modlAMP",
+                            "version": null,
+                            "executed_dependency": false,
+                            "adapted_in": "Macrel 1.6.1",
+                            "completed_operations": [
+                              "native_features"
+                            ]
+                          }
+                        }
+                      }
+                    }
+                  ],
+                  "status": "captured",
+                  "ackredit": {
+                    "mapping": {
+                      "schema": "ackredit.attribution@1",
+                      "name": "W3-mixed-pool",
+                      "context": {
+                        "mapping": {
+                          "producer": {
+                            "mapping": {
+                              "name": "PeptideMT",
+                              "version": "0.1.0+95.g7a299d1"
+                            }
+                          },
+                          "snapshot_id": "W3-mixed-pool",
+                          "completed_operations": [
+                            "molecular_serialization",
+                            "native_features",
+                            "native_predictions"
+                          ]
+                        }
+                      },
+                      "items": [
+                        {
+                          "mapping": {
+                            "id": "software:PeptideMT:0.1.0+95.g7a299d1",
+                            "type": "software",
+                            "title": "PeptideMT",
+                            "version": "0.1.0+95.g7a299d1",
+                            "url": "https://github.com/uibcdf/peptidemt"
+                          }
+                        },
+                        {
+                          "mapping": {
+                            "id": "software:MolSysMT:0.23.0+286.g3781031d0",
+                            "type": "software",
+                            "title": "MolSysMT",
+                            "version": "0.23.0+286.g3781031d0",
+                            "url": "https://github.com/uibcdf/molsysmt"
+                          }
+                        },
+                        {
+                          "mapping": {
+                            "id": "software:Macrel:1.6.1",
+                            "type": "software",
+                            "title": "Macrel",
+                            "version": "1.6.1",
+                            "url": "https://github.com/BigDataBiology/macrel"
+                          }
+                        },
+                        {
+                          "mapping": {
+                            "id": "doi:10.7717/peerj.10555",
+                            "type": "article",
+                            "title": "Macrel: antimicrobial peptide screening in genomes and metagenomes",
+                            "author": "Santos-Júnior CD and Pan S and Zhao X and Coelho LP",
+                            "year": "2020",
+                            "journal": "PeerJ",
+                            "volume": "8",
+                            "pages": "e10555",
+                            "doi": "10.7717/peerj.10555"
+                          }
+                        },
+                        {
+                          "mapping": {
+                            "id": "implementation:macrel:1.6.1:modlamp-descriptors",
+                            "type": "software",
+                            "title": "modlAMP-derived descriptors adapted inside Macrel",
+                            "url": "https://github.com/BigDataBiology/macrel/blob/190462605913844dca74b184869755609fbb20b2/macrel/macrel_features.py"
+                          }
+                        }
+                      ],
+                      "uses": [
+                        {
+                          "mapping": {
+                            "item_id": "software:PeptideMT:0.1.0+95.g7a299d1",
+                            "used_by": "peptidemt.assess_macrel",
+                            "roles": [
+                              "executed_software"
+                            ],
+                            "context": {
+                              "mapping": {
+                                "software": "PeptideMT",
+                                "version": "0.1.0+95.g7a299d1",
+                                "completed_operations": [
+                                  "molecular_serialization",
+                                  "native_features",
+                                  "native_predictions"
+                                ],
+                                "snapshot_id": "W3-mixed-pool"
+                              }
+                            }
+                          }
+                        },
+                        {
+                          "mapping": {
+                            "item_id": "software:MolSysMT:0.23.0+286.g3781031d0",
+                            "used_by": "peptidemt.assess_macrel",
+                            "roles": [
+                              "executed_software"
+                            ],
+                            "context": {
+                              "mapping": {
+                                "software": "MolSysMT",
+                                "version": "0.23.0+286.g3781031d0",
+                                "completed_operations": [
+                                  "molecular_serialization"
+                                ],
+                                "snapshot_id": "W3-mixed-pool"
+                              }
+                            }
+                          }
+                        },
+                        {
+                          "mapping": {
+                            "item_id": "software:Macrel:1.6.1",
+                            "used_by": "peptidemt.assess_macrel",
+                            "roles": [
+                              "executed_software"
+                            ],
+                            "context": {
+                              "mapping": {
+                                "software": "Macrel",
+                                "version": "1.6.1",
+                                "completed_operations": [
+                                  "native_features",
+                                  "native_predictions"
+                                ],
+                                "snapshot_id": "W3-mixed-pool"
+                              }
+                            }
+                          }
+                        },
+                        {
+                          "mapping": {
+                            "item_id": "doi:10.7717/peerj.10555",
+                            "used_by": "peptidemt.assess_macrel",
+                            "roles": [
+                              "scientific_criterion",
+                              "software_description"
+                            ],
+                            "context": {
+                              "mapping": {
+                                "software": "Macrel",
+                                "version": "1.6.1",
+                                "completed_operations": [
+                                  "native_features",
+                                  "native_predictions"
+                                ],
+                                "snapshot_id": "W3-mixed-pool"
+                              }
+                            }
+                          }
+                        },
+                        {
+                          "mapping": {
+                            "item_id": "implementation:macrel:1.6.1:modlamp-descriptors",
+                            "used_by": "peptidemt.assess_macrel",
+                            "roles": [
+                              "reference_implementation"
+                            ],
+                            "context": {
+                              "mapping": {
+                                "software": "modlAMP",
+                                "version": null,
+                                "executed_dependency": false,
+                                "adapted_in": "Macrel 1.6.1",
+                                "completed_operations": [
+                                  "native_features"
+                                ],
+                                "snapshot_id": "W3-mixed-pool"
+                              }
+                            }
+                          }
+                        }
+                      ],
+                      "usage_tree": {
+                        "mapping": {
+                          "peptidemt.assess_macrel": {
+                            "mapping": {
+                              "items": [
+                                "doi:10.7717/peerj.10555",
+                                "implementation:macrel:1.6.1:modlamp-descriptors",
+                                "software:Macrel:1.6.1",
+                                "software:MolSysMT:0.23.0+286.g3781031d0",
+                                "software:PeptideMT:0.1.0+95.g7a299d1"
+                              ],
+                              "children": []
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "provider_version": "0.9.0"
+                }
+              }
+            }
+          }
+        }
+      },
+      "failures": {
+        "mapping": {}
+      }
+    }
+  }
+}

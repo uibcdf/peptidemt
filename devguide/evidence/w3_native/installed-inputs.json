@@ -1,0 +1,36 @@
+{
+  "source_commit": "7a299d1a9e1b264c2f872e94d35b76d67c548a0a",
+  "versions": {
+    "peptidemt": "0.1.0+95.g7a299d1",
+    "macrel": "1.6.1",
+    "molsysmt": "0.23.0+286.g3781031d0",
+    "molsysviewer": "0.24.0",
+    "onnxruntime": "1.25.1",
+    "numpy": "2.5.4",
+    "pandas": "3.1.0",
+    "biopython": "1.88",
+    "pyrodigal": "3.7.1",
+    "ackredit": "0.9.0",
+    "depdigest": "0.15.1",
+    "smonitor": "0.22.0",
+    "argdigest": "0.17.0"
+  },
+  "macrel_installed_sources_match_candidate_wheel": true,
+  "molsysmt_owner_source_commit": "3781031d0c1d08f34b2aa966ad0b82bf3b64a31d",
+  "molsysmt_source_fix": "fd436fc7859591024586d003e327c134d45895e7",
+  "molsysmt_unpublished_wheel_sha256": "36fc0ffc34447727ee65cca6ce5313e45b7abd48a63dfa0ff02cc8abc8ced9a7",
+  "peptidemt_wheel_sha256": "1630710869dfd615d4067e145a5e9fd0c2f75ce2f08b3dafa4d940f4e916f17d",
+  "provider_build_tools": {
+    "python": "3.14.7 shared development profile",
+    "cargo": "1.98.1",
+    "rustc": "1.98.1",
+    "jobs": 2,
+    "nice": 10,
+    "cpu_ids": [
+      0,
+      1
+    ]
+  },
+  "prior_public_provider_failure": "MolsysMT 0.23.0 SeqRecord recognizer compares against wrong Python fullname; owner #359 source fix adopted without editing provider source",
+  "model_calls_so_far": 0
+}

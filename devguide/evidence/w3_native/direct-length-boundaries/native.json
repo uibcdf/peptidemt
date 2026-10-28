@@ -1,0 +1,554 @@
+{
+  "mapping": {
+    "sessions": [
+      {
+        "mapping": {
+          "model_bytes_sha256": "90d7fea888758a5c1426949cb21a33ed132bfde2216d85324ab6ebc939d59cb4",
+          "providers": [
+            "CPUExecutionProvider"
+          ],
+          "runs": [
+            {
+              "mapping": {
+                "outputs": [
+                  "output_probability"
+                ],
+                "inputs": {
+                  "mapping": {
+                    "input_features": {
+                      "mapping": {
+                        "shape": [
+                          4,
+                          22
+                        ],
+                        "dtype": "float32"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          ],
+          "intra_op_threads": 2,
+          "inter_op_threads": 1,
+          "spinning": "0"
+        }
+      },
+      {
+        "mapping": {
+          "model_bytes_sha256": "172d8ca1b45eeadcfdac9631d6915368bd962177e19d2991e0bdab9fbaea8724",
+          "providers": [
+            "CPUExecutionProvider"
+          ],
+          "runs": [
+            {
+              "mapping": {
+                "outputs": [
+                  "output_probability"
+                ],
+                "inputs": {
+                  "mapping": {
+                    "input_features": {
+                      "mapping": {
+                        "shape": [
+                          4,
+                          22
+                        ],
+                        "dtype": "float32"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          ],
+          "intra_op_threads": 2,
+          "inter_op_threads": 1,
+          "spinning": "0"
+        }
+      }
+    ],
+    "warnings": [
+      {
+        "mapping": {
+          "level": "WARNING",
+          "message": "Warning: some input sequences are longer than 100 amino-acids. Macrel models were developed and tested for short peptides (<100 amino-acids). Applying them on longer ones will return a result, but these should be considered less reliable."
+        }
+      }
+    ],
+    "identities": {
+      "mapping": {
+        "macrel": {
+          "mapping": {
+            "version": "1.6.1",
+            "import_origin": "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/macrel/__init__.py",
+            "distribution_root": "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages"
+          }
+        },
+        "molsysmt": {
+          "mapping": {
+            "version": "0.23.0+286.g3781031d0",
+            "import_origin": "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/molsysmt/__init__.py",
+            "distribution_root": "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages"
+          }
+        },
+        "onnxruntime": {
+          "mapping": {
+            "version": "1.25.1",
+            "import_origin": "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/onnxruntime/__init__.py",
+            "distribution_root": "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages"
+          }
+        }
+      }
+    },
+    "features": {
+      "mapping": {
+        "columns": [
+          "sequence",
+          "group",
+          "tinyAA",
+          "smallAA",
+          "aliphaticAA",
+          "aromaticAA",
+          "nonpolarAA",
+          "polarAA",
+          "chargedAA",
+          "basicAA",
+          "acidicAA",
+          "charge",
+          "pI",
+          "aindex",
+          "instaindex",
+          "boman",
+          "hydrophobicity",
+          "hmoment",
+          "SA.Group1.residue0",
+          "SA.Group2.residue0",
+          "SA.Group3.residue0",
+          "HB.Group1.residue0",
+          "HB.Group2.residue0",
+          "HB.Group3.residue0"
+        ],
+        "dtypes": [
+          "str",
+          "str",
+          "float64",
+          "float64",
+          "float64",
+          "float64",
+          "float64",
+          "float64",
+          "float64",
+          "float64",
+          "float64",
+          "float64",
+          "float64",
+          "float64",
+          "float64",
+          "float64",
+          "float64",
+          "float64",
+          "float64",
+          "float64",
+          "float64",
+          "float64",
+          "float64",
+          "float64"
+        ],
+        "index": [
+          "length-99",
+          "length-100",
+          "length-109",
+          "length-110"
+        ],
+        "values": [
+          [
+            "FLPVLAGLTPSIVPKLVCLLTKKCFLPVLAGLTPSIVPKLVCLLTKKCFLPVLAGLTPSIVPKLVCLLTKKCFLPVLAGLTPSIVPKLVCLLTKKCFLP",
+            "Unk",
+            {
+              "float_hex": "0x1.219dbcc48676fp-2"
+            },
+            {
+              "float_hex": "0x1.1219dbcc48677p-1"
+            },
+            {
+              "float_hex": "0x1.d1745d1745d17p-2"
+            },
+            {
+              "float_hex": "0x1.9dbcc48676f31p-5"
+            },
+            {
+              "float_hex": "0x1.83e0f83e0f83ep-1"
+            },
+            {
+              "float_hex": "0x1.f07c1f07c1f08p-3"
+            },
+            {
+              "float_hex": "0x1.f07c1f07c1f08p-4"
+            },
+            {
+              "float_hex": "0x1.f07c1f07c1f08p-4"
+            },
+            {
+              "float_hex": "0x0.0p+0"
+            },
+            {
+              "float_hex": "0x1.77520c2c76482p+3"
+            },
+            {
+              "float_hex": "0x1.4b1f800000000p+3"
+            },
+            {
+              "float_hex": "0x1.32de62433b798p+7"
+            },
+            {
+              "float_hex": "0x1.5f24b81cf62c5p+5"
+            },
+            {
+              "float_hex": "-0x1.4736ec736ec74p+0"
+            },
+            {
+              "float_hex": "0x1.9eab14955bf3fp-2"
+            },
+            {
+              "float_hex": "0x1.0a334adf80c04p-1"
+            },
+            {
+              "float_hex": "0x1.0295fad40a57fp+0"
+            },
+            {
+              "float_hex": "0x1.e4d9364d9364ep+3"
+            },
+            {
+              "float_hex": "0x1.83e0f83e0f83ep+1"
+            },
+            {
+              "float_hex": "0x1.0295fad40a57fp+1"
+            },
+            {
+              "float_hex": "0x1.0295fad40a57fp+0"
+            },
+            {
+              "float_hex": "0x1.83e0f83e0f83ep+1"
+            }
+          ],
+          [
+            "FLPVLAGLTPSIVPKLVCLLTKKCFLPVLAGLTPSIVPKLVCLLTKKCFLPVLAGLTPSIVPKLVCLLTKKCFLPVLAGLTPSIVPKLVCLLTKKCFLPV",
+            "Unk",
+            {
+              "float_hex": "0x1.1eb851eb851ecp-2"
+            },
+            {
+              "float_hex": "0x1.147ae147ae148p-1"
+            },
+            {
+              "float_hex": "0x1.d70a3d70a3d71p-2"
+            },
+            {
+              "float_hex": "0x1.999999999999ap-5"
+            },
+            {
+              "float_hex": "0x1.851eb851eb852p-1"
+            },
+            {
+              "float_hex": "0x1.eb851eb851eb8p-3"
+            },
+            {
+              "float_hex": "0x1.eb851eb851eb8p-4"
+            },
+            {
+              "float_hex": "0x1.eb851eb851eb8p-4"
+            },
+            {
+              "float_hex": "0x0.0p+0"
+            },
+            {
+              "float_hex": "0x1.77520c2c76482p+3"
+            },
+            {
+              "float_hex": "0x1.4b1f800000000p+3"
+            },
+            {
+              "float_hex": "0x1.3599999999999p+7"
+            },
+            {
+              "float_hex": "0x1.6bd70a3d70a3cp+5"
+            },
+            {
+              "float_hex": "-0x1.4e48e8a71de6ap+0"
+            },
+            {
+              "float_hex": "0x1.a594af4f0d845p-2"
+            },
+            {
+              "float_hex": "0x1.0a334adf80c04p-1"
+            },
+            {
+              "float_hex": "0x1.0000000000000p+0"
+            },
+            {
+              "float_hex": "0x1.e000000000000p+3"
+            },
+            {
+              "float_hex": "0x1.8000000000000p+1"
+            },
+            {
+              "float_hex": "0x1.0000000000000p+1"
+            },
+            {
+              "float_hex": "0x1.0000000000000p+0"
+            },
+            {
+              "float_hex": "0x1.8000000000000p+1"
+            }
+          ],
+          [
+            "FLPVLAGLTPSIVPKLVCLLTKKCFLPVLAGLTPSIVPKLVCLLTKKCFLPVLAGLTPSIVPKLVCLLTKKCFLPVLAGLTPSIVPKLVCLLTKKCFLPVLAGLTPSIV",
+            "Unk",
+            {
+              "float_hex": "0x1.2c9fb4d812ca0p-2"
+            },
+            {
+              "float_hex": "0x1.19d5b98a919d6p-1"
+            },
+            {
+              "float_hex": "0x1.df1e88385df1fp-2"
+            },
+            {
+              "float_hex": "0x1.77c7a20e177c8p-5"
+            },
+            {
+              "float_hex": "0x1.85df1e88385dfp-1"
+            },
+            {
+              "float_hex": "0x1.e88385df1e884p-3"
+            },
+            {
+              "float_hex": "0x1.c2ef8f441c2f0p-4"
+            },
+            {
+              "float_hex": "0x1.c2ef8f441c2f0p-4"
+            },
+            {
+              "float_hex": "0x0.0p+0"
+            },
+            {
+              "float_hex": "0x1.77520c2c76482p+3"
+            },
+            {
+              "float_hex": "0x1.4b1f800000000p+3"
+            },
+            {
+              "float_hex": "0x1.38a919d5b98a9p+7"
+            },
+            {
+              "float_hex": "0x1.5c4ee9ec4584dp+5"
+            },
+            {
+              "float_hex": "-0x1.57465d619bdaep+0"
+            },
+            {
+              "float_hex": "0x1.b719456ce1d80p-2"
+            },
+            {
+              "float_hex": "0x1.0a334adf80c04p-1"
+            },
+            {
+              "float_hex": "0x1.d5b98a919d5bap-1"
+            },
+            {
+              "float_hex": "0x1.b85df1e88385ep+3"
+            },
+            {
+              "float_hex": "0x1.604b27ed3604cp+1"
+            },
+            {
+              "float_hex": "0x1.d5b98a919d5bap+0"
+            },
+            {
+              "float_hex": "0x1.d5b98a919d5bap-1"
+            },
+            {
+              "float_hex": "0x1.604b27ed3604cp+1"
+            }
+          ],
+          [
+            "FLPVLAGLTPSIVPKLVCLLTKKCFLPVLAGLTPSIVPKLVCLLTKKCFLPVLAGLTPSIVPKLVCLLTKKCFLPVLAGLTPSIVPKLVCLLTKKCFLPVLAGLTPSIVP",
+            "Unk",
+            {
+              "float_hex": "0x1.29e4129e4129ep-2"
+            },
+            {
+              "float_hex": "0x1.1bed61bed61bfp-1"
+            },
+            {
+              "float_hex": "0x1.dac37dac37dacp-2"
+            },
+            {
+              "float_hex": "0x1.745d1745d1746p-5"
+            },
+            {
+              "float_hex": "0x1.86fb586fb5870p-1"
+            },
+            {
+              "float_hex": "0x1.e4129e4129e41p-3"
+            },
+            {
+              "float_hex": "0x1.bed61bed61bedp-4"
+            },
+            {
+              "float_hex": "0x1.bed61bed61bedp-4"
+            },
+            {
+              "float_hex": "0x0.0p+0"
+            },
+            {
+              "float_hex": "0x1.77520c2c76482p+3"
+            },
+            {
+              "float_hex": "0x1.4b1f800000000p+3"
+            },
+            {
+              "float_hex": "0x1.35d1745d1745dp+7"
+            },
+            {
+              "float_hex": "0x1.67e0595e0595cp+5"
+            },
+            {
+              "float_hex": "-0x1.54277875aabaap+0"
+            },
+            {
+              "float_hex": "0x1.b4395810624ddp-2"
+            },
+            {
+              "float_hex": "0x1.0a334adf80c04p-1"
+            },
+            {
+              "float_hex": "0x1.d1745d1745d17p-1"
+            },
+            {
+              "float_hex": "0x1.b45d1745d1745p+3"
+            },
+            {
+              "float_hex": "0x1.5d1745d1745d1p+1"
+            },
+            {
+              "float_hex": "0x1.d1745d1745d17p+0"
+            },
+            {
+              "float_hex": "0x1.d1745d1745d17p-1"
+            },
+            {
+              "float_hex": "0x1.5d1745d1745d1p+1"
+            }
+          ]
+        ]
+      }
+    },
+    "predictions": {
+      "mapping": {
+        "columns": [
+          "Sequence",
+          "AMP_family",
+          "is_AMP",
+          "AMP_probability",
+          "Hemolytic",
+          "Hemolytic_probability"
+        ],
+        "dtypes": [
+          "str",
+          "str",
+          "bool",
+          "float64",
+          "str",
+          "float64"
+        ],
+        "index": [
+          "length-99",
+          "length-100",
+          "length-109",
+          "length-110"
+        ],
+        "values": [
+          [
+            "FLPVLAGLTPSIVPKLVCLLTKKCFLPVLAGLTPSIVPKLVCLLTKKCFLPVLAGLTPSIVPKLVCLLTKKCFLPVLAGLTPSIVPKLVCLLTKKCFLP",
+            "CDP",
+            false,
+            {
+              "float_hex": "0x1.446fc00000000p-4"
+            },
+            "Hemo",
+            {
+              "float_hex": "0x1.446f880000000p-1"
+            }
+          ],
+          [
+            "FLPVLAGLTPSIVPKLVCLLTKKCFLPVLAGLTPSIVPKLVCLLTKKCFLPVLAGLTPSIVPKLVCLLTKKCFLPVLAGLTPSIVPKLVCLLTKKCFLPV",
+            "CDP",
+            false,
+            {
+              "float_hex": "0x1.1be1d00000000p-4"
+            },
+            "Hemo",
+            {
+              "float_hex": "0x1.4981480000000p-1"
+            }
+          ],
+          [
+            "FLPVLAGLTPSIVPKLVCLLTKKCFLPVLAGLTPSIVPKLVCLLTKKCFLPVLAGLTPSIVPKLVCLLTKKCFLPVLAGLTPSIVPKLVCLLTKKCFLPVLAGLTPSIV",
+            "CDP",
+            false,
+            {
+              "float_hex": "0x1.958be00000000p-5"
+            },
+            "Hemo",
+            {
+              "float_hex": "0x1.446f880000000p-1"
+            }
+          ],
+          [
+            "FLPVLAGLTPSIVPKLVCLLTKKCFLPVLAGLTPSIVPKLVCLLTKKCFLPVLAGLTPSIVPKLVCLLTKKCFLPVLAGLTPSIVPKLVCLLTKKCFLPVLAGLTPSIVP",
+            "CDP",
+            false,
+            {
+              "float_hex": "0x1.958be00000000p-5"
+            },
+            "Hemo",
+            {
+              "float_hex": "0x1.446f880000000p-1"
+            }
+          ]
+        ]
+      }
+    },
+    "resource_controls": {
+      "mapping": {
+        "address_space_bytes": 4294967296,
+        "cpu_ids": [
+          0,
+          1
+        ],
+        "nice": 10,
+        "numerical_environment": {
+          "mapping": {
+            "OPENBLAS_NUM_THREADS": "1",
+            "OMP_NUM_THREADS": "1",
+            "MKL_NUM_THREADS": "1",
+            "NUMEXPR_NUM_THREADS": "1"
+          }
+        }
+      }
+    },
+    "resource_usage": {
+      "mapping": {
+        "peak_rss_bytes": 538980352,
+        "user_cpu_seconds": {
+          "float_hex": "0x1.034fce746cb96p+2"
+        },
+        "system_cpu_seconds": {
+          "float_hex": "0x1.655a7d24180d4p-2"
+        }
+      }
+    }
+  }
+}

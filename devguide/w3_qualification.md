@@ -1,6 +1,7 @@
 # W3 installed Macrel qualification preparation
 
-Status: **preparation; revised shared-host envelope authorized on 2026-10-28**.
+Status: **four authorized calls completed; computational evidence received locally,
+investigator acceptance separate**. See the [W3 assessment](w3_assessment.md).
 Owner: [PeptideMT #6](https://github.com/uibcdf/peptidemt/issues/6).
 Navigation: [work order](increment_1_work_order.md) · [M1–M8](v0_1_increment_1.md#5-acceptance-specification-for-increment-1)
 · [W2 boundary](w2_macrel.md) · [governance](governance.md).
@@ -10,8 +11,9 @@ Navigation: [work order](increment_1_work_order.md) · [M1–M8](v0_1_increment_
 Candidate: official PyPI `macrel-1.6.1-py3-none-any.whl`, 1,843,654 bytes,
 SHA-256 `7c0bf4c5d2fc98d02dd797522d92c2345c7c011ca818fe3e017fe2fd3aa22ef1`.
 The downloaded file matches the PyPI 1.6.1 JSON digest. Inspection reads the
-archive and gzip payloads only; Macrel has not been installed or imported and
-neither ONNX head has executed.
+archive and gzip payloads only. At that initial preflight, Macrel had not been
+installed/imported and neither head had executed. The later assessment records
+the installed execution separately; these candidate byte identities remain exact.
 
 | Installed asset candidate | Compressed SHA-256 | Uncompressed SHA-256 |
 | --- | --- | --- |
@@ -84,7 +86,9 @@ not scientific bundle acceptance, larger workloads or GPU use:
 Record the authorization reference, exact source, actual process controls,
 memory/time use and any failed gate with the results. Installation/resolution
 and engine-free attribution checks are separate preparation and do not consume
-the four-call allowance. Stop on failure; there are no automatic retries.
+the four-call allowance. Stop on failure; there are no automatic retries. The
+four calls have now completed, consuming that allowance; no further model runs
+are authorized by this record.
 
 ### Shared-host review requested by the investigator — 2026-10-28
 
