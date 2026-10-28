@@ -70,7 +70,11 @@ change when an applicable boundary or accepted working instruction changes.
 The W2 scientific method/result boundary makes the suite's
 [optional attribution policy](https://github.com/uibcdf/molsyssuite/blob/main/devguide/ackredit_client_policy.md)
 applicable. The owning review remains uibcdf/peptidemt#6; this source/guide
-receiving does not install Ackredit or claim client adoption. Before declaring
+receiving does not install Ackredit or claim client adoption. The subsequent
+component-owned [portable boundary](w2_macrel.md) implements lazy public capture
+and detached host bibliography, with real-provider engine-free controls; its
+current evidence and actual installed-science obligations remain distinct.
+Before declaring
 live scientific acceptance, complete the applicable host bibliography, actual
 method/software identity, detached saved provenance and optional-provider
 receiving. Preserve explicit absence/failure, application-owned sessions and

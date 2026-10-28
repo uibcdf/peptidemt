@@ -1,18 +1,30 @@
 ---
 summary: Delegate source-preserving FASTA interpretation to the molecular-system owner.
 issue: uibcdf/peptidemt#5
-status: blocked
+status: open
 opened: 2026-10-27
 closed:
 verification: measured
 area: [input, interoperability, ownership]
 guard:
 normative:
-blocked_by: [uibcdf/molsysmt#513]
+blocked_by: []
 supersedes: []
 ---
 
 # Delegate FASTA ingestion to MolSysMT
+
+## Provider delivery update — 2026-10-28
+
+MolSysMT #513 is closed as implemented at published source `ae24866ba`:
+public `file_fasta.parse_records/read_records` retain raw records, full headers,
+every occurrence and source spans, without Bio or chemical admission. Existing
+normalized conversions are unchanged; no new package is published. The former
+provider blocker is resolved; this consumer record remains open for actual API,
+source/dependency and behavioral qualification, then migration/removal of the
+local parser. W3 continues with in-memory proposals as explicitly directed.
+The previous measurements below remain historical evidence, not observations of
+the new provider source or a completed consumer adoption claim.
 
 ## What
 

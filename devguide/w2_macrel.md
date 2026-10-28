@@ -2,6 +2,7 @@
 
 Status: **source implementation with engine-free controls; live qualification
 pending**. Tracked in [PeptideMT #6](https://github.com/uibcdf/peptidemt/issues/6).
+See [W3 preparation](w3_qualification.md) for exact candidate assets and proposed host limits.
 Navigation: [guide](README.md) · [work order](increment_1_work_order.md) ·
 [scientific contract](v0_1_increment_1.md) · [work record](pending_proposals/implement_w2_macrel.md).
 
@@ -19,8 +20,15 @@ are no automatic retries or default host-use permission. Submitted count and
 UTF-8 sequence/token byte limits are checked before launch. A single isolated
 Linux Python child covers imports, transport, feature calculation and both heads;
 the parent enforces wall time. Linux `RLIMIT_AS` bounds child virtual address
-space, not RSS. ONNX keeps native CPU/session/thread defaults; this is not a
-thread-count or aggregate system-memory guarantee. Choose the actual envelope
+space, not RSS. Without optional controls, ONNX keeps native CPU/session/thread defaults; this is not a
+thread-count or aggregate system-memory guarantee. Optional `intra_op_threads`,
+`blas_threads`, `cpu_ids`, `nice`, `min_available_memory_bytes` and `temporary_root`
+make selected child controls explicit. Setting ONNX threads uses its public
+SessionOptions, sequential graph execution, one inter-op thread and no spinning;
+the original factory is restored even on failure. Numerical environment changes
+apply only to the child. Requested CPU affinity cannot exceed inherited allowed
+CPUs; priority is only lowered. The [authorized W3 profile](w3_qualification.md)
+sets these controls and records actual resource use. Choose the actual envelope
 with the host maintainer before scientific execution.
 
 Only compatible unchanged views are submitted, retaining each occurrence.
@@ -33,6 +41,26 @@ schema and selected with either unchanged W1 policy. Without a caller-supplied
 qualification reference, native data remain marked `unqualified_bundle` and
 cannot enter ranking. A reference is an assertion requiring external evidence;
 the API does not certify arbitrary bundles or scientific applicability.
+
+Completed child operations now attach `scientific_attribution` to provenance.
+This host-owned `peptidemt.scientific_attribution@1` record retains offline
+bibliography, original producer/software versions and completed operation names.
+Optional Ackredit >=0.9.0 capture uses the application's current session after
+execution; it never creates a component-owned session or infers references by
+subtracting session IDs. Reused references remain in each detached result.
+The Macrel paper describes the method, native Macrel/MolSysMT/PeptideMT software
+is credited only for completed branches, and adapted modlAMP code is a reference
+implementation rather than an executed dependency. Partial child completion is
+distinct from successful overall prediction. Missing/failing Ackredit preserves
+completed results and bibliography with an explicit status and catalog diagnostic
+on failure, including under strict warning filters. Empty unexecuted pools load
+no attribution provider. Saved-result reading creates no new scientific credit.
+
+Ackredit is optional runtime use with no new package extra or required dependency.
+CI explicitly supplies public Ackredit 0.9.0 as a test dependency so the portable
+capability floor and real-provider receiving can be verified across the package
+Python matrix. Source tests use controlled completion evidence, not Macrel output;
+installed-Macrel attribution remains a W3 gate.
 
 ## Ownership and native operations
 

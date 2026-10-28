@@ -8,8 +8,8 @@ Open proposals following [`reporting_protocol.md`](../reporting_protocol.md).
 
 - [`implement_w2_macrel.md`](implement_w2_macrel.md) — [#6](https://github.com/uibcdf/peptidemt/issues/6) — Implement the bounded native Macrel route from in-memory proposal occurrences. *(partial, measured)*
 
-### Blocked (1)
+### Open (1)
 
-- [`delegate_fasta_to_molsysmt.md`](delegate_fasta_to_molsysmt.md) — [#5](https://github.com/uibcdf/peptidemt/issues/5) — Delegate source-preserving FASTA interpretation to the molecular-system owner. *(blocked, measured)*
+- [`delegate_fasta_to_molsysmt.md`](delegate_fasta_to_molsysmt.md) — [#5](https://github.com/uibcdf/peptidemt/issues/5) — Delegate source-preserving FASTA interpretation to the molecular-system owner. *(open, measured)*
 
 <!-- /generated -->

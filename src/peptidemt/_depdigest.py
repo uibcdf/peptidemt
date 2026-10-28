@@ -3,6 +3,12 @@
 from ._diagnostics import RequiredDependencyError
 
 LIBRARIES = {
+    "ackredit": {
+        "type": "soft",
+        "pypi": None,
+        "conda": "ackredit>=0.9.0",
+        "channel": "uibcdf",
+    },
     "macrel": {"type": "soft", "pypi": "macrel==1.6.1", "conda": None},
     "molsysmt": {
         "type": "soft",

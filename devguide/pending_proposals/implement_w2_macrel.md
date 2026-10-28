@@ -14,6 +14,30 @@ supersedes: []
 
 # W2 native Macrel route
 
+## W3 preparation update — 2026-10-28
+
+The [qualification preparation](../w3_qualification.md) freezes candidate wheel
+and both model digests, small upstream-derived fixtures and provider-stated terms.
+The revised shared-host CPU/memory/time envelope is explicitly authorized after
+review of the actual machine. Its implementation adds scoped ONNX options,
+child-only numerical thread settings, affinity/priority, resource evidence and
+host-memory guards. Live execution remains limited to four sequential calls with
+no automatic retries; scientific acceptance is separate.
+
+Optional portable Ackredit capture and host-owned detached bibliography are
+implemented. The source engine-free suite passes **101 tests**, including real
+Ackredit receiving with controlled completion evidence and genuinely absent
+provider in a fresh isolated interpreter. CI explicitly installs published
+Ackredit 0.9.0 as a test dependency; this is not a new runtime requirement/extra.
+Current source/installed/CI evidence will remain distinct from the original W2
+receipt below and from actual native model evidence.
+
+The clean qualification environment passes dependency closure using the exact
+Conda CPU transaction plus verified Macrel/Pyrodigal wheels. Public MolSysMT
+0.23.0 preserves bare canonical sequence strings; the consumer now uses this
+supported route instead of assuming the newer source-only prefix syntax.
+All conversion results still require an unchanged sequence before submission.
+
 ## What
 
 Advance the [authorized W2 work](../increment_1_work_order.md) using prepared

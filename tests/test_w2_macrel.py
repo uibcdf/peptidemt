@@ -199,7 +199,7 @@ def test_transport_delegates_each_occurrence_to_molsysmt(monkeypatch, tmp_path):
     def convert(item, *, to_form):
         calls.append((item, to_form))
         if to_form == "biopython.SeqRecord":
-            assert item == "amino_acids_1:ACD"
+            assert item == "ACD"
             return SimpleNamespace(seq="ACD")
         assert item.id in ("input-0", "input-2")
         assert item.name == item.id and item.description == ""

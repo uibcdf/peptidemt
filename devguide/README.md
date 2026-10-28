@@ -10,6 +10,8 @@ integration and qualification remain separate W2–W3 obligations.
 For implemented W1 tools, see [sequence inputs, saved results and selection](w1_core.md).
 The core works without Macrel. The [W2 native boundary](w2_macrel.md) uses
 in-memory inputs and MolSysMT transport; actual provider qualification remains W3.
+The [W3 preparation](w3_qualification.md) records candidate bytes, upstream
+fixtures, optional scientific attribution and proposed host execution bounds.
 
 1. [Scientific vision and scope](vision_scope.md): the current provisional
    definition, boundaries and the computational role of functional families.

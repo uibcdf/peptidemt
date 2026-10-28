@@ -33,4 +33,16 @@ class MacrelFailureWarning(CatalogWarning):
         )
 
 
+class AttributionWarning(CatalogWarning):
+    catalog_key = "AttributionWarning"
+
+    def __init__(self, message=None, *, cause_type=None):
+        super().__init__(
+            message,
+            catalog=CATALOG,
+            meta=META,
+            extra={"cause_type": cause_type} if cause_type is not None else {},
+        )
+
+
 bundle = DiagnosticBundle(CATALOG, META, PACKAGE_ROOT)

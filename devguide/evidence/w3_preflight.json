@@ -1,0 +1,105 @@
+{
+  "schema": "peptidemt.w3_preflight@1",
+  "recorded_utc": "2026-10-28T20:50:50.204189+00:00",
+  "owner_issue": "uibcdf/peptidemt#6",
+  "scope": "preparation and explicit resource authorization; no model executed in this receipt",
+  "candidate": {
+    "filename": "macrel-1.6.1-py3-none-any.whl",
+    "url": "https://files.pythonhosted.org/packages/ca/29/0999fd154be398b6aac17f1efd3d4b4e7de12ab162c7e44b10af9a58962c/macrel-1.6.1-py3-none-any.whl",
+    "sha256": "7c0bf4c5d2fc98d02dd797522d92c2345c7c011ca818fe3e017fe2fd3aa22ef1",
+    "size": 1843654,
+    "provider_version": "1.6.1",
+    "upstream_commit": "190462605913844dca74b184869755609fbb20b2"
+  },
+  "assets": {
+    "AMP.onnx.gz": {
+      "sha256": "0a674ef6f774c26e6d2f80d550df3fc54973ae05bfeee1b9dfd905e027a4a388",
+      "uncompressed_sha256": "90d7fea888758a5c1426949cb21a33ed132bfde2216d85324ab6ebc939d59cb4"
+    },
+    "Hemo.onnx.gz": {
+      "sha256": "6c68af240d43f6fde2eff64645f7f5cedf215b619e510b75c47b257b0713e8b1",
+      "uncompressed_sha256": "172d8ca1b45eeadcfdac9631d6915368bd962177e19d2991e0bdab9fbaea8724"
+    }
+  },
+  "conda": {
+    "explicit_file": "w3_conda_explicit.txt",
+    "sha256": "81a8fd7ee540ba9573f5a845f26a5ac39f154a13e32055df32c4a5441b819f84",
+    "packages": 246,
+    "channels": [
+      "uibcdf",
+      "conda-forge"
+    ],
+    "cpu_runtime": "onnxruntime-1.25.1-py314h112547c_0_cpu",
+    "status": "provisioned; pip check passed after adding exact third-party wheels"
+  },
+  "pyrodigal": {
+    "filename": "pyrodigal-3.7.1-cp314-cp314-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+    "sha256": "51a73df081f49577d50a89676409e7288d26a36d04c5c34c0f40183898e43cb6",
+    "reason": "No Python 3.14 build in observed Bioconda inventory; exact official wheel route with Conda-supplied archspec; no gene prediction used"
+  },
+  "host": {
+    "cpu_model": "Intel Xeon E5-2630 v4",
+    "physical_cores": 10,
+    "logical_cpus": 20,
+    "memory_total_bytes": 32937586688,
+    "sampled_available_memory_bytes": 17490317312,
+    "swap_total_bytes": 8589930496,
+    "sampled_swap_free_bytes": 181694464,
+    "cpu_sample_percent": 13.6,
+    "cpu_sample_seconds": 2,
+    "load_average_sample": [
+      1.962890625,
+      2.42333984375,
+      2.4267578125
+    ],
+    "swap_pages_moved_in_separate_2_second_sample": {
+      "in": 0,
+      "out": 0
+    },
+    "home_disk": "3 TB WDC WD30PURZ SATA HDD, approximately 2.4 TiB free",
+    "system_disk": "128 GB Intel NVMe SSD, approximately 76 GiB root free",
+    "tmp": "16 GiB RAM-backed filesystem, approximately 13 GiB occupied; bulk qualification resources moved to home"
+  },
+  "authorized_profile": {
+    "disposition": "Investigator explicitly authorized proceeding after revised shared-host review on 2026-10-28",
+    "calls_max": 4,
+    "records_per_call_max": 32,
+    "input_bytes_per_call_max": 8192,
+    "wall_seconds_per_child_max": 120,
+    "total_wall_seconds_max": 480,
+    "address_space_bytes": 4294967296,
+    "host_available_memory_floor_bytes": 8589934592,
+    "onnx_intra_threads": 2,
+    "onnx_inter_threads": 1,
+    "onnx_graph": "sequential",
+    "onnx_spinning": false,
+    "numerical_threads": 1,
+    "cpu_ids": [
+      0,
+      1
+    ],
+    "nice_minimum": 10,
+    "children_at_a_time": 1,
+    "owned_storage_budget_bytes": 3221225472,
+    "automatic_retries": 0,
+    "gpu": false
+  },
+  "terms": {
+    "provider_stated": "MIT as a whole, included wheel MIT notice",
+    "license_sha256": "82b88a2b069538c4c6078e9790171a74a0aba315acb8994625b4a2b6d2a79a83",
+    "fixtures": "Four views from upstream code tests and the very-short source fixture; retain project notice",
+    "limits": "No training dataset acquisition, redistribution or independent legal adjudication; source acknowledges modlAMP BSD adaptation with unspecified original revision"
+  },
+  "preparation_findings": [
+    "Original Conda solves failed for pyrodigal; verified PyPI wheel alternative preserves Python 3.14",
+    "Unconstrained ONNX solve selected CUDA and was rejected; exact CPU build frozen",
+    "Cross-filesystem /tmp environment copy hit quota and rolled back; task-owned home transaction succeeded",
+    "Public MolSysMT 0.23.0 preserves bare canonical strings; newer explicit prefix is not assumed",
+    "Actual native model calls have not begun; scientific acceptance remains pending"
+  ],
+  "temporary_resources": {
+    "owner": "PeptideMT W3 qualification under #6",
+    "root": "local_data/w3-20261028-hNmM4w",
+    "retention": "Keep exact bundle/environment/fixtures until qualification and investigator review no longer need them; clean only owned resources after durable evidence"
+  }
+}
