@@ -1,0 +1,462 @@
+{
+  "repository": "szczurek-lab/hydramp-starter-kit",
+  "commit": "7804df862872ccc6d09fe01c41bafbca194cfa31",
+  "files": [
+    {
+      "path": "LICENSE",
+      "bytes": 1060,
+      "git_blob_sha1": "86b83b4f27d7bfb3af5ddc12afddf6c5d6fa4976",
+      "sha256": "d9a93ffa60dcdbdf3711886c56b8c4189da42c7d69f8e36285e5fe8dcb79c2d2",
+      "url": "https://raw.githubusercontent.com/szczurek-lab/hydramp-starter-kit/7804df862872ccc6d09fe01c41bafbca194cfa31/LICENSE"
+    },
+    {
+      "path": "README.md",
+      "bytes": 8546,
+      "git_blob_sha1": "f52068c8373db78488eeca275c13b13008c42c84",
+      "sha256": "57d86ce357cb312183efccfa4691d21f3582529a8a4c62e73fe630a4efbbeb4f",
+      "url": "https://raw.githubusercontent.com/szczurek-lab/hydramp-starter-kit/7804df862872ccc6d09fe01c41bafbca194cfa31/README.md"
+    },
+    {
+      "path": "checkpoint/model/layers/AMPExpandedDecoder_dense/0_weight.npy",
+      "bytes": 8696,
+      "git_blob_sha1": "50fed2aa634f1c3f17d9c2843e70ed77ac73dddc",
+      "sha256": "beb700cdb9717ea4deac37c4b4f0f8708a3f41adbe3b1a428313461be823815d",
+      "url": "https://raw.githubusercontent.com/szczurek-lab/hydramp-starter-kit/7804df862872ccc6d09fe01c41bafbca194cfa31/checkpoint/model/layers/AMPExpandedDecoder_dense/0_weight.npy"
+    },
+    {
+      "path": "checkpoint/model/layers/AMPExpandedDecoder_dense/1_weight.npy",
+      "bytes": 212,
+      "git_blob_sha1": "94774755511fb84cb39bbb0f4b145d21ce31a577",
+      "sha256": "39b247bc564fb521bee16eaf9b6e687e7d0d2369378001415c58adeb5e8b3c40",
+      "url": "https://raw.githubusercontent.com/szczurek-lab/hydramp-starter-kit/7804df862872ccc6d09fe01c41bafbca194cfa31/checkpoint/model/layers/AMPExpandedDecoder_dense/1_weight.npy"
+    },
+    {
+      "path": "checkpoint/model/layers/AMPExpandedDecoder_dense/layer.json",
+      "bytes": 493,
+      "git_blob_sha1": "314067afa0429a09555eb2b07035db11915020ea",
+      "sha256": "fd54ef80919e48ac652b3a41442ff60577d45886a0999e1b190b190ce3b222b5",
+      "url": "https://raw.githubusercontent.com/szczurek-lab/hydramp-starter-kit/7804df862872ccc6d09fe01c41bafbca194cfa31/checkpoint/model/layers/AMPExpandedDecoder_dense/layer.json"
+    },
+    {
+      "path": "checkpoint/model/layers/AMPExpandedDecoder_latent_to_hidden/0_weight.npy",
+      "bytes": 52400,
+      "git_blob_sha1": "a6c9f7b83e3e2f7a7215127cb50b5ff6942bdd67",
+      "sha256": "d91a969a09f675ba2c286aaba838c6073daa29c48c653af85499005a2d79fa16",
+      "url": "https://raw.githubusercontent.com/szczurek-lab/hydramp-starter-kit/7804df862872ccc6d09fe01c41bafbca194cfa31/checkpoint/model/layers/AMPExpandedDecoder_latent_to_hidden/0_weight.npy"
+    },
+    {
+      "path": "checkpoint/model/layers/AMPExpandedDecoder_latent_to_hidden/1_weight.npy",
+      "bytes": 52400,
+      "git_blob_sha1": "62afb86870bc748aa69f363a8f78802b44b9ba74",
+      "sha256": "ce34d08dce59d89908dfe2d8d2cad7941e4e9557177f83383237712b02fd76a4",
+      "url": "https://raw.githubusercontent.com/szczurek-lab/hydramp-starter-kit/7804df862872ccc6d09fe01c41bafbca194cfa31/checkpoint/model/layers/AMPExpandedDecoder_latent_to_hidden/1_weight.npy"
+    },
+    {
+      "path": "checkpoint/model/layers/AMPExpandedDecoder_latent_to_hidden/2_weight.npy",
+      "bytes": 920,
+      "git_blob_sha1": "831e2104f33251d14cc92c80ac4130f7e8c80a43",
+      "sha256": "0c62b4fc4574b88c5375be6c1c1d952d0d5b4bd5853760e1be76c1e190e3c90b",
+      "url": "https://raw.githubusercontent.com/szczurek-lab/hydramp-starter-kit/7804df862872ccc6d09fe01c41bafbca194cfa31/checkpoint/model/layers/AMPExpandedDecoder_latent_to_hidden/2_weight.npy"
+    },
+    {
+      "path": "checkpoint/model/layers/AMPExpandedDecoder_latent_to_hidden/layer.json",
+      "bytes": 862,
+      "git_blob_sha1": "34aa3a098df52cb94a317427d6a5e678809363c6",
+      "sha256": "f58fc896d14f9ff89c86380f761eb2a46235425d76c2c884db5f6e9b7f503d92",
+      "url": "https://raw.githubusercontent.com/szczurek-lab/hydramp-starter-kit/7804df862872ccc6d09fe01c41bafbca194cfa31/checkpoint/model/layers/AMPExpandedDecoder_latent_to_hidden/layer.json"
+    },
+    {
+      "path": "checkpoint/model/layers/AMPExpandedDecoder_lstm/0_weight.npy",
+      "bytes": 108928,
+      "git_blob_sha1": "0b9fe9f3b2a5233980a4f8b99a73f5faa310f170",
+      "sha256": "c64e56ae2f750363ccadc74765abb594c122e902ce92bd4a6f91b87424ac7105",
+      "url": "https://raw.githubusercontent.com/szczurek-lab/hydramp-starter-kit/7804df862872ccc6d09fe01c41bafbca194cfa31/checkpoint/model/layers/AMPExpandedDecoder_lstm/0_weight.npy"
+    },
+    {
+      "path": "checkpoint/model/layers/AMPExpandedDecoder_lstm/1_weight.npy",
+      "bytes": 160128,
+      "git_blob_sha1": "21812d3f9324534b5fcdecab587ce8b79b347dd2",
+      "sha256": "e37cbf132a872aa1896c121b2760a9493e30a986e7a63fc1034e6316e9080fa0",
+      "url": "https://raw.githubusercontent.com/szczurek-lab/hydramp-starter-kit/7804df862872ccc6d09fe01c41bafbca194cfa31/checkpoint/model/layers/AMPExpandedDecoder_lstm/1_weight.npy"
+    },
+    {
+      "path": "checkpoint/model/layers/AMPExpandedDecoder_lstm/2_weight.npy",
+      "bytes": 1728,
+      "git_blob_sha1": "3330c6764ff4ffae55c38bdeb32183a1da25d57a",
+      "sha256": "5875ac6124b597422316263b12b604df503ca9a92bfb7da07b7edb8b40e8e6e3",
+      "url": "https://raw.githubusercontent.com/szczurek-lab/hydramp-starter-kit/7804df862872ccc6d09fe01c41bafbca194cfa31/checkpoint/model/layers/AMPExpandedDecoder_lstm/2_weight.npy"
+    },
+    {
+      "path": "checkpoint/model/layers/AMPExpandedDecoder_lstm/layer.json",
+      "bytes": 875,
+      "git_blob_sha1": "bfb2c0ca2fa80a2f21412a5e9567a0d7f9590ec1",
+      "sha256": "e06daf2ee068163c4aba2473f4c8009d9613395e954ef3ff2404f6548b381be5",
+      "url": "https://raw.githubusercontent.com/szczurek-lab/hydramp-starter-kit/7804df862872ccc6d09fe01c41bafbca194cfa31/checkpoint/model/layers/AMPExpandedDecoder_lstm/layer.json"
+    },
+    {
+      "path": "checkpoint/model/layers/AMPExpandedEncoder_dense_z_mean/0_weight.npy",
+      "bytes": 65664,
+      "git_blob_sha1": "96ef0fd37ba74c3981a879616d79ea1dcd70ab4d",
+      "sha256": "5a9c51cd1c3284a55d815e76ad49a3a57423631c3b9cf641a1c8f9a07362c2bd",
+      "url": "https://raw.githubusercontent.com/szczurek-lab/hydramp-starter-kit/7804df862872ccc6d09fe01c41bafbca194cfa31/checkpoint/model/layers/AMPExpandedEncoder_dense_z_mean/0_weight.npy"
+    },
+    {
+      "path": "checkpoint/model/layers/AMPExpandedEncoder_dense_z_mean/1_weight.npy",
+      "bytes": 384,
+      "git_blob_sha1": "2cfe0ae83176987e8c36ac938c703f7f9be07489",
+      "sha256": "be15aba89ad2ee06e2e26eb98ea44d88ce5c27b1a486ecbbbc4a0f9ef4694573",
+      "url": "https://raw.githubusercontent.com/szczurek-lab/hydramp-starter-kit/7804df862872ccc6d09fe01c41bafbca194cfa31/checkpoint/model/layers/AMPExpandedEncoder_dense_z_mean/1_weight.npy"
+    },
+    {
+      "path": "checkpoint/model/layers/AMPExpandedEncoder_dense_z_mean/layer.json",
+      "bytes": 499,
+      "git_blob_sha1": "4f5f707a015fe258acf667bf182070e39234a4e2",
+      "sha256": "2ce593bc8bf37e70dfb2d847885e25cbdafdb69b5f83a6a6a5138003c249f51a",
+      "url": "https://raw.githubusercontent.com/szczurek-lab/hydramp-starter-kit/7804df862872ccc6d09fe01c41bafbca194cfa31/checkpoint/model/layers/AMPExpandedEncoder_dense_z_mean/layer.json"
+    },
+    {
+      "path": "checkpoint/model/layers/AMPExpandedEncoder_dense_z_sigma/0_weight.npy",
+      "bytes": 65664,
+      "git_blob_sha1": "dcf28b69380a0677fa22bdd9966ad71085265a8a",
+      "sha256": "ab2e4214cb9b69c43ed76fbf115c4eb65f6cd5bed20898ef9e61f845487a4336",
+      "url": "https://raw.githubusercontent.com/szczurek-lab/hydramp-starter-kit/7804df862872ccc6d09fe01c41bafbca194cfa31/checkpoint/model/layers/AMPExpandedEncoder_dense_z_sigma/0_weight.npy"
+    },
+    {
+      "path": "checkpoint/model/layers/AMPExpandedEncoder_dense_z_sigma/1_weight.npy",
+      "bytes": 384,
+      "git_blob_sha1": "153f679625e959336660f2b5dc8e38ba2a3244a7",
+      "sha256": "dac699b58854d58ef621991ccec52445a9c41ea545b46e354e9ff6dfbd459f1d",
+      "url": "https://raw.githubusercontent.com/szczurek-lab/hydramp-starter-kit/7804df862872ccc6d09fe01c41bafbca194cfa31/checkpoint/model/layers/AMPExpandedEncoder_dense_z_sigma/1_weight.npy"
+    },
+    {
+      "path": "checkpoint/model/layers/AMPExpandedEncoder_dense_z_sigma/layer.json",
+      "bytes": 500,
+      "git_blob_sha1": "37e68233fee5f769ff087f02b7a6df9cdeeedd20",
+      "sha256": "3b7680483a9c6a0ccb13924d415916ea15cac319ab57f554c59fd6ae706b30e9",
+      "url": "https://raw.githubusercontent.com/szczurek-lab/hydramp-starter-kit/7804df862872ccc6d09fe01c41bafbca194cfa31/checkpoint/model/layers/AMPExpandedEncoder_dense_z_sigma/layer.json"
+    },
+    {
+      "path": "checkpoint/model/layers/AMPExpandedEncoder_embedding/0_weight.npy",
+      "bytes": 8528,
+      "git_blob_sha1": "14eaa20102d3ceccf8aecd68a9282f08bda4fc06",
+      "sha256": "524969a5b5318125c974350778c28cf3924fabe4d29d81adfec463c5c5995c95",
+      "url": "https://raw.githubusercontent.com/szczurek-lab/hydramp-starter-kit/7804df862872ccc6d09fe01c41bafbca194cfa31/checkpoint/model/layers/AMPExpandedEncoder_embedding/0_weight.npy"
+    },
+    {
+      "path": "checkpoint/model/layers/AMPExpandedEncoder_embedding/layer.json",
+      "bytes": 427,
+      "git_blob_sha1": "68a1524f9635c8895cdea86b0fc18163f2906adf",
+      "sha256": "b4855dbc0ad751b53dcfe93c6273cddb63fa54705c84344624ab5694dcb48698",
+      "url": "https://raw.githubusercontent.com/szczurek-lab/hydramp-starter-kit/7804df862872ccc6d09fe01c41bafbca194cfa31/checkpoint/model/layers/AMPExpandedEncoder_embedding/layer.json"
+    },
+    {
+      "path": "checkpoint/model/layers/AMPExpandedEncoder_hidden/0_weight.npy",
+      "bytes": 153728,
+      "git_blob_sha1": "86e910ebf24128b4c2430f793def5d2344a6a3dd",
+      "sha256": "50e6036db0935b13c71daba7851f7c70c3564633fd8488e77309e38a01fdd930",
+      "url": "https://raw.githubusercontent.com/szczurek-lab/hydramp-starter-kit/7804df862872ccc6d09fe01c41bafbca194cfa31/checkpoint/model/layers/AMPExpandedEncoder_hidden/0_weight.npy"
+    },
+    {
+      "path": "checkpoint/model/layers/AMPExpandedEncoder_hidden/1_weight.npy",
+      "bytes": 196736,
+      "git_blob_sha1": "af7244183b182db5c28cea061093e1f8ee5ca005",
+      "sha256": "fef756aca8d375ee82a0fb532d7136d6f094f7d31c03daac8c10e3b36934d9d5",
+      "url": "https://raw.githubusercontent.com/szczurek-lab/hydramp-starter-kit/7804df862872ccc6d09fe01c41bafbca194cfa31/checkpoint/model/layers/AMPExpandedEncoder_hidden/1_weight.npy"
+    },
+    {
+      "path": "checkpoint/model/layers/AMPExpandedEncoder_hidden/2_weight.npy",
+      "bytes": 1664,
+      "git_blob_sha1": "fe7b77256a832adcfc042962d547d085eb36c0da",
+      "sha256": "c1f894d6be00f11402da3e76d5094c4db78fa28ab904d6e9d0183fc694da7712",
+      "url": "https://raw.githubusercontent.com/szczurek-lab/hydramp-starter-kit/7804df862872ccc6d09fe01c41bafbca194cfa31/checkpoint/model/layers/AMPExpandedEncoder_hidden/2_weight.npy"
+    },
+    {
+      "path": "checkpoint/model/layers/AMPExpandedEncoder_hidden/3_weight.npy",
+      "bytes": 153728,
+      "git_blob_sha1": "2435c0977a502bacd9ecad6f4bff77d9c038cc0a",
+      "sha256": "8e220db29cdbe32bc01080e06b842ac8ed5e31c08c5c2e3318d0769769af3903",
+      "url": "https://raw.githubusercontent.com/szczurek-lab/hydramp-starter-kit/7804df862872ccc6d09fe01c41bafbca194cfa31/checkpoint/model/layers/AMPExpandedEncoder_hidden/3_weight.npy"
+    },
+    {
+      "path": "checkpoint/model/layers/AMPExpandedEncoder_hidden/4_weight.npy",
+      "bytes": 196736,
+      "git_blob_sha1": "28c3fa9421506d697ce7fc546d842fbf5f3f38d4",
+      "sha256": "069ed9197aeaf14145a55f77dc89073c5fa0a33cc53159c6c44653b97f004574",
+      "url": "https://raw.githubusercontent.com/szczurek-lab/hydramp-starter-kit/7804df862872ccc6d09fe01c41bafbca194cfa31/checkpoint/model/layers/AMPExpandedEncoder_hidden/4_weight.npy"
+    },
+    {
+      "path": "checkpoint/model/layers/AMPExpandedEncoder_hidden/5_weight.npy",
+      "bytes": 1664,
+      "git_blob_sha1": "e58dadf36c6c0a550bf0080e05749eda986d8c88",
+      "sha256": "c86de3ad003ea809a5758f6a70115586b1f41f5d80c2e9d71d033def4a3e67db",
+      "url": "https://raw.githubusercontent.com/szczurek-lab/hydramp-starter-kit/7804df862872ccc6d09fe01c41bafbca194cfa31/checkpoint/model/layers/AMPExpandedEncoder_hidden/5_weight.npy"
+    },
+    {
+      "path": "checkpoint/model/layers/AMPExpandedEncoder_hidden/layer.json",
+      "bytes": 1023,
+      "git_blob_sha1": "9daabb2f0bbf69c0a3a8b52f84c1912c34df2cc8",
+      "sha256": "9f72fec16911c82b92a309742813002d6393ee2ff52a2db88b6a986a86b3a361",
+      "url": "https://raw.githubusercontent.com/szczurek-lab/hydramp-starter-kit/7804df862872ccc6d09fe01c41bafbca194cfa31/checkpoint/model/layers/AMPExpandedEncoder_hidden/layer.json"
+    },
+    {
+      "path": "checkpoint/model/layers/AMPExpandedEncoder_hidden2/0_weight.npy",
+      "bytes": 393344,
+      "git_blob_sha1": "75f0e9991feeea4525473504ad894a4f5cab95a8",
+      "sha256": "e566876d42d98cdb6de508722b772ce96e79d6efa86660fc941d4545b92167df",
+      "url": "https://raw.githubusercontent.com/szczurek-lab/hydramp-starter-kit/7804df862872ccc6d09fe01c41bafbca194cfa31/checkpoint/model/layers/AMPExpandedEncoder_hidden2/0_weight.npy"
+    },
+    {
+      "path": "checkpoint/model/layers/AMPExpandedEncoder_hidden2/1_weight.npy",
+      "bytes": 196736,
+      "git_blob_sha1": "3a4a09a1312eab6ba3186020b5a7d3f71a296ce5",
+      "sha256": "24de7245d8e0a6f283bc00a3e5e19985ed7175de99f12d88e441d55206c394d1",
+      "url": "https://raw.githubusercontent.com/szczurek-lab/hydramp-starter-kit/7804df862872ccc6d09fe01c41bafbca194cfa31/checkpoint/model/layers/AMPExpandedEncoder_hidden2/1_weight.npy"
+    },
+    {
+      "path": "checkpoint/model/layers/AMPExpandedEncoder_hidden2/2_weight.npy",
+      "bytes": 1664,
+      "git_blob_sha1": "4615dccd5793d3d30d2d293bcf6f9f6fa5d4fb8f",
+      "sha256": "49cd2709cc0deea7e79f804aad08cd93d9c48ab8d3978707a4df057c14dfb64b",
+      "url": "https://raw.githubusercontent.com/szczurek-lab/hydramp-starter-kit/7804df862872ccc6d09fe01c41bafbca194cfa31/checkpoint/model/layers/AMPExpandedEncoder_hidden2/2_weight.npy"
+    },
+    {
+      "path": "checkpoint/model/layers/AMPExpandedEncoder_hidden2/3_weight.npy",
+      "bytes": 393344,
+      "git_blob_sha1": "59f327a4657b34d9414b2b370b253768fa701f68",
+      "sha256": "01662165f6f978b7a4d620cba2c9326d5eb577c75f695f604bc5c4775528d692",
+      "url": "https://raw.githubusercontent.com/szczurek-lab/hydramp-starter-kit/7804df862872ccc6d09fe01c41bafbca194cfa31/checkpoint/model/layers/AMPExpandedEncoder_hidden2/3_weight.npy"
+    },
+    {
+      "path": "checkpoint/model/layers/AMPExpandedEncoder_hidden2/4_weight.npy",
+      "bytes": 196736,
+      "git_blob_sha1": "cbabb0b82844c6c28c583685ac5a1754c8790660",
+      "sha256": "c424f2cbf782155ff5a4a0e8ab523654f1e073b566a58c325f5f6d78c3344cba",
+      "url": "https://raw.githubusercontent.com/szczurek-lab/hydramp-starter-kit/7804df862872ccc6d09fe01c41bafbca194cfa31/checkpoint/model/layers/AMPExpandedEncoder_hidden2/4_weight.npy"
+    },
+    {
+      "path": "checkpoint/model/layers/AMPExpandedEncoder_hidden2/5_weight.npy",
+      "bytes": 1664,
+      "git_blob_sha1": "2c890197ff62335bd216142ca4bc650382c5e54b",
+      "sha256": "12652cd5f76af8b246c74508af950e753161fa4d672f5cef527af48ea3f01cc1",
+      "url": "https://raw.githubusercontent.com/szczurek-lab/hydramp-starter-kit/7804df862872ccc6d09fe01c41bafbca194cfa31/checkpoint/model/layers/AMPExpandedEncoder_hidden2/5_weight.npy"
+    },
+    {
+      "path": "checkpoint/model/layers/AMPExpandedEncoder_hidden2/layer.json",
+      "bytes": 1024,
+      "git_blob_sha1": "b5153f8e4e592f87f89673b750e0e4a7e735d72c",
+      "sha256": "38c3f4ef6c45f070b05d5e0a284f6c3198129104146afffa6fedeb48e0b1e4cb",
+      "url": "https://raw.githubusercontent.com/szczurek-lab/hydramp-starter-kit/7804df862872ccc6d09fe01c41bafbca194cfa31/checkpoint/model/layers/AMPExpandedEncoder_hidden2/layer.json"
+    },
+    {
+      "path": "checkpoint/model/layers/NoConvAMPClassifier_dense_output/0_weight.npy",
+      "bytes": 528,
+      "git_blob_sha1": "dbe0148a3b5ea689105ea1a0c9019117b0c43d30",
+      "sha256": "5a836e7379d8bb9199dc324d38dc8f94116342cefefe93f7d6d2c7b296b981d3",
+      "url": "https://raw.githubusercontent.com/szczurek-lab/hydramp-starter-kit/7804df862872ccc6d09fe01c41bafbca194cfa31/checkpoint/model/layers/NoConvAMPClassifier_dense_output/0_weight.npy"
+    },
+    {
+      "path": "checkpoint/model/layers/NoConvAMPClassifier_dense_output/1_weight.npy",
+      "bytes": 132,
+      "git_blob_sha1": "7eab6d0e33410101e2dbb41b257e8f7e5813459e",
+      "sha256": "e314380e95c21544d28f5ee11ecd3a3e18579ecc230403e74935b2a61fa0e0a3",
+      "url": "https://raw.githubusercontent.com/szczurek-lab/hydramp-starter-kit/7804df862872ccc6d09fe01c41bafbca194cfa31/checkpoint/model/layers/NoConvAMPClassifier_dense_output/1_weight.npy"
+    },
+    {
+      "path": "checkpoint/model/layers/NoConvAMPClassifier_dense_output/layer.json",
+      "bytes": 496,
+      "git_blob_sha1": "ffdd792337d7019be17dcbd314300e6e32ca02a6",
+      "sha256": "c871519c9b12666e4890e8242e81266dd0f9f9e051b980339a0da95c117cf3ed",
+      "url": "https://raw.githubusercontent.com/szczurek-lab/hydramp-starter-kit/7804df862872ccc6d09fe01c41bafbca194cfa31/checkpoint/model/layers/NoConvAMPClassifier_dense_output/layer.json"
+    },
+    {
+      "path": "checkpoint/model/layers/NoConvAMPClassifier_embedding/0_weight.npy",
+      "bytes": 10880,
+      "git_blob_sha1": "2826cffc3150932098541a41a00f5c52654f635b",
+      "sha256": "4cff669e6846b847248ae1be599ce39a73cb4c08b8a8b48e2d9d6fa08e71bc9b",
+      "url": "https://raw.githubusercontent.com/szczurek-lab/hydramp-starter-kit/7804df862872ccc6d09fe01c41bafbca194cfa31/checkpoint/model/layers/NoConvAMPClassifier_embedding/0_weight.npy"
+    },
+    {
+      "path": "checkpoint/model/layers/NoConvAMPClassifier_embedding/layer.json",
+      "bytes": 423,
+      "git_blob_sha1": "6c198d30f7edb30f002308393a279ef439526049",
+      "sha256": "a27f20c6683d19dc9a6b7048acc61b90c1c764e78ee49f7bd803693006744c86",
+      "url": "https://raw.githubusercontent.com/szczurek-lab/hydramp-starter-kit/7804df862872ccc6d09fe01c41bafbca194cfa31/checkpoint/model/layers/NoConvAMPClassifier_embedding/layer.json"
+    },
+    {
+      "path": "checkpoint/model/layers/NoConvAMPClassifier_lstm1/0_weight.npy",
+      "bytes": 131200,
+      "git_blob_sha1": "79804d6894e7faeb1f2dc292068cf44a74e9eaed",
+      "sha256": "f6168ac421864e64a8eb6aa6cdf64da492f77cd5be6543517662b05931abde06",
+      "url": "https://raw.githubusercontent.com/szczurek-lab/hydramp-starter-kit/7804df862872ccc6d09fe01c41bafbca194cfa31/checkpoint/model/layers/NoConvAMPClassifier_lstm1/0_weight.npy"
+    },
+    {
+      "path": "checkpoint/model/layers/NoConvAMPClassifier_lstm1/1_weight.npy",
+      "bytes": 65664,
+      "git_blob_sha1": "fed8254fd1f456be1e3bdc3cc7560160d58f12d1",
+      "sha256": "384a4b3aa4685a7a80c43fdd390efe404e6a637b4903c85ebf0c7a3fc40dcdbc",
+      "url": "https://raw.githubusercontent.com/szczurek-lab/hydramp-starter-kit/7804df862872ccc6d09fe01c41bafbca194cfa31/checkpoint/model/layers/NoConvAMPClassifier_lstm1/1_weight.npy"
+    },
+    {
+      "path": "checkpoint/model/layers/NoConvAMPClassifier_lstm1/2_weight.npy",
+      "bytes": 1152,
+      "git_blob_sha1": "073e5cacade35bc26895156bae7652a0f70a9da5",
+      "sha256": "03a4a8026821cd0854ba87a4d1a0b39125335a198d14fa5844fd8d1eb5027149",
+      "url": "https://raw.githubusercontent.com/szczurek-lab/hydramp-starter-kit/7804df862872ccc6d09fe01c41bafbca194cfa31/checkpoint/model/layers/NoConvAMPClassifier_lstm1/2_weight.npy"
+    },
+    {
+      "path": "checkpoint/model/layers/NoConvAMPClassifier_lstm1/layer.json",
+      "bytes": 870,
+      "git_blob_sha1": "206ba8041933153e9b0abed6818484bf18f921f6",
+      "sha256": "8b4fec41b7ce7d412f6474287062274f7e2a04705bb7bb5ab30f2252d375fa6a",
+      "url": "https://raw.githubusercontent.com/szczurek-lab/hydramp-starter-kit/7804df862872ccc6d09fe01c41bafbca194cfa31/checkpoint/model/layers/NoConvAMPClassifier_lstm1/layer.json"
+    },
+    {
+      "path": "checkpoint/model/layers/NoConvAMPClassifier_lstm2/0_weight.npy",
+      "bytes": 102528,
+      "git_blob_sha1": "ba482ebdc73ea13f4ffa22a92440abf334254db7",
+      "sha256": "b9b56ced73141fc03097b6d21afbbc6f3d44cb7fdf32312f150ee56ba7bbe13a",
+      "url": "https://raw.githubusercontent.com/szczurek-lab/hydramp-starter-kit/7804df862872ccc6d09fe01c41bafbca194cfa31/checkpoint/model/layers/NoConvAMPClassifier_lstm2/0_weight.npy"
+    },
+    {
+      "path": "checkpoint/model/layers/NoConvAMPClassifier_lstm2/1_weight.npy",
+      "bytes": 160128,
+      "git_blob_sha1": "3413a8c2cba4b3a876bda7fb8b8d1c122983109c",
+      "sha256": "709466679c04284d9c51479106eb15d346f7ffee2566943c9bcfa5a0f250e792",
+      "url": "https://raw.githubusercontent.com/szczurek-lab/hydramp-starter-kit/7804df862872ccc6d09fe01c41bafbca194cfa31/checkpoint/model/layers/NoConvAMPClassifier_lstm2/1_weight.npy"
+    },
+    {
+      "path": "checkpoint/model/layers/NoConvAMPClassifier_lstm2/2_weight.npy",
+      "bytes": 1728,
+      "git_blob_sha1": "f350976a6f5e2c12752bcc63af8152f82ab359b6",
+      "sha256": "a155972fae499854fd3d842491321e2f90ecc4a448a92874f45d1caa1c237ece",
+      "url": "https://raw.githubusercontent.com/szczurek-lab/hydramp-starter-kit/7804df862872ccc6d09fe01c41bafbca194cfa31/checkpoint/model/layers/NoConvAMPClassifier_lstm2/2_weight.npy"
+    },
+    {
+      "path": "checkpoint/model/layers/NoConvAMPClassifier_lstm2/layer.json",
+      "bytes": 872,
+      "git_blob_sha1": "7a1e7b6d20408932ff5ae5aac2db60eb85462861",
+      "sha256": "0290137b5c1ac975fabda901e970ead6e3529e64e3706e08bbaae2c63ea21e90",
+      "url": "https://raw.githubusercontent.com/szczurek-lab/hydramp-starter-kit/7804df862872ccc6d09fe01c41bafbca194cfa31/checkpoint/model/layers/NoConvAMPClassifier_lstm2/layer.json"
+    },
+    {
+      "path": "checkpoint/model/layers/VeltriAMPClassifier_convolution/0_weight.npy",
+      "bytes": 524416,
+      "git_blob_sha1": "5262ebcde146bf907bfd17fe37e513b74db87ea4",
+      "sha256": "bd87e57884d4c92175cc3701834429c57286195aa17522cd464e6482e322949c",
+      "url": "https://raw.githubusercontent.com/szczurek-lab/hydramp-starter-kit/7804df862872ccc6d09fe01c41bafbca194cfa31/checkpoint/model/layers/VeltriAMPClassifier_convolution/0_weight.npy"
+    },
+    {
+      "path": "checkpoint/model/layers/VeltriAMPClassifier_convolution/1_weight.npy",
+      "bytes": 384,
+      "git_blob_sha1": "d99e9383e254b268de001647933f2faad580461b",
+      "sha256": "98a35817a827d05725a153f2f04da9ae1daae13255af241e6b1c03aac93a0fff",
+      "url": "https://raw.githubusercontent.com/szczurek-lab/hydramp-starter-kit/7804df862872ccc6d09fe01c41bafbca194cfa31/checkpoint/model/layers/VeltriAMPClassifier_convolution/1_weight.npy"
+    },
+    {
+      "path": "checkpoint/model/layers/VeltriAMPClassifier_convolution/layer.json",
+      "bytes": 600,
+      "git_blob_sha1": "210dc5bccfab397670b7aa1f132e3d31323da239",
+      "sha256": "768a96102464a545ca4e304a9dade57e133a8e1c41b0f6a43e8d2ac897f37b66",
+      "url": "https://raw.githubusercontent.com/szczurek-lab/hydramp-starter-kit/7804df862872ccc6d09fe01c41bafbca194cfa31/checkpoint/model/layers/VeltriAMPClassifier_convolution/layer.json"
+    },
+    {
+      "path": "checkpoint/model/layers/VeltriAMPClassifier_dense_output/0_weight.npy",
+      "bytes": 528,
+      "git_blob_sha1": "524023a26a4412eb7ea0705818e40488f1a820cc",
+      "sha256": "e04d65bfc611113faa039ba34a17634a6e16cb610a518e357931aff3b34891c3",
+      "url": "https://raw.githubusercontent.com/szczurek-lab/hydramp-starter-kit/7804df862872ccc6d09fe01c41bafbca194cfa31/checkpoint/model/layers/VeltriAMPClassifier_dense_output/0_weight.npy"
+    },
+    {
+      "path": "checkpoint/model/layers/VeltriAMPClassifier_dense_output/1_weight.npy",
+      "bytes": 132,
+      "git_blob_sha1": "2c00001430d5441531d810f180e5e94508552849",
+      "sha256": "742d9702acd657a1f913780dbc18beb3926ce2de4ffddd3b419b462b2a33cfd9",
+      "url": "https://raw.githubusercontent.com/szczurek-lab/hydramp-starter-kit/7804df862872ccc6d09fe01c41bafbca194cfa31/checkpoint/model/layers/VeltriAMPClassifier_dense_output/1_weight.npy"
+    },
+    {
+      "path": "checkpoint/model/layers/VeltriAMPClassifier_dense_output/layer.json",
+      "bytes": 488,
+      "git_blob_sha1": "c0fa36f95f3526b22eaf8b1ec2ffbb762fc32a55",
+      "sha256": "d0aa718372f67b401b8c4010aab55ea7af59ee64b6226310d92919769791efc4",
+      "url": "https://raw.githubusercontent.com/szczurek-lab/hydramp-starter-kit/7804df862872ccc6d09fe01c41bafbca194cfa31/checkpoint/model/layers/VeltriAMPClassifier_dense_output/layer.json"
+    },
+    {
+      "path": "checkpoint/model/layers/VeltriAMPClassifier_embedding/0_weight.npy",
+      "bytes": 10880,
+      "git_blob_sha1": "802ca8f7a593dcbf24f3fbf243720f5570a3d442",
+      "sha256": "4b26866e59133ab9656ae21d18de44282a8cff1e8c325ee4d9f5281ba62042c9",
+      "url": "https://raw.githubusercontent.com/szczurek-lab/hydramp-starter-kit/7804df862872ccc6d09fe01c41bafbca194cfa31/checkpoint/model/layers/VeltriAMPClassifier_embedding/0_weight.npy"
+    },
+    {
+      "path": "checkpoint/model/layers/VeltriAMPClassifier_embedding/layer.json",
+      "bytes": 423,
+      "git_blob_sha1": "6580e16242e3ec245d188ce156c146def3fb8d68",
+      "sha256": "33de0c36207f92d7cb5046a24ea9ed604202f076dcd91e2d55c59fda630ee2da",
+      "url": "https://raw.githubusercontent.com/szczurek-lab/hydramp-starter-kit/7804df862872ccc6d09fe01c41bafbca194cfa31/checkpoint/model/layers/VeltriAMPClassifier_embedding/layer.json"
+    },
+    {
+      "path": "checkpoint/model/layers/VeltriAMPClassifier_lstm/0_weight.npy",
+      "bytes": 102528,
+      "git_blob_sha1": "1b7c63ea464295f9098ddf67766e9ae845ce0179",
+      "sha256": "c828949a6503f39c8a68d24198922df4f3f84c50423279bff56b067af7d8b61c",
+      "url": "https://raw.githubusercontent.com/szczurek-lab/hydramp-starter-kit/7804df862872ccc6d09fe01c41bafbca194cfa31/checkpoint/model/layers/VeltriAMPClassifier_lstm/0_weight.npy"
+    },
+    {
+      "path": "checkpoint/model/layers/VeltriAMPClassifier_lstm/1_weight.npy",
+      "bytes": 160128,
+      "git_blob_sha1": "1b663691d13f12c73d8b3d8e253c28f1bf379a60",
+      "sha256": "912593aa202a0a9f3e02b1bb88629d65b1025aa3d99b1513991c02e6d1ed5d83",
+      "url": "https://raw.githubusercontent.com/szczurek-lab/hydramp-starter-kit/7804df862872ccc6d09fe01c41bafbca194cfa31/checkpoint/model/layers/VeltriAMPClassifier_lstm/1_weight.npy"
+    },
+    {
+      "path": "checkpoint/model/layers/VeltriAMPClassifier_lstm/2_weight.npy",
+      "bytes": 1728,
+      "git_blob_sha1": "fbf6ed90313b9d641ba65aa3e9891537653cc909",
+      "sha256": "2d0bf145cece68be624842ec2370d2831dbf5dadaa419fdac6e25abbee7a6ab6",
+      "url": "https://raw.githubusercontent.com/szczurek-lab/hydramp-starter-kit/7804df862872ccc6d09fe01c41bafbca194cfa31/checkpoint/model/layers/VeltriAMPClassifier_lstm/2_weight.npy"
+    },
+    {
+      "path": "checkpoint/model/layers/VeltriAMPClassifier_lstm/layer.json",
+      "bytes": 872,
+      "git_blob_sha1": "3bc3dcfa70185ac4766dc216db7de8401b5a1830",
+      "sha256": "ad0a8aaea7c34b24bb1e06996cadddc9b30f059fc4833f61993128fff110996c",
+      "url": "https://raw.githubusercontent.com/szczurek-lab/hydramp-starter-kit/7804df862872ccc6d09fe01c41bafbca194cfa31/checkpoint/model/layers/VeltriAMPClassifier_lstm/layer.json"
+    },
+    {
+      "path": "checkpoint/model/model_config.json",
+      "bytes": 543,
+      "git_blob_sha1": "6adefe126f0b7fbc04b682df2549c0050dce5be0",
+      "sha256": "50b89706c0c8fdc92b69c2e846719df7e57101986c7014ca330ba7d4a8f86d44",
+      "url": "https://raw.githubusercontent.com/szczurek-lab/hydramp-starter-kit/7804df862872ccc6d09fe01c41bafbca194cfa31/checkpoint/model/model_config.json"
+    },
+    {
+      "path": "checkpoint/pca_decomposer.joblib",
+      "bytes": 18711,
+      "git_blob_sha1": "c435b1c8aefb3b91728793861b7f9f69b9caa2c4",
+      "sha256": "a3a5dcea04e91421be363c047249b93fa46e99e128aec929e1f6b0f0e488a26d",
+      "url": "https://raw.githubusercontent.com/szczurek-lab/hydramp-starter-kit/7804df862872ccc6d09fe01c41bafbca194cfa31/checkpoint/pca_decomposer.joblib"
+    },
+    {
+      "path": "data/README.md",
+      "bytes": 2008,
+      "git_blob_sha1": "be788d24c7de2dad859cc086b568cf3b0304590c",
+      "sha256": "faa19c919b3d1893e2b681e90e9bb7137cdb327fe525fc17c404c10583d0ceba",
+      "url": "https://raw.githubusercontent.com/szczurek-lab/hydramp-starter-kit/7804df862872ccc6d09fe01c41bafbca194cfa31/data/README.md"
+    },
+    {
+      "path": "pyproject.toml",
+      "bytes": 1881,
+      "git_blob_sha1": "85cda398c4a58bd71a828245bfbc8693cd35d3af",
+      "sha256": "6ead1f5e143ad2a8344ad46fc401a73d86af1407be45c67d15ccbd3ae3cfe361",
+      "url": "https://raw.githubusercontent.com/szczurek-lab/hydramp-starter-kit/7804df862872ccc6d09fe01c41bafbca194cfa31/pyproject.toml"
+    },
+    {
+      "path": "src/hydramp_starter_kit/generate.py",
+      "bytes": 6873,
+      "git_blob_sha1": "2d99ac4dbe55c24c1a532e7a10d67e3805048ef7",
+      "sha256": "e236c76865e17944c1076c2151d85f63922512e29fdf83db5adfc4a7ee4e5fb7",
+      "url": "https://raw.githubusercontent.com/szczurek-lab/hydramp-starter-kit/7804df862872ccc6d09fe01c41bafbca194cfa31/src/hydramp_starter_kit/generate.py"
+    }
+  ],
+  "numerical_assets_loaded": false
+}

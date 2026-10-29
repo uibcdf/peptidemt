@@ -24,7 +24,8 @@ design is closed within scope. D36's W0–W4 are delivered, with exact Macrel
 build/assets/environment, central receiving and actual qualification retained.
 D37 accepts that computational bundle. The next
 [HydrAMP commissioning review](pending_proposals/qualify_hydramp_increment_2.md)
-remains proposed; no later implementation or execution is inferred.
+is commissioned under D38 for bounded preparation and qualification; exact
+bundle/use conditions and fresh host/call limits precede model loading/inference.
 The bounded horizon review adds only
 a pending collective-design distinction (P10), not new MVP obligations.
 
@@ -147,7 +148,7 @@ documents and dated decision history. No universal policy, confidence scale,
 probabilistic model, metric or selector is adopted. Actual capability contracts
 still need supported inputs, scientific meanings and failure/acceptance behavior.
 
-**Current decision: review the next bounded HydrAMP commission after D37.**
+**Current operation: prepare the bounded HydrAMP qualification under D38.**
 D35 closes increment 1's scientific design, approving the
 [contract and M1–M8](v0_1_increment_1.md), both selectors and the conservative
 sequence-preserving route. Leading-M originals are incompatible with that route,
@@ -158,7 +159,7 @@ Do not request another approval of that policy. The
 W0–W4 and the original bundle/permission/environment/budget evidence. Central
 admission/starter and engineering receiving are complete. HydrAMP's actual
 assets/terms, fixtures and effective limits would precede its own execution.
-H0–H4 remains a proposal;
+D38 commissions the bounded H0–H4 route; actual execution and acceptance remain gated;
 feedback/target-directed milestones remain after the functional core. Only bounded
 V0.1 portions of P02/P03/P05/P06 need resolution; P10/horizons add none.
 

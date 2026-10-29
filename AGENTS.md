@@ -62,8 +62,12 @@ earlier W0-only issue restriction no longer limits this reporting duty. Reportin
 a need does not authorize its implementation, a scientific scope change or
 publication. Preserve confidentiality and existing declined/deferred disclosures.
 Do not treat a proposed registration branch as accepted admission or fabricate
-an admission SHA. HydrAMP, increments 2/3, target-conditioned generation, other
-scientific models, package publication and a new architecture are not authorized.
+an admission SHA. D38 now commissions the single HydrAMP increment-2
+qualification recorded under PeptideMT #8: read its maintained work record
+before continuing. Exact bundle/use conditions and fresh host/call limits still
+precede model loading or execution. Analogue generation, increment 3/feedback,
+target-conditioned generation, other scientific models, publication and a new
+architecture remain outside this commission.
 Material changes to chemistry, preprocessing, attribution, selectors or scientific
 acceptance return to the investigators. Routine internal technical choices are
 delegated to Codex within these contracts.

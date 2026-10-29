@@ -1,0 +1,358 @@
+{
+  "schema": "peptidemt.generative_resource_survey@1",
+  "date": "2026-10-29",
+  "scope": "Nonexclusive discovery and source/document inspection; not installation, permission, scientific qualification or adoption.",
+  "issue": "uibcdf/peptidemt#8",
+  "new_model_calls": 0,
+  "new_alternative_runtime_installations": 0,
+  "weight_metadata_only": true,
+  "source_inspections": [
+    {
+      "repository": "AaronFeller/PeptideCLM-2",
+      "commit": "6b9708d4cb05717307d310daaf1c0f88c71ff084",
+      "default_branch": "master",
+      "license_metadata": "MIT",
+      "tree_truncated": false,
+      "weight_file_metadata": [],
+      "manifest_license_paths": [
+        {
+          "path": "LICENSE",
+          "bytes": 1068
+        }
+      ],
+      "inspected_source_files": [
+        {
+          "path": "README.md",
+          "git_blob_sha1": "1f3ebb30dcde35b70efb0f0d359f8e95ade48490"
+        }
+      ]
+    },
+    {
+      "repository": "ComputBiophys/AMPainter",
+      "commit": "548017d9a6c5a508c875437b0a5f2530c958021f",
+      "default_branch": "V1",
+      "license_metadata": null,
+      "tree_truncated": false,
+      "weight_file_metadata": [
+        {
+          "path": "RLevolve/weights/ite10_step40_Agent.ckpt",
+          "bytes": 51163
+        },
+        {
+          "path": "RLevolve/weights/ite11_step40_Agent.ckpt",
+          "bytes": 51163
+        },
+        {
+          "path": "RLevolve/weights/ite12_step40_Agent.ckpt",
+          "bytes": 51163
+        },
+        {
+          "path": "RLevolve/weights/ite13_step40_Agent.ckpt",
+          "bytes": 51163
+        },
+        {
+          "path": "RLevolve/weights/ite14_step40_Agent.ckpt",
+          "bytes": 51163
+        },
+        {
+          "path": "RLevolve/weights/ite15_step40_Agent.ckpt",
+          "bytes": 51163
+        },
+        {
+          "path": "RLevolve/weights/ite3_step30_Agent.ckpt",
+          "bytes": 51163
+        },
+        {
+          "path": "RLevolve/weights/ite4_step30_Agent.ckpt",
+          "bytes": 51163
+        },
+        {
+          "path": "RLevolve/weights/ite5_step30_Agent.ckpt",
+          "bytes": 51163
+        },
+        {
+          "path": "RLevolve/weights/ite6_step40_Agent.ckpt",
+          "bytes": 51163
+        },
+        {
+          "path": "RLevolve/weights/ite7_step40_Agent.ckpt",
+          "bytes": 51163
+        },
+        {
+          "path": "RLevolve/weights/ite8_step40_Agent.ckpt",
+          "bytes": 51163
+        },
+        {
+          "path": "RLevolve/weights/ite9_step40_Agent.ckpt",
+          "bytes": 51163
+        },
+        {
+          "path": "fitness/Agent_fitness_ite8.ckpt",
+          "bytes": 51163
+        }
+      ],
+      "manifest_license_paths": [],
+      "inspected_source_files": [
+        {
+          "path": "README.md",
+          "git_blob_sha1": "a7e0a86bbeefea341e6568a0080c5fb530b7a539"
+        }
+      ]
+    },
+    {
+      "repository": "IoriYamahata/CPP_Design",
+      "commit": "9e8e5afb66dc66c951af27bf64eef23f2806f6b3",
+      "default_branch": "main",
+      "license_metadata": null,
+      "tree_truncated": false,
+      "weight_file_metadata": [
+        {
+          "path": "sequence_generation/models/paper/classifier/best_checkpoint.pt",
+          "bytes": 53300
+        },
+        {
+          "path": "sequence_generation/models/paper/fine-tuned_model/EvoDiff_Finetuning_640M_state_dict.pt",
+          "bytes": 13797601
+        }
+      ],
+      "manifest_license_paths": [
+        {
+          "path": "optimization_cycle/environment.yml",
+          "bytes": 635
+        },
+        {
+          "path": "sequence_generation/environment.yml",
+          "bytes": 318
+        }
+      ],
+      "inspected_source_files": [
+        {
+          "path": "README.md",
+          "git_blob_sha1": "e48d8fd7550f9c8ec84455b979c32205b6651b1b"
+        },
+        {
+          "path": "sequence_generation/README.md",
+          "git_blob_sha1": "5ef35eaee2350c2baae18a8eb4432f3d994b6361"
+        },
+        {
+          "path": "sequence_generation/environment.yml",
+          "git_blob_sha1": "18e940644070de83628751dcfd7ea83c886c4401"
+        }
+      ]
+    },
+    {
+      "repository": "MolecularAI/PepINVENT",
+      "commit": "e976dd18d68a6e0496ec0f70d7a4dc78d473ae6c",
+      "default_branch": "master",
+      "license_metadata": "Apache-2.0",
+      "tree_truncated": false,
+      "weight_file_metadata": [
+        {
+          "path": "data/models/generative_model.ckpt",
+          "bytes": 79935472
+        }
+      ],
+      "manifest_license_paths": [
+        {
+          "path": "LICENSE",
+          "bytes": 11357
+        },
+        {
+          "path": "setup.py",
+          "bytes": 602
+        }
+      ],
+      "inspected_source_files": [
+        {
+          "path": "README.md",
+          "git_blob_sha1": "284d4dc79d838e7aa1c9b68d660edc1e257fdac7"
+        },
+        {
+          "path": "pepinvent_env.yml",
+          "git_blob_sha1": "7384f735497be3ab44fe2e3ba4b70eac1d4032e4"
+        }
+      ]
+    },
+    {
+      "repository": "ZhiweiNiepku/PepGenWL",
+      "commit": "5bf77472c111c51aa1c316c57f8a57fdfcbe5e3c",
+      "default_branch": "main",
+      "license_metadata": "Apache-2.0",
+      "tree_truncated": false,
+      "weight_file_metadata": [],
+      "manifest_license_paths": [
+        {
+          "path": "LICENSE",
+          "bytes": 11454
+        }
+      ],
+      "inspected_source_files": [
+        {
+          "path": "README.md",
+          "git_blob_sha1": "509010a5adc641d5fbe813706d8c28e8690ad84f"
+        }
+      ]
+    },
+    {
+      "repository": "marszzibros/AMPGANv3",
+      "commit": "6f8f9294a42c8cb537d7c0a1d9272c889e797858",
+      "default_branch": "main",
+      "license_metadata": null,
+      "tree_truncated": false,
+      "weight_file_metadata": [
+        {
+          "path": "weights/Discriminator1_7_200.pth",
+          "bytes": 1038129
+        },
+        {
+          "path": "weights/Discriminator2_7_200.pth",
+          "bytes": 1037873
+        },
+        {
+          "path": "weights/Generator_7_200.pth",
+          "bytes": 9872403
+        }
+      ],
+      "manifest_license_paths": [
+        {
+          "path": "pyproject.toml",
+          "bytes": 1136
+        }
+      ],
+      "inspected_source_files": [
+        {
+          "path": "README.md",
+          "git_blob_sha1": "a7647bc4f3a0c705cc6001a0b7847c0d72e0517a"
+        },
+        {
+          "path": "pyproject.toml",
+          "git_blob_sha1": "9f2a761405f90ec651b07c1df01d6396a0e5d0fe"
+        }
+      ]
+    },
+    {
+      "repository": "omixlab/anticancer-peptide",
+      "commit": "bbb2a74f77046516322f8ab52b265572bcf0180d",
+      "default_branch": "main",
+      "license_metadata": "MIT",
+      "tree_truncated": false,
+      "weight_file_metadata": [],
+      "manifest_license_paths": [
+        {
+          "path": "LICENSE",
+          "bytes": 1064
+        },
+        {
+          "path": "environment.yml",
+          "bytes": 144
+        },
+        {
+          "path": "requirements.txt",
+          "bytes": 51
+        },
+        {
+          "path": "setup.py",
+          "bytes": 979
+        }
+      ],
+      "inspected_source_files": [
+        {
+          "path": "README.md",
+          "git_blob_sha1": "436b6eef6b7eaf1c0cfde8a238033c78674ff35a"
+        },
+        {
+          "path": "requirements.txt",
+          "git_blob_sha1": "4def83d92820d95bb00365a4f9257e4d55c80438"
+        }
+      ]
+    },
+    {
+      "repository": "sophtang/PepTune",
+      "commit": "ce4daf00ade848cca7007b04b70ae9fe54ed2268",
+      "default_branch": "main",
+      "license_metadata": "Apache-2.0",
+      "tree_truncated": false,
+      "weight_file_metadata": [],
+      "manifest_license_paths": [
+        {
+          "path": "LICENSE.md",
+          "bytes": 11357
+        },
+        {
+          "path": "src/environment.yml",
+          "bytes": 744
+        }
+      ],
+      "inspected_source_files": [
+        {
+          "path": "README.md",
+          "git_blob_sha1": "c49862754541a15172889f866fb81aa719265941"
+        }
+      ]
+    },
+    {
+      "repository": "szczurek-lab/OmegAMP",
+      "commit": "20b691b5b6f74ef86bc83f34d5610e30cd456c96",
+      "default_branch": "main",
+      "license_metadata": "MIT",
+      "tree_truncated": false,
+      "weight_file_metadata": [],
+      "manifest_license_paths": [
+        {
+          "path": "LICENSE",
+          "bytes": 1223
+        },
+        {
+          "path": "pyproject.toml",
+          "bytes": 1042
+        }
+      ],
+      "inspected_source_files": [
+        {
+          "path": "README.md",
+          "git_blob_sha1": "5c1d4c7623684019aa76738d8a680ad45a9fdcbd"
+        },
+        {
+          "path": "pyproject.toml",
+          "git_blob_sha1": "9ffde1640d287fabc913a268aef4bca50b172588"
+        },
+        {
+          "path": "README-Inference.md",
+          "git_blob_sha1": "412981ce414415501182b48054e6d6600e30adac"
+        },
+        {
+          "path": "project/scripts/inference/generate_samples.py",
+          "git_blob_sha1": "560895819bdf70f5058ac27c9934406f50ddf710"
+        }
+      ]
+    },
+    {
+      "repository": "wyky481l/MMCD",
+      "commit": "e96d25d580591b9f6679c2786489fe3ebd4df105",
+      "default_branch": "main",
+      "license_metadata": null,
+      "tree_truncated": false,
+      "weight_file_metadata": [],
+      "manifest_license_paths": [],
+      "inspected_source_files": [
+        {
+          "path": "README.md",
+          "git_blob_sha1": "efa3941fe217e8c9daec6e1026584bb9f565a8da"
+        }
+      ]
+    }
+  ],
+  "reused_source_snapshots": {
+    "PLUM": "priyamayur/PLUM@650fdae718f8e761deb2c96ff428766854d050a3",
+    "ARCADIAMP": "IBPA/ARCADIAMP@70448c14a176399640a26095782e870b7204c338",
+    "AMP-Designer": "jkwang93/AMP-Designer@07d455dd6eb7ef61fe03b85732966caa32bf3dc4",
+    "PepDiffusion": "Wangyj2023/PepDiffusion@6570dddaf1cac6b5210202bb135d876bebcf6d12"
+  },
+  "limits": [
+    "Repository license metadata describes code; artifact/data/dependency terms require their own review. Missing metadata is unresolved, not evidence of an unrestricted license.",
+    "Named weight files and external URLs were not downloaded, loaded or checked for completeness; Git LFS/base-model/adapter dependencies may remain.",
+    "README/manifest Python claims do not establish installation or Python 3.14 compatibility.",
+    "Native conditions, internal filtering and training distributions differ; scores and paper hit rates are not a common benchmark.",
+    "No resource is made mandatory or selected exclusively, and no fork/new trained model is created."
+  ]
+}

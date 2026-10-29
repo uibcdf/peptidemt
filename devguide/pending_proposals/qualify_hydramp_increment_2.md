@@ -1,7 +1,7 @@
 ---
-summary: Review the bounded HydrAMP route and commissioning gates for real generation.
+summary: Prepare and qualify the commissioned native HydrAMP route within H0–H4.
 issue: uibcdf/peptidemt#8
-status: open
+status: partial
 opened: 2026-10-29
 closed:
 verification: inspected
@@ -12,7 +12,56 @@ blocked_by: []
 supersedes: []
 ---
 
-# Increment 2 readiness: bounded HydrAMP qualification
+# Increment 2: bounded HydrAMP qualification
+
+## Current preparation and renewal discussion — 2026-10-29
+
+The investigator explicitly requests a nonexclusive inventory: HydrAMP, PLUM
+and other generators can coexist as optional resources. The
+[expanded source survey](../generative_resource_survey.md) records complementary
+capabilities and separate readiness, including OmegAMP and non-AMP candidates.
+An implementation priority is not an exclusive platform/model choice. D38's
+commission remains bounded; listed alternatives are not silently adopted.
+
+The investigator accepts retaining HydrAMP as one optional reference despite its
+legacy stack, alongside future alternatives, and is discussing a modern fork
+and a later multi-family algorithm. The
+[scope discussion](../v0_1_scope.md#hydramp-renewal-and-other-functions--exploratory-discussion-2026-10-29)
+keeps modernization, new training and resource adoption distinct. No fork or
+replacement model has been approved or created. D38's original model-loading/
+execution prerequisites still apply.
+
+Exact original source and 65 selected official starter files were acquired and
+verified against Git blobs/SHA256, including 60 checkpoint files. Forty-two
+numeric weight headers were checked without array/model loading. A task-owned
+Python 3.8.20 bootstrap exists; the original dependency dry run fails because
+modlAMP 4.2.3 requires unavailable mysql-connector-python==8.0.17. Conda also
+lacks the requested old setuptools artifacts and modlAMP 4.2.3 in the inspected
+channels. The bootstrap uses setuptools 75.3.0; this is not a qualified HydrAMP
+runtime. No dependency metadata was patched, no scientific provider was installed
+in that environment, and no TensorFlow/model/PCA was loaded. H0/H1 remain partial;
+the original resolution failure is not bypassed or reported as clean closure.
+The [preparation receipt](../evidence/hydramp_preparation.json) and
+[asset inventory](../evidence/hydramp_reference_assets.json) preserve the exact
+bounded observations and hashes; they do not clear H0/H1 or authorize model calls.
+
+## Commissioning accepted — 2026-10-29
+
+D38 records explicit investigator approval to continue after the scope explanation.
+The single native de novo route and H0–H4 obligations below are commissioned for
+artifact/use preflight, isolated legacy environment and adapter preparation.
+Model loading/inference remains gated on the exact bundle, use conditions and a
+fresh shared-host envelope, including a separate Macrel budget. There is no GPU
+or automatic retry/refill authority and no scientific acceptance of HydrAMP.
+
+This existing #8 record now owns the commissioned qualification through its
+actual H0–H4 disposition, instead of opening a duplicate implementation theme.
+The original review-only close criterion below is superseded by this dated
+commission: preserve partial status until actual evidence and investigator
+acceptance or a documented narrowed/declined outcome. The earlier proposal
+is retained as the approved scope with its historical status explicit.
+
+## Original proposal — historical review checkpoint
 
 Status: **proposal for investigator review**, 2026-10-29. This record prepares
 the next commission; it is not acceptance of HydrAMP or execution permission.

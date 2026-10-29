@@ -20,9 +20,15 @@ in-memory inputs and saved-result replay remain independent of that provider.
 The [W3 preparation](w3_qualification.md) records candidate bytes, upstream
 fixtures, optional scientific attribution and proposed host execution bounds.
 
-Next scientific review: [bounded HydrAMP qualification for increment 2](pending_proposals/qualify_hydramp_increment_2.md),
-owned in #8. This is a proposed commission using the existing H0–H4 gates,
-not authorization to install or execute another model.
+The [nonexclusive generative-resource survey](generative_resource_survey.md)
+extends the inventory beyond HydrAMP/PLUM, including AMP, CPP/ACP, chemistry and
+search resources. It records inspected source/asset/runtime limits and proposed
+qualification priorities; it does not commission all listed integrations.
+
+Current commissioned work: [bounded HydrAMP qualification for increment 2](pending_proposals/qualify_hydramp_increment_2.md),
+owned in #8 and authorized under D38. Artifact/use preflight, an isolated
+legacy environment and adapter preparation proceed; exact bundle/use conditions
+and fresh host/call limits still precede model loading or inference.
 
 1. [Scientific vision and scope](vision_scope.md): the current provisional
    definition, boundaries and the computational role of functional families.

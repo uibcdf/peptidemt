@@ -9,8 +9,9 @@ scope. D36's W0–W4 delivery and D37 acceptance retain their
 [exact evidence](evidence/increment_1_acceptance.json). See the
 [work order](increment_1_work_order.md). The next
 [HydrAMP proposal](pending_proposals/qualify_hydramp_increment_2.md) makes the
-existing H0–H4 review concrete; implementation/execution and package publication
-remain outside the completed assignment. Normal owning-issue feedback follows
+existing H0–H4 review concrete and is now commissioned under D38. Actual
+model loading/inference requires the exact bundle/use conditions and fresh host
+limits; package publication remains outside the assignment. Normal owning-issue feedback follows
 [the governance map](governance.md).
 P04/P09 remain conceptually closed. This document narrows their application rather
 than designing a universal optimizer or reopening the general architecture.
@@ -47,6 +48,80 @@ not contingent on completing every feedback extension. C remains a later option.
 Exact engine bundles, API and deployment remain unadopted. D34 settles first
 coverage/order; D35 accepts increment 1's provisional chemistry/length envelope
 and scientific contract without qualifying every chemical realization or length.
+
+### HydrAMP renewal and other functions — exploratory discussion, 2026-10-29
+
+The investigator reiterates that multiple resources can coexist: HydrAMP, a
+possible derivative, PLUM and further generators are nonexclusive options. The
+[expanded survey](generative_resource_survey.md) records source evidence and
+complementary functions. Earlier comparisons concern implementation priorities
+and possible bases for research, not selecting the sole PeptideMT generator.
+
+The investigator is willing to retain the original HydrAMP as one optional
+resource despite its legacy stack, alongside future alternatives, and requests
+examining what a renewed implementation could learn from it. This is a research
+direction, not acceptance or commissioning of a new trained model. D38's native
+qualification and its model-loading/resource gates remain separate.
+
+**Working hypothesis:** the conditional sequence-VAE approach could be adapted
+to other peptide functions with suitable data and newly qualified conditioning,
+predictors, losses and training. Existing HydrAMP weights retain their AMP/low-MIC
+training scope. The inspected native generator sets both AMP/MIC conditions
+together and exposes AMP/non-AMP modes, not a general family selector; see the
+[pinned source](https://github.com/szczurek-lab/hydramp/blob/6590d2f4c2963f25d30669052a4c4a857e0e7279/amp/inference/inference.py).
+
+A framework port with the same weights tests computational equivalence. Transfer
+learning or retraining for CPP, ACP or multiple functions tests a new scientific
+model. Preserve overlapping labels, absent versus negative annotations, assay
+context and independent evaluation; a label rename or new downstream predictor
+does not establish newly conditioned generation. CPP uptake/cytosolic access and
+ACP activity/selectivity require their respective endpoints. Protein-target
+recognition additionally requires target information and appropriate paired
+evidence. No extension of the original chemical/length domain is inferred.
+
+Potential experiments would compare training from scratch with transfer learning,
+using sequence-relatedness controls and evaluation beyond the guiding predictor.
+The scientific question is whether functional conditioning changes supported
+generation beyond sequence plausibility and simple composition/length effects.
+These experiments, modern implementations and broader families remain unexecuted
+and outside the present native qualification commission.
+
+The subsequent fork discussion is still a **pending technical/scientific choice**.
+A fork for modern reproduction would remain one optional PeptideMT resource,
+with its own version/source and original upstream credit. It would not make the
+current AMP weights into a multi-family model. First establish bounded inference
+with the original weights and explicit numerical comparisons; a complete training
+port and newly trained multi-function resource have separate evidence obligations.
+The original custom recurrent/Gumbel layers, serializer and gradient-based losses
+make training migration a larger task than changing imports or version bounds.
+
+Current package metadata inspected on 2026-10-29 gives a concrete deployment
+tradeoff: TensorFlow and tensorflow-cpu 2.21.0 have no Linux CPython 3.14 wheels;
+tf-nightly 2.23.0.dev20261028 does. PyTorch 2.15.0 has a stable Linux x86_64
+CPython 3.14 wheel, and Keras 3.15.1 offers a universal wheel and multiple backends.
+These are availability observations, not tested HydrAMP compatibility. See
+[TensorFlow files](https://pypi.org/project/tensorflow/2.21.0/#files),
+[nightly files](https://pypi.org/project/tf-nightly/#files),
+[PyTorch files](https://pypi.org/project/torch/2.15.0/#files) and the
+[Keras backend contract](https://keras.io/keras_3/).
+
+**Provisional recommendation:** compare a small HydrAMP inference port to a
+PyTorch route (directly or through Keras 3) against adopting an existing modern
+candidate before committing to full legacy training maintenance. PLUM at
+`priyamayur/PLUM@650fdae718f8e761deb2c96ff428766854d050a3` is particularly relevant:
+its README declares Python >=3.12, its native generator uses PyTorch and function/
+length conditions, and the repository exposes checkpoint files. Its full
+requirements are unpinned, generation filters length/training-set matches, and
+the associated [2026 work is a preprint](https://pubmed.ncbi.nlm.nih.gov/42124643/).
+Neither Python 3.14 compatibility nor biological superiority has been executed
+or established here. The native API and conditions differ from HydrAMP; adopting
+it would be a reviewed resource choice, not an interchangeable checkpoint update.
+ARCADIAMP at `IBPA/ARCADIAMP@70448c14a176399640a26095782e870b7204c338`
+provides another [current source reference](https://github.com/IBPA/ARCADIAMP/tree/70448c14a176399640a26095782e870b7204c338),
+documenting Python 3.11.9 and CPU inference, with a larger notebook-driven
+diffusion/screening workflow. Its actual cost and a bounded generator-only route
+remain unqualified. No alternative was installed, executed or adopted; no fork
+was created by this discussion.
 
 ## 2. Bounded resource review
 
