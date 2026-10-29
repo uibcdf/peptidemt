@@ -10,7 +10,7 @@ Navigation: [design guide](README.md) · [V0.1 scope](v0_1_scope.md) ·
 For the permanent collection/conversation area and planned family navigation,
 see the [scientific-resource catalogue](tools_catalog.md). This dated
 source survey is technical input to that area; it is not an indefinitely open
-implementation issue or evidence that the draft opening discussions already exist.
+implementation issue. Published conversations link back to the maintained evidence.
 
 The investigator clarifies that HydrAMP, a possible modern derivative, PLUM and
 other resources can coexist. This reinforces D17–D26's many-to-many resource and

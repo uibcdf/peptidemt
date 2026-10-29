@@ -1,8 +1,11 @@
 # Scientific resources: catalogue and Discussions
 
-Status: **three-category layout accepted and categories created by the
-investigator**, 2026-10-29. API readback verifies the categories and descriptions.
-Opening posts below remain unpublished drafts; forms are prepared locally.
+Status: **three-category layout accepted; catalogue, forms and five opening
+conversations published**, 2026-10-29. API readback verifies categories,
+descriptions and the published bodies, including their navigation cross-links.
+The investigator explicitly authorized publication of these five texts and the
+catalogue/forms. The [publication receipt](evidence/scientific_resources_discussions.json)
+records the source commit, form hashes, discussion identities and body hashes.
 Section grouping, actual open-ended formats and rendered forms have not been
 independently verified in the browser.
 Navigation: [design guide](README.md) · [source survey](generative_resource_survey.md)
@@ -47,7 +50,7 @@ The investigator selected the following categories for **Scientific Resources**
 and reported creating all three. A subsequent authenticated API readback on
 2026-10-29 verifies their exact names, slugs and descriptions, each with
 `isAnswerable=false`. Announcements, Q&A and Ideas remain present; Q&A is
-answerable. The repository still has zero discussions.
+answerable. Five opening discussions have subsequently been published and verified.
 
 | Category / slug | Purpose | Intended format | Maintained destination |
 | --- | --- | --- | --- |
@@ -86,15 +89,15 @@ Reconsider that tradeoff if traffic or distinct stewardship later justifies it.
   deferral. Link the conversation and destination both ways. Concrete work gets
   an owning issue. Recording a resource is not adoption or execution authority.
 
-Prepared opening conversations (not yet posted):
+Published opening conversations:
 
-| Proposed title | Category | Purpose |
+| Conversation | Category | Purpose |
 | --- | --- | --- |
-| Tools and models — catalogue and discovery | Tools and Models | Stable entry/index; introduce stewardship and link family conversations and the maintained catalogue. Recommend pinning it. |
-| AMP — generators, predictors and evaluation resources | Tools and Models | Collect and compare AMP resources, initially linking the source survey. Preserve generative conditioning, evaluation and adverse properties as distinct roles. |
-| CPP — tools, evidence and research questions | Tools and Models | Begin the next family-oriented collection. A focused CPP survey is still pending; define uptake/access context without implying qualified CPP capability. |
-| Datasets and benchmarks — catalogue and evaluation questions | Datasets and Benchmarks | Entry point for data sources, endpoints, partitioning and fair comparison, linked to the existing family/data review. |
-| Reading list — papers and scientific questions | Reading List | Entry point for methodological and biological reading, linked to existing literature and topical guides. |
+| [#9 Tools and models — catalogue and discovery](https://github.com/uibcdf/peptidemt/discussions/9) | Tools and Models | Stable entry/index; introduce stewardship and link family conversations and the maintained catalogue. Recommend pinning it. |
+| [#10 AMP — generators, predictors and evaluation resources](https://github.com/uibcdf/peptidemt/discussions/10) | Tools and Models | Collect and compare AMP resources, initially linking the source survey. Preserve generative conditioning, evaluation and adverse properties as distinct roles. |
+| [#11 CPP — tools, evidence and research questions](https://github.com/uibcdf/peptidemt/discussions/11) | Tools and Models | Begin the next family-oriented collection. A focused CPP survey is still pending; define uptake/access context without implying qualified CPP capability. |
+| [#12 Datasets and benchmarks — catalogue and evaluation questions](https://github.com/uibcdf/peptidemt/discussions/12) | Datasets and Benchmarks | Entry point for data sources, endpoints, partitioning and fair comparison, linked to the existing family/data review. |
+| [#13 Reading list — papers and scientific questions](https://github.com/uibcdf/peptidemt/discussions/13) | Reading List | Entry point for methodological and biological reading, linked to existing literature and topical guides. |
 
 Add ACP and other family/function conversations when their discovery work begins.
 Use a family conversation as an index and cross-cutting discussion. As a resource
@@ -110,7 +113,7 @@ do not establish CPP or ACP activity. Keep assay/organism/cell/chemistry context
 
 ## Category intake forms
 
-Three local forms match the API-observed category slugs:
+Three published forms match the API-observed category slugs:
 
 - [Tools and Models](../.github/DISCUSSION_TEMPLATE/tools-and-models.yml);
 - [Datasets and Benchmarks](../.github/DISCUSSION_TEMPLATE/datasets-and-benchmarks.yml);
@@ -135,8 +138,13 @@ Do not create a Reading List entry for every paper cited by a tool or dataset;
 use it when the reading merits a scientific conversation of its own.
 
 [GitHub requires the forms on the default branch](https://docs.github.com/en/discussions/managing-discussions-for-your-community/creating-discussion-category-forms).
-Local YAML/schema checks do not prove live rendering. These files are not yet
-committed or deployed; publication and a browser rendering check remain pending.
+Local YAML/structure checks do not prove live rendering. These files are published
+on `main`, verified by a GitHub tree readback. Browser rendering, section grouping
+and actual open-ended category formats remain unverified: this session has no
+available browser, and creating an in-app browser tab returned unavailable.
+Pinning the three category entry points (#9, #12 and #13) remains a browser action;
+the inspected public GraphQL mutation surface has no discussion-pinning operation.
+These UI tasks do not prevent using the published catalogue and conversations.
 
 ## Versioned catalogue and initial family navigation
 
@@ -172,10 +180,11 @@ Existing [Discussions setup #3](https://github.com/uibcdf/peptidemt/issues/3) is
 complete. A useful local category is a new extension, not evidence of a failed
 common-category rollout. No new permanently open catalogue issue is proposed.
 
-## Draft opening posts
+## Opening post texts
 
-The following English text makes the proposal reviewable; these are drafts,
-without invented discussion numbers or claims of remote configuration.
+The following English texts were reviewed before publication. Each published
+conversation also contains navigation links to the other four conversations;
+the publication receipt identifies the exact published body hashes.
 
 ### Tools and models — catalogue and discovery
 
@@ -185,7 +194,8 @@ models and computational methods relevant to PeptideMT.
 The [versioned catalogue](https://github.com/uibcdf/peptidemt/blob/main/devguide/tools_catalog.md)
 maintains navigation and stewardship. Start with the
 [source survey](https://github.com/uibcdf/peptidemt/blob/main/devguide/generative_resource_survey.md),
-then follow the AMP and CPP conversations linked here after creation.
+then follow the [AMP](https://github.com/uibcdf/peptidemt/discussions/10) and
+[CPP](https://github.com/uibcdf/peptidemt/discussions/11) conversations.
 
 Resources are nonexclusive and can contribute several roles or functions. Share
 official sources, what they could contribute, context and open questions. Unknown

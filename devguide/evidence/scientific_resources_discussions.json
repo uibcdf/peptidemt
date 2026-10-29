@@ -1,0 +1,134 @@
+{
+  "repository": "uibcdf/peptidemt",
+  "observed_at_utc": "2026-10-29T19:05:41.185766+00:00",
+  "scope": "Authorized publication of resource catalogue, three category forms and five cross-linked opening discussions; no model execution or package release.",
+  "catalogue_and_form_publication_commit": "ad50c2f9e3715e9b097c367f0272107362dfb10a",
+  "categories": [
+    {
+      "id": "DIC_kwDOVYipYs4DJtFB",
+      "name": "Announcements",
+      "slug": "announcements",
+      "description": "Maintainer updates on PeptideMT releases, development and compatibility.",
+      "isAnswerable": false
+    },
+    {
+      "id": "DIC_kwDOVYipYs4DJ8PN",
+      "name": "Datasets and Benchmarks",
+      "slug": "datasets-and-benchmarks",
+      "description": "Collect and discuss peptide databases, datasets and evaluation benchmarks. Examine provenance, experimental context, coverage, data leakage and reproducibility.",
+      "isAnswerable": false
+    },
+    {
+      "id": "DIC_kwDOVYipYs4DJtFE",
+      "name": "Ideas",
+      "slug": "ideas",
+      "description": "Early ideas for PeptideMT. Concrete proposals and decisions go to issues or versioned records.",
+      "isAnswerable": false
+    },
+    {
+      "id": "DIC_kwDOVYipYs4DJtFD",
+      "name": "Q&A",
+      "slug": "q-a",
+      "description": "Questions about using PeptideMT. Actionable findings go to owning issues.",
+      "isAnswerable": true
+    },
+    {
+      "id": "DIC_kwDOVYipYs4DJ8Pm",
+      "name": "Reading List",
+      "slug": "reading-list",
+      "description": "Discuss papers and reviews that inform peptide research and PeptideMT development. Explain their relevance, main findings, limitations and open questions.",
+      "isAnswerable": false
+    },
+    {
+      "id": "DIC_kwDOVYipYs4DJ8Oi",
+      "name": "Tools and Models",
+      "slug": "tools-and-models",
+      "description": "Discover and compare peptide-design tools, predictors and generative models. Discuss capabilities, availability, licences, evidence and limitations.",
+      "isAnswerable": false
+    }
+  ],
+  "form_sources": [
+    {
+      "path": ".github/DISCUSSION_TEMPLATE/datasets-and-benchmarks.yml",
+      "sha256": "b80fe555b3d90e7100e59ac89bca03ad11da0be38d3d46b4bf2c2e3e39c8b877"
+    },
+    {
+      "path": ".github/DISCUSSION_TEMPLATE/reading-list.yml",
+      "sha256": "e19595740719b05b1160f69bae46e963a1a882b7f7856ddb017c262d4e3db0ec"
+    },
+    {
+      "path": ".github/DISCUSSION_TEMPLATE/tools-and-models.yml",
+      "sha256": "4b91417579756a6a700ed95f9620a83768b0ae9026f27dcfd04b8c8e81eb8185"
+    }
+  ],
+  "discussions": [
+    {
+      "id": "D_kwDOVYipYs4Aqptn",
+      "number": 9,
+      "title": "Tools and models — catalogue and discovery",
+      "url": "https://github.com/uibcdf/peptidemt/discussions/9",
+      "createdAt": "2026-10-29T19:04:22Z",
+      "updatedAt": "2026-10-29T19:04:53Z",
+      "category": {
+        "slug": "tools-and-models"
+      },
+      "body_sha256": "fd013ec7dfdcae6b8ab0be44d40897535e9e0dd84a1a7f7a5cc9a7c4c45dd01f"
+    },
+    {
+      "id": "D_kwDOVYipYs4Aqptp",
+      "number": 10,
+      "title": "AMP — generators, predictors and evaluation resources",
+      "url": "https://github.com/uibcdf/peptidemt/discussions/10",
+      "createdAt": "2026-10-29T19:04:23Z",
+      "updatedAt": "2026-10-29T19:04:54Z",
+      "category": {
+        "slug": "tools-and-models"
+      },
+      "body_sha256": "4697e2643a8f6527296e7079f2dce84e95cf017b884d55e0496e3846552b5a74"
+    },
+    {
+      "id": "D_kwDOVYipYs4Aqptq",
+      "number": 11,
+      "title": "CPP — tools, evidence and research questions",
+      "url": "https://github.com/uibcdf/peptidemt/discussions/11",
+      "createdAt": "2026-10-29T19:04:24Z",
+      "updatedAt": "2026-10-29T19:04:56Z",
+      "category": {
+        "slug": "tools-and-models"
+      },
+      "body_sha256": "acd65a9bde0c21314197e39a3e66127de2f302617d3c6c95193030beceecbd75"
+    },
+    {
+      "id": "D_kwDOVYipYs4Aqpts",
+      "number": 12,
+      "title": "Datasets and benchmarks — catalogue and evaluation questions",
+      "url": "https://github.com/uibcdf/peptidemt/discussions/12",
+      "createdAt": "2026-10-29T19:04:26Z",
+      "updatedAt": "2026-10-29T19:04:57Z",
+      "category": {
+        "slug": "datasets-and-benchmarks"
+      },
+      "body_sha256": "c855e78291786a69555d71753eddbe792e1925eb8d3190e2974030a292fd15dc"
+    },
+    {
+      "id": "D_kwDOVYipYs4Aqptu",
+      "number": 13,
+      "title": "Reading list — papers and scientific questions",
+      "url": "https://github.com/uibcdf/peptidemt/discussions/13",
+      "createdAt": "2026-10-29T19:04:27Z",
+      "updatedAt": "2026-10-29T19:04:59Z",
+      "category": {
+        "slug": "reading-list"
+      },
+      "body_sha256": "f8eb7abb03533eba68d35321a8b7700674cf60c997c5eb925a72ddad0678e4f8"
+    }
+  ],
+  "verification": {
+    "api_readback": "Exact published bodies match the authorized drafts plus navigation cross-links; category names, descriptions, slugs and Q&A answerability observed.",
+    "local_checks": "Category-form YAML structure, required/optional fields, relative document paths, developer-guide indexes and git diff whitespace.",
+    "section_grouping": "Not independently verified; no browser available.",
+    "open_ended_formats": "Intended configuration; isAnswerable=false alone does not certify every UI-only format.",
+    "form_rendering": "Pending browser verification; source files published on main.",
+    "pinning": "Pending browser action; the available GitHub GraphQL mutation surface exposes no discussion-pinning operation."
+  }
+}
