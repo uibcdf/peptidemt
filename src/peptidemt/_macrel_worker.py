@@ -14,6 +14,7 @@ from depdigest import dep_digest
 
 from ._data import decode, encode, freeze
 from ._diagnostics import RequiredDependencyError
+from ._molsysmt import _load_molsysmt
 
 
 @dep_digest("macrel")
@@ -23,13 +24,6 @@ def _load_macrel():
     from macrel.AMP_predict import predict
 
     return macrel, fasta_features, predict
-
-
-@dep_digest("molsysmt")
-def _load_molsysmt():
-    import molsysmt
-
-    return molsysmt
 
 
 def _sha256(path):

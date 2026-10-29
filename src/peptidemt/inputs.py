@@ -95,44 +95,59 @@ def prepare_sequences(
 
 
 def parse_fasta(text: str, *, source: str | None = None) -> tuple[SequenceRecord, ...]:
-    """Join sequence lines, retaining full headers and verbatim record text.
+    """Receive source-preserving records from MolSysMT's public FASTA reader.
 
-    Only line terminators are removed from sequence lines. Whitespace, lowercase,
-    stops and modification syntax are not silently repaired. Nonblank content
-    before a header raises ValueError rather than losing an unnamed proposal.
+    Requires the development-source ``file_fasta.parse_records`` capability.
+    Only CR/LF line terminators are removed from sequence lines. Other characters,
+    full headers, repeated and empty occurrences remain unchanged. Provider format
+    errors become ValueError with their original cause; no local parser is used.
     """
     if not isinstance(text, str):
         raise TypeError("FASTA input must be text")
-    records = []
-    header = None
-    lines = []
-    raw = []
-    for number, line in enumerate(text.splitlines(keepends=True), start=1):
-        content = line.removesuffix("\n").removesuffix("\r")
-        if content.startswith(">"):
-            if header is not None:
-                records.append(
-                    SequenceRecord(
-                        "".join(lines), header, source=source, raw_record="".join(raw)
-                    )
-                )
-            header, lines, raw = content[1:], [], [line]
-        elif header is None:
-            if content.strip():
-                raise ValueError(f"FASTA sequence before first header at line {number}")
-        else:
-            lines.append(content)
-            raw.append(line)
-    if header is not None:
-        records.append(
-            SequenceRecord(
-                "".join(lines), header, source=source, raw_record="".join(raw)
-            )
-        )
-    return tuple(records)
+    if source is not None and not isinstance(source, str):
+        raise TypeError("source must be a string or None")
+    from ._molsysmt import _load_molsysmt
+
+    reader = _load_molsysmt().form.file_fasta.parse_records
+    return _receive_fasta(reader, text, source_label=source)
 
 
 def read_fasta(path: str | Path) -> tuple[SequenceRecord, ...]:
-    """Read UTF-8 FASTA without newline translation; retain the source path."""
-    with Path(path).open(encoding="utf-8", newline="") as stream:
-        return parse_fasta(stream.read(), source=str(path))
+    """Delegate strict UTF-8 file reading to MolSysMT, retaining the source path.
+
+    Paths follow the owner's public FASTA form contract (``.fa`` or ``.fasta``).
+    Newlines are untranslated. Decoding failures remain UnicodeDecodeError with
+    the provider error as cause; other I/O errors propagate unchanged.
+    """
+    if not isinstance(path, (str, Path)):
+        raise TypeError("FASTA path must be a string or Path")
+    from ._molsysmt import _load_molsysmt
+
+    reader = _load_molsysmt().form.file_fasta.read_records
+    return _receive_fasta(reader, path)
+
+
+def _receive_fasta(reader, *args, **kwargs):
+    """Adapt owner records to peptide proposals without interpreting FASTA."""
+    from smonitor.integrations import FormatError
+
+    try:
+        document = reader(*args, **kwargs)
+    except FormatError as error:
+        cause = error.__cause__
+        if isinstance(cause, UnicodeDecodeError):
+            raise UnicodeDecodeError(
+                cause.encoding, cause.object, cause.start, cause.end, cause.reason
+            ) from error
+        raise ValueError(str(error)) from error
+    if document["schema"] != "molsysmt.fasta_source@1":
+        raise ValueError("Unsupported MolSysMT FASTA source schema")
+    return tuple(
+        SequenceRecord(
+            record["sequence"],
+            header=record["header"],
+            source=document["source"],
+            raw_record=record["raw_record"],
+        )
+        for record in document["records"]
+    )

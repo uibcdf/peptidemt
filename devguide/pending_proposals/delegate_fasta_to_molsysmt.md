@@ -14,6 +14,29 @@ supersedes: []
 
 # Delegate FASTA ingestion to MolSysMT
 
+## Consumer implementation checkpoint — 2026-10-28
+
+The consumer now delegates to the public `file_fasta.parse_records/read_records`
+API at `uibcdf/molsysmt@71fbe4f46d3c70e4e973c8025f01752a8c9b1084`.
+The duplicated parser is removed; PeptideMT maps the returned source document to
+its existing `SequenceRecord` fields, leaving scientific admission unchanged.
+The shared Python 3.14.7 development profile passes 117 tests with no skips.
+Installed-artifact and hosted acquisition gates are being verified before closure.
+
+MolSysMT remains optional for in-memory inputs and saved-result replay; only
+FASTA ingestion and the selected molecular transport load it through DepDigest.
+The runtime requirements gain no required molecular sibling. CI explicitly
+supplies the selected provider's dependencies through Conda and installs the
+full-SHA source with `--no-deps --no-build-isolation`; all four supported Python
+lanes must exercise the real reader, without absence skips.
+
+Compatibility is explicit: the owner recognizes CR, LF and CRLF; other Unicode
+separators stay literal sequence content and cannot create valid proposals by
+normalization. Files follow its `.fa`/`.fasta` form contract. Format errors remain
+`ValueError` with the owner's catalog exception as cause. Invalid UTF-8 remains
+`UnicodeDecodeError` with that owner diagnostic as cause; file I/O failures
+propagate. No replacement format grammar or private provider API is introduced.
+
 ## Provider delivery update — 2026-10-28
 
 MolSysMT #513 is closed as implemented at published source `ae24866ba`:

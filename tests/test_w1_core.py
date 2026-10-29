@@ -81,7 +81,7 @@ def test_fasta_does_not_silently_remove_sequence_whitespace_or_accept_unnamed_re
     records = parse_fasta(">raw\n acD \nA*\n")
     assert records[0].sequence == " acD A*"
     assert prepare_sequences(records)[0].issues == ("unsupported_symbols",)
-    with pytest.raises(ValueError, match="before first header at line 2"):
+    with pytest.raises(ValueError, match="before the first header at line 2"):
         parse_fasta("\nACD\n>named\nACD\n")
 
 

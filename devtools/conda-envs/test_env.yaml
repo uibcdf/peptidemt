@@ -5,10 +5,23 @@ dependencies:
   - python >=3.11,<3.15
   - pip
   - setuptools >=68
-  - versioningit
+  - versioningit >=3
+  - setuptools-rust >=1.10
+  - rust >=1.97
   - wheel
   - pytest >=8
   - pytest-receptor ==1.1.0
-  - depdigest >=0.12.0
+  - depdigest >=0.15.1
   - smonitor >=0.19.0
   - ackredit ==0.9.0
+  # Runtime closure for the full-SHA MolSysMT source installed by CI.
+  - h5py
+  - numpy >=1.26,<3
+  - pandas
+  - pyunitwizard >=0.28.1
+  - molsysviewer >=0.24.0
+  - networkx
+  - tqdm
+  - matplotlib
+  - py-mmcif >=1.1.1
+  - argdigest >=0.13.0
