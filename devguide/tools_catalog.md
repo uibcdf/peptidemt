@@ -1,17 +1,150 @@
 # Scientific resources: catalogue and Discussions
 
-Status: **three-category layout accepted; catalogue, forms and five opening
-conversations published**, 2026-10-29. API readback verifies categories,
-descriptions and the published bodies, including their navigation cross-links.
-The investigator explicitly authorized publication of these five texts and the
-catalogue/forms. The [publication receipt](evidence/scientific_resources_discussions.json)
-records the source commit, form hashes, discussion identities and body hashes.
-Section grouping, actual open-ended formats and rendered forms have not been
-independently verified in the browser.
+Status: **investigator-approved label-based reorganization implemented**,
+2026-10-29. All nineteen existing discussions are retained. Five family/role
+labels classify fourteen resource cards; five existing indexes remain navigation
+and comparison guides. Card texts are unchanged and index changes only append
+navigation. The [reorganization receipt](evidence/discussion_reorganization.json)
+records before/after body hashes, retained identities, labels and verified searches.
+
+The three resource-type categories retain their existing GitHub names/slugs.
+Visual renaming/grouping, form rendering and index pinning remain browser tasks;
+these are not claimed as completed. The initial [opening-post receipt](evidence/scientific_resources_discussions.json)
+and [resource-card receipt](evidence/resource_card_discussions.json) remain dated
+publication evidence rather than being overwritten by this reorganization.
 Navigation: [design guide](README.md) · [source survey](generative_resource_survey.md)
 · [family/resource semantics](functional_families.md).
 
+## Accepted structure and resource ownership
+
+The investigator authorizes implementation of the final recommendation:
+
+```text
+Scientific Resources                         section
+  Models and Tools                           category
+    One discussion per maintained tool/model
+  Datasets and Benchmarks                    category
+    One discussion per maintained data/benchmark resource
+  Literature and Resources                   category
+    One discussion per reading/guide that merits its own conversation
+```
+
+Announcements, Q&A and Ideas keep their required names/formats. All three
+resource-type categories use open-ended discussions. Families and reviewed
+computational roles are labels, not additional categories. This keeps six
+categories regardless of the number of families. Versions/checkpoints of one
+resource retain their technical provenance within its existing discussion and
+versioned records; an individually distinct project/model may warrant its own
+record rather than being conflated merely because it shares a family.
+
+Repository maintainers own triage and the controlled label vocabulary, without
+a response-time promise. Each resource links its maintained technical record;
+accepted/deferred/rejected conclusions retain date/reason and a revisit trigger
+for deferral, with bidirectional links. Concrete implementation, missing
+capabilities and defects go to owning issues. Discovery threads remain useful
+independently of bounded work. The organization does not change D35–D38, accept
+models, grant inference calls or redefine scientific families.
+
+## Labels and reviewed scope
+
+Labels belong to an entire discussion. Native Discussion comments cannot carry
+labels. Consequently, independently filterable resources retain their own
+existing discussions; short discovery notes can still be comments. Source-supported
+multifamily resources can carry several family labels without duplicate cards;
+general resources can have no family label.
+
+| Label | Meaning |
+| --- | --- |
+| `family:amp` | AMP-related resource scope; consult source evidence. Not scientific qualification. |
+| `family:cpp` | CPP-related resource scope; uptake is distinct from cytosolic delivery. |
+| `role:generation` | Source-documented generation; does not qualify execution or generated outputs. |
+| `role:prediction` | Source-documented prediction/scoring; consult native endpoints and qualification limits. |
+| `role:search` | Source-documented search, optimization or screening; not permission to execute. |
+
+Roles describe the reviewed operation featured in the card, not every internal
+scoring head or a qualified standalone API. For example, LightCPPgen has both
+prediction and search labels for its separate native operations; ELP–EEP is
+classified as a screening/search workflow. Internal scores in a generator do
+not automatically turn it into an independent assessment provider. Family labels
+are navigation/source scope, not measured activity, cytosolic delivery or
+bundle-wide scientific acceptance. Qualification remains in the exact technical
+records; no generic accepted/validated labels are introduced.
+
+Fourteen resource cards receive these labels. The five general/family indexes
+remain guides rather than independently labelled resource cards, so family/role
+queries return individual records rather than mixing them with navigation.
+Maintainers add future family/role labels only with a clear definition and
+reviewed resource evidence. The vocabulary is shared with issues/PRs: existing
+reporting and `component:*` labels are preserved, and no issues or PRs were
+relabeled.
+
+## Filtered navigation
+
+All links below were verified against GitHub's discussion search API. Category
+queries use the actual current names, including Tools and Models and Reading
+List. The intended display names do not imply that a UI rename already occurred.
+
+| View | Matching individual records or category entries |
+| --- | --- |
+| [AMP resources](https://github.com/search?q=repo%3Auibcdf%2Fpeptidemt+label%3A%22family%3Aamp%22&type=discussions) | 7 |
+| [CPP resources](https://github.com/search?q=repo%3Auibcdf%2Fpeptidemt+label%3A%22family%3Acpp%22&type=discussions) | 7 |
+| [Generation resources](https://github.com/search?q=repo%3Auibcdf%2Fpeptidemt+label%3A%22role%3Ageneration%22&type=discussions) | 7 |
+| [Prediction/scoring resources](https://github.com/search?q=repo%3Auibcdf%2Fpeptidemt+label%3A%22role%3Aprediction%22&type=discussions) | 5 |
+| [Search/optimization resources](https://github.com/search?q=repo%3Auibcdf%2Fpeptidemt+label%3A%22role%3Asearch%22&type=discussions) | 2 |
+| [AMP generation](https://github.com/search?q=repo%3Auibcdf%2Fpeptidemt+label%3A%22family%3Aamp%22+label%3A%22role%3Ageneration%22&type=discussions) | 6 |
+| [CPP prediction/scoring](https://github.com/search?q=repo%3Auibcdf%2Fpeptidemt+label%3A%22family%3Acpp%22+label%3A%22role%3Aprediction%22&type=discussions) | 4 |
+| [CPP models and tools](https://github.com/search?q=repo%3Auibcdf%2Fpeptidemt+category%3A%22Tools+and+Models%22+label%3A%22family%3Acpp%22&type=discussions) | 6 |
+| [CPP datasets and benchmarks](https://github.com/search?q=repo%3Auibcdf%2Fpeptidemt+category%3A%22Datasets+and+Benchmarks%22+label%3A%22family%3Acpp%22&type=discussions) | 1 |
+| [Models and tools](https://github.com/search?q=repo%3Auibcdf%2Fpeptidemt+category%3A%22Tools+and+Models%22&type=discussions) | 16 |
+| [Datasets and benchmarks](https://github.com/search?q=repo%3Auibcdf%2Fpeptidemt+category%3A%22Datasets+and+Benchmarks%22&type=discussions) | 2 |
+| [Literature and resources (current Reading List category)](https://github.com/search?q=repo%3Auibcdf%2Fpeptidemt+category%3A%22Reading+List%22&type=discussions) | 1 |
+| [AMP prediction/scoring](https://github.com/search?q=repo%3Auibcdf%2Fpeptidemt+label%3A%22family%3Aamp%22+label%3A%22role%3Aprediction%22&type=discussions) | 1 |
+
+These are dated counts, not future completeness promises. Resource-type category
+views also include the preserved indexes. Family/role views return labelled
+resource cards. The [AMP guide #10](https://github.com/uibcdf/peptidemt/discussions/10)
+and [CPP guide #11](https://github.com/uibcdf/peptidemt/discussions/11) now link to
+these filters; their bodies and the other three index bodies retain their previous
+content with appended navigation.
+
+## Current category names and remaining browser work
+
+| Intended display name | Observed current name | Observed slug / form filename |
+| --- | --- | --- |
+| Models and Tools | Tools and Models | `tools-and-models` |
+| Datasets and Benchmarks | Datasets and Benchmarks | `datasets-and-benchmarks` |
+| Literature and Resources | Reading List | `reading-list` |
+
+The functional reorganization uses these existing category IDs, so no discussion
+needs recreation or transfer. When a browser is available, rename the two display
+names, confirm grouping under Scientific Resources and check open-ended formats,
+rendered forms and optional index pinning. Then read back the resulting slugs:
+update form filenames and category-specific filter URLs only if those observations
+require it. No guessed aliases, new family categories or premature form removals.
+
+## Organization history and evidence boundaries
+
+On 2026-10-29 the bootstrap created three resource categories and nineteen
+conversations. Subsequent discussion considered type sections with repeated
+family categories, a family-first structure with role labels, and family threads
+containing resource comments. The repeated-category plan was reopened after the
+25-category constraint was considered; comment-based records lose independent
+label filtering. The investigator then approved the current small-category,
+per-resource, family/role-label model for implementation, explicitly preserving
+already published discussions. Earlier suggestions are superseded rather than
+additional migration instructions.
+
+Official [discussion management](https://docs.github.com/en/discussions/managing-discussions-for-your-community/managing-discussions),
+[search documentation](https://docs.github.com/en/search-github/searching-on-github/searching-discussions)
+and [schema](https://docs.github.com/en/graphql/reference/discussions) document
+shared labels, category/label search, `Discussion` as `Labelable`, and the absence
+of label support on `DiscussionComment`. Live permission/schema inspection preceded
+implementation. Fifteen existing labels were preserved; five new labels were
+created additively and independently read back. Thirteen actual search queries
+were verified. API observations do not certify browser-only configuration.
+
 ## Assessment and observed precedents
+
 
 Discussions is suitable for permanent discovery, comparison, questions and
 scientific deliberation. A versioned catalogue provides maintained navigation and
@@ -44,7 +177,8 @@ destination, provide a form for additional intake, and move actionable work to
 owning issues. API observation verifies names, descriptions and Q&A answerability;
 it does not independently certify UI-only category-format settings.
 
-## Accepted category layout and observed configuration
+## Bootstrap publication and category observations
+
 
 The investigator selected the following categories for **Scientific Resources**
 and reported creating all three. A subsequent authenticated API readback on
@@ -71,12 +205,9 @@ These are complementary levels:
 and conversations belong to categories. A section alone does not provide a place
 to post a tool. The old broad category name is superseded by **Tools and Models**.
 
-Do not initially make AMP, CPP and every further family separate categories.
-Family index conversations allow a multifunctional tool to have one canonical
-conversation with links from several indexes. Family categories would make these
-indexes more visible in the sidebar, but a conversation still has one category;
-duplicating its history across families would create avoidable maintenance.
-Reconsider that tradeoff if traffic or distinct stewardship later justifies it.
+The bootstrap used family index conversations within a shared tools category.
+They remain optional guides/comparisons. The accepted label-based organization
+provides direct family/role filtering while retaining all existing conversations.
 
 - **Purpose:** collect and discuss peptide-design/evaluation resources and their
   evidence, contexts, limitations and integration relevance.
@@ -95,7 +226,7 @@ Published opening conversations:
 | --- | --- | --- |
 | [#9 Tools and models — catalogue and discovery](https://github.com/uibcdf/peptidemt/discussions/9) | Tools and Models | Stable entry/index; introduce stewardship and link family conversations and the maintained catalogue. Recommend pinning it. |
 | [#10 AMP — generators, predictors and evaluation resources](https://github.com/uibcdf/peptidemt/discussions/10) | Tools and Models | Collect and compare AMP resources, initially linking the source survey. Preserve generative conditioning, evaluation and adverse properties as distinct roles. |
-| [#11 CPP — tools, evidence and research questions](https://github.com/uibcdf/peptidemt/discussions/11) | Tools and Models | Begin the next family-oriented collection. A focused CPP survey is still pending; define uptake/access context without implying qualified CPP capability. |
+| [#11 CPP — tools, evidence and research questions](https://github.com/uibcdf/peptidemt/discussions/11) | Tools and Models | Family-oriented collection linked to the bounded CPP survey; define uptake/access context without implying qualified CPP capability. |
 | [#12 Datasets and benchmarks — catalogue and evaluation questions](https://github.com/uibcdf/peptidemt/discussions/12) | Datasets and Benchmarks | Entry point for data sources, endpoints, partitioning and fair comparison, linked to the existing family/data review. |
 | [#13 Reading list — papers and scientific questions](https://github.com/uibcdf/peptidemt/discussions/13) | Reading List | Entry point for methodological and biological reading, linked to existing literature and topical guides. |
 
@@ -104,12 +235,10 @@ and the [CPP resource survey](cpp_resource_survey.md), including a separate
 CPPsite3 data record. These records reuse previous AMP qualification/source
 evidence and add bounded CPP source inspection; they do not commission adapters.
 
-Add ACP and other family/function conversations when their discovery work begins.
-Use a family conversation as an index and cross-cutting discussion. As a resource
-needs deeper stewardship, give it one canonical conversation and link it from all
-relevant family indexes. This supports overlapping/multiple functions without
-duplicating a resource's technical history in several family threads. Cross-family
-questions can also have their own focused discussion.
+Existing family index conversations remain useful guides or comparisons.
+Filtered label links provide direct discovery; a coordinating discussion is not
+required for every new family. Retain cross-links for overlapping functions and
+use focused discussions for genuine comparative questions.
 
 Families are navigation, not an exclusive taxonomy. For each association,
 distinguish a function actually studied by a versioned resource from a proposed
@@ -122,22 +251,22 @@ These are permanent discovery/stewardship conversations, separate from bounded
 implementation and qualification issues. The [card-publication receipt](evidence/resource_card_discussions.json)
 records their identities, exact body hashes and index updates.
 
-| Resource | Navigation | Conversation | Maintained record |
-| --- | --- | --- | --- |
-| Macrel | AMP | [#14](https://github.com/uibcdf/peptidemt/discussions/14) | [Record](amp_resource_cards.md#macrel) |
-| HydrAMP | AMP | [#15](https://github.com/uibcdf/peptidemt/discussions/15) | [Record](amp_resource_cards.md#hydramp) |
-| PLUM | AMP | [#16](https://github.com/uibcdf/peptidemt/discussions/16) | [Record](amp_resource_cards.md#plum) |
-| OmegAMP | AMP | [#17](https://github.com/uibcdf/peptidemt/discussions/17) | [Record](amp_resource_cards.md#omegamp) |
-| ARCADIAMP | AMP | [#18](https://github.com/uibcdf/peptidemt/discussions/18) | [Record](amp_resource_cards.md#arcadiamp) |
-| AMP-Designer | AMP | [#19](https://github.com/uibcdf/peptidemt/discussions/19) | [Record](amp_resource_cards.md#amp-designer) |
-| PepDiffusion | AMP | [#20](https://github.com/uibcdf/peptidemt/discussions/20) | [Record](amp_resource_cards.md#pepdiffusion) |
-| CPP_Design | CPP | [#21](https://github.com/uibcdf/peptidemt/discussions/21) | [Record](cpp_resource_survey.md#cpp_design) |
-| LightCPPgen | CPP | [#22](https://github.com/uibcdf/peptidemt/discussions/22) | [Record](cpp_resource_survey.md#lightcppgen) |
-| MLCPP 2.0 | CPP | [#23](https://github.com/uibcdf/peptidemt/discussions/23) | [Record](cpp_resource_survey.md#mlcpp-20) |
-| pLM4CPPs | CPP | [#24](https://github.com/uibcdf/peptidemt/discussions/24) | [Record](cpp_resource_survey.md#plm4cpps) |
-| CPPpred-En | CPP | [#25](https://github.com/uibcdf/peptidemt/discussions/25) | [Record](cpp_resource_survey.md#cpppred-en) |
-| ELP–EEP discovery | CPP | [#26](https://github.com/uibcdf/peptidemt/discussions/26) | [Record](cpp_resource_survey.md#elpeep-discovery) |
-| CPPsite3: data resource | CPP / data | [#27](https://github.com/uibcdf/peptidemt/discussions/27) | [Record](cpp_resource_survey.md#cppsite3-data-resource) |
+| Resource | Navigation | Conversation | Maintained record | Labels |
+| --- | --- | --- | --- | --- |
+| Macrel | AMP | [#14](https://github.com/uibcdf/peptidemt/discussions/14) | [Record](amp_resource_cards.md#macrel) | `family:amp`, `role:prediction` |
+| HydrAMP | AMP | [#15](https://github.com/uibcdf/peptidemt/discussions/15) | [Record](amp_resource_cards.md#hydramp) | `family:amp`, `role:generation` |
+| PLUM | AMP | [#16](https://github.com/uibcdf/peptidemt/discussions/16) | [Record](amp_resource_cards.md#plum) | `family:amp`, `role:generation` |
+| OmegAMP | AMP | [#17](https://github.com/uibcdf/peptidemt/discussions/17) | [Record](amp_resource_cards.md#omegamp) | `family:amp`, `role:generation` |
+| ARCADIAMP | AMP | [#18](https://github.com/uibcdf/peptidemt/discussions/18) | [Record](amp_resource_cards.md#arcadiamp) | `family:amp`, `role:generation` |
+| AMP-Designer | AMP | [#19](https://github.com/uibcdf/peptidemt/discussions/19) | [Record](amp_resource_cards.md#amp-designer) | `family:amp`, `role:generation` |
+| PepDiffusion | AMP | [#20](https://github.com/uibcdf/peptidemt/discussions/20) | [Record](amp_resource_cards.md#pepdiffusion) | `family:amp`, `role:generation` |
+| CPP_Design | CPP | [#21](https://github.com/uibcdf/peptidemt/discussions/21) | [Record](cpp_resource_survey.md#cpp_design) | `family:cpp`, `role:generation` |
+| LightCPPgen | CPP | [#22](https://github.com/uibcdf/peptidemt/discussions/22) | [Record](cpp_resource_survey.md#lightcppgen) | `family:cpp`, `role:prediction`, `role:search` |
+| MLCPP 2.0 | CPP | [#23](https://github.com/uibcdf/peptidemt/discussions/23) | [Record](cpp_resource_survey.md#mlcpp-20) | `family:cpp`, `role:prediction` |
+| pLM4CPPs | CPP | [#24](https://github.com/uibcdf/peptidemt/discussions/24) | [Record](cpp_resource_survey.md#plm4cpps) | `family:cpp`, `role:prediction` |
+| CPPpred-En | CPP | [#25](https://github.com/uibcdf/peptidemt/discussions/25) | [Record](cpp_resource_survey.md#cpppred-en) | `family:cpp`, `role:prediction` |
+| ELP–EEP discovery | CPP | [#26](https://github.com/uibcdf/peptidemt/discussions/26) | [Record](cpp_resource_survey.md#elpeep-discovery) | `family:cpp`, `role:search` |
+| CPPsite3: data resource | CPP / data | [#27](https://github.com/uibcdf/peptidemt/discussions/27) | [Record](cpp_resource_survey.md#cppsite3-data-resource) | `family:cpp` |
 
 ## Category intake forms
 
@@ -210,9 +339,10 @@ common-category rollout. No new permanently open catalogue issue is proposed.
 
 ## Opening post texts
 
-The following English texts were reviewed before publication. Each published
-conversation also contains navigation links to the other four conversations;
-the publication receipt identifies the exact published body hashes.
+The following English texts preserve the initial opening content. Published
+indexes subsequently received the navigation additions recorded in the dated
+receipts. Those receipts identify each exact state; these historical excerpts
+are not a claim that the current index bodies are unchanged.
 
 ### Tools and models — catalogue and discovery
 

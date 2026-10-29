@@ -5,6 +5,9 @@ body:
         Share peptide databases, datasets and evaluation benchmarks.
         Search existing conversations first and distinguish reported evidence
         from results independently reproduced in PeptideMT.
+        Mention the families covered, allowing several or unknown values.
+        Maintainers apply source-supported family:* labels to the whole
+        discussion; a label does not establish benchmark independence.
   - type: input
     id: resource
     attributes:

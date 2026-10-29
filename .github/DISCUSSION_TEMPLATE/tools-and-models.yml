@@ -5,6 +5,9 @@ body:
         Share tools and models relevant to peptide design and assessment.
         Search existing conversations first and link related records.
         A catalogue entry does not imply adoption or scientific qualification.
+        Maintainers classify resource discussions with source-supported family:*
+        and role:* labels. Mention relevant families and operations below;
+        labels apply to the whole discussion, not individual comments.
   - type: input
     id: resource
     attributes:

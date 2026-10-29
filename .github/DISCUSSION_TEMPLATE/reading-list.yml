@@ -2,9 +2,11 @@ body:
   - type: markdown
     attributes:
       value: |
-        Share papers and reviews that merit scientific discussion.
+        Share papers, reviews and guides that merit scientific discussion.
         If a paper only documents an existing tool or dataset conversation,
         consider adding the reference there rather than duplicating its history.
+        Mention relevant families where known. Maintainers apply family:* labels
+        to dedicated resource discussions, not individual citations or comments.
   - type: input
     id: reference
     attributes:

@@ -24,11 +24,13 @@ The [nonexclusive generative-resource survey](generative_resource_survey.md)
 extends the inventory beyond HydrAMP/PLUM, including AMP, CPP/ACP, chemistry and
 search resources. It records inspected source/asset/runtime limits and proposed
 qualification priorities; it does not commission all listed integrations.
-The [scientific-resource catalogue](tools_catalog.md) records the accepted
-three-category Discussions layout, family-oriented indexes and maintained
-technical destinations. The three category forms and five cross-linked opening
-conversations are published. Browser checks of section grouping/form rendering
-and pinning the indexes remain pending.
+The [scientific-resource catalogue](tools_catalog.md) records the implemented
+organization: three resource-type categories, one discussion per resource and
+independent family/role labels. All nineteen discussions are retained; fourteen
+cards are labelled and five indexes provide filtered navigation. The
+[reorganization receipt](evidence/discussion_reorganization.json) verifies retained
+identities, unchanged card texts and thirteen actual search views. Visual category
+renaming/grouping, form rendering and optional index pinning remain browser tasks.
 The first [AMP resource cards](amp_resource_cards.md) reuse existing exact
 evidence. The [bounded CPP survey](cpp_resource_survey.md) adds source-pinned
 generation, classification, uptake/escape and data resources with explicit
