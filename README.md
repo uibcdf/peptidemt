@@ -59,6 +59,9 @@ executed source compatibility matrix separately covers Python 3.11–3.14.
 Read [MOLSYSSUITE_GUIDE.md](MOLSYSSUITE_GUIDE.md) and [AGENTS.md](AGENTS.md).
 Activate the shared Conda environment `molsyssuite@uibcdf_3.14`, then install
 this clone with `python -m pip install --no-deps --no-build-isolation --editable .`.
+Development uses the components' editable development sources in that shared
+environment; a new public package release is not a prerequisite for adopting an
+owner-delivered capability. Record the actual provider commit and import origin.
 The member's `devtools/conda-envs/development_env.yaml` and `test_env.yaml` remain
 bootstrap/CI and clean qualification fixtures. They do not require a separate
 daily environment. Read [PYTEST_RECEPTOR_GUIDE.md](PYTEST_RECEPTOR_GUIDE.md) and

@@ -26,6 +26,28 @@ local parser. W3 continues with in-memory proposals as explicitly directed.
 The previous measurements below remain historical evidence, not observations of
 the new provider source or a completed consumer adoption claim.
 
+## Development environment update — 2026-10-28
+
+The investigators clarified that current platform development consumes the
+components' development sources in the shared Conda environment; a public
+MolSysMT package release is not a migration prerequisite. The clean editable
+clone was advanced from `3781031d0` to
+`71fbe4f46d3c70e4e973c8025f01752a8c9b1084` with `git pull --ff-only`.
+Reinstalling editable with `--no-deps --no-build-isolation` refreshed its stale
+metadata to `0.23.0+322.g71fbe4f46`, without changing dependency versions.
+
+Python 3.14.7 in `molsyssuite@uibcdf_3.14` imports that clone. Actual public
+`file_fasta.parse_records/read_records` calls preserved complete headers,
+repeated occurrences, empty records, raw text and decoded-character spans under
+LF, CRLF and CR. A separate `ACD` conversion/recognition/FASTA serialization
+probe passed. These probes execute no models. The environment retains the same
+twelve unrelated dependency findings; no clean dependency-closure claim follows.
+
+The remaining work is PeptideMT's adapter, error/compatibility behavior and
+repeatable dependency acquisition/tests, followed by removal of its local
+parser. The provider capability is available now in development. This evidence
+does not relabel the original W3 wheel or qualify new model executions.
+
 ## What
 
 The investigators reaffirmed owner-based reuse across MolSysSuite after reviewing

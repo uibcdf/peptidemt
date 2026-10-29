@@ -37,6 +37,15 @@ its frozen artifacts were changed. Rust/Cargo 1.98.1 from the named development
 profile built it with two CPU affinity and low priority; this is not a public
 rebuild or whole-provider/platform qualification.
 
+Current development is a separate source boundary: after investigator
+clarification, the shared `molsyssuite@uibcdf_3.14` editable MolSysMT clone was
+advanced to `71fbe4f46d3c70e4e973c8025f01752a8c9b1084`, with metadata refreshed
+to `0.23.0+322.g71fbe4f46`. Its source-preserving FASTA reader and SeqRecord
+serialization passed non-model probes. A public package release is not a
+prerequisite for this development route. The [FASTA migration record](pending_proposals/delegate_fasta_to_molsysmt.md)
+retains scope and outstanding consumer work; the original installed scientific
+environment, wheel and four-call evidence above remain unchanged.
+
 ## Measured live execution and gates
 
 The four authorized calls completed in **21.38 seconds** combined. Individual

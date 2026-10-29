@@ -15,7 +15,9 @@ Navigation: [guide](README.md) · [work order](increment_1_work_order.md) ·
 qualification_reference=None)` consumes the complete ordered `InputRecord` tuple
 returned by `prepare_sequences`. Build proposals in memory; this route never
 uses `parse_fasta` or `read_fasta`. The [FASTA reader migration](pending_proposals/delegate_fasta_to_molsysmt.md)
-remains pending in MolSysMT #513 and PeptideMT #5.
+has its provider capability delivered in MolSysMT #513; consumer adoption remains
+pending in PeptideMT #5. The shared editable development source now supplies
+that capability, as recorded in the migration report.
 
 The caller must supply a `MacrelLimits(max_records, max_input_bytes,
 wall_seconds, memory_bytes)` instance containing its authorized bounds. There
@@ -100,7 +102,9 @@ Macrel installer, and disables MolSysMT installers at this selected boundary whi
 its public 0.23.0 artifact lacks the already-fixed #359 recognition behavior. The
 [W3 assessment](w3_assessment.md) identifies the exact installed owner-source
 wheel; restore a public installer only after an actual published artifact passes
-the conversion/serialization gate. MolSysMT's
+the conversion/serialization gate. This installer-hint restriction does not
+block development against the owner's editable source in the shared Conda
+environment, or require a new public release before FASTA migration. MolSysMT's
 selected SeqRecord conversion also requires its optional Biopython capability.
 Macrel/MolSysMT/Biopython and ONNX dependencies are not installed by PeptideMT
 and are absent from core requirements and engine-free CI environments.
