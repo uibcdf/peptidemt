@@ -25,11 +25,13 @@ priority; C remains a later option. **D34 accepts AMP compatibility plus adverse
 hemolysis as the first bounded coverage, with Macrel then HydrAMP as qualification
 candidates.** D35 now accepts the conservative sequence-preserving Macrel contract,
 both reference selectors and M1–M8, closing increment 1's scientific design within
-its provisional chemistry/length scope. Real qualification, operational conditions,
-suite admission and operational execution remain to qualify. **D36 authorizes
-W0–W4**, with W1 conditional on completed W0 and the specific central admission
-issue exception. W0 has started in [MolSysSuite #146](https://github.com/uibcdf/molsyssuite/issues/146);
-central acceptance/publication and the official starter are not yet complete.
+its provisional chemistry/length scope. D36 authorized W0–W4; official W0 receiving is complete. **D37 now accepts the
+specific executed Macrel 1.6.1 bundle for exploratory assessment/ranking within
+D35**, with its recorded chemical, preprocessing, length and biological-applicability
+limits. Central optional-client receiving is accepted under MolSysSuite #152.
+Macrel is one optional evaluator in the extensible resource catalog. Initial
+user documentation follows the suite's Sphinx/MyST/PyData conventions; its
+layout remains provisional. No later increment or publication is authorized.
 See the [authorized work order](increment_1_work_order.md).
 
 ## Accepted working directions
@@ -87,6 +89,7 @@ D32 closes that conceptual question without retroactively changing those decisio
 | D34 | Adopt AMP compatibility as the desired function and hemolysis as the adverse property for the first bounded V0.1 coverage; qualify Macrel first and HydrAMP second. | Explicit investigator approval on 2026-10-27. Preserve predictive/native meanings; neither score is measured antimicrobial activity, percent hemolysis or safety. Core responsibilities stay independent of these functions/resources. Qualification order does not select a version/checkpoint or establish execution, applicability or permission. The initial HydrAMP de novo candidate uses filter_out=False, n_attempts=1 and bounded proposal count, retaining conditioning, internal scoring/order, external Macrel evaluation and PeptideMT selection distinctly. Do not require Python 3.8 in the main host; assess isolation if needed. No implementation/installation/issues authorized. Chemistry/lengths, preprocessing policy, exact selectors, fixtures, concrete interfaces and qualification acceptance remain to approve. |
 | D35 | Approve increment 1's scientific Macrel contract and M1–M8, including strict sequence preservation, both exact reference selectors and provisional single-peptide canonical-symbol/<100-residue operational scope. Close its scientific design within those limits, subject to actual provider qualification and indispensable operational decisions. | Explicit investigator approval on 2026-10-27. Leading-M originals remain valid proposals but incompatible with a native route that clips them. Derived-clipped and unchanged-sequence feature routes are deferred and need separate qualification; AMP training also uses native normalization. Preserve per-occurrence correspondence, negatives, both scores, labels/categories, precision, evidence/provenance, original chemistry/unknowns and explicit empty/unavailable/failed/anomalous outcomes. AMP-descending/Hemo-ascending or Hemo-ascending/AMP-descending ordering uses original occurrence as final tie; neither is biological acceptance, safety, selectivity or synthesis approval. No universal fitness/cutoffs or empirical validation of every <100 length. H0–H4 remains a suitable proposal, not execution permission or definitive HydrAMP adoption; retain the stated native candidate/isolated legacy-runtime boundary. No implementation, installation or issues authorized. Prepare the bounded commissioning/admission brief; actual bundles, terms, environment/budget and execution evidence remain pending. |
 | D36 | Authorize W0–W4 within D35 and M1–M8, starting formal admission. Propose primary scientific-component/incubating/active/python-package classification, subject to central acceptance. W1 starts only after W0 completes correctly. | Explicit investigator authorization on 2026-10-27. Allow the necessary central admission issue if none exists, as a specific exception to the no-issues rule; no general development-issue authority. Name the responsible owner and preserve ecosystem boundaries. Use accepted published central registration, immutable policy and genuine admission SHA when required, official starter in an empty temporary target and reviewed preservation of existing content/history. Core works without Macrel; one real Macrel 1.6.1 qualification candidate on Linux CPU/Python 3.14 must resolve and execute both ONNX models, with assets/terms/fixtures/effective limits identified first. Native integration cannot pass on mocks/skips or reduced criteria. Codex owns routine internal implementation; scientific changes return to review. No HydrAMP, increments 2/3, target-conditioned generation, new scientific models, package publication or new architecture. Delivery requires identifiable commit, admission and package/model evidence, and executed M1–M8 with engine-free/live distinctions; partial work remains partial. |
+| D37 | Accept the exact executed Macrel 1.6.1 bundle for D35 exploratory computational assessment/ranking and document its use, limits and qualification evidence. | Explicit investigator acceptance on 2026-10-29 after the in-conversation report and clarification that Macrel is one optional evaluator among extensible bioactive-family resources. Preserve D35/D36 and M1–M8; predictions are not experimental activity/safety, score calibration or universal family-membership probabilities. Exact numerical package 7a299d1, driver a1b5e3a, model/provider/environment hashes and live/control evidence remain identified in w3_assessment.md and evidence/w3_summary.json. Central #152 is received at b12f7230. The investigator also requests provisional documentation informed by MolSysMT/MolSysViewer; implementation choices are routine and do not add a new scientific architecture. No new model call, host allowance, HydrAMP/later increment or package/site publication is inferred. |
 
 The [four worked examples](design_examples.md) are conceptual stress tests and
 conceptual analysis, not selected demonstrators or executed campaigns. Their
@@ -100,19 +103,25 @@ the semantic responsibilities adopted through P07 are recorded under D15–D16.
 | P02 | Refine context, qualified label/resource mappings and evaluator bindings within D10/D17–D20. | Macrel increment-1 scientific meanings/bindings are accepted under D35; concrete encodings/interfaces and other resources remain open. |
 | P03 | Keep a small sequence/design core with optional molecular and model adapters. | Compare dependency cost against uniform molecular integration. |
 | P05 | Compare and compose filtering, external optimization, sampling-time guidance, functional distributions and learned conditioning through explicit capabilities. | Current [strategy analysis](generative_strategies.md); no definitive generator, common API, capability schema or first comparison experiment selected. |
-| P06 | Formal suite admission and official Python starter generation. | W0 authorized under D36; accepted registration published at 8a94e16f. Official starter integrated; component qualification and central receiving remain pending in uibcdf/molsyssuite#146 and uibcdf/peptidemt#1. |
 | P10 | Distinguish collective/distributional library proposals from individual molecular proposals, including incomplete individuals. | Pending bounded recommendation from [V0.2 case A](future_horizons.md#9-bounded-extensibility-review-after-p09-approval). No library support, generic population hierarchy or MVP requirement adopted; concrete semantics can wait until such a capability is prioritized. |
 
 The [V0.1 direction is accepted under D33](v0_1_scope.md), D34 fixes first coverage/
 qualification order, and D35 closes increment 1's scientific contract including
-M1–M8. The [work order](increment_1_work_order.md) is authorized under D36, with W0
-started and W1–W4 gated on its completion. Exact bundles/permissions, operational
-limits, central acceptance/publication and actual qualification remain pending;
+M1–M8. The [work order](increment_1_work_order.md) is authorized under D36: W0
+receiving and W1–W3 are complete; D37 accepts the executed bundle, and W4's
+requested documentation is being verified. Central engineering receiving is
+accepted in MolSysSuite #152 at b12f7230. Preserve each stage's exact evidence;
 do not repeat the scientific/architectural approval. Later feedback is outside scope.
-P02/P03/P05/P06 need only the selected capability-specific portions; P10 and future
+P02/P03/P05 need only the selected capability-specific portions; P10 and future
 horizons add no requirement. Earlier unapproved A/B/C records below are history.
 
 ### Proposal disposition
+
+P06 is **completed through W0** under D36, with accepted published registration,
+the official starter, component qualification and effective central receiving.
+The closed [central admission issue](https://github.com/uibcdf/molsyssuite/issues/146)
+and [component evidence issue](https://github.com/uibcdf/peptidemt/issues/1)
+retain the original admission, source, environment and audit identities.
 
 P01 was proposed in the initial publication and **accepted conceptually as D09**
 on 2026-10-26. This resolves the architectural choice without approving names,
@@ -772,3 +781,19 @@ MolSysViewer visualization and TopoMT cavities/topography. Existing APIs are
 reviewed before adding functionality; missing general capabilities are proposed
 to their owners. The [governance map](governance.md) routes the full applicable
 policy set. D35/D36's scientific meaning and M1–M8 remain unchanged.
+
+
+## Macrel resource acceptance and documentation — 2026-10-29
+
+The investigator accepted Macrel after reviewing the exact bundle, actual outputs,
+M1–M8 evidence, selector consequences and stated limitations. D37 records this
+disposition; [the acceptance record](increment_1_review.md) names the bundle.
+Macrel is one optional evaluator for native AMP and hemolysis evidence. Future
+resources keep their own scientific roles and qualification; no universal
+probability scale or generic plugin architecture is approved by this acceptance.
+
+The investigator requests documented use, limitations and confidence evidence,
+and an initial provisional user-documentation structure informed by MolSysMT and
+MolSysViewer. The [documentation build guide](../docs/README.md) records those
+source references and the Sphinx/MyST/PyData layout. No scientific model runs
+or public deployment accompany this documentation work.

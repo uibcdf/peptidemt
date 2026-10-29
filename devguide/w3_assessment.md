@@ -1,7 +1,7 @@
 # W3 assessment: installed Macrel 1.6.1 on the bounded CPU profile
 
-Status: **computational qualification evidence complete; investigator acceptance
-of the bundle and stated scientific limits remains separate**. Owner:
+Status: **computational qualification accepted by the investigator under D37 on
+2026-10-29, for the recorded exploratory scope and limits**. Owner:
 [PeptideMT #6](https://github.com/uibcdf/peptidemt/issues/6).
 Navigation: [preparation and authorization](w3_qualification.md) ·
 [accepted M1–M8](v0_1_increment_1.md#5-acceptance-specification-for-increment-1) ·
@@ -123,10 +123,11 @@ additional model execution was performed for these delivery checks.
 Portable attribution actually captures through public Ackredit 0.9.0 on the
 completed live adapter call. Its host bibliography survives absence/failure,
 reused references and fresh saved readers in the real-provider controls. Central
-guide/inventory receiving for this new client remains separate from the completed
-W0/W2 receiving and component-owned scientific acceptance. The handoff is
-[MolSysSuite #152](https://github.com/uibcdf/molsyssuite/issues/152); this does
-not reopen the resolved #151 receipt or declare guide delivery already complete.
+guide/inventory receiving is complete under
+[MolSysSuite #152](https://github.com/uibcdf/molsyssuite/issues/152), accepted at
+`b12f7230b297cdc0b22a649e6e625207d7fc4c1d`. D37 records subsequent investigator
+scientific acceptance of this bundle and the stated limits. The resolved #151
+and original numerical receipts keep their historical identities.
 
 FASTA adoption is recorded in [PeptideMT #5](https://github.com/uibcdf/peptidemt/issues/5).
 The current reader delegates to the capability delivered in MolSysMT #513.

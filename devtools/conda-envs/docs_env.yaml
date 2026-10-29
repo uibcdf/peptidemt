@@ -1,0 +1,17 @@
+channels:
+  - uibcdf
+  - conda-forge
+dependencies:
+  - python=3.14
+  - pip
+  - setuptools >=68
+  - versioningit
+  - wheel
+  - depdigest >=0.12.0
+  - smonitor >=0.19.0
+  - sphinx >=9.1,<10
+  - myst-parser >=5.1,<6
+  - pydata-sphinx-theme >=0.22,<0.23
+  - sphinx-design >=0.7,<0.8
+  - sphinx-copybutton >=0.5,<0.6
+  - sphinxcontrib-bibtex >=2.7,<3

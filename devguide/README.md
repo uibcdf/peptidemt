@@ -1,10 +1,11 @@
 # PeptideMT design guide
 
-Updated: **2026-10-28**. This is the maintained design source of truth.
+Updated: **2026-10-29**. This is the maintained design source of truth.
 It supports scientific discussion rather than replacing it with a completed
 specification. The bounded W1 core is implemented; one installed Macrel CPU
-bundle now has W3 computational qualification evidence, with scientific
-acceptance and separate provider/consumer follow-up retained.
+bundle is accepted for exploratory assessment/ranking under D37, with its
+recorded scientific limits and exact execution evidence retained. The provisional
+[user documentation](../docs/index.md) follows the suite component conventions.
 
 ## Reading path
 
@@ -12,8 +13,8 @@ For implemented W1 tools, see [sequence inputs, saved results and selection](w1_
 The core works without Macrel. The [W2 native boundary](w2_macrel.md) uses
 in-memory inputs and MolSysMT transport. The [W3 assessment](w3_assessment.md)
 records the actual native execution, exact comparisons, limits and saved replay.
-The [investigator review brief](increment_1_review.md) proposes a bounded bundle
-disposition and identifies the decision still required for closeout.
+The [acceptance record](increment_1_review.md) records the investigator
+disposition and bounded bundle under D37. Central #152 receiving is complete.
 FASTA ingestion now delegates to MolSysMT's source-preserving development API;
 in-memory inputs and saved-result replay remain independent of that provider.
 The [W3 preparation](w3_qualification.md) records candidate bytes, upstream

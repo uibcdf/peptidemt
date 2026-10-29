@@ -60,8 +60,8 @@ metadata/Conda provider floors separately from selected optional MolSysMT
 serialization. Engine-free controls do not qualify
 Macrel or complete the live scientific work. The later
 [W3 assessment](w3_assessment.md) records actual authorized CPU execution,
-exact native parity, terms/fixtures, resource evidence and remaining scientific
-acceptance. Keep that evidence bound to its actual source/artifacts/environment.
+exact native parity, terms/fixtures, resource evidence and scientific
+acceptance under D37. Keep that evidence bound to its actual source/artifacts/environment.
 
 The investigator's governance clarification supersedes only the historical
 W0-only reporting restriction. D35/D36, M1–M8, scientific acceptance and publication
@@ -83,11 +83,11 @@ profile. Its recommendation of a newer maintenance release does not change the
 chosen feature floor or the exact historical qualification environment.
 
 The copy is delivered by the official synchronizer from published canonical
-source. Central consumer registration, test-tooling inventory and review updates
-are proposed under uibcdf/molsyssuite#152 and await owner-reviewed acceptance.
-Neither a prepared PR nor this copy constitutes accepted central receiving.
-The [investigator review brief](increment_1_review.md) keeps scientific bundle
-disposition separate. Preserve absence/failure, application-owned sessions and
+source. Central consumer registration, test-tooling inventory and review receiving are
+accepted under uibcdf/molsyssuite#152 at b12f7230b297cdc0b22a649e6e625207d7fc4c1d;
+PR #154 is resolved through the authorized direct route. The subsequent
+[investigator acceptance record](increment_1_review.md) records D37 scientific
+disposition with its separate scope. Preserve absence/failure, application-owned sessions and
 credit only for the branch actually reached. A saved reader creates no new
 scientific credit; mocks or a guide alone are insufficient integration evidence.
 

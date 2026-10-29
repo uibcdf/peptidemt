@@ -243,7 +243,9 @@ separately rather than silently added to these tests.
 
 ## 5. Acceptance specification for increment 1
 
-The following tests are **accepted under D35, not run**. Semantic fixtures and real-provider
+The following criteria are **accepted under D35**. Their later executed evidence
+and D37 acceptance are recorded in [the assessment](w3_assessment.md) and
+[acceptance record](increment_1_review.md). Semantic fixtures and real-provider
 evidence have different purposes; a mock-only suite cannot qualify this increment.
 
 | Test | Pass criterion |

@@ -20,3 +20,4 @@ local_data/
 build/
 dist/
 *.egg-info/
+docs/_build/

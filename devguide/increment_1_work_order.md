@@ -1,7 +1,7 @@
 # Increment 1: implementation readiness and commissioning brief
 
-Status: **W0–W4 authorized under D36 within D35/M1–M8; W0 engineering received**,
-2026-10-27. The specific central admission issue is
+Status: **W0–W4 authorized under D36; exact Macrel bundle accepted under D37
+on 2026-10-29; W4 documentation closeout in progress**. The specific central admission issue is
 [MolSysSuite #146](https://github.com/uibcdf/molsyssuite/issues/146).
 Central registration is accepted at `8a94e16f`; official bootstrap qualification
 and central W0 engineering receiving are complete. W1–W4 retain their own
@@ -314,8 +314,8 @@ authorized by the completed allowance.
 
 Tests, a small [saved live-case replay](../examples/replay_macrel_qualification.py),
 usage documentation and exact artifact evidence make the increment reviewable.
-Scientific acceptance of this precise bundle and its stated limitations remains
-an investigator disposition. PeptideMT #5 separately records the owner-backed
-FASTA reader adoption; applicable client receiving remains visible. This does not
-complete the
-generative V0.1, authorize HydrAMP/later increments or publish packages.
+D37 records investigator acceptance of this precise bundle and its stated limits
+on 2026-10-29. PeptideMT #5 records completed owner-backed FASTA adoption; central
+#152 receiving is accepted at b12f7230. Provisional Sphinx/MyST user documentation
+is the remaining W4 delivery work under #6. This does not complete generative
+V0.1, authorize HydrAMP/later increments or publish packages.

@@ -1,18 +1,20 @@
 # Increment 1: investigator review brief
 
-Status: **recommendation prepared; investigator disposition pending**.
+Status: **accepted by the investigator on 2026-10-29 under D37**.
 Owner: [PeptideMT #6](https://github.com/uibcdf/peptidemt/issues/6).
 This reviews the commissioned D35/D36 result. It does not reopen its architecture,
 M1–M8, chemistry or selectors. [Assessment](w3_assessment.md) and
 [work order](increment_1_work_order.md) retain the detailed evidence and authority.
 
-## Proposed disposition
+## Accepted disposition
 
-Codex recommends accepting the **specific executed Macrel 1.6.1 bundle as an
-exploratory computational assessment/ranking reference within D35**, subject to
-the existing unchanged-sequence admission and limits below. This recommendation
-is not an investigator-approved decision. Acceptance of these results does not
-approve another model run, publication or increment.
+The investigator accepts the specific executed Macrel 1.6.1 bundle as an
+exploratory computational assessment/ranking resource within D35, retaining the
+existing unchanged-sequence admission and the limits below. Macrel is one
+optional evaluator in the extensible resource catalog. Acceptance follows the
+in-conversation evidence report and explicit investigator decision; the earlier
+recommendation is now adopted with that scope. It grants no new inference
+allowance, publication, chemistry expansion or later increment.
 
 The exact numerical package is PeptideMT source
 `7a299d1a9e1b264c2f872e94d35b76d67c548a0a`, with qualification driver
@@ -77,14 +79,17 @@ saved evidence only. No new live execution follows from accepting the receipt.
 
 ## Closeout distinction
 
-Central guide/inventory receiving remains [MolSysSuite #152](https://github.com/uibcdf/molsyssuite/issues/152)
-until its owner-reviewed changes are accepted and published. The existing
-SMonitor #54 external audit limitation retains its own owner and bounded direct
-catalog evidence. Neither is silently converted into scientific acceptance.
+Central engineering receiving is complete under
+[MolSysSuite #152](https://github.com/uibcdf/molsyssuite/issues/152), accepted at
+`b12f7230b297cdc0b22a649e6e625207d7fc4c1d`. PR #154 is resolved through that
+reviewed direct route. The existing SMonitor #54 external audit limitation has
+its own owner and direct catalog/configuration evidence; public delivery is
+separate and uncommissioned.
 
-An investigator disposition should name this bundle and exploratory scope,
-accept the stated limits, or identify the particular unmet gate or restriction
-requiring further work. Record that disposition in #6 and the maintained guide.
-No disposition has been inferred from authorization to prepare this review.
-W4's tests, documentation, saved example and artifact evidence are available;
-final increment-1 closeout awaits the separate receiving and investigator outcomes.
+The investigator also requested provisional user documentation covering actual
+use, limitations and confidence evidence. Its [build guide](../docs/README.md)
+records the inspected sibling conventions. W4 documentation/build checks and
+final issue closeout remain technical delivery work under #6. Original model
+artifacts, versions, evaluations and the exhausted four-call allowance are
+preserved. This is acceptance of the bounded result, not a new execution or
+acceptance of future resources.

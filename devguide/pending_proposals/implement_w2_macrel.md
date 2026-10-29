@@ -14,6 +14,24 @@ supersedes: []
 
 # W2 native Macrel route
 
+## Investigator acceptance and W4 documentation — 2026-10-29
+
+The investigator accepts the executed Macrel 1.6.1 resource under D37, for the
+D35 exploratory computational scope and stated limitations. Macrel is one
+optional evaluator in an extensible resource catalog; no universal predictor,
+new model, chemistry or selection contract is introduced. The original numerical
+package/driver, model/provider hashes and four-call evidence remain unchanged.
+Central #152 is accepted at b12f7230; FASTA #5 is resolved. Their historical
+pending statements below describe earlier checkpoints.
+
+The requested provisional user documentation follows the inspected
+MolSysMT/MolSysViewer Sphinx/MyST/PyData conventions, with actual installed API,
+usage, limitations, M1–M8 evidence and an unchanged saved-case replay. HTML strict
+references pass locally; doctest and the new build-only CI fixture are being
+verified before final W4/issue closeout. No website/package publication or new
+inference occurs. See [the accepted disposition](../increment_1_review.md) and
+[documentation source/build guide](../../docs/README.md).
+
 ## Native qualification update — 2026-10-28
 
 All four authorized calls completed with exact native parity, both heads' sign

@@ -1,8 +1,9 @@
 # Optional engine integration review
 
 This review distinguishes historical W0/W1 non-applicability from the current
-[W2 source boundary](w2_macrel.md), tracked in uibcdf/peptidemt#6. Live Macrel
-qualification and complete runtime adoption remain pending.
+[W2 source boundary](w2_macrel.md), tracked in uibcdf/peptidemt#6. The exact Macrel bundle has executed qualification and investigator acceptance
+under D37; public delivery and external provider-audit limitations retain their
+own scope.
 
 When a concrete change is needed, open the owning issue first and create its report
 using the local [reporting protocol](reporting_protocol.md). Link that issue here.

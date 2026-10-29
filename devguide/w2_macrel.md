@@ -1,7 +1,7 @@
 # W2 native Macrel boundary
 
-Status: **implemented; one exact installed CPU bundle has native qualification
-evidence, with investigator acceptance separate**. Tracked in
+Status: **implemented; the exact installed CPU bundle is accepted under D37
+for the D35 exploratory scope and recorded limitations**. Tracked in
 [PeptideMT #6](https://github.com/uibcdf/peptidemt/issues/6).
 The [W3 assessment](w3_assessment.md) records actual execution; older source-only
 receipts below retain their original scope.

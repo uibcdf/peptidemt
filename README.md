@@ -18,14 +18,16 @@ redesign are equally within the intended scope. A computational campaign can
 finish without experimental validation; predicted properties, experimental
 evidence and demonstrated activity must remain distinguishable.
 
-Start with the [design guide](devguide/README.md). W1 now supplies
+Start with the provisional [user guide](docs/content/user/quickstart.md) and
+[documentation build instructions](docs/README.md). The [design guide](devguide/README.md)
+retains scientific decisions and evidence. W1 supplies
 [ordered sequence/FASTA inputs, attributed saved results and two reproducible
 selectors](devguide/w1_core.md), usable without Macrel. Its public boundary is
-provisional. Macrel 1.6.1 remains the approved first evaluator qualification
-candidate. The [W2 native adapter](devguide/w2_macrel.md) uses in-memory inputs
+provisional. D37 accepts the executed Macrel 1.6.1 bundle for bounded exploratory
+assessment/ranking, as one optional evaluator in an extensible resource catalog. The [W2 native adapter](devguide/w2_macrel.md) uses in-memory inputs
 and MolSysMT-owned transport. The [bounded installed W3 assessment](devguide/w3_assessment.md)
 now supplies exact native parity and M1–M8 evidence for one Linux CPU bundle;
-investigator acceptance remains separate. FASTA interpretation now delegates to
+investigator acceptance and its limits are recorded in D37. FASTA interpretation delegates to
 MolSysMT's source-preserving development API; in-memory inputs and saved-result
 selection remain usable without that provider.
 
@@ -144,7 +146,9 @@ provisional chemical/length scope. Its scientific design is closed, subject to
 real qualification. The [commissioning brief](devguide/increment_1_work_order.md)
 specifies operational prerequisites, official admission/starter work, test lanes
 and required evidence. D36 now grants conditional implementation authorization;
-builds/assets, actual environment/terms and completed admission remain to qualify.
+the original conditions and historical proposals are retained in the work order.
+D37 now records acceptance of the executed Macrel bundle; central receiving is
+complete. No later increment or publication is authorized by that acceptance.
 H0–H4 stays a proposal outside this assignment.
 The [expanded engine review](devguide/protein_peptide_design_engines.md)
 examines general protein/peptide engines, Chaperone and RFD4, their evidence and
