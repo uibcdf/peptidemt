@@ -42,8 +42,8 @@ clarification, the shared `molsyssuite@uibcdf_3.14` editable MolSysMT clone was
 advanced to `71fbe4f46d3c70e4e973c8025f01752a8c9b1084`, with metadata refreshed
 to `0.23.0+322.g71fbe4f46`. Its source-preserving FASTA reader and SeqRecord
 serialization passed non-model probes. A public package release is not a
-prerequisite for this development route. The [FASTA migration record](pending_proposals/delegate_fasta_to_molsysmt.md)
-retains scope and outstanding consumer work; the original installed scientific
+prerequisite for this development route. The [FASTA migration record](archive/delegate_fasta_to_molsysmt.md)
+retains the separate consumer adoption evidence; the original installed scientific
 environment, wheel and four-call evidence above remain unchanged.
 
 ## Measured live execution and gates
@@ -128,9 +128,10 @@ W0/W2 receiving and component-owned scientific acceptance. The handoff is
 [MolSysSuite #152](https://github.com/uibcdf/molsyssuite/issues/152); this does
 not reopen the resolved #151 receipt or declare guide delivery already complete.
 
-FASTA migration remains [PeptideMT #5](https://github.com/uibcdf/peptidemt/issues/5).
-MolSysMT #513 has delivered the provider capability, but this qualification
-intentionally uses in-memory proposals and never the local parser. SMonitor #54
+FASTA adoption is recorded in [PeptideMT #5](https://github.com/uibcdf/peptidemt/issues/5).
+The current reader delegates to the capability delivered in MolSysMT #513.
+The original qualification intentionally used in-memory proposals and never the
+local parser; it is not relabeled as a new reader or model execution. SMonitor #54
 retains its external src-layout audit limitation; direct installed catalog checks
 pass. Published Pytest Receptor 1.1.0 emits a nonblocking late discard-stream
 ResourceWarning already tracked in its owning #4; original passing counts and

@@ -111,8 +111,16 @@ probes identified a reusable interpretation operation in the local W1 parser.
 The earlier characterization as solely proposal ingestion does not establish
 compliance with the format owner's boundary. [PeptideMT #5](https://github.com/uibcdf/peptidemt/issues/5)
 tracks migration under [MolSysMT #513](https://github.com/uibcdf/molsysmt/issues/513);
-see the [current consumer record](../pending_proposals/delegate_fasta_to_molsysmt.md).
+see the [current consumer record](../archive/delegate_fasta_to_molsysmt.md).
 This appended correction preserves the original source/wheel/runtime evidence;
 it does not relabel delivered behavior as completed provider adoption or approve
 another local parser. Scientific contracts and the existing implementation are
 unchanged pending a reviewed, sequence-preserving migration.
+
+
+## Owner-backed ingestion adoption — 2026-10-28
+
+The later [FASTA migration receipt](delegate_fasta_to_molsysmt.md) closes #5:
+current ingestion delegates to MolSysMT's source-preserving public API. Its exact
+source/installed/CI evidence is separate from the original W1 and W3 receipts;
+this does not rewrite their historical artifacts or scientific claims.

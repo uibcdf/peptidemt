@@ -25,7 +25,9 @@ provisional. Macrel 1.6.1 remains the approved first evaluator qualification
 candidate. The [W2 native adapter](devguide/w2_macrel.md) uses in-memory inputs
 and MolSysMT-owned transport. The [bounded installed W3 assessment](devguide/w3_assessment.md)
 now supplies exact native parity and M1–M8 evidence for one Linux CPU bundle;
-investigator acceptance and the separate FASTA migration remain explicit.
+investigator acceptance remains separate. FASTA interpretation now delegates to
+MolSysMT's source-preserving development API; in-memory inputs and saved-result
+selection remain usable without that provider.
 
 The accepted conceptual architecture separates scientific design intent,
 computational plans and execution evidence. Functional families remain independent
@@ -62,6 +64,10 @@ this clone with `python -m pip install --no-deps --no-build-isolation --editable
 Development uses the components' editable development sources in that shared
 environment; a new public package release is not a prerequisite for adopting an
 owner-delivered capability. Record the actual provider commit and import origin.
+The selected FASTA route uses MolSysMT's public `file_fasta.parse_records` and
+`read_records` APIs. CI installs its reviewed full-SHA source after Conda supplies
+the dependencies; it exercises the real reader on Python 3.11–3.14. See the
+[input guide](devguide/w1_core.md#ordered-inputs) for the source and file contract.
 The member's `devtools/conda-envs/development_env.yaml` and `test_env.yaml` remain
 bootstrap/CI and clean qualification fixtures. They do not require a separate
 daily environment. Read [PYTEST_RECEPTOR_GUIDE.md](PYTEST_RECEPTOR_GUIDE.md) and

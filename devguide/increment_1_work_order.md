@@ -315,6 +315,7 @@ authorized by the completed allowance.
 Tests, a small [saved live-case replay](../examples/replay_macrel_qualification.py),
 usage documentation and exact artifact evidence make the increment reviewable.
 Scientific acceptance of this precise bundle and its stated limitations remains
-an investigator disposition. The separate PeptideMT #5 FASTA ownership migration
-and applicable client receiving remain visible. This does not complete the
+an investigator disposition. PeptideMT #5 separately records the owner-backed
+FASTA reader adoption; applicable client receiving remains visible. This does not
+complete the
 generative V0.1, authorize HydrAMP/later increments or publish packages.

@@ -45,9 +45,11 @@ physical-quantity conversion or molecular-system implementation is introduced.
 
 The post-delivery FASTA ownership review is tracked in uibcdf/peptidemt#5 and
 provider uibcdf/molsysmt#513. General format interpretation must be delegated to
-MolSysMT with a qualified source-preserving route. The current local parser is
-a visible migration gap; its behavioral tests do not establish provider adoption.
-See the [consumer migration record](pending_proposals/delegate_fasta_to_molsysmt.md).
+MolSysMT through its source-preserving development API. The local parser has
+been removed; actual provider tests exercise the selected route. MolSysMT stays
+optional for in-memory inputs and saved-result replay. CI supplies its runtime
+closure with Conda and installs an immutable owner-source revision before testing.
+See the [consumer migration record](archive/delegate_fasta_to_molsysmt.md).
 
 The [W2 native boundary](w2_macrel.md), tracked in PeptideMT #6, advances with
 in-memory inputs and MolSysMT-owned serialization. It introduces DepDigest and

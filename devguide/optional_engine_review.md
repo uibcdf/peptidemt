@@ -47,6 +47,7 @@ Add one row for each implemented route. Names and directory layout remain local.
 | --- | --- | --- | --- | --- |
 | Macrel 1.6.1 | Installed native Python, `assess_macrel` | Lazy `macrel`; selected `molsysmt` serialization and its Biopython route; both packaged ONNX heads | Verified Macrel PyPI file; unqualified installers disabled; exact installed MolSysMT owner-source wheel under #359 | uibcdf/peptidemt#6; actual bounded W3 evidence, investigator acceptance separate |
 | Ackredit >=0.9.0 | Optional portable post-operation capture | Lazy `ackredit`; host bibliography retained without it | Public `uibcdf` Conda route; no pip/required runtime extra invented | uibcdf/peptidemt#6; real controlled receiving plus actual native-call capture |
+| MolSysMT source-preserving FASTA | `parse_fasta` / `read_fasta` delegate to public `file_fasta.parse_records/read_records` | Lazy `molsysmt`; optional for memory inputs/replay; no Bio or model required for ingestion | Shared editable development source; full-SHA source installation and Conda closure in CI, no unverified public installer | uibcdf/peptidemt#5; owner-backed tests, separate from original W3 model bundle |
 
 Distinguish original Python libraries, executables, services, saved files and local
 implementations. Document extras' actual contents. An unavailable selected route

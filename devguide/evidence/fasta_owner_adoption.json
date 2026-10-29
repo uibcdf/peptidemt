@@ -1,0 +1,220 @@
+{
+  "schema": "peptidemt.fasta_owner_adoption@1",
+  "date": "2026-10-28",
+  "issue": "uibcdf/peptidemt#5",
+  "implementation_source": "7e6116ca27ed5e4fdb37620099a35b008d763365",
+  "provider_source": "uibcdf/molsysmt@71fbe4f46d3c70e4e973c8025f01752a8c9b1084",
+  "provider_delivery": "uibcdf/molsysmt#513; ae24866ba485024bb31a68ddb80f6cce2780d7e5",
+  "owner_api": [
+    "molsysmt.form.file_fasta.parse_records",
+    "molsysmt.form.file_fasta.read_records"
+  ],
+  "duplicate_parser_removed": true,
+  "required_runtime_dependency_added": false,
+  "wheels": {
+    "consumer": {
+      "filename": "peptidemt-0.1.0+100.g7e6116c-py3-none-any.whl",
+      "sha256": "536427ab771d573e54a819bc58d8228ebb215d94870ae92a62d823c12dbad870",
+      "public": false
+    },
+    "provider": {
+      "filename": "molsysmt-0.23.0+322.g71fbe4f46-cp311-abi3-linux_x86_64.whl",
+      "sha256": "7d7ea76c70a383a1e1cf35dbf35ba6859aa2e0a2d9757414941c32e59149c307",
+      "public": false
+    }
+  },
+  "development_profile": {
+    "name": "molsyssuite@uibcdf_3.14",
+    "python": "3.14.7",
+    "provider": "0.23.0+322.g71fbe4f46",
+    "import": "editable sibling clone",
+    "tests": {
+      "passed": 117,
+      "skipped": 0
+    },
+    "dependency_findings": "12 existing unrelated findings retained; not a clean-closure claim"
+  },
+  "installed_profile": {
+    "python": "3.14.10",
+    "kind": "new task-owned venv inheriting clean original scientific dependency profile; exact new wheels overlay it without changing that original environment",
+    "imports": "verified against installed distribution paths from neutral directory with -I",
+    "pip_check": "passed",
+    "tests": {
+      "passed": 117,
+      "skipped": 0
+    },
+    "examples": [
+      "fasta_ingestion",
+      "w1_selection",
+      "replay_macrel_qualification"
+    ],
+    "operator_note": "relative venv executable spelling emitted CPython site prefix warnings; import roots and passing exit status verified; use absolute executable paths"
+  },
+  "compatibility": {
+    "preserved": [
+      "full headers",
+      "repeated and empty occurrences",
+      "unaltered sequence characters",
+      "raw records",
+      "source labels",
+      "CR/LF/CRLF",
+      "occurrence mapping",
+      "saved-result precision and both selectors"
+    ],
+    "explicit_owner_contracts": [
+      "Only CR/LF delimit lines; Unicode separators remain literal incompatible content",
+      "read_records validates .fa/.fasta paths",
+      "format errors adapt to ValueError retaining owner diagnostic as cause",
+      "invalid UTF-8 adapts to UnicodeDecodeError retaining owner diagnostic as cause",
+      "other I/O and transitive failures propagate; no parser fallback"
+    ]
+  },
+  "ci": {
+    "routine": {
+      "url": "https://github.com/uibcdf/peptidemt/actions/runs/40797615508",
+      "headSha": "7e6116ca27ed5e4fdb37620099a35b008d763365",
+      "attempt": 1,
+      "event": "push",
+      "conclusion": "success",
+      "required_jobs": [
+        {
+          "name": "test",
+          "job_id": 123197796986,
+          "required_steps": [
+            "Install pinned MolSysMT development provider",
+            "Run python -m pip install --no-deps --no-build-isolation .",
+            "Verify installed package and dependency closure",
+            "Run python -m pytest --receptor=ci"
+          ],
+          "conclusion": "success"
+        },
+        {
+          "name": "quality",
+          "job_id": 123197796462,
+          "required_steps": [
+            "Run ruff check .",
+            "Run ruff format --check ."
+          ],
+          "conclusion": "success"
+        }
+      ]
+    },
+    "policy": {
+      "url": "https://github.com/uibcdf/peptidemt/actions/runs/40797615771",
+      "headSha": "7e6116ca27ed5e4fdb37620099a35b008d763365",
+      "attempt": 1,
+      "event": "push",
+      "conclusion": "success",
+      "required_jobs": [
+        {
+          "name": "policy / conformance",
+          "job_id": 123197797506,
+          "required_steps": [
+            "Validate immutable admission input",
+            "Check repository conformance",
+            "Check Python lint and imports",
+            "Check Python formatting"
+          ],
+          "conclusion": "success"
+        }
+      ]
+    },
+    "matrix": {
+      "url": "https://github.com/uibcdf/peptidemt/actions/runs/40797642842",
+      "headSha": "7e6116ca27ed5e4fdb37620099a35b008d763365",
+      "attempt": 1,
+      "event": "workflow_dispatch",
+      "conclusion": "success",
+      "required_jobs": [
+        {
+          "name": "quality",
+          "job_id": 123197889110,
+          "required_steps": [
+            "Run ruff check .",
+            "Run ruff format --check ."
+          ],
+          "conclusion": "success"
+        },
+        {
+          "name": "full_matrix (3.11)",
+          "job_id": 123197888999,
+          "required_steps": [
+            "Install pinned MolSysMT development provider",
+            "Run python -m pip install --no-deps --no-build-isolation .",
+            "Verify installed package and dependency closure",
+            "Run python -m pytest --receptor=ci"
+          ],
+          "conclusion": "success"
+        },
+        {
+          "name": "full_matrix (3.12)",
+          "job_id": 123197889141,
+          "required_steps": [
+            "Install pinned MolSysMT development provider",
+            "Run python -m pip install --no-deps --no-build-isolation .",
+            "Verify installed package and dependency closure",
+            "Run python -m pytest --receptor=ci"
+          ],
+          "conclusion": "success"
+        },
+        {
+          "name": "full_matrix (3.13)",
+          "job_id": 123197889067,
+          "required_steps": [
+            "Install pinned MolSysMT development provider",
+            "Run python -m pip install --no-deps --no-build-isolation .",
+            "Verify installed package and dependency closure",
+            "Run python -m pytest --receptor=ci"
+          ],
+          "conclusion": "success"
+        },
+        {
+          "name": "full_matrix (3.14)",
+          "job_id": 123197888820,
+          "required_steps": [
+            "Install pinned MolSysMT development provider",
+            "Run python -m pip install --no-deps --no-build-isolation .",
+            "Verify installed package and dependency closure",
+            "Run python -m pytest --receptor=ci"
+          ],
+          "conclusion": "success"
+        }
+      ]
+    }
+  },
+  "ci_first_surface": "published GH Run Receptor 1.3.0 generic/llm; native SHA/attempt/jobs/steps and matrix logs then independently verified",
+  "matrix_test_counts": {
+    "3.11": {
+      "passed": 117,
+      "skipped": 0,
+      "installed_fasta_example": "passed",
+      "pip_check": "passed"
+    },
+    "3.12": {
+      "passed": 117,
+      "skipped": 0,
+      "installed_fasta_example": "passed",
+      "pip_check": "passed"
+    },
+    "3.13": {
+      "passed": 117,
+      "skipped": 0,
+      "installed_fasta_example": "passed",
+      "pip_check": "passed"
+    },
+    "3.14": {
+      "passed": 117,
+      "skipped": 0,
+      "installed_fasta_example": "passed",
+      "pip_check": "passed"
+    }
+  },
+  "scientific_model_calls": 0,
+  "original_qualification": "7a299d1a9e1b264c2f872e94d35b76d67c548a0a package; a1b5e3a178679eb71f47bf6a693a43955879b97d driver; four calls unchanged, not repeated or relabeled",
+  "remaining": [
+    "investigator disposition of original W3 scientific bundle",
+    "central client/inventory receiving tracked separately in molsyssuite#152; SMonitor#54 external audit limitation"
+  ],
+  "resources": "Retain exact wheels, installed-reader environment and raw receipts for receiving; remove source build scratch after verification; original scientific environment preserved",
+  "limits": "Linux engine-free reader/replay compatibility evidence on Python 3.11\u20133.14, not new Macrel qualification or public package/platform support"
+}

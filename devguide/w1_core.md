@@ -2,9 +2,9 @@
 
 Status: engine-independent implementation under D35/D36,
 tracked in [PeptideMT #4](https://github.com/uibcdf/peptidemt/issues/4).
-Post-delivery ownership review: [PeptideMT #5](https://github.com/uibcdf/peptidemt/issues/5)
-tracks replacement of local FASTA interpretation through [MolSysMT #513](https://github.com/uibcdf/molsysmt/issues/513).
-The documented current behavior is retained; provider adoption is pending.
+Post-delivery ownership adoption: [PeptideMT #5](https://github.com/uibcdf/peptidemt/issues/5)
+replaces local FASTA interpretation through [MolSysMT #513](https://github.com/uibcdf/molsysmt/issues/513).
+The current reader delegates to the owner; no local FASTA parser remains.
 Navigation: [index](README.md) · [scientific contract](v0_1_increment_1.md)
 · [work order](increment_1_work_order.md).
 
@@ -41,11 +41,25 @@ is an empty sequence. Inputs receive zero-based occurrences and run-local tokens
 `input-0`, `input-1`, etc. These are not molecular identifiers. Pair tokens with
 the result snapshot; do not merge different input pools by token alone.
 
-FASTA ingestion joins sequence lines and removes line terminators only. It retains
-CRLF/raw text, repeated headers and empty records; spaces, lowercase, stops and
-modifications are not silently normalized. Nonblank content before the first
-header raises `ValueError` with its line number. Blank input returns an empty
-collection. I/O/encoding errors propagate with their original cause.
+FASTA ingestion selects MolSysMT's public `form.file_fasta.parse_records` or
+`read_records` API. Routine work uses its editable development source; CI pins
+`uibcdf/molsysmt@71fbe4f46d3c70e4e973c8025f01752a8c9b1084` and supplies its
+dependencies through Conda. No public package release is needed for this route.
+MolSysMT is optional for in-memory input preparation and saved-result replay;
+selecting FASTA without it raises the catalog-backed dependency error. It is not
+silently replaced with another parser or normalized conversion.
+
+The owner joins sequence lines and removes CR/LF terminators only. It retains
+CR, LF, CRLF/raw text, repeated headers and empty records; spaces, lowercase,
+stops, modifications and other Unicode separators are not silently normalized.
+PeptideMT maps those records to its existing fields and retains occurrence order.
+Nonblank content before the first header raises `ValueError`, retaining the
+owner's diagnostic, including its line number, as cause. Blank input returns an
+empty collection.
+Files follow the owner's `.fa`/`.fasta` path contract; unsupported suffixes retain
+the owner's argument error. Invalid UTF-8 remains `UnicodeDecodeError` with the
+owner diagnostic as cause; file I/O errors propagate unchanged. An installed
+[FASTA example](../examples/fasta_ingestion.py) exercises this path without a model.
 
 `InputRecord.issues` explains operation-specific incompatibilities. Only unchanged
 uppercase canonical-symbol sequences shorter than 100 residues, without leading M

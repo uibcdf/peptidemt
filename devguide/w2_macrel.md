@@ -14,10 +14,11 @@ Navigation: [guide](README.md) · [work order](increment_1_work_order.md) ·
 `peptidemt.assess_macrel(inputs, *, snapshot_id, limits,
 qualification_reference=None)` consumes the complete ordered `InputRecord` tuple
 returned by `prepare_sequences`. Build proposals in memory; this route never
-uses `parse_fasta` or `read_fasta`. The [FASTA reader migration](pending_proposals/delegate_fasta_to_molsysmt.md)
-has its provider capability delivered in MolSysMT #513; consumer adoption remains
-pending in PeptideMT #5. The shared editable development source now supplies
-that capability, as recorded in the migration report.
+uses `parse_fasta` or `read_fasta`. The [FASTA reader migration](archive/delegate_fasta_to_molsysmt.md)
+now delegates to the public API delivered in MolSysMT #513 and adopted under
+PeptideMT #5. The shared editable development source supplies that capability,
+as recorded in the migration report. This changes ingestion, not the original
+in-memory W3 scientific fixture or its qualification evidence.
 
 The caller must supply a `MacrelLimits(max_records, max_input_bytes,
 wall_seconds, memory_bytes)` instance containing its authorized bounds. There

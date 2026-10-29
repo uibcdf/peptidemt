@@ -13,9 +13,9 @@ LIBRARIES = {
     "molsysmt": {
         "type": "soft",
         "pypi": None,
-        # Public 0.23.0 lacks the recognition fix qualified under #6/#359.
-        # Consult the documented owner-source route until a published file
-        # passes this selected serialization boundary.
+        # Public 0.23.0 lacks the recognition fix and source-preserving reader.
+        # Development uses the owner-source route recorded under #5/#6;
+        # public installer hints await a file that passes those boundaries.
         "conda": None,
     },
 }

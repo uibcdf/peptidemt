@@ -1,18 +1,47 @@
 ---
 summary: Delegate source-preserving FASTA interpretation to the molecular-system owner.
 issue: uibcdf/peptidemt#5
-status: open
+status: resolved
 opened: 2026-10-27
-closed:
+closed: 2026-10-28
 verification: measured
 area: [input, interoperability, ownership]
-guard:
+guard: tests/test_fasta_provider.py
 normative:
 blocked_by: []
 supersedes: []
 ---
 
 # Delegate FASTA ingestion to MolSysMT
+
+## Resolution — 2026-10-28
+
+Implemented at `7e6116ca27ed5e4fdb37620099a35b008d763365` using the public
+MolSysMT API at `71fbe4f46d3c70e4e973c8025f01752a8c9b1084`. The local FASTA
+parser is removed. PeptideMT retains its existing proposal representation,
+scientific admission and occurrence-to-result/selector rules. No model executes
+for ingestion; memory inputs and saved replay remain independent of MolSysMT.
+
+The [exact-source adoption receipt](../evidence/fasta_owner_adoption.json)
+records 117 passing source and installed-reader tests, zero skips, verified wheel
+origins and clean installed-reader dependency closure. Routine/policy and all four
+Linux Python 3.11–3.14 CI lanes pass at that implementation SHA, attempt 1. Each
+matrix cell installs the full-SHA provider source, checks its origin/dependencies
+and actually runs the FASTA example and all 117 tests. Published GH Run Receptor
+1.3.0 inspection precedes native source/attempt/job/step and log verification.
+Both exact private wheels and original evidence remain retained for receiving.
+
+Compatibility follows the public owner contract: `.fa`/`.fasta` files and CR/LF
+line boundaries, with other Unicode separators retained as literal incompatible
+sequence content. Format and UTF-8 errors preserve the owner diagnostic as cause;
+no fallback reader normalizes input. See [the current input guide](../w1_core.md).
+
+All five consumer acceptance criteria below are met. Central inventory/client
+receiving and investigator disposition of the original scientific bundle remain
+separate under PeptideMT #6 and MolSysSuite #152. This closes the duplicated-parser
+migration, not new model qualification, package publication or a later increment.
+The historical preparation and ownership analysis below retain their original
+scope; statements about pending adoption describe those earlier checkpoints.
 
 ## Consumer implementation checkpoint — 2026-10-28
 
@@ -21,7 +50,8 @@ API at `uibcdf/molsysmt@71fbe4f46d3c70e4e973c8025f01752a8c9b1084`.
 The duplicated parser is removed; PeptideMT maps the returned source document to
 its existing `SequenceRecord` fields, leaving scientific admission unchanged.
 The shared Python 3.14.7 development profile passes 117 tests with no skips.
-Installed-artifact and hosted acquisition gates are being verified before closure.
+At that checkpoint, installed-artifact and hosted acquisition gates were still
+pending; their completed evidence is recorded in the resolution above.
 
 MolSysMT remains optional for in-memory inputs and saved-result replay; only
 FASTA ingestion and the selected molecular transport load it through DepDigest.
