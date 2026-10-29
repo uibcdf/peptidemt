@@ -12,6 +12,8 @@ For implemented W1 tools, see [sequence inputs, saved results and selection](w1_
 The core works without Macrel. The [W2 native boundary](w2_macrel.md) uses
 in-memory inputs and MolSysMT transport. The [W3 assessment](w3_assessment.md)
 records the actual native execution, exact comparisons, limits and saved replay.
+The [investigator review brief](increment_1_review.md) proposes a bounded bundle
+disposition and identifies the decision still required for closeout.
 FASTA ingestion now delegates to MolSysMT's source-preserving development API;
 in-memory inputs and saved-result replay remain independent of that provider.
 The [W3 preparation](w3_qualification.md) records candidate bytes, upstream

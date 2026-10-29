@@ -99,3 +99,5 @@ Read the registered consumer guides when working on their respective boundaries:
 
 - `SMONITOR_GUIDE.md`
 - `DEPDIGEST_GUIDE.md`
+- `ACKREDIT_GUIDE.md` for portable scientific attribution; central consumer
+  registration is tracked in `uibcdf/molsyssuite#152`.

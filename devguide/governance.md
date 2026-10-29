@@ -73,19 +73,23 @@ change when an applicable boundary or accepted working instruction changes.
 
 The W2 scientific method/result boundary makes the suite's
 [optional attribution policy](https://github.com/uibcdf/molsyssuite/blob/main/devguide/ackredit_client_policy.md)
-applicable. The owning review remains uibcdf/peptidemt#6; this source/guide
-receiving does not install Ackredit or claim client adoption. The subsequent
-component-owned [portable boundary](w2_macrel.md) implements lazy public capture
-and detached host bibliography, with real-provider engine-free controls; its
-current evidence and actual installed-science obligations remain distinct.
-Before declaring
-live scientific acceptance, complete the applicable host bibliography, actual
-method/software identity, detached saved provenance and optional-provider
-receiving. Preserve explicit absence/failure, application-owned sessions and
-credit only for the branch actually reached. A saved reader does not create new
-scientific credit. Choose a supported capability/floor explicitly and retain
-real provider, compatibility and boundary-test evidence for any claimed client
-integration; mocks or a guide copy alone are insufficient.
+applicable. The owning review remains uibcdf/peptidemt#6. Its
+[portable boundary](w2_macrel.md) actually uses public Ackredit >=0.9.0 capture
+after completed operations, with detached host bibliography and original
+method/software identities. Real-provider tests and the original native W3
+adapter invocation supply runtime evidence; guide delivery is a separate fact.
+Read the root [Ackredit guide](../ACKREDIT_GUIDE.md) for this selected portable
+profile. Its recommendation of a newer maintenance release does not change the
+chosen feature floor or the exact historical qualification environment.
+
+The copy is delivered by the official synchronizer from published canonical
+source. Central consumer registration, test-tooling inventory and review updates
+are proposed under uibcdf/molsyssuite#152 and await owner-reviewed acceptance.
+Neither a prepared PR nor this copy constitutes accepted central receiving.
+The [investigator review brief](increment_1_review.md) keeps scientific bundle
+disposition separate. Preserve absence/failure, application-owned sessions and
+credit only for the branch actually reached. A saved reader creates no new
+scientific credit; mocks or a guide alone are insufficient integration evidence.
 
 No generic digestion or quantity dependency is added by this receiving. Retain
 W1's reviewed ordinary type/count/policy errors and unitless score semantics;
