@@ -19,7 +19,12 @@ downloaded, deserialized or loaded. Live service/documentation pages have a date
 and URL, not a frozen dataset identity. No model/API prediction, environment
 installation, training, GPU job or scientific benchmark ran for this survey.
 
+Individual resource conversations are published and linked below; exact publication
+identities and body hashes are in the [card receipt](evidence/resource_card_discussions.json).
+
 ## CPP_Design
+
+Discussion: [#21](https://github.com/uibcdf/peptidemt/discussions/21).
 
 - **Role:** EvoDiff fine-tuning/generation and CPP assessment within a separate
   closed-loop optimization study.
@@ -34,6 +39,8 @@ installation, training, GPU job or scientific benchmark ran for this survey.
   No such closed-loop or target-conditioned execution is commissioned here.
 
 ## LightCPPgen
+
+Discussion: [#22](https://github.com/uibcdf/peptidemt/discussions/22).
 
 - **Role:** LightGBM CPP scoring plus genetic optimization with sequence-similarity
   and anomaly criteria; useful as a search/redesign candidate, not a generic
@@ -53,6 +60,8 @@ installation, training, GPU job or scientific benchmark ran for this survey.
 
 ## MLCPP 2.0
 
+Discussion: [#23](https://github.com/uibcdf/peptidemt/discussions/23).
+
 - **Role:** two distinct predictions: CPP class and uptake efficiency among
   sequences called CPP. Neither output alone establishes cytosolic delivery.
 - **Primary sources:** [official server](https://balalab-skku.org/mlcpp2/),
@@ -67,6 +76,8 @@ installation, training, GPU job or scientific benchmark ran for this survey.
   A web form is not an installed, reproducible provider qualification.
 
 ## pLM4CPPs
+
+Discussion: [#24](https://github.com/uibcdf/peptidemt/discussions/24).
 
 - **Role:** CPP classification using protein-language-model embeddings and CNNs.
 - **Source:** [frozen source](https://github.com/drkumarnandan/pLM4CPPs/tree/2d648806c241f1dc64d9e4ff9d9f4baeb28a5d1f)
@@ -86,6 +97,8 @@ installation, training, GPU job or scientific benchmark ran for this survey.
 
 ## CPPpred-En
 
+Discussion: [#25](https://github.com/uibcdf/peptidemt/discussions/25).
+
 - **Role:** CPP classifier combining conventional descriptors, PLM features and
   an ensemble of classical models; not a generator or uptake-efficiency estimator.
 - **Source:** [frozen source](https://github.com/YE-MJ/CPPpred-En/tree/339eed196edd2e62a97c8bc0b1f0458f86e5f34d).
@@ -100,6 +113,8 @@ installation, training, GPU job or scientific benchmark ran for this survey.
   with MLCPP or pLM4CPPs. No Python 3.14 or installed CPU support is established.
 
 ## ELP–EEP discovery
+
+Discussion: [#26](https://github.com/uibcdf/peptidemt/discussions/26).
 
 - **Role:** regression-driven screening/design of endosomolytic peptides in an
   elastin-like-polypeptide nanoparticle delivery context.
@@ -116,6 +131,8 @@ installation, training, GPU job or scientific benchmark ran for this survey.
   not convert reported delivery results into PeptideMT experimental evidence.
 
 ## CPPsite3: data resource
+
+Discussion: [#27](https://github.com/uibcdf/peptidemt/discussions/27).
 
 - **Role:** experimentally annotated CPP database, not a predictor or generator.
 - **Primary sources:** [home](https://webs.iiitd.edu.in/raghava/cppsite3/),

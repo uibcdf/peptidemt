@@ -116,6 +116,29 @@ distinguish a function actually studied by a versioned resource from a proposed
 future application. A CPP mention is not proof of cytosolic access; AMP scores
 do not establish CPP or ACP activity. Keep assay/organism/cell/chemistry context.
 
+## Initial resource conversations
+
+These are permanent discovery/stewardship conversations, separate from bounded
+implementation and qualification issues. The [card-publication receipt](evidence/resource_card_discussions.json)
+records their identities, exact body hashes and index updates.
+
+| Resource | Navigation | Conversation | Maintained record |
+| --- | --- | --- | --- |
+| Macrel | AMP | [#14](https://github.com/uibcdf/peptidemt/discussions/14) | [Record](amp_resource_cards.md#macrel) |
+| HydrAMP | AMP | [#15](https://github.com/uibcdf/peptidemt/discussions/15) | [Record](amp_resource_cards.md#hydramp) |
+| PLUM | AMP | [#16](https://github.com/uibcdf/peptidemt/discussions/16) | [Record](amp_resource_cards.md#plum) |
+| OmegAMP | AMP | [#17](https://github.com/uibcdf/peptidemt/discussions/17) | [Record](amp_resource_cards.md#omegamp) |
+| ARCADIAMP | AMP | [#18](https://github.com/uibcdf/peptidemt/discussions/18) | [Record](amp_resource_cards.md#arcadiamp) |
+| AMP-Designer | AMP | [#19](https://github.com/uibcdf/peptidemt/discussions/19) | [Record](amp_resource_cards.md#amp-designer) |
+| PepDiffusion | AMP | [#20](https://github.com/uibcdf/peptidemt/discussions/20) | [Record](amp_resource_cards.md#pepdiffusion) |
+| CPP_Design | CPP | [#21](https://github.com/uibcdf/peptidemt/discussions/21) | [Record](cpp_resource_survey.md#cpp_design) |
+| LightCPPgen | CPP | [#22](https://github.com/uibcdf/peptidemt/discussions/22) | [Record](cpp_resource_survey.md#lightcppgen) |
+| MLCPP 2.0 | CPP | [#23](https://github.com/uibcdf/peptidemt/discussions/23) | [Record](cpp_resource_survey.md#mlcpp-20) |
+| pLM4CPPs | CPP | [#24](https://github.com/uibcdf/peptidemt/discussions/24) | [Record](cpp_resource_survey.md#plm4cpps) |
+| CPPpred-En | CPP | [#25](https://github.com/uibcdf/peptidemt/discussions/25) | [Record](cpp_resource_survey.md#cpppred-en) |
+| ELP–EEP discovery | CPP | [#26](https://github.com/uibcdf/peptidemt/discussions/26) | [Record](cpp_resource_survey.md#elpeep-discovery) |
+| CPPsite3: data resource | CPP / data | [#27](https://github.com/uibcdf/peptidemt/discussions/27) | [Record](cpp_resource_survey.md#cppsite3-data-resource) |
+
 ## Category intake forms
 
 Three published forms match the API-observed category slugs:

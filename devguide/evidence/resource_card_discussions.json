@@ -1,0 +1,236 @@
+{
+  "repository": "uibcdf/peptidemt",
+  "observed_at_utc": "2026-10-29T19:25:36.464859+00:00",
+  "scope": "Fourteen source-backed resource cards: seven AMP resources, six CPP tools/workflows and CPPsite3 data; navigation updates to existing five indexes.",
+  "authorization": "Investigator explicitly authorized publication of the resource-card batch and linked navigation in the working conversation on 2026-10-29.",
+  "technical_record_publication_commit": "e62ca89def7e7f65418ed41b4b6b4f7ac1a36d93",
+  "cards": [
+    {
+      "id": "D_kwDOVYipYs4Aqpvs",
+      "number": 14,
+      "title": "Macrel — AMP and hemolysis assessment",
+      "url": "https://github.com/uibcdf/peptidemt/discussions/14",
+      "category": {
+        "slug": "tools-and-models"
+      },
+      "family_navigation": "AMP",
+      "technical_record": "devguide/amp_resource_cards.md#macrel",
+      "body_sha256": "3115b49f5c0e7952e7432c69bba58c781dfce391ad5af9b36828183e90d41540"
+    },
+    {
+      "id": "D_kwDOVYipYs4Aqpvt",
+      "number": 15,
+      "title": "HydrAMP — conditional AMP generation",
+      "url": "https://github.com/uibcdf/peptidemt/discussions/15",
+      "category": {
+        "slug": "tools-and-models"
+      },
+      "family_navigation": "AMP",
+      "technical_record": "devguide/amp_resource_cards.md#hydramp",
+      "body_sha256": "7e0c4650f0dfbdf604f10c1da21f7bc979477c4e6d500f001a05557ada909269"
+    },
+    {
+      "id": "D_kwDOVYipYs4Aqpvu",
+      "number": 16,
+      "title": "PLUM — conditional and prototype-guided AMP generation",
+      "url": "https://github.com/uibcdf/peptidemt/discussions/16",
+      "category": {
+        "slug": "tools-and-models"
+      },
+      "family_navigation": "AMP",
+      "technical_record": "devguide/amp_resource_cards.md#plum",
+      "body_sha256": "63d176250c8d26e7de176950109dca7a1619ca3378b25ce0664bc9b741afebfb"
+    },
+    {
+      "id": "D_kwDOVYipYs4Aqpvv",
+      "number": 17,
+      "title": "OmegAMP — diffusion and motif/property controls",
+      "url": "https://github.com/uibcdf/peptidemt/discussions/17",
+      "category": {
+        "slug": "tools-and-models"
+      },
+      "family_navigation": "AMP",
+      "technical_record": "devguide/amp_resource_cards.md#omegamp",
+      "body_sha256": "3e5aa535f2dac5215a01cbee90c07891a957812357292575a8a4ccc0ddf5bebb"
+    },
+    {
+      "id": "D_kwDOVYipYs4Aqpvw",
+      "number": 18,
+      "title": "ARCADIAMP — AMP diffusion generation",
+      "url": "https://github.com/uibcdf/peptidemt/discussions/18",
+      "category": {
+        "slug": "tools-and-models"
+      },
+      "family_navigation": "AMP",
+      "technical_record": "devguide/amp_resource_cards.md#arcadiamp",
+      "body_sha256": "99b06234ea12903ad8c65e24b0b149293350a5f90b2a157bdc1ac410a98745da"
+    },
+    {
+      "id": "D_kwDOVYipYs4Aqpvx",
+      "number": 19,
+      "title": "AMP-Designer — language-model AMP generation",
+      "url": "https://github.com/uibcdf/peptidemt/discussions/19",
+      "category": {
+        "slug": "tools-and-models"
+      },
+      "family_navigation": "AMP",
+      "technical_record": "devguide/amp_resource_cards.md#amp-designer",
+      "body_sha256": "abd830a965c86259fdce64abd59daf059c726a798119aa7fa380d4a737fbc30f"
+    },
+    {
+      "id": "D_kwDOVYipYs4Aqpvy",
+      "number": 20,
+      "title": "PepDiffusion — latent-diffusion AMP generation",
+      "url": "https://github.com/uibcdf/peptidemt/discussions/20",
+      "category": {
+        "slug": "tools-and-models"
+      },
+      "family_navigation": "AMP",
+      "technical_record": "devguide/amp_resource_cards.md#pepdiffusion",
+      "body_sha256": "3e8495552e8d10bc6b299cc6b05a0880298a638628fe8b6cd6c9670ba7e230c8"
+    },
+    {
+      "id": "D_kwDOVYipYs4Aqpvz",
+      "number": 21,
+      "title": "CPP_Design — CPP generation and optimization research",
+      "url": "https://github.com/uibcdf/peptidemt/discussions/21",
+      "category": {
+        "slug": "tools-and-models"
+      },
+      "family_navigation": "CPP",
+      "technical_record": "devguide/cpp_resource_survey.md#cpp_design",
+      "body_sha256": "c6d3b91ac2760c08500436fedbd05d5e15400ea44f9687e00b4730315abb3ad2"
+    },
+    {
+      "id": "D_kwDOVYipYs4Aqpv0",
+      "number": 22,
+      "title": "LightCPPgen — CPP scoring and genetic optimization",
+      "url": "https://github.com/uibcdf/peptidemt/discussions/22",
+      "category": {
+        "slug": "tools-and-models"
+      },
+      "family_navigation": "CPP",
+      "technical_record": "devguide/cpp_resource_survey.md#lightcppgen",
+      "body_sha256": "7d4cae2de5c563629d69788e82908334eea7f46d3dfda1e566b452e2cda76a1f"
+    },
+    {
+      "id": "D_kwDOVYipYs4Aqpv1",
+      "number": 23,
+      "title": "MLCPP 2.0 — CPP classification and uptake efficiency",
+      "url": "https://github.com/uibcdf/peptidemt/discussions/23",
+      "category": {
+        "slug": "tools-and-models"
+      },
+      "family_navigation": "CPP",
+      "technical_record": "devguide/cpp_resource_survey.md#mlcpp-20",
+      "body_sha256": "9f8cf89614abf52d78c128905824852d641693cddef6d29d0df80fb75f334654"
+    },
+    {
+      "id": "D_kwDOVYipYs4Aqpv2",
+      "number": 24,
+      "title": "pLM4CPPs — embedding-based CPP classification",
+      "url": "https://github.com/uibcdf/peptidemt/discussions/24",
+      "category": {
+        "slug": "tools-and-models"
+      },
+      "family_navigation": "CPP",
+      "technical_record": "devguide/cpp_resource_survey.md#plm4cpps",
+      "body_sha256": "0799e804d35e1d2b0dd37e4fa94dfdd1ba59ac9eb1dd8b6f3494d224f4a2c69f"
+    },
+    {
+      "id": "D_kwDOVYipYs4Aqpv3",
+      "number": 25,
+      "title": "CPPpred-En — ensemble CPP classification",
+      "url": "https://github.com/uibcdf/peptidemt/discussions/25",
+      "category": {
+        "slug": "tools-and-models"
+      },
+      "family_navigation": "CPP",
+      "technical_record": "devguide/cpp_resource_survey.md#cpppred-en",
+      "body_sha256": "3de997bf5ef210115c977e2ce1fd3cb6f0f00c721283949818f6af3685889c25"
+    },
+    {
+      "id": "D_kwDOVYipYs4Aqpv4",
+      "number": 26,
+      "title": "ELP–EEP discovery — endosomal-escape peptide screening",
+      "url": "https://github.com/uibcdf/peptidemt/discussions/26",
+      "category": {
+        "slug": "tools-and-models"
+      },
+      "family_navigation": "CPP",
+      "technical_record": "devguide/cpp_resource_survey.md#elpeep-discovery",
+      "body_sha256": "5b9003a00ce78df53fd564d44d140fa73483d106bde9b158fff2c71fabfa4db5"
+    },
+    {
+      "id": "D_kwDOVYipYs4Aqpv5",
+      "number": 27,
+      "title": "CPPsite3 — CPP annotations and data provenance",
+      "url": "https://github.com/uibcdf/peptidemt/discussions/27",
+      "category": {
+        "slug": "datasets-and-benchmarks"
+      },
+      "family_navigation": "CPP",
+      "technical_record": "devguide/cpp_resource_survey.md#cppsite3-data-resource",
+      "body_sha256": "436a1cfa8c4ab52a172a19f7e496975a4197fc7fb428b533ce1172db8067add9"
+    }
+  ],
+  "updated_indexes": [
+    {
+      "id": "D_kwDOVYipYs4Aqptn",
+      "number": 9,
+      "title": "Tools and models — catalogue and discovery",
+      "url": "https://github.com/uibcdf/peptidemt/discussions/9",
+      "category": {
+        "slug": "tools-and-models"
+      },
+      "body_sha256": "6087319a8f4e5dff5005e8e09194e91b9e1039faeb2d383ee23de80ffc5964da"
+    },
+    {
+      "id": "D_kwDOVYipYs4Aqptp",
+      "number": 10,
+      "title": "AMP — generators, predictors and evaluation resources",
+      "url": "https://github.com/uibcdf/peptidemt/discussions/10",
+      "category": {
+        "slug": "tools-and-models"
+      },
+      "body_sha256": "5e7348c5f909c84ad073013107a4e6bd4f38363778b162a66cab042a200886f2"
+    },
+    {
+      "id": "D_kwDOVYipYs4Aqptq",
+      "number": 11,
+      "title": "CPP — tools, evidence and research questions",
+      "url": "https://github.com/uibcdf/peptidemt/discussions/11",
+      "category": {
+        "slug": "tools-and-models"
+      },
+      "body_sha256": "11055bb164994eae91fc1a7b84b1e555c49bbfd800c6db0c6a61e2f4020e861f"
+    },
+    {
+      "id": "D_kwDOVYipYs4Aqpts",
+      "number": 12,
+      "title": "Datasets and benchmarks — catalogue and evaluation questions",
+      "url": "https://github.com/uibcdf/peptidemt/discussions/12",
+      "category": {
+        "slug": "datasets-and-benchmarks"
+      },
+      "body_sha256": "6d16f747c218e14cabb47ff984e9f3bb5a647e805e7b0493466428e969fb501e"
+    },
+    {
+      "id": "D_kwDOVYipYs4Aqptu",
+      "number": 13,
+      "title": "Reading list — papers and scientific questions",
+      "url": "https://github.com/uibcdf/peptidemt/discussions/13",
+      "category": {
+        "slug": "reading-list"
+      },
+      "body_sha256": "81e8ec8126334ba075aa6d7ccc2d65cc121a845e4dbec53b6d0de1bcb030125d"
+    }
+  ],
+  "verification": "Independent final API readback matches all fourteen exact published card bodies and all five updated index bodies. Card and index body hashes preserve this dated state.",
+  "limits": [
+    "No new scientific model execution, new CPP runtime, GPU use, training or package release.",
+    "Discovery records do not accept providers; D37 Macrel acceptance and D38 HydrAMP scope retain their exact evidence.",
+    "No new browser evidence for section grouping, form rendering or pinning."
+  ],
+  "observed_repository_discussion_count": 19
+}

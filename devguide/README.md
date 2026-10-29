@@ -33,6 +33,9 @@ The first [AMP resource cards](amp_resource_cards.md) reuse existing exact
 evidence. The [bounded CPP survey](cpp_resource_survey.md) adds source-pinned
 generation, classification, uptake/escape and data resources with explicit
 receiving limits; it introduces no scientific execution or new dependencies.
+Their fourteen resource conversations are published and linked from the existing
+family/data indexes; [publication evidence](evidence/resource_card_discussions.json)
+retains the exact card and index body hashes.
 
 Current commissioned work: [bounded HydrAMP qualification for increment 2](pending_proposals/qualify_hydramp_increment_2.md),
 owned in #8 and authorized under D38. Artifact/use preflight, an isolated

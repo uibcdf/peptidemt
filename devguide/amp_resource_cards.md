@@ -10,7 +10,12 @@ acceptance. Each resource has one conversation, linked from family indexes.
 Additional surveyed AMP/search resources remain in the survey; this first set
 is neither an exhaustive inventory nor a performance ranking.
 
+Individual resource conversations are published and linked below; exact publication
+identities and body hashes are in the [card receipt](evidence/resource_card_discussions.json).
+
 ## Macrel
+
+Discussion: [#14](https://github.com/uibcdf/peptidemt/discussions/14).
 
 - **Role:** optional AMP and adverse-hemolysis evaluator, not a generator.
 - **Source:** [1.6.1 source](https://github.com/BigDataBiology/macrel/tree/190462605913844dca74b184869755609fbb20b2).
@@ -25,6 +30,8 @@ is neither an exhaustive inventory nor a performance ranking.
   complement this bounded resource without erasing conflicting observations?
 
 ## HydrAMP
+
+Discussion: [#15](https://github.com/uibcdf/peptidemt/discussions/15).
 
 - **Role:** AMP/low-MIC-conditioned de novo generation; analogue generation is
   a separate native operation.
@@ -41,6 +48,8 @@ is neither an exhaustive inventory nor a performance ranking.
 
 ## PLUM
 
+Discussion: [#16](https://github.com/uibcdf/peptidemt/discussions/16).
+
 - **Role:** AMP/non-AMP and length-conditioned VAE, with separate prototype guidance.
 - **Source:** [frozen source](https://github.com/priyamayur/PLUM/tree/650fdae718f8e761deb2c96ff428766854d050a3).
 - **Readiness:** source inspected; MIT code; named generative checkpoint files and
@@ -53,6 +62,8 @@ is neither an exhaustive inventory nor a performance ranking.
   under an independently qualified minimal environment?
 
 ## OmegAMP
+
+Discussion: [#17](https://github.com/uibcdf/peptidemt/discussions/17).
 
 - **Role:** diffusion generation with de novo/analogue/motif routes and explicit
   length, charge and hydrophobicity controls.
@@ -68,6 +79,8 @@ is neither an exhaustive inventory nor a performance ranking.
 
 ## ARCADIAMP
 
+Discussion: [#18](https://github.com/uibcdf/peptidemt/discussions/18).
+
 - **Role:** EvoDiff-D3PM-based AMP generation, separate from classifier/novelty screening.
 - **Source:** [frozen source](https://github.com/IBPA/ARCADIAMP/tree/70448c14a176399640a26095782e870b7204c338).
 - **Readiness:** source inspected; Apache-2.0 code; named model archives, documented
@@ -81,6 +94,8 @@ is neither an exhaustive inventory nor a performance ranking.
 
 ## AMP-Designer
 
+Discussion: [#19](https://github.com/uibcdf/peptidemt/discussions/19).
+
 - **Role:** GPT-based AMP-enriched generation; separate distillation and MIC predictors.
 - **Source:** [frozen source](https://github.com/jkwang93/AMP-Designer/tree/07d455dd6eb7ef61fe03b85732966caa32bf3dc4).
 - **Readiness:** source inspected; MIT code and externally linked weights. Its
@@ -93,6 +108,8 @@ is neither an exhaustive inventory nor a performance ranking.
   complete artifact provenance?
 
 ## PepDiffusion
+
+Discussion: [#20](https://github.com/uibcdf/peptidemt/discussions/20).
 
 - **Role:** transformer VAE and latent diffusion for AMP sequence proposals.
 - **Source:** [frozen source](https://github.com/Wangyj2023/PepDiffusion/tree/6570dddaf1cac6b5210202bb135d876bebcf6d12).
