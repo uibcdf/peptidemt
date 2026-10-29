@@ -2,13 +2,15 @@
 
 Status: **B accepted under D33; AMP/hemolysis coverage and Macrel-then-HydrAMP
 qualification order accepted under D34; increment-1 scientific design closed
-under D35**, updated 2026-10-27. The [increment-1 specification](v0_1_increment_1.md)
+under D35; increment 1 delivered and its exact Macrel bundle accepted under D37**,
+updated 2026-10-29. The [increment-1 specification](v0_1_increment_1.md)
 now carries accepted contracts/selectors/M1–M8 and provisional chemistry/length
-scope. D36 authorizes W0–W4; exact resources, operational qualification and
-scientific operational readiness remain pending. W0 engineering is received
-under uibcdf/molsyssuite#146; W1 retains its own scientific gates. See the
-[work order](increment_1_work_order.md). H0–H4 and package publication remain
-outside this assignment; normal owning-issue feedback follows
+scope. D36's W0–W4 delivery and D37 acceptance retain their
+[exact evidence](evidence/increment_1_acceptance.json). See the
+[work order](increment_1_work_order.md). The next
+[HydrAMP proposal](pending_proposals/qualify_hydramp_increment_2.md) makes the
+existing H0–H4 review concrete; implementation/execution and package publication
+remain outside the completed assignment. Normal owning-issue feedback follows
 [the governance map](governance.md).
 P04/P09 remain conceptually closed. This document narrows their application rather
 than designing a universal optimizer or reopening the general architecture.

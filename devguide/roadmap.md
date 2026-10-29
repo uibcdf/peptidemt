@@ -1,9 +1,10 @@
 # Preliminary roadmap
 
 Status: **V0.1 direction/first coverage/order and increment-1 scientific contract
-accepted under D33–D35; W0–W4 authorized under D36**, updated 2026-10-27.
-W0 engineering receiving is now completed; W1–W4 retain their scientific/provider qualification gates. No dates
-or package publication are authorized.
+accepted under D33–D35; W0–W4 delivered under D36 and the exact Macrel bundle
+accepted under D37**, updated 2026-10-29. The next
+[HydrAMP commissioning proposal](pending_proposals/qualify_hydramp_increment_2.md)
+awaits investigator review. No later implementation or publication is authorized.
 Navigation: [index](README.md) · [decisions](decisions.md).
 
 The tracks below are incremental capabilities, not a commitment to one
@@ -111,15 +112,15 @@ D33 adopts **B with A as the first internal increment**. The
 
 | Milestone | Status and intended outcome |
 | --- | --- |
-| Increment 1 | D35 scientific contract and M1–M8 accepted; W0–W4 authorized under D36. W0 was centrally received in uibcdf/molsyssuite#146; the live Macrel qualification/operational conditions and M1–M8 still govern W1–W4. |
+| Increment 1 | W0–W4 delivered under D36; exact Macrel bundle accepted under D37 within D35/M1–M8. See the acceptance receipt and original source/model/environment evidence. |
 | Increment 2 | Accepted minimum useful V0.1: a concrete real generation/redesign route plus functional assessment and selection. Mock-only demonstrations and increment 1 alone are insufficient. |
 | Increment 3 | Priority genuine functional feedback affecting later proposals/actions; exact inclusion in V0.1 depends on actual generator viability. Postfiltering is not feedback. |
 | Target-directed milestone after the functional core | Explicit priority: qualify one permitted target-conditioned route and qualified functional assessment, preserving target context and distinct conditioning/compatibility/recognition meanings. It can proceed alongside increment 3; it is not deferred behind all feedback or broad-family expansion. |
 | Structural C and broader strategies | Deferred selectable capabilities, not rejected; no universal structural backend or future-horizon prerequisite. |
 
 D34 accepts AMP compatibility plus adverse hemolysis as the first coverage and
-Macrel followed by HydrAMP as the qualification order. No exact engine/version,
-checkpoint or deployment is adopted. The [increment-1 specification](v0_1_increment_1.md)
+Macrel followed by HydrAMP as the qualification order. D37 accepts the specific
+executed Macrel bundle; no HydrAMP checkpoint/deployment is adopted. The [increment-1 specification](v0_1_increment_1.md)
 now records D35's scientific approval, both selectors and M1–M8. The conservative
 leading-M policy is settled; empirical coverage and actual execution remain bounded
 qualification questions. H0–H4 stays proposed, without authorized execution.

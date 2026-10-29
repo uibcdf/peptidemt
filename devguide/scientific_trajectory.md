@@ -113,7 +113,7 @@ A completed **computational** study may truthfully report negative or inconclusi
 
 ## 6. Process and boundaries
 
-- The **engineering W0** bootstrap has since been centrally received; its durable [archived evidence](archive/complete_w0.md) documents the previous pause and its eventual completion. Next actions follow the already [authorized W1–W4 work order](increment_1_work_order.md), not this strategic note. W0's successful engineering tests do not qualify Macrel or M1–M8.
+- The **engineering W0** bootstrap has since been centrally received; its durable [archived evidence](archive/complete_w0.md) documents the previous pause and its eventual completion. W1–W4 are now delivered, and D37 accepts their exact Macrel bundle with separately recorded M1–M8 evidence. Next actions require review of the [bounded HydrAMP commission](pending_proposals/qualify_hydramp_increment_2.md), not inference of execution permission from this strategic note.
 - D33–D36 and M1–M8 govern V0.1's commissioned increment. Nothing in this strategic note authorizes extra issues, engines, installations, scientific code, model training or package publication.
 - Future horizons include macrocycles, delivery, multi-state/allosteric recognition, chemistry-aware transformation, active learning, library design and more; see [future horizons](future_horizons.md). These need capability-specific scientific review when prioritized, **not** a new up-front general architecture round.
 - Codex will implement approved operations and return measured evidence. Investigators retain authority over claims, scientific meanings, permitted transformations and meaningful policy changes.

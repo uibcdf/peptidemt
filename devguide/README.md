@@ -20,6 +20,10 @@ in-memory inputs and saved-result replay remain independent of that provider.
 The [W3 preparation](w3_qualification.md) records candidate bytes, upstream
 fixtures, optional scientific attribution and proposed host execution bounds.
 
+Next scientific review: [bounded HydrAMP qualification for increment 2](pending_proposals/qualify_hydramp_increment_2.md),
+owned in #8. This is a proposed commission using the existing H0–H4 gates,
+not authorization to install or execute another model.
+
 1. [Scientific vision and scope](vision_scope.md): the current provisional
    definition, boundaries and the computational role of functional families.
 2. [Integration audit](integration_audit.md): preserved findings from all eleven
@@ -79,12 +83,13 @@ fixtures, optional scientific attribution and proposed host execution bounds.
 20. [Increment 1 specification and HydrAMP qualification](v0_1_increment_1.md):
     D35 accepts the Macrel scientific contract, conservative leading-M treatment,
     provisional chemistry/length scope, two exact selectors and M1–M8. H0–H4
-    remains a bounded generator qualification proposal; no gates executed.
+    remains a bounded generator qualification proposal; executed Macrel gates
+    and their scope are recorded separately in the W3 assessment.
 21. [Increment 1 commissioning and readiness brief](increment_1_work_order.md):
     scientific closure versus operational prerequisites; draft central admission,
     staged starter integration, W0–W4 deliverables, engine-free/live test lanes,
     Codex discretion and required evidence. Authorized under D36; W0 engineering
-    received, W1–W4 retain their own scientific gates.
+    received, W1–W4 delivered and the exact bundle accepted under D37.
 22. [Scientific north star and milestone trajectory](scientific_trajectory.md):
     original target+functional-family hypothesis, differentiating value, risks,
     evidence-based progress milestones and no-implementation-scope guardrails.

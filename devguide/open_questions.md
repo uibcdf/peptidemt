@@ -3,7 +3,7 @@
 Navigation: [index](README.md) · [alternatives](architecture_alternatives.md) · [decisions](decisions.md).
 All questions remain open unless an explicit decision is recorded.
 
-Updated: 2026-10-27. Alternative B is accepted under D09–D13 and revised P07
+Updated: 2026-10-29. Alternative B is accepted under D09–D13 and revised P07
 under D15–D16. P08 is accepted under D17–D20. The worked cases remain illustrative,
 with no selected demonstrator. P09 is resolved conceptually under D21–D26,
 including alternative B and all seven principles; concrete contracts remain
@@ -20,9 +20,11 @@ feedback and a target-directed milestone after the functional core. D34 accepts
 AMP compatibility/adverse hemolysis as first coverage and Macrel then HydrAMP as
 qualification candidates. D35 accepts the increment-1 contract, conservative
 preprocessing, provisional chemistry/lengths, both selectors and M1–M8; its scientific
-design is closed within scope. Exact builds/assets/terms, operational conditions,
-central admission and qualification remain pending. D36 now authorizes W0–W4
-with the central admission issue exception and W1 gated on completed W0.
+design is closed within scope. D36's W0–W4 are delivered, with exact Macrel
+build/assets/environment, central receiving and actual qualification retained.
+D37 accepts that computational bundle. The next
+[HydrAMP commissioning review](pending_proposals/qualify_hydramp_increment_2.md)
+remains proposed; no later implementation or execution is inferred.
 The bounded horizon review adds only
 a pending collective-design distinction (P10), not new MVP obligations.
 
@@ -145,18 +147,18 @@ documents and dated decision history. No universal policy, confidence scale,
 probabilistic model, metric or selector is adopted. Actual capability contracts
 still need supported inputs, scientific meanings and failure/acceptance behavior.
 
-**Current operation: W0 formal admission under D36.**
+**Current decision: review the next bounded HydrAMP commission after D37.**
 D35 closes increment 1's scientific design, approving the
 [contract and M1–M8](v0_1_increment_1.md), both selectors and the conservative
 sequence-preserving route. Leading-M originals are incompatible with that route,
 not invalid molecules; derivative and unchanged-feature alternatives are deferred.
 Do not request another approval of that policy. The
-[work order](increment_1_work_order.md) identifies actual bundle/permission,
-environment/budget, central admission/starter and evidence prerequisites, W0–W4,
-engine-free/live test lanes and Codex discretion. W0–W4 is now authorized;
-uibcdf/molsyssuite#146 records the requested central admission. Central acceptance,
-published registration and official staged starter still precede W1. Actual
-assets/terms, fixtures and effective limits precede live qualification. H0–H4 remains a proposal;
+[work order](increment_1_work_order.md) and
+[acceptance receipt](evidence/increment_1_acceptance.json) retain completed
+W0–W4 and the original bundle/permission/environment/budget evidence. Central
+admission/starter and engineering receiving are complete. HydrAMP's actual
+assets/terms, fixtures and effective limits would precede its own execution.
+H0–H4 remains a proposal;
 feedback/target-directed milestones remain after the functional core. Only bounded
 V0.1 portions of P02/P03/P05/P06 need resolution; P10/horizons add none.
 
@@ -197,7 +199,9 @@ Do improvements survive length/composition controls and retain diverse modes?
 
 ## Q7. Ecosystem and publication
 
-When should the documentation workspace seek central admission?
+Formal suite admission and central receiving are complete; retain their recorded
+identities rather than reopen that question. The new documentation-tooling delta
+is tracked separately in MolSysSuite #156.
 Which minimal optional adapters justify initial dependencies?
 How do local design attempts reference future Nextia project Candidates?
 How do Praxis Protocols refer to PeptideMT algorithm settings without duplicating
