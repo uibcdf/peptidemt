@@ -28,6 +28,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
       - uses: mamba-org/setup-micromamba@v3.2.1
         with:
           environment-file: devtools/conda-envs/test_env.yaml
@@ -67,6 +69,8 @@ jobs:
         python-version: ["3.11", "3.12", "3.13", "3.14"]
     steps:
       - uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
       - uses: mamba-org/setup-micromamba@v3.2.1
         with:
           environment-file: devtools/conda-envs/test_env.yaml

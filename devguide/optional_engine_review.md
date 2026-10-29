@@ -58,7 +58,7 @@ actual choice and its rule.
 ## Evidence per route
 
 Current W2 controls and remaining gates are recorded in the
-[work record](pending_proposals/implement_w2_macrel.md). The 84-test engine-free
+[work record](archive/implement_w2_macrel.md). The 84-test engine-free
 suite includes requested absence, transitive failure, timeout, owner transport,
 native call arguments, exact worker serialization and original dtype retention.
 The declared support floors pass using operator copies of published packages.

@@ -1,0 +1,111 @@
+{
+  "schema": "peptidemt.increment_1_acceptance@1",
+  "date": "2026-10-29",
+  "component_issue": "uibcdf/peptidemt#6",
+  "investigator_decision": {
+    "id": "D37",
+    "scope": "Accept the exact executed Macrel 1.6.1 bundle for D35 exploratory computational assessment/ranking with its documented limits; preserve D35/D36 and M1\u2013M8.",
+    "record": "devguide/increment_1_review.md",
+    "issue_comment": "https://github.com/uibcdf/peptidemt/issues/6#issuecomment-6501987048"
+  },
+  "scientific_reference": {
+    "numerical_package_source": "7a299d1a9e1b264c2f872e94d35b76d67c548a0a",
+    "qualification_driver": "a1b5e3a178679eb71f47bf6a693a43955879b97d",
+    "molecular_serializer_source": "uibcdf/molsysmt@3781031d0c1d08f34b2aa966ad0b82bf3b64a31d",
+    "original_manifest": "devguide/evidence/w3_summary.json",
+    "native_manifest": "devguide/evidence/w3_native/manifest.json",
+    "saved_result": "devguide/evidence/w3_native/qualified-computational.json",
+    "authorized_calls_consumed": 4,
+    "remaining_authorized_calls": 0,
+    "new_calls_for_documentation": 0,
+    "independent_experimental_benchmark": false
+  },
+  "receiving": {
+    "w0": "uibcdf/molsyssuite#146 and uibcdf/peptidemt#1, closed",
+    "w2": "uibcdf/molsyssuite#151, closed",
+    "attribution_and_reader": "uibcdf/molsyssuite#152, accepted b12f7230b297cdc0b22a649e6e625207d7fc4c1d",
+    "fasta_consumer": "uibcdf/peptidemt#5, closed; devguide/evidence/fasta_owner_adoption.json",
+    "new_documentation_tooling": "uibcdf/molsyssuite#156, open owner handoff; previous receiving remains complete"
+  },
+  "software_test_reuse": {
+    "receipt": "devguide/evidence/fasta_owner_adoption.json",
+    "source": "7e6116ca27ed5e4fdb37620099a35b008d763365",
+    "source_and_installed_tests_passed": 117,
+    "linux_python_minors": [
+      "3.11",
+      "3.12",
+      "3.13",
+      "3.14"
+    ],
+    "full_matrix_run": "https://github.com/uibcdf/peptidemt/actions/runs/40797642842",
+    "limit": "Executable package/tests and scientific inputs are unchanged by this documentation work. New documentation acquisition and checkout-history changes have their own applicable build/routine/policy gates; this does not relabel the old full matrix or numerical model run."
+  },
+  "documentation": {
+    "implementation_source": "bb4f5a9beb0519cea47a7751dc2637a3f4f33b1a",
+    "provisional": true,
+    "source_pages": 12,
+    "framework": "Sphinx, MyST, PyData; native RST autodoc for actual installed public API",
+    "inspected_sibling_sources": {
+      "molsysmt": "71fbe4f46d3c70e4e973c8025f01752a8c9b1084",
+      "molsysviewer": "73a6f388e09146650349dfe83564ae318ba20298"
+    },
+    "local": {
+      "environment": "molsyssuite@uibcdf_3.14",
+      "python": "3.14.7",
+      "sphinx": "9.1.0",
+      "html_strict_references": "passed, zero warnings",
+      "memory_doctests_passed": 6,
+      "doctest_failures": 0,
+      "ruff": "check and format passed",
+      "reporting_protocol_tests_passed": 1,
+      "report_indexes": "passed",
+      "relative_paths_and_whitespace": "passed",
+      "limits": "Shared profile retains 12 existing unrelated dependency findings; clean closure is the hosted fixture, not this shared profile."
+    },
+    "hosted_fixture": {
+      "run": "https://github.com/uibcdf/peptidemt/actions/runs/40911522233",
+      "head_sha": "bb4f5a9beb0519cea47a7751dc2637a3f4f33b1a",
+      "attempt": 1,
+      "event": "push",
+      "workflow": ".github/workflows/docs.yml",
+      "conclusion": "success",
+      "job_id": 123580448562,
+      "required_steps": [
+        "Install the documentation candidate",
+        "Verify installed core and dependency closure",
+        "Build HTML with strict references",
+        "Check executable memory-input documentation",
+        "Retain the documentation preview"
+      ],
+      "native_steps": "all required steps completed successfully",
+      "python": "3.14.10",
+      "sphinx": "9.2.0",
+      "myst_parser": "5.1.0",
+      "pydata_sphinx_theme": "0.22.0",
+      "depdigest": "0.15.1",
+      "smonitor": "0.22.0",
+      "memory_doctests_passed": 6,
+      "pip_check": "passed",
+      "installed_import_origin": "verified against installed distribution from neutral directory with -I",
+      "package_version_caveat": "Initial default shallow checkout printed 0.1.0 for this unpublished candidate. Exact source is the workflow head above. Final delivery acquires full history in documentation and package-test lanes for versioningit; final exact-head evidence is recorded in #6.",
+      "artifact": {
+        "id": 12914266210,
+        "name": "documentation-html",
+        "sha256_reported_by_github": "6c5907a5c9eff844fe74239502894b6f8279b136814b3873fbaebb23b642ec35",
+        "retention_days": 7,
+        "download_independently_verified": false
+      },
+      "first_actions_surface": "published GH Run Receptor 1.3.0, docs/llm; native exact head/attempt/jobs/steps and logs verified afterwards"
+    },
+    "website_deployed": false,
+    "model_or_asset_download_for_build": false
+  },
+  "remaining_limits": [
+    "SMonitor #54 external src-layout sweep limitation; direct installed catalog/configuration evidence is retained.",
+    "Documentation-tooling inventory delta awaits the MolSysSuite #156 owner.",
+    "No independent experimental benchmark, new empirical short-peptide domain, efficacy/safety/calibration claim or chemistry expansion.",
+    "No public package/platform qualification, model redistribution, release or hosted documentation deployment.",
+    "No new inference allowance, HydrAMP, later increment, generation or target-conditioned implementation."
+  ],
+  "retention": "Original exact scientific wheels/environment and raw evidence remain useful reference resources; generated HTML is an ignored local preview. Task-owned documentation solver/operator caches are removed after final CI verification."
+}

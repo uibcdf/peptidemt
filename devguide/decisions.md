@@ -108,8 +108,8 @@ the semantic responsibilities adopted through P07 are recorded under D15–D16.
 The [V0.1 direction is accepted under D33](v0_1_scope.md), D34 fixes first coverage/
 qualification order, and D35 closes increment 1's scientific contract including
 M1–M8. The [work order](increment_1_work_order.md) is authorized under D36: W0
-receiving and W1–W3 are complete; D37 accepts the executed bundle, and W4's
-requested documentation is being verified. Central engineering receiving is
+receiving and W1–W3 are complete; D37 accepts the executed bundle, and W4 supplies
+the requested verified documentation. Central engineering receiving is
 accepted in MolSysSuite #152 at b12f7230. Preserve each stage's exact evidence;
 do not repeat the scientific/architectural approval. Later feedback is outside scope.
 P02/P03/P05 need only the selected capability-specific portions; P10 and future

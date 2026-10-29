@@ -7,7 +7,7 @@ The [W3 assessment](w3_assessment.md) records actual execution; older source-onl
 receipts below retain their original scope.
 See [W3 preparation](w3_qualification.md) for exact candidate assets and proposed host limits.
 Navigation: [guide](README.md) · [work order](increment_1_work_order.md) ·
-[scientific contract](v0_1_increment_1.md) · [work record](pending_proposals/implement_w2_macrel.md).
+[scientific contract](v0_1_increment_1.md) · [work record](archive/implement_w2_macrel.md).
 
 ## Calling boundary
 

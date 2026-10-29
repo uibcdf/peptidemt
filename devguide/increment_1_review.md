@@ -88,8 +88,11 @@ separate and uncommissioned.
 
 The investigator also requested provisional user documentation covering actual
 use, limitations and confidence evidence. Its [build guide](../docs/README.md)
-records the inspected sibling conventions. W4 documentation/build checks and
-final issue closeout remain technical delivery work under #6. Original model
+records the inspected sibling conventions. W4 documentation/build checks pass,
+with the [acceptance receipt](evidence/increment_1_acceptance.json) retaining the
+separate identities and #6 receiving final exact-head CI conclusions. The new
+documentation-tooling inventory handoff is MolSysSuite #156; earlier #152
+receiving remains completed. Original model
 artifacts, versions, evaluations and the exhausted four-call allowance are
 preserved. This is acceptance of the bounded result, not a new execution or
 acceptance of future resources.

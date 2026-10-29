@@ -207,16 +207,17 @@ C structural integration is deferred. Target/family-directed design stays centra
 with an explicit priority target milestone after the functional core; target
 conditioning does not itself establish recognition. **D34 accepts the first bounded
 coverage (AMP compatibility plus adverse hemolysis) and qualification order
-(Macrel, then HydrAMP).** No version/checkpoint or deployment is adopted. The
+(Macrel, then HydrAMP).** D37 subsequently accepts the exact qualified Macrel
+1.6.1 bundle for increment 1; HydrAMP remains outside this assignment. The
 [increment-1 specification](v0_1_increment_1.md) is now **accepted under D35**:
 conservative sequence preservation, native output/precision/mapping, both exact
 selectors, M1–M8 and provisional canonical single-peptide/<100 operational scope.
-Its scientific design is closed within those limits. Actual qualification,
-operational conditions and suite admission remain pending. **D36 authorizes
-W0–W4**, with the specific central admission issue exception. W0 engineering is
+Its scientific design is closed within those limits. **D36 authorizes
+W0–W4**. W0 engineering is
 received in [MolSysSuite #146](https://github.com/uibcdf/molsyssuite/issues/146).
-W1–W4 retain their scientific acceptance gates and have not been executed here. The
-[work order](increment_1_work_order.md) tracks the handoff and required evidence.
+W1–W3 have their actual source/installed, native and controlled evidence; D37
+records scientific acceptance, with provisional user documentation completing W4.
+The [work order](increment_1_work_order.md) tracks the handoff and required evidence.
 H0–H4, package publication and horizon expansion remain outside this assignment.
 Normal owning-issue feedback follows [the governance map](governance.md).
 

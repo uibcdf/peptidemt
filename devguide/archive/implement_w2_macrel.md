@@ -1,9 +1,9 @@
 ---
 summary: Implement the bounded native Macrel route from in-memory proposal occurrences.
 issue: uibcdf/peptidemt#6
-status: partial
+status: resolved
 opened: 2026-10-28
-closed:
+closed: 2026-10-29
 verification: measured
 area: [assessment, integration, provenance]
 guard: tests/test_w2_macrel.py
@@ -12,7 +12,26 @@ blocked_by: []
 supersedes: []
 ---
 
-# W2 native Macrel route
+# W2–W4 native Macrel delivery
+
+## Resolution — 2026-10-29
+
+D37 records investigator acceptance of the exact executed Macrel 1.6.1 bundle
+within D35, retaining its original model/provider/environment identities and
+M1–M8 live/control evidence. W4 supplies source/installed tests, the saved-case
+reader, provisional user/API documentation and the clean strict HTML/doctest
+build. The [acceptance receipt](../evidence/increment_1_acceptance.json) identifies
+these distinct checks; #6 receives the final exact-head CI conclusions.
+
+Central #151/#152 receiving and the separate FASTA #5 adoption are completed.
+The new documentation-tooling inventory handoff remains [MolSysSuite #156](https://github.com/uibcdf/molsyssuite/issues/156);
+it does not reopen the previous engineering or scientific receiving. SMonitor #54,
+public distribution and independent empirical predictor validation retain their
+own scope. No model call, release, website deployment or later increment occurred.
+Original qualification wheels/environment remain retained for reference; temporary
+documentation solver/operator resources are removed after their final use.
+
+Earlier checkpoint updates below are historical, including their pending states.
 
 ## Investigator acceptance and W4 documentation — 2026-10-29
 
