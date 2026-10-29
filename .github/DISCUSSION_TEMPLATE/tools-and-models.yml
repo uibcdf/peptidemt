@@ -1,0 +1,43 @@
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Share tools and models relevant to peptide design and assessment.
+        Search existing conversations first and link related records.
+        A catalogue entry does not imply adoption or scientific qualification.
+  - type: input
+    id: resource
+    attributes:
+      label: Tool or model
+      description: Name and version, if known.
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Official source
+      description: Repository, project page, model record or primary paper link.
+    validations:
+      required: true
+  - type: textarea
+    id: relevance
+    attributes:
+      label: Relevance and question
+      description: What could it contribute, and what would you like to discuss?
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Roles, functions and context
+      description: Generation, prediction or workflow; AMP, CPP or other functions; supported chemistry and biological context. Multiple or unknown values are welcome.
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence and limitations
+      description: Known results, independent assessments, code/model availability, licences or runtime constraints. Leave unknowns explicit; a full audit is not required.
+  - type: textarea
+    id: related
+    attributes:
+      label: Related conversations and maintained records
+      description: Link existing discussions, catalogue entries or owning issues. Concrete defects and implementation work go to owning issues.

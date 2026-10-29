@@ -1,0 +1,43 @@
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Share papers and reviews that merit scientific discussion.
+        If a paper only documents an existing tool or dataset conversation,
+        consider adding the reference there rather than duplicating its history.
+  - type: input
+    id: reference
+    attributes:
+      label: Reference
+      description: Title and authors/year, if known.
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Source or identifier
+      description: DOI, primary publication or preprint link.
+    validations:
+      required: true
+  - type: textarea
+    id: relevance
+    attributes:
+      label: Relevance and question
+      description: Why does this reading matter for peptide research or PeptideMT, and what should we discuss?
+    validations:
+      required: true
+  - type: textarea
+    id: findings
+    attributes:
+      label: Main findings and evidence
+      description: Summarize the relevant claims in your own words and distinguish reported, inferred and independently reproduced observations.
+  - type: textarea
+    id: limitations
+    attributes:
+      label: Limitations and open questions
+      description: Applicability, biological/chemical context, validation gaps and questions for further investigation, where known.
+  - type: textarea
+    id: related
+    attributes:
+      label: Related conversations and maintained records
+      description: Link related tools, datasets, literature notes or owning issues. Concrete work and accepted decisions retain their owning issue or versioned record.

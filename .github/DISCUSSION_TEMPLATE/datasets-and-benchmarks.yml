@@ -1,0 +1,43 @@
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Share peptide databases, datasets and evaluation benchmarks.
+        Search existing conversations first and distinguish reported evidence
+        from results independently reproduced in PeptideMT.
+  - type: input
+    id: resource
+    attributes:
+      label: Dataset or benchmark
+      description: Name and release or access date, if known.
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Official source
+      description: Database, archived dataset, benchmark repository or primary paper link.
+    validations:
+      required: true
+  - type: textarea
+    id: relevance
+    attributes:
+      label: Relevance and question
+      description: What scientific question or comparison could this resource support?
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Endpoints, provenance and coverage
+      description: Experimental or predicted labels, assays, organisms/cells, chemistry, negative/control data and access or reuse conditions, where known.
+  - type: textarea
+    id: evaluation
+    attributes:
+      label: Evaluation and limitations
+      description: Partitions, similarity or duplicate controls, possible training overlap/data leakage, metrics and reproducibility. Unknowns and untested concerns are welcome.
+  - type: textarea
+    id: related
+    attributes:
+      label: Related conversations and maintained records
+      description: Link related tools, papers, catalogue entries or owning issues. Concrete defects and implementation work go to owning issues.

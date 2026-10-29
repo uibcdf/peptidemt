@@ -24,6 +24,10 @@ The [nonexclusive generative-resource survey](generative_resource_survey.md)
 extends the inventory beyond HydrAMP/PLUM, including AMP, CPP/ACP, chemistry and
 search resources. It records inspected source/asset/runtime limits and proposed
 qualification priorities; it does not commission all listed integrations.
+The [scientific-resource catalogue](tools_catalog.md) records the accepted
+three-category Discussions layout, family-oriented indexes and maintained
+technical destinations. The categories are present; opening posts remain drafts
+and the category forms are prepared locally.
 
 Current commissioned work: [bounded HydrAMP qualification for increment 2](pending_proposals/qualify_hydramp_increment_2.md),
 owned in #8 and authorized under D38. Artifact/use preflight, an isolated
