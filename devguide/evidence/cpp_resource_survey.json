@@ -1,0 +1,277 @@
+{
+  "date": "2026-10-29",
+  "observed_at_utc": "2026-10-29T19:20:17.417140+00:00",
+  "scope": "CPP generation, prediction, uptake and delivery discovery. Source inspection only.",
+  "new_model_calls": 0,
+  "new_scientific_runtime_installations": 0,
+  "new_weight_downloads": 0,
+  "new_dataset_downloads": 0,
+  "gpu_use": false,
+  "source_inspections": [
+    {
+      "repository": "gabribg88/LightCPPgen",
+      "commit": "4834b0744bb70126e165968bfd110d252eead66a",
+      "tree_sha": "4834b0744bb70126e165968bfd110d252eead66a",
+      "tree_truncated": false,
+      "code_license_metadata": null,
+      "license_paths": [],
+      "inspected_source_files": [
+        {
+          "path": "README.md",
+          "git_blob_sha1": "ee7402b6edbf5347593b56d5cec2ac85430cb2d9",
+          "sha256": "71e0a901c0ce61e488560e07b29595688470ff260e64846f84d6ae1b88c55ccb"
+        },
+        {
+          "path": "requirements.txt",
+          "git_blob_sha1": "5b8f3f56a9207b11bf1dce11bf314cf5ccfec1ba",
+          "sha256": "bd3d23462f56eeba28c6ab99d07eac99d4958517c15fb29ecb79fadc21ec2843"
+        },
+        {
+          "path": "src/optimization.py",
+          "git_blob_sha1": "2738c9f418b16520e9ad96b41089a519090f4588",
+          "sha256": "cb3e9cfeaccf29cf89ab41d755309714c0c96cdafe9f22c1486ffb987d4b0d50"
+        },
+        {
+          "path": "scripts/lightcppgen_optimizer.py",
+          "git_blob_sha1": "857459080123d9aed80147f4be6ce619165b739b",
+          "sha256": "dc3d1672b524742b54844c1e5b8939a6f989a5a2a2d9e56eba2cccc66d9e2081"
+        },
+        {
+          "path": "docs/PRETRAINED_OPTIMIZER.md",
+          "git_blob_sha1": "1c4f6c710a80fc6d2caf59cc818b8e4670e0445d",
+          "sha256": "50ba938d4d3a8abd54810af0885622b07df316425e988d48ee68efaae7a5f3a0"
+        }
+      ],
+      "asset_file_count_metadata_only": 1,
+      "representative_asset_metadata": [
+        {
+          "path": "models/LightCPP_20.pickle",
+          "bytes": 2263608,
+          "git_blob_sha1": "ceadadec06f641a3fddcb0e03276e108fcca4705"
+        }
+      ]
+    },
+    {
+      "repository": "drkumarnandan/pLM4CPPs",
+      "commit": "2d648806c241f1dc64d9e4ff9d9f4baeb28a5d1f",
+      "tree_sha": "2d648806c241f1dc64d9e4ff9d9f4baeb28a5d1f",
+      "tree_truncated": false,
+      "code_license_metadata": {
+        "spdxId": "MIT"
+      },
+      "license_paths": [
+        "LICENSE"
+      ],
+      "inspected_source_files": [
+        {
+          "path": "README.md",
+          "git_blob_sha1": "23a7119d50d72e5cb1d9959e77b1c34f03af6f7e",
+          "sha256": "aeb3ee0a0137984e108bdecfb290537ebd12931af8ccc786ddd065cd64272366"
+        }
+      ],
+      "asset_file_count_metadata_only": 5,
+      "representative_asset_metadata": [
+        {
+          "path": "models/ESM2-320/best_model_320.h5",
+          "bytes": 32035456,
+          "git_blob_sha1": "6c7cedf1398081d582935304f9696c1c67320a3e"
+        },
+        {
+          "path": "models/ESM2-480/best_model_480.h5",
+          "bytes": 47764192,
+          "git_blob_sha1": "13dc18917ad9e69526a4aa898b6d8bb2db0b6872"
+        },
+        {
+          "path": "models/ESM2-640/best_model_640.h5",
+          "bytes": 133,
+          "git_blob_sha1": "6a6bba762c78f72dd5c13b76c4c7e65daffa5bf3"
+        },
+        {
+          "path": "models/Port-T5-BFD/best_model_1024-bfd.h5",
+          "bytes": 134,
+          "git_blob_sha1": "75c47ebbdcc562ffc39a9db0ec4f206189ac4836"
+        },
+        {
+          "path": "models/SeqVec/best_model_1024-seqvec.h5",
+          "bytes": 134,
+          "git_blob_sha1": "7dd77d5d86f0b887795f86bebdd6b0db3a499953"
+        }
+      ]
+    },
+    {
+      "repository": "YE-MJ/CPPpred-En",
+      "commit": "339eed196edd2e62a97c8bc0b1f0458f86e5f34d",
+      "tree_sha": "339eed196edd2e62a97c8bc0b1f0458f86e5f34d",
+      "tree_truncated": false,
+      "code_license_metadata": null,
+      "license_paths": [],
+      "inspected_source_files": [
+        {
+          "path": "README.md",
+          "git_blob_sha1": "5f6887f5d48def222f62cada602e7ec697c234c0",
+          "sha256": "e35022369af1d359ab6b7c925db3c4bb15be8026386af00b7908396448f4b1b2"
+        },
+        {
+          "path": "requirements.txt",
+          "git_blob_sha1": "fb7c3842665a5db208ff30fac1eabe50cc46a845",
+          "sha256": "04e9304b69a8e54a2e4ca18fce231b1116c789f2bbdaee2de9497ce71a87f028"
+        },
+        {
+          "path": "balance_data_test.py",
+          "git_blob_sha1": "93c9a90001d92cd5041cf7e34f2278e9711e5a8b",
+          "sha256": "d88f940cd1df88e2ba9dc6acbde8de95ec34e1eb4693f95577f48efb6aab157a"
+        }
+      ],
+      "asset_file_count_metadata_only": 12,
+      "representative_asset_metadata": [
+        {
+          "path": "selected_weight/CPP/model_ERT2_prot_t5_xl_bfd_best_model.pkl",
+          "bytes": 726313,
+          "git_blob_sha1": "3b30ad324219575bfa2d146ea55ba76aa11960a2"
+        },
+        {
+          "path": "selected_weight/CPP/model_ERT3_esm2_best_model.pkl",
+          "bytes": 430089,
+          "git_blob_sha1": "da558c6604ca5e7d0f218c507bd065b3a948c341"
+        },
+        {
+          "path": "selected_weight/CPP/model_ERT4_esm1b_best_model.pkl",
+          "bytes": 1984393,
+          "git_blob_sha1": "f9d723b8f8fb06d870d740cf14240631a7258ee0"
+        },
+        {
+          "path": "selected_weight/CPP/model_cat1_TPC type 1_best_model.pkl",
+          "bytes": 14819005,
+          "git_blob_sha1": "5ea0ffca6b17b10de1f747dae859d204c653c48d"
+        },
+        {
+          "path": "selected_weight/CPP/model_gb1_CTDC_best_model.pkl",
+          "bytes": 4084778,
+          "git_blob_sha1": "4504bb9538b2189861715895a045e35321f4d983"
+        },
+        {
+          "path": "selected_weight/CPP/model_gb2_esm1v_best_model.pkl",
+          "bytes": 289114,
+          "git_blob_sha1": "23a0d3cfde80e82d012868f5a22fc09b43d4bcbc"
+        }
+      ]
+    },
+    {
+      "repository": "sayoeweje/elp-eep-discovery",
+      "commit": "bf48ecf09cef7aec49cd020fbf087a5d5b122d4e",
+      "tree_sha": "bf48ecf09cef7aec49cd020fbf087a5d5b122d4e",
+      "tree_truncated": false,
+      "code_license_metadata": {
+        "spdxId": "MIT"
+      },
+      "license_paths": [
+        "LICENSE"
+      ],
+      "inspected_source_files": [
+        {
+          "path": "README.md",
+          "git_blob_sha1": "afd7bff5698a6a66fad37e487aa656224e9f428d",
+          "sha256": "8c1e3cda7a9f2376a9e6159e692bdb801003c616ae0d2f0b65a27675e96e8c9c"
+        },
+        {
+          "path": "scripts/elp_eep_discovery.py",
+          "git_blob_sha1": "e6f8ee92fe173c449e1882a340bb004ee016ab0c",
+          "sha256": "8e955df8ac25b10b40ab87627541ef510cb74cd7e0dfb088b1ddac395f96a873"
+        }
+      ],
+      "asset_file_count_metadata_only": 0,
+      "representative_asset_metadata": []
+    },
+    {
+      "repository": "hhy507/LLM-CPP-prediction",
+      "commit": "fa9a466798035f1fef8ddcf4263d20c54a82a1ec",
+      "tree_sha": "fa9a466798035f1fef8ddcf4263d20c54a82a1ec",
+      "tree_truncated": false,
+      "code_license_metadata": {
+        "spdxId": "MIT"
+      },
+      "license_paths": [
+        "LICENSE"
+      ],
+      "inspected_source_files": [
+        {
+          "path": "README.md",
+          "git_blob_sha1": "ebde379cc65376fea56c8320fec6bf200af0d0f1",
+          "sha256": "6efe99557afdd8cf61fac821043b53d9801d1f08ea628ca386b772f967e30854"
+        },
+        {
+          "path": "MODEL_VERIFICATION.md",
+          "git_blob_sha1": "7e8fec208614d3ffca9fcef31682861fe66f71fa",
+          "sha256": "c99310e30bd2e3f863fea95ca87e01b2c7379eb8efbae0ff9baa9ac4f6990ec3"
+        }
+      ],
+      "asset_file_count_metadata_only": 147,
+      "representative_asset_metadata": [
+        {
+          "path": "ML/LR/ds-seq/models/log_reg_model.pkl",
+          "bytes": 1055,
+          "git_blob_sha1": "5f956f4c7d07c449774da9f35af5d9d94d27f7d1"
+        },
+        {
+          "path": "ML/LR/ds-seq/models/lr_combined_model.pkl",
+          "bytes": 1067,
+          "git_blob_sha1": "7451e41067ec41c6148bbc6c8498cbb064d4474b"
+        },
+        {
+          "path": "ML/LR/ds-seq/models/rf_model.pkl",
+          "bytes": 1934662,
+          "git_blob_sha1": "0c011d3cc7a5df99e20df586b9426a4c53529b6c"
+        },
+        {
+          "path": "ML/LR/ds/models/log_reg_model.pkl",
+          "bytes": 1039,
+          "git_blob_sha1": "f3a2c2cc17e60d30acdb62736facec0a8de0e3c5"
+        },
+        {
+          "path": "ML/LR/gpt-seq/models/lr_combined_model.pkl",
+          "bytes": 1067,
+          "git_blob_sha1": "aa374a8f32330698f570bc957196d4895f9722f7"
+        },
+        {
+          "path": "ML/LR/gpt-seq/models/rf_model.pkl",
+          "bytes": 1971142,
+          "git_blob_sha1": "1aa9dba15aa15888a4eaf3f0f84c0d139b025629"
+        }
+      ]
+    }
+  ],
+  "reused_source": "IoriYamahata/CPP_Design@9e8e5afb66dc66c951af27bf64eef23f2806f6b3; devguide/evidence/generative_resource_survey.json",
+  "dated_live_sources": [
+    {
+      "url": "https://balalab-skku.org/mlcpp2/",
+      "limits": "Documentation read only; live page is not a frozen dataset or a qualified prediction service."
+    },
+    {
+      "url": "https://balalab-skku.org/mlcpp2/help/",
+      "limits": "Documentation read only; live page is not a frozen dataset or a qualified prediction service."
+    },
+    {
+      "url": "https://balalab-skku.org/mlcpp2/download/",
+      "limits": "Documentation read only; live page is not a frozen dataset or a qualified prediction service."
+    },
+    {
+      "url": "https://webs.iiitd.edu.in/raghava/cppsite3/",
+      "limits": "Documentation read only; live page is not a frozen dataset or a qualified prediction service."
+    },
+    {
+      "url": "https://webs.iiitd.edu.in/raghava/cppsite3/api.php",
+      "limits": "Documentation read only; live page is not a frozen dataset or a qualified prediction service."
+    },
+    {
+      "url": "https://webs.iiitd.edu.in/raghava/cppsite3/downloads.php",
+      "limits": "Documentation read only; live page is not a frozen dataset or a qualified prediction service."
+    }
+  ],
+  "limits": [
+    "Repository licence and artifact/data rights remain separate.",
+    "Named weights and pointer-sized files are metadata observations; none was loaded.",
+    "README batch-fitted scaling is a mathematical source concern; no trained-model failure was reproduced.",
+    "CPPsite3 homepage and paper report different unique-sequence totals; no downloaded snapshot was counted.",
+    "Source comments, examples and study-reported results do not qualify a PeptideMT provider."
+  ]
+}

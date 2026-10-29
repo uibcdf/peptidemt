@@ -29,6 +29,10 @@ three-category Discussions layout, family-oriented indexes and maintained
 technical destinations. The three category forms and five cross-linked opening
 conversations are published. Browser checks of section grouping/form rendering
 and pinning the indexes remain pending.
+The first [AMP resource cards](amp_resource_cards.md) reuse existing exact
+evidence. The [bounded CPP survey](cpp_resource_survey.md) adds source-pinned
+generation, classification, uptake/escape and data resources with explicit
+receiving limits; it introduces no scientific execution or new dependencies.
 
 Current commissioned work: [bounded HydrAMP qualification for increment 2](pending_proposals/qualify_hydramp_increment_2.md),
 owned in #8 and authorized under D38. Artifact/use preflight, an isolated

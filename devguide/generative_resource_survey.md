@@ -11,6 +11,9 @@ For the permanent collection/conversation area and planned family navigation,
 see the [scientific-resource catalogue](tools_catalog.md). This dated
 source survey is technical input to that area; it is not an indefinitely open
 implementation issue. Published conversations link back to the maintained evidence.
+The [initial AMP cards](amp_resource_cards.md) reuse these exact snapshots;
+the later [bounded CPP survey](cpp_resource_survey.md) adds focused CPP source
+inspection without rewriting this inventory's earlier observations.
 
 The investigator clarifies that HydrAMP, a possible modern derivative, PLUM and
 other resources can coexist. This reinforces D17–D26's many-to-many resource and

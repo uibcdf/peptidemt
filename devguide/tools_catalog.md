@@ -99,6 +99,11 @@ Published opening conversations:
 | [#12 Datasets and benchmarks — catalogue and evaluation questions](https://github.com/uibcdf/peptidemt/discussions/12) | Datasets and Benchmarks | Entry point for data sources, endpoints, partitioning and fair comparison, linked to the existing family/data review. |
 | [#13 Reading list — papers and scientific questions](https://github.com/uibcdf/peptidemt/discussions/13) | Reading List | Entry point for methodological and biological reading, linked to existing literature and topical guides. |
 
+The first resource-card set is maintained in [AMP cards](amp_resource_cards.md)
+and the [CPP resource survey](cpp_resource_survey.md), including a separate
+CPPsite3 data record. These records reuse previous AMP qualification/source
+evidence and add bounded CPP source inspection; they do not commission adapters.
+
 Add ACP and other family/function conversations when their discovery work begins.
 Use a family conversation as an index and cross-cutting discussion. As a resource
 needs deeper stewardship, give it one canonical conversation and link it from all
@@ -158,7 +163,7 @@ qualification assertions stay in the corresponding technical records.
 | Function/context | Starting references and evidence scope |
 | --- | --- |
 | AMP and adverse hemolysis | [Macrel acceptance](increment_1_review.md), [HydrAMP qualification work](pending_proposals/qualify_hydramp_increment_2.md), and the [generator survey](generative_resource_survey.md). Only the stated Macrel bundle is accepted; listed generators remain separately qualified or proposed as recorded. |
-| CPP and cellular access | [Functional definitions](functional_families.md), [CPP project guides](cpp_guided_projects.md), and CPP_Design in the [source survey](generative_resource_survey.md). These are definitions/research references, not an installed CPP route or a completed CPP census. |
+| CPP and cellular access | [Bounded resource survey](cpp_resource_survey.md), [functional definitions](functional_families.md) and [CPP project guides](cpp_guided_projects.md). Generator, classifier, uptake, escape and formulation-dependent delivery roles remain distinct; no CPP route is installed or qualified. |
 | ACP and selective cellular activity | [CPP-like anticancer case](case_study_cpp_anticancer_mdm2_mdmx.md), [family semantics](functional_families.md), TACaPe/PepGenWL/MMCD in the [survey](generative_resource_survey.md). Context and actual trained-asset availability remain explicit. |
 | Target-conditioned or broader chemical design | [Existing engine review](protein_peptide_design_engines.md) and later resources in the [survey](generative_resource_survey.md). Preserve native target/chemistry meanings and the current commissioning limits. |
 
