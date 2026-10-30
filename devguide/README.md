@@ -46,9 +46,11 @@ family/data indexes; [publication evidence](evidence/resource_card_discussions.j
 retains the exact card and index body hashes.
 
 Current commissioned work: [bounded HydrAMP qualification for increment 2](pending_proposals/qualify_hydramp_increment_2.md),
-owned in #8 and authorized under D38. Artifact/use preflight, an isolated
-legacy environment and adapter preparation proceed; exact bundle/use conditions
-and fresh host/call limits still precede model loading or inference.
+owned in #8 and authorized under D38. The [H0–H1 review](hydramp_environment_review.md)
+now records a successful locked isolated installation and guarded native imports,
+with eight explicit native metadata discrepancies from the official starter's
+inference profile. Bundle/use and deployment-profile review, authorized model-load
+qualification and fresh host/call limits remain pending; no model was loaded.
 
 1. [Scientific vision and scope](vision_scope.md): the current provisional
    definition, boundaries and the computational role of functional families.

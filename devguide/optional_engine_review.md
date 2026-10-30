@@ -5,6 +5,12 @@ This review distinguishes historical W0/W1 non-applicability from the current
 under D37; public delivery and external provider-audit limitations retain their
 own scope.
 
+The commissioned HydrAMP preparation in [#8](https://github.com/uibcdf/peptidemt/issues/8)
+has an [isolated H0–H1 install/import review](hydramp_environment_review.md).
+It reproduces the official inference profile with explicit native metadata
+discrepancies; no HydrAMP adapter is implemented or scientific execution claimed.
+Review this worksheet again when the selected worker boundary is implemented.
+
 When a concrete change is needed, open the owning issue first and create its report
 using the local [reporting protocol](reporting_protocol.md). Link that issue here.
 Do not add unused runtime dependencies to fill this worksheet.

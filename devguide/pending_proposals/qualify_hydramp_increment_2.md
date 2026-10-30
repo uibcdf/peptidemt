@@ -4,7 +4,7 @@ issue: uibcdf/peptidemt#8
 status: partial
 opened: 2026-10-29
 closed:
-verification: inspected
+verification: reproduced
 area: [generation, qualification, integration]
 guard:
 normative:
@@ -13,6 +13,29 @@ supersedes: []
 ---
 
 # Increment 2: bounded HydrAMP qualification
+
+## Locked environment milestone — 2026-10-30
+
+The [H0–H1 review](../hydramp_environment_review.md) records successful isolated
+installation and guarded imports using the official starter's exact lockfile and
+declared inference-only metadata substitutions. All 61 installed versions match
+the lock; 41 installed native Python source files match the pinned upstream bytes.
+TensorFlow 2.2.1, Keras 2.3.1 and `HydrAMPGenerator` import without instantiating
+the generator or opening scientific artifacts. Preparation used two CPU cores,
+single native-library threads, bounded memory/time and no GPU.
+
+Native metadata checking still fails with eight expected discrepancies from
+the starter overrides; the effective declared profile has zero discrepancies.
+These are separately retained in the [receipt](../evidence/hydramp_h0_h1_review.json),
+not presented as clean native closure. The original source, wheel metadata and
+lockfile were not patched. The local-use review also records publisher provenance,
+original archive licence metadata and the still-unexecuted PCA loading boundary.
+
+H0/H1 remain partial for exact-bundle/use and deployment-profile disposition and
+authorized model-load qualification. Model loads, generation and new Macrel calls
+remain zero. Adapter preparation is authorized under D38; exact bundle/use review
+and fresh host/call budgets still precede scientific execution. The earlier
+preparation summary below records its original dated checkpoint.
 
 ## Current preparation and renewal discussion — 2026-10-29
 
