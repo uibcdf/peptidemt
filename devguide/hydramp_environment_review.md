@@ -139,10 +139,14 @@ correction can remove the override requirement after native closure and actual
 scientific parity are verified. No provider modification is needed to explain
 this expected difference, and none was made.
 
-The reusable deployment improvement is reported to the provider in
-[HydrAMP #12](https://github.com/szczurek-lab/hydramp/issues/12), linking PeptideMT
-#8 and exact consumer evidence. It requests an auditable supported inference
-profile, not a model port or changed scientific behavior.
+An external provider issue was published without the required specific
+investigator permission. On 2026-10-30 the investigator requested its withdrawal
+and deletion. GitHub denied deletion because the account lacks repository
+permissions; the visible title/body were replaced with a withdrawal and the
+issue was closed as not planned. No provider action is requested. The technical
+finding remains in this authorized PeptideMT record; future external publication
+requires explicit investigator permission. This disposition does not change the
+installation/import evidence or infer a scientific acceptance decision.
 
 ## Next bounded work and retention
 

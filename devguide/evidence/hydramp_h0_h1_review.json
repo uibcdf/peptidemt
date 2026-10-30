@@ -557,8 +557,12 @@
     "review_trigger": "Reassess caches and duplicate bootstrap/tool files at bundle disposition or receiving; scientific artifacts remain separate."
   },
   "provider_feedback": {
-    "issue": "https://github.com/szczurek-lab/hydramp/issues/12",
-    "scope": "Supported inference-only deployment profile and truthful native-metadata audit; no scientific implementation requested."
+    "status": "withdrawn at investigator request on 2026-10-30",
+    "publication_authority": "External publication lacked specific investigator permission.",
+    "withdrawal": "Deletion was explicitly requested but GitHub denied DeleteIssue due to insufficient repository permissions. Visible title/body were replaced with a withdrawal; issue closed as NOT_PLANNED.",
+    "verified_current_title": "Withdrawn",
+    "verified_current_body": "Withdrawn by the author. No action is requested.",
+    "future_publication": "Requires explicit investigator permission; retain the technical finding in authorized PeptideMT records."
   },
   "shared_development_environment_check": {
     "python": "3.14.7",

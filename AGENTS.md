@@ -64,6 +64,11 @@ policy. Cross-link consumer evidence and any workaround/removal condition. The
 earlier W0-only issue restriction no longer limits this reporting duty. Reporting
 a need does not authorize its implementation, a scientific scope change or
 publication. Preserve confidentiality and existing declined/deferred disclosures.
+Publishing issues or comments in repositories outside the investigators' own
+projects requires their explicit permission for that external publication.
+The owning-issue reporting duty alone does not grant this permission. Keep
+findings in authorized local/PeptideMT records while awaiting it; if repository
+ownership or prior external-publication authority is unclear, ask first.
 Do not treat a proposed registration branch as accepted admission or fabricate
 an admission SHA. D38 now commissions the single HydrAMP increment-2
 qualification recorded under PeptideMT #8: read its maintained work record
