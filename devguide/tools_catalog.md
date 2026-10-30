@@ -1,15 +1,17 @@
 # Scientific resources: catalogue and Discussions
 
 Status: **investigator-approved label-based reorganization implemented**,
-2026-10-29. All nineteen existing discussions are retained. Five family/role
+2026-10-30. All nineteen existing discussions are retained. Five family/role
 labels classify fourteen resource cards; five existing indexes remain navigation
-and comparison guides. Card texts are unchanged and index changes only append
-navigation. The [reorganization receipt](evidence/discussion_reorganization.json)
+and comparison guides. Card texts are unchanged. The [initial reorganization receipt](evidence/discussion_reorganization.json)
 records before/after body hashes, retained identities, labels and verified searches.
 
-The three resource-type categories retain their existing GitHub names/slugs.
-Visual renaming/grouping, form rendering and index pinning remain browser tasks;
-these are not claimed as completed. The initial [opening-post receipt](evidence/scientific_resources_discussions.json)
+The investigator completed the category configuration in GitHub. API readback
+confirms the new names/slugs and retained category IDs; the
+[configuration closeout](evidence/discussion_category_closeout.json) records
+updated form paths and corrected index filters. Section grouping and open-ended
+formats are investigator-confirmed; rendered forms and optional pinning remain
+unverified. The initial [opening-post receipt](evidence/scientific_resources_discussions.json)
 and [resource-card receipt](evidence/resource_card_discussions.json) remain dated
 publication evidence rather than being overwritten by this reorganization.
 Navigation: [design guide](README.md) · [source survey](generative_resource_survey.md)
@@ -80,9 +82,10 @@ relabeled.
 
 ## Filtered navigation
 
-All links below were verified against GitHub's discussion search API. Category
-queries use the actual current names, including Tools and Models and Reading
-List. The intended display names do not imply that a UI rename already occurred.
+All links below were verified against GitHub's discussion search API. The three
+queries affected by category renaming were rechecked on 2026-10-30; the other ten
+retain the accepted 2026-10-29 search evidence. Category queries use the actual
+current names, including Models and Tools and Literature and Resources.
 
 | View | Matching individual records or category entries |
 | --- | --- |
@@ -93,34 +96,37 @@ List. The intended display names do not imply that a UI rename already occurred.
 | [Search/optimization resources](https://github.com/search?q=repo%3Auibcdf%2Fpeptidemt+label%3A%22role%3Asearch%22&type=discussions) | 2 |
 | [AMP generation](https://github.com/search?q=repo%3Auibcdf%2Fpeptidemt+label%3A%22family%3Aamp%22+label%3A%22role%3Ageneration%22&type=discussions) | 6 |
 | [CPP prediction/scoring](https://github.com/search?q=repo%3Auibcdf%2Fpeptidemt+label%3A%22family%3Acpp%22+label%3A%22role%3Aprediction%22&type=discussions) | 4 |
-| [CPP models and tools](https://github.com/search?q=repo%3Auibcdf%2Fpeptidemt+category%3A%22Tools+and+Models%22+label%3A%22family%3Acpp%22&type=discussions) | 6 |
+| [CPP models and tools](https://github.com/search?q=repo%3Auibcdf%2Fpeptidemt+category%3A%22Models+and+Tools%22+label%3A%22family%3Acpp%22&type=discussions) | 6 |
 | [CPP datasets and benchmarks](https://github.com/search?q=repo%3Auibcdf%2Fpeptidemt+category%3A%22Datasets+and+Benchmarks%22+label%3A%22family%3Acpp%22&type=discussions) | 1 |
-| [Models and tools](https://github.com/search?q=repo%3Auibcdf%2Fpeptidemt+category%3A%22Tools+and+Models%22&type=discussions) | 16 |
+| [Models and tools](https://github.com/search?q=repo%3Auibcdf%2Fpeptidemt+category%3A%22Models+and+Tools%22&type=discussions) | 16 |
 | [Datasets and benchmarks](https://github.com/search?q=repo%3Auibcdf%2Fpeptidemt+category%3A%22Datasets+and+Benchmarks%22&type=discussions) | 2 |
-| [Literature and resources (current Reading List category)](https://github.com/search?q=repo%3Auibcdf%2Fpeptidemt+category%3A%22Reading+List%22&type=discussions) | 1 |
+| [Literature and resources](https://github.com/search?q=repo%3Auibcdf%2Fpeptidemt+category%3A%22Literature+and+Resources%22&type=discussions) | 1 |
 | [AMP prediction/scoring](https://github.com/search?q=repo%3Auibcdf%2Fpeptidemt+label%3A%22family%3Aamp%22+label%3A%22role%3Aprediction%22&type=discussions) | 1 |
 
 These are dated counts, not future completeness promises. Resource-type category
 views also include the preserved indexes. Family/role views return labelled
 resource cards. The [AMP guide #10](https://github.com/uibcdf/peptidemt/discussions/10)
 and [CPP guide #11](https://github.com/uibcdf/peptidemt/discussions/11) now link to
-these filters; their bodies and the other three index bodies retain their previous
-content with appended navigation.
+these filters. The initial reorganization appended navigation to all five indexes;
+the closeout corrects obsolete category filters in #9, #11 and #13 without changing
+the fourteen resource-card bodies.
 
-## Current category names and remaining browser work
+## Current category configuration
 
-| Intended display name | Observed current name | Observed slug / form filename |
+| Current display name | Previous display name | Observed slug / form filename |
 | --- | --- | --- |
-| Models and Tools | Tools and Models | `tools-and-models` |
+| Models and Tools | Tools and Models | `models-and-tools` |
 | Datasets and Benchmarks | Datasets and Benchmarks | `datasets-and-benchmarks` |
-| Literature and Resources | Reading List | `reading-list` |
+| Literature and Resources | Reading List | `literature-and-resources` |
 
-The functional reorganization uses these existing category IDs, so no discussion
-needs recreation or transfer. When a browser is available, rename the two display
-names, confirm grouping under Scientific Resources and check open-ended formats,
-rendered forms and optional index pinning. Then read back the resulting slugs:
-update form filenames and category-specific filter URLs only if those observations
-require it. No guessed aliases, new family categories or premature form removals.
+On 2026-10-30 the investigator reported completing the requested category
+renames, Scientific Resources grouping and open-ended formats. Independent API
+readback confirms both renamed categories and slugs, unchanged category IDs,
+nineteen retained discussions and their labels. The API's `isAnswerable=false`
+does not independently certify section nesting or every non-Q&A format; those
+two settings retain investigator confirmation as their evidence source.
+The two affected form filenames and three index bodies now follow the observed
+names/slugs. Rendered-form checks and optional pinning remain separate UI tasks.
 
 ## Organization history and evidence boundaries
 
@@ -177,7 +183,7 @@ destination, provide a form for additional intake, and move actionable work to
 owning issues. API observation verifies names, descriptions and Q&A answerability;
 it does not independently certify UI-only category-format settings.
 
-## Bootstrap publication and category observations
+## Bootstrap publication and category observations (2026-10-29)
 
 
 The investigator selected the following categories for **Scientific Resources**
@@ -188,13 +194,14 @@ answerable. Five opening discussions have subsequently been published and verifi
 
 | Category / slug | Purpose | Intended format | Maintained destination |
 | --- | --- | --- | --- |
-| [Tools and Models](https://github.com/uibcdf/peptidemt/discussions/categories/tools-and-models) / `tools-and-models` | Compare generators, predictors, software and learned models, including capabilities, availability, licences and limitations. | Open-ended discussion | This catalogue, [resource survey](generative_resource_survey.md), provider records and qualification evidence. |
+| [Tools and Models](https://github.com/uibcdf/peptidemt/discussions/categories/models-and-tools) / `tools-and-models` | Compare generators, predictors, software and learned models, including capabilities, availability, licences and limitations. | Open-ended discussion | This catalogue, [resource survey](generative_resource_survey.md), provider records and qualification evidence. |
 | [Datasets and Benchmarks](https://github.com/uibcdf/peptidemt/discussions/categories/datasets-and-benchmarks) / `datasets-and-benchmarks` | Discuss databases, datasets and evaluation resources, provenance, context, coverage, data leakage and reproducibility. | Open-ended discussion | This catalogue, [functional-family/data review](functional_families.md), and dataset or qualification records when needed. |
-| [Reading List](https://github.com/uibcdf/peptidemt/discussions/categories/reading-list) / `reading-list` | Discuss papers and reviews, their relevance, findings, limitations and open questions. | Open-ended discussion | This catalogue, [literature review](literature.md), and relevant topical scientific guides. |
+| [Reading List](https://github.com/uibcdf/peptidemt/discussions/categories/literature-and-resources) / `reading-list` | Discuss papers and reviews, their relevance, findings, limitations and open questions. | Open-ended discussion | This catalogue, [literature review](literature.md), and relevant topical scientific guides. |
 
-The API readback is category-level evidence; it does not prove section nesting,
+The bootstrap API readback is historical category-level evidence; it does not prove section nesting,
 distinguish every non-Q&A format or verify rendered intake forms. The intended
-open-ended formats and section grouping are separate browser checks.
+open-ended formats and section grouping were subsequently confirmed by the investigator
+as recorded in the current configuration above.
 
 The initial proposal was one **Tools and Resources** category, followed by a
 section containing only that category. The investigator correctly challenged the
@@ -272,9 +279,9 @@ records their identities, exact body hashes and index updates.
 
 Three published forms match the API-observed category slugs:
 
-- [Tools and Models](../.github/DISCUSSION_TEMPLATE/tools-and-models.yml);
+- [Models and Tools](../.github/DISCUSSION_TEMPLATE/models-and-tools.yml);
 - [Datasets and Benchmarks](../.github/DISCUSSION_TEMPLATE/datasets-and-benchmarks.yml);
-- [Reading List](../.github/DISCUSSION_TEMPLATE/reading-list.yml).
+- [Literature and Resources](../.github/DISCUSSION_TEMPLATE/literature-and-resources.yml).
 
 Each requires only a resource/reference name, source/identifier and reason for
 relevance or question. Category-specific optional fields cover:
@@ -291,14 +298,14 @@ checklist. Before starting another resource conversation, search the catalogue
 and existing discussions and link the relevant one when it already exists.
 All three share the maintainer ownership and disposition rules above. Choose
 the category by the conversation's main subject and cross-link related records.
-Do not create a Reading List entry for every paper cited by a tool or dataset;
+Do not create a Literature and Resources entry for every paper cited by a tool or dataset;
 use it when the reading merits a scientific conversation of its own.
 
 [GitHub requires the forms on the default branch](https://docs.github.com/en/discussions/managing-discussions-for-your-community/creating-discussion-category-forms).
-Local YAML/structure checks do not prove live rendering. These files are published
-on `main`, verified by a GitHub tree readback. Browser rendering, section grouping
-and actual open-ended category formats remain unverified: this session has no
-available browser, and creating an in-app browser tab returned unavailable.
+Local YAML/structure checks do not prove live rendering. The two renamed forms
+retain their field content and now match the API-observed category slugs.
+Section grouping and open-ended formats were completed by the investigator;
+browser rendering remains unverified because this session has no available browser.
 Pinning the three category entry points (#9, #12 and #13) remains a browser action;
 the inspected public GraphQL mutation surface has no discussion-pinning operation.
 These UI tasks do not prevent using the published catalogue and conversations.

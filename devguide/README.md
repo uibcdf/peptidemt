@@ -1,6 +1,6 @@
 # PeptideMT design guide
 
-Updated: **2026-10-29**. This is the maintained design source of truth.
+Updated: **2026-10-30**. This is the maintained design source of truth.
 It supports scientific discussion rather than replacing it with a completed
 specification. The bounded W1 core is implemented; one installed Macrel CPU
 bundle is accepted for exploratory assessment/ranking under D37, with its
@@ -29,8 +29,11 @@ organization: three resource-type categories, one discussion per resource and
 independent family/role labels. All nineteen discussions are retained; fourteen
 cards are labelled and five indexes provide filtered navigation. The
 [reorganization receipt](evidence/discussion_reorganization.json) verifies retained
-identities, unchanged card texts and thirteen actual search views. Visual category
-renaming/grouping, form rendering and optional index pinning remain browser tasks.
+identities, unchanged card texts and thirteen actual search views. The investigator
+has completed the category configuration; API-verified names/slugs, renamed forms
+and corrected index filters are recorded in the
+[configuration closeout](evidence/discussion_category_closeout.json).
+Rendered forms and optional index pinning remain unverified UI details.
 The first [AMP resource cards](amp_resource_cards.md) reuse existing exact
 evidence. The [bounded CPP survey](cpp_resource_survey.md) adds source-pinned
 generation, classification, uptake/escape and data resources with explicit

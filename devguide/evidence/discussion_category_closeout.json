@@ -1,0 +1,387 @@
+{
+  "repository": "uibcdf/peptidemt",
+  "observed_at_utc": "2026-10-30T15:06:16.689261+00:00",
+  "source_base_commit": "1ef9869fe8d0faeb2f1112071a06c3b4ecc01ab3",
+  "scope": "Close out the investigator-completed category configuration by adopting actual names/slugs, renaming two forms and correcting existing navigation.",
+  "prior_receipt": "discussion_reorganization.json",
+  "category_configuration": [
+    {
+      "id": "DIC_kwDOVYipYs4DJtFB",
+      "name": "Announcements",
+      "slug": "announcements",
+      "description": "Maintainer updates on PeptideMT releases, development and compatibility.",
+      "isAnswerable": false
+    },
+    {
+      "id": "DIC_kwDOVYipYs4DJ8PN",
+      "name": "Datasets and Benchmarks",
+      "slug": "datasets-and-benchmarks",
+      "description": "Collect and discuss peptide databases, datasets and evaluation benchmarks. Examine provenance, experimental context, coverage, data leakage and reproducibility.",
+      "isAnswerable": false
+    },
+    {
+      "id": "DIC_kwDOVYipYs4DJtFE",
+      "name": "Ideas",
+      "slug": "ideas",
+      "description": "Early ideas for PeptideMT. Concrete proposals and decisions go to issues or versioned records.",
+      "isAnswerable": false
+    },
+    {
+      "id": "DIC_kwDOVYipYs4DJ8Pm",
+      "name": "Literature and Resources",
+      "slug": "literature-and-resources",
+      "description": "Discuss papers and reviews that inform peptide research and PeptideMT development. Explain their relevance, main findings, limitations and open questions.",
+      "isAnswerable": false
+    },
+    {
+      "id": "DIC_kwDOVYipYs4DJ8Oi",
+      "name": "Models and Tools",
+      "slug": "models-and-tools",
+      "description": "Discover and compare peptide-design tools, predictors and generative models. Discuss capabilities, availability, licences, evidence and limitations.",
+      "isAnswerable": false
+    },
+    {
+      "id": "DIC_kwDOVYipYs4DJtFD",
+      "name": "Q&A",
+      "slug": "q-a",
+      "description": "Questions about using PeptideMT. Actionable findings go to owning issues.",
+      "isAnswerable": true
+    }
+  ],
+  "investigator_confirmed": [
+    "Category configuration completed through the GitHub interface.",
+    "Resource categories grouped under Scientific Resources with open-ended discussion formats."
+  ],
+  "api_verification_limits": [
+    "Section grouping and exact non-Q&A formats are investigator-confirmed, not independently verified by the API.",
+    "Browser form rendering and optional index pinning remain unverified."
+  ],
+  "form_renames": [
+    {
+      "previous_path": ".github/DISCUSSION_TEMPLATE/tools-and-models.yml",
+      "current_path": ".github/DISCUSSION_TEMPLATE/models-and-tools.yml",
+      "unchanged_content_sha256": "4704588f722373ee70d45c6269cf09c8c180f7446e0d7f8ea12047c5d711473c"
+    },
+    {
+      "previous_path": ".github/DISCUSSION_TEMPLATE/reading-list.yml",
+      "current_path": ".github/DISCUSSION_TEMPLATE/literature-and-resources.yml",
+      "unchanged_content_sha256": "d4d469faf21c0ec85412f8b9577422712ecb5a00062ac6c13c42a86ca70eb52d"
+    }
+  ],
+  "verified_search_views": [
+    {
+      "key": "cpp_tools",
+      "query": "repo:uibcdf/peptidemt category:\"Models and Tools\" label:\"family:cpp\"",
+      "url": "https://github.com/search?q=repo%3Auibcdf%2Fpeptidemt+category%3A%22Models+and+Tools%22+label%3A%22family%3Acpp%22&type=discussions",
+      "matched_numbers": [
+        21,
+        22,
+        23,
+        24,
+        25,
+        26
+      ],
+      "count": 6
+    },
+    {
+      "key": "models",
+      "query": "repo:uibcdf/peptidemt category:\"Models and Tools\"",
+      "url": "https://github.com/search?q=repo%3Auibcdf%2Fpeptidemt+category%3A%22Models+and+Tools%22&type=discussions",
+      "matched_numbers": [
+        9,
+        10,
+        11,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26
+      ],
+      "count": 16
+    },
+    {
+      "key": "literature",
+      "query": "repo:uibcdf/peptidemt category:\"Literature and Resources\"",
+      "url": "https://github.com/search?q=repo%3Auibcdf%2Fpeptidemt+category%3A%22Literature+and+Resources%22&type=discussions",
+      "matched_numbers": [
+        13
+      ],
+      "count": 1
+    }
+  ],
+  "reused_search_evidence": {
+    "receipt": "discussion_reorganization.json",
+    "unchanged_queries": 10,
+    "reason": "These queries and their category-independent or unchanged-category inputs were unaffected by renaming."
+  },
+  "preserved_discussions": 19,
+  "new_or_deleted_discussions": 0,
+  "unchanged_resource_card_bodies": 14,
+  "updated_navigation_bodies": [
+    9,
+    11,
+    13
+  ],
+  "discussions": [
+    {
+      "number": 9,
+      "id": "D_kwDOVYipYs4Aqptn",
+      "title": "Tools and models — catalogue and discovery",
+      "url": "https://github.com/uibcdf/peptidemt/discussions/9",
+      "category_id": "DIC_kwDOVYipYs4DJ8Oi",
+      "labels": [],
+      "before_body_sha256": "d1f7a41b8fada5abc33d87fcb9d70efd92ebba3fe495887a55e2585ebce234de",
+      "after_body_sha256": "e62c28f84d9b80b0d24ad021640fd91df0bf76e15f41512fb78da6dd9980b14e",
+      "body_change": "category navigation corrected"
+    },
+    {
+      "number": 10,
+      "id": "D_kwDOVYipYs4Aqptp",
+      "title": "AMP — generators, predictors and evaluation resources",
+      "url": "https://github.com/uibcdf/peptidemt/discussions/10",
+      "category_id": "DIC_kwDOVYipYs4DJ8Oi",
+      "labels": [],
+      "before_body_sha256": "32b60447387f54de3fabebb2beaadd4a9272b3f0eb0d3faaf269765c4f774e3a",
+      "after_body_sha256": "32b60447387f54de3fabebb2beaadd4a9272b3f0eb0d3faaf269765c4f774e3a",
+      "body_change": "unchanged"
+    },
+    {
+      "number": 11,
+      "id": "D_kwDOVYipYs4Aqptq",
+      "title": "CPP — tools, evidence and research questions",
+      "url": "https://github.com/uibcdf/peptidemt/discussions/11",
+      "category_id": "DIC_kwDOVYipYs4DJ8Oi",
+      "labels": [],
+      "before_body_sha256": "305415b329930eb0d39b015a5880035cef033f7860432a052e7a54640db26325",
+      "after_body_sha256": "0611f9870839df451afe7f69dee8da3bc8d126f28282600035ec35a5b70e526a",
+      "body_change": "category navigation corrected"
+    },
+    {
+      "number": 12,
+      "id": "D_kwDOVYipYs4Aqpts",
+      "title": "Datasets and benchmarks — catalogue and evaluation questions",
+      "url": "https://github.com/uibcdf/peptidemt/discussions/12",
+      "category_id": "DIC_kwDOVYipYs4DJ8PN",
+      "labels": [],
+      "before_body_sha256": "02f1600c679fc7cbb4aef5dedd50184e640986b2dfb12dec12702ff3281c52fd",
+      "after_body_sha256": "02f1600c679fc7cbb4aef5dedd50184e640986b2dfb12dec12702ff3281c52fd",
+      "body_change": "unchanged"
+    },
+    {
+      "number": 13,
+      "id": "D_kwDOVYipYs4Aqptu",
+      "title": "Reading list — papers and scientific questions",
+      "url": "https://github.com/uibcdf/peptidemt/discussions/13",
+      "category_id": "DIC_kwDOVYipYs4DJ8Pm",
+      "labels": [],
+      "before_body_sha256": "e3a563f417d099d40a51fc2aa3d39ebf522076aa63507c0b337a1b2bfa099731",
+      "after_body_sha256": "a6f54886bd5be4e8da1f8c4c1bd3d3d0a27cd71e133b58ce06133917f78b0081",
+      "body_change": "category navigation corrected"
+    },
+    {
+      "number": 14,
+      "id": "D_kwDOVYipYs4Aqpvs",
+      "title": "Macrel — AMP and hemolysis assessment",
+      "url": "https://github.com/uibcdf/peptidemt/discussions/14",
+      "category_id": "DIC_kwDOVYipYs4DJ8Oi",
+      "labels": [
+        "family:amp",
+        "role:prediction"
+      ],
+      "before_body_sha256": "3115b49f5c0e7952e7432c69bba58c781dfce391ad5af9b36828183e90d41540",
+      "after_body_sha256": "3115b49f5c0e7952e7432c69bba58c781dfce391ad5af9b36828183e90d41540",
+      "body_change": "unchanged"
+    },
+    {
+      "number": 15,
+      "id": "D_kwDOVYipYs4Aqpvt",
+      "title": "HydrAMP — conditional AMP generation",
+      "url": "https://github.com/uibcdf/peptidemt/discussions/15",
+      "category_id": "DIC_kwDOVYipYs4DJ8Oi",
+      "labels": [
+        "family:amp",
+        "role:generation"
+      ],
+      "before_body_sha256": "7e0c4650f0dfbdf604f10c1da21f7bc979477c4e6d500f001a05557ada909269",
+      "after_body_sha256": "7e0c4650f0dfbdf604f10c1da21f7bc979477c4e6d500f001a05557ada909269",
+      "body_change": "unchanged"
+    },
+    {
+      "number": 16,
+      "id": "D_kwDOVYipYs4Aqpvu",
+      "title": "PLUM — conditional and prototype-guided AMP generation",
+      "url": "https://github.com/uibcdf/peptidemt/discussions/16",
+      "category_id": "DIC_kwDOVYipYs4DJ8Oi",
+      "labels": [
+        "family:amp",
+        "role:generation"
+      ],
+      "before_body_sha256": "63d176250c8d26e7de176950109dca7a1619ca3378b25ce0664bc9b741afebfb",
+      "after_body_sha256": "63d176250c8d26e7de176950109dca7a1619ca3378b25ce0664bc9b741afebfb",
+      "body_change": "unchanged"
+    },
+    {
+      "number": 17,
+      "id": "D_kwDOVYipYs4Aqpvv",
+      "title": "OmegAMP — diffusion and motif/property controls",
+      "url": "https://github.com/uibcdf/peptidemt/discussions/17",
+      "category_id": "DIC_kwDOVYipYs4DJ8Oi",
+      "labels": [
+        "family:amp",
+        "role:generation"
+      ],
+      "before_body_sha256": "3e5aa535f2dac5215a01cbee90c07891a957812357292575a8a4ccc0ddf5bebb",
+      "after_body_sha256": "3e5aa535f2dac5215a01cbee90c07891a957812357292575a8a4ccc0ddf5bebb",
+      "body_change": "unchanged"
+    },
+    {
+      "number": 18,
+      "id": "D_kwDOVYipYs4Aqpvw",
+      "title": "ARCADIAMP — AMP diffusion generation",
+      "url": "https://github.com/uibcdf/peptidemt/discussions/18",
+      "category_id": "DIC_kwDOVYipYs4DJ8Oi",
+      "labels": [
+        "family:amp",
+        "role:generation"
+      ],
+      "before_body_sha256": "99b06234ea12903ad8c65e24b0b149293350a5f90b2a157bdc1ac410a98745da",
+      "after_body_sha256": "99b06234ea12903ad8c65e24b0b149293350a5f90b2a157bdc1ac410a98745da",
+      "body_change": "unchanged"
+    },
+    {
+      "number": 19,
+      "id": "D_kwDOVYipYs4Aqpvx",
+      "title": "AMP-Designer — language-model AMP generation",
+      "url": "https://github.com/uibcdf/peptidemt/discussions/19",
+      "category_id": "DIC_kwDOVYipYs4DJ8Oi",
+      "labels": [
+        "family:amp",
+        "role:generation"
+      ],
+      "before_body_sha256": "abd830a965c86259fdce64abd59daf059c726a798119aa7fa380d4a737fbc30f",
+      "after_body_sha256": "abd830a965c86259fdce64abd59daf059c726a798119aa7fa380d4a737fbc30f",
+      "body_change": "unchanged"
+    },
+    {
+      "number": 20,
+      "id": "D_kwDOVYipYs4Aqpvy",
+      "title": "PepDiffusion — latent-diffusion AMP generation",
+      "url": "https://github.com/uibcdf/peptidemt/discussions/20",
+      "category_id": "DIC_kwDOVYipYs4DJ8Oi",
+      "labels": [
+        "family:amp",
+        "role:generation"
+      ],
+      "before_body_sha256": "3e8495552e8d10bc6b299cc6b05a0880298a638628fe8b6cd6c9670ba7e230c8",
+      "after_body_sha256": "3e8495552e8d10bc6b299cc6b05a0880298a638628fe8b6cd6c9670ba7e230c8",
+      "body_change": "unchanged"
+    },
+    {
+      "number": 21,
+      "id": "D_kwDOVYipYs4Aqpvz",
+      "title": "CPP_Design — CPP generation and optimization research",
+      "url": "https://github.com/uibcdf/peptidemt/discussions/21",
+      "category_id": "DIC_kwDOVYipYs4DJ8Oi",
+      "labels": [
+        "family:cpp",
+        "role:generation"
+      ],
+      "before_body_sha256": "c6d3b91ac2760c08500436fedbd05d5e15400ea44f9687e00b4730315abb3ad2",
+      "after_body_sha256": "c6d3b91ac2760c08500436fedbd05d5e15400ea44f9687e00b4730315abb3ad2",
+      "body_change": "unchanged"
+    },
+    {
+      "number": 22,
+      "id": "D_kwDOVYipYs4Aqpv0",
+      "title": "LightCPPgen — CPP scoring and genetic optimization",
+      "url": "https://github.com/uibcdf/peptidemt/discussions/22",
+      "category_id": "DIC_kwDOVYipYs4DJ8Oi",
+      "labels": [
+        "family:cpp",
+        "role:prediction",
+        "role:search"
+      ],
+      "before_body_sha256": "7d4cae2de5c563629d69788e82908334eea7f46d3dfda1e566b452e2cda76a1f",
+      "after_body_sha256": "7d4cae2de5c563629d69788e82908334eea7f46d3dfda1e566b452e2cda76a1f",
+      "body_change": "unchanged"
+    },
+    {
+      "number": 23,
+      "id": "D_kwDOVYipYs4Aqpv1",
+      "title": "MLCPP 2.0 — CPP classification and uptake efficiency",
+      "url": "https://github.com/uibcdf/peptidemt/discussions/23",
+      "category_id": "DIC_kwDOVYipYs4DJ8Oi",
+      "labels": [
+        "family:cpp",
+        "role:prediction"
+      ],
+      "before_body_sha256": "9f8cf89614abf52d78c128905824852d641693cddef6d29d0df80fb75f334654",
+      "after_body_sha256": "9f8cf89614abf52d78c128905824852d641693cddef6d29d0df80fb75f334654",
+      "body_change": "unchanged"
+    },
+    {
+      "number": 24,
+      "id": "D_kwDOVYipYs4Aqpv2",
+      "title": "pLM4CPPs — embedding-based CPP classification",
+      "url": "https://github.com/uibcdf/peptidemt/discussions/24",
+      "category_id": "DIC_kwDOVYipYs4DJ8Oi",
+      "labels": [
+        "family:cpp",
+        "role:prediction"
+      ],
+      "before_body_sha256": "0799e804d35e1d2b0dd37e4fa94dfdd1ba59ac9eb1dd8b6f3494d224f4a2c69f",
+      "after_body_sha256": "0799e804d35e1d2b0dd37e4fa94dfdd1ba59ac9eb1dd8b6f3494d224f4a2c69f",
+      "body_change": "unchanged"
+    },
+    {
+      "number": 25,
+      "id": "D_kwDOVYipYs4Aqpv3",
+      "title": "CPPpred-En — ensemble CPP classification",
+      "url": "https://github.com/uibcdf/peptidemt/discussions/25",
+      "category_id": "DIC_kwDOVYipYs4DJ8Oi",
+      "labels": [
+        "family:cpp",
+        "role:prediction"
+      ],
+      "before_body_sha256": "3de997bf5ef210115c977e2ce1fd3cb6f0f00c721283949818f6af3685889c25",
+      "after_body_sha256": "3de997bf5ef210115c977e2ce1fd3cb6f0f00c721283949818f6af3685889c25",
+      "body_change": "unchanged"
+    },
+    {
+      "number": 26,
+      "id": "D_kwDOVYipYs4Aqpv4",
+      "title": "ELP–EEP discovery — endosomal-escape peptide screening",
+      "url": "https://github.com/uibcdf/peptidemt/discussions/26",
+      "category_id": "DIC_kwDOVYipYs4DJ8Oi",
+      "labels": [
+        "family:cpp",
+        "role:search"
+      ],
+      "before_body_sha256": "5b9003a00ce78df53fd564d44d140fa73483d106bde9b158fff2c71fabfa4db5",
+      "after_body_sha256": "5b9003a00ce78df53fd564d44d140fa73483d106bde9b158fff2c71fabfa4db5",
+      "body_change": "unchanged"
+    },
+    {
+      "number": 27,
+      "id": "D_kwDOVYipYs4Aqpv5",
+      "title": "CPPsite3 — CPP annotations and data provenance",
+      "url": "https://github.com/uibcdf/peptidemt/discussions/27",
+      "category_id": "DIC_kwDOVYipYs4DJ8PN",
+      "labels": [
+        "family:cpp"
+      ],
+      "before_body_sha256": "436a1cfa8c4ab52a172a19f7e496975a4197fc7fb428b533ce1172db8067add9",
+      "after_body_sha256": "436a1cfa8c4ab52a172a19f7e496975a4197fc7fb428b533ce1172db8067add9",
+      "body_change": "unchanged"
+    }
+  ],
+  "scientific_scope": "No model installation, loading, execution, scientific acceptance or package publication."
+}
