@@ -383,5 +383,11 @@
       "body_change": "unchanged"
     }
   ],
-  "scientific_scope": "No model installation, loading, execution, scientific acceptance or package publication."
+  "scientific_scope": "No model installation, loading, execution, scientific acceptance or package publication.",
+  "subsequent_investigator_validation": {
+    "date": "2026-10-30",
+    "method": "Investigator visual confirmation after the renamed forms were published.",
+    "scope": "Visual validation of the rendered Discussion forms.",
+    "evidence_boundary": "Human verification; the original API observations and their limits above are retained unchanged. Optional index pinning is not inferred."
+  }
 }

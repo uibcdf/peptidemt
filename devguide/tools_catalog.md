@@ -10,7 +10,8 @@ The investigator completed the category configuration in GitHub. API readback
 confirms the new names/slugs and retained category IDs; the
 [configuration closeout](evidence/discussion_category_closeout.json) records
 updated form paths and corrected index filters. Section grouping and open-ended
-formats are investigator-confirmed; rendered forms and optional pinning remain
+formats are investigator-confirmed. The investigator also confirmed visual
+validation of the rendered forms on 2026-10-30; optional index pinning remains
 unverified. The initial [opening-post receipt](evidence/scientific_resources_discussions.json)
 and [resource-card receipt](evidence/resource_card_discussions.json) remain dated
 publication evidence rather than being overwritten by this reorganization.
@@ -46,6 +47,38 @@ for deferral, with bidirectional links. Concrete implementation, missing
 capabilities and defects go to owning issues. Discovery threads remain useful
 independently of bounded work. The organization does not change D35–D38, accept
 models, grant inference calls or redefine scientific families.
+
+## Where each conversation belongs
+
+This is the operational routing for the existing PeptideMT categories, under the
+[common Discussions policy](../MOLSYSSUITE_GUIDE.md#github-discussions).
+
+| Category | Content |
+| --- | --- |
+| Models and Tools | Tools, predictors, generators and computational workflows; one maintained conversation per resource. |
+| Datasets and Benchmarks | Data collections, annotations and evaluation benchmarks; one maintained conversation per resource. |
+| Literature and Resources | Papers, reviews, guides and other scientific references that merit their own discussion. A paper documenting a tool or dataset can stay in that resource's conversation. |
+| Q&A | Questions about using or interpreting PeptideMT. |
+| Ideas | Early ideas that have not yet become concrete actionable work. |
+| Announcements | Maintainer updates linking the authoritative release, development or decision record. |
+
+Choose by the main subject and cross-link related records. Before creating a
+resource conversation, search for an existing one. Add versions/checkpoints and
+follow-up evidence to that resource's discussion and maintained technical record;
+use replies for short discovery notes. Family indexes are optional navigation,
+not required extra discussions for every family.
+
+Apply the [family/role vocabulary below](#labels-and-reviewed-scope) to the whole
+resource discussion. Several supported labels can coexist; general resources
+can have none. Maintainers own triage and additions to that vocabulary. Preserve
+the existing index/resource distinction and avoid duplicating multifamily tools.
+
+Concrete defects, missing capabilities and integration or qualification work use
+an existing or new owning issue under [the reporting protocol](reporting_protocol.md).
+Keep maintained findings and accepted/deferred/rejected decisions in the named
+versioned record or owning issue, with date, reason and a revisit trigger when
+deferred. Link both ways. Catalogue membership and labels do not establish
+scientific acceptance or execution authority.
 
 ## Labels and reviewed scope
 
@@ -126,7 +159,9 @@ nineteen retained discussions and their labels. The API's `isAnswerable=false`
 does not independently certify section nesting or every non-Q&A format; those
 two settings retain investigator confirmation as their evidence source.
 The two affected form filenames and three index bodies now follow the observed
-names/slugs. Rendered-form checks and optional pinning remain separate UI tasks.
+names/slugs. The investigator subsequently confirmed visual validation of the
+rendered forms on 2026-10-30. This is human verification, not an automated browser
+check; optional index pinning remains unverified and is not a completion gate.
 
 ## Organization history and evidence boundaries
 
@@ -304,8 +339,9 @@ use it when the reading merits a scientific conversation of its own.
 [GitHub requires the forms on the default branch](https://docs.github.com/en/discussions/managing-discussions-for-your-community/creating-discussion-category-forms).
 Local YAML/structure checks do not prove live rendering. The two renamed forms
 retain their field content and now match the API-observed category slugs.
-Section grouping and open-ended formats were completed by the investigator;
-browser rendering remains unverified because this session has no available browser.
+Section grouping, open-ended formats and visual rendering were confirmed by the
+investigator. This session has no available browser; the visual confirmation is
+recorded separately from the preceding API observations in the closeout receipt.
 Pinning the three category entry points (#9, #12 and #13) remains a browser action;
 the inspected public GraphQL mutation surface has no discussion-pinning operation.
 These UI tasks do not prevent using the published catalogue and conversations.

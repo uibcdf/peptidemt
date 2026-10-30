@@ -33,7 +33,10 @@ identities, unchanged card texts and thirteen actual search views. The investiga
 has completed the category configuration; API-verified names/slugs, renamed forms
 and corrected index filters are recorded in the
 [configuration closeout](evidence/discussion_category_closeout.json).
-Rendered forms and optional index pinning remain unverified UI details.
+The investigator has confirmed visual form validation; optional index pinning
+remains unverified. For curation, start with the catalogue's
+[routing rules](tools_catalog.md#where-each-conversation-belongs) and
+[label vocabulary](tools_catalog.md#labels-and-reviewed-scope).
 The first [AMP resource cards](amp_resource_cards.md) reuse existing exact
 evidence. The [bounded CPP survey](cpp_resource_survey.md) adds source-pinned
 generation, classification, uptake/escape and data resources with explicit

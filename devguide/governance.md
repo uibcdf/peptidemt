@@ -14,6 +14,10 @@ routes, owning-issue feedback, domain ownership and release/resource rules.
 Use its common policy index and the actual registered provider guides when a
 boundary becomes applicable; do not keep another copied common-rule table here.
 
+For PeptideMT Discussions, follow the [local resource catalogue and curation
+rules](tools_catalog.md): category routing, family/role labels, maintainer ownership,
+duplicate avoidance and links to durable scientific records and owning issues.
+
 PeptideMT owns the peptide-specific design question, scientific requirements,
 occurrence mappings, evaluation/selection policy, composition and interpretation
 under its approved scientific work order. Review `design_methodology.md`, D35/D36

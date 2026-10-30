@@ -26,6 +26,9 @@ python -m pytest --receptor=llm
 python devtools/devguide_index.py --check
 ```
 
+Before curating PeptideMT Discussions, read `devguide/tools_catalog.md` for
+the approved category routing, family/role labels and resource-record lifecycle.
+
 Generated member Conda environments remain CI/bootstrap/clean qualification
 fixtures. Routine work uses the authorized named shared profile; the original
 W0 engineering baseline does not qualify Macrel or M1–M8.
