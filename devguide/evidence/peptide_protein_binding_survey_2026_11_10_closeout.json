@@ -1,0 +1,133 @@
+{
+  "schema": "peptidemt.peptide_binding_survey_closeout@1",
+  "recorded_utc": "2026-11-10T06:24:16.995808+00:00",
+  "source_receipt": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/evidence/peptide_protein_binding_survey_2026_11_10.json",
+    "sha256": "11cc88810ed03099f2beeb877c8dae56f2a16339b37973eb806d27ba55a0cb0e",
+    "bytes": 11498
+  },
+  "documents": [
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/peptide_protein_binding_survey_2026_11_10.md",
+      "sha256": "666718b69cafe04f2aeb5ff7172bc5fef0aff29493197f68de955e444b668308",
+      "bytes": 16755
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/mdm2_t1b_proposal.md",
+      "sha256": "21d1f0e97cfa6e7d8d15a7dbf3120bf9f545830bc1c2020fb9b1a99e8f13578a",
+      "bytes": 12312
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/README.md",
+      "sha256": "eb12d63eea754876b8c4e7924e116257a8fe7033215a6dde71d7b8c6b8b4ad90",
+      "bytes": 49245
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/decisions.md",
+      "sha256": "81c3a4fa7a2ecfb5e1c71dd48c1f9f0611cb55f61b521a6b00d8320a4af49acd",
+      "bytes": 112648
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/target_directed_demonstrator.md",
+      "sha256": "b20445342ca1d7909befaa37adac318dd5e953e334abfb35874ecd637a46b600",
+      "bytes": 9278
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/target_directed_method_review.md",
+      "sha256": "ab15e0d31910a0349ab1670bf9fd01996d7d2c0eb8bff1df3e31cc79ca06028d",
+      "bytes": 12319
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/target_directed_evidence_review.md",
+      "sha256": "e3e8a48016186395a73031ba053a3494455480302613bb9173217410b0345c3e",
+      "bytes": 15048
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/continuation_plan_2026_11_04.md",
+      "sha256": "5160b7e69acebc4b37a560bc1f650134b3f9df3fdfaeb26fd3592cbc105eac18",
+      "bytes": 29115
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/pending_proposals/scientific_capability_audit.md",
+      "sha256": "9065b8723fd5cfe5d126f85df4f6e358652ab3e4cc545210ac1efe7e8fe76208",
+      "bytes": 14252
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/generative_resource_survey.md",
+      "sha256": "c3b6a89dbb4509f527202513183edc860447c4a01a05042b0203015f6fa3c76a",
+      "bytes": 17047
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/protein_peptide_design_engines.md",
+      "sha256": "bc7d52829398cbdbd132bab20b8d0eebf4aed0b1ef61e2de26512787ef4a1634",
+      "bytes": 46401
+    }
+  ],
+  "checks": {
+    "relative_paths_and_heading_anchors": {
+      "checked": 391,
+      "errors": []
+    },
+    "documentation_whitespace": {
+      "files": 11,
+      "errors": 0
+    },
+    "python devtools/devguide_index.py --check": "exit 0; indexes current",
+    "git diff --check": "exit 0",
+    "accepted_pins_checked": {
+      "devguide/mdm2_t1a_proposal.md": "069247bf4b46e8fafba553ecb5311f67b0bfd6748ea4a06822053c3285c05e56",
+      "devguide/evidence/mdm2_t1a_authorization.json": "41b2e0d0f7f522dd8a1c625f49139e77a5e66c995556e0c8be6909e702ef6495",
+      "devguide/evidence/mdm2_t1a_qualification.json": "156652a053840efe34fec2c0a0ce026654e5e936130381c523c180afd263775f",
+      "devtools/mdm2_t1a.py": "df7ed5677f52abaab698289d4137467bd0068c9029a714a875acc5c1a9724307",
+      "devguide/evidence/mdm2_t0_execution.json": "bd12b0bd4eb1a12885e151d25e07d855a0ff62c0b42d3156e3dd2afa188b0593",
+      "devguide/evidence/hydramp_result_invariants.json": "15c5814cfec53531e51f5424d46ea54f028e0e345fd9b30f2bd0537cf77c81d3"
+    }
+  },
+  "owner_issue_readbacks": [
+    {
+      "key": "early_docking",
+      "id": 6760396464,
+      "url": "https://github.com/uibcdf/dockingmt/issues/33#issuecomment-6760396464",
+      "exact_body_verified": true,
+      "body_sha256": "e44eecfc092762bc5498b2f5b7c924472d95962c1323546b5a17596629ed997f"
+    },
+    {
+      "key": "docking_scope",
+      "id": 6760613303,
+      "url": "https://github.com/uibcdf/dockingmt/issues/33#issuecomment-6760613303",
+      "exact_body_verified": true,
+      "body_sha256": "200fe0ceb06c9be3ce2907e7366daf210787558bbf0699b980c4d66cd8e1aa8f"
+    },
+    {
+      "key": "parent",
+      "id": 6760626142,
+      "url": "https://github.com/uibcdf/peptidemt/issues/33#issuecomment-6760626142",
+      "exact_body_verified": true,
+      "body_sha256": "5a4492ed4c292220f7f5b69a0336c9cca1ecd3c933f1e81f33630e23fc079a66"
+    }
+  ],
+  "issue_readback_record": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-peptide-binding-survey-0ys7e8yt/issue-readbacks.json",
+    "sha256": "cea76bc665009e33be7ef52d8af7dbafabfb03897870d42cc5a7f579d1a30e68",
+    "bytes": 7652
+  },
+  "earlier_T1b_preparation": {
+    "receipt": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/evidence/mdm2_t1b_preparation.json",
+      "sha256": "c9074b42d4744c8eae2a5697643c40fc05db9c0855fec406c073eed5fbaa30aa",
+      "bytes": 6653
+    },
+    "historical_proposal": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-t1b-review-yr15dnex/mdm2_t1b_proposal_pre_exploration.md",
+      "sha256": "f3050dd1482b36bdd76aaa30fa7270c22c32dff9e0244db5b8b6b4834bc3d958",
+      "bytes": 11932
+    },
+    "current_disposition": "possible source-admission subproblem; no new scientific acceptance"
+  },
+  "qualification_claim": "Read-only research, documentation/link/source-preservation checks and exact issue readback only",
+  "scientific_or_unit_tests_repeated": false,
+  "new_molecular_docking_or_model_execution": false,
+  "new_scientific_decision": false,
+  "original_D52_objective_complete": false,
+  "commit_push_release": false
+}

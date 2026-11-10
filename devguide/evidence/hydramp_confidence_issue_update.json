@@ -1,0 +1,11 @@
+{
+  "schema": "peptidemt.hydramp_confidence_issue_update@1",
+  "issue": "uibcdf/peptidemt#8",
+  "comment_url": "https://github.com/uibcdf/peptidemt/issues/8#issuecomment-6610438413",
+  "created_at": "2026-11-03T17:06:47Z",
+  "updated_at": "2026-11-03T17:07:10Z",
+  "verified": true,
+  "scope": "Commissioned campaign preparation; exact execution budget and broader acceptance pending.",
+  "body_sha256": "f1bbeec152b6f9f79113c982dc91d5e21362a5b61aac4babfe49f97423b1fff0",
+  "body_sha256_normalization": "UTF-8 body.strip(); exact trimmed body verified against API response"
+}

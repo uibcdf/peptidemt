@@ -1,0 +1,94 @@
+{
+  "schema": "peptidemt.scientific_resource_discussion_updates@1",
+  "date": "2026-11-03",
+  "verified_at_utc": "2026-11-03T19:26:31.079331+00:00",
+  "authority": "Investigator requests OmegAMP inclusion/review and a place to retain peptide-design challenges for later participation; existing approved resource-catalogue governance reused",
+  "source_intake": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/evidence/scientific_resources_intake_20261103.json",
+    "bytes": 7488,
+    "sha256": "48432927615c7616ef5745fa74ab9fe548e0e6dca9aa910f7860730e68daa8f0"
+  },
+  "omegamp": {
+    "discussion": 17,
+    "url": "https://github.com/uibcdf/peptidemt/discussions/17",
+    "opening_post_unchanged": true,
+    "labels_unchanged": true,
+    "comment": {
+      "id": "DC_kwDOVYipYs4BJ75f",
+      "url": "https://github.com/uibcdf/peptidemt/discussions/17#discussioncomment-19381855",
+      "body_sha256": "8176fedc433745cbb2da62ae7b903788969e8758759f3695b7e8c0eabe888b48",
+      "exact_readback": true
+    }
+  },
+  "challenge": {
+    "discussion": 31,
+    "id": "D_kwDOVYipYs4Aqy0q",
+    "url": "https://github.com/uibcdf/peptidemt/discussions/31",
+    "body_sha256": "66f672167c13ac14c987db60b35129a65d399cdd0f67dd5123b42e70423bcaa5",
+    "category": {
+      "id": "DIC_kwDOVYipYs4DJ8PN",
+      "name": "Datasets and Benchmarks"
+    },
+    "labels": [
+      {
+        "id": "LA_kwDOVYipYs8AAAADAEIMYg",
+        "name": "family:amp"
+      }
+    ],
+    "exact_readback": true
+  },
+  "watchlist_index": {
+    "discussion": 12,
+    "url": "https://github.com/uibcdf/peptidemt/discussions/12",
+    "previous_body_sha256": "02f1600c679fc7cbb4aef5dedd50184e640986b2dfb12dec12702ff3281c52fd",
+    "updated_body_sha256": "c6444b761eb8a0060075329a8ae0917d9a584181e503b6275973312a6e5ad113",
+    "previous_content_preserved_verbatim": true,
+    "exact_readback": true
+  },
+  "inventory": {
+    "original_discussions_retained": 19,
+    "current_discussions": 20,
+    "old_resource_opening_posts_labels_categories_unchanged": true,
+    "category_ids_unchanged": true,
+    "new_categories": 0,
+    "new_label_vocabulary": 0
+  },
+  "search_checks": {
+    "amp": {
+      "count": 8,
+      "numbers": [
+        17,
+        31,
+        20,
+        19,
+        18,
+        16,
+        15,
+        14
+      ]
+    },
+    "datasets": {
+      "count": 3,
+      "numbers": [
+        12,
+        31,
+        27
+      ]
+    }
+  },
+  "raw_before": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptide-resource-intake-2ys_dp1r/discussions-before.json",
+    "bytes": 46016,
+    "sha256": "b9d78cfa5c576bc801f0f1ca9d6993d3e72f347215b674d037f66fa4e485c44e"
+  },
+  "raw_after": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptide-resource-intake-2ys_dp1r/discussions-after.json",
+    "bytes": 52218,
+    "sha256": "4548b88581991455f23d0eb0e13d621870ef1ff7a3bc425045bc4f395bbef4d9"
+  },
+  "new_main_branch_docs_published": false,
+  "model_install_download_execution": false,
+  "external_registration_or_submission": false,
+  "external_repository_write": false,
+  "commit_push_release": false
+}

@@ -1,0 +1,40 @@
+{
+  "schema": "peptidemt.hydramp_dev5_acceptance@1",
+  "recorded_at_utc": "2026-11-04T20:05:40.242664+00:00",
+  "decision": "D44",
+  "accepted": true,
+  "authority": "Investigator agreement to continue follows the reported A2 outcome and explicit recommendation to accept the exact dev5 native-score analogue route for experimental use with its retained limitations.",
+  "owner_issue": "uibcdf/hydramp#4",
+  "consumer_issue": "uibcdf/peptidemt#32",
+  "provider_wheel": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/continuation-cycle1-chk2ha32/artifacts/hydramp_torch-0.0.0.dev5-py3-none-any.whl",
+    "bytes": 19385,
+    "sha256": "f6b9e30609ddde675418a2e6696b1026656212921c2b47cf0c6d182bcfc5433e"
+  },
+  "A2_execution": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/evidence/hydramp_analogue_A2_execution.json",
+    "bytes": 75564,
+    "sha256": "def2a831524550f8dfd28a741c0e55b9d74359b3d1a2b0be1bdd15b8ab277cd8"
+  },
+  "A1_evidence": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/evidence/hydramp_analogue_A1.json",
+    "bytes": 10729,
+    "sha256": "5757ae50fd0473d76440d6421c72e8857f83d2081dde094a56eb67bbb3fddb35"
+  },
+  "A2_plan_sha256": "556c917c1937a564ae047d6b30f3cb91311f50c22d55633eed27be1b808c35d4",
+  "original_source": "6590d2f4c2963f25d30669052a4c4a857e0e7279",
+  "starter_assets": "7804df862872ccc6d09fe01c41bafbca194cfa31",
+  "scope": "Experimental AMP analogue proposals by the unchanged first native-score route; not a replacement for D41/dev3 or an adopted consumer API.",
+  "preserved_limits": [
+    "unchanged probability diagnostic FAIL",
+    "standalone AMP near-tie batch sensitivity",
+    "one distinct real returned candidate; nonempty repeated-prototype pools artificial only",
+    "no biological/general numerical equivalence or new-family claim",
+    "original Drive-byte/use/redistribution/output conditions unresolved as previously recorded"
+  ],
+  "method_changes": false,
+  "new_real_model_call_allowance": 0,
+  "consumer_implementation_authorized": false,
+  "consumer_work_order": "devguide/hydramp_redesign_work_order.md (proposal for review)",
+  "no_training_feedback_GPU_release_commit_push_or_author_contact": true
+}

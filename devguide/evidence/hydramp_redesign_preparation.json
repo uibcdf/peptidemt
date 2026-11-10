@@ -1,0 +1,173 @@
+{
+  "schema": "peptidemt.hydramp_redesign_preparation@1",
+  "date": "2026-11-04",
+  "owner_issue": "uibcdf/peptidemt#32",
+  "provider_issue": "uibcdf/hydramp#4",
+  "status": "Concrete scientific contract prepared for review; no new implementation commissioned",
+  "work_order": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/hydramp_redesign_work_order.md",
+    "bytes": 16463,
+    "sha256": "876ef80c5629dc74cf9e541bcf5f1d257ed37f28a0148f5e435a738c8a47fd71"
+  },
+  "D44_acceptance": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/evidence/hydramp_dev5_acceptance.json",
+    "bytes": 2204,
+    "sha256": "60a8f003cf80a39a84cb722ffd6d7d377cff38fd6abea2dcc9b02bab19ea42f8"
+  },
+  "inspected_sources": [
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/src/peptidemt/inputs.py",
+      "bytes": 5827,
+      "sha256": "0d56b4089d95fadeda2b1f9152a0e8520ee8d2d4c6ee8efbae49bf2344e07b4e"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/src/peptidemt/results.py",
+      "bytes": 8874,
+      "sha256": "a5302c4ece2199a854aa3c8a924511f59b22cf6f836e1ccb78107555a6bafb84"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/src/peptidemt/selection.py",
+      "bytes": 2068,
+      "sha256": "cccef6e4c1b212453fcaf2aa3793e0799ec38eb290d39047781769edee5b11c9"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/src/peptidemt/hydramp.py",
+      "bytes": 12825,
+      "sha256": "59e0f3db8f756f024525c11f3a958aaf8d67235778fc9350999bf15c501cde6a"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/src/peptidemt/_hydramp_receiving.py",
+      "bytes": 10492,
+      "sha256": "3a8efc281cc0a3cc114f481d5ab51429a5587c851781a82c3d3cf284463951a8"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/src/peptidemt/_attribution.py",
+      "bytes": 10525,
+      "sha256": "ee3011c7220dd497e6fd05af4820e666527936c1a474ba0b4b2b94ff01eb3484"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/hydramp/local_data/pytorch-analogue/ports/pytorch/src/hydramp_torch/__init__.py",
+      "bytes": 906,
+      "sha256": "ee4a064daa0515b806d92c908582655d2858d8882683055553103087cfc8df46"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/hydramp/local_data/pytorch-analogue/ports/pytorch/src/hydramp_torch/analogue.py",
+      "bytes": 12495,
+      "sha256": "64f8a40006f65de188d6b1e97c4eae1a2f3766d0b9cd5b8b4ce80d43817bbbc6"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/hydramp/amp/data_utils/sequence.py",
+      "bytes": 728,
+      "sha256": "d4694789f1f16746626d11f2153c1136d7311821df32a76cfb42e46602dc5541"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/molsysmt/molsysmt/form/file_fasta/parse_records.py",
+      "bytes": 3160,
+      "sha256": "f65acb70b9ca631a6ad0bdc1b1eb7b36f82e30e7069a0779ba2a67c5766255b1"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/molsysmt/molsysmt/form/file_fasta/read_records.py",
+      "bytes": 2646,
+      "sha256": "9c3685414a3f1449b9b956277de10a2d69035416a851e3794f43120698169964"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/recorda/README.md",
+      "bytes": 10830,
+      "sha256": "3a45e930acc0f619aa86fd02fcfccc31d943a74ab5fcbdb99dbab594f100f4a4"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/praxis/README.md",
+      "bytes": 5770,
+      "sha256": "482cc10eebd09232454d883ad272f2175a8c3a7459ea6b93e3fa43bfd033c80b"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/ACKREDIT_GUIDE.md",
+      "bytes": 31170,
+      "sha256": "194b33b0187e85a61f30c13a0a365d99d22ecbd9b3ca1d796bf0e8520dd837e1"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/recorda/src/recorda/capture.py",
+      "bytes": 3575,
+      "sha256": "0a806a3fa97301ad949806cb2112f18829943558dd237ceb885789f3a318bcfb"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/recorda/src/recorda/runtime.py",
+      "bytes": 17604,
+      "sha256": "12078322e8cf4a4059ff8c685777101307ea076e993d69f53241328ffaad257d"
+    }
+  ],
+  "provider_public_exports": [
+    "AnalogueCandidate",
+    "AnalogueResult",
+    "AnalogueTrace",
+    "HydrAMPAnalogueGenerator",
+    "EncoderPosterior",
+    "HydrAMPEncoder",
+    "load_encoder_checkpoint",
+    "GenerationTrace",
+    "HydrAMPGenerator",
+    "HydrAMPInference",
+    "LegacyModlampProperties",
+    "Modlamp433Properties",
+    "PCAProjection",
+    "load_checkpoint",
+    "translate_tokens"
+  ],
+  "provider_public_sequence_to_native_token_codec_found": false,
+  "legacy_codec_has_Keras_dependency": true,
+  "owner_map": {
+    "molecular_and_FASTA": "MolSysMT",
+    "native_token_codec_and_methods": "HydrAMP",
+    "domain_result_and_composition": "PeptideMT",
+    "scientific_attribution": "Ackredit",
+    "general_journals": "Recorda",
+    "reusable_methodology": "Praxis"
+  },
+  "existing_boundary_probe": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/evidence/hydramp_redesign_existing_boundary_probe.json",
+    "bytes": 1745,
+    "sha256": "630ea037bea32ca0193f120a7e9a36c3b0164d34b208ea9ee0c34082b41cca03"
+  },
+  "probe_meaning": "Manually declared controlled ancestry, synthetic assessment values and existing W1 selectors only; no new codec/reader/adapter",
+  "new_scientific_provider_imports": 0,
+  "new_pretrained_or_Macrel_calls": 0,
+  "new_provider_or_consumer_runtime_code": false,
+  "refreshed_suite_state": [
+    {
+      "repository": "uibcdf/peptidemt",
+      "head": "1f8c444e4619",
+      "ahead": 0,
+      "behind": 0,
+      "error": "",
+      "dirty_paths_count": 230
+    },
+    {
+      "repository": "uibcdf/molsysmt",
+      "head": "71fbe4f46d3c",
+      "ahead": 0,
+      "behind": 93,
+      "error": "",
+      "dirty_paths_count": 0
+    },
+    {
+      "repository": "uibcdf/ackredit",
+      "head": "74f865d7eca1",
+      "ahead": 0,
+      "behind": 15,
+      "error": "",
+      "dirty_paths_count": 0
+    }
+  ],
+  "workspace_disposition": "Preserve all PeptideMT dirty work and sibling HEADs/shared environments. MolSysMT and Ackredit are behind remote; recheck relevant development origins before implementation. No source merge/update is needed for this static contract preparation. Inspected FASTA source paths have no HEAD..origin/main diff. Canonical Ackredit guide adds the 0.12.1 reference, with no API/schema/floor change; current consumer copy matches fetched canonical bytes.",
+  "other_owner_snapshots": {
+    "recorda": "ff52fa5d8628d796f413b833c8abe73907990cf9",
+    "praxis": "17e1856fa45a50b26097b19be28accb7ab88f689"
+  },
+  "new_commit_push_release_or_author_contact": false,
+  "guide_review": {
+    "canonical_path": "standards/ACKREDIT_GUIDE.md",
+    "fetched_canonical_SHA256": "194b33b0187e85a61f30c13a0a365d99d22ecbd9b3ca1d796bf0e8520dd837e1",
+    "consumer_matches_fetched_canonical": true,
+    "initial_wrong_path": "An initial no-diff observation used nonexistent root ACKREDIT_GUIDE.md; existence checks rejected that inference, corrected using the guide header canonical path before delivery."
+  }
+}

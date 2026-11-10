@@ -1,0 +1,64 @@
+{
+  "schema": "peptidemt.hydramp_amp_reference_authorization@1",
+  "date": "2026-11-03",
+  "recorded_at_utc": "2026-11-03T19:02:56.543900+00:00",
+  "owner_issue": "uibcdf/hydramp#1",
+  "consumer_issue": "uibcdf/peptidemt#8",
+  "authority": "Investigator direction to continue after presentation of the concrete24-forward FP64 comparison and its180s/512MiB CPU limits; limited to the prepared plan. Existing D39 diagnostic commission; no scientific acceptance inferred.",
+  "plan_path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-amp-fp64-ft8c0prd/plan.json",
+  "plan_sha256": "3035206916f0a95ef318f02f9195a12edc1ba031bf07584bca9c5d61fe432d3a",
+  "authorized_budget": {
+    "workers": 1,
+    "concurrent_workers": 1,
+    "cpu_affinity": [
+      0,
+      1
+    ],
+    "native_threads": 1,
+    "nice": 10,
+    "address_space_bytes": 1073741824,
+    "rss_stop_bytes": 536870912,
+    "minimum_mem_available_bytes": 8589934592,
+    "minimum_free_disk_bytes": 1073741824,
+    "worker_wall_seconds": 180,
+    "aggregate_worker_wall_seconds": 180,
+    "output_stop_bytes": 134217728,
+    "gpu": false,
+    "network": false,
+    "retries": 0,
+    "task_ram_budget_bytes": 4000000000,
+    "network_evaluations_total": 24,
+    "rows_per_network_evaluation": 16,
+    "numeric_parameter_arrays": 9,
+    "parameter_load_sets": 1,
+    "native_torch_tf_network_evaluations": 0,
+    "decoder_encoder_mic_pca_generation_descriptor_macrel_evaluations": 0,
+    "standalone_activation_replays": 0
+  },
+  "reference_controls": {
+    "embedding": 0.0,
+    "lstm1": 1e-10,
+    "pool": 1e-10,
+    "lstm2": 1e-10,
+    "logits": 1e-10,
+    "amp": 1e-12
+  },
+  "scope": "Same192 original token contexts,nine pinned AMP arrays once,24 FP64 full-head forwards using two layouts; saved-trace report included; no other scientific computation or retry.",
+  "not_granted": [
+    "Scientific or biological acceptance,new D40 disposition",
+    "Additional calls/retries or changed candidate/bundle",
+    "Production equations,weights,preprocessing,descriptors,selectors or tolerances changes",
+    "GPU,training,other models/routes/families,publication,commit,push"
+  ],
+  "host_preflight": {
+    "meminfo": {
+      "MemTotal": "32165612 kB",
+      "MemAvailable": "16492520 kB",
+      "SwapFree": "168 kB"
+    },
+    "disk_free_bytes": 2525579939840,
+    "io_pressure": "some avg10=1.84 avg60=2.09 avg300=10.39 total=26330775624\nfull avg10=1.75 avg60=1.97 avg300=10.12 total=25771894050",
+    "memory_pressure": "some avg10=0.01 avg60=0.22 avg300=0.22 total=345236313\nfull avg10=0.01 avg60=0.22 avg300=0.21 total=335082753",
+    "loadavg": "1.95 2.76 3.07 1/2615 58"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "schema": "peptidemt.hydramp_historical_real_implementation_authorization@1",
+  "recorded_at_utc": "2026-11-05T18:23:09.748474+00:00",
+  "decision": "D48",
+  "authority": "Explicit investigator approval in direct response to the implementation/codec-only question after review of the concrete real-score contract",
+  "owner_issue": "uibcdf/peptidemt#32",
+  "scientific_owner_issue": "uibcdf/hydramp#3",
+  "approved_contract": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/hydramp_historical_real_work_order.md",
+    "bytes": 17223,
+    "sha256": "1b08e464261a3190bff886e26fe42dd826903ec89a09a9beb91d0de611fc5972"
+  },
+  "approved_proposal": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-historical-real-xnq5tge9/plan-proposal.json",
+    "bytes": 42614,
+    "sha256": "8ecf7787f48bd5eb29ca693ffa0f2c4f439e639635e6c8c461f2bd1c01ecf89a"
+  },
+  "approved_contract_copy": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-historical-implementation-g7bo976i/approved_work_order.md",
+    "bytes": 17223,
+    "sha256": "1b08e464261a3190bff886e26fe42dd826903ec89a09a9beb91d0de611fc5972"
+  },
+  "approved_proposal_copy": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-historical-implementation-g7bo976i/approved_proposal.json",
+    "bytes": 42614,
+    "sha256": "8ecf7787f48bd5eb29ca693ffa0f2c4f439e639635e6c8c461f2bd1c01ecf89a"
+  },
+  "approved": {
+    "finite_learned_score_receiving_implementation": true,
+    "operator_and_method_double_scalar_controls": true,
+    "owner_codec_qualifications_per_provider": 1,
+    "codec_children_total": 2,
+    "codec_children_sequential": true,
+    "codec_child_wall_seconds": 180,
+    "codec_total_wall_seconds": 360,
+    "task_RAM_intent_bytes": 4000000000,
+    "aggregate_RSS_stop_bytes": 2147483648,
+    "per_child_address_space_bytes": 8589934592,
+    "CPU_ids": [
+      0,
+      1
+    ],
+    "numerical_threads": 1
+  },
+  "not_authorized": {
+    "model_loads": 0,
+    "neural_evaluations": 0,
+    "artificial_weight_networks": 0,
+    "real_model_execution": false,
+    "twelve_proposed_evaluations_approved": false,
+    "GPU_training_generation_Macrel_PCA_descriptors": false,
+    "public_API_admission_bundle_acceptance_changes": false,
+    "installation_commit_push_release_third_party_contact": false
+  },
+  "execution_boundary": "Actual implemented operator/worker/tests/native inputs and exact fresh host/call authorization must precede real-model work; exhausted earlier budgets remain exhausted"
+}

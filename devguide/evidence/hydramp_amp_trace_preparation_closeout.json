@@ -1,0 +1,28 @@
+{
+  "schema": "peptidemt.hydramp_amp_trace_preparation_closeout@1",
+  "recorded_at_utc": "2026-11-03T18:35:56.249898+00:00",
+  "owner_issue": "uibcdf/hydramp#1",
+  "consumer_issue": "uibcdf/peptidemt#8",
+  "status": "Preparation complete; exact new36-network/24-replay/2-reference budget pending approval",
+  "plan_sha256": "0e8b7b09234f92991f2f41e33b9b2f6f306986046674ca91d6d9b3122f0c93b5",
+  "producer_record_sha256": "782b45c2828e16009b6133fb09c86cb7a2160c43889a1b8a464390477a418850",
+  "checks": {
+    "guarded_artificial_pytest_checks": 16,
+    "native_zero_weight_graph_smoke": "pass,2 artificial forward endpoints bitwise identical",
+    "published_receptor": "1.2.2",
+    "byte_only_preflight": "pass",
+    "ruff_lint_format": "pass",
+    "relative_links_resolved": 178,
+    "report_indexes_current": true,
+    "whitespace": "pass",
+    "owning_issue_and_both_comments_verified": true,
+    "retained_preparation_artifacts_hash_verified": 47
+  },
+  "confirmed": "Artificial constant sigmoid runtime-kernel difference,legacy monotonicity counterexample,modern smaller error on162/272 against independent80-digit reference;not full-model superiority.",
+  "initial_native_smoke_failures_preserved": true,
+  "new_real_weight_trace_attempts": 0,
+  "new_model_pca_descriptor_macrel_calls": 0,
+  "scientific_acceptance": false,
+  "commit_or_push": false,
+  "retention_review": "2026-11-13"
+}

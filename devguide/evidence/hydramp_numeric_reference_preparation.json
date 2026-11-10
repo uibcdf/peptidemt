@@ -1,0 +1,154 @@
+{
+  "date": "2026-10-30",
+  "issue": "uibcdf/peptidemt#8",
+  "status": "Independent NumPy FP64 diagnostic prepared and synthetically tested; no real learned-parameter reference evaluation. Fresh arithmetic/call budget pending.",
+  "worktree": "/home/liliana/repos@uibcdf/hydramp/local_data/pytorch-gru-layout",
+  "task_directory": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-fp64-reference-hhsdppyc",
+  "plan_path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-fp64-reference-hhsdppyc/plan.json",
+  "plan": {
+    "bytes": 27009,
+    "sha256": "bd5ad87eb20b1542ed21d8b07c0e91ec628126d23afa6ff708dc18d5166b1c19"
+  },
+  "worker_path": "/home/liliana/repos@uibcdf/hydramp/local_data/pytorch-gru-layout/ports/pytorch/devtools/numeric_reference.py",
+  "worker": {
+    "bytes": 13180,
+    "sha256": "be31c78e063f5d15142c6b750ccd169689396f95562b38c342f6ac06f3e58e6f"
+  },
+  "control": {
+    "bytes": 19017,
+    "sha256": "197672a0e2bbf618114e7814041555af8ebb40b4a19e5105a1040fa1a809328e"
+  },
+  "runtime_inventory_count": 7,
+  "engines_present": [],
+  "native_dependency_check_exit": 0,
+  "requirements": {
+    "versions": {
+      "bytes": 114,
+      "sha256": "2fdda43aebb4d4d3eb66f98296dd6c9d3507cb1c40c7ea9f3a0a3bdb9f03f990"
+    },
+    "exact_wheel_urls_and_sha256": {
+      "bytes": 1601,
+      "sha256": "4c9c9373757f6385437017e2168061de13a802fb2ee18c664e3d7bad7f447220"
+    },
+    "source": "Seven matching versions and host-compatible official PyPI wheel hashes from the existing frozen project uv.lock. No version/dependency override."
+  },
+  "acquisition_notes": "Two offline installation routes could not reuse the required cache mappings; their failures are preserved. Final direct official URLs with existing SHA256 fetched the same seven wheels. Native closure passes. Acquisition network is separate from prohibited model-time network.",
+  "contract": {
+    "purpose": "Compare existing native/dev0/dev1 float32 traces against an independent approximate FP64 mathematical reference before choosing another code change or discussing tolerance.",
+    "input": "Same saved twelve conditioned rows, round to float32 first exactly as the two frameworks do, then use float64 arithmetic.",
+    "parameters": "One load of eight pinned decoder NPY arrays, convert their exact float32 values to float64. No model/PCA deserialization.",
+    "formulations": [
+      "Separate gate products",
+      "Grouped gate products"
+    ],
+    "calls": "Exactly two full NumPy FP64 decoder evaluations in one worker; no TF/Torch/AMP/MIC/Macrel call.",
+    "unchanged": "No deployment dtype/code/threshold modification, adoption or automatic retry; the prior float32 failures remain recorded.",
+    "interpretation": "FP64 reference is approximate, not exact arithmetic or biological ground truth. Agreement between formulations and errors against each recorded framework are diagnostic only."
+  },
+  "budget": {
+    "workers": 1,
+    "concurrent_workers": 1,
+    "cpu_affinity": [
+      0,
+      1
+    ],
+    "native_threads": 1,
+    "nice": 10,
+    "address_space_bytes": 8589934592,
+    "rss_stop_bytes": 2147483648,
+    "minimum_mem_available_bytes": 8589934592,
+    "worker_wall_seconds": 180,
+    "aggregate_worker_wall_seconds": 180,
+    "output_stop_bytes": 134217728,
+    "minimum_free_disk_bytes": 1073741824,
+    "gpu": false,
+    "network": false,
+    "retries": 0,
+    "legacy_model_constructions": 0,
+    "torch_model_constructions": 0,
+    "pca_pickle_loads": 0,
+    "pca_coefficient_exports": 0,
+    "pca_inverse_transforms_per_worker": 0,
+    "decoder_evaluations_per_worker": 2,
+    "amp_evaluations_per_worker": 0,
+    "mic_evaluations_per_worker": 0,
+    "rows_per_network_evaluation": 12,
+    "network_evaluations_total": 2,
+    "unconstrained_generation_calls": 0,
+    "descriptor_calls": 0,
+    "macrel_calls": 0,
+    "task_ram_budget_bytes": 4000000000,
+    "task_ram_budget_implementation": "One model worker at a time, sampled worker RSS stop at 2 GiB; small stdlib supervisor measured separately. The unchanged 8 GiB virtual address-space ceiling is not a RAM allocation.",
+    "numerical_reference_forwards": 2,
+    "numerical_parameter_sets": 1
+  },
+  "reference_internal_band": {
+    "atol": 1e-10,
+    "rtol": 1e-10,
+    "role": "Internal agreement of two FP64 mathematical formulations; not a deployment acceptance criterion."
+  },
+  "unchanged_float32_band": {
+    "purpose": "Implementation fidelity diagnosis only; investigator scientific acceptance is separate.",
+    "pca_atol": 1e-10,
+    "pca_rtol": 1e-10,
+    "float32_atol": 2e-06,
+    "float32_rtol": 2e-05,
+    "argmax_tokens": "exact",
+    "sequence_strings": "exact, in original occurrence order",
+    "nonfinite": "fail",
+    "mismatch": "report and stop; no tolerance relaxation or automatic retry"
+  },
+  "source_implementation_context": {
+    "header_files": {
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-h1-20261030-6jc5a1me/worker/lib/python3.8/site-packages/tensorflow/include/Eigen/src/Core/functors/UnaryFunctors.h": {
+        "bytes": 36350,
+        "sha256": "dfb51d8f1001fb1fb7aad5eb8a65f74b55a3fdd918088dacf36cd4668518da32"
+      },
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-gru-candidate-onrd97e8/worker/lib/python3.14/site-packages/torch/include/ATen/cpu/vec/vec256/vec256_float.h": {
+        "bytes": 30093,
+        "sha256": "6bdbb64ccd2c5f1743a418afbf28525b3c49db7ec73b18a384659f9051f21312"
+      }
+    },
+    "observed": "Installed Eigen header has a float packet logistic rational approximation; installed Torch header includes a vector SLEEF tanh path. Runtime dispatch was not measured; these files do not prove the trained-case root cause."
+  },
+  "checks": {
+    "synthetic_pytest": {
+      "exit": 0,
+      "passed": 13,
+      "failed": 0,
+      "skipped": 0,
+      "scope": "Artificial scalar/closed-form/grouping/input-rounding checks only; real artifact opens, network and deep-learning imports blocked."
+    },
+    "preflight": "Byte-only passed: source and fixed artifacts; no learned tensor deserialization.",
+    "prior_endpoint_bits": {
+      "legacy": {
+        "uint32_bit_patterns_equal": true,
+        "probability_bytes_sha256": "7f55d687861d0c11c0ce17099b7cadf1bbb8e0f48944bc52d5dfd3f0d5e60485"
+      },
+      "torch": {
+        "uint32_bit_patterns_equal": true,
+        "probability_bytes_sha256": "2e2d55e84222d017ca680b9f85bebb059c52244c175d1df0592f20986cfc4435"
+      }
+    },
+    "candidate_failure_preserved": true,
+    "worker_metadata_guard": "Final extra guard checks Python3.14 and reports origins; mathematical routines are identical to the thirteen-test run."
+  },
+  "prior_failed_candidate_receipt": {
+    "bytes": 14146,
+    "sha256": "53b1316b3a579070c07715c3e6aa95988c794d8acddf1f0d7fc39bdf53977f79"
+  },
+  "real_reference_execution": {
+    "learned_parameter_loads": 0,
+    "numerical_forwards": 0,
+    "tensorflow_forwards": 0,
+    "torch_forwards": 0,
+    "pca_loads": 0,
+    "head_forwards": 0,
+    "macrel_calls": 0,
+    "gpu_computation": false
+  },
+  "not_authorized": "No production precision/code/threshold change, scientific acceptance, new model or automatic retry. The two real numerical forwards require separate explicit approval.",
+  "schema": "peptidemt.hydramp_numeric_reference_preparation@1",
+  "producer_record": "devguide/evidence/pytorch_numeric_reference_preparation.json in local peptidemt-pytorch-gru-layout worktree",
+  "producer_record_sha256": "5ce49c733471c3fad9342f41a2e96490924a2168c85c3f41f4bc53b7d4880f25"
+}

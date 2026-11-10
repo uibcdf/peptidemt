@@ -1,0 +1,42 @@
+{
+  "schema": "peptidemt.hydramp_redesign_preparation_closeout@1",
+  "date": "2026-11-04",
+  "D44_acceptance_sha256": "60a8f003cf80a39a84cb722ffd6d7d377cff38fd6abea2dcc9b02bab19ea42f8",
+  "consumer_work_order_sha256": "876ef80c5629dc74cf9e541bcf5f1d257ed37f28a0148f5e435a738c8a47fd71",
+  "checks": {
+    "reporting_guard": "1 passed, 0.11s, published Receptor llm format",
+    "generated_indexes": "current; lifecycle remains partial",
+    "documentation_relative_file_links": 296,
+    "missing_links": 0,
+    "whitespace": "passes",
+    "owner_acceptance_receipt": "byte-identical",
+    "inspected_sources": "all raw-byte hashes still match"
+  },
+  "issue_updates": [
+    {
+      "repository": "uibcdf/hydramp",
+      "id": 6640934307,
+      "url": "https://github.com/uibcdf/hydramp/issues/4#issuecomment-6640934307",
+      "exact_body_verified_by_readback": true
+    },
+    {
+      "repository": "uibcdf/peptidemt",
+      "id": 6640941517,
+      "url": "https://github.com/uibcdf/peptidemt/issues/32#issuecomment-6640941517",
+      "exact_body_verified_by_readback": true
+    }
+  ],
+  "new_issues": 0,
+  "new_runtime_code": false,
+  "new_pretrained_or_Macrel_calls": 0,
+  "consumer_contract_approved": false,
+  "temporary_resources": {
+    "paths": [
+      "/tmp/peptidemt-dev5-acceptance-delivery"
+    ],
+    "reason": "Review staging for delivered owner records; contains no model assets",
+    "review_by": "2026-11-18",
+    "cleanup_condition": "Review handoff complete; preserve only exact evidence needed by owner"
+  },
+  "commit_push_release_or_external_contact": false
+}

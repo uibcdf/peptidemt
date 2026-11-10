@@ -1,0 +1,53 @@
+{
+  "schema": "peptidemt.gru_candidate_authorization@1",
+  "date": "2026-10-30",
+  "recorded_at_utc": "2026-10-30T23:34:37.453897+00:00",
+  "issue": "uibcdf/peptidemt#8",
+  "authority": "Investigator instructed continuation in direct response to the exact one-forward candidate authorization request.",
+  "approved_plan_path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-gru-candidate-onrd97e8/validation-plan.json",
+  "approved_plan_sha256": "9ebb32814d91e05a94a7a879eb918a0b86230e676d5634a39e53eb7f0f700396",
+  "candidate_wheel_sha256": "1ea26260899236549d77cb36a206c55e91e2cf6e9080d1fa9a1a5369c1718fc8",
+  "budget": {
+    "workers": 1,
+    "concurrent_workers": 1,
+    "cpu_affinity": [
+      0,
+      1
+    ],
+    "native_threads": 1,
+    "nice": 10,
+    "address_space_bytes": 8589934592,
+    "rss_stop_bytes": 2147483648,
+    "minimum_mem_available_bytes": 8589934592,
+    "worker_wall_seconds": 180,
+    "aggregate_worker_wall_seconds": 180,
+    "output_stop_bytes": 134217728,
+    "minimum_free_disk_bytes": 1073741824,
+    "gpu": false,
+    "network": false,
+    "retries": 0,
+    "legacy_model_constructions": 0,
+    "torch_model_constructions": 1,
+    "pca_pickle_loads": 0,
+    "pca_coefficient_exports": 0,
+    "pca_inverse_transforms_per_worker": 0,
+    "decoder_evaluations_per_worker": 1,
+    "amp_evaluations_per_worker": 0,
+    "mic_evaluations_per_worker": 0,
+    "rows_per_network_evaluation": 12,
+    "network_evaluations_total": 1,
+    "unconstrained_generation_calls": 0,
+    "descriptor_calls": 0,
+    "macrel_calls": 0,
+    "task_ram_budget_bytes": 4000000000,
+    "task_ram_budget_implementation": "One model worker at a time, sampled worker RSS stop at 2 GiB; small stdlib supervisor measured separately. The unchanged 8 GiB virtual address-space ceiling is not a RAM allocation."
+  },
+  "contract": {
+    "candidate": "Isolated dev1 artifact: GRU update/reset recurrent products combined to match Keras implementation2; same equations/weights/dtype.",
+    "evaluation": "One candidate decoder forward on the same saved twelve conditioned rows; capture four existing intermediates in that single call.",
+    "reference": "Retained native trace, whose endpoint was bitwise equal to the original canonical output. No new TF/PCA/head run.",
+    "pass": "Unchanged probability tolerance and exact original tokens/strings. Intermediate metrics are diagnostic only; no scientific acceptance.",
+    "no_retry": "One attempt; report failure without widening tolerance or starting another model run."
+  },
+  "scope": "Exactly one dev1 candidate decoder forward on twelve retained conditioned inputs; no new native/PCA/head call, GPU, retry, tolerance change or scientific acceptance."
+}

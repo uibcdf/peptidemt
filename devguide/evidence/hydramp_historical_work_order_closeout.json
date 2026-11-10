@@ -1,0 +1,58 @@
+{
+  "schema": "peptidemt.hydramp_historical_work_order_closeout@1",
+  "date": "2026-11-04",
+  "status": "D46 adopted for finite view/scope; work order and controlled-fixture design delivered, implementation not commissioned",
+  "authorization": "hydramp_historical_view_authorization.json",
+  "authorization_sha256": "aaad0147790da3af47ca1703e2ce117150126d832062975959d6025f7a86f4a6",
+  "preparation": "hydramp_historical_work_order_preparation.json",
+  "preparation_sha256": "0187efab059b97e10818feb6bc41a96d5a4112eeb14bbfc8bf8fc6e1dfda596a",
+  "checks": {
+    "new_source_artifact_identities_verified": 19,
+    "prior_source_artifact_identities_unchanged": 18,
+    "relative_file_links_checked": 244,
+    "missing_relative_links": 0,
+    "generated_reporting_indexes": "current",
+    "whitespace": "PASS",
+    "canonical_guide_byte_identical": true,
+    "controlled_fixture_cases_designed": 18,
+    "controlled_fixture_cases_implemented": 0,
+    "controlled_fixture_cases_executed": 0,
+    "native_payloads_or_model_calls": 0,
+    "general_admission_unchanged": true
+  },
+  "scope_clarification": "Investigator-approved finite chemistry/model-view relation and ATCC 25922 review scope are no longer pending. Implementation, biological endpoint/class truth, cohort qualification and any model execution remain separate.",
+  "workspace": {
+    "official_bounded_status_exit": 1,
+    "cause": "attention: preserved PeptideMT dirty work and clean MolSysMT 93 commits behind",
+    "fetch_errors": 0,
+    "no_merge_stash_cleanup_or_worktree_update": true
+  },
+  "issue_updates": [
+    {
+      "repository": "uibcdf/hydramp",
+      "issue": 3,
+      "id": 6648456362,
+      "url": "https://github.com/uibcdf/hydramp/issues/3#issuecomment-6648456362",
+      "exact_body_verified": true
+    },
+    {
+      "repository": "uibcdf/peptidemt",
+      "issue": 32,
+      "id": 6648466421,
+      "url": "https://github.com/uibcdf/peptidemt/issues/32#issuecomment-6648466421",
+      "exact_body_verified": true
+    }
+  ],
+  "issue_disposition": "Existing HydrAMP#3 and PeptideMT#32 remain open. Separate product review stays with HydrAMP#4. No new issue or external publication.",
+  "delivery": "D46 decision and durable instruction route; current work order; authorization/preparation/closeout receipts; narrow navigation/consumer-report updates; ignored data/design artifacts. No runtime source or environment change, installation, model/molecular call, commit/push/release or author contact.",
+  "pending": [
+    "Commission of the concrete data-only receiver/inspection-replay implementation",
+    "C0 source-use/exposure and biological assay/chemistry/endpoint qualification",
+    "Independent measured cohort and relatedness policy",
+    "Any later native model stage: exact bundle/input/batch/host/call approval"
+  ],
+  "retention": {
+    "owner": "HydrAMP#3 / PeptideMT#32",
+    "review_by": "2026-11-18"
+  }
+}

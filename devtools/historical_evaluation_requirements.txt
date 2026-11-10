@@ -1,0 +1,8 @@
+# Optional developer qualification profile for D47 synthetic metric controls.
+# These are tested exact versions, not package runtime dependencies/API floors.
+# Routine use stays in the authorized molsyssuite@uibcdf_3.14 shared profile.
+scikit-learn==1.9.1
+numpy==2.4.6
+scipy==1.18.1
+threadpoolctl==3.7.0
+joblib==1.6.0

@@ -1,0 +1,540 @@
+{
+  "schema": "peptidemt.hydramp_confidence_authorization@1",
+  "date": "2026-11-03",
+  "recorded_at_utc": "2026-11-03T17:09:23.026309+00:00",
+  "issue": "uibcdf/peptidemt#8",
+  "authority": "Investigator explicitly selected Autorizar la campa\u00f1a CPU con estos l\u00edmites in response to the exact plan/candidate/132-forward resource approval request.",
+  "approved_plan_path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-confidence-pvxbhixg/plan.json",
+  "approved_plan_sha256": "eec881986bdacd41b3409a9de33afecc5460ce561d8d6e319ffebb1c576a7b59",
+  "candidate_wheel_sha256": "81761e0d48d92f0956e0afc28b3b4154f16032de53c666fd2cfbb53606102ed7",
+  "source_commit": "6590d2f4c2963f25d30669052a4c4a857e0e7279",
+  "starter_commit": "7804df862872ccc6d09fe01c41bafbca194cfa31",
+  "budget": {
+    "workers": 2,
+    "concurrent_workers": 1,
+    "cpu_affinity": [
+      0,
+      1
+    ],
+    "native_threads": 1,
+    "nice": 10,
+    "address_space_bytes": 8589934592,
+    "rss_stop_bytes": 2147483648,
+    "minimum_mem_available_bytes": 8589934592,
+    "worker_wall_seconds": 180,
+    "aggregate_worker_wall_seconds": 360,
+    "output_stop_bytes": 134217728,
+    "minimum_free_disk_bytes": 1073741824,
+    "gpu": false,
+    "network": false,
+    "retries": 0,
+    "legacy_model_constructions": 1,
+    "torch_model_constructions": 1,
+    "pca_pickle_loads": 1,
+    "pca_coefficient_exports": 0,
+    "pca_inverse_transforms_per_worker": 17,
+    "decoder_evaluations_per_worker": 22,
+    "amp_evaluations_per_worker": 22,
+    "mic_evaluations_per_worker": 22,
+    "network_evaluations_total": 132,
+    "unconstrained_generation_calls": 34,
+    "descriptor_calls": 34,
+    "macrel_calls": 0,
+    "task_ram_budget_bytes": 4000000000,
+    "task_ram_budget_implementation": "One model worker at a time, sampled worker RSS stop at 2 GiB; small stdlib supervisor measured separately. The unchanged 8 GiB virtual address-space ceiling is not a RAM allocation.",
+    "pca_numeric_loads": 1,
+    "rows_per_network_evaluation_max": 16,
+    "generation_requested_outputs_per_worker": 272,
+    "generation_api_calls_total": 34,
+    "descriptor_bundles_total": 34,
+    "encoder_forward_evaluations": 0,
+    "public_fixture_head_calls": 0,
+    "core_layout_control_calls_total": 10
+  },
+  "input_manifest": {
+    "schema": "hydramp.confidence_inputs@1",
+    "unique_latent_rows": 256,
+    "requests": [
+      {
+        "tag": "seed_1001",
+        "seed": 1001,
+        "n_target": 16,
+        "latent_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ]
+      },
+      {
+        "tag": "seed_1002",
+        "seed": 1002,
+        "n_target": 16,
+        "latent_indices": [
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31
+        ]
+      },
+      {
+        "tag": "seed_1003",
+        "seed": 1003,
+        "n_target": 16,
+        "latent_indices": [
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47
+        ]
+      },
+      {
+        "tag": "seed_1004",
+        "seed": 1004,
+        "n_target": 16,
+        "latent_indices": [
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63
+        ]
+      },
+      {
+        "tag": "seed_1005",
+        "seed": 1005,
+        "n_target": 16,
+        "latent_indices": [
+          64,
+          65,
+          66,
+          67,
+          68,
+          69,
+          70,
+          71,
+          72,
+          73,
+          74,
+          75,
+          76,
+          77,
+          78,
+          79
+        ]
+      },
+      {
+        "tag": "seed_1006",
+        "seed": 1006,
+        "n_target": 16,
+        "latent_indices": [
+          80,
+          81,
+          82,
+          83,
+          84,
+          85,
+          86,
+          87,
+          88,
+          89,
+          90,
+          91,
+          92,
+          93,
+          94,
+          95
+        ]
+      },
+      {
+        "tag": "seed_1007",
+        "seed": 1007,
+        "n_target": 16,
+        "latent_indices": [
+          96,
+          97,
+          98,
+          99,
+          100,
+          101,
+          102,
+          103,
+          104,
+          105,
+          106,
+          107,
+          108,
+          109,
+          110,
+          111
+        ]
+      },
+      {
+        "tag": "seed_1008",
+        "seed": 1008,
+        "n_target": 16,
+        "latent_indices": [
+          112,
+          113,
+          114,
+          115,
+          116,
+          117,
+          118,
+          119,
+          120,
+          121,
+          122,
+          123,
+          124,
+          125,
+          126,
+          127
+        ]
+      },
+      {
+        "tag": "seed_1009",
+        "seed": 1009,
+        "n_target": 16,
+        "latent_indices": [
+          128,
+          129,
+          130,
+          131,
+          132,
+          133,
+          134,
+          135,
+          136,
+          137,
+          138,
+          139,
+          140,
+          141,
+          142,
+          143
+        ]
+      },
+      {
+        "tag": "seed_1010",
+        "seed": 1010,
+        "n_target": 16,
+        "latent_indices": [
+          144,
+          145,
+          146,
+          147,
+          148,
+          149,
+          150,
+          151,
+          152,
+          153,
+          154,
+          155,
+          156,
+          157,
+          158,
+          159
+        ]
+      },
+      {
+        "tag": "seed_1011",
+        "seed": 1011,
+        "n_target": 16,
+        "latent_indices": [
+          160,
+          161,
+          162,
+          163,
+          164,
+          165,
+          166,
+          167,
+          168,
+          169,
+          170,
+          171,
+          172,
+          173,
+          174,
+          175
+        ]
+      },
+      {
+        "tag": "seed_1012",
+        "seed": 1012,
+        "n_target": 16,
+        "latent_indices": [
+          176,
+          177,
+          178,
+          179,
+          180,
+          181,
+          182,
+          183,
+          184,
+          185,
+          186,
+          187,
+          188,
+          189,
+          190,
+          191
+        ]
+      },
+      {
+        "tag": "seed_1013",
+        "seed": 1013,
+        "n_target": 16,
+        "latent_indices": [
+          192,
+          193,
+          194,
+          195,
+          196,
+          197,
+          198,
+          199,
+          200,
+          201,
+          202,
+          203,
+          204,
+          205,
+          206,
+          207
+        ]
+      },
+      {
+        "tag": "seed_1014",
+        "seed": 1014,
+        "n_target": 16,
+        "latent_indices": [
+          208,
+          209,
+          210,
+          211,
+          212,
+          213,
+          214,
+          215,
+          216,
+          217,
+          218,
+          219,
+          220,
+          221,
+          222,
+          223
+        ]
+      },
+      {
+        "tag": "seed_1015",
+        "seed": 1015,
+        "n_target": 16,
+        "latent_indices": [
+          224,
+          225,
+          226,
+          227,
+          228,
+          229,
+          230,
+          231,
+          232,
+          233,
+          234,
+          235,
+          236,
+          237,
+          238,
+          239
+        ]
+      },
+      {
+        "tag": "seed_1016",
+        "seed": 1016,
+        "n_target": 16,
+        "latent_indices": [
+          240,
+          241,
+          242,
+          243,
+          244,
+          245,
+          246,
+          247,
+          248,
+          249,
+          250,
+          251,
+          252,
+          253,
+          254,
+          255
+        ]
+      },
+      {
+        "tag": "repeat_1001",
+        "seed": 1001,
+        "n_target": 16,
+        "latent_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ]
+      }
+    ],
+    "controls": [
+      {
+        "tag": "partition_1",
+        "source_tag": "seed_1001",
+        "indices": [
+          0
+        ]
+      },
+      {
+        "tag": "partition_3",
+        "source_tag": "seed_1001",
+        "indices": [
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "tag": "partition_12",
+        "source_tag": "seed_1001",
+        "indices": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ]
+      },
+      {
+        "tag": "reverse_16",
+        "source_tag": "seed_1001",
+        "indices": [
+          15,
+          14,
+          13,
+          12,
+          11,
+          10,
+          9,
+          8,
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1,
+          0
+        ]
+      },
+      {
+        "tag": "duplicates_4",
+        "source_tag": "seed_1001",
+        "indices": [
+          0,
+          1,
+          0,
+          1
+        ]
+      }
+    ],
+    "route": {
+      "softmax": true,
+      "mode": "amp",
+      "filter_out": false,
+      "properties": true,
+      "n_attempts": 1
+    }
+  },
+  "bundle_use": "Bounded local research comparison of publisher-attributed epoch-37 checkpoint and PCA. Retain University of Warsaw MIT notices and method attribution; no redistribution, training, commercial/output-rights clearance or scientific adoption.",
+  "host_before_launch": {
+    "ram_available_bytes": 17523945472,
+    "swap_free_bytes": 925696,
+    "disk_free_bytes": 2539060551680
+  },
+  "scope": "Execute the two declared sequential CPU stages once: 132 network forwards,34 public generation calls,34 descriptor bundles,one original PCA pickle load and one retained numeric-PCA load. No new export,encoder forward,Macrel,GPU,network,retry/refill.",
+  "not_granted": [
+    "Further model calls,automatic retries or renewed budgets",
+    "Tolerance/equation/weight/descriptor changes",
+    "Scientific acceptance or D40 extension",
+    "Training,new model/family,analogue/target-conditioned/Gumbel route",
+    "Commit,push,package or weights publication"
+  ]
+}

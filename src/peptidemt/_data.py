@@ -1,7 +1,22 @@
 """Immutable, detached result data and lossless JSON encoding (no engine imports)."""
 
+import json
 from collections.abc import Mapping
 from types import MappingProxyType
+
+
+def load_json(text):
+    """Read detached JSON without silently overwriting duplicate object keys."""
+
+    def unique_pairs(pairs):
+        result = {}
+        for key, value in pairs:
+            if key in result:
+                raise ValueError(f"Duplicate JSON key: {key}")
+            result[key] = value
+        return result
+
+    return json.loads(text, object_pairs_hook=unique_pairs)
 
 
 def freeze(value):

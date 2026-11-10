@@ -1,0 +1,30 @@
+{
+  "schema": "peptidemt.hydramp_encoder_E1_closeout@1",
+  "recorded_at_utc": "2026-11-04T13:45:47.847599+00:00",
+  "scope": "D42/E1 artificial implementation and installed checks; not E2",
+  "evidence_sha256": "4d2dded068d7e5cae1b4fcfa71147832776eee632b8b79ac4c9e4e0539801fc6",
+  "artifact_hash_checks": 38,
+  "local_links_checked": 227,
+  "consumer_owner_evidence_bytes_identical": true,
+  "native_checks": {
+    "peptidemt_ruff_check": "pass",
+    "peptidemt_ruff_format_check": "141 files already formatted",
+    "owner_targeted_ruff_check": "pass",
+    "owner_targeted_ruff_format_check": "5 files already formatted",
+    "devguide_indexes": "current; no lifecycle transition",
+    "both_git_diff_check": "pass",
+    "owner_legacy_amp_and_LICENSE_diff": "empty",
+    "check_execution": "Native commands completed successfully in this E1 turn before closeout; no Actions/CI/scientific claim"
+  },
+  "installed_artificial_tests": {
+    "passed": 95,
+    "encoder": 41,
+    "prior_regressions": 54
+  },
+  "issue_updates_receipt": "hydramp_encoder_E1_issue_updates.json",
+  "owner_and_consumer_issues_remain_open": true,
+  "E2_real_weights_approved_or_executed": false,
+  "accepted_dev3_unchanged": true,
+  "new_commits_pushes_releases_or_external_contacts": [],
+  "next_boundary": "Prepare exact E2 original/modern assets/ordered inputs/reference construction/prospective criteria and finite host/call plan before seeking execution approval"
+}

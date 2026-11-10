@@ -1,0 +1,76 @@
+{
+  "schema": "peptidemt.hydramp_full_comparison_authorization@1",
+  "date": "2026-11-03",
+  "recorded_at_utc": "2026-11-03T16:17:26.663467+00:00",
+  "issue": "uibcdf/peptidemt#8",
+  "authority": "Investigator explicitly instructed continuation in direct response to the exact full-comparison approval question and its candidate/budget report. This authorizes the presented immutable plan, not further or repeated calls.",
+  "approved_plan_path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-comparison-qnbdpism/plan.json",
+  "approved_plan_sha256": "b019e1dfa4e8c61ed667198b73dd7b09dfb5308459225399c84c9eb54beae929",
+  "candidate_wheel_sha256": "81761e0d48d92f0956e0afc28b3b4154f16032de53c666fd2cfbb53606102ed7",
+  "budget": {
+    "workers": 2,
+    "concurrent_workers": 1,
+    "cpu_affinity": [
+      0,
+      1
+    ],
+    "native_threads": 1,
+    "nice": 10,
+    "address_space_bytes": 8589934592,
+    "rss_stop_bytes": 2147483648,
+    "minimum_mem_available_bytes": 8589934592,
+    "worker_wall_seconds": 180,
+    "aggregate_worker_wall_seconds": 360,
+    "output_stop_bytes": 134217728,
+    "minimum_free_disk_bytes": 1073741824,
+    "gpu": false,
+    "network": false,
+    "retries": 0,
+    "legacy_model_constructions": 1,
+    "torch_model_constructions": 1,
+    "pca_pickle_loads": 1,
+    "pca_coefficient_exports": 0,
+    "pca_inverse_transforms_per_worker": 3,
+    "decoder_evaluations_per_worker": 3,
+    "amp_evaluations_per_worker": 4,
+    "mic_evaluations_per_worker": 4,
+    "network_evaluations_total": 22,
+    "unconstrained_generation_calls": 6,
+    "descriptor_calls": 6,
+    "macrel_calls": 0,
+    "task_ram_budget_bytes": 4000000000,
+    "task_ram_budget_implementation": "One model worker at a time, sampled worker RSS stop at 2 GiB; small stdlib supervisor measured separately. The unchanged 8 GiB virtual address-space ceiling is not a RAM allocation.",
+    "pca_numeric_loads": 1,
+    "rows_per_network_evaluation_max": 16,
+    "generation_requested_outputs_per_worker": 36,
+    "generation_api_calls_total": 6,
+    "descriptor_bundles_total": 6,
+    "fixture_rows_per_head": 8,
+    "encoder_forward_evaluations": 0
+  },
+  "requests": [
+    {
+      "tag": "smoke",
+      "n_target": 4,
+      "seed": 101
+    },
+    {
+      "tag": "repeat_a",
+      "n_target": 16,
+      "seed": 202
+    },
+    {
+      "tag": "repeat_b",
+      "n_target": 16,
+      "seed": 202
+    }
+  ],
+  "bundle_use": "Same pinned original source/starter/assets and local research qualification use, with the explicitly configured modern modlAMP profile. No redistribution or general acceptance.",
+  "scope": "Six generation API calls,22 network forwards,six generation descriptor bundles; one original PCA pickle load and one existing numeric-PCA load. Sequential CPU only. Stop/report failure, no retry or threshold changes.",
+  "not_granted": [
+    "Further budgets or automatic refill",
+    "GPU,training,other generator routes,Macrel or new scientific models",
+    "D40 extension or complete HydrAMP scientific acceptance",
+    "Commit,push,package/model publication"
+  ]
+}

@@ -1,0 +1,444 @@
+{
+  "schema": "peptidemt.hydramp_workflow_tutorial@1",
+  "date": "2026-11-03",
+  "recorded_at_utc": "2026-11-04T00:41:16.894877+00:00",
+  "issue": "uibcdf/peptidemt#32",
+  "status": "Retained-data tutorial delivered and guarded installed replay passes; broader scientific follow-ups remain open",
+  "authority": "Investigator requests continuing after D41; existing #32 includes retained-data workflow tutorial.",
+  "consumer_wheel": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/artifacts/peptidemt-0.1.0+118.g1f8c444.dirty-py3-none-any.whl",
+    "bytes": 41283,
+    "sha256": "18b1cb18b9662092203aad9c64d45bc0d61a862577297c13a664572dbdbc3e83"
+  },
+  "package_python_files_unchanged_in_source_and_both_prefixes": 22,
+  "original_H4_evidence": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/evidence/hydramp_h4_execution.json",
+    "bytes": 22204,
+    "sha256": "074eab1b6d4df5660b8c1a30498761eef5c3759992b8e3ec582bdd8a490315cc"
+  },
+  "public_adapter_evidence": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/evidence/hydramp_execution_adapter_corrected_execution.json",
+    "bytes": 7152,
+    "sha256": "8c3d8fdee4b35fc45c5de22d248c0d4e4da421b3344d0f06ac33fa814e0f6f88"
+  },
+  "validation": {
+    "schema": "peptidemt.hydramp_workflow_tutorial_checks@1",
+    "recorded_at_utc": "2026-11-04T00:39:16.944853+00:00",
+    "records": [
+      {
+        "case": "seed_1001",
+        "exit_code": 0,
+        "wall_seconds": 0.1529140940401703,
+        "generation": {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-h4-qualification-mc6nax6v/run/assessment/seed_1001-generation.json",
+          "sha256": "ecf2b2744a573b93dae55975562c0ddd7bf8a7486fe7e75c19ca93a3c8ee3161"
+        },
+        "assessment": {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-h4-qualification-mc6nax6v/run/assessment/seed_1001-assessment.json",
+          "sha256": "580d24df56b56c1a70284c5e0467fa1503a1cafd113e4891b6eb28449acacf78"
+        },
+        "new_scientific_calls": 0,
+        "saved_summary": {
+          "mode": "saved-data replay; no scientific engine execution",
+          "generation_snapshot": "H4-seed-1001",
+          "assessment_snapshot": "H4-seed_1001",
+          "generation_sha256": "ecf2b2744a573b93dae55975562c0ddd7bf8a7486fe7e75c19ca93a3c8ee3161",
+          "assessment_sha256": "580d24df56b56c1a70284c5e0467fa1503a1cafd113e4891b6eb28449acacf78",
+          "proposed_occurrences": 16,
+          "eligible_occurrences": 15,
+          "excluded": [
+            [
+              "input-10",
+              [
+                "sequence_changing_native_preprocessing"
+              ]
+            ]
+          ],
+          "reported_failures": {},
+          "row_anomalies": [],
+          "eligible_native_labels": {
+            "AMP_positive": 4,
+            "AMP_positive_and_NonHemo": 0
+          },
+          "selections": {
+            "amp-first": {
+              "requested_count": 4,
+              "ranking": [
+                "input-0",
+                "input-6",
+                "input-1",
+                "input-9",
+                "input-7",
+                "input-2",
+                "input-13",
+                "input-4",
+                "input-3",
+                "input-5",
+                "input-12",
+                "input-15",
+                "input-11",
+                "input-8",
+                "input-14"
+              ],
+              "selected": [
+                "input-0",
+                "input-6",
+                "input-1",
+                "input-9"
+              ],
+              "unselected": [
+                "input-7",
+                "input-2",
+                "input-13",
+                "input-4",
+                "input-3",
+                "input-5",
+                "input-12",
+                "input-15",
+                "input-11",
+                "input-8",
+                "input-14"
+              ]
+            },
+            "hemolysis-first": {
+              "requested_count": 4,
+              "ranking": [
+                "input-8",
+                "input-14",
+                "input-13",
+                "input-15",
+                "input-11",
+                "input-3",
+                "input-12",
+                "input-5",
+                "input-7",
+                "input-9",
+                "input-6",
+                "input-4",
+                "input-2",
+                "input-1",
+                "input-0"
+              ],
+              "selected": [
+                "input-8",
+                "input-14",
+                "input-13",
+                "input-15"
+              ],
+              "unselected": [
+                "input-11",
+                "input-3",
+                "input-12",
+                "input-5",
+                "input-7",
+                "input-9",
+                "input-6",
+                "input-4",
+                "input-2",
+                "input-1",
+                "input-0"
+              ]
+            }
+          },
+          "new_scientific_calls": 0
+        }
+      },
+      {
+        "case": "seed_1002",
+        "exit_code": 0,
+        "wall_seconds": 0.16916355700232089,
+        "generation": {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-h4-qualification-mc6nax6v/run/assessment/seed_1002-generation.json",
+          "sha256": "12561ebc504c6f8da7ac031830bcc634821cc2be6739907f76fe6cea53b1637a"
+        },
+        "assessment": {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-h4-qualification-mc6nax6v/run/assessment/seed_1002-assessment.json",
+          "sha256": "3a63dc1249b20a656fe1d480be3b056882cb2b9e38ee33f6b89f92aa3df39adc"
+        },
+        "new_scientific_calls": 0,
+        "saved_summary": {
+          "mode": "saved-data replay; no scientific engine execution",
+          "generation_snapshot": "H4-seed-1002",
+          "assessment_snapshot": "H4-seed_1002",
+          "generation_sha256": "12561ebc504c6f8da7ac031830bcc634821cc2be6739907f76fe6cea53b1637a",
+          "assessment_sha256": "3a63dc1249b20a656fe1d480be3b056882cb2b9e38ee33f6b89f92aa3df39adc",
+          "proposed_occurrences": 16,
+          "eligible_occurrences": 15,
+          "excluded": [
+            [
+              "input-9",
+              [
+                "sequence_changing_native_preprocessing"
+              ]
+            ]
+          ],
+          "reported_failures": {},
+          "row_anomalies": [],
+          "eligible_native_labels": {
+            "AMP_positive": 5,
+            "AMP_positive_and_NonHemo": 0
+          },
+          "selections": {
+            "amp-first": {
+              "requested_count": 4,
+              "ranking": [
+                "input-3",
+                "input-2",
+                "input-7",
+                "input-0",
+                "input-5",
+                "input-6",
+                "input-4",
+                "input-12",
+                "input-1",
+                "input-10",
+                "input-8",
+                "input-13",
+                "input-15",
+                "input-11",
+                "input-14"
+              ],
+              "selected": [
+                "input-3",
+                "input-2",
+                "input-7",
+                "input-0"
+              ],
+              "unselected": [
+                "input-5",
+                "input-6",
+                "input-4",
+                "input-12",
+                "input-1",
+                "input-10",
+                "input-8",
+                "input-13",
+                "input-15",
+                "input-11",
+                "input-14"
+              ]
+            },
+            "hemolysis-first": {
+              "requested_count": 4,
+              "ranking": [
+                "input-11",
+                "input-14",
+                "input-6",
+                "input-13",
+                "input-15",
+                "input-8",
+                "input-10",
+                "input-12",
+                "input-4",
+                "input-1",
+                "input-0",
+                "input-2",
+                "input-5",
+                "input-7",
+                "input-3"
+              ],
+              "selected": [
+                "input-11",
+                "input-14",
+                "input-6",
+                "input-13"
+              ],
+              "unselected": [
+                "input-15",
+                "input-8",
+                "input-10",
+                "input-12",
+                "input-4",
+                "input-1",
+                "input-0",
+                "input-2",
+                "input-5",
+                "input-7",
+                "input-3"
+              ]
+            }
+          },
+          "new_scientific_calls": 0
+        }
+      },
+      {
+        "case": "wrong_digest",
+        "exit_code": 2,
+        "wall_seconds": 0.11036525503732264,
+        "generation": {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-h4-qualification-mc6nax6v/run/assessment/seed_1001-generation.json",
+          "sha256": "ecf2b2744a573b93dae55975562c0ddd7bf8a7486fe7e75c19ca93a3c8ee3161"
+        },
+        "assessment": {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-h4-qualification-mc6nax6v/run/assessment/seed_1001-assessment.json",
+          "sha256": "580d24df56b56c1a70284c5e0467fa1503a1cafd113e4891b6eb28449acacf78"
+        },
+        "new_scientific_calls": 0
+      },
+      {
+        "case": "mixed_seed_receipts",
+        "exit_code": 2,
+        "wall_seconds": 0.13820495107211173,
+        "generation": {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-h4-qualification-mc6nax6v/run/assessment/seed_1001-generation.json",
+          "sha256": "ecf2b2744a573b93dae55975562c0ddd7bf8a7486fe7e75c19ca93a3c8ee3161"
+        },
+        "assessment": {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-h4-qualification-mc6nax6v/run/assessment/seed_1002-assessment.json",
+          "sha256": "3a63dc1249b20a656fe1d480be3b056882cb2b9e38ee33f6b89f92aa3df39adc"
+        },
+        "new_scientific_calls": 0
+      },
+      {
+        "case": "same_sequences_different_execution",
+        "exit_code": 2,
+        "wall_seconds": 0.14839890110306442,
+        "generation": {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/corrected-real-run/receipt.json",
+          "sha256": "191316478ed46a4d64538352a30e1f74d9a9f4d169020e12f1b4252ee907f404"
+        },
+        "assessment": {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-h4-qualification-mc6nax6v/run/assessment/seed_1001-assessment.json",
+          "sha256": "580d24df56b56c1a70284c5e0467fa1503a1cafd113e4891b6eb28449acacf78"
+        },
+        "new_scientific_calls": 0
+      }
+    ],
+    "guard_scope": "Actual installed consumer wheel; no scientific/NumPy/Ackredit imports, model-array opens or network; only reviewed cached JSON; CPU0/1,nice10,1GiBAS,15s per case",
+    "child_kernel_HWM_rss_bytes": 25223168,
+    "new_scientific_calls": 0
+  },
+  "strict_documentation": {
+    "stages": [
+      {
+        "builder": "html",
+        "exit_code": 0,
+        "wall_seconds": 1.7712306920439005
+      },
+      {
+        "builder": "doctest",
+        "exit_code": 0,
+        "wall_seconds": 1.2203822990413755
+      }
+    ],
+    "scope": "Sphinx tools from shared development profile with explicit exact installed consumer wheel import; no model/engine/artifact/network access",
+    "child_HWM_rss_bytes": 99356672,
+    "new_scientific_calls": 0
+  },
+  "maintained_sources": [
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/examples/replay_hydramp_workflow.py",
+      "bytes": 3384,
+      "sha256": "30025e0504ba2a423e14b112d3dcd15ff95c26041b674e1c05c0265114df8519"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/docs/content/user/hydramp_workflow.md",
+      "bytes": 7411,
+      "sha256": "65a7886da3dd66b64b71283dbdc950dad5648a9fe88c98e0a13365fbce0e20b1"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/docs/content/user/index.md",
+      "bytes": 370,
+      "sha256": "77b24de4de44a937d2c81deb43cc504dec9e7f1c65197dd41f57629f562affce"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/docs/content/user/generation_results.md",
+      "bytes": 6018,
+      "sha256": "e11fa19f7c8d6c497a9c24da127a356f3d7e6d17d5b5eeb0758842b59ff90640"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/docs/README.md",
+      "bytes": 2425,
+      "sha256": "3f4337b6ac6a09120cca68112f310589420894f541541baca84586e5bed6a338"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/hydramp_workflow_tutorial.md",
+      "bytes": 3976,
+      "sha256": "775f50874b8a9bf86bd40e219e9b14c7c4e3c006cc9c6e2553ac1ee9a70d6028"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/pending_proposals/hydramp_scientific_followup.md",
+      "bytes": 5778,
+      "sha256": "80b896144c8e7dab230672b3b0b07961447bba60d9cdf2faff92ca12e515e8ac"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/README.md",
+      "bytes": 31305,
+      "sha256": "a81f94738344e16d708365d0d1bbefc5150fbe5fcfea2e8b57f7689b86350b59"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/pending_proposals/README.md",
+      "bytes": 413,
+      "sha256": "17a1d3d3c39a5fdc0e997aeb57c4883ff7520408d61aa0e0be8c01aa466793ab"
+    }
+  ],
+  "local_artifacts": [
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-workflow-tutorial-hjvpn9qs/execution.json",
+      "bytes": 9255,
+      "sha256": "2c15df246ad9a12f52e8661a267e17bc66fe95ca25ca3597d0ee94da47c023a6"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-workflow-tutorial-hjvpn9qs/guarded_replay.py",
+      "bytes": 1586,
+      "sha256": "00ba58c22c0515dde30dda2c218618f7e99277022fec6cd2bdb5d179408c70dd"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-workflow-tutorial-hjvpn9qs/mixed_seed_receipts.stderr",
+      "bytes": 414,
+      "sha256": "ff92cc4a385da0a7398645694788556a17719632e5fb6edf4f801c5cc8068ee7"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-workflow-tutorial-hjvpn9qs/mixed_seed_receipts.stdout",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-workflow-tutorial-hjvpn9qs/same_sequences_different_execution.stderr",
+      "bytes": 414,
+      "sha256": "ff92cc4a385da0a7398645694788556a17719632e5fb6edf4f801c5cc8068ee7"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-workflow-tutorial-hjvpn9qs/same_sequences_different_execution.stdout",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-workflow-tutorial-hjvpn9qs/seed_1001.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-workflow-tutorial-hjvpn9qs/seed_1001.stdout",
+      "bytes": 2141,
+      "sha256": "f2949bc9602d06df79caa2432fc42c95a181f5ca6dea397410cee3dbc5969494"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-workflow-tutorial-hjvpn9qs/seed_1002.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-workflow-tutorial-hjvpn9qs/seed_1002.stdout",
+      "bytes": 2144,
+      "sha256": "332ef3d4dfa0ff55a7116647c5dc6f4a01174a6b32d45a147e733bcbd60e73a5"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-workflow-tutorial-hjvpn9qs/wrong_digest.stderr",
+      "bytes": 394,
+      "sha256": "067ec715f5b39591a13a9e916faae3b740855867e1af74dbbd6a17cb9eafdb57"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-workflow-tutorial-hjvpn9qs/wrong_digest.stdout",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "raw_data_redistributed": false,
+  "new_scientific_calls": 0,
+  "new_scientific_decision": false,
+  "new_execution_authority": false,
+  "commits_or_releases": 0,
+  "availability_limit": "Replay requires authorized local H4 JSON; no fixture download or sequence/trace payload is newly bundled.",
+  "retention_review": "2026-11-13"
+}

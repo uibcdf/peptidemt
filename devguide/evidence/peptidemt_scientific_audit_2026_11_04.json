@@ -1,0 +1,266 @@
+{
+  "schema": "peptidemt.scientific_capability_audit@1",
+  "date": "2026-11-04",
+  "owner_issue": "uibcdf/peptidemt#33",
+  "status": "Static/documentary audit delivered; proposals pending investigator disposition",
+  "git_base": "1f8c444e4619499cae8ad9970122c5f40adf6127",
+  "branch": "main",
+  "source_state": "Dirty working tree with pre-existing local work; git base is not complete reviewed source identity",
+  "runtime_source_inventory": [
+    {
+      "path": "src/peptidemt/__init__.py",
+      "bytes": 1368,
+      "sha256": "aaa2e37d7b9d72c98d1138e64c17b4ffe32d302a307c85061210a62aff27c674"
+    },
+    {
+      "path": "src/peptidemt/_attribution.py",
+      "bytes": 10525,
+      "sha256": "ee3011c7220dd497e6fd05af4820e666527936c1a474ba0b4b2b94ff01eb3484"
+    },
+    {
+      "path": "src/peptidemt/_data.py",
+      "bytes": 2528,
+      "sha256": "47de27e65ccacef39926cac46a41a1ed58b41a6a5ae6d6bd24f3e958fb19627b"
+    },
+    {
+      "path": "src/peptidemt/_depdigest.py",
+      "bytes": 889,
+      "sha256": "714c699978ccabfaee43db53d7f59162f720224bfe2423ef6f9dd2d6967012ad"
+    },
+    {
+      "path": "src/peptidemt/_diagnostics.py",
+      "bytes": 1608,
+      "sha256": "2b543e6cf674133eae91af3fe6a57dcb47c2bab316b5a6c406635fb9d03fb9a6"
+    },
+    {
+      "path": "src/peptidemt/_hydramp_cli.py",
+      "bytes": 149,
+      "sha256": "5fb5ee24580075fa9b9bc494e86eb24a06f0a3604079033d76f07c5c3707097a"
+    },
+    {
+      "path": "src/peptidemt/_hydramp_process.py",
+      "bytes": 5117,
+      "sha256": "c0c28c1bf29750a96a1bfff748e0297064d9bef10133e08e5a0a9103bc392427"
+    },
+    {
+      "path": "src/peptidemt/_hydramp_receiving.py",
+      "bytes": 10295,
+      "sha256": "d02fab3f7b81abea5e7ee96e5fec4ea9b8bfbbf55ba8267de2e0defb1035b0c3"
+    },
+    {
+      "path": "src/peptidemt/_hydramp_worker.py",
+      "bytes": 10717,
+      "sha256": "c2396f53ea7dfe738e0dd90e851194007e89a0e1b5344a7c7f7ffb88f4ef0752"
+    },
+    {
+      "path": "src/peptidemt/_macrel_cli.py",
+      "bytes": 150,
+      "sha256": "ca004126f5d01331846b591f93e0fee5e529f2004f618f19d28834984e61a566"
+    },
+    {
+      "path": "src/peptidemt/_macrel_worker.py",
+      "bytes": 9437,
+      "sha256": "a68618f31051a572ddb8db14d84f0cef47f8a17a8ed1517c8cb76922dfae59fe"
+    },
+    {
+      "path": "src/peptidemt/_molsysmt.py",
+      "bytes": 192,
+      "sha256": "55f471fba95a3b3f5c005b6b7c6e7505e4a42241adca24566876eaab3ae16aa1"
+    },
+    {
+      "path": "src/peptidemt/_private/__init__.py",
+      "bytes": 38,
+      "sha256": "af7e51046a1234f1c18a29e38315fc590bc9d5f1b97b04c117583bda36764634"
+    },
+    {
+      "path": "src/peptidemt/_private/smonitor/__init__.py",
+      "bytes": 189,
+      "sha256": "8e00d3c40168c3bb1fc81170f2bd31177a042cace19a5f6ade6a1d8616244ade"
+    },
+    {
+      "path": "src/peptidemt/_private/smonitor/catalog.py",
+      "bytes": 2500,
+      "sha256": "e6b864a1689052efb16ff669de1ef4454094c1c26b5b0dcdb46103fe76824cd9"
+    },
+    {
+      "path": "src/peptidemt/_private/smonitor/meta.py",
+      "bytes": 105,
+      "sha256": "e056bb2ed425e482d7db1db7a06c17eb5e112bf4d1261a26cf8e243172cc0c0c"
+    },
+    {
+      "path": "src/peptidemt/_smonitor.py",
+      "bytes": 156,
+      "sha256": "16b7a911dfe16f9e1378a3a0dfb600784bb186fc4faa5248df3a13f32f591055"
+    },
+    {
+      "path": "src/peptidemt/hydramp.py",
+      "bytes": 12825,
+      "sha256": "59e0f3db8f756f024525c11f3a958aaf8d67235778fc9350999bf15c501cde6a"
+    },
+    {
+      "path": "src/peptidemt/inputs.py",
+      "bytes": 5827,
+      "sha256": "0d56b4089d95fadeda2b1f9152a0e8520ee8d2d4c6ee8efbae49bf2344e07b4e"
+    },
+    {
+      "path": "src/peptidemt/macrel.py",
+      "bytes": 9086,
+      "sha256": "712276ea427fc364af6cd301e5eebe4df1be50dfb73d2b6ff78a2b841a9b8b41"
+    },
+    {
+      "path": "src/peptidemt/results.py",
+      "bytes": 8874,
+      "sha256": "a5302c4ece2199a854aa3c8a924511f59b22cf6f836e1ccb78107555a6bafb84"
+    },
+    {
+      "path": "src/peptidemt/selection.py",
+      "bytes": 2068,
+      "sha256": "cccef6e4c1b212453fcaf2aa3793e0799ec38eb290d39047781769edee5b11c9"
+    }
+  ],
+  "inventory_note": "Hashes identify the snapshot; inventory does not claim exhaustive line-by-line inspection",
+  "review_references": [
+    {
+      "path": "README.md",
+      "bytes": 12500,
+      "sha256": "0a8134c165bafe67d58791258585e918170ada3bb78d7223bb6f258d38cfd98c"
+    },
+    {
+      "path": "devguide/vision_scope.md",
+      "bytes": 8951,
+      "sha256": "2fbd8a19c1fdf990b73b74a2dbad67b80332caf278e9674f22bcd46fc1032c9e"
+    },
+    {
+      "path": "devguide/scientific_trajectory.md",
+      "bytes": 13779,
+      "sha256": "0c65ffea9f3884efeb13207d3ae8df55e484a590dd03d373d16500053be0c3f1"
+    },
+    {
+      "path": "devguide/roadmap.md",
+      "bytes": 11099,
+      "sha256": "744c9bc084f22e2fb6c66a645c6401a1177f3abce6b1cac12150acc427d6091e"
+    },
+    {
+      "path": "devguide/design_methodology.md",
+      "bytes": 4045,
+      "sha256": "2a6e7fa4f9b38df0be54d9aeb9f1e700efddbec5a86e2eb1e0d70e9cc95765d1"
+    },
+    {
+      "path": "devguide/decisions.md",
+      "bytes": 90787,
+      "sha256": "5e3d022fd351cb12708dde42dbea3ed10ef78ebafb30b2d3027176c83f963fc5"
+    },
+    {
+      "path": "devguide/v0_1_increment_1.md",
+      "bytes": 35161,
+      "sha256": "814ae6ed0361eca9109b4aba25cbe8fa37d1190d954b74d5f17fe9d59dd572cd"
+    },
+    {
+      "path": "devguide/uncertainty_diversity_budget.md",
+      "bytes": 26464,
+      "sha256": "7dbb8c68a71c0657e976dcfb48f398a39ebcaea30a66c4e0180f8c2219381735"
+    },
+    {
+      "path": "devguide/hydramp_dev3_acceptance.md",
+      "bytes": 7156,
+      "sha256": "2696ec5bb02c4a8ebc868b19ed569608477ca02fe37ffd065f5847b98529538b"
+    },
+    {
+      "path": "devguide/hydramp_encoder_E2.md",
+      "bytes": 13345,
+      "sha256": "60512fe0490937601c0d92195ec75f0c3ba22811b2fe7fb14504f1b9d53c03cb"
+    },
+    {
+      "path": "devguide/evidence/hydramp_encoder_E1.json",
+      "bytes": 19380,
+      "sha256": "4d2dded068d7e5cae1b4fcfa71147832776eee632b8b79ac4c9e4e0539801fc6"
+    },
+    {
+      "path": "devguide/evidence/hydramp_encoder_E2_execution.json",
+      "bytes": 25926,
+      "sha256": "fc95a2fef96f3930d4f1dd3d3f1a23dc02dedcce107a95f54e62a9e23f6cd0f1"
+    },
+    {
+      "path": "devguide/evidence/hydramp_confidence_execution.json",
+      "bytes": 14298,
+      "sha256": "24b93260161296abf271af74d6a1d4a98cc4fdcc90ef00ceeb42de0386de0328"
+    },
+    {
+      "path": "devguide/evidence/hydramp_h4_execution.json",
+      "bytes": 22204,
+      "sha256": "074eab1b6d4df5660b8c1a30498761eef5c3759992b8e3ec582bdd8a490315cc"
+    },
+    {
+      "path": "devguide/evidence/hydramp_analogue_A1_pause.json",
+      "bytes": 2238,
+      "sha256": "8604a7469cb48dc6476b7086adebd4f4117a9ed2acad7495983ff180dcf979a6"
+    },
+    {
+      "path": "tests/test_w1_core.py",
+      "bytes": 13538,
+      "sha256": "359107f02961b3472a02599262385c07b0df7dda0ed97f1e73c0a1a02f60aa58"
+    },
+    {
+      "path": "docs/content/user/quickstart.md",
+      "bytes": 3769,
+      "sha256": "da40fa06af34dbc4497c767d2184e8dffee47e538d139a1a64fe95b57902a37e"
+    },
+    {
+      "path": "docs/content/user/hydramp_workflow.md",
+      "bytes": 7411,
+      "sha256": "65a7886da3dd66b64b71283dbdc950dad5648a9fe88c98e0a13365fbce0e20b1"
+    }
+  ],
+  "reports": [
+    {
+      "path": "devguide/audit_2026_11_04.md",
+      "bytes": 7295,
+      "sha256": "675101bdb34b663967b1b9379b65830b9f403e0e9cd872cf4a53051eb7826135"
+    },
+    {
+      "path": "devguide/peptidemt_scientific_audit_2026_11_04.md",
+      "bytes": 22314,
+      "sha256": "c876ab925da7fff3df12dfad687f498f283bde17d119baef5da535c4d04271e6"
+    },
+    {
+      "path": "devguide/pending_proposals/scientific_capability_audit.md",
+      "bytes": 3069,
+      "sha256": "ba9d6a8f4b92a392d003b0a8f410e6cde04a6a88d5e0e2b2ec28943b1a3873d7"
+    }
+  ],
+  "prior_verified_issue_comments": [
+    "https://github.com/uibcdf/hydramp/issues/4#issuecomment-6636216658",
+    "https://github.com/uibcdf/peptidemt/issues/32#issuecomment-6636229220"
+  ],
+  "new_model_calls": 0,
+  "new_scientific_benchmarks": 0,
+  "new_dataset_downloads": 0,
+  "analogue_implementation": "remains paused; no drafts modified or tested",
+  "new_scientific_decisions": [],
+  "runtime_code_modified": false,
+  "commits_pushes_releases_external_author_contacts": [],
+  "documentation_checks": {
+    "reporting_guard": {
+      "command": "python -m pytest --receptor=llm tests/test_reporting_protocol.py",
+      "exit_code": 0,
+      "passed": 1,
+      "seconds": 0.14,
+      "python": "3.14.7",
+      "executable": "/home/liliana/Myopt/miniconda3/envs/molsyssuite@uibcdf_3.14/bin/python",
+      "pytest_receptor": "1.2.2+2.gb9676f8",
+      "scope": "Reporting lifecycle only, no scientific tests"
+    },
+    "generated_index_check": {
+      "command": "python devtools/devguide_index.py --check",
+      "exit_code": 0
+    },
+    "relative_file_links": {
+      "documents": 5,
+      "links": 137,
+      "missing": 0,
+      "external_links_and_anchors_not_exhaustively_validated": true
+    },
+    "whitespace": "No trailing whitespace/missing final newline in reviewed documents; git diff --check reported no errors on edited tracked navigation files",
+    "runtime_source_hashes_unchanged": true
+  }
+}

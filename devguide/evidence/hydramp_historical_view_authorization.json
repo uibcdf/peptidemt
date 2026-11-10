@@ -1,0 +1,55 @@
+{
+  "schema": "peptidemt.hydramp_historical_view_authorization@1",
+  "recorded_at_utc": "2026-11-05T02:56:19.034207+00:00",
+  "local_date": "2026-11-04",
+  "decision": "D46",
+  "status": "Finite scientific view and historical assay scope approved; work-order/fixture design commissioned",
+  "authority": "Explicit investigator direction to proceed in direct answer to the finite-view and E. coli ATCC 25922 approval question",
+  "owner_issue": "uibcdf/hydramp#3",
+  "consumer_issue": "uibcdf/peptidemt#32",
+  "approved_proposal": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/hydramp_historical_view_proposal.md",
+    "bytes": 12785,
+    "sha256": "30f8b637c4c8dde4949c9080381a002dc98f38f5e2e4f5f1c03273ba02463376"
+  },
+  "proposal_preparation_receipt": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/evidence/hydramp_historical_view_proposal.json",
+    "bytes": 11017,
+    "sha256": "bdf442efd56456db528a0c7217e26c30f08ba39a7d7d699cf394e70d54b90efe"
+  },
+  "original_review_manifest": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-historical-view-vt45bq1w/review-manifest.json",
+    "bytes": 78963,
+    "sha256": "e14fd7272e4894bb34cc4afe64ef8422c91474ace0c73cc201ea2e64fd5c049e"
+  },
+  "approved": {
+    "finite_historical_entity_to_unchanged_sequence_model_relation": true,
+    "experimental_C_terminal_amide_retained": true,
+    "model_view_omission_explicit_not_chemical_equivalence": true,
+    "historical_E_coli_ATCC_25922_MIC_review_scope": true,
+    "next_model_free_work_order_preparation": true,
+    "controlled_fixture_design": true
+  },
+  "additional_permissions": {
+    "scientific_capability_implementation_commission": false,
+    "new_general_chemistry_admission_or_public_API": false,
+    "dispatchable_native_model_payload": false,
+    "ML_Macrel_PCA_descriptor_or_training_execution": false,
+    "new_artificial_network_evaluations": false,
+    "new_model_call_budget": false,
+    "GPU": false,
+    "biological_endpoint_or_native_class_truth": false,
+    "mass_or_unit_conversion": false,
+    "independent_cohort_or_biological_equivalence": false,
+    "new_generation_feedback_family_target_release_or_external_contact": false
+  },
+  "obligations": [
+    "Preserve all original chemistry/source/unknowns and each table occurrence",
+    "No clipping, truncation, case normalization or unannotated-copy admission workaround",
+    "Keep repeated values and right censoring; no preferred/minimum/mean label",
+    "Reuse MolSysMT for molecular operations, HydrAMP for native codec/heads and PyUnitWizard for units",
+    "D35/M1\u2013M8, D41/D44/D45 and exhausted execution limits remain unchanged"
+  ],
+  "old_evidence_disposition": "Earlier proposal and review-manifest statuses describe their pre-approval preparation; preserve their bytes and use D46/current work order for live authority",
+  "implementation_and_execution_next_steps": "Prepare the concrete model-free implementation contract and fixtures now. Any implementation commission and real model bundle/input/batch/host/call authorization remain separate."
+}

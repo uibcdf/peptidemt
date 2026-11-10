@@ -1,0 +1,58 @@
+{
+  "schema": "peptidemt.hydramp_scientific_comparison_protocol_closeout@1",
+  "date": "2026-11-04",
+  "status": "Review proposal delivered; scientific choices/cohort and execution unapproved",
+  "protocol_sha256": "e0ad05abbd23547dc29934debfcf0941d31defd155820a13faf979f51698ee27",
+  "preparation_receipt_sha256": "80a6c577846bfea89433eefa5cad0bf8f59a384c682a0d2e517065af58ca449c",
+  "checks": {
+    "protocol_owner_mirror_byte_identical": true,
+    "immutable_original_notebooks_byte_equal": true,
+    "model_free_owner_identity_calls": 8,
+    "new_neural_Macrel_PCA_descriptor_calls": 0,
+    "ruff": "PASS",
+    "formatted_files": 169,
+    "generated_reporting_indexes": "current",
+    "relative_file_links_checked": 188,
+    "missing_links": 0,
+    "whitespace": "PASS",
+    "source_and_receipt_hashes": "PASS",
+    "planning_arithmetic": "32 + 224 + up to 70 = 326 neural evaluations; proposed only, not a budget",
+    "full_package_or_scientific_campaigns_repeated": false,
+    "canonical_guide": "fetched main byte-identical"
+  },
+  "source_review": {
+    "historical_test_used_in_model_selection": true,
+    "assay_vs_pooled_training_target_distinction": true,
+    "CFPS_and_descriptor_tables_not_qualified_MIC_ground_truth": true,
+    "no_independent_cohort_qualified": true,
+    "chemistry_annotations_not_removed_for_eligibility": true,
+    "identity_asymmetry_is_documented_owner_behavior": true,
+    "no_new_provider_defect_or_missing_operation_established": true
+  },
+  "pending": [
+    "C0 data/use/exposure/assay/chemistry/relatedness audit and proposed frozen cohort",
+    "Scientific review of endpoint/view, relation, pilot sizes and grouping analysis",
+    "Justified formal margins and absolute-quality criteria before confirmatory outcomes",
+    "Separate exact installed/bundle/input/incidental-work/host/call approval before any new model"
+  ],
+  "issue_updates": [
+    {
+      "repository": "uibcdf/hydramp",
+      "id": 6645378335,
+      "url": "https://github.com/uibcdf/hydramp/issues/3#issuecomment-6645378335",
+      "exact_body_verified": true
+    },
+    {
+      "repository": "uibcdf/peptidemt",
+      "id": 6645388416,
+      "url": "https://github.com/uibcdf/peptidemt/issues/32#issuecomment-6645388416",
+      "exact_body_verified": true
+    }
+  ],
+  "issue_disposition": "Existing HydrAMP#3 and PeptideMT#32 remain open; #4 retains independent product review. No new issue.",
+  "source_delivery": "Documentation and model-free preparation only, local/uncommitted; provider/consumer runtime sources, model assets and environments unchanged. No commit/push/package-model publication or third-party outreach.",
+  "retention": {
+    "owner": "HydrAMP#3 / PeptideMT#32",
+    "review_by": "2026-11-18"
+  }
+}

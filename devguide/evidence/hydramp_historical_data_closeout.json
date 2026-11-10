@@ -1,0 +1,80 @@
+{
+  "schema": "peptidemt.hydramp_historical_data_closeout@1",
+  "date": "2026-11-05",
+  "status": "Local data-only receiver/replay and controlled actual-data receiving PASS; no scientific benchmark/model qualification",
+  "authorization": "hydramp_historical_data_authorization.json",
+  "authorization_sha256": "7f2103c79fa41145878cbf0e681781161546435bc0c2c620b4bb52daf7334579",
+  "implementation": "hydramp_historical_data_implementation.json",
+  "implementation_sha256": "e6add61d0cfcce857985e86fb232db601ec20abed2ec2c7a1ad65c24b3564b7e",
+  "checks": {
+    "historical_data_tests": 38,
+    "reporting_tests": 1,
+    "selected_tests_total": 39,
+    "pytest_native_exit": 0,
+    "pytest_receptor": "PASS",
+    "ruff_lint": "PASS",
+    "ruff_format": "PASS: 174 files",
+    "current_source_artifact_identities_verified": 23,
+    "prior_immutable_source_identities_unchanged": 18,
+    "planned_control_theme_test_functions_addressable": 18,
+    "relative_file_links_checked": 259,
+    "missing_relative_file_links": 0,
+    "reporting_indexes": "current",
+    "whitespace": "PASS",
+    "canonical_guide_byte_identical": true
+  },
+  "actual_data": {
+    "receive_native_exit": 0,
+    "inspect_native_exit": 0,
+    "table_occurrences": 42,
+    "raw_string_groups": 39,
+    "numeric_observations": 35,
+    "right_censored_observations": 7,
+    "repeated_string_groups": 3,
+    "overlap_positive_string_groups": 6,
+    "input_copies_removed_before_replay": true,
+    "other_source_JSON_reads_denied": true,
+    "report_files_byte_identical": true,
+    "peak_rss_bytes": 22638592,
+    "elapsed_seconds": 0.0742848040536046,
+    "CPU_affinity": [
+      0,
+      1
+    ],
+    "native_payloads_or_model_calls": 0
+  },
+  "issue_updates": [
+    {
+      "repository": "uibcdf/peptidemt",
+      "issue": 32,
+      "id": 6661243017,
+      "url": "https://github.com/uibcdf/peptidemt/issues/32#issuecomment-6661243017",
+      "exact_body_verified": true
+    },
+    {
+      "repository": "uibcdf/hydramp",
+      "issue": 3,
+      "id": 6661250839,
+      "url": "https://github.com/uibcdf/hydramp/issues/3#issuecomment-6661250839",
+      "exact_body_verified": true
+    }
+  ],
+  "issue_disposition": "Existing PeptideMT#32 and HydrAMP#3 remain open; product work stays with HydrAMP#4. No new issue or external publication.",
+  "source_delivery": "New developer tool and controlled tests plus maintained documents/evidence. Local/uncommitted. Existing src/public API/dependencies/environments and concurrent work preserved. No model/molecular operation, installation, commit/push/release or third-party contact.",
+  "workspace_status": {
+    "official_bounded_tool_exit": 1,
+    "cause": "attention: preserved PeptideMT dirty work and clean MolSysMT 93 commits behind",
+    "fetch_errors": 0,
+    "no_worktree_update_or_cleanup": true
+  },
+  "pending": [
+    "Source-use/checkpoint/fragment-exposure audit",
+    "Entity/assay/biological endpoint plus mass/unit/censoring/repeated-observation qualification",
+    "Independent cohort/relatedness policy if generalization is assessed",
+    "Any native input/codec/scoring stage requires separate exact bundle/input/batch/host/call approval"
+  ],
+  "retention": {
+    "owner": "PeptideMT#32 / HydrAMP#3",
+    "review_by": "2026-11-19"
+  }
+}

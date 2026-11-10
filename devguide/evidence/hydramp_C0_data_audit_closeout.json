@@ -1,0 +1,50 @@
+{
+  "schema": "peptidemt.hydramp_C0_data_audit_closeout@1",
+  "date": "2026-11-04",
+  "status": "Model-free source/eligibility audit delivered; C0 remains partial and no independent scientific cohort is qualified",
+  "receipt": "hydramp_C0_data_audit.json",
+  "receipt_sha256": "570e87304ceb2240c716c327c48962d83b9578f0dd720d8ada440bd293b42df5",
+  "checks": {
+    "hashed_source_and_audit_identities_verified": 52,
+    "relative_file_links_checked": 155,
+    "missing_relative_file_links": 0,
+    "generated_reporting_indexes": "current",
+    "reporting_protocol_test": "PASS exit=0 | 1 passed | 0.11s",
+    "whitespace": "PASS",
+    "unchanged_protocol_owner_mirror_byte_identical": true,
+    "canonical_guide_byte_identical": true,
+    "model_calls": 0,
+    "new_alignment_calls": 0,
+    "scientific_campaigns_repeated": false
+  },
+  "issue_updates": [
+    {
+      "repository": "uibcdf/hydramp",
+      "issue": 3,
+      "id": 6647927543,
+      "url": "https://github.com/uibcdf/hydramp/issues/3#issuecomment-6647927543",
+      "exact_body_verified": true
+    },
+    {
+      "repository": "uibcdf/peptidemt",
+      "issue": 32,
+      "id": 6647930445,
+      "url": "https://github.com/uibcdf/peptidemt/issues/32#issuecomment-6647930445",
+      "exact_body_verified": true
+    }
+  ],
+  "issue_disposition": "HydrAMP#3 / PeptideMT#32 remain open. HydrAMP#4 retains independent product review. No new issue or third-party publication.",
+  "corrections_preserved": "An interim commentary incorrectly grouped all extra Deep_AMP records as controls. The corrected audit distinguishes 503 gen-labelled records (mapping to 500 screened cases unresolved) from 30 functional designs plus two named controls.",
+  "pending": [
+    "Approved experimental chemical-entity/sequence-model view",
+    "Assay/strain/endpoint interpretation and source-use terms",
+    "Checkpoint-specific fitting/model-selection exposure, including derived negative fragments",
+    "Approved relatedness policy and frozen compatible independent measured cohort",
+    "Justified scientific endpoints, quality criteria/margins and any future exact execution approval"
+  ],
+  "delivery": "New report/receipts and narrow navigation/pending-record additions only, plus ignored read-only acquisition/audit artifacts. Existing dirty runtime work preserved; no commit, push, installation, model execution, release or author contact.",
+  "retention": {
+    "owner": "HydrAMP#3 / PeptideMT#32",
+    "review_by": "2026-11-18"
+  }
+}

@@ -8,7 +8,7 @@ now carries accepted contracts/selectors/M1–M8 and provisional chemistry/lengt
 scope. D36's W0–W4 delivery and D37 acceptance retain their
 [exact evidence](evidence/increment_1_acceptance.json). See the
 [work order](increment_1_work_order.md). The next
-[HydrAMP proposal](pending_proposals/qualify_hydramp_increment_2.md) makes the
+[HydrAMP proposal](archive/qualify_hydramp_increment_2.md) makes the
 existing H0–H4 review concrete and is now commissioned under D38. Actual
 model loading/inference requires the exact bundle/use conditions and fresh host
 limits; package publication remains outside the assignment. Normal owning-issue feedback follows

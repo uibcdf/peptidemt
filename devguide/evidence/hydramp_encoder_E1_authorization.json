@@ -1,0 +1,17 @@
+{
+  "schema": "peptidemt.hydramp_encoder_E1_authorization@1",
+  "date": "2026-11-04",
+  "recorded_at_utc": "2026-11-04T13:21:20.430002+00:00",
+  "owner_issue": "uibcdf/hydramp#8",
+  "consumer_issue": "uibcdf/peptidemt#32",
+  "authority": "Investigator explicitly instructs continuing in direct response to approval of the concrete deterministic encoder contract and implementation/testing with artificial weights only.",
+  "E1_implementation_approved": true,
+  "contract_sha256": "064848b3832d65f462c86cf347f74b534fccb4044e803c156b5a04e2832a926e",
+  "input": "CPU int64[N,25],0..20;preserve occurrences and zeros",
+  "outputs": "CPU float32 mean/log_variance[N,64];no sampling/RNG/PCA/decoder/head/descriptors/analogue/training",
+  "E2_real_weights_or_execution_approved": false,
+  "accepted_dev3_unchanged": true,
+  "candidate_worktree": "/home/liliana/repos@uibcdf/hydramp/local_data/pytorch-encoder",
+  "task_directory": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-encoder-E1-jig040z0",
+  "no_commit_push_release_external_contact": true
+}

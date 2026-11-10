@@ -1,0 +1,187 @@
+{
+  "schema": "peptidemt.hydramp_product_readiness_closeout@1",
+  "recorded_at_utc": "2026-11-05T22:54:26.183311+00:00",
+  "product_review_receipt": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/evidence/hydramp_product_readiness_20261105.json",
+    "bytes": 43104,
+    "sha256": "db0f61cec334a63c2ae64dbc380cd0e7656c3452926352b01be170737ef7ff82"
+  },
+  "consumer_report": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/hydramp_product_readiness_20261105.md",
+    "bytes": 8723,
+    "sha256": "8dc6eb9a93005c615d48b85a9862aa63c420126754024fd7fce9278cf91bcd75"
+  },
+  "owner_current_documents": [
+    {
+      "path": "/home/liliana/repos@uibcdf/hydramp/local_data/pytorch-redesign/README.md",
+      "bytes": 9898,
+      "sha256": "94eb7c6454ca269b91e605013d83a06aef89fe07d1a34286521a4f5ff0650bfb"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/hydramp/local_data/pytorch-redesign/AGENTS.md",
+      "bytes": 5050,
+      "sha256": "ec4e81b34594a87e0570666617edeab3a1c599929916239122552c73f0a45e9d"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/hydramp/local_data/pytorch-redesign/devguide/README.md",
+      "bytes": 9331,
+      "sha256": "bc0b2a56787d78d31fed105e0bba5fb8b850895b4954a6d1cfb50ff1f35bbac1"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/hydramp/local_data/pytorch-redesign/devguide/pytorch_product_review.md",
+      "bytes": 8072,
+      "sha256": "5b75c5e851c9d4b3d8093aa02458835c89535127af166553215cfc055f39f247"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/hydramp/local_data/pytorch-redesign/devguide/pytorch_user_guide.md",
+      "bytes": 7903,
+      "sha256": "a334c088686fa969f3a386fd753a2a5176710e7200cb121c6c599b98643e7783"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/hydramp/local_data/pytorch-redesign/devguide/pytorch_model_card.md",
+      "bytes": 5159,
+      "sha256": "2507326f4780994b90c89fff6caac09b5d9efd9964da22f2f646cf2af9a801a8"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/hydramp/local_data/pytorch-redesign/ports/pytorch/README.md",
+      "bytes": 8525,
+      "sha256": "ad79da3e1f60d1f0c5da4f5a3de1bb77aa017a73e7df69fe6472c870fa35c2e9"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/hydramp/local_data/pytorch-redesign/devguide/pytorch_product_status.md",
+      "bytes": 10006,
+      "sha256": "adc1b92692366f16f41bdf9b590c5ca6ccfdc05f7046144f98409d97a44cdded"
+    }
+  ],
+  "documentation_checks": {
+    "owner_links_checked": 59,
+    "owner_preexisting_broken_links_preserved": {},
+    "new_owner_link_or_whitespace_debt": [],
+    "consumer_links_checked": 211,
+    "consumer_trailing_whitespace": [],
+    "all_17_owner_test_source_hashes_unchanged": true,
+    "index": {
+      "command": [
+        "/home/liliana/Myopt/miniconda3/envs/molsyssuite@uibcdf_3.14/bin/python",
+        "devtools/devguide_index.py",
+        "--check"
+      ],
+      "exit_code": 0,
+      "stdout": "Generated report indexes are current.\n",
+      "stderr": ""
+    },
+    "consumer_diff_whitespace": {
+      "command": [
+        "git",
+        "diff",
+        "--check",
+        "--",
+        "devguide/hydramp_product_readiness_20261105.md",
+        "devguide/README.md",
+        "devguide/pending_proposals/hydramp_scientific_followup.md",
+        "devguide/continuation_plan_2026_11_04.md"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    }
+  },
+  "reporting_check": {
+    "complete": true,
+    "final": {
+      "artifact_policy": {
+        "dropped_records": 0,
+        "max_bytes": 52428800,
+        "truncated": false
+      },
+      "complete": true,
+      "counts": {
+        "collected": 1,
+        "deselected": 0,
+        "errors": 0,
+        "executed": 1,
+        "failed": 0,
+        "not_executed": 0,
+        "passed": 1,
+        "reruns": 0,
+        "skipped": 0,
+        "subtests": {},
+        "warnings": 0,
+        "xfailed": 0,
+        "xpassed": 0
+      },
+      "duration": 0.11748659098520875,
+      "exitstatus": 0,
+      "extensions": {
+        "dropped": 0,
+        "incomplete": false,
+        "recorded": 0
+      },
+      "integrity": {
+        "algorithm": "sha256",
+        "digest": "1b2b531a2e45fc3b40cdf44d931c9dc838bf263120b3ce28dcef6adb710890d6",
+        "records": 4
+      },
+      "invalid_selections": [],
+      "note": "",
+      "outcome": "PASS",
+      "root_causes": 0,
+      "run_id": "c4c93a8e96dd47209fe216b1cfce2941",
+      "schema": "pytest-receptor.events@1",
+      "stop_reason": "",
+      "type": "session_finish"
+    }
+  },
+  "reporting_artifact": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-product-readiness-thi6vegn/reporting-events.jsonl",
+    "bytes": 2435,
+    "sha256": "8aece7c9c9aa91c32a184f7f91fdc430521b650a0ae7e7f6503a81cd8b1d23ae"
+  },
+  "reporting_native_exit_code": 0,
+  "owner_updates": [
+    {
+      "repo": "uibcdf/hydramp",
+      "num": 4,
+      "id": 6671622876,
+      "url": "https://github.com/uibcdf/hydramp/issues/4#issuecomment-6671622876",
+      "created_at": "2026-11-05T22:51:57Z",
+      "readback_matches": true,
+      "body_sha256": "cad05f9c1632fa3e07df1c6e58783b53c8e622ff5d290e97e61e034867ac8665"
+    },
+    {
+      "repo": "uibcdf/peptidemt",
+      "num": 32,
+      "id": 6671643111,
+      "url": "https://github.com/uibcdf/peptidemt/issues/32#issuecomment-6671643111",
+      "created_at": "2026-11-05T22:53:08Z",
+      "readback_matches": true,
+      "body_sha256": "0037485e2309d94f82025a62b81cba19031ef45f00692af1fd06dbbd83083082"
+    },
+    {
+      "repo": "uibcdf/hydramp",
+      "num": 3,
+      "id": 6671644527,
+      "url": "https://github.com/uibcdf/hydramp/issues/3#issuecomment-6671644527",
+      "created_at": "2026-11-05T22:53:13Z",
+      "readback_matches": true,
+      "body_sha256": "027c7e6725bb3442f9a7f8b1893169b1d2d1bbf2a3b2114f1ff5a13eeeee3620"
+    }
+  ],
+  "owner_issue_body_update": {
+    "url": "https://github.com/uibcdf/hydramp/issues/4",
+    "previous_body_sha256": "822d4f7ac5b676d65e9437c34e55621b63488f989b3453e83bc572b5ed9ae9d6",
+    "current_body_sha256": "3515148a68f8a75fe6806a9c7cf501cc601102f4bad286de6b9ef62c06cf4c2d",
+    "previous_body_preserved_as_suffix": true,
+    "readback_matches": true,
+    "state": "open"
+  },
+  "current_review_complete": true,
+  "broader_product_ready_or_new_scientific_acceptance": false,
+  "no_runtime_artifact_or_dependency_changes": true,
+  "new_neural_evaluations": 0,
+  "new_commit_push_or_release": false,
+  "retention": {
+    "owner": "HydrAMP#4 / PeptideMT#32",
+    "review_by": "2026-11-19"
+  }
+}

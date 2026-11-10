@@ -5,11 +5,16 @@ This review distinguishes historical W0/W1 non-applicability from the current
 under D37; public delivery and external provider-audit limitations retain their
 own scope.
 
-The commissioned HydrAMP preparation in [#8](https://github.com/uibcdf/peptidemt/issues/8)
-has an [isolated H0–H1 install/import review](hydramp_environment_review.md).
-It reproduces the official inference profile with explicit native metadata
-discrepancies; no HydrAMP adapter is implemented or scientific execution claimed.
-Review this worksheet again when the selected worker boundary is implemented.
+The commissioned HydrAMP work in [#8](https://github.com/uibcdf/peptidemt/issues/8)
+has progressed from its [isolated H0–H1 review](hydramp_environment_review.md)
+to a native PyTorch port and an [executed bounded private composition](hydramp_h4_qualification.md).
+The [public data receiver](hydramp_public_receiving.md) now has an exact local
+installed-wheel proof. The [isolated execution adapter](hydramp_execution_adapter.md) now has installed
+controlled proof and a separately approved real-checkpoint case with 16 proposals,
+exact native results/trace and captured parent attribution. D41 accepts this exact
+resource for experimental AMP generation; broader
+claims remain unqualified. See the [acceptance record](hydramp_dev3_acceptance.md);
+the data route did not certify this execution.
 
 When a concrete change is needed, open the owning issue first and create its report
 using the local [reporting protocol](reporting_protocol.md). Link that issue here.
@@ -55,6 +60,9 @@ Add one row for each implemented route. Names and directory layout remain local.
 | Macrel 1.6.1 | Installed native Python, `assess_macrel` | Lazy `macrel`; selected `molsysmt` serialization and its Biopython route; both packaged ONNX heads | Verified Macrel PyPI file; unqualified installers disabled; exact installed MolSysMT owner-source wheel under #359 | uibcdf/peptidemt#6; actual bounded W3 evidence, investigator acceptance separate |
 | Ackredit >=0.9.0 | Optional portable post-operation capture | Lazy `ackredit`; host bibliography retained without it | Public `uibcdf` Conda route; no pip/required runtime extra invented | uibcdf/peptidemt#6; real controlled receiving plus actual native-call capture |
 | MolSysMT source-preserving FASTA | `parse_fasta` / `read_fasta` delegate to public `file_fasta.parse_records/read_records` | Lazy `molsysmt`; optional for memory inputs/replay; no Bio or model required for ingestion | Shared editable development source; full-SHA source installation and Conda closure in CI, no unverified public installer | uibcdf/peptidemt#5; owner-backed tests, separate from original W3 model bundle |
+| Modern HydrAMP retained data | `HydrAMPReceipt.from_trace/from_json`, `to_json`, `inputs` | Existing native trace values or v1 JSON; no engine/NumPy/Torch import or new scientific execution | No engine dependency, extra or installer is added by receiving data | uibcdf/peptidemt#8; 41 installed data/controller/W1 checks, exact H4 saved replay; separate public execution case completed; D41 experimental AMP acceptance |
+| Modern HydrAMP CPU execution | `generate_hydramp`, explicit `worker_python`, `HydrAMPBundle` and `HydrAMPLimits` | Child-only guarded `hydramp_torch`; pinned installed runtime/checkpoint/numeric PCA; no host heavy import | Unpublished exact dev3 runtime; both installer routes disabled; no package extra or automatic acquisition | uibcdf/peptidemt#8; 55 installed controlled checks and one real installed-adapter case completed; exact native receiving/replay and captured parent attribution; D41 experimental AMP acceptance; broader claims unqualified |
+| Modern HydrAMP analogue CPU execution | `redesign_hydramp`, explicit `worker_python`, `HydrAMPAnalogueBundle`, existing `HydrAMPLimits`; data-only `HydrAMPAnalogueReceipt` | Child-only guarded dev6 codec/encoder/core/composer; no PCA/modlAMP; pinned installed runtime/source/checkpoint; no host model import | Unpublished exact local dev6/consumer wheels; no public installer/extra or automatic acquisition | uibcdf/peptidemt#32 / uibcdf/hydramp#4; D45 R1/R2 with101 installed controls and21 artificial network evaluations; separately authorized R3 completes21 learned-network/6 ONNX evaluations with exact receiving/replay and captured credit; one child scores worse than its parent under Macrel; allowance exhausted, scientific utility unqualified |
 
 Distinguish original Python libraries, executables, services, saved files and local
 implementations. Document extras' actual contents. An unavailable selected route

@@ -1,0 +1,349 @@
+{
+  "schema": "peptidemt.hydramp_public_receiving@1",
+  "date": "2026-11-03",
+  "recorded_at_utc": "2026-11-03T22:22:16.148771+00:00",
+  "issue": "uibcdf/peptidemt#8",
+  "status": "Provisional public data API implemented and exact local installed wheel receiving verified; generation execution adapter and scientific disposition remain pending",
+  "scope": "HydrAMPReceipt public export, shared strict JSON reader reused by ResultSet and HydrAMPReceipt; no generation/loading/execution API or new scientific method",
+  "wheel": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-public-receiving-umevqhn1/artifacts/peptidemt-0.1.0+118.g1f8c444.dirty-py3-none-any.whl",
+    "bytes": 30691,
+    "sha256": "1f5eed48b1d94d6d0d97b85d40400a958d693623717f17d9265147f1abb8919e"
+  },
+  "version": "0.1.0+118.g1f8c444.dirty",
+  "sources": {
+    "src/peptidemt/__init__.py": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/src/peptidemt/__init__.py",
+      "bytes": 983,
+      "sha256": "187d8fc27a236da3ec2425d3d72ac7ff94a53be89a3ad58f1bf37f06ac870b6c"
+    },
+    "src/peptidemt/_data.py": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/src/peptidemt/_data.py",
+      "bytes": 2528,
+      "sha256": "47de27e65ccacef39926cac46a41a1ed58b41a6a5ae6d6bd24f3e958fb19627b"
+    },
+    "src/peptidemt/results.py": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/src/peptidemt/results.py",
+      "bytes": 8874,
+      "sha256": "a5302c4ece2199a854aa3c8a924511f59b22cf6f836e1ccb78107555a6bafb84"
+    },
+    "src/peptidemt/_hydramp_receiving.py": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/src/peptidemt/_hydramp_receiving.py",
+      "bytes": 10295,
+      "sha256": "d02fab3f7b81abea5e7ee96e5fec4ea9b8bfbbf55ba8267de2e0defb1035b0c3"
+    },
+    "tests/test_hydramp_receiving.py": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/tests/test_hydramp_receiving.py",
+      "bytes": 11350,
+      "sha256": "dec529dc2fc7d0e48176b3afe3098aeee97fc885c8a67e3ac1ea0b3e22e78010"
+    }
+  },
+  "source_test_execution": {
+    "exit_code": 1,
+    "wall_seconds": 1.219838242046535,
+    "child_kernel_HWM_rss_bytes": 59654144,
+    "scope": "Current source public receiving/strict shared reader/controller regressions in isolated seven-distribution Python3.14.7 with published Receptor1.2.2; real engines/artifacts/network blocked;CPU0/1 one numeric thread,1GiBAS30s cap",
+    "new_scientific_calls": 0
+  },
+  "source_import_harness_correction": {
+    "exit_code": 0,
+    "wall_seconds": 0.718870059819892,
+    "child_kernel_HWM_rss_bytes": 47546368,
+    "scope": "Current source public receiving/strict shared reader/controller regressions in isolated seven-distribution Python3.14.7 with published Receptor1.2.2; real engines/artifacts/network blocked;CPU0/1 one numeric thread,1GiBAS30s cap",
+    "new_scientific_calls": 0
+  },
+  "source_test_note": "First source run 40 passed / 1 failed because an existing subprocess test expected an editable/import path that the isolated seven-package fixture did not supply. Only that case reran with explicit source PYTHONPATH and passed; no implementation changed. Both reports retained. 41 distinct source cases pass across the corrected execution history.",
+  "installed_preparation": {
+    "scope": "Fresh task-owned venv over unchanged frozen W3 site-packages; local unpublished new PeptideMT wheel installed only here; no scientific providers invoked",
+    "steps": [
+      {
+        "stage": "venv",
+        "exit_code": 0,
+        "wall_seconds": 4.679477903060615
+      },
+      {
+        "stage": "wheel-install",
+        "exit_code": 0,
+        "wall_seconds": 1.0215215829666704
+      },
+      {
+        "stage": "pip-check",
+        "exit_code": 0,
+        "wall_seconds": 0.5192747081164271
+      }
+    ],
+    "wheel_sha256": "1f5eed48b1d94d6d0d97b85d40400a958d693623717f17d9265147f1abb8919e",
+    "wheel_members_identical_except_RECORD": 22,
+    "new_scientific_calls": 0,
+    "child_kernel_HWM_rss_bytes": 78192640
+  },
+  "installed_execution": {
+    "exit_code": 0,
+    "wall_seconds": 4.3273443058133125,
+    "child_kernel_HWM_rss_bytes": 59486208,
+    "new_scientific_calls": 0,
+    "scope": "Exact local installed wheel API/source-origin/payload comparison and old H4 saved replay; 21 receiving plus18 source-controller plus2 W1 compatibility cases; published Receptor1.1.0; CPU0/1 one thread1GiBAS30s cap"
+  },
+  "installed_replay": {
+    "schema": "peptidemt.hydramp_public_installed_replay@1",
+    "python": "3.14.10 | packaged by conda-forge | (main, Oct 26 2026, 11:35:38) [GCC 15.3.0]",
+    "prefix": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-public-receiving-umevqhn1/installed-worker",
+    "peptidemt_origin": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-public-receiving-umevqhn1/installed-worker/lib/python3.14/site-packages/peptidemt/__init__.py",
+    "version": "0.1.0+118.g1f8c444.dirty",
+    "wheel_sha256": "1f5eed48b1d94d6d0d97b85d40400a958d693623717f17d9265147f1abb8919e",
+    "published_test_receptor": "1.1.0",
+    "old_H4_receipts_and_results": [
+      {
+        "tag": "control",
+        "proposed": 4,
+        "eligible": 4,
+        "original_JSON_and_selection_exact": true
+      },
+      {
+        "tag": "seed_1001",
+        "proposed": 16,
+        "eligible": 15,
+        "original_JSON_and_selection_exact": true
+      },
+      {
+        "tag": "seed_1002",
+        "proposed": 16,
+        "eligible": 15,
+        "original_JSON_and_selection_exact": true
+      }
+    ],
+    "real_providers_imported": [],
+    "new_scientific_calls": 0,
+    "scope": "New installed local PeptideMT wheel data API and saved selector replay; no new generation/Macrel route qualification"
+  },
+  "native_JUnit": {
+    "source-child-import-correction.xml": [
+      {
+        "name": "pytest",
+        "errors": "0",
+        "failures": "0",
+        "skipped": "0",
+        "tests": "1",
+        "time": "0.276",
+        "timestamp": "2026-11-03T16:17:28.201553-06:00",
+        "hostname": "spika"
+      }
+    ],
+    "source.xml": [
+      {
+        "name": "pytest",
+        "errors": "0",
+        "failures": "1",
+        "skipped": "0",
+        "tests": "41",
+        "time": "0.722",
+        "timestamp": "2026-11-03T16:17:07.842106-06:00",
+        "hostname": "spika"
+      }
+    ],
+    "installed.xml": [
+      {
+        "name": "pytest",
+        "errors": "0",
+        "failures": "0",
+        "skipped": "0",
+        "tests": "41",
+        "time": "0.794",
+        "timestamp": "2026-11-03T16:20:16.085529-06:00",
+        "hostname": "spika"
+      }
+    ]
+  },
+  "documentation_execution": {
+    "stages": [
+      {
+        "builder": "html",
+        "exit_code": 0,
+        "wall_seconds": 3.2258702891413122
+      },
+      {
+        "builder": "doctest",
+        "exit_code": 0,
+        "wall_seconds": 1.6718816990032792
+      }
+    ],
+    "scope": "Sphinx tools from shared development profile with explicit exact installed consumer wheel import; no model/engine/artifact/network access",
+    "child_HWM_rss_bytes": 101875712,
+    "new_scientific_calls": 0
+  },
+  "prior_source_manifest": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-public-receiving-umevqhn1/prior-source-manifest.json",
+    "bytes": 3764,
+    "sha256": "9e0556eace260984b5b93f83f1eb125ce5631d8c51368ff1a413908d387bf557"
+  },
+  "old_H4_pinned_source_recovery": [
+    {
+      "original_path": "/home/liliana/repos@uibcdf/peptidemt/src/peptidemt/_hydramp_receiving.py",
+      "exact_prior_source": {
+        "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-public-receiving-umevqhn1/prior-source/src/peptidemt/_hydramp_receiving.py",
+        "bytes": 10150,
+        "sha256": "befeab875836a1d71277642fb541c95c13dab80fcff166eefc76f7c02ed98f04"
+      },
+      "expected_sha256": "befeab875836a1d71277642fb541c95c13dab80fcff166eefc76f7c02ed98f04"
+    }
+  ],
+  "new_scientific_model_PCA_descriptor_Macrel_calls": 0,
+  "prior_model_allowances_remain_exhausted": true,
+  "scientific_acceptance": false,
+  "public_package_release": false,
+  "commit_push": false,
+  "limits": [
+    "Installed-data API only; no new live generation or Macrel qualification",
+    "New venv inherits unchanged frozen W3 dependencies; not a newly solved minimum-dependency environment",
+    "Only Linux/Python3.14 installed data qualification; no new cross-platform or full-minor matrix claim",
+    "Old scientific output files and source snapshots retained; old numerical criteria/scientific limits unchanged",
+    "No new molecular operation,descriptor equation,quantity interpretation,selector or broad architecture"
+  ],
+  "retention_review": "2026-11-13",
+  "artifacts": {
+    "docs-build-execution.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-public-receiving-umevqhn1/docs-build-execution.json",
+      "bytes": 443,
+      "sha256": "28b413235f0c1b2a9df07e11e1549bdd949a165d0b6a6a07a49955b68af1b782"
+    },
+    "installed-preparation.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-public-receiving-umevqhn1/installed-preparation.json",
+      "bytes": 701,
+      "sha256": "b9665f257cb78657bace9916c09ffd5809c737730853666cda95d8dc315b58f4"
+    },
+    "installed-replay.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-public-receiving-umevqhn1/installed-replay.json",
+      "bytes": 1231,
+      "sha256": "fdec53b1fb73e295860a75c27ff1be7501d85518a7c41c767dd4938f7c411289"
+    },
+    "installed-tests-execution.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-public-receiving-umevqhn1/installed-tests-execution.json",
+      "bytes": 358,
+      "sha256": "7ee6a48febc3af3c4ea0544167e9b84b3d86ab4f7cdff5fe5167e2c42675ff1c"
+    },
+    "prior-source-manifest.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-public-receiving-umevqhn1/prior-source-manifest.json",
+      "bytes": 3539,
+      "sha256": "c1825df31b61bc8237fb1c8423251e947370e71194628fff2015129f920d2d29"
+    },
+    "scope.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-public-receiving-umevqhn1/scope.json",
+      "bytes": 515,
+      "sha256": "66f943a59b65db1a6ace7ed9486d744d76ace23bd16a461b51236e9f7a1e3e8c"
+    },
+    "source-child-import-correction-execution.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-public-receiving-umevqhn1/source-child-import-correction-execution.json",
+      "bytes": 372,
+      "sha256": "464ca07d393138f9240997a113397aebff1c6609ed7629325e416250f8d36bbe"
+    },
+    "source-tests-execution.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-public-receiving-umevqhn1/source-tests-execution.json",
+      "bytes": 372,
+      "sha256": "25edc1cf7303c0ec85179f39a57b412c24a66f397f5fbbd05b656ee169e75490"
+    },
+    "wheel-build-execution.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-public-receiving-umevqhn1/wheel-build-execution.json",
+      "bytes": 253,
+      "sha256": "fdb59c9ed101faf67973337bce7a9225b793f3be4b26590539b5e44b6f435160"
+    },
+    "logs/docs-doctest.log": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-public-receiving-umevqhn1/logs/docs-doctest.log",
+      "bytes": 2746,
+      "sha256": "6925c4d96a4e065253b9fa8a8bb6d3ee0d0686cf0d356216702d042aaf414e14"
+    },
+    "logs/docs-html.log": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-public-receiving-umevqhn1/logs/docs-html.log",
+      "bytes": 3993,
+      "sha256": "24e3a5bf8d263aee912fde711350be8c4a31ad2797c551436a54deaec2106cbd"
+    },
+    "logs/installed-tests.log": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-public-receiving-umevqhn1/logs/installed-tests.log",
+      "bytes": 1264,
+      "sha256": "193df8ce70fff0540f194ce1a31b0abd2c206902e8360d5b276f22e36c809385"
+    },
+    "logs/pip-check.log": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-public-receiving-umevqhn1/logs/pip-check.log",
+      "bytes": 30,
+      "sha256": "9261363b733079a641c2e4cc9bc46ffa1d8336945a87f807b6cf68847dbc9b09"
+    },
+    "logs/source-child-import-correction.log": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-public-receiving-umevqhn1/logs/source-child-import-correction.log",
+      "bytes": 32,
+      "sha256": "37ad9aaf4518d192a63eeaffb4be44643ffa3f729dba4990ed14dd233c390ba3"
+    },
+    "logs/source-tests.log": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-public-receiving-umevqhn1/logs/source-tests.log",
+      "bytes": 743,
+      "sha256": "3402f41f4722f0ba8d104cc1c60808f0bf17b6f9ea784d03bceab50a0ebbc82b"
+    },
+    "logs/venv.log": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-public-receiving-umevqhn1/logs/venv.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "logs/wheel-build.log": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-public-receiving-umevqhn1/logs/wheel-build.log",
+      "bytes": 724,
+      "sha256": "5c25323b079de7f441abd7eeeef7b48bd85c3dd0e2adb074f244d480c5c90b46"
+    },
+    "logs/wheel-install.log": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-public-receiving-umevqhn1/logs/wheel-install.log",
+      "bytes": 604,
+      "sha256": "9453b1e80978517bd508ada9f6a8898d9704fed02a52e97d53427906020eb107"
+    },
+    "tests/installed.xml": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-public-receiving-umevqhn1/tests/installed.xml",
+      "bytes": 4646,
+      "sha256": "f8b4310d528f334d882af490585be3c6e1face18fcf30df83f26306eda5b03d8"
+    },
+    "tests/source-child-import-correction.xml": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-public-receiving-umevqhn1/tests/source-child-import-correction.xml",
+      "bytes": 375,
+      "sha256": "0701ce278777fe3876705a221341114e3af9b262734e1c960b46914356f8cf53"
+    },
+    "tests/source.xml": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-public-receiving-umevqhn1/tests/source.xml",
+      "bytes": 8170,
+      "sha256": "1d045eafa5e54c588d42e7e63bc8a1fcd7a0db78df695736abdb000ca3fdb3fc"
+    },
+    "guarded_tests.py": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-public-receiving-umevqhn1/guarded_tests.py",
+      "bytes": 1445,
+      "sha256": "4ca9f333dcb6800b0a50104f953235e5407471cbbffa8e4c7be11925eb089006"
+    },
+    "qualify_installed.py": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-public-receiving-umevqhn1/qualify_installed.py",
+      "bytes": 3167,
+      "sha256": "cf39b9efc7fd5023579d0582253c5acbbb1919032209817b1cf422f89cdb0889"
+    },
+    "build_docs.py": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-public-receiving-umevqhn1/build_docs.py",
+      "bytes": 1349,
+      "sha256": "ab76b18fb566cf37d603f5f74e015583148225e8526a02efa301f540c6db3435"
+    },
+    "pytest.ini": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-public-receiving-umevqhn1/pytest.ini",
+      "bytes": 51,
+      "sha256": "d4119853a2fa50dc24c993f2afefd9dd7cc1396142c563bcebf95703cebee1a5"
+    },
+    "docs-html-final-execution.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-public-receiving-umevqhn1/docs-html-final-execution.json",
+      "bytes": 198,
+      "sha256": "c8b3ae53c212cd904a39734161c837efebc2ccf8cabf684a4431dde4a8486ed7"
+    },
+    "logs/docs-html-final.log": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-public-receiving-umevqhn1/logs/docs-html-final.log",
+      "bytes": 2892,
+      "sha256": "dc20a0e9375ca2d5f7c553920e1af15dab4c97ab64792e3a75bc484f8335d176"
+    }
+  },
+  "source_base_commit": "1f8c444e4619499cae8ad9970122c5f40adf6127",
+  "development_state": "Dirty uncommitted source; exact wheel SHA256 is the tested artifact identity",
+  "final_documentation_html": {
+    "exit_code": 0,
+    "wall_seconds": 1.6208602678962052,
+    "scope": "Final HTML after code-block formatting only; prior six unchanged memory-input doctests retained",
+    "new_scientific_calls": 0
+  },
+  "administrative_environment_note": "Sandbox command startup failed on /tmp/.git mount registration with EDQUOT. External read-only df showed free disk/inodes; no unrelated component or temporary data was changed to diagnose it. Approved escalated execution used task-local TMPDIR. Underlying sandbox quota was not changed or claimed resolved."
+}

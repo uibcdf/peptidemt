@@ -1,0 +1,101 @@
+{
+  "schema": "peptidemt.mdm2_t1a_closeout@1",
+  "recorded_utc": "2026-11-10T05:39:09.405078+00:00",
+  "qualification_receipt": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/evidence/mdm2_t1a_qualification.json",
+    "sha256": "156652a053840efe34fec2c0a0ce026654e5e936130381c523c180afd263775f",
+    "bytes": 37368
+  },
+  "maintained_documents": [
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/AGENTS.md",
+      "sha256": "213934f90acc7362510a2d601e1137582d5a090b78e5b0229b794f5d69d85dc8",
+      "bytes": 16029
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/README.md",
+      "sha256": "c8c05e5e2c2c63f317f39eba6664e89bff2c0547fbc21f40c9e83cc1a5861a17",
+      "bytes": 48418
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/decisions.md",
+      "sha256": "c0153f25faea4d14573fbf5fb14143e8f24154a65a68a5c40f7d486858159ed3",
+      "bytes": 111925
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/mdm2_t1a_work_order.md",
+      "sha256": "bf5acae3a1c75fa77f1c5c4a7d307641178d3fe883d11dc85bada85e13536c65",
+      "bytes": 2443
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/mdm2_t1a_qualification.md",
+      "sha256": "420b6ba11317b3965de560bf933023eceab07f4a08ff71af9fa215b29fae44e1",
+      "bytes": 9397
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/target_directed_demonstrator.md",
+      "sha256": "234e761a923d3f27612a58a2637db4c44c4e68b96722dc8091473a7d93ae68bd",
+      "bytes": 7797
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/continuation_plan_2026_11_04.md",
+      "sha256": "f1ad6d97b55778019745a0333f61386a13578c4bd8f0d592dc6e6b4131a51d35",
+      "bytes": 28306
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/pending_proposals/scientific_capability_audit.md",
+      "sha256": "9ec0677e2a3fae2818834980ed725a8e08be0871f62ecff907e6b991ec47e2e6",
+      "bytes": 12849
+    }
+  ],
+  "checks": {
+    "ruff check .": {
+      "exit_code": 0,
+      "output": "All checks passed!"
+    },
+    "ruff format --check .": {
+      "exit_code": 0,
+      "output": "211 files already formatted"
+    },
+    "python devtools/devguide_index.py --check": {
+      "exit_code": 0,
+      "output": "Generated report indexes are current."
+    },
+    "git diff --check": {
+      "exit_code": 0
+    },
+    "maintained_document_relative_paths": {
+      "files": 8,
+      "paths": 334,
+      "errors": 0
+    },
+    "maintained_document_whitespace": {
+      "files": 8,
+      "errors": 0
+    },
+    "tested_received_replayed_case_source_sha256_equal": true,
+    "saved_copy_sha256_equal": true
+  },
+  "owner_issue_updates": {
+    "preregistration": {
+      "url": "https://github.com/uibcdf/peptidemt/issues/33#issuecomment-6759658377",
+      "comment_id": 6759658377,
+      "exact_body_verified": true,
+      "body_sha256": "b99f4bab8b8a5857706a16e159bbd16e5aa6bc4e3e1627075a10db16c7563372"
+    },
+    "outcome": {
+      "url": "https://github.com/uibcdf/peptidemt/issues/33#issuecomment-6759965592",
+      "comment_id": 6759965592,
+      "exact_body_verified": true,
+      "body_sha256": "17b319da7f5e99b3a923a07c4bd4be2e71828d911eb23fee476a7216c3700429"
+    }
+  },
+  "issue_readback_snapshot": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-t1a-b03dl94b/issue-updates.json",
+    "sha256": "46698b0b1191e4a02468857d4fc48b8b7bae2e96275f50606a6f9063475f5179",
+    "bytes": 5589
+  },
+  "parent_issue_status": "open; scientific capability audit / D52 demonstrator remain partial",
+  "interpretation": "Documentation and finite data/codec qualification only; no model, chemistry, independent benchmark or biological acceptance",
+  "commit_push_or_public_release": false
+}

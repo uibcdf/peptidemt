@@ -1,0 +1,38 @@
+{
+  "schema": "peptidemt.mdm2_t0_implementation_closeout@1",
+  "recorded_at_utc": "2026-11-06T05:54:11.831867+00:00",
+  "status": "implementation_checkpoint_complete_T0_scientific_geometry_incomplete_due_host_reserve",
+  "implementation": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/evidence/mdm2_t0_implementation.json",
+    "bytes": 15747,
+    "sha256": "0f9f7de6e2a373fdbe2f607c184767fb72f61887442eae043aeb1145a8cf3ea5"
+  },
+  "issue_update": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/evidence/mdm2_t0_implementation_issue_updates.json",
+    "bytes": 3953,
+    "sha256": "29cd14305af61ad94083b424615c66718dc9a02bc5c5b0292a24e800e48e7807"
+  },
+  "documentation": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-t0-d1u79kql/documentation-check.json",
+    "bytes": 945,
+    "sha256": "6e63cfbbd42fab42ffa9cf008894f91bda22f558b129f121aaefca2336cc6a89"
+  },
+  "index_check": "Generated report indexes are current.",
+  "scoped_diff_whitespace": "passed",
+  "maintained_file_pins_still_exact": true,
+  "source_receiving": "once, exact hashes retained; internal molecular source admission pending",
+  "final_artificial_tests": "PASS exit=0 | 11 passed | 0.34s",
+  "engineering_attempts": 2,
+  "final_installed_profile_passed": false,
+  "actual_geometry_operations": 0,
+  "resource_disposition": "Both native installations stopped on the fixed 8 GiB available-host-RAM reserve; subsequent 24-sample/120-second observation did not admit an extra retry. No reserve reduction or third build.",
+  "heads": {
+    "peptidemt_observed": "1f8c444e4619499cae8ad9970122c5f40adf6127",
+    "molsysmt_shared_preserved": "71fbe4f46d3c70e4e973c8025f01752a8c9b1084",
+    "molsysmt_isolated_fixed": "ed09f64539a5af6c1dbe9bd352c7ef65dcd4a7a6",
+    "hydramp_dev9_base_preserved": "6a3ff905635a4bd744854cd540f8513916aa99f0"
+  },
+  "new_commit_push_release_models_GPU_T1_or_author_contact": false,
+  "workers": "All launched engineering/test/headroom sessions completed; no scientific worker or detached continuation left running",
+  "continuation_authority": "D49/D51 remains sufficient to finish the same isolated profile and exact three-view T0 when the approved host envelope permits; no repeated per-run approval or scientific criteria changes."
+}

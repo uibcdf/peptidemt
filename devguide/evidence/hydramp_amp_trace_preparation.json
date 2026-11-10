@@ -1,0 +1,441 @@
+{
+  "schema": "peptidemt.hydramp_amp_trace_preparation@1",
+  "date": "2026-11-03",
+  "recorded_at_utc": "2026-11-03T18:29:17.797171+00:00",
+  "owner_issue": "uibcdf/hydramp#1",
+  "consumer_issue": "uibcdf/peptidemt#8",
+  "status": "Synthetic kernel mechanism measured; exact real-weight AMP trace prepared,36-forward/24-replay/2-reference allowance awaits approval",
+  "authority": "Investigator requested the numerical cause,authorized owning-fork reporting and preserving demonstrated modern numerical improvements. No new learned execution or general acceptance inferred.",
+  "candidate": "hydramp-torch==0.0.0.dev3",
+  "candidate_wheel": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-comparison-qnbdpism/artifacts/hydramp_torch-0.0.0.dev3-py3-none-any.whl",
+    "bytes": 11987,
+    "sha256": "81761e0d48d92f0956e0afc28b3b4154f16032de53c666fd2cfbb53606102ed7"
+  },
+  "source_commit": "6590d2f4c2963f25d30669052a4c4a857e0e7279",
+  "starter_commit": "7804df862872ccc6d09fe01c41bafbca194cfa31",
+  "branch": "peptidemt-pytorch-comparison",
+  "uncommitted": true,
+  "plan": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-head-cause-2q_m3p18/trace-plan.json",
+    "bytes": 32856,
+    "sha256": "0e8b7b09234f92991f2f41e33b9b2f6f306986046674ca91d6d9b3122f0c93b5"
+  },
+  "worker": {
+    "path": "/home/liliana/repos@uibcdf/hydramp/local_data/pytorch-comparison/ports/pytorch/devtools/amp_trace.py",
+    "bytes": 18995,
+    "sha256": "e25c66a6df509eca1b04331d70ca34d2c75207a15ede9f913ea144bde718c106"
+  },
+  "supervisor": {
+    "path": "/home/liliana/repos@uibcdf/hydramp/local_data/pytorch-comparison/ports/pytorch/devtools/parity.py",
+    "bytes": 18338,
+    "sha256": "21232aab3060dd6a9e8ac448d8b46aa0bac1dd32786f556f1e2b4acdb8347026"
+  },
+  "tests": {
+    "path": "/home/liliana/repos@uibcdf/hydramp/local_data/pytorch-comparison/ports/pytorch/tests/test_amp_trace.py",
+    "bytes": 6355,
+    "sha256": "a10cb116c544e05eebf2f072cd6eb146913321e5f7ee25b98acad141f8bdd39c"
+  },
+  "input_archive": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-head-cause-2q_m3p18/trace-inputs.npz",
+    "bytes": 53638,
+    "sha256": "3111385e6edf1580f9533d6e040fcb571e37f9ad8669a1fd5c5ca0802107e59e"
+  },
+  "input_manifest": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-head-cause-2q_m3p18/trace-input-manifest.json",
+    "bytes": 2490,
+    "sha256": "9d1a0b0289bf74f243ecaaa6b48058f1e679bf6c8cc83f65c91557186c7e4899"
+  },
+  "seeds": [
+    1001,
+    1002,
+    1003,
+    1004,
+    1006,
+    1007,
+    1008,
+    1009,
+    1010,
+    1012,
+    1013,
+    1014
+  ],
+  "existing_rows": 192,
+  "all_affected_occurrences_covered": 18,
+  "selection_scope": "Post-hoc diagnostic contexts,not unbiased new validation",
+  "proposed_budget": {
+    "workers": 2,
+    "concurrent_workers": 1,
+    "cpu_affinity": [
+      0,
+      1
+    ],
+    "native_threads": 1,
+    "nice": 10,
+    "address_space_bytes": 8589934592,
+    "rss_stop_bytes": 2147483648,
+    "minimum_mem_available_bytes": 8589934592,
+    "worker_wall_seconds": 180,
+    "aggregate_worker_wall_seconds": 360,
+    "output_stop_bytes": 134217728,
+    "minimum_free_disk_bytes": 1073741824,
+    "gpu": false,
+    "network": false,
+    "retries": 0,
+    "task_ram_budget_bytes": 4000000000,
+    "task_ram_budget_implementation": "One model worker at a time, sampled worker RSS stop at 2 GiB; small stdlib supervisor measured separately. The unchanged 8 GiB virtual address-space ceiling is not a RAM allocation.",
+    "network_evaluations_total": 36,
+    "native_amp_forwards": 12,
+    "torch_amp_forwards": 12,
+    "torch_mic_forwards": 12,
+    "torch_sigmoid_replay_vectors": 24,
+    "fp64_activation_vectors": 2,
+    "fp64_logits_per_vector": 384,
+    "generation_calls": 0,
+    "pca_loads_or_transforms": 0,
+    "decoder_forwards": 0,
+    "encoder_forwards": 0,
+    "descriptor_bundles": 0,
+    "macrel_calls": 0,
+    "maximum_batch_rows": 16,
+    "native_component_graph_sets": 1,
+    "torch_core_constructions": 1,
+    "report_wall_seconds": 30,
+    "total_wall_seconds_including_report": 390,
+    "report_address_space_bytes": 1073741824
+  },
+  "synthetic_probe_receipt": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/evidence/hydramp_amp_sigmoid_probe.json",
+    "bytes": 15272,
+    "sha256": "1a61e66efda4988353a9011775e01df19e6178704b77b04e69b960e46791544a"
+  },
+  "independent_decimal_reference": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/evidence/hydramp_amp_decimal_reference.json",
+    "bytes": 1256,
+    "sha256": "1136e2bfb3222219cf6405ea5a8339506ad0b6cbfc97e0a0b19f9a54d14052b8"
+  },
+  "checks": {
+    "guarded_pytest_artificial_checks": 16,
+    "pytest_execution": {
+      "exit_code": 0,
+      "wall_seconds": 12.75090526486747,
+      "kernel_child_peak_rss_bytes": 287596544,
+      "scope": "Artificial zero-weight/tokens/controller checks only; real artifact/provider/network access blocked; explicit isolated runtime and published receptor asserted."
+    },
+    "native_artificial_graph_smoke": {
+      "status": "pass",
+      "case": "native original NoConvAMPClassifier with artificial zero weights",
+      "surfaces": {
+        "embedding": [
+          16,
+          25,
+          128
+        ],
+        "lstm1": [
+          16,
+          25,
+          64
+        ],
+        "pool": [
+          16,
+          5,
+          64
+        ],
+        "lstm2": [
+          16,
+          100
+        ],
+        "logits": [
+          16,
+          1
+        ],
+        "amp": [
+          16,
+          1
+        ]
+      },
+      "endpoints_bitwise_equal": true,
+      "synthetic_amp_forwards": 2,
+      "pretrained_forwards": 0,
+      "weights_or_pca_loaded": 0,
+      "executable": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-h1-20261030-6jc5a1me/worker/bin/python",
+      "prefix": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-h1-20261030-6jc5a1me/worker",
+      "tensorflow": "2.2.1",
+      "numpy": "1.18.5"
+    },
+    "native_smoke_execution": {
+      "exit_code": 0,
+      "wall_seconds": 4.579151764046401,
+      "kernel_child_peak_rss_bytes": 377262080,
+      "scope": "Final native original graph instrumentation on artificial zero weights; all earlier setup/metadata/timeout outcomes retained. No pretrained forwards."
+    },
+    "earlier_native_smoke_failures_retained": true,
+    "byte_only_preflight": "pass",
+    "ruff_lint_format": "pass",
+    "installed_runtime_and_wheel_probe": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-head-cause-2q_m3p18/trace-installed-probe.json",
+      "bytes": 3410,
+      "sha256": "aec408694afe0c04cf2b47527a4da777947c9b1c502cbb2b00d1fee1533916dd"
+    }
+  },
+  "host_preflight": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-head-cause-2q_m3p18/trace-host-preflight.json",
+    "bytes": 566,
+    "sha256": "1b340de571c18b403bd34526252f95b2bcabba4970d15f176e3e4554e534da32"
+  },
+  "artifacts": {
+    "decimal_synthetic_reference.py": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-head-cause-2q_m3p18/decimal_synthetic_reference.py",
+      "bytes": 1751,
+      "sha256": "f936451d9493b1276651504fe2fc76bf002148ef92229c4664605c8966ffeaff"
+    },
+    "guarded_trace_tests.py": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-head-cause-2q_m3p18/guarded_trace_tests.py",
+      "bytes": 2481,
+      "sha256": "e8e3a16904a9eef70ea3231aba9c96878d6df689c898c10014956d5255d99444"
+    },
+    "initial-native-smoke-setup/disposition.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-head-cause-2q_m3p18/initial-native-smoke-setup/disposition.json",
+      "bytes": 239,
+      "sha256": "710bab336a9fe726377ac6ae5c0dc2afcb39bcd2f8b2c97f6cff088a9606b8ee"
+    },
+    "initial-native-smoke-setup/logs/native-trace-smoke.log": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-head-cause-2q_m3p18/initial-native-smoke-setup/logs/native-trace-smoke.log",
+      "bytes": 1603,
+      "sha256": "ac911d57748bc73734c8b51f4f7f1b37f7df1d3e8d91a431cac31b52548ea990"
+    },
+    "initial-native-smoke-setup/native-trace-smoke-execution.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-head-cause-2q_m3p18/initial-native-smoke-setup/native-trace-smoke-execution.json",
+      "bytes": 231,
+      "sha256": "2f86ed09bfdcd8fec7345f5a0efa55568e13d7f336a8a4984544d16e3989ff5b"
+    },
+    "initial-native-smoke-setup/native_trace_smoke.py": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-head-cause-2q_m3p18/initial-native-smoke-setup/native_trace_smoke.py",
+      "bytes": 2989,
+      "sha256": "247d46f40ccd7540cab4bdb86717df6ed0a47ca9e3103bd10a10a7786e2c519e"
+    },
+    "logs/native-trace-smoke-final.log": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-head-cause-2q_m3p18/logs/native-trace-smoke-final.log",
+      "bytes": 1897,
+      "sha256": "385d26837cd19bf7e94da19a2851e14a9d2eaa546502b3fb2bdcdee961ebb5d1"
+    },
+    "logs/native-trace-smoke-marked.log": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-head-cause-2q_m3p18/logs/native-trace-smoke-marked.log",
+      "bytes": 2505,
+      "sha256": "5242e87d1b40f1471e4e87f8fc8ead5331592ff627aa8b56c5560f1861b8dee6"
+    },
+    "logs/native-trace-smoke.log": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-head-cause-2q_m3p18/logs/native-trace-smoke.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "logs/sigmoid-analysis.log": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-head-cause-2q_m3p18/logs/sigmoid-analysis.log",
+      "bytes": 3028,
+      "sha256": "8108ef0cdb4a025d6c4a72c9eee3eea3206073c22b9733b0943084acd4c69689"
+    },
+    "logs/synthetic-legacy.log": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-head-cause-2q_m3p18/logs/synthetic-legacy.log",
+      "bytes": 1598,
+      "sha256": "db00d4d74a48e27f82f5b97712e5e42b8b93274b0d5bcb275380b67e7447bfad"
+    },
+    "logs/synthetic-torch.log": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-head-cause-2q_m3p18/logs/synthetic-torch.log",
+      "bytes": 536,
+      "sha256": "41a7b004732f16be61000d941be9e30814eee3755ee824a821998f8094fcede5"
+    },
+    "logs/trace-tests.log": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-head-cause-2q_m3p18/logs/trace-tests.log",
+      "bytes": 33,
+      "sha256": "ba0907a86fe817336ea16468841aca007d9f0e0cdc8e5660d811d18e32ef750e"
+    },
+    "native-raw-tensor-metadata-failure/disposition.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-head-cause-2q_m3p18/native-raw-tensor-metadata-failure/disposition.json",
+      "bytes": 389,
+      "sha256": "cf51be1beddd49febc604b0615ec0dfa6ac9571efa764123113d8b3747f4d9e4"
+    },
+    "native-raw-tensor-metadata-failure/logs/native-trace-smoke-marked.log": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-head-cause-2q_m3p18/native-raw-tensor-metadata-failure/logs/native-trace-smoke-marked.log",
+      "bytes": 2505,
+      "sha256": "5242e87d1b40f1471e4e87f8fc8ead5331592ff627aa8b56c5560f1861b8dee6"
+    },
+    "native-raw-tensor-metadata-failure/native-trace-smoke-marked-execution.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-head-cause-2q_m3p18/native-raw-tensor-metadata-failure/native-trace-smoke-marked-execution.json",
+      "bytes": 473,
+      "sha256": "1dd678f3ceb3edc9ff6f882b2d5e7ce8291dc2ba9294d204781a25187108e314"
+    },
+    "native-raw-tensor-metadata-failure/native_trace_smoke_marked.py": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-head-cause-2q_m3p18/native-raw-tensor-metadata-failure/native_trace_smoke_marked.py",
+      "bytes": 3457,
+      "sha256": "dbce91527fde01796a18c9f06cba61a8c8610b82b330141ecef10f6f8aa713f8"
+    },
+    "native-smoke-timeout/native-trace-smoke.log": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-head-cause-2q_m3p18/native-smoke-timeout/native-trace-smoke.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "native-smoke-timeout/native_trace_smoke.py": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-head-cause-2q_m3p18/native-smoke-timeout/native_trace_smoke.py",
+      "bytes": 3000,
+      "sha256": "620c1c09dc60ddc96a5786893a416d6f0b715b6a33b95130fb55345792d58070"
+    },
+    "native-smoke-timeout/outcome.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-head-cause-2q_m3p18/native-smoke-timeout/outcome.json",
+      "bytes": 287,
+      "sha256": "0cc4baca3f2f2e8e76a53257c7874b84e7fa03f9b675b77981a55a6350c52b98"
+    },
+    "native-trace-smoke-execution.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-head-cause-2q_m3p18/native-trace-smoke-execution.json",
+      "bytes": 231,
+      "sha256": "2f86ed09bfdcd8fec7345f5a0efa55568e13d7f336a8a4984544d16e3989ff5b"
+    },
+    "native-trace-smoke-final-execution.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-head-cause-2q_m3p18/native-trace-smoke-final-execution.json",
+      "bytes": 266,
+      "sha256": "2a36dc90906c3f9834bf4a0c0e458a2de1e90809fcb893491565146dcdd37a48"
+    },
+    "native-trace-smoke-marked-execution.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-head-cause-2q_m3p18/native-trace-smoke-marked-execution.json",
+      "bytes": 473,
+      "sha256": "1dd678f3ceb3edc9ff6f882b2d5e7ce8291dc2ba9294d204781a25187108e314"
+    },
+    "native-trace-smoke.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-head-cause-2q_m3p18/native-trace-smoke.json",
+      "bytes": 781,
+      "sha256": "d52dd989b2ed03f8bc274ccdb6a8165b8308417f4d50e3001bc2f68eb2d49215"
+    },
+    "native_trace_smoke.py": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-head-cause-2q_m3p18/native_trace_smoke.py",
+      "bytes": 3000,
+      "sha256": "620c1c09dc60ddc96a5786893a416d6f0b715b6a33b95130fb55345792d58070"
+    },
+    "native_trace_smoke_marked.py": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-head-cause-2q_m3p18/native_trace_smoke_marked.py",
+      "bytes": 3457,
+      "sha256": "dbce91527fde01796a18c9f06cba61a8c8610b82b330141ecef10f6f8aa713f8"
+    },
+    "prepare_trace_inputs.py": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-head-cause-2q_m3p18/prepare_trace_inputs.py",
+      "bytes": 2030,
+      "sha256": "16d2b58382b8529e1a97fc35c141acc8d0384c9e06f86c23214b8a254c568078"
+    },
+    "review_monotonicity.py": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-head-cause-2q_m3p18/review_monotonicity.py",
+      "bytes": 583,
+      "sha256": "5ba3826f45cccf2b23362665183a6f8873273cd748604b28deea9f8d2cd3e1a0"
+    },
+    "sigmoid_analysis.py": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-head-cause-2q_m3p18/sigmoid_analysis.py",
+      "bytes": 3360,
+      "sha256": "514d2416d13af6fcd25c55724d2a403e697050c8bc1e83ce7d52a6fd4c391eb1"
+    },
+    "sigmoid_probe.py": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-head-cause-2q_m3p18/sigmoid_probe.py",
+      "bytes": 3676,
+      "sha256": "81036a1161ce8aea108da9268ff4b45ae4c920bc7e52c23bac4f3143ae3730ae"
+    },
+    "synthetic/analysis-execution.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-head-cause-2q_m3p18/synthetic/analysis-execution.json",
+      "bytes": 131,
+      "sha256": "90a0cffdab22281a6c5ef859e2423be765b9936b6e7559df8474ba6437a6b0a1"
+    },
+    "synthetic/analysis-runtime.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-head-cause-2q_m3p18/synthetic/analysis-runtime.json",
+      "bytes": 408,
+      "sha256": "1fba7738073d557ec47e4dbee9c5d6d0f3ffb295dd4d7a0bd3a9cbe4c2f80376"
+    },
+    "synthetic/attempt-legacy.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-head-cause-2q_m3p18/synthetic/attempt-legacy.json",
+      "bytes": 195,
+      "sha256": "8f54b09e7622baf3806289c1957519d016c8b48650ede936bbf07a99f3c96024"
+    },
+    "synthetic/attempt-torch.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-head-cause-2q_m3p18/synthetic/attempt-torch.json",
+      "bytes": 195,
+      "sha256": "0a5799d5176c32afa35d9f1fe6b3a716067ed8387b8cac14113f714b8d9f8d61"
+    },
+    "synthetic/decimal-reference.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-head-cause-2q_m3p18/synthetic/decimal-reference.json",
+      "bytes": 41651,
+      "sha256": "b8196c29b2f4f737c575a56ba01199911baca1ae1f1b75acddd219b0d8aa2eb6"
+    },
+    "synthetic/decimal-runtime.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-head-cause-2q_m3p18/synthetic/decimal-runtime.json",
+      "bytes": 408,
+      "sha256": "1fba7738073d557ec47e4dbee9c5d6d0f3ffb295dd4d7a0bd3a9cbe4c2f80376"
+    },
+    "synthetic/legacy-synthetic.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-head-cause-2q_m3p18/synthetic/legacy-synthetic.json",
+      "bytes": 579,
+      "sha256": "fb0db73422fee0e57c395699b5e09285e5a6dd6f5d837c77996d6d5bdc5f0fa3"
+    },
+    "synthetic/monotonicity-review.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-head-cause-2q_m3p18/synthetic/monotonicity-review.json",
+      "bytes": 296,
+      "sha256": "e29fe6942586e25f865e2cbb13714185c82d00da2d88cb923cf4c616c7880c23"
+    },
+    "synthetic/monotonicity-runtime.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-head-cause-2q_m3p18/synthetic/monotonicity-runtime.json",
+      "bytes": 408,
+      "sha256": "1fba7738073d557ec47e4dbee9c5d6d0f3ffb295dd4d7a0bd3a9cbe4c2f80376"
+    },
+    "synthetic/probe-execution.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-head-cause-2q_m3p18/synthetic/probe-execution.json",
+      "bytes": 446,
+      "sha256": "4710a7dfad3a76a4f0cf3d8a37f6c824dc183ce9c100709ea5a7a4f34c04e6af"
+    },
+    "synthetic/sigmoid-comparison.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-head-cause-2q_m3p18/synthetic/sigmoid-comparison.json",
+      "bytes": 3028,
+      "sha256": "8108ef0cdb4a025d6c4a72c9eee3eea3206073c22b9733b0943084acd4c69689"
+    },
+    "synthetic/torch-synthetic.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-head-cause-2q_m3p18/synthetic/torch-synthetic.json",
+      "bytes": 580,
+      "sha256": "16c7f2c6ba8653d3fe66803066bbab00ab083618b3722d6a1cecf2a0b3d6bd13"
+    },
+    "trace-host-preflight.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-head-cause-2q_m3p18/trace-host-preflight.json",
+      "bytes": 566,
+      "sha256": "1b340de571c18b403bd34526252f95b2bcabba4970d15f176e3e4554e534da32"
+    },
+    "trace-input-manifest.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-head-cause-2q_m3p18/trace-input-manifest.json",
+      "bytes": 2490,
+      "sha256": "9d1a0b0289bf74f243ecaaa6b48058f1e679bf6c8cc83f65c91557186c7e4899"
+    },
+    "trace-installed-probe.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-head-cause-2q_m3p18/trace-installed-probe.json",
+      "bytes": 3410,
+      "sha256": "aec408694afe0c04cf2b47527a4da777947c9b1c502cbb2b00d1fee1533916dd"
+    },
+    "trace-test-execution.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-head-cause-2q_m3p18/trace-test-execution.json",
+      "bytes": 276,
+      "sha256": "796b656e1d30d1bea1865629f93f31d499879c93be34f73d653f12375601db92"
+    },
+    "trace-tests.xml": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-head-cause-2q_m3p18/trace-tests.xml",
+      "bytes": 1944,
+      "sha256": "b57e525fe1cfe013e05e0c62423bd7e4530bcc67355bb1a17420e134324119e7"
+    }
+  },
+  "new_pretrained_trace_attempts": 0,
+  "new_learned_model_or_pca_descriptor_macrel_calls": 0,
+  "scope_notes": [
+    "Native trace now fetches original raw pre-sigmoid tensors with pinned Keras backend function/input/learning-phase handling; no new Dense computation or model correction.",
+    "Port unchanged paired-head API requires12 additional MIC forwards,explicitly counted within36 total.",
+    "Native helper constructs full original component graph set once but executes only AMP; port loads unchanged strict core once. No encoder/decoder/PCA/generation call.",
+    "Any changed saved endpoint or own-logit replay stops without retry; native failure prevents port stage.",
+    "Report final-activation FP64 formulations are not an independent FP64 whole-head reference.",
+    "User-authorized owning issue was published only in uibcdf/hydramp; no external upstream issue."
+  ],
+  "not_granted": [
+    "36 learned network forwards or24 real-logit sigmoid replays until exact new approval",
+    "Scientific acceptance or old FAIL/threshold/selector/equation/weight changes",
+    "Training,GPU,other family/route,Macrel or package/model publication,commit,push"
+  ],
+  "retention_review": "2026-11-13",
+  "producer_record": "devguide/evidence/pytorch_amp_trace_preparation.json in local peptidemt-pytorch-comparison worktree",
+  "producer_record_sha256": "782b45c2828e16009b6133fb09c86cb7a2160c43889a1b8a464390477a418850"
+}

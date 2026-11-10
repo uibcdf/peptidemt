@@ -1,0 +1,743 @@
+{
+  "schema": "peptidemt.hydramp_encoder_E2_execution@1",
+  "recorded_at_utc": "2026-11-04T14:50:18.959383+00:00",
+  "status": "Approved finite pretrained deterministic encoder comparison completed; prospective numerical PASS; scientific adoption not granted",
+  "owner_issue": "uibcdf/hydramp#8",
+  "consumer_issue": "uibcdf/peptidemt#32",
+  "authorization": {
+    "schema": "peptidemt.hydramp_encoder_E2_authorization@1",
+    "recorded_at_utc": "2026-11-04T14:45:15.973694+00:00",
+    "approved": true,
+    "artificial_only": false,
+    "plan_sha256": "eb6d30fc31217dee57c9200fcfcff982ebbee0facb12fdeff3b6f9da3b92692b",
+    "owner_issue": "uibcdf/hydramp#8",
+    "consumer_issue": "uibcdf/peptidemt#32",
+    "authority": "Investigator explicitly instructs continuing in direct response to the exact E2 execution approval question and presented report, including ten encoder evaluations, one legacy64 construction-noise draw, native initializer work and finite CPU/shared-host limits.",
+    "criteria": {
+      "atol": 2e-06,
+      "rtol": 2e-05
+    },
+    "encoder_evaluations_total": 10,
+    "construction_unused_epsilon_draws_legacy": 1,
+    "supervision_limits": {
+      "min_available_memory_bytes": 8589934592,
+      "min_free_disk_bytes": 1073741824,
+      "threads": 1,
+      "wall_seconds": 120,
+      "rss_stop_bytes": 2147483648,
+      "max_output_bytes": 134217728
+    },
+    "child_limits": {
+      "cpu_ids": [
+        0,
+        1
+      ],
+      "nice": 10,
+      "address_space_bytes": 8589934592
+    },
+    "maximum_total_worker_wall_seconds": 240,
+    "new_scientific_acceptance": false,
+    "no_retry_GPU_analogue_training_release_or_external_contact": true
+  },
+  "plan": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-encoder-E2-prep-7y8qhl7j/plan.json",
+    "bytes": 60488,
+    "sha256": "eb6d30fc31217dee57c9200fcfcff982ebbee0facb12fdeff3b6f9da3b92692b"
+  },
+  "fixture": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-encoder-E2-prep-7y8qhl7j/tokens.json",
+    "bytes": 9499,
+    "sha256": "7dfd8672aeb359958bdbe04d6e2a3bbfc3e18d60ffe90675989ecaad8e024f3c"
+  },
+  "candidate_wheel": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-encoder-E1-jig040z0/artifacts/hydramp_torch-0.0.0.dev4-py3-none-any.whl",
+    "bytes": 15421,
+    "sha256": "01fe4e125eca5decdca89f43e8925e8e969d3453b7a4da701be8e96e5e18dbe0"
+  },
+  "accepted_dev3_wheel_preserved": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-comparison-qnbdpism/artifacts/hydramp_torch-0.0.0.dev3-py3-none-any.whl",
+    "bytes": 11987,
+    "sha256": "81761e0d48d92f0956e0afc28b3b4154f16032de53c666fd2cfbb53606102ed7"
+  },
+  "accepted_consumer_wheel_sha256": "18b1cb18b9662092203aad9c64d45bc0d61a862577297c13a664572dbdbc3e83",
+  "runtime_and_bundle_source": "Same exact plan/preparation manifest: original6590/starter7804,23 files17 arrays; installed legacy61/modern41 distributions, original source41/new runtime7 files, byte hashes verified unchanged",
+  "supervision": {
+    "legacy": {
+      "started": true,
+      "returncode": 0,
+      "failure": null,
+      "wall_seconds": 4.641193070914596,
+      "peak_sampled_process_tree_rss_bytes": 385298432,
+      "retained_output_bytes": 20673356,
+      "retry": false
+    },
+    "torch": {
+      "started": true,
+      "returncode": 0,
+      "failure": null,
+      "wall_seconds": 3.485954134957865,
+      "peak_sampled_process_tree_rss_bytes": 285999104,
+      "retained_output_bytes": 41347047,
+      "retry": false
+    }
+  },
+  "total_supervised_worker_seconds": 8.127147205872461,
+  "maximum_sampled_process_tree_RSS_bytes": 385298432,
+  "maximum_retained_run_output_bytes": 41347047,
+  "actual_work": {
+    "distinct_token_rows": 32,
+    "baseline_occurrences": 36,
+    "encoder_evaluations_each": 5,
+    "encoder_evaluations_total": 10,
+    "submitted_occurrences_each": 144,
+    "model_constructions_each": 1,
+    "arrays_deserialized_each": 17,
+    "selected_distinct_files_each": 23,
+    "open_audit_events": {
+      "legacy": 24,
+      "torch": 23
+    },
+    "legacy_repeated_open_event_file": "model_config.json; Python3.8 Path.open opener hook; audit-event count is not a count of extra parameter/model evaluations",
+    "legacy_construction_unused_epsilon_draws": [
+      {
+        "shape": [
+          64
+        ],
+        "type": "EagerTensor"
+      }
+    ],
+    "native_initializer_RNG_SVD": "Included within original construction before replacing saved arrays",
+    "posterior_latent_outputs_evaluated": 0,
+    "PCA_decoder_predictive_heads_descriptors_Macrel_training_GPU": 0,
+    "retry": false
+  },
+  "reference_execution_graph": {
+    "sampled_fetch": false,
+    "executable_random_ops": [],
+    "executable_graph_sha256": "1d3c1ab9993472b8b0571e8e3322c118604ae7e9a9d0e701a0b7bd4014ea7070",
+    "executable_node_count_including_function_bodies": 150,
+    "calls": [
+      {
+        "tag": "full",
+        "unchanged_executable_graph_sha256": "1d3c1ab9993472b8b0571e8e3322c118604ae7e9a9d0e701a0b7bd4014ea7070",
+        "executable_random_ops": []
+      },
+      {
+        "tag": "repeat",
+        "unchanged_executable_graph_sha256": "1d3c1ab9993472b8b0571e8e3322c118604ae7e9a9d0e701a0b7bd4014ea7070",
+        "executable_random_ops": []
+      },
+      {
+        "tag": "permuted",
+        "unchanged_executable_graph_sha256": "1d3c1ab9993472b8b0571e8e3322c118604ae7e9a9d0e701a0b7bd4014ea7070",
+        "executable_random_ops": []
+      },
+      {
+        "tag": "left",
+        "unchanged_executable_graph_sha256": "1d3c1ab9993472b8b0571e8e3322c118604ae7e9a9d0e701a0b7bd4014ea7070",
+        "executable_random_ops": []
+      },
+      {
+        "tag": "right",
+        "unchanged_executable_graph_sha256": "1d3c1ab9993472b8b0571e8e3322c118604ae7e9a9d0e701a0b7bd4014ea7070",
+        "executable_random_ops": []
+      }
+    ]
+  },
+  "modern_RNG": [
+    {
+      "tag": "full",
+      "RNG_unchanged": true
+    },
+    {
+      "tag": "repeat",
+      "RNG_unchanged": true
+    },
+    {
+      "tag": "permuted",
+      "RNG_unchanged": true
+    },
+    {
+      "tag": "left",
+      "RNG_unchanged": true
+    },
+    {
+      "tag": "right",
+      "RNG_unchanged": true
+    }
+  ],
+  "comparison": {
+    "pass": true,
+    "metrics": {
+      "legacy": {
+        "mean_repeat_exact": true,
+        "mean_permutation": {
+          "max_absolute": 0.0,
+          "RMS": 0.0,
+          "failed": 0,
+          "elements": 2304,
+          "pass": true
+        },
+        "mean_partitions": {
+          "max_absolute": 0.0,
+          "RMS": 0.0,
+          "failed": 0,
+          "elements": 2304,
+          "pass": true
+        },
+        "mean_duplicates": {
+          "max_absolute": 0.0,
+          "RMS": 0.0,
+          "failed": 0,
+          "elements": 256,
+          "pass": true
+        },
+        "log_variance_repeat_exact": true,
+        "log_variance_permutation": {
+          "max_absolute": 0.0,
+          "RMS": 0.0,
+          "failed": 0,
+          "elements": 2304,
+          "pass": true
+        },
+        "log_variance_partitions": {
+          "max_absolute": 0.0,
+          "RMS": 0.0,
+          "failed": 0,
+          "elements": 2304,
+          "pass": true
+        },
+        "log_variance_duplicates": {
+          "max_absolute": 0.0,
+          "RMS": 0.0,
+          "failed": 0,
+          "elements": 256,
+          "pass": true
+        },
+        "first_sequence_repeat_exact": true,
+        "first_sequence_permutation": {
+          "max_absolute": 0.0,
+          "RMS": 0.0,
+          "failed": 0,
+          "elements": 230400,
+          "pass": true
+        },
+        "first_sequence_partitions": {
+          "max_absolute": 0.0,
+          "RMS": 0.0,
+          "failed": 0,
+          "elements": 230400,
+          "pass": true
+        },
+        "first_sequence_duplicates": {
+          "max_absolute": 0.0,
+          "RMS": 0.0,
+          "failed": 0,
+          "elements": 25600,
+          "pass": true
+        },
+        "final_state_repeat_exact": true,
+        "final_state_permutation": {
+          "max_absolute": 0.0,
+          "RMS": 0.0,
+          "failed": 0,
+          "elements": 9216,
+          "pass": true
+        },
+        "final_state_partitions": {
+          "max_absolute": 0.0,
+          "RMS": 0.0,
+          "failed": 0,
+          "elements": 9216,
+          "pass": true
+        },
+        "final_state_duplicates": {
+          "max_absolute": 0.0,
+          "RMS": 0.0,
+          "failed": 0,
+          "elements": 1024,
+          "pass": true
+        }
+      },
+      "torch": {
+        "mean_repeat_exact": true,
+        "mean_permutation": {
+          "max_absolute": 0.0,
+          "RMS": 0.0,
+          "failed": 0,
+          "elements": 2304,
+          "pass": true
+        },
+        "mean_partitions": {
+          "max_absolute": 0.0,
+          "RMS": 0.0,
+          "failed": 0,
+          "elements": 2304,
+          "pass": true
+        },
+        "mean_duplicates": {
+          "max_absolute": 0.0,
+          "RMS": 0.0,
+          "failed": 0,
+          "elements": 256,
+          "pass": true
+        },
+        "log_variance_repeat_exact": true,
+        "log_variance_permutation": {
+          "max_absolute": 0.0,
+          "RMS": 0.0,
+          "failed": 0,
+          "elements": 2304,
+          "pass": true
+        },
+        "log_variance_partitions": {
+          "max_absolute": 0.0,
+          "RMS": 0.0,
+          "failed": 0,
+          "elements": 2304,
+          "pass": true
+        },
+        "log_variance_duplicates": {
+          "max_absolute": 0.0,
+          "RMS": 0.0,
+          "failed": 0,
+          "elements": 256,
+          "pass": true
+        },
+        "first_sequence_repeat_exact": true,
+        "first_sequence_permutation": {
+          "max_absolute": 0.0,
+          "RMS": 0.0,
+          "failed": 0,
+          "elements": 230400,
+          "pass": true
+        },
+        "first_sequence_partitions": {
+          "max_absolute": 0.0,
+          "RMS": 0.0,
+          "failed": 0,
+          "elements": 230400,
+          "pass": true
+        },
+        "first_sequence_duplicates": {
+          "max_absolute": 0.0,
+          "RMS": 0.0,
+          "failed": 0,
+          "elements": 25600,
+          "pass": true
+        },
+        "final_state_repeat_exact": true,
+        "final_state_permutation": {
+          "max_absolute": 0.0,
+          "RMS": 0.0,
+          "failed": 0,
+          "elements": 9216,
+          "pass": true
+        },
+        "final_state_partitions": {
+          "max_absolute": 0.0,
+          "RMS": 0.0,
+          "failed": 0,
+          "elements": 9216,
+          "pass": true
+        },
+        "final_state_duplicates": {
+          "max_absolute": 0.0,
+          "RMS": 0.0,
+          "failed": 0,
+          "elements": 1024,
+          "pass": true
+        }
+      },
+      "cross_implementation": {
+        "full": {
+          "mean": {
+            "max_absolute": 1.9073486328125e-06,
+            "RMS": 3.6888378291888126e-07,
+            "failed": 0,
+            "elements": 2304,
+            "pass": true
+          },
+          "log_variance": {
+            "max_absolute": 3.814697265625e-06,
+            "RMS": 9.31051274464862e-07,
+            "failed": 0,
+            "elements": 2304,
+            "pass": true
+          },
+          "first_sequence": {
+            "max_absolute": 2.682209014892578e-07,
+            "RMS": 1.2784778519024223e-08,
+            "failed": 0,
+            "elements": 230400,
+            "pass": true
+          },
+          "final_state": {
+            "max_absolute": 5.587935447692871e-07,
+            "RMS": 6.139694767953975e-08,
+            "failed": 0,
+            "elements": 9216,
+            "pass": true
+          }
+        },
+        "repeat": {
+          "mean": {
+            "max_absolute": 1.9073486328125e-06,
+            "RMS": 3.6888378291888126e-07,
+            "failed": 0,
+            "elements": 2304,
+            "pass": true
+          },
+          "log_variance": {
+            "max_absolute": 3.814697265625e-06,
+            "RMS": 9.31051274464862e-07,
+            "failed": 0,
+            "elements": 2304,
+            "pass": true
+          },
+          "first_sequence": {
+            "max_absolute": 2.682209014892578e-07,
+            "RMS": 1.2784778519024223e-08,
+            "failed": 0,
+            "elements": 230400,
+            "pass": true
+          },
+          "final_state": {
+            "max_absolute": 5.587935447692871e-07,
+            "RMS": 6.139694767953975e-08,
+            "failed": 0,
+            "elements": 9216,
+            "pass": true
+          }
+        },
+        "permuted": {
+          "mean": {
+            "max_absolute": 1.9073486328125e-06,
+            "RMS": 3.6888378291888126e-07,
+            "failed": 0,
+            "elements": 2304,
+            "pass": true
+          },
+          "log_variance": {
+            "max_absolute": 3.814697265625e-06,
+            "RMS": 9.31051274464862e-07,
+            "failed": 0,
+            "elements": 2304,
+            "pass": true
+          },
+          "first_sequence": {
+            "max_absolute": 2.682209014892578e-07,
+            "RMS": 1.2784778519024223e-08,
+            "failed": 0,
+            "elements": 230400,
+            "pass": true
+          },
+          "final_state": {
+            "max_absolute": 5.587935447692871e-07,
+            "RMS": 6.139694767953975e-08,
+            "failed": 0,
+            "elements": 9216,
+            "pass": true
+          }
+        },
+        "left": {
+          "mean": {
+            "max_absolute": 1.9073486328125e-06,
+            "RMS": 3.357816222564431e-07,
+            "failed": 0,
+            "elements": 1152,
+            "pass": true
+          },
+          "log_variance": {
+            "max_absolute": 3.337860107421875e-06,
+            "RMS": 9.12762010233261e-07,
+            "failed": 0,
+            "elements": 1152,
+            "pass": true
+          },
+          "first_sequence": {
+            "max_absolute": 1.7881393432617188e-07,
+            "RMS": 1.227195811409307e-08,
+            "failed": 0,
+            "elements": 115200,
+            "pass": true
+          },
+          "final_state": {
+            "max_absolute": 5.587935447692871e-07,
+            "RMS": 5.969666391079935e-08,
+            "failed": 0,
+            "elements": 4608,
+            "pass": true
+          }
+        },
+        "right": {
+          "mean": {
+            "max_absolute": 1.9073486328125e-06,
+            "RMS": 3.9925078929905693e-07,
+            "failed": 0,
+            "elements": 1152,
+            "pass": true
+          },
+          "log_variance": {
+            "max_absolute": 3.814697265625e-06,
+            "RMS": 9.489881263958067e-07,
+            "failed": 0,
+            "elements": 1152,
+            "pass": true
+          },
+          "first_sequence": {
+            "max_absolute": 2.682209014892578e-07,
+            "RMS": 1.3277807334306055e-08,
+            "failed": 0,
+            "elements": 115200,
+            "pass": true
+          },
+          "final_state": {
+            "max_absolute": 5.513429641723633e-07,
+            "RMS": 6.305139718237297e-08,
+            "failed": 0,
+            "elements": 4608,
+            "pass": true
+          }
+        }
+      }
+    },
+    "scope": "Finite deterministic encoder numerical/occurrence comparison; no scientific acceptance or biological efficacy"
+  },
+  "comparison_exit_code": 0,
+  "numeric_repeat_semantics": "Exact equality of retained numerical values; JSON equality is not a signed-zero bit-pattern assertion",
+  "pre_execution_host": {
+    "recorded_at_utc": "2026-11-04T14:45:15.974212+00:00",
+    "MemAvailable_bytes": 16269524992,
+    "task_free_disk_bytes": 2521805361152,
+    "affinity": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "models_loaded": 0
+  },
+  "preflight": {
+    "files_checked": 188,
+    "arrays_deserialized": 0
+  },
+  "frozen_proposal_relocations": [
+    {
+      "former_mutable_path": "/home/liliana/repos@uibcdf/peptidemt/devguide/hydramp_encoder_E2.md",
+      "frozen_proposal": {
+        "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-encoder-E2-prep-7y8qhl7j/before-execution/hydramp_encoder_E2_proposal.md",
+        "bytes": 9782,
+        "sha256": "a4c71202968ae5de178e2eb5e70a55bd27879d78e9cfa777a581b4894de0d833"
+      }
+    },
+    {
+      "former_mutable_path": "/home/liliana/repos@uibcdf/hydramp/local_data/pytorch-encoder/devguide/pytorch_encoder_E2.md",
+      "frozen_proposal": {
+        "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-encoder-E2-prep-7y8qhl7j/before-execution/pytorch_encoder_E2_proposal.md",
+        "bytes": 5656,
+        "sha256": "4225061759a7e7a6287aff6555f8e22b95424c907fab9573704601d06211d412"
+      }
+    }
+  ],
+  "limitations": [
+    "Finite32-distinct-token structural fixture; not natural-peptide population or biological efficacy/equivalence",
+    "No trained-weight FP64 oracle or uniform superiority analysis in E2",
+    "Native metadata exceptions/borrowed dependency-payload fixture retained; no new public installer/support qualification",
+    "Single shared-host instrumented time/RSS observations; no general performance benchmark",
+    "D41/dev3, consumer artifacts, D35/M1\u2013M8/selectors and all earlier unfavorable evidence unchanged",
+    "Original full Drive/archive byte equivalence remains unverified"
+  ],
+  "allowance_exhausted": true,
+  "new_scientific_acceptance_or_D_number": null,
+  "new_issues_commits_pushes_releases_or_external_contacts": [],
+  "retention_through": "2026-11-14",
+  "artifacts": [
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-encoder-E2-prep-7y8qhl7j/plan.json",
+      "bytes": 60488,
+      "sha256": "eb6d30fc31217dee57c9200fcfcff982ebbee0facb12fdeff3b6f9da3b92692b"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-encoder-E2-prep-7y8qhl7j/real-authorization.json",
+      "bytes": 1254,
+      "sha256": "2f7ea23d361811d0426dee97469727d769015b43cfdd16de07506c2ad767e42d"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-encoder-E2-prep-7y8qhl7j/execution-byte-preflight.json",
+      "bytes": 55,
+      "sha256": "1f4875d0a74a3077fc0c99956423580c44d098dfe72b017943c81276ac887a59"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-encoder-E2-prep-7y8qhl7j/execution-host-preflight.json",
+      "bytes": 330,
+      "sha256": "1b271ee9e0a23da784d57d67bf923c84fa8b573ed781318285954a2e5d2ef626"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-encoder-E2-prep-7y8qhl7j/execution-suite-status.json",
+      "bytes": 12314,
+      "sha256": "e0b347d4fc3f60678971d149e854ba00a83ebed202ae792990526186b8c2dee2"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-encoder-E2-prep-7y8qhl7j/execution-report-exit.json",
+      "bytes": 41,
+      "sha256": "30dcea8850611cc979b7507fddbc343c94edeb9d9ef945967a0b4763dfaf7b8f"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-encoder-E2-prep-7y8qhl7j/execution-report.stdout",
+      "bytes": 8476,
+      "sha256": "bba3fceac62def445d3198eb9bfd001fc8743d8d14ad171b9f5c5fe7d48a6b15"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-encoder-E2-prep-7y8qhl7j/execution-report.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-encoder-E2-prep-7y8qhl7j/before-execution/consumer-index.md",
+      "bytes": 33234,
+      "sha256": "5561584df898c85048389ae7f53e848ed1511b2b60c7cee7a9601a2d435402b9"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-encoder-E2-prep-7y8qhl7j/before-execution/hydramp_encoder_E2_proposal.md",
+      "bytes": 9782,
+      "sha256": "a4c71202968ae5de178e2eb5e70a55bd27879d78e9cfa777a581b4894de0d833"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-encoder-E2-prep-7y8qhl7j/before-execution/owner-index.md",
+      "bytes": 7460,
+      "sha256": "6629e0fc5d8cf21d1ff59989f99bf8c2d4b147b89514a0200331cf99e785b004"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-encoder-E2-prep-7y8qhl7j/before-execution/pytorch_encoder_E2_proposal.md",
+      "bytes": 5656,
+      "sha256": "4225061759a7e7a6287aff6555f8e22b95424c907fab9573704601d06211d412"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-encoder-E2-prep-7y8qhl7j/real-run/attempt-legacy.json",
+      "bytes": 204,
+      "sha256": "7b680e66b17e40060baec9ef394a9867b2b0a95a19f8df315aa97201ff66a304"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-encoder-E2-prep-7y8qhl7j/real-run/attempt-torch.json",
+      "bytes": 204,
+      "sha256": "662f7dbe9aa354c7d2fbd2e0cdb93b7d0f1c99421ff422f4893b643bd5a32acf"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-encoder-E2-prep-7y8qhl7j/real-run/comparison.json",
+      "bytes": 8476,
+      "sha256": "bba3fceac62def445d3198eb9bfd001fc8743d8d14ad171b9f5c5fe7d48a6b15"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-encoder-E2-prep-7y8qhl7j/real-run/keras/keras.json",
+      "bytes": 120,
+      "sha256": "760f24a997adf5b270e12494d6614c28f7d9665b0a3b9281d9c2beb5400adcdb"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-encoder-E2-prep-7y8qhl7j/real-run/legacy/execution.json",
+      "bytes": 6286,
+      "sha256": "0e3bf24f440cc7913f009d3c4ef0c0dd9262e1a67510a0da01587e1afd02c598"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-encoder-E2-prep-7y8qhl7j/real-run/legacy/full.json",
+      "bytes": 5166689,
+      "sha256": "0a89a9ac3a923bf29aaf77915df4196c237b4c1c60db2d015779f471cdc40e63"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-encoder-E2-prep-7y8qhl7j/real-run/legacy/left.json",
+      "bytes": 2579187,
+      "sha256": "52a4754db828fb2dcb91d25f557eff864af32b5ec5d04b95ac5f865f14adfe43"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-encoder-E2-prep-7y8qhl7j/real-run/legacy/permuted.json",
+      "bytes": 5166689,
+      "sha256": "35090359b1757ab42e8695aed0dd10f76957350e45cf34c4d14860155b796f9d"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-encoder-E2-prep-7y8qhl7j/real-run/legacy/repeat.json",
+      "bytes": 5166689,
+      "sha256": "0a89a9ac3a923bf29aaf77915df4196c237b4c1c60db2d015779f471cdc40e63"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-encoder-E2-prep-7y8qhl7j/real-run/legacy/right.json",
+      "bytes": 2587565,
+      "sha256": "c5fc65e9f37a30ab361b206c311f0013164d8ceeb345051e0c882aad1ddcc32b"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-encoder-E2-prep-7y8qhl7j/real-run/legacy.log",
+      "bytes": 82,
+      "sha256": "7255306b7740f5e466207bd37cf8dddab738ac70e2c448514aa1a897a1a0fead"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-encoder-E2-prep-7y8qhl7j/real-run/torch/execution.json",
+      "bytes": 5001,
+      "sha256": "c79c2bef6ca88a871d1f86568a950d3ddc3d6ce2ee8ac72feda97aff40fa6318"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-encoder-E2-prep-7y8qhl7j/real-run/torch/full.json",
+      "bytes": 5167092,
+      "sha256": "61917c8173ed4c581d284927de4b587e7baa92d8dbb242b22efca1f08cff37ac"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-encoder-E2-prep-7y8qhl7j/real-run/torch/left.json",
+      "bytes": 2579230,
+      "sha256": "2d6834eb570157817f870815b433261463980282b8187e4e0c86c5a4a609ef8a"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-encoder-E2-prep-7y8qhl7j/real-run/torch/permuted.json",
+      "bytes": 5167092,
+      "sha256": "308b704e10492f70b1eaf442013ccf7e9336c53dd97a14b9de81613b1f0becab"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-encoder-E2-prep-7y8qhl7j/real-run/torch/repeat.json",
+      "bytes": 5167092,
+      "sha256": "61917c8173ed4c581d284927de4b587e7baa92d8dbb242b22efca1f08cff37ac"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-encoder-E2-prep-7y8qhl7j/real-run/torch/right.json",
+      "bytes": 2587925,
+      "sha256": "ec0535ef41c26bb397476665cecbead04c715b512200ef92715a8e70a9182093"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-encoder-E2-prep-7y8qhl7j/real-run/torch.log",
+      "bytes": 55,
+      "sha256": "3062bbc03d8b8cd6ff9d65c8b321d002119becf7c943cb61b9d9a00d2c6cda73"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/hydramp_encoder_E2.md",
+      "bytes": 13345,
+      "sha256": "60512fe0490937601c0d92195ec75f0c3ba22811b2fe7fb14504f1b9d53c03cb"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/hydramp/local_data/pytorch-encoder/devguide/pytorch_encoder_E2.md",
+      "bytes": 8239,
+      "sha256": "9f65d59d4ea9b4fcfbef25f4e0cce7874edc6da55cb97ea9517db033e3284fe3"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/evidence/hydramp_encoder_E2_authorization.json",
+      "bytes": 1254,
+      "sha256": "2f7ea23d361811d0426dee97469727d769015b43cfdd16de07506c2ad767e42d"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-encoder-E2-prep-7y8qhl7j/record_encoder_E2_execution.py",
+      "bytes": 6855,
+      "sha256": "806ecc68c66e7aa6c240d61c85c5163f3f2faaab685f61d1141f1055811cc83f"
+    }
+  ]
+}

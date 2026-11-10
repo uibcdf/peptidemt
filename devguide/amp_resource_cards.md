@@ -42,7 +42,7 @@ Discussion: [#15](https://github.com/uibcdf/peptidemt/discussions/15).
 - **Limits:** original Python 3.8/TensorFlow 2.2/Keras 2.3 dependencies; unresolved
   original modlAMP/mysql acquisition. A modern fork and new multi-family training
   are distinct, uncommissioned research directions.
-- **Maintained evidence/question:** [work record](pending_proposals/qualify_hydramp_increment_2.md).
+- **Maintained evidence/question:** [work record](archive/qualify_hydramp_increment_2.md).
   Can the native bounded reference be qualified, preserving its weights and
   scientific meaning, before considering a separately tested modernization?
 
@@ -76,6 +76,10 @@ Discussion: [#17](https://github.com/uibcdf/peptidemt/discussions/17).
 - **Maintained evidence/question:** [survey](generative_resource_survey.md).
   Are native motif/property controls scientifically useful and operationally
   bounded for a future sequence-design commission?
+- **Follow-up 2026-11-03:** [bounded source review](omegamp_review.md), same source
+  commit; runtime/assets remain unqualified. The [existing discussion update](https://github.com/uibcdf/peptidemt/discussions/17#discussioncomment-19381855)
+  adds loader/data coupling, schedule/seed and dependency evidence. Future
+  evaluation opportunities are tracked in the [challenge watchlist](peptide_design_challenges.md).
 
 ## ARCADIAMP
 

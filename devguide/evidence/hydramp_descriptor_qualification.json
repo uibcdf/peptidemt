@@ -1,0 +1,198 @@
+{
+  "schema": "peptidemt.hydramp_descriptor_qualification@1",
+  "date": "2026-11-02",
+  "issue": "uibcdf/peptidemt#8",
+  "authority": "Current investigator instruction to proceed with resolving descriptors and fixing the original reference subset. Model-free scalar preparation with operator-selected finite bounds, not investigator approval of neural execution.",
+  "status": "Five descriptor fields exactly match on all eight occurrences across original provider, modern explicit profile and published source values. No general scientific or generator acceptance.",
+  "plan": {
+    "schema": "hydramp.descriptor_pair_plan@1",
+    "date": "2026-11-02",
+    "scope": "Two model-free descriptor bundles on the eight fixed published sequence occurrences, as comparison preparation requested by the investigator. No model/PCA loading or neural evaluation authority inferred.",
+    "authority": "Current investigator instruction to proceed with resolving descriptors and fixing a small original reference subset. Exact scalar-test operational bounds are delegated preparation choices, not an invented prior approval of neural calls.",
+    "fixture_path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-comparison-qnbdpism/fixtures/published_fixture.json",
+    "fixture_sha256": "1718f9df408f3969fec2e21ce4c13a943a69fef8655cc776099375f15e52caca",
+    "adapter_path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-comparison-qnbdpism/worker/lib/python3.14/site-packages/hydramp_torch/properties.py",
+    "adapter_sha256": "c47bd6f8224b996b6d221caf2de151d3d6aae1360faf4a3ec56fdd8b09abe758",
+    "descriptor_bundle_calls_total": 2,
+    "rows_per_bundle": 8,
+    "properties": [
+      "length",
+      "hydrophobicity",
+      "hydrophobic_moment",
+      "charge",
+      "isoelectric_point"
+    ],
+    "parameters": {
+      "charge": {
+        "ph": 7.0,
+        "amide": true
+      },
+      "isoelectric_point": {
+        "amide": false
+      },
+      "hydrophobicity": "eisenberg",
+      "hydrophobic_moment": {
+        "scale": "eisenberg",
+        "window": 1000,
+        "angle_degrees": 100,
+        "modality": "max"
+      }
+    },
+    "limits": {
+      "workers": 2,
+      "concurrent_workers": 1,
+      "cpu_affinity": [
+        0,
+        1
+      ],
+      "native_threads": 1,
+      "nice": 10,
+      "worker_wall_seconds": 120,
+      "aggregate_worker_wall_seconds": 240,
+      "address_space_bytes": 8589934592,
+      "worker_rss_stop_bytes": 1073741824,
+      "task_ram_intent_bytes": 4000000000,
+      "host_available_floor_bytes": 8589934592,
+      "network": false,
+      "gpu": false,
+      "retries": 0
+    },
+    "worker_sha256": "039889dd80594692cc4faba1a555aebae06f0e56aedbc935eaebe92f88131751"
+  },
+  "source": {
+    "source_url": "https://zenodo.org/records/7420278/files/results.zip?download=1",
+    "archive_advertised_bytes": 378286323,
+    "member": "results/hydra_unconstrained.csv",
+    "member_bytes": 19799,
+    "member_crc32": "0x286da4fd",
+    "member_sha256": "571cefae116331c26b846161940e206a14b063a18b2b730dc4e1584b1189e369",
+    "range_requests": 2,
+    "total_archive_bytes_downloaded": 77692,
+    "full_archive_md5_verified": false,
+    "method": "Standard zipfile central-directory metadata plus one explicit bounded HTTP byte range; decompressed member length/CRC checked. No pickle or model file opened."
+  },
+  "fixture": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-comparison-qnbdpism/fixtures/published_fixture.json",
+    "sha256": "1718f9df408f3969fec2e21ce4c13a943a69fef8655cc776099375f15e52caca",
+    "occurrences": 8,
+    "unique_sequences": 7,
+    "source_rows": "0..6 then0, fixed without score selection",
+    "published_member_rows": 149,
+    "scope": "Regression only, not independent predictive/generalization validation. Generated CSV fields, not measured MIC.",
+    "hidden_generation_tokens": "unknown; no reconstruction or equivalence assumed"
+  },
+  "outcomes": [
+    {
+      "stage": "legacy",
+      "exit": 0,
+      "stop_reason": null,
+      "wall_seconds": 12.876062985043973,
+      "peak_sampled_rss_bytes": 137502720,
+      "model_calls": 0,
+      "retry": false
+    },
+    {
+      "stage": "modern",
+      "exit": 0,
+      "stop_reason": null,
+      "wall_seconds": 10.96539413696155,
+      "peak_sampled_rss_bytes": 215252992,
+      "model_calls": 0,
+      "retry": false
+    }
+  ],
+  "comparison": {
+    "length": {
+      "legacy_vs_modern_max_absolute": 0.0,
+      "legacy_vs_modern_exact": true,
+      "legacy_vs_published_max_absolute": 0.0,
+      "modern_vs_published_max_absolute": 0.0,
+      "duplicate_occurrence_exact_each_provider": true
+    },
+    "hydrophobicity": {
+      "legacy_vs_modern_max_absolute": 0.0,
+      "legacy_vs_modern_exact": true,
+      "legacy_vs_published_max_absolute": 0.0,
+      "modern_vs_published_max_absolute": 0.0,
+      "duplicate_occurrence_exact_each_provider": true
+    },
+    "hydrophobic_moment": {
+      "legacy_vs_modern_max_absolute": 0.0,
+      "legacy_vs_modern_exact": true,
+      "legacy_vs_published_max_absolute": 0.0,
+      "modern_vs_published_max_absolute": 0.0,
+      "duplicate_occurrence_exact_each_provider": true
+    },
+    "charge": {
+      "legacy_vs_modern_max_absolute": 0.0,
+      "legacy_vs_modern_exact": true,
+      "legacy_vs_published_max_absolute": 0.0,
+      "modern_vs_published_max_absolute": 0.0,
+      "duplicate_occurrence_exact_each_provider": true
+    },
+    "isoelectric_point": {
+      "legacy_vs_modern_max_absolute": 0.0,
+      "legacy_vs_modern_exact": true,
+      "legacy_vs_published_max_absolute": 0.0,
+      "modern_vs_published_max_absolute": 0.0,
+      "duplicate_occurrence_exact_each_provider": true
+    }
+  },
+  "parameters": {
+    "charge_ph": 7.0,
+    "charge_amide": true,
+    "pI_amide": false,
+    "pI_reference_default": "Original4.2.3 False, modern4.3.3 True; modern call pins False.",
+    "note": "These are native descriptor assumptions, not known chemical termini of molecular proposals."
+  },
+  "evidence_files": {
+    "descriptor-run/attempt-legacy.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-comparison-qnbdpism/descriptor-run/attempt-legacy.json",
+      "bytes": 175,
+      "sha256": "058a253a8529564184cffbe93f9e73e0c9f4288dd536aa755f1001c396d4bb6e"
+    },
+    "descriptor-run/attempt-modern.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-comparison-qnbdpism/descriptor-run/attempt-modern.json",
+      "bytes": 174,
+      "sha256": "524b7f16274241c2c8b431942e39b015d062d70787695f9ef61ae573730f6aca"
+    },
+    "descriptor-run/descriptor-comparison.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-comparison-qnbdpism/descriptor-run/descriptor-comparison.json",
+      "bytes": 1234,
+      "sha256": "88423ccde0d9c4daa70e4d5837b4980227dbcb4b21e2b5ada2263d78b651ed1c"
+    },
+    "descriptor-run/descriptor-legacy.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-comparison-qnbdpism/descriptor-run/descriptor-legacy.json",
+      "bytes": 1374,
+      "sha256": "acc5030665bdd6a1d41e065bb849ea0176e46e0eb33f95f7b195eb4f066c3d87"
+    },
+    "descriptor-run/descriptor-modern.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-comparison-qnbdpism/descriptor-run/descriptor-modern.json",
+      "bytes": 1367,
+      "sha256": "cf756f98497e462ff23a0affc307590fcc5263827cfc9bfa194d70003fc896f6"
+    },
+    "descriptor-run/descriptor-plan.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-comparison-qnbdpism/descriptor-run/descriptor-plan.json",
+      "bytes": 2044,
+      "sha256": "8b025c4ce3064b162e3244020a81066a26b578098f012ec7a49bfd72be3dd911"
+    },
+    "descriptor-run/descriptor_worker.py": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-comparison-qnbdpism/descriptor-run/descriptor_worker.py",
+      "bytes": 2472,
+      "sha256": "039889dd80594692cc4faba1a555aebae06f0e56aedbc935eaebe92f88131751"
+    },
+    "descriptor-run/execution.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-comparison-qnbdpism/descriptor-run/execution.json",
+      "bytes": 390,
+      "sha256": "5a888b9d244d73dca7d72d7d9280233b13e764a58b949f8df03110c728247f55"
+    }
+  },
+  "deep_learning_or_model_calls": 0,
+  "pca_loads": 0,
+  "network_during_execution": false,
+  "gpu": false,
+  "retry": false,
+  "source_changes": "4.3.3 also changes sequence/type handling and pI bracket initialization; no universal equivalence or upstream bug claim. _charge and scale source structure agree; actual parity is limited to the eight checked occurrences.",
+  "producer_record_sha256": "6e616fc66a645141dc5b080a60c02ba321ee6611fa311b9ac79243f97f81fe0b",
+  "producer_record": "devguide/evidence/pytorch_descriptor_qualification.json in local peptidemt-pytorch-comparison worktree"
+}

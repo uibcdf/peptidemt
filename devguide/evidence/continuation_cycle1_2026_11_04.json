@@ -1,0 +1,130 @@
+{
+  "schema": "peptidemt.continuation_cycle1@1",
+  "date": "2026-11-04",
+  "owner_issues": [
+    "uibcdf/peptidemt#33",
+    "uibcdf/peptidemt#32",
+    "uibcdf/peptidemt#34",
+    "uibcdf/hydramp#4"
+  ],
+  "status": "First cycle delivered locally; future scientific qualification/commissions remain gated",
+  "resumption": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/continuation-cycle1-chk2ha32/resumption.json",
+    "bytes": 1542,
+    "sha256": "1934004d7d62d0015e933394ca4b85f9c0fca685a708617fc3b6ab1557a3a2ad"
+  },
+  "repository_state": {
+    "official_suite_status": "Fetched origin/main; ahead=0 behind=0, no fetch error; exit1 because existing dirty worktree intentionally preserved",
+    "peptidemt_git_base": "1f8c444e4619499cae8ad9970122c5f40adf6127",
+    "hydramp_original_base": "6590d2f4c2963f25d30669052a4c4a857e0e7279",
+    "base_commits_are_not_new_local_source_identity": true
+  },
+  "receipt_fix": {
+    "source": {
+      "path": "src/peptidemt/_hydramp_receiving.py",
+      "bytes": 10492,
+      "sha256": "3a8efc281cc0a3cc114f481d5ab51429a5587c851781a82c3d3cf284463951a8"
+    },
+    "tests": {
+      "path": "tests/test_hydramp_receiving.py",
+      "bytes": 12349,
+      "sha256": "1310914586a44c26274563ed06909fe59a01c1607d2db85406ffa736ab16ad54"
+    },
+    "red_phase": {
+      "failed_regressions": 14,
+      "log": {
+        "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/continuation-cycle1-chk2ha32/receipt-before.txt",
+        "bytes": 762,
+        "sha256": "0cfe2db9bd728c21f5002d555565a7c01e2cf775f020485114be40aa3c2c1a00"
+      },
+      "cause": "math.isfinite conversion overflow"
+    },
+    "final_controlled_checks": {
+      "passed": 58,
+      "exit_code": 0,
+      "pytest_seconds": 1.4,
+      "log": {
+        "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/continuation-cycle1-chk2ha32/consumer-tests.log",
+        "bytes": 33,
+        "sha256": "03abb5df649904cbe2faa1278247b89e9e0ee4f8e13d564880b224de41014fb3"
+      },
+      "JUnit": {
+        "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/continuation-cycle1-chk2ha32/consumer-tests.xml",
+        "bytes": 8389,
+        "sha256": "c98b8098cd5c32740ef649ad224b6ec58b7b1e3c2f0d5ee72188185ee089968d"
+      },
+      "python": "3.14.7",
+      "receptor": "1.2.2+2.gb9676f8"
+    },
+    "source_delivery": "local/uncommitted; no new installed consumer wheel; issue remains partial/open"
+  },
+  "A1": {
+    "path": "devguide/evidence/hydramp_analogue_A1.json",
+    "bytes": 10729,
+    "sha256": "5757ae50fd0473d76440d6421c72e8857f83d2081dde094a56eb67bbb3fddb35"
+  },
+  "documents": [
+    {
+      "path": "devguide/hydramp_analogue_A1.md",
+      "bytes": 4063,
+      "sha256": "fb5261c1c13a45ad4604acf04984315c1065567316ed986506de6916a963f2ce"
+    },
+    {
+      "path": "devguide/hydramp_analogue_receiving_brief.md",
+      "bytes": 3875,
+      "sha256": "699255cf5d91f07f9ca5d0bab14b6fe22bd6b130834a61f7ff778f9b4edd92cf"
+    },
+    {
+      "path": "devguide/amp_worked_report_2026_11_04.md",
+      "bytes": 5238,
+      "sha256": "f8d2002d27e1596adb2fd0962c3364a578e17c8a9da97ec1711e7a1424f73b3c"
+    },
+    {
+      "path": "devguide/amp_comparison_brief_2026_11_04.md",
+      "bytes": 4690,
+      "sha256": "5383dea74ff01668bee3f372dde812c46d325217426f232338fa92802bab4e65"
+    },
+    {
+      "path": "devguide/pending_bugs/hydramp_receipt_numeric_overflow.md",
+      "bytes": 3528,
+      "sha256": "4d4247c74f76672c487a3bee7265e72e313da6e8974acde63b6e81aaeaaef973"
+    },
+    {
+      "path": "devguide/continuation_plan_2026_11_04.md",
+      "bytes": 18520,
+      "sha256": "a215ebc23140b7018dcaac5f6d54af532c17baf381f45f38e907034f628892df"
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 7680,
+      "sha256": "6252bf2e8aeb61c83fd6c1bb1e1950ed523ba67ddf2564b5df17543efaa06d26"
+    },
+    {
+      "path": "devguide/decisions.md",
+      "bytes": 92533,
+      "sha256": "baa0cda7da0729ab1ec96aad317b1d2591dad4195e1be11909ebf70165f07b7a"
+    }
+  ],
+  "only_consumer_runtime_file_changed_since_audit": [
+    "src/peptidemt/_hydramp_receiving.py"
+  ],
+  "validation": {
+    "ruff_affected_consumer_and_provider_files": "pass",
+    "format_checked_files": 11,
+    "old_original_amp_and_LICENSE_git_diff_exit_code": 0,
+    "relative_file_links": {
+      "documents": 12,
+      "checked": 175,
+      "missing": 0
+    },
+    "generated_index_check_exit_code": 0,
+    "whitespace_diff_exit_code": 0
+  },
+  "new_pretrained_PCA_descriptor_Macrel_calls": 0,
+  "artificial_provider_networks_tested": true,
+  "A2_execution_approved": false,
+  "comparison_brief_status": "Proposed order-control exploratory pilot; transformation owner route and scientific/resource review still required",
+  "consumer_analogue_API_adopted": false,
+  "new_commits_pushes_releases_external_author_contacts": [],
+  "retention_review_date": "2026-11-14"
+}

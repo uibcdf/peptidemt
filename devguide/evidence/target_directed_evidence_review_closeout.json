@@ -1,0 +1,145 @@
+{
+  "recorded_utc": "2026-11-06T07:50:02.618579+00:00",
+  "status": "D52 first preparation package delivered; T1a scientific proposal pending",
+  "local_only": true,
+  "preparation_receipt": {
+    "path": "devguide/evidence/target_directed_evidence_review.json",
+    "bytes": 43415,
+    "sha256": "8f038b0da3d6b6b22d1f1d8091e8c07c33aaa30e4a27770db4a741180912003a"
+  },
+  "issue_handoff_receipt": {
+    "path": "devguide/evidence/target_directed_evidence_review_issue_updates.json",
+    "bytes": 8093,
+    "sha256": "eeb22ff82105ff923dfa003d0ef9a3885739988af59607155b1a03bc3c3fddaa"
+  },
+  "reciprocal_consumer_labels": {
+    "repository": "uibcdf/peptidemt",
+    "issue": 33,
+    "labels": [
+      "component:molsysmt",
+      "component:dockingmt"
+    ],
+    "verified": true,
+    "observed_utc": "2026-11-06T07:50:02.271Z"
+  },
+  "maintained_documents": [
+    {
+      "path": "devguide/target_directed_demonstrator.md",
+      "bytes": 5018,
+      "sha256": "1afe7e4b2d8c9b691d79bb2ebd9039fba7de460faea368abddab7338784f8e45"
+    },
+    {
+      "path": "devguide/target_directed_evidence_review.md",
+      "bytes": 11309,
+      "sha256": "67e1f18a2674295291c005686b96d458d224664afcf3bfb701dee67c9c7da029"
+    },
+    {
+      "path": "devguide/mdm2_t1a_proposal.md",
+      "bytes": 7184,
+      "sha256": "069247bf4b46e8fafba553ecb5311f67b0bfd6748ea4a06822053c3285c05e56"
+    },
+    {
+      "path": "devguide/README.md",
+      "bytes": 47611,
+      "sha256": "123a49f75cd84e6dc5aa0ad0e94beabd710be0ccdf4ebaa9ecc3d839551650c9"
+    },
+    {
+      "path": "devguide/continuation_plan_2026_11_04.md",
+      "bytes": 27688,
+      "sha256": "85f52ad32c227a639cef0cc59729a55333a7f9cfacd4e32274cf41e9a5523b05"
+    },
+    {
+      "path": "devguide/pending_proposals/scientific_capability_audit.md",
+      "bytes": 10535,
+      "sha256": "9b97241bc27e2c1ff88acf39672abb6c3d8810e627e532675a90c52858dc1a36"
+    }
+  ],
+  "documentation_checks": {
+    "relative_destinations_checked": 219,
+    "heading_fragments_checked": 14,
+    "commands": [
+      {
+        "command": [
+          "python",
+          "devtools/devguide_index.py",
+          "--check"
+        ],
+        "returncode": 0,
+        "stdout": "Generated report indexes are current.\n",
+        "stderr": ""
+      },
+      {
+        "command": [
+          "git",
+          "diff",
+          "--check"
+        ],
+        "returncode": 0,
+        "stdout": "",
+        "stderr": ""
+      }
+    ],
+    "errors": [],
+    "current_closeout_destination_written_by_this_operation": "devguide/evidence/target_directed_evidence_review_closeout.json"
+  },
+  "protected_prior_evidence": [
+    {
+      "path": "devguide/evidence/mdm2_t0_execution.json",
+      "bytes": 31113,
+      "sha256": "bd12b0bd4eb1a12885e151d25e07d855a0ff62c0b42d3156e3dd2afa188b0593",
+      "matches_prior_receipt": true
+    },
+    {
+      "path": "devguide/evidence/mdm2_t0_execution_closeout.json",
+      "bytes": 5513,
+      "sha256": "a824c57c1785cb61efa0e8fa7cc2e643dc059039bb90a4b3f36b3e6525a33f41",
+      "matches_prior_receipt": true
+    },
+    {
+      "path": "devguide/evidence/hydramp_result_invariants.json",
+      "bytes": 66106,
+      "sha256": "15c5814cfec53531e51f5424d46ea54f028e0e345fd9b30f2bd0537cf77c81d3",
+      "matches_prior_receipt": true
+    },
+    {
+      "path": "src/peptidemt/_hydramp_process.py",
+      "bytes": 5566,
+      "sha256": "5d03f493f54bbef4397561dfd80a773cea696c295da0b899fc2b57e6bbf706a6",
+      "matches_prior_receipt": true
+    }
+  ],
+  "goal_audit": [
+    {
+      "requirement": "Concrete prospective target-directed study",
+      "state": "partial",
+      "evidence": "T1a reported-evidence proposal prepared; evaluator/generator and full protocol remain unqualified"
+    },
+    {
+      "requirement": "Experimental reference admission",
+      "state": "incomplete",
+      "evidence": "Primary HTML received; manual feasibility inspected; full curated extraction and source chemical identity not qualified"
+    },
+    {
+      "requirement": "Independent selection comparison against references/baselines",
+      "state": "incomplete",
+      "evidence": "No target predictions, candidate proposal or utility comparison executed"
+    },
+    {
+      "requirement": "Component ownership and reusable provider capabilities",
+      "state": "inspected",
+      "evidence": "17 exact source files inventoried; supported routes identified; existing owner issues updated/read back"
+    },
+    {
+      "requirement": "No unapproved scientific scope or publication",
+      "state": "preserved in this package",
+      "evidence": "Zero new molecular/model calls; proposal remains unapproved; no Git/package/public-dataset release"
+    }
+  ],
+  "scientific_model_evaluations": 0,
+  "molecular_operations": 0,
+  "prediction_or_biological_validation": false,
+  "full_goal_complete": false,
+  "git_commit_or_push": false,
+  "runtime_tests_repeated": false,
+  "temporary_resources": "Task-owned primary source, exact owner-source copies, HTTP outcomes and handoff evidence retained for T1a review; no shared environment or sibling worktree changed"
+}

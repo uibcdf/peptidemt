@@ -1,0 +1,59 @@
+{
+  "schema": "peptidemt.decoder_trace_authorization@1",
+  "date": "2026-10-30",
+  "recorded_at_utc": "2026-10-30T23:11:40.305282+00:00",
+  "issue": "uibcdf/peptidemt#8",
+  "authority": "Investigator explicitly approved the exact two-forward diagnostic request with this plan SHA256.",
+  "plan_path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-decoder-trace-2j1w0gcl/plan.json",
+  "approved_plan_sha256": "8f87fe9711767297e4de063bde1e6a6cc6de1103d9b4df55bc895596315d020e",
+  "control_sha256": "21232aab3060dd6a9e8ac448d8b46aa0bac1dd32786f556f1e2b4acdb8347026",
+  "worker_sha256": "557abdd012dafd44164ddcf93741780e64dcadfcc8cd4516d192fb81d8491dc2",
+  "budget": {
+    "workers": 2,
+    "concurrent_workers": 1,
+    "cpu_affinity": [
+      0,
+      1
+    ],
+    "native_threads": 1,
+    "nice": 10,
+    "address_space_bytes": 8589934592,
+    "rss_stop_bytes": 2147483648,
+    "minimum_mem_available_bytes": 8589934592,
+    "worker_wall_seconds": 180,
+    "aggregate_worker_wall_seconds": 360,
+    "output_stop_bytes": 134217728,
+    "minimum_free_disk_bytes": 1073741824,
+    "gpu": false,
+    "network": false,
+    "retries": 0,
+    "legacy_model_constructions": 1,
+    "torch_model_constructions": 1,
+    "pca_pickle_loads": 0,
+    "pca_coefficient_exports": 0,
+    "pca_inverse_transforms_per_worker": 0,
+    "decoder_evaluations_per_worker": 1,
+    "amp_evaluations_per_worker": 0,
+    "mic_evaluations_per_worker": 0,
+    "rows_per_network_evaluation": 12,
+    "network_evaluations_total": 2,
+    "unconstrained_generation_calls": 0,
+    "descriptor_calls": 0,
+    "macrel_calls": 0,
+    "task_ram_budget_bytes": 4000000000,
+    "task_ram_budget_implementation": "One model worker at a time, sampled worker RSS stop at 2 GiB; small stdlib supervisor measured separately. The unchanged 8 GiB virtual address-space ceiling is not a RAM allocation."
+  },
+  "scope": {
+    "capture": [
+      "autoregressive",
+      "lstm",
+      "logits",
+      "probabilities"
+    ],
+    "forward_evaluations": "One multi-output/traced decoder forward per framework; no independent pass per capture.",
+    "input": "Same exact prior float64 conditioned 12x66 inputs; no PCA recomputation, new seed or resampling.",
+    "instrumentation_control": "Compare each traced endpoint to that framework's prior saved endpoint with the unchanged threshold and exact argmax check. Output tapping may affect TensorFlow graph optimizations.",
+    "interpretation": "Localization only; no model fix, changed tolerance, precision experiment, adoption or automatic retry."
+  },
+  "no_expansion": "No correction, new precision, widened tolerance, PCA load, classifier forward, GPU, retry or publication authorized."
+}

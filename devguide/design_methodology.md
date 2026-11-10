@@ -15,7 +15,7 @@ D35, including M1–M8 and both selectors. The
 prerequisites and the executable assignment. D36 now authorizes W0–W4, with W1
 conditional on completed W0; the specific admission issue is uibcdf/molsyssuite#146.
 Current checkpoint, 2026-10-29: W0–W4 are delivered and D37 accepts the exact
-Macrel bundle. The [next HydrAMP commission](pending_proposals/qualify_hydramp_increment_2.md)
+Macrel bundle. The [next HydrAMP commission](archive/qualify_hydramp_increment_2.md)
 is now commissioned under D38 for bounded preparation and qualification. Exact
 bundle/use conditions and fresh host/call limits still precede model loading or
 inference; acceptance of the scientific resource remains separate.

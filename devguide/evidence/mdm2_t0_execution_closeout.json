@@ -1,0 +1,117 @@
+{
+  "schema": "peptidemt.mdm2_t0_execution_closeout@1",
+  "recorded_at_utc": "2026-11-06T07:09:16.551052+00:00",
+  "status": "completed_finite_T0_local_qualification_next_long_horizon_goal_active",
+  "execution": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/evidence/mdm2_t0_execution.json",
+    "bytes": 31113,
+    "sha256": "bd12b0bd4eb1a12885e151d25e07d855a0ff62c0b42d3156e3dd2afa188b0593"
+  },
+  "report": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/mdm2_t0_qualification.md",
+    "bytes": 8372,
+    "sha256": "64bcd043b44b8deb47cb875f3f4b6ee9cdd847707e57eda58f6e84e7a669ccf2"
+  },
+  "issue_updates": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/evidence/mdm2_t0_execution_issue_updates.json",
+    "bytes": 12709,
+    "sha256": "4e4179e19782e510cc3108b1b935381de9d1905a4f0714a701d8cecdc61d307d"
+  },
+  "actual_executed_code": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-t0-d1u79kql/execution-source/devtools/mdm2_t0.py",
+    "bytes": 28007,
+    "sha256": "76727ddbb75628c7b6a785c59d977b56c3e9f9c1b02946da4b575f6991cab8e4"
+  },
+  "mechanical_current_source_change": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-t0-d1u79kql/post-execution-import-order.json",
+    "bytes": 615,
+    "sha256": "1dcfa833c6d6ec2776828cfa6c699cf126cf4b96b1c60d1184c12616242840b4"
+  },
+  "current_coordinator": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/devtools/mdm2_t0.py",
+    "bytes": 28007,
+    "sha256": "256c289b05acd893fdc23c6cc7b41741b26868729f0f16076145f15916a5660d"
+  },
+  "corrected_supervisor": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/src/peptidemt/_hydramp_process.py",
+    "bytes": 5566,
+    "sha256": "5d03f493f54bbef4397561dfd80a773cea696c295da0b899fc2b57e6bbf706a6"
+  },
+  "checks": {
+    "ruff_check": "pass",
+    "ruff_format_check": "203 files already formatted",
+    "documentation": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-t0-d1u79kql/documentation-check-final.json",
+      "bytes": 1273,
+      "sha256": "30a750d9aa33362b6001e1d8be079811971be2b2c0f2a53711c9bf95da1b5f74"
+    },
+    "index_check": "Generated report indexes are current",
+    "scoped_whitespace": "pass",
+    "reporting_test_native": {
+      "returncode": 0,
+      "command_arguments": [
+        "-c",
+        "/dev/null",
+        "--rootdir",
+        "/home/liliana/repos@uibcdf/peptidemt",
+        "-p",
+        "pytest_receptor.plugin",
+        "--receptor=llm",
+        "-o",
+        "cache_dir=/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-t0-d1u79kql/reporting-checks-jvsb50c6/cache",
+        "--junitxml",
+        "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-t0-d1u79kql/reporting-checks-jvsb50c6/junit.xml",
+        "/home/liliana/repos@uibcdf/peptidemt/tests/test_reporting_protocol.py"
+      ],
+      "receptor_origin": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-public-install-z5lh31o1/wheels/pytest_receptor-1.2.2-py3-none-any.whl/pytest_receptor/__init__.py",
+      "receptor_wheel": {
+        "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-public-install-z5lh31o1/wheels/pytest_receptor-1.2.2-py3-none-any.whl",
+        "bytes": 45128,
+        "sha256": "48c290fba7e12d19015fa436989fdad465d5ff7bba78fa94f7825e305ccf7961"
+      },
+      "scientific_provider_imports": []
+    },
+    "reporting_summary": "PASS exit=0 | 1 passed | 0.18s",
+    "reporting_supervision": {
+      "started": true,
+      "returncode": 0,
+      "failure": null,
+      "wall_seconds": 0.6171781751327217,
+      "peak_sampled_process_tree_rss_bytes": 92049408,
+      "retained_output_bytes": 3782,
+      "retry": false,
+      "rss_scope": "supervisor_and_descendants"
+    }
+  },
+  "final_profile_pins_unchanged": 3258,
+  "retention": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-t0-d1u79kql/retention.json",
+    "bytes": 6345,
+    "sha256": "3dff53d8dbb80f5290527ca657f1bf024c7d02b24865ddf1304f6bcf9d2efc19"
+  },
+  "no_successful_geometry_repeated": true,
+  "zero_learned_model_GPU_generation_or_new_Git_publication": true,
+  "remaining_items": {
+    "peptidemt_38": "Local resource fix/guard verified, source publication pending; issue stays partial",
+    "molsysmt_601": "Diagnostic improvement proposal remains with owner",
+    "molsyssuite_82": "Ambient workspace incompatibilities recorded; clean T0 fixture does not repair whole workspace",
+    "scientific_limits": "One observed-coordinate reference and artificial controls only; partial chemistry, no predictive binding or biological validation"
+  },
+  "next_goal": {
+    "decision": "D52",
+    "status": "active_preparation",
+    "record": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/target_directed_demonstrator.md",
+      "bytes": 4419,
+      "sha256": "6d70541c5f65c36d5d654cf0c522255d085f9b4c809b4b5d4a8a5dac763bfc6e"
+    },
+    "authorization": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/evidence/target_directed_demonstrator_authorization.json",
+      "bytes": 1638,
+      "sha256": "84dd949951966e72664f096db2cad8132e18f7da630441a6f21635330f24f9f5"
+    },
+    "scope": "Evidence/provider review and concrete prospective T1 proposal before new scientific implementation"
+  },
+  "root_head_observed": "1f8c444e4619499cae8ad9970122c5f40adf6127",
+  "workers": "All launched T0 build/probe/test/geometry/inspection sessions completed; no detached scientific worker left running"
+}

@@ -1,0 +1,56 @@
+{
+  "schema": "peptidemt.hydramp_historical_view_proposal_closeout@1",
+  "date": "2026-11-04",
+  "status": "Review proposal delivered; scientific view/scope and implementation unapproved",
+  "receipt": "hydramp_historical_view_proposal.json",
+  "receipt_sha256": "bdf442efd56456db528a0c7217e26c30f08ba39a7d7d699cf394e70d54b90efe",
+  "manifest_sha256": "e14fd7272e4894bb34cc4afe64ef8422c91474ace0c73cc201ea2e64fd5c049e",
+  "checks": {
+    "source_and_receipt_identities_verified": 18,
+    "proposed_MIC_cells_independently_match_PDF_layout": 42,
+    "relative_file_links_checked": 159,
+    "missing_relative_links": 0,
+    "no_annotation_erasure_or_class_label_invention": true,
+    "generated_reporting_indexes": "current",
+    "whitespace": "PASS",
+    "canonical_guide_byte_identical": true,
+    "model_inputs_constructed": 0,
+    "new_model_or_molecular_or_conversion_calls": 0,
+    "scientific_campaigns_repeated": false
+  },
+  "workspace_status": {
+    "official_bounded_tool_exit": 1,
+    "cause": "attention: preserved PeptideMT dirty work; MolSysMT clean and 93 commits behind",
+    "fetch_errors": 0,
+    "worktrees_modified_by_refresh": false
+  },
+  "issue_updates": [
+    {
+      "repository": "uibcdf/hydramp",
+      "issue": 3,
+      "id": 6648179821,
+      "url": "https://github.com/uibcdf/hydramp/issues/3#issuecomment-6648179821",
+      "exact_body_verified": true
+    },
+    {
+      "repository": "uibcdf/peptidemt",
+      "issue": 32,
+      "id": 6648183252,
+      "url": "https://github.com/uibcdf/peptidemt/issues/32#issuecomment-6648183252",
+      "exact_body_verified": true
+    }
+  ],
+  "issue_disposition": "Existing HydrAMP#3 and PeptideMT#32 remain open; HydrAMP#4 retains separate product review. No new issue or third-party publication.",
+  "pending": [
+    "Investigator review of finite historical experimental-entity/sequence-model relation and proposed ATCC 25922 scope",
+    "Concrete later implementation work order and controlled fixtures under an explicit commission",
+    "Adequate assay/chemistry/units/censoring/observation policy before measured predictive assessment",
+    "Source-use/exposure and independent measured cohort qualification for generalization claims",
+    "Any new model execution requires exact bundle/input/batch/host/call approval"
+  ],
+  "delivery": "Proposal, receipts, narrow navigation/pending-record additions and ignored review artifacts only; no runtime source/environment edit, installation, commit, push, release or author contact.",
+  "retention": {
+    "owner": "HydrAMP#3 / PeptideMT#32",
+    "review_by": "2026-11-18"
+  }
+}

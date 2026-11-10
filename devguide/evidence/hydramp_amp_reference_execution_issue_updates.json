@@ -1,0 +1,22 @@
+{
+  "schema": "peptidemt.hydramp_amp_reference_execution_issue_updates@1",
+  "date": "2026-11-03",
+  "exact_bodies_verified": true,
+  "comments": [
+    {
+      "id": 6612963649,
+      "url": "https://github.com/uibcdf/hydramp/issues/1#issuecomment-6612963649",
+      "created_at": "2026-11-03T19:05:57Z",
+      "body_sha256": "091d88ba96cd22af8cd30c78bb4422d2053bba5f80d23538b236cd2c3fb56b95"
+    },
+    {
+      "id": 6612969078,
+      "url": "https://github.com/uibcdf/peptidemt/issues/8#issuecomment-6612969078",
+      "created_at": "2026-11-03T19:06:13Z",
+      "body_sha256": "7cc365d1d4bce10d17decdf70c3d9d4184a2eedc853014acf8ed98c4ff5a1ed6"
+    }
+  ],
+  "owner_issue": "https://github.com/uibcdf/hydramp/issues/1",
+  "scope": "Only investigator-owned repositories; complete cohort metrics and rank limitation disclosed, raw weights/arrays/sequences retained locally.",
+  "owner_issue_updated_body_sha256": "33991d5cdd001ec6cae0b3464cc2577bcd09b00e02062b74d9e46b30c3cfb806"
+}

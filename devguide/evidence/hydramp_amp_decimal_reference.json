@@ -1,0 +1,28 @@
+{
+  "schema": "peptidemt.hydramp_amp_decimal_reference@1",
+  "date": "2026-11-03",
+  "owner_issue": "uibcdf/hydramp#1",
+  "source_probe_receipt_sha256": "2f7e8b4690d38c8342d6bc7bb2696e6a7bf712e8efb6a43f04eca4c4a40f5066",
+  "reference": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-head-cause-2q_m3p18/synthetic/decimal-reference.json",
+    "bytes": 41651,
+    "sha256": "b8196c29b2f4f737c575a56ba01199911baca1ae1f1b75acddd219b0d8aa2eb6"
+  },
+  "tool": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-head-cause-2q_m3p18/decimal_synthetic_reference.py",
+    "bytes": 1751,
+    "sha256": "f936451d9493b1276651504fe2fc76bf002148ef92229c4664605c8966ffeaff"
+  },
+  "runtime": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-head-cause-2q_m3p18/synthetic/decimal-runtime.json",
+    "bytes": 408,
+    "sha256": "1fba7738073d557ec47e4dbee9c5d6d0f3ffb295dd4d7a0bd3a9cbe4c2f80376"
+  },
+  "precision_decimal_digits": 80,
+  "libmpdec": "4.0.0",
+  "synthetic_values": 272,
+  "torch_smaller_error": 162,
+  "legacy_smaller_error": 23,
+  "same_error": 87,
+  "scope": "Independent high finite precision sigmoid on artificial constants only; no weights,real activations or learned-model evaluation."
+}

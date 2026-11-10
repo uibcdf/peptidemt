@@ -1,0 +1,287 @@
+{
+  "schema": "peptidemt.hydramp_numeric_reference_execution@1",
+  "date": "2026-11-02",
+  "recorded_at_utc": "2026-11-03T02:25:06.868138+00:00",
+  "issue": "uibcdf/peptidemt#8",
+  "status": "Two authorized FP64 forwards completed; internal consistency passes; original FP32 native-versus-port comparisons remain failed under their diagnostic band. Scientific acceptance remains pending.",
+  "source_commit": "6590d2f4c2963f25d30669052a4c4a857e0e7279",
+  "starter_commit": "7804df862872ccc6d09fe01c41bafbca194cfa31",
+  "worktree": "/home/liliana/repos@uibcdf/peptidemt/../hydramp/local_data/pytorch-gru-layout",
+  "uncommitted": true,
+  "plan": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-fp64-reference-hhsdppyc/plan.json",
+    "bytes": 27009,
+    "sha256": "bd5ad87eb20b1542ed21d8b07c0e91ec628126d23afa6ff708dc18d5166b1c19"
+  },
+  "worker": {
+    "path": "/home/liliana/repos@uibcdf/hydramp/local_data/pytorch-gru-layout/ports/pytorch/devtools/numeric_reference.py",
+    "bytes": 13180,
+    "sha256": "be31c78e063f5d15142c6b750ccd169689396f95562b38c342f6ac06f3e58e6f"
+  },
+  "authorization": {
+    "schema": "peptidemt.numeric_reference_authorization@1",
+    "date": "2026-11-02",
+    "recorded_at_utc": "2026-11-03T02:23:53.732836+00:00",
+    "issue": "uibcdf/peptidemt#8",
+    "authority": "Investigator explicitly instructed proceeding after the explanation of the prepared two-forward NumPy FP64 diagnostic; also authorized durable issue documentation for subsequent evaluation.",
+    "approved_plan_path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-fp64-reference-hhsdppyc/plan.json",
+    "approved_plan_sha256": "bd5ad87eb20b1542ed21d8b07c0e91ec628126d23afa6ff708dc18d5166b1c19",
+    "budget": {
+      "workers": 1,
+      "concurrent_workers": 1,
+      "cpu_affinity": [
+        0,
+        1
+      ],
+      "native_threads": 1,
+      "nice": 10,
+      "address_space_bytes": 8589934592,
+      "rss_stop_bytes": 2147483648,
+      "minimum_mem_available_bytes": 8589934592,
+      "worker_wall_seconds": 180,
+      "aggregate_worker_wall_seconds": 180,
+      "output_stop_bytes": 134217728,
+      "minimum_free_disk_bytes": 1073741824,
+      "gpu": false,
+      "network": false,
+      "retries": 0,
+      "legacy_model_constructions": 0,
+      "torch_model_constructions": 0,
+      "pca_pickle_loads": 0,
+      "pca_coefficient_exports": 0,
+      "pca_inverse_transforms_per_worker": 0,
+      "decoder_evaluations_per_worker": 2,
+      "amp_evaluations_per_worker": 0,
+      "mic_evaluations_per_worker": 0,
+      "rows_per_network_evaluation": 12,
+      "network_evaluations_total": 2,
+      "unconstrained_generation_calls": 0,
+      "descriptor_calls": 0,
+      "macrel_calls": 0,
+      "task_ram_budget_bytes": 4000000000,
+      "task_ram_budget_implementation": "One model worker at a time, sampled worker RSS stop at 2 GiB; small stdlib supervisor measured separately. The unchanged 8 GiB virtual address-space ceiling is not a RAM allocation.",
+      "numerical_reference_forwards": 2,
+      "numerical_parameter_sets": 1
+    },
+    "contract": {
+      "purpose": "Compare existing native/dev0/dev1 float32 traces against an independent approximate FP64 mathematical reference before choosing another code change or discussing tolerance.",
+      "input": "Same saved twelve conditioned rows, round to float32 first exactly as the two frameworks do, then use float64 arithmetic.",
+      "parameters": "One load of eight pinned decoder NPY arrays, convert their exact float32 values to float64. No model/PCA deserialization.",
+      "formulations": [
+        "Separate gate products",
+        "Grouped gate products"
+      ],
+      "calls": "Exactly two full NumPy FP64 decoder evaluations in one worker; no TF/Torch/AMP/MIC/Macrel call.",
+      "unchanged": "No deployment dtype/code/threshold modification, adoption or automatic retry; the prior float32 failures remain recorded.",
+      "interpretation": "FP64 reference is approximate, not exact arithmetic or biological ground truth. Agreement between formulations and errors against each recorded framework are diagnostic only."
+    },
+    "scope": "Two learned-parameter mathematical FP64 decoder forwards, one parameter load set, twelve retained inputs. No framework forward, production precision/threshold change, scientific acceptance or automatic retry."
+  },
+  "preflight": {
+    "artifacts": 65,
+    "legacy_source_files": 41,
+    "pretrained_artifacts_deserialized": 0,
+    "all_pinned_bytes_checked": true,
+    "preserved_amp_and_license_files": 50,
+    "source_and_license_equal_reference": true
+  },
+  "execution": {
+    "at_utc": "2026-11-03T02:24:01.220501+00:00",
+    "supervisor_maxrss_bytes": 23883776,
+    "conservative_peak_combined_rss_bytes": 68808704,
+    "stage_outcome": {
+      "exit_code": 0,
+      "stop_reason": null,
+      "wall_seconds": 0.5149772150907665,
+      "peak_sampled_rss_bytes": 44924928,
+      "plan_sha256": "bd5ad87eb20b1542ed21d8b07c0e91ec628126d23afa6ff708dc18d5166b1c19",
+      "retry_allowed": false
+    }
+  },
+  "worker_observations": {
+    "numerical_reference_forwards": 2,
+    "rows_per_forward": 12,
+    "parameter_load_sets": 1,
+    "parameter_arrays": 8,
+    "input_quantization": "float32 then float64 arithmetic",
+    "pca_loads": 0,
+    "head_forwards": 0,
+    "torch_tf_imported": false,
+    "python": "3.14.7 | packaged by conda-forge | (main, Sep  2 2026, 21:08:32) [GCC 15.3.0]",
+    "prefix": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-fp64-reference-hhsdppyc/worker",
+    "numpy": "2.4.6",
+    "numpy_origin": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-fp64-reference-hhsdppyc/worker/lib/python3.14/site-packages/numpy/__init__.py"
+  },
+  "report": {
+    "reference_layouts_consistent": true,
+    "reference_layout_tokens_exact": true,
+    "internal_consistency": {
+      "autoregressive": {
+        "maximum_absolute_error": 8.645861804268407e-15,
+        "rms_error": 3.0184074417922696e-16,
+        "outside_band": 0
+      },
+      "lstm": {
+        "maximum_absolute_error": 1.7541523789077473e-14,
+        "rms_error": 5.56711348971262e-16,
+        "outside_band": 0
+      },
+      "logits": {
+        "maximum_absolute_error": 1.4921397450962104e-13,
+        "rms_error": 1.3493139104599113e-14,
+        "outside_band": 0
+      },
+      "probabilities": {
+        "maximum_absolute_error": 3.9190872769268026e-14,
+        "rms_error": 8.994106885302261e-16,
+        "outside_band": 0
+      }
+    },
+    "recorded_float32_comparisons": {
+      "native_tf32": {
+        "stages": {
+          "autoregressive": {
+            "maximum_absolute_error": 1.2181828340951384e-05,
+            "rms_error": 3.5749363369768283e-07,
+            "outside_band": 2
+          },
+          "lstm": {
+            "maximum_absolute_error": 1.4056713386834119e-05,
+            "rms_error": 5.591288892485571e-07,
+            "outside_band": 47
+          },
+          "logits": {
+            "maximum_absolute_error": 0.00012314882650166226,
+            "rms_error": 1.2017351924910427e-05,
+            "outside_band": 116
+          },
+          "probabilities": {
+            "maximum_absolute_error": 2.6977310753961703e-05,
+            "rms_error": 9.494061026004748e-07,
+            "outside_band": 16
+          }
+        },
+        "tokens_equal_reference": true
+      },
+      "torch_dev0_32": {
+        "stages": {
+          "autoregressive": {
+            "maximum_absolute_error": 1.1783255486730315e-05,
+            "rms_error": 4.667314161191756e-07,
+            "outside_band": 11
+          },
+          "lstm": {
+            "maximum_absolute_error": 1.723066072112367e-05,
+            "rms_error": 6.406281645360943e-07,
+            "outside_band": 58
+          },
+          "logits": {
+            "maximum_absolute_error": 0.00019197727013420263,
+            "rms_error": 1.3508748940461543e-05,
+            "outside_band": 117
+          },
+          "probabilities": {
+            "maximum_absolute_error": 2.8850079310305254e-05,
+            "rms_error": 9.610597610086768e-07,
+            "outside_band": 16
+          }
+        },
+        "tokens_equal_reference": true
+      },
+      "torch_dev1_32": {
+        "stages": {
+          "autoregressive": {
+            "maximum_absolute_error": 9.436767376080901e-06,
+            "rms_error": 4.92270556968788e-07,
+            "outside_band": 8
+          },
+          "lstm": {
+            "maximum_absolute_error": 2.7303845688164685e-05,
+            "rms_error": 7.300397730631799e-07,
+            "outside_band": 73
+          },
+          "logits": {
+            "maximum_absolute_error": 0.00020723605919670263,
+            "rms_error": 1.5626529745333858e-05,
+            "outside_band": 153
+          },
+          "probabilities": {
+            "maximum_absolute_error": 2.4908532523015836e-05,
+            "rms_error": 9.880168818084032e-07,
+            "outside_band": 16
+          }
+        },
+        "tokens_equal_reference": true
+      }
+    },
+    "scope": "Approximate independent FP64 diagnostic; not exact arithmetic, biological truth, deployment precision change or model acceptance. Original native-vs-port criterion unchanged."
+  },
+  "retained_outputs": {
+    "attempt-oracle.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-fp64-reference-hhsdppyc/run/attempt-oracle.json",
+      "bytes": 231,
+      "sha256": "fb7c35c850e6fffebdda94fbe98228014f2d2c26f611d16c256df926a82faeae"
+    },
+    "authorization.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-fp64-reference-hhsdppyc/run/authorization.json",
+      "bytes": 3135,
+      "sha256": "2e5b33ca7ef67fa20c46d0fe85856b1d8acf7ad152e7cd59476a3f744bf15a08"
+    },
+    "latents.npy": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-fp64-reference-hhsdppyc/run/latents.npy",
+      "bytes": 6272,
+      "sha256": "d67d56620136d05055c7f71cc882fc5f5c1faf6c1c975b3dbf59ab8ed2f92cac"
+    },
+    "logs/oracle.log": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-fp64-reference-hhsdppyc/run/logs/oracle.log",
+      "bytes": 618,
+      "sha256": "2cb3b5a4ee0b0046190cf0a9164dd7adc4d9b8fe840d4ec246e6464290feb438"
+    },
+    "numeric-reference-report.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-fp64-reference-hhsdppyc/run/numeric-reference-report.json",
+      "bytes": 3248,
+      "sha256": "4c7a38322f6fc8b693cab96e70b3324e3313425356daee045f6e892294b30a13"
+    },
+    "reference-grouped.npz": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-fp64-reference-hhsdppyc/run/reference-grouped.npz",
+      "bytes": 500224,
+      "sha256": "3af8417ddeba20e85290770f545f6200cfc62b2a1e49921ec099a121b20befe5"
+    },
+    "reference-separate.npz": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-fp64-reference-hhsdppyc/run/reference-separate.npz",
+      "bytes": 500224,
+      "sha256": "666ffd840775187117fac5c4ad907ba29baac79a024e5ad5842565bdb7047ded"
+    },
+    "supervisor.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-fp64-reference-hhsdppyc/run/supervisor.json",
+      "bytes": 407,
+      "sha256": "c9be2f8c870917bbff48987d4e597d072af3195923e8dd66427ae67ab324d20d"
+    }
+  },
+  "interpretation": {
+    "observed": "All three retained FP32 traces have the same 300 argmax tokens as both FP64 formulations. Native and port probability errors versus the approximate reference are of similar magnitude.",
+    "supports": "Finite-fixture numerical drift is a plausible interpretation; legacy FP32 output is not an exact-arithmetic oracle.",
+    "does_not_prove": "No formal rounding-error bound, measured runtime primitive dispatch, universal port fidelity, near-tie behavior, biological validity or full generator qualification. The two FP64 formulations share NumPy/BLAS.",
+    "recommendation_for_investigator_review": "Define acceptance against preserved scientific outputs and explicit numerical evidence, including near ties, native ordering and heads. Do not patch deployment again solely to chase legacy last bits or silently relax the diagnostic threshold.",
+    "prior_failures": "Preserved unchanged; dev1 is not adopted and no new tolerance is accepted."
+  },
+  "zero_calls": [
+    "TensorFlow forward",
+    "PyTorch forward",
+    "new PCA load/inverse transform",
+    "AMP/MIC head forward",
+    "native generation API",
+    "descriptor",
+    "Macrel",
+    "training",
+    "GPU computation"
+  ],
+  "retry": false,
+  "retention": {
+    "owner": "PeptideMT #8 / investigator-owned HydrAMP fork",
+    "review_by": "2026-11-13",
+    "disposition": "Retain exact task environment, source, inputs, outputs and logs for investigator review; no automatic deletion or publication of assets."
+  },
+  "producer_record": "devguide/evidence/pytorch_numeric_reference_execution.json in local peptidemt-pytorch-gru-layout worktree",
+  "producer_record_sha256": "bed7a96d855f43201cdf138dbc3658244d5073634328bd3a5f0ff34fc4aa4265"
+}

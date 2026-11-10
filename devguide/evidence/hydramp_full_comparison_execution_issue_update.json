@@ -1,0 +1,9 @@
+{
+  "schema": "peptidemt.hydramp_full_comparison_execution_issue_update@1",
+  "issue": "uibcdf/peptidemt#8",
+  "comment_url": "https://github.com/uibcdf/peptidemt/issues/8#issuecomment-6609787381",
+  "created_at": "2026-11-03T16:38:25Z",
+  "verified": true,
+  "scope": "Executed finite comparison; diagnostic FAIL preserved; issue remains open and scientific acceptance pending.",
+  "body_sha256": "0983d217452e983e049787c099d5cf1973fc93455d87023de8f65ae415d2a715"
+}

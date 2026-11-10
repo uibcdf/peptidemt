@@ -1,0 +1,127 @@
+{
+  "schema": "peptidemt.hydramp_generation_result_closeout@1",
+  "recorded_at_utc": "2026-11-06T01:36:33.363579+00:00",
+  "status": "approved_source_delivered_final_qualification_incomplete_host_resources",
+  "implementation_receipt": {
+    "path": "devguide/evidence/hydramp_generation_result_implementation.json",
+    "bytes": 15812,
+    "sha256": "0df9543c431dbf3a79d605c3fd34c3e03fe68eb1b7ea561635aee0510d8b283b"
+  },
+  "issue_updates": {
+    "path": "devguide/evidence/hydramp_generation_result_issue_updates.json",
+    "bytes": 21079,
+    "sha256": "9c69b5a7a6cc6980490915ff48f900a97c03da05c0af0b76ab59aae3ab6572fa"
+  },
+  "resource_closeout": {
+    "path": "local_data/hydramp-result-implementation-w5p9gdfz/resource-closeout.json",
+    "bytes": 969,
+    "sha256": "66217106c49bfd15aaca1221bfd2aa442b1e27d1600af8c835fedb833965315c"
+  },
+  "documentation_scope_disposition": {
+    "path": "local_data/hydramp-result-implementation-w5p9gdfz/documentation-whitespace-disposition.json",
+    "bytes": 2130,
+    "sha256": "f115409b49f583769f7e520515401f5c19bbd23e484fb8f704f7cd3b7eb5c949"
+  },
+  "current_documents": [
+    {
+      "path": "AGENTS.md",
+      "bytes": 13779,
+      "sha256": "f6ed8d08e01b563e3b0c901c7e55dc0d8068e768eff7bd9ece509d8463bcfe58"
+    },
+    {
+      "path": "devguide/hydramp_generation_result_implementation.md",
+      "bytes": 8146,
+      "sha256": "20cd1e471f5764bd48f12fb4a532f9513a69489acb11e728a22e56b65e33de2b"
+    },
+    {
+      "path": "devguide/hydramp_result_contract.md",
+      "bytes": 17094,
+      "sha256": "2d04997516e74d6aab11f385426e4156cf7ae2d6984c1f1d0f2a182e2292249a"
+    },
+    {
+      "path": "devguide/README.md",
+      "bytes": 44520,
+      "sha256": "fe3383c5805f5c1a1b0068da4181d1d6bad416d04dbea2d41cadbd806adea3c2"
+    },
+    {
+      "path": "devguide/continuation_plan_2026_11_04.md",
+      "bytes": 23332,
+      "sha256": "a9406445cb5a7ac8e0355442080ef65bfa6612948f044ab72a181c854e26000c"
+    },
+    {
+      "path": "devguide/pending_proposals/hydramp_scientific_followup.md",
+      "bytes": 42127,
+      "sha256": "05f16c366f965dbb56ad6431281d85f652613b0078fb33ef0bef4bbf23c4c547"
+    },
+    {
+      "path": "devguide/decisions.md",
+      "bytes": 106973,
+      "sha256": "0e8130dddc98734e7a501c15ef24c54241e1eaeac0e4bdd861d59021163cc9da"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/hydramp/local_data/generation-results-20261105/AGENTS.md",
+      "bytes": 5943,
+      "sha256": "2df822851512c99d35f1e79c0877820d6728c817a1d5ea85607157a7458729fb"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/hydramp/local_data/generation-results-20261105/README.md",
+      "bytes": 10619,
+      "sha256": "bf2de4257044cc7b318a8a12c575fd2d70d124f83133866e791593bc4c16f94e"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/hydramp/local_data/generation-results-20261105/devguide/README.md",
+      "bytes": 9765,
+      "sha256": "c3644d6db1b78e1a40555a1c1651040fc1af28da2476cf85a43e4ab9607af0c1"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/hydramp/local_data/generation-results-20261105/devguide/generation_results.md",
+      "bytes": 3558,
+      "sha256": "7b9a0752bbfa4a6cb69165e2adba747988611760e955985932ad3552ea373cff"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/hydramp/local_data/generation-results-20261105/ports/pytorch/README.md",
+      "bytes": 5299,
+      "sha256": "6d2a505988c132d517a55168ee34845db730db2c92497a209c4fc215f6fa97ee"
+    }
+  ],
+  "checks": {
+    "relative_file_links_checked": 335,
+    "missing_targets": 0,
+    "scope": "Full current PeptideMT checkpoint/new owner documents, plus newly changed owner navigation banners; not preserved historical owner bodies, all anchors or remote availability",
+    "trailing_whitespace_in_checked_changes": false,
+    "historical_whitespace_and_local_receipt_limits_preserved": true,
+    "report_index_native_exit": 0,
+    "report_index_log": {
+      "path": "local_data/hydramp-result-implementation-w5p9gdfz/report-index-check.log",
+      "bytes": 38,
+      "sha256": "3a525cb88e38e62b2cd78f962eec311aeb1797c9a439b3c7d832b95b00a8d5b5"
+    },
+    "managed_source_hashes_match": true,
+    "clean_dev7_and_five_runtime_modules_original_amp_and_MIT_preserved": true,
+    "JSON_records_parse": true,
+    "existing_issue_comment_and_body_readbacks_exact": true
+  },
+  "current_host": {
+    "available_memory_bytes": 8292016128,
+    "runtime_reserve_bytes": 8589934592,
+    "next_build_start_headroom_bytes": 10737418240,
+    "load": [
+      5.44189453125,
+      5.0205078125,
+      5.9765625
+    ]
+  },
+  "remaining": [
+    "Final current-source 52-test selection",
+    "Reproducible dev8 sdist/wheel",
+    "Fresh exact installed-candidate qualification and native dependency/payload receiving",
+    "Final installed optional SDK controls and owner dispositions"
+  ],
+  "routine_continuation_already_authorized": "D49 within D50; no new per-run approval needed, do not relax the host reserve",
+  "neural_or_learned_calls": 0,
+  "GPU": false,
+  "qualified_artifact_or_scientific_acceptance": false,
+  "new_commit_push_tag_release_or_external_contact": false,
+  "owner_issues_remain_open": true,
+  "retention_review_date": "2026-11-19"
+}

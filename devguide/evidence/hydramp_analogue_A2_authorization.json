@@ -1,0 +1,77 @@
+{
+  "schema": "peptidemt.hydramp_analogue_A2_authorization@1",
+  "recorded_at_utc": "2026-11-04T19:42:49.744895+00:00",
+  "approved": true,
+  "artificial_only": false,
+  "plan_sha256": "556c917c1937a564ae047d6b30f3cb91311f50c22d55633eed27be1b808c35d4",
+  "owner_issue": "uibcdf/hydramp#4",
+  "consumer_issue": "uibcdf/peptidemt#32",
+  "authority": "Investigator explicitly directs continuing in response to the exact A2 execution approval question and report. Authority covers the unchanged pinned plan, criteria, six analogue calls/42 neural evaluations, at most27 native descriptor bundles, one pinned original PCA load, two eager64 construction epsilon draws and stated finite sequential CPU/shared-host limits.",
+  "criteria": {
+    "atol": 2e-06,
+    "rtol": 2e-05
+  },
+  "exact": "tokens, strings, improvement masks, per-occurrence bucket membership/mapping and same-worker repeats",
+  "network_evaluations_total": 42,
+  "neural_calls_per_worker": 21,
+  "legacy_descriptor_bundle_cap": 27,
+  "legacy_eager_epsilon_draws": 2,
+  "legacy_unused_PCA_deserializations": 1,
+  "PCA_inverse_transforms": 0,
+  "child_limits": {
+    "address_space_bytes": 8589934592,
+    "cpu_ids": [
+      0,
+      1
+    ],
+    "nice": 10
+  },
+  "supervision_limits": {
+    "min_available_memory_bytes": 8589934592,
+    "min_free_disk_bytes": 1073741824,
+    "threads": 1,
+    "wall_seconds": 120,
+    "rss_stop_bytes": 2147483648,
+    "max_output_bytes": 134217728
+  },
+  "maximum_total_worker_seconds": 240,
+  "task_RAM_intent_bytes": 4000000000,
+  "new_scientific_acceptance": false,
+  "no_GPU_network_retry_training_release_or_external_contact": true,
+  "use": "Same retained original/starter assets and existing local-research conditions; Drive byte identity/redistribution questions remain unresolved",
+  "pre_execution_host": {
+    "MemTotal": 32937586688,
+    "MemAvailable": 14204739584,
+    "SwapTotal": 8589930496,
+    "SwapFree": 348209152,
+    "logical_CPUs": 20,
+    "allowed_CPU_ids": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "task_free_disk_bytes": 2521207635968
+  },
+  "byte_only_preflight": {
+    "arrays_deserialized": 0,
+    "model_files_hashed": 59,
+    "PCA_bytes_hashed": true
+  }
+}

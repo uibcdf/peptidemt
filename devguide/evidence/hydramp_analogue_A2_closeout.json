@@ -1,0 +1,35 @@
+{
+  "schema": "peptidemt.hydramp_analogue_A2_closeout@1",
+  "recorded_at_utc": "2026-11-04T19:50:49.151172+00:00",
+  "execution_receipt_sha256": "def2a831524550f8dfd28a741c0e55b9d74359b3d1a2b0be1bdd15b8ab277cd8",
+  "checks": {
+    "reporting_guard": {
+      "command": "python -m pytest --receptor=llm tests/test_reporting_protocol.py",
+      "passed": 1,
+      "seconds": 0.12,
+      "log_sha256": "6891ea708c7436faffc35bad71fd48521c3d1c34db50eb2e9be71c988edbe9af"
+    },
+    "devguide_index": "--check passes; report status remains partial, no index regeneration required",
+    "git_diff_whitespace": "passes",
+    "documentation_relative_file_links": {
+      "checked": 249,
+      "missing": 0
+    },
+    "analysis_script": "Ruff check/format pass; standard-library-only saved JSON analysis",
+    "owner_authorization_execution_receipts": "byte-identical to consumer",
+    "postflight": "all plan pins and original artifacts match, zero scientific deserializations during postflight"
+  },
+  "suite_status": {
+    "repository": "uibcdf/peptidemt",
+    "branch": "main",
+    "head": "1f8c444e4619",
+    "ahead": 0,
+    "behind": 0,
+    "error": "",
+    "exit": 1,
+    "reason": "Dirty worktree intentionally preserved; no behind/ahead or fetch error",
+    "log_sha256": "06214fff73769a13882e54955fa215ac34a2af8ff07464a3ac79d501f69a4cf4"
+  },
+  "scope": "Documentation/reporting checks do not qualify another model/scientific gate; no model tests rerun after completed A2",
+  "committed_pushed_released": false
+}

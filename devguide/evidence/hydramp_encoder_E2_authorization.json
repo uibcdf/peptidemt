@@ -1,0 +1,35 @@
+{
+  "schema": "peptidemt.hydramp_encoder_E2_authorization@1",
+  "recorded_at_utc": "2026-11-04T14:45:15.973694+00:00",
+  "approved": true,
+  "artificial_only": false,
+  "plan_sha256": "eb6d30fc31217dee57c9200fcfcff982ebbee0facb12fdeff3b6f9da3b92692b",
+  "owner_issue": "uibcdf/hydramp#8",
+  "consumer_issue": "uibcdf/peptidemt#32",
+  "authority": "Investigator explicitly instructs continuing in direct response to the exact E2 execution approval question and presented report, including ten encoder evaluations, one legacy64 construction-noise draw, native initializer work and finite CPU/shared-host limits.",
+  "criteria": {
+    "atol": 2e-06,
+    "rtol": 2e-05
+  },
+  "encoder_evaluations_total": 10,
+  "construction_unused_epsilon_draws_legacy": 1,
+  "supervision_limits": {
+    "min_available_memory_bytes": 8589934592,
+    "min_free_disk_bytes": 1073741824,
+    "threads": 1,
+    "wall_seconds": 120,
+    "rss_stop_bytes": 2147483648,
+    "max_output_bytes": 134217728
+  },
+  "child_limits": {
+    "cpu_ids": [
+      0,
+      1
+    ],
+    "nice": 10,
+    "address_space_bytes": 8589934592
+  },
+  "maximum_total_worker_wall_seconds": 240,
+  "new_scientific_acceptance": false,
+  "no_retry_GPU_analogue_training_release_or_external_contact": true
+}

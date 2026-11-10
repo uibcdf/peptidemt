@@ -1,0 +1,27 @@
+{
+  "schema": "peptidemt.hydramp_encoder_E2_preparation_closeout@1",
+  "recorded_at_utc": "2026-11-04T14:33:10.236302+00:00",
+  "status": "Preparation complete; exact real execution approval pending",
+  "plan_sha256": "eb6d30fc31217dee57c9200fcfcff982ebbee0facb12fdeff3b6f9da3b92692b",
+  "preparation_evidence_sha256": "5707a58f15090ccdcbfc2b786887b1224ea064cd77fa4bfe153cab863818c3db",
+  "verified_artifact_hashes": 257,
+  "verified_unchanged_original_installed_Python_files": 41,
+  "relative_links_checked": 221,
+  "consumer_owner_evidence_exact_copy": true,
+  "native_checks": {
+    "consumer_ruff_check": "pass",
+    "consumer_ruff_format": "142 files already formatted",
+    "owner_instrument_test_controller_ruff_check_and_format": "pass, 3 files",
+    "both_git_diff_check": "pass",
+    "owner_original_amp_and_LICENSE_diff": "empty",
+    "devguide_indexes": "current; queue stays partial/open"
+  },
+  "model_free_tests": 8,
+  "final_artificial_comparison_pass": true,
+  "model_and_weights_real_evaluations": 0,
+  "real_approval_or_attempt_created": false,
+  "execution_question_ready": "Exact plan, use, prospective criteria, ten encoder evaluations and one legacy eager64 construction noise draw under CPU/shared-host limits; D42 does not authorize this real E2 yet",
+  "issue_update_receipt": "hydramp_encoder_E2_preparation_issue_updates.json",
+  "commits_pushes_releases_external_contacts": [],
+  "retention_through": "2026-11-14"
+}

@@ -9,8 +9,8 @@ from importlib.metadata import version
 
 from depdigest import dep_digest, is_installed
 
-from ._diagnostics import AttributionWarning, bundle
-from ._private.smonitor import CODES
+from ._diagnostics import AttributionWarning, HydrAMPAttributionWarning, bundle
+from ._private.smonitor import CATALOG, CODES
 
 _TARGET = "peptidemt.assess_macrel"
 _ARTICLE = {
@@ -118,21 +118,23 @@ def _references(details, producer):
     return operations, records
 
 
-def _diagnose(error):
+def _diagnose(error, warning_type=None):
+    warning_type = warning_type or AttributionWarning
     diagnostic = None
     try:
-        diagnostic = AttributionWarning(cause_type=type(error).__name__)
+        diagnostic = warning_type(cause_type=type(error).__name__)
         bundle.warn(diagnostic)
     except Exception as emission_error:
         if emission_error is diagnostic:
             return  # The catalog event was already emitted before warning promotion.
-        template = CODES["PEP-WARN-ATTR-001"]["user_message"]
+        code = CATALOG[warning_type.catalog_key]["code"]
+        template = CODES[code]["user_message"]
         logging.getLogger("peptidemt.attribution").warning(
             "%s: %s",
-            "PEP-WARN-ATTR-001",
+            code,
             template.format(cause_type=type(error).__name__),
             extra={
-                "code": "PEP-WARN-ATTR-001",
+                "code": code,
                 "cause_type": type(error).__name__,
                 "diagnostic_failure_type": type(emission_error).__name__,
             },
@@ -143,6 +145,12 @@ def completed_attribution(details, snapshot_id):
     """Return detached references even when the optional provider cannot capture."""
     producer = {"name": "PeptideMT", "version": version("peptidemt")}
     operations, bibliography = _references(details, producer)
+    return _capture(
+        operations, bibliography, producer, snapshot_id, _TARGET, AttributionWarning
+    )
+
+
+def _capture(operations, bibliography, producer, snapshot_id, target, warning_type):
     result = {
         "schema": "peptidemt.scientific_attribution@1",
         "producer": producer,
@@ -168,12 +176,12 @@ def completed_attribution(details, snapshot_id):
                 "completed_operations": operations,
             },
         ) as observed:
-            with provider.scope(_TARGET):
+            with provider.scope(target):
                 for record in bibliography:
                     provider.register_item(**record["item"])
                     provider.track_item(
                         record["item"]["id"],
-                        used_by=_TARGET,
+                        used_by=target,
                         roles=record["roles"],
                         context={**record["context"], "snapshot_id": snapshot_id},
                     )
@@ -182,5 +190,139 @@ def completed_attribution(details, snapshot_id):
     except Exception as error:
         result["status"] = "provider-failed"
         result["failure_type"] = type(error).__name__
-        _diagnose(error)
+        _diagnose(error, warning_type)
     return result
+
+
+def hydramp_attribution(state, snapshot_id, *, analogue=False):
+    """Credit confirmed child branches in the application's parent session."""
+    producer = {"name": "PeptideMT", "version": version("peptidemt")}
+    operations = list(state.get("completed", ()))
+    runtime = state.get("runtime", {})
+    versions = runtime.get("versions", {})
+    bibliography = []
+
+    def software(name, observed_version, url, reached):
+        if observed_version is not None and reached:
+            bibliography.append(
+                {
+                    "item": {
+                        "id": f"software:{name}:{observed_version}",
+                        "type": "software",
+                        "title": name,
+                        "version": observed_version,
+                        "url": url,
+                    },
+                    "roles": ["executed_software"],
+                    "context": {
+                        "software": name,
+                        "version": observed_version,
+                        "completed_operations": reached,
+                    },
+                }
+            )
+
+    if operations:
+        software(
+            "PeptideMT",
+            producer["version"],
+            "https://github.com/uibcdf/peptidemt",
+            operations,
+        )
+        software(
+            "hydramp-torch",
+            versions.get("hydramp-torch"),
+            "https://github.com/uibcdf/hydramp",
+            operations,
+        )
+    numpy_operations = [
+        op
+        for op in operations
+        if op.startswith("numeric_pca")
+        or (
+            analogue
+            and op in ("encoder_loading", "checkpoint_loading", "native_sampling")
+        )
+    ]
+    torch_operations = [
+        op
+        for op in operations
+        if op in ("checkpoint_loading", "native_decoding", "native_scoring")
+        or (
+            analogue
+            and op
+            in (
+                "encoder_loading",
+                "native_encoding",
+                "native_encoder_scale",
+                "native_encoder_mean",
+                "native_prototype_scoring",
+                "native_generated_scoring",
+            )
+        )
+    ]
+    software("NumPy", versions.get("numpy"), "https://numpy.org", numpy_operations)
+    software("PyTorch", versions.get("torch"), "https://pytorch.org", torch_operations)
+    software(
+        "modlAMP",
+        versions.get("modlamp"),
+        "https://github.com/alexarnimueller/modlAMP",
+        [op for op in operations if op == "native_descriptors"],
+    )
+    native = [
+        op
+        for op in operations
+        if op in ("native_decoding", "native_scoring", "native_generation")
+        or (
+            analogue
+            and op
+            in (
+                "native_encoder_scale",
+                "native_encoder_mean",
+                "native_prototype_scoring",
+                "native_generated_scoring",
+                "native_analogue",
+            )
+        )
+    ]
+    if native:
+        bibliography.append(
+            {
+                "item": {
+                    "id": "doi:10.1038/s41467-023-36994-z",
+                    "type": "article",
+                    "title": "Discovering highly potent antimicrobial peptides with deep generative model HydrAMP",
+                    "year": "2023",
+                    "journal": "Nature Communications",
+                    "doi": "10.1038/s41467-023-36994-z",
+                },
+                "roles": ["scientific_criterion", "software_description"],
+                "context": {"completed_operations": native},
+            }
+        )
+        commit = runtime.get("source_commit")
+        if commit:
+            bibliography.append(
+                {
+                    "item": {
+                        "id": "implementation:HydrAMP:" + commit,
+                        "type": "software",
+                        "title": "Original HydrAMP reference implementation",
+                        "url": "https://github.com/szczurek-lab/hydramp/tree/" + commit,
+                    },
+                    "roles": ["reference_implementation"],
+                    "context": {
+                        "executed_dependency": False,
+                        "source_commit": commit,
+                        "completed_operations": native,
+                    },
+                }
+            )
+    return _capture(
+        operations,
+        bibliography,
+        producer,
+        snapshot_id,
+        "peptidemt.redesign_hydramp" if analogue else "peptidemt.generate_hydramp",
+        HydrAMPAttributionWarning,
+    )

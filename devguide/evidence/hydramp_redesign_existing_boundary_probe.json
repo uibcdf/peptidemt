@@ -1,0 +1,77 @@
+{
+  "schema": "peptidemt.redesign_contract_existing_boundary_probe@1",
+  "evidence_kind": "controlled-fixture",
+  "meaning": "Hand-declared ancestry and artificial assessment values exercise existing W1 result/selector semantics only; no new receiving/codec/adapter implemented.",
+  "model_or_Macrel_calls": 0,
+  "scientific_imports": 0,
+  "parameter_arrays_read": 0,
+  "declared_provider_to_parent": [
+    0,
+    2,
+    3
+  ],
+  "declared_child_links": [
+    {
+      "child_occurrence": 0,
+      "parent_occurrence": 0,
+      "provider_prototype_index": 0,
+      "attempt_index": 0,
+      "trace_row": 0
+    },
+    {
+      "child_occurrence": 1,
+      "parent_occurrence": 2,
+      "provider_prototype_index": 1,
+      "attempt_index": 1,
+      "trace_row": 4
+    },
+    {
+      "child_occurrence": 2,
+      "parent_occurrence": 3,
+      "provider_prototype_index": 2,
+      "attempt_index": 0,
+      "trace_row": 2
+    }
+  ],
+  "existing_selectors": {
+    "amp-first": {
+      "ranking": [
+        "input-0",
+        "input-1"
+      ],
+      "selected": [
+        "input-0",
+        "input-1"
+      ],
+      "excluded": [
+        [
+          "input-2",
+          [
+            "sequence_changing_native_preprocessing"
+          ]
+        ]
+      ]
+    },
+    "hemolysis-first": {
+      "ranking": [
+        "input-0",
+        "input-1"
+      ],
+      "selected": [
+        "input-0",
+        "input-1"
+      ],
+      "excluded": [
+        [
+          "input-2",
+          [
+            "sequence_changing_native_preprocessing"
+          ]
+        ]
+      ]
+    }
+  },
+  "unchanged_duplicate_child_occurrences": true,
+  "initial_M_child_retained_and_excluded_by_existing_Macrel_contract": true,
+  "ancestry_computed_by_new_public_API": false
+}

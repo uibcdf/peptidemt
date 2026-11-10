@@ -1,0 +1,66 @@
+{
+  "schema": "peptidemt.hydramp_result_contract_review_closeout@1",
+  "recorded_at_utc": "2026-11-06T00:32:10.864532+00:00",
+  "status": "proposal_delivered_for_investigator_review_not_implementation",
+  "review_receipt": {
+    "path": "devguide/evidence/hydramp_result_contract_review.json",
+    "bytes": 13168,
+    "sha256": "78a28d8956f2d9031a33f65f9047ce3a661e1fcc22e9b3df843728017cedc68d"
+  },
+  "issue_updates": {
+    "path": "devguide/evidence/hydramp_result_contract_issue_updates.json",
+    "bytes": 16537,
+    "sha256": "d9fd18250ebdcd9a79da51786bc3deed8ec210a8a0d63be29424d85f6d099bea"
+  },
+  "resource_closeout": {
+    "path": "local_data/hydramp-result-contract-yfjr66jh/resource-closeout.json",
+    "bytes": 676,
+    "sha256": "cab732378f4ff70ea2a890bb35084ebc0a070b87935598e30fb4e9142f009ea6"
+  },
+  "current_documents": [
+    {
+      "path": "devguide/hydramp_result_contract.md",
+      "bytes": 16522,
+      "sha256": "ce32baaa65cdce9a6474f95bac3a65ec5425fd3601bbdeb8f6e8983f4f4ed70b"
+    },
+    {
+      "path": "devguide/README.md",
+      "bytes": 44341,
+      "sha256": "8b5d3302f45108ae5dbcb36c4fce9c6f4be999ff9647a7af62afdb1c6277092e"
+    },
+    {
+      "path": "devguide/continuation_plan_2026_11_04.md",
+      "bytes": 23096,
+      "sha256": "bd3d5bddb213f500623acfd94ccaaf7ba2e93b26c9388b531c99891416b42d30"
+    },
+    {
+      "path": "devguide/pending_proposals/hydramp_scientific_followup.md",
+      "bytes": 40749,
+      "sha256": "161b52dd6c438c0f95d85f787dc4eb9a1eaac310d35ba05cc9288b988ac5ec09"
+    }
+  ],
+  "checks": {
+    "relative_file_links_checked": 229,
+    "missing_targets": 0,
+    "link_scope": "Relative file existence in maintained checkpoint documents, not all-anchor or remote availability certification",
+    "trailing_whitespace": false,
+    "report_index_native_exit_code": 0,
+    "report_index_log": {
+      "path": "local_data/hydramp-result-contract-yfjr66jh/report-index-check.log",
+      "bytes": 38,
+      "sha256": "3a525cb88e38e62b2cd78f962eec311aeb1797c9a439b3c7d832b95b00a8d5b5"
+    },
+    "proposal_SHA256_matches_review": true,
+    "all_owner_provider_HEADs_unchanged_and_worktrees_clean": true,
+    "issue_comment_and_owner_body_readbacks_exact": true
+  },
+  "scientific_or_neural_calls": 0,
+  "GPU": false,
+  "new_HydrAMP_schema_reader_writer_or_provider_adoption": false,
+  "NumPy_only_storage_primitive_pass": true,
+  "combined_provider_probe_executions": 0,
+  "provider_probe_limitation": "Initial host-resource guard refused before child start; retry deferred without sufficient conservative headroom",
+  "required_next_decision": "Investigator agreement on proposed generation result/provenance contract and bounded data-only implementation scope under D14; no renewed routine resource confirmation required",
+  "no_source_commit_push_tag_release_or_external_contact": true,
+  "retention_review_date": "2026-11-19"
+}

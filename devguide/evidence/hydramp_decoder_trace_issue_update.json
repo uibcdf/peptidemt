@@ -1,0 +1,9 @@
+{
+  "schema": "peptidemt.decoder_trace_issue_update@1",
+  "issue": "uibcdf/peptidemt#8",
+  "comment_url": "https://github.com/uibcdf/peptidemt/issues/8#issuecomment-6535704181",
+  "created_at": "2026-10-30T23:29:55Z",
+  "body_sha256": "fa7404c2651575df7f7f2adf244b0090e8842a0244b38054b947447701a7b4fe",
+  "verified": true,
+  "scope": "Approved two-forward diagnostic summary plus unvalidated isolated candidate preparation; no raw sequences/traces/checkpoints."
+}

@@ -1,0 +1,68 @@
+{
+  "schema": "peptidemt.hydramp_workflow_tutorial_closeout@1",
+  "date": "2026-11-03",
+  "recorded_at_utc": "2026-11-04T00:42:34.702183+00:00",
+  "status": "Retained-data workflow tutorial complete; #32 remains partial for scientific/product follow-ups",
+  "checks": {
+    "ruff": {
+      "exit_code": 0,
+      "log": {
+        "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-workflow-tutorial-hjvpn9qs/closeout-ruff.log",
+        "bytes": 19,
+        "sha256": "82b3e6a6c090a57601d22943bd23fca9218d1031dbe5a7b754092f9a156b4f18"
+      }
+    },
+    "format": {
+      "exit_code": 0,
+      "log": {
+        "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-workflow-tutorial-hjvpn9qs/closeout-format.log",
+        "bytes": 28,
+        "sha256": "cf764d22188c7061651e8acb52e5167813c88ad8a67aa79ac2a57b241c6d5f0b"
+      }
+    },
+    "index": {
+      "exit_code": 0,
+      "log": {
+        "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-workflow-tutorial-hjvpn9qs/closeout-index.log",
+        "bytes": 38,
+        "sha256": "3a525cb88e38e62b2cd78f962eec311aeb1797c9a439b3c7d832b95b00a8d5b5"
+      }
+    },
+    "whitespace": {
+      "exit_code": 0,
+      "log": {
+        "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-workflow-tutorial-hjvpn9qs/closeout-whitespace.log",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    }
+  },
+  "documentation_integrity": {
+    "relative_file_links": 116,
+    "missing": 0,
+    "new_scientific_calls": 0
+  },
+  "reporting_guard": {
+    "exit_code": 0,
+    "wall_seconds": 0.5176529618911445,
+    "child_kernel_HWM_rss_bytes": 44072960,
+    "scope": "Existing reporting lifecycle/index guard;isolated7distribution Python3.14.7,publishedReceptor1.2.2;scientific provider imports/artifact opens/network blocked;CPU0/1,nice10,1GiBAS,20s",
+    "new_scientific_calls": 0
+  },
+  "tutorial_receipt": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/evidence/hydramp_workflow_tutorial.json",
+    "bytes": 16704,
+    "sha256": "e725169205b6c84e2de96bc7b93938c13bdfd3227395a2baa8a77f13030af25f"
+  },
+  "publication_receipt": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/evidence/hydramp_workflow_tutorial_issue_update.json",
+    "bytes": 3675,
+    "sha256": "ab82af29ce41bfcd78b55f16333b9e581e5a8541146539db1fb1729daea01790"
+  },
+  "new_scientific_calls": 0,
+  "new_scientific_acceptance": false,
+  "new_execution_authority": false,
+  "raw_data_redistributed": false,
+  "new_commits_or_releases": 0,
+  "retention_review": "2026-11-13"
+}

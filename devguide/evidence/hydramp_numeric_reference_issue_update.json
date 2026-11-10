@@ -1,0 +1,9 @@
+{
+  "schema": "peptidemt.numeric_reference_issue_update@1",
+  "issue": "uibcdf/peptidemt#8",
+  "comment_url": "https://github.com/uibcdf/peptidemt/issues/8#issuecomment-6593862430",
+  "created_at": "2026-11-03T02:27:30Z",
+  "body_sha256": "23160b8d1409692940ffa4ff15178cbb605e900c20b3a5fb68397e437a179b03",
+  "verified": true,
+  "scope": "Completed FP64 diagnostic and open numerical-admissibility review; no assets/sequences/hidden arrays or acceptance claim."
+}

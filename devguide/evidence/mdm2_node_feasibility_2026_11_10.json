@@ -1,0 +1,368 @@
+{
+  "schema": "peptidemt.mdm2_node_feasibility@1",
+  "recorded_utc": "2026-11-10T16:03:20.269267+00:00",
+  "status": "preparation_delivered_scientific_pilot_unaccepted",
+  "owner_issue": "uibcdf/peptidemt#33",
+  "authority": {
+    "scientific": "D52 preparation; investigator instructs molecular/provider profile preparation and hardware feasibility",
+    "execution": "D49 standing routine bounded diagnostics; no repeated per-invocation consent required",
+    "infrastructure_clarification": {
+      "recorded_date": "2026-11-10",
+      "basis": "investigator infrastructure clarification during this review",
+      "nodes": 5,
+      "node_similarity": "four additional nodes like the inspected node; not measured",
+      "planned_new_GPU_counts": {
+        "RTX 5070 Ti": 2,
+        "RTX 5070": 3
+      },
+      "placement": "distributed within five-node infrastructure; exact allocation not specified",
+      "power_and_cooling": "PSU and fans will be upgraded",
+      "existing_GPU_inventory": "RTX 2080, possibly Ti, and GTX 1080; exact counts/models unconfirmed",
+      "GPU_execution_authorized": false
+    },
+    "GPU_computation": false,
+    "new_chemical_recipe_accepted": false,
+    "pilot_methods_or_criterion_accepted": false
+  },
+  "task_directory": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-node-feasibility-l7zcuxad",
+  "reports": [
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/mdm2_node_feasibility.md",
+      "bytes": 16155,
+      "sha256": "d345a18731adeb87f32d6d904a1b8d1eb64c4978cc45a11adb4d2001171c49ef"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/mdm2_input_profile_preparation.md",
+      "bytes": 8839,
+      "sha256": "97c4f02c2bb3917f65870a3c952b947eac471bf046303807e81b5e62072312d7"
+    }
+  ],
+  "host": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-node-feasibility-l7zcuxad/host.json",
+    "bytes": 28077,
+    "sha256": "45c2f8454a558ef6025a6d2d4146244607c26e03339480416808ee23e20f74a9"
+  },
+  "host_addendum": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-node-feasibility-l7zcuxad/host-addendum.json",
+    "bytes": 1255,
+    "sha256": "83e1bc80cc9bda886372d2352b7451e39705a0f97be6c61ca9be92bd4d0effff"
+  },
+  "prepared_recipe_executable": false,
+  "guide": {
+    "local": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/MOLSYSSUITE_GUIDE.md",
+      "bytes": 69263,
+      "sha256": "850a98f0757a18734b328332c88e4622f60bdef097148a1fd59b9f009846bfe4"
+    },
+    "canonical_text_matches": true,
+    "retained_fetch_wrapper_has_one_extra_newline": true
+  },
+  "workspace": {
+    "heads": {
+      "peptidemt": "1f8c444e4619499cae8ad9970122c5f40adf6127",
+      "molsysmt": "71fbe4f46d3c70e4e973c8025f01752a8c9b1084",
+      "dockingmt": "2fda6238e6b1cb3742f5d30b8ed3af699f9ed748",
+      "pyunitwizard": "9d74f0e1e911d78c1906948e74ce8da93935557d"
+    },
+    "suite_status": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-node-feasibility-l7zcuxad/suite-status.json",
+      "bytes": 25937,
+      "sha256": "0d3a8b64f3eef8a7d8db8ac4224151c6303fb6787a26c5353ee36484ad44dca3"
+    },
+    "repositories": [
+      {
+        "repository": "uibcdf/peptidemt",
+        "head": "1f8c444e4619",
+        "ahead": 0,
+        "behind": 0,
+        "error": "",
+        "state": "attention"
+      },
+      {
+        "repository": "uibcdf/molsysmt",
+        "head": "71fbe4f46d3c",
+        "ahead": 0,
+        "behind": 487,
+        "error": "",
+        "state": "attention"
+      },
+      {
+        "repository": "uibcdf/dockingmt",
+        "head": "2fda6238e6b1",
+        "ahead": 0,
+        "behind": 59,
+        "error": "",
+        "state": "attention"
+      },
+      {
+        "repository": "uibcdf/pyunitwizard",
+        "head": "9d74f0e1e911",
+        "ahead": 0,
+        "behind": 20,
+        "error": "",
+        "state": "attention"
+      }
+    ],
+    "interpretation": "All four JSON observations have empty per-repository error fields; dirty/behind causes attention, not scientific failure. The tool exit code was lost in output truncation, not inferred from the JSON. No checkout merge, reset or source install.",
+    "dockingmt_inspected_origin_main": "4e30da511afa4181bbdbb63a3f53c31a19b4e5fa",
+    "molsysmt_observed_origin_main": "68bd1910397cc457b3b8b30f23424fa271bdb124",
+    "editable_distribution_metadata_not_a_source_pin": {
+      "version": "0.0.0+264.gd1435ff",
+      "direct_url": "{\"dir_info\": {\"editable\": true}, \"url\": \"file:///home/liliana/repos%40uibcdf/dockingmt\"}"
+    }
+  },
+  "read_only_owner_inspection": {
+    "question": "Stored chemistry/residue-template coverage of the already admitted reference; no accepted T0 geometry repeated",
+    "original_source": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-t0-d1u79kql/source/1ycr-v1-5.cif",
+      "bytes": 121649,
+      "sha256": "03f62994ea1ff55d98c0d9d835b706319e523367fce56d9deb51b850c83e47a8"
+    },
+    "prior_profile": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-t0-d1u79kql/profile-qualification.json",
+      "bytes": 869742,
+      "sha256": "ff7ab6b091498e04f76eaabb6eb6631df587c9e1ebd42d233b2af4130b981578"
+    },
+    "provider_commit": "ed09f64539a5af6c1dbe9bd352c7ef65dcd4a7a6",
+    "profile_requalification_repeated": false,
+    "checked_pin_count": 4,
+    "attempts": [
+      {
+        "number": 1,
+        "retry": false,
+        "supervision": {
+          "started": true,
+          "returncode": 1,
+          "failure": "worker_failure",
+          "wall_seconds": 14.96239851298742,
+          "peak_sampled_process_tree_rss_bytes": 209883136,
+          "retained_output_bytes": 134578,
+          "retry": false,
+          "rss_scope": "supervisor_and_descendants"
+        },
+        "failure": "Object of type ndarray is not JSON serializable",
+        "declaration": {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-node-feasibility-l7zcuxad/readiness-declaration.json",
+          "bytes": 955,
+          "sha256": "f0125879c68194de3be38680c1b55ff1396a9a1680d8bb1d44a3392d3c3e72e2"
+        },
+        "code": {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-node-feasibility-l7zcuxad/readiness_probe.py",
+          "bytes": 5326,
+          "sha256": "19f86b4cca0954992a6820383a974d130c0367452028549acc46f863caacb35b"
+        },
+        "raw_failure": {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-node-feasibility-l7zcuxad/readiness-failure.json",
+          "bytes": 1667,
+          "sha256": "a4f0c7eba22c27b4b2fec5c16e381c24254c252a34bdd360158a969f4033d21a"
+        }
+      },
+      {
+        "number": 2,
+        "retry": true,
+        "reason": "The public owner inspection completed; our local JSON writer lacked NumPy ndarray/scalar encoding. Explicit lossless value encoding added, no molecular settings changed; original failure preserved.",
+        "supervision": {
+          "started": true,
+          "returncode": 0,
+          "failure": null,
+          "wall_seconds": 2.7203959110192955,
+          "peak_sampled_process_tree_rss_bytes": 210800640,
+          "retained_output_bytes": 1709699,
+          "retry": false,
+          "rss_scope": "supervisor_and_descendants"
+        },
+        "declaration": {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-node-feasibility-l7zcuxad/readiness-retry/readiness-declaration.json",
+          "bytes": 955,
+          "sha256": "ae46da5825a863216bdab1efadfcd5ea32f2fa89d91a2adb4bfb7a8ca813543d"
+        },
+        "code": {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-node-feasibility-l7zcuxad/readiness-retry/readiness_probe.py",
+          "bytes": 5557,
+          "sha256": "c45543c18e236025bd29c7e0108531c2f65e8dddb72480069996679a746ee79b"
+        },
+        "report": {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-node-feasibility-l7zcuxad/readiness-retry/residue-coverage.json",
+          "bytes": 1701228,
+          "sha256": "2a3266001ff9a01b9ced795ad5086db1cc9fef4c07164655f1c3400a033b06f9"
+        },
+        "summary": {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-node-feasibility-l7zcuxad/readiness-retry/readiness-summary.json",
+          "bytes": 1735,
+          "sha256": "c5d47da7ae5078250761845a4413ca9f97224f8fcc5fbb3731b668b5e7cebd77"
+        }
+      }
+    ],
+    "outcome": {
+      "atoms": 818,
+      "group_summary": {
+        "assessed": 98,
+        "incomplete": 0,
+        "unassessed": 0
+      },
+      "explicit_H_atoms": 0,
+      "unassessed_checks": [
+        "environmental_protonation",
+        "terminal_context",
+        "inter_group_chemistry",
+        "valence",
+        "aromaticity_perception",
+        "repair_placement",
+        "force_field_coverage",
+        "docking_readiness"
+      ],
+      "stored_field_status": {
+        "atom_type": "present",
+        "atom_id": "present",
+        "isotope": "missing",
+        "formal_charge": "missing",
+        "atom_is_aromatic": "missing",
+        "n_unpaired_electrons": "missing",
+        "n_implicit_hydrogens": "missing",
+        "n_explicit_hydrogens": "missing",
+        "allows_implicit_hydrogens": "missing",
+        "atom_stereochemistry": "missing",
+        "bond_id": "missing",
+        "bond_type": "present",
+        "bond_order": "partial",
+        "bond_is_aromatic": "partial",
+        "bond_stereochemistry": "missing",
+        "covalent_multiplicity": "partial",
+        "coordinates": "present"
+      },
+      "source_unchanged": true
+    },
+    "successful_job_molecular_calls": "One conversion plus one public read-only coverage request; embedded owner readiness is not an additional independent scientific case",
+    "total_attempted_owner_requests": 2,
+    "GPU_used": false,
+    "model_evaluations": 0
+  },
+  "upstream_sources": {
+    "HADDOCK3": "29a37103bb4648f3e4c3245cefa8c7ffadc1c431",
+    "Boltz": "b1ebfc46ecf57f5414e0d1a6f9027bbb122c53bc",
+    "retained": {
+      "boltz_cli": {
+        "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-node-feasibility-l7zcuxad/boltz_cli.txt",
+        "bytes": 45799,
+        "sha256": "1cc2dd6c4a7d0b6a0d5fc14a8b84e7ede8e444f6add71f60581f804fd4f38323"
+      },
+      "haddock_commit": {
+        "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-node-feasibility-l7zcuxad/haddock_commit.txt",
+        "bytes": 6020,
+        "sha256": "170977b3584a349446b7872716940f8aa12dac044d216a2795953193b7407a6f"
+      },
+      "haddock_pyproject": {
+        "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-node-feasibility-l7zcuxad/haddock_pyproject.txt",
+        "bytes": 3207,
+        "sha256": "702078a27c0a92221c01e34fc7f8b81462da5891a965a82ebc597e64d1c28988"
+      },
+      "haddock_disclaimer": {
+        "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-node-feasibility-l7zcuxad/haddock_disclaimer.txt",
+        "bytes": 1168,
+        "sha256": "016931f59e2d6a62c5eb21c5175c6d6fb6828ba497ea40006a6bb370c9e51404"
+      },
+      "node_docking_issue": {
+        "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-node-feasibility-l7zcuxad/node_docking_issue.txt",
+        "bytes": 32576,
+        "sha256": "79b42fec98d95c96a091c1b4628ed384ab99c559715da07129d3b9f1a58ded7a"
+      },
+      "node_docking_comments": {
+        "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-node-feasibility-l7zcuxad/node_docking_comments.txt",
+        "bytes": 361264,
+        "sha256": "b64ef5d38ee8090adcdfc7d4c00cfdaeb2f036a0c9f498beda2f2c267eeaedab"
+      }
+    },
+    "primary_hardware_sources": [
+      "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5070-family/",
+      "https://developer.nvidia.com/cuda/gpus",
+      "https://developer.nvidia.com/cuda/gpus/legacy",
+      "https://www.nvidia.com/en-eu/geforce/graphics-cards/compare/",
+      "https://www.gigabyte.com/us/Motherboard/GA-X99-Ultra-Gaming-rev-10/sp",
+      "https://docs.nvidia.com/cuda/archive/13.0.0/cuda-toolkit-release-notes/index.html",
+      "https://pytorch.org/blog/pytorch-2-7/"
+    ],
+    "unavailable_source_paths": [
+      "haddocking/haddock3 INSTALL.md at root and docs/INSTALL.md: GitHub connector returned errors; official current installation HTML used instead",
+      "A mistaken martinpacesa/BindCraft2 web URL returned 404; existing pinned PacesaLab/BindCraft2 source is the authority"
+    ]
+  },
+  "not_claimed": [
+    "engine installation or CNS terms acceptance",
+    "docking execution",
+    "model weights loading or neural evaluation",
+    "GPU compute or driver repair",
+    "GPU memory fit or docking runtime benchmark",
+    "pilot acceptance, affinity equivalence or D52 completion",
+    "read-only template coverage as chemical validation",
+    "all five nodes inspected",
+    "commit, push or package release"
+  ],
+  "original_evidence_preserved": [
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/evidence/mdm2_t0_execution.json",
+      "bytes": 31113,
+      "sha256": "bd12b0bd4eb1a12885e151d25e07d855a0ff62c0b42d3156e3dd2afa188b0593"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/evidence/mdm2_t1a_qualification.json",
+      "bytes": 37368,
+      "sha256": "156652a053840efe34fec2c0a0ce026654e5e936130381c523c180afd263775f"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/evidence/hydramp_result_invariants.json",
+      "bytes": 66106,
+      "sha256": "15c5814cfec53531e51f5424d46ea54f028e0e345fd9b30f2bd0537cf77c81d3"
+    }
+  ],
+  "owner_feedback": [
+    {
+      "repository": "uibcdf/dockingmt",
+      "issue": 33,
+      "comment": 6772377034,
+      "url": "https://github.com/uibcdf/dockingmt/issues/33#issuecomment-6772377034",
+      "exact_body_readback": true,
+      "record": {
+        "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-node-feasibility-l7zcuxad/docking-issue-readback.json",
+        "bytes": 6892,
+        "sha256": "34dffc2ce06b91d1076d0cb74fa3f1ca3032094a4bda386b88b17409bdaad13a"
+      }
+    },
+    {
+      "repository": "uibcdf/molsysmt",
+      "issue": 558,
+      "comment": 6772379174,
+      "url": "https://github.com/uibcdf/molsysmt/issues/558#issuecomment-6772379174",
+      "exact_body_readback": true,
+      "record": {
+        "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-node-feasibility-l7zcuxad/molsys-issue-readback.json",
+        "bytes": 6502,
+        "sha256": "f0875bb49b0e0398716b2913119591c0032e567e057af4383e4624164d922180"
+      }
+    }
+  ],
+  "checks": {
+    "documentation": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-node-feasibility-l7zcuxad/documentation-check.json",
+      "bytes": 438,
+      "sha256": "7fa6b2c71a3a8c99f0d305f603200cd49824db375a866f31c45ea78c582f6630"
+    },
+    "relative_targets": 262,
+    "index_check": "passed",
+    "git_diff_check": "passed",
+    "scope": "documentation consistency, not CI, chemical validation or scientific model qualification"
+  },
+  "resource_headroom_at_closeout": {
+    "recorded_utc": "2026-11-10T16:07:01.731287+00:00",
+    "MemAvailable_bytes": 24564891648
+  },
+  "parent_issue_update": {
+    "id": 6772410470,
+    "url": "https://github.com/uibcdf/peptidemt/issues/33#issuecomment-6772410470",
+    "exact_body_readback": true,
+    "record": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-node-feasibility-l7zcuxad/parent-issue-readback.json",
+      "bytes": 6812,
+      "sha256": "f024e9f7ebc6f9c9d836f2fec8935a8efcb36009dd5051475e949890313dd8d2"
+    }
+  }
+}

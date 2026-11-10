@@ -1,0 +1,22 @@
+{
+  "schema": "peptidemt.mdm2_t0_implementation_issue_updates@1",
+  "recorded_at_utc": "2026-11-06T05:53:36.978Z",
+  "repository": "uibcdf/peptidemt",
+  "issue": 33,
+  "status": "partial_open_local_implementation_delivered_exact_profile_and_geometry_pending",
+  "comment": {
+    "id": 6678053017,
+    "url": "https://github.com/uibcdf/peptidemt/issues/33#issuecomment-6678053017",
+    "body": "## D51 T0 implementation checkpoint — local code/tests delivered; installed profile and real geometry pending\n\nThe investigator explicitly approved the concrete T0 work order after the implementation explanation. Authority is recorded as D51 in `devguide/evidence/mdm2_t0_authorization.json`; this is the single 1YCR structural-reference/three-view scope, not T1 prediction.\n\nLocal delivery:\n- `devtools/mdm2_t0.py`: bounded source receiving, exact-profile entry guards, MolSysMT-owned molecular interpretation/transformation/fitting/distances/contacts/RMSD, fixed criterion comparison, unit-bearing arrays and model-free saved inspection. Molecular algorithms, including collinearity validation, remain with MolSysMT.\n- `devtools/tests/test_mdm2_t0.py`: **11 artificial interpretation/integrity tests pass**, native exit 0, published Pytest Receptor 1.2.2. Final sampled aggregate RSS is **91,504,640 bytes**; no molecular/learned provider was imported.\n- Whole-repository Ruff lint/format checks pass; 301 local documentation links, three new-record fragments, current report indexes and scoped whitespace pass. None qualifies molecular geometry.\n\nReceived the archive's versioned revision-1.5 coordinate bytes once (expanded SHA-256 `03f62994ea1ff55d98c0d9d835b706319e523367fce56d9deb51b850c83e47a8`), official source/provenance pages and one independent validation report. Internal molecular identity/revision and coordinate coverage still await the qualified owner reader; the validation PDF is not asserted to validate these exact coordinate bytes.\n\nThe isolated MolSysMT checkout is fixed at `ed09f64539a5af6c1dbe9bd352c7ef65dcd4a7a6`. **Two offline, one-job installation attempts were interrupted by the agreed 8 GiB available-host-RAM guard**, at aggregate sampled peaks of 199,979,008 and 196,415,488 bytes. A later 120 s observation found only 8.052–8.458 GiB available, below the conservative extra-retry admission headroom, so no third build was dispatched. This is resource interruption, not a reproduced MolSysMT defect or a completed installed-profile qualification. The shared older editable checkout is preserved.\n\nCurrent maintained record: `devguide/mdm2_t0_implementation.md`.\nCheckpoint receipt: `devguide/evidence/mdm2_t0_implementation.json`, SHA-256 **`0f9f7de6e2a373fdbe2f607c184767fb72f61887442eae043aeb1145a8cf3ea5`**.\nThese are local, uncommitted delivery files, not published package/source claims.\n\n**T0 remains incomplete.** The next step is to finish the same isolated installation when host headroom permits, qualify actual installed/native/dependency/unit-policy identity, then execute and inspect the three prespecified views serially under D49/D51. No fresh approval per invocation is needed. No molecular input parsing or geometry, learned models, GPU, T1, selector/M1–M8 changes, commit/push/publication or external-author contact occurred. HydrAMP dev9's twelve paths and exact qualification remain unchanged. Issue state stays partial/open; `component:molsysmt` records the existing owner relationship.",
+    "exact_readback": true
+  },
+  "added_label": "component:molsysmt",
+  "label_policy": "Audited with central component_issue_labels.py before additive application; existing issue body already explains the MolSysMT ownership relationship",
+  "implementation_receipt": {
+    "path": "devguide/evidence/mdm2_t0_implementation.json",
+    "sha256": "0f9f7de6e2a373fdbe2f607c184767fb72f61887442eae043aeb1145a8cf3ea5"
+  },
+  "new_issues": 0,
+  "new_geometry_operations": 0,
+  "new_commits": 0
+}

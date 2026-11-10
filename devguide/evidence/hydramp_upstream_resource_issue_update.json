@@ -1,0 +1,9 @@
+{
+  "schema": "peptidemt.hydramp_upstream_resource_issue_update@1",
+  "issue": "uibcdf/peptidemt#8",
+  "comment_url": "https://github.com/uibcdf/peptidemt/issues/8#issuecomment-6595889388",
+  "created_at": "2026-11-03T05:02:25Z",
+  "verified": true,
+  "scope": "Original test/benchmark/data resource inventory, candidate fixture plan and source dependency gaps; no new scientific execution or acceptance.",
+  "body_sha256": "78e0fcab6152e6472397453950b26c3a8babf7809a70e7f99f77e4c513dc3576"
+}

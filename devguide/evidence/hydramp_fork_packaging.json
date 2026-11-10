@@ -1,0 +1,41 @@
+{
+  "schema": "peptidemt.hydramp_fork_packaging@1",
+  "date": "2026-10-30",
+  "issue": "uibcdf/peptidemt#8",
+  "fork_repository": "uibcdf/hydramp",
+  "branch": "peptidemt-inference",
+  "state": "Local uncommitted branch; no published fork commit or release claimed.",
+  "authorization": "Investigator created the fork and explicitly authorized this local branch and packaging preparation.",
+  "upstream_reference": "6590d2f4c2963f25d30669052a4c4a857e0e7279",
+  "producer_record": "devguide/evidence/inference_packaging.json in the local fork branch",
+  "producer_record_sha256": "90b0489c2bc2b6b50ee85149c0eb0c1f7c037ac9e999bf38a7a75d4b75f6065c",
+  "version": "1.2.0+uibcdf.1",
+  "wheel_sha256": "65a3afb7f0ed642bb4df5949d2691397fbc4a3be088ede66c1d504fbc2317808",
+  "source_amp_and_licence_unchanged": true,
+  "installed_distributions": 58,
+  "retained_external_versions_unchanged": 57,
+  "native_metadata_incompatibilities": [
+    {
+      "package": "modlamp",
+      "requirement": "nose >=1.3.7",
+      "installed_version": null
+    },
+    {
+      "package": "modlamp",
+      "requirement": "lxml >=3.6.4",
+      "installed_version": null
+    },
+    {
+      "package": "modlamp",
+      "requirement": "mysql-connector-python ==8.0.17",
+      "installed_version": null
+    }
+  ],
+  "effective_profile_incompatibilities": 0,
+  "build_install_and_guarded_imports": "passed locally; no model loaded",
+  "model_loads": 0,
+  "generation_calls": 0,
+  "new_macrel_calls": 0,
+  "gpu_used": false,
+  "pending": "Review local packaging changes; original Drive archive parity, deployment-profile disposition, exact-bundle/use conditions, fresh host/call budget and scientific qualification remain separate."
+}

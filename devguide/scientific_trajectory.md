@@ -1,5 +1,10 @@
 # Scientific north star, differentiation and incremental trajectory
 
+Current progress is summarized in the [migration checkpoint](migration_checkpoint_2026_11_10.md).
+The design inventory below is dated 2026-10-27; its then-unexecuted milestones
+are historical, not the current qualification state. Preserve the strategic
+goals while following the later accepted, finite work records.
+
 Status: **investigator-requested strategic assessment and proposed scientific success trajectory**, 2026-10-27. This is guidance for maintaining the original intent, **not** a newly approved release requirement, revised W0–W4 assignment, selected engine, or evidence that scientific capability already exists.
 
 Navigation: [index](README.md) · [vision](vision_scope.md) · [V0.1 scope](v0_1_scope.md) · [worked cases](design_examples.md) · [case-guided intracellular anticancer binder](case_study_cpp_anticancer_mdm2_mdmx.md) · [roadmap](roadmap.md) · [horizons](future_horizons.md) · [decisions](decisions.md).
@@ -113,7 +118,7 @@ A completed **computational** study may truthfully report negative or inconclusi
 
 ## 6. Process and boundaries
 
-- The **engineering W0** bootstrap has since been centrally received; its durable [archived evidence](archive/complete_w0.md) documents the previous pause and its eventual completion. W1–W4 are now delivered, and D37 accepts their exact Macrel bundle with separately recorded M1–M8 evidence. D38 now commissions preparation of the [bounded HydrAMP qualification](pending_proposals/qualify_hydramp_increment_2.md); exact bundle/use conditions and fresh host/call limits precede model execution.
+- The **engineering W0** bootstrap has since been centrally received; its durable [archived evidence](archive/complete_w0.md) documents the previous pause and its eventual completion. W1–W4 are now delivered, and D37 accepts their exact Macrel bundle with separately recorded M1–M8 evidence. D38 now commissions preparation of the [bounded HydrAMP qualification](archive/qualify_hydramp_increment_2.md); exact bundle/use conditions and fresh host/call limits precede model execution.
 - D33–D36 and M1–M8 govern V0.1's commissioned increment. Nothing in this strategic note authorizes extra issues, engines, installations, scientific code, model training or package publication.
 - Future horizons include macrocycles, delivery, multi-state/allosteric recognition, chemistry-aware transformation, active learning, library design and more; see [future horizons](future_horizons.md). These need capability-specific scientific review when prioritized, **not** a new up-front general architecture round.
 - Codex will implement approved operations and return measured evidence. Investigators retain authority over claims, scientific meanings, permitted transformations and meaningful policy changes.

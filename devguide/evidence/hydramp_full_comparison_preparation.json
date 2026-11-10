@@ -1,0 +1,428 @@
+{
+  "schema": "peptidemt.hydramp_full_comparison_preparation@1",
+  "date": "2026-11-02",
+  "recorded_at_utc": "2026-11-03T05:53:54.031460+00:00",
+  "issue": "uibcdf/peptidemt#8",
+  "status": "Exact comparison candidate/fixtures/worker prepared; 22 neural evaluations remain unexecuted pending explicit investigator approval.",
+  "worktree": "/home/liliana/repos@uibcdf/peptidemt/../hydramp/local_data/pytorch-comparison",
+  "branch": "peptidemt-pytorch-comparison",
+  "base_source_commit": "6590d2f4c2963f25d30669052a4c4a857e0e7279",
+  "starter_commit": "7804df862872ccc6d09fe01c41bafbca194cfa31",
+  "uncommitted": true,
+  "candidate": "hydramp-torch==0.0.0.dev3",
+  "wheel": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-comparison-qnbdpism/artifacts/hydramp_torch-0.0.0.dev3-py3-none-any.whl",
+    "bytes": 11987,
+    "sha256": "81761e0d48d92f0956e0afc28b3b4154f16032de53c666fd2cfbb53606102ed7"
+  },
+  "installed_probe": {
+    "python": "3.14.7 | packaged by conda-forge | (main, Sep  2 2026, 21:08:32) [GCC 15.3.0]",
+    "executable": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-comparison-qnbdpism/worker/bin/python",
+    "prefix": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-comparison-qnbdpism/worker",
+    "torch": "2.15.0+cpu",
+    "numpy": "2.4.6",
+    "module_origin": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-comparison-qnbdpism/worker/lib/python3.14/site-packages/hydramp_torch/__init__.py",
+    "wheel_sha256": "81761e0d48d92f0956e0afc28b3b4154f16032de53c666fd2cfbb53606102ed7",
+    "payload_members_verified": 9,
+    "inventory": [
+      {
+        "name": "certifi",
+        "version": "2026.10.23"
+      },
+      {
+        "name": "charset-normalizer",
+        "version": "3.5.2"
+      },
+      {
+        "name": "cloudpickle",
+        "version": "3.1.2"
+      },
+      {
+        "name": "contourpy",
+        "version": "1.4.0"
+      },
+      {
+        "name": "cycler",
+        "version": "0.12.1"
+      },
+      {
+        "name": "filelock",
+        "version": "4.2.5"
+      },
+      {
+        "name": "fonttools",
+        "version": "4.68.0"
+      },
+      {
+        "name": "fsspec",
+        "version": "2026.9.0"
+      },
+      {
+        "name": "hydramp-torch",
+        "version": "0.0.0.dev3"
+      },
+      {
+        "name": "idna",
+        "version": "3.20"
+      },
+      {
+        "name": "iniconfig",
+        "version": "2.3.1"
+      },
+      {
+        "name": "Jinja2",
+        "version": "3.1.6"
+      },
+      {
+        "name": "joblib",
+        "version": "1.6.0"
+      },
+      {
+        "name": "kiwisolver",
+        "version": "1.5.1"
+      },
+      {
+        "name": "lxml",
+        "version": "6.1.3"
+      },
+      {
+        "name": "MarkupSafe",
+        "version": "3.0.4"
+      },
+      {
+        "name": "matplotlib",
+        "version": "3.11.2"
+      },
+      {
+        "name": "modlamp",
+        "version": "4.3.3"
+      },
+      {
+        "name": "mpmath",
+        "version": "1.3.0"
+      },
+      {
+        "name": "narwhals",
+        "version": "2.28.0"
+      },
+      {
+        "name": "networkx",
+        "version": "3.7"
+      },
+      {
+        "name": "numpy",
+        "version": "2.4.6"
+      },
+      {
+        "name": "packaging",
+        "version": "26.3"
+      },
+      {
+        "name": "pandas",
+        "version": "3.1.0"
+      },
+      {
+        "name": "pillow",
+        "version": "13.0.0"
+      },
+      {
+        "name": "pluggy",
+        "version": "1.7.0"
+      },
+      {
+        "name": "Pygments",
+        "version": "2.21.0"
+      },
+      {
+        "name": "pyparsing",
+        "version": "3.3.3"
+      },
+      {
+        "name": "pytest",
+        "version": "9.2.0"
+      },
+      {
+        "name": "pytest-receptor",
+        "version": "1.2.2"
+      },
+      {
+        "name": "python-dateutil",
+        "version": "4.0.0"
+      },
+      {
+        "name": "requests",
+        "version": "2.34.2"
+      },
+      {
+        "name": "scikit-learn",
+        "version": "1.9.1"
+      },
+      {
+        "name": "scipy",
+        "version": "1.18.1"
+      },
+      {
+        "name": "setuptools",
+        "version": "84.2.1"
+      },
+      {
+        "name": "sympy",
+        "version": "1.14.0"
+      },
+      {
+        "name": "threadpoolctl",
+        "version": "3.7.0"
+      },
+      {
+        "name": "torch",
+        "version": "2.15.0+cpu"
+      },
+      {
+        "name": "typing_extensions",
+        "version": "4.16.0"
+      },
+      {
+        "name": "tzdata",
+        "version": "2026.6"
+      },
+      {
+        "name": "urllib3",
+        "version": "2.8.0"
+      }
+    ],
+    "cuda_binary_version": null,
+    "native_threads": 1,
+    "affinity": [
+      0,
+      1
+    ]
+  },
+  "native_dependency_check_exit": 0,
+  "installed_distribution_count": 41,
+  "original_external_versions_retained": 17,
+  "source_manifest": {
+    "src/hydramp_torch/__init__.py": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/../hydramp/local_data/pytorch-comparison/ports/pytorch/src/hydramp_torch/__init__.py",
+      "bytes": 532,
+      "sha256": "0fbc35363ae1eb7afb6d755830a9b37bad996913af91502e6f3476d7e687d0ec"
+    },
+    "src/hydramp_torch/generation.py": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/../hydramp/local_data/pytorch-comparison/ports/pytorch/src/hydramp_torch/generation.py",
+      "bytes": 8136,
+      "sha256": "83d8a976cdfcdb64fed531db30a2e365954f0acb0f4072a3b0c5c1aaf266bd62"
+    },
+    "src/hydramp_torch/inference.py": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/../hydramp/local_data/pytorch-comparison/ports/pytorch/src/hydramp_torch/inference.py",
+      "bytes": 13030,
+      "sha256": "7059207b81fcf823e084db27bc189f8174f88e5173230b750b5c4ed080dbf94e"
+    },
+    "src/hydramp_torch/prior.py": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/../hydramp/local_data/pytorch-comparison/ports/pytorch/src/hydramp_torch/prior.py",
+      "bytes": 2485,
+      "sha256": "3a765e5f906d7e00bd3b181c305f0665c712af6fa5988a4265f4b8369e124d19"
+    },
+    "src/hydramp_torch/properties.py": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/../hydramp/local_data/pytorch-comparison/ports/pytorch/src/hydramp_torch/properties.py",
+      "bytes": 2563,
+      "sha256": "c47bd6f8224b996b6d221caf2de151d3d6aae1360faf4a3ec56fdd8b09abe758"
+    },
+    "devtools/full_comparison.py": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/../hydramp/local_data/pytorch-comparison/ports/pytorch/devtools/full_comparison.py",
+      "bytes": 18977,
+      "sha256": "615f10390378c07fcae50876938e975dc78739719998e3c77516d32618def090"
+    },
+    "devtools/parity.py": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/../hydramp/local_data/pytorch-comparison/ports/pytorch/devtools/parity.py",
+      "bytes": 18338,
+      "sha256": "21232aab3060dd6a9e8ac448d8b46aa0bac1dd32786f556f1e2b4acdb8347026"
+    },
+    "tests/test_full_comparison.py": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/../hydramp/local_data/pytorch-comparison/ports/pytorch/tests/test_full_comparison.py",
+      "bytes": 8178,
+      "sha256": "f06a894e91d847c6c7f011793128d3bc476821faad47a4c10f5efa30f69ab5cf"
+    },
+    "tests/test_properties.py": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/../hydramp/local_data/pytorch-comparison/ports/pytorch/tests/test_properties.py",
+      "bytes": 3394,
+      "sha256": "e47557c15f896f7542687b9d63c36ebc48882cd704c4cb57c759935cf6765a4e"
+    },
+    "pyproject.toml": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/../hydramp/local_data/pytorch-comparison/ports/pytorch/pyproject.toml",
+      "bytes": 781,
+      "sha256": "4f7961957993bed229a3b3539dee0de2ec688aaa909bb11c04b3e1c9ae387e26"
+    },
+    "uv.lock": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/../hydramp/local_data/pytorch-comparison/ports/pytorch/uv.lock",
+      "bytes": 127285,
+      "sha256": "aecaf227f24e0c120f46402b4aa7a8d99c5301e996e5c69cba117382289ce024"
+    },
+    "LICENSE": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/../hydramp/local_data/pytorch-comparison/ports/pytorch/LICENSE",
+      "bytes": 1059,
+      "sha256": "6b5216edf5248687f1b410631485de581f9339709cb0e247bc76cb61fb6fbac8"
+    }
+  },
+  "original_preservation": {
+    "amp_and_license_files": 50,
+    "all_equal_upstream": true,
+    "inference_prior_generation_equal_dev2": true,
+    "all_previous_branches_wheels_workers_evidence_preserved": true
+  },
+  "published_fixture": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-comparison-qnbdpism/fixtures/published_fixture.json",
+    "sha256": "1718f9df408f3969fec2e21ce4c13a943a69fef8655cc776099375f15e52caca",
+    "occurrences": 8,
+    "unique_sequences": 7,
+    "source_rows": "0..6 then0, fixed without score selection",
+    "published_member_rows": 149,
+    "scope": "Regression only, not independent predictive/generalization validation. Generated CSV fields, not measured MIC.",
+    "hidden_generation_tokens": "unknown; no reconstruction or equivalence assumed"
+  },
+  "acquisition": {
+    "source_url": "https://zenodo.org/records/7420278/files/results.zip?download=1",
+    "archive_advertised_bytes": 378286323,
+    "member": "results/hydra_unconstrained.csv",
+    "member_bytes": 19799,
+    "member_crc32": "0x286da4fd",
+    "member_sha256": "571cefae116331c26b846161940e206a14b063a18b2b730dc4e1584b1189e369",
+    "range_requests": 2,
+    "total_archive_bytes_downloaded": 77692,
+    "full_archive_md5_verified": false,
+    "method": "Standard zipfile central-directory metadata plus one explicit bounded HTTP byte range; decompressed member length/CRC checked. No pickle or model file opened."
+  },
+  "modern_modlamp_wheel": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-comparison-qnbdpism/artifacts/modlamp-4.3.3-py3-none-any.whl",
+    "bytes": 178326,
+    "sha256": "6948bcbc4a9614d10b6b47a051d4576c42fe8e5487fbbeb3cfe0d8033eb27f91"
+  },
+  "modern_metadata": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-comparison-qnbdpism/metadata/modlamp-4.3.3.json",
+    "bytes": 39004,
+    "sha256": "b2f213e295a445c931f9ea023bc0daa0380d2265a7b877f81fea9d7734b9c182"
+  },
+  "selected_source_review": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-comparison-qnbdpism/metadata/modlamp-selected-source-review.json",
+    "bytes": 1689,
+    "sha256": "54a66d0835750f38a1fe01e3caac563917c8f2e19337b1716fdc7f45f1b987e2"
+  },
+  "plan": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-comparison-qnbdpism/plan.json",
+    "bytes": 32914,
+    "sha256": "b019e1dfa4e8c61ed667198b73dd7b09dfb5308459225399c84c9eb54beae929"
+  },
+  "worker": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/../hydramp/local_data/pytorch-comparison/ports/pytorch/devtools/full_comparison.py",
+    "bytes": 18977,
+    "sha256": "615f10390378c07fcae50876938e975dc78739719998e3c77516d32618def090"
+  },
+  "supervisor": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/../hydramp/local_data/pytorch-comparison/ports/pytorch/devtools/parity.py",
+    "bytes": 18338,
+    "sha256": "21232aab3060dd6a9e8ac448d8b46aa0bac1dd32786f556f1e2b4acdb8347026"
+  },
+  "budget": {
+    "workers": 2,
+    "concurrent_workers": 1,
+    "cpu_affinity": [
+      0,
+      1
+    ],
+    "native_threads": 1,
+    "nice": 10,
+    "address_space_bytes": 8589934592,
+    "rss_stop_bytes": 2147483648,
+    "minimum_mem_available_bytes": 8589934592,
+    "worker_wall_seconds": 180,
+    "aggregate_worker_wall_seconds": 360,
+    "output_stop_bytes": 134217728,
+    "minimum_free_disk_bytes": 1073741824,
+    "gpu": false,
+    "network": false,
+    "retries": 0,
+    "legacy_model_constructions": 1,
+    "torch_model_constructions": 1,
+    "pca_pickle_loads": 1,
+    "pca_coefficient_exports": 0,
+    "pca_inverse_transforms_per_worker": 3,
+    "decoder_evaluations_per_worker": 3,
+    "amp_evaluations_per_worker": 4,
+    "mic_evaluations_per_worker": 4,
+    "network_evaluations_total": 22,
+    "unconstrained_generation_calls": 6,
+    "descriptor_calls": 6,
+    "macrel_calls": 0,
+    "task_ram_budget_bytes": 4000000000,
+    "task_ram_budget_implementation": "One model worker at a time, sampled worker RSS stop at 2 GiB; small stdlib supervisor measured separately. The unchanged 8 GiB virtual address-space ceiling is not a RAM allocation.",
+    "pca_numeric_loads": 1,
+    "rows_per_network_evaluation_max": 16,
+    "generation_requested_outputs_per_worker": 36,
+    "generation_api_calls_total": 6,
+    "descriptor_bundles_total": 6,
+    "fixture_rows_per_head": 8,
+    "encoder_forward_evaluations": 0
+  },
+  "requests": [
+    {
+      "tag": "smoke",
+      "n_target": 4,
+      "seed": 101
+    },
+    {
+      "tag": "repeat_a",
+      "n_target": 16,
+      "seed": 202
+    },
+    {
+      "tag": "repeat_b",
+      "n_target": 16,
+      "seed": 202
+    }
+  ],
+  "descriptor_qualification": {
+    "receipt_sha256": "6e616fc66a645141dc5b080a60c02ba321ee6611fa311b9ac79243f97f81fe0b",
+    "bundle_calls_completed": 2,
+    "outcomes": "Exact descriptor agreement on eight occurrences; no learned call."
+  },
+  "checks": {
+    "installed_package_artificial_tests": {
+      "passed": 76,
+      "failed": 0,
+      "exit": 0,
+      "execution": {
+        "exit": 0,
+        "wall_seconds": 29.837526852963492,
+        "kernel_child_peak_rss_bytes": 354062336,
+        "scope": "Synthetic installed-wheel tests only; actual descriptors/scientific providers, network and pretrained artifacts blocked."
+      }
+    },
+    "final_worker_controller_artificial_tests": {
+      "passed": 13,
+      "failed": 0,
+      "exit": 0,
+      "execution": {
+        "exit": 0,
+        "wall_seconds": 4.964462256990373,
+        "kernel_child_peak_rss_bytes": 307871744,
+        "scope": "Final controller guards/capture/report tests with artificial endpoints/weights only."
+      }
+    },
+    "unit_guard_scope": "Real providers, network and real scientific artifacts blocked; artificial scalar/weight data only.",
+    "preflight": "Byte-only passed; no model loaded.",
+    "source_exact_installed_payload_members": 9,
+    "neural_stage_attempts_present": 0
+  },
+  "no_new_neural_execution": true,
+  "not_granted": [
+    "22-neural-evaluation execution allowance",
+    "D40 extension to dev3 or broader inputs",
+    "Full H0-H4 receiving or PeptideMT adapter/provenance qualification",
+    "Scientific superiority, biological activity/safety, new training/family/GPU/model or publication"
+  ],
+  "retention": {
+    "owner": "PeptideMT #8 / investigator-owned HydrAMP fork",
+    "review_by": "2026-11-13",
+    "disposition": "Retain exact new/old workers, source snapshots, acquired member, both scalar outcomes, lock/wheels, logs/tests and proposed plan for review."
+  },
+  "producer_record_sha256": "55ae53d393a10c4a493502d546c088afe2355bda1c46eaeefdcbce6c797ee9cb",
+  "producer_record": "devguide/evidence/pytorch_full_comparison_preparation.json in local peptidemt-pytorch-comparison worktree"
+}

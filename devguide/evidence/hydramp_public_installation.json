@@ -1,0 +1,495 @@
+{
+  "schema": "peptidemt.hydramp_public_installation@1",
+  "recorded_at_utc": "2026-11-06T00:07:50.473795+00:00",
+  "status": "clean_locked_public_dependencies_and_private_baseline_installed_codec_qualified",
+  "owner_issue": "uibcdf/hydramp#4",
+  "consumer_issue": "uibcdf/peptidemt#32",
+  "authority": "Investigator continuation of product development; D49 standing execution delegation",
+  "source_commit": "a77baff9de97e8ab4ae101b9b0c79122dea22ce3",
+  "source_tree": "2476a08a50d32779db2f43683928450e62b66f91",
+  "owner_worktree_clean": true,
+  "private_baseline_wheel": {
+    "path": "local_data/hydramp-product-baseline-uepif2a_/source-artifacts-final/hydramp_torch-0.0.0.dev7-py3-none-any.whl",
+    "bytes": 21771,
+    "sha256": "18347066126c439279328224ef71b158f9077a1a67954c742839e0596393c83d"
+  },
+  "inputs": {
+    "task": {
+      "path": "local_data/hydramp-public-install-z5lh31o1/task.json",
+      "bytes": 1463,
+      "sha256": "6d1f6a67b930e6ae282b848b30a8a6d64db71325374f2e1d6ccb82e03d8314e3"
+    },
+    "project_metadata": {
+      "path": "/home/liliana/repos@uibcdf/hydramp/local_data/product-baseline-20261105/ports/pytorch/pyproject.toml",
+      "bytes": 942,
+      "sha256": "7ccf539e71888844cc6355d9ce98bdc3c8a1d2c2a618f2ec6fbfbff90027fa51"
+    },
+    "lock": {
+      "path": "/home/liliana/repos@uibcdf/hydramp/local_data/product-baseline-20261105/ports/pytorch/uv.lock",
+      "bytes": 127285,
+      "sha256": "25c7090bf524bc7f80d683debee9faa3d1bd3af67621202c7639944a1cc24e47"
+    },
+    "lock_export": {
+      "path": "local_data/hydramp-public-install-z5lh31o1/locked-base-test-requirements.txt",
+      "bytes": 9205,
+      "sha256": "9eafd1eb109aa4dfd0b27074c32448dfdc5a125d49f1c8b1f93a8189411f71e2"
+    },
+    "lock_export_log": {
+      "path": "local_data/hydramp-public-install-z5lh31o1/locked-export.log",
+      "bytes": 9342,
+      "sha256": "3e3ba64a07bb7391557badb895c5a0cfcc7cc076ea417ce54c5b32687b66756d"
+    },
+    "exact_public_urls_and_hashes": {
+      "path": "local_data/hydramp-public-install-z5lh31o1/exact-public-wheel-urls.txt",
+      "bytes": 3971,
+      "sha256": "aebc6931f187397feb39e94dc86943da98ec6c49ed47c3b689e18ce1d579106f"
+    },
+    "download_manifest": {
+      "path": "local_data/hydramp-public-install-z5lh31o1/installation-run/verified-public-downloads.json",
+      "bytes": 7933,
+      "sha256": "f96c5b473e2100acb9f9d0830aac42c09fab3c2c2942532bbb71a3336cde73e8"
+    },
+    "installation_declaration": {
+      "path": "local_data/hydramp-public-install-z5lh31o1/installation-run/declaration.json",
+      "bytes": 1302,
+      "sha256": "5320e06c5c6093453146c28358053349742ffc497c430f6968caa5893522124e"
+    },
+    "installation_driver": {
+      "path": "local_data/hydramp-public-install-z5lh31o1/install_public_route.py",
+      "bytes": 5160,
+      "sha256": "81187a8a34b93cb49e1019d9ca85337edbf8cb41dc8477ee00c3eed623e7741c"
+    },
+    "installation_result": {
+      "path": "local_data/hydramp-public-install-z5lh31o1/installation-run/installation-result.json",
+      "bytes": 4408,
+      "sha256": "9543e7120357ae8de422ba54e856c82a72a4f63401c23bb6ba155568f5e89c76"
+    },
+    "installation_supervision": {
+      "path": "local_data/hydramp-public-install-z5lh31o1/installation-run/supervision.json",
+      "bytes": 251,
+      "sha256": "6d50d77928e152aa1c368337bf110fa93ab044ab13861395eb2ab46c4eadc5ba"
+    },
+    "installed_metadata": {
+      "path": "local_data/hydramp-public-install-z5lh31o1/installation-run/installed-metadata.json",
+      "bytes": 4055,
+      "sha256": "2c86e33fef3918a07bc9f20101503b94869fa0837e6331833bbcb857648f6dbb"
+    },
+    "native_dependency_check": {
+      "path": "local_data/hydramp-public-install-z5lh31o1/installation-run/native-dependency-check.log",
+      "bytes": 113,
+      "sha256": "c9ee088ccb0f10442e6e35e9717b03464f8b6f367381c359afc6a7b47d30e017"
+    },
+    "codec_declaration": {
+      "path": "local_data/hydramp-public-install-z5lh31o1/installed-run/declaration.json",
+      "bytes": 1124,
+      "sha256": "190c0404e4411acfb10af8ee70a44e2f6714620ad87efacad1d974e04f88ddf2"
+    },
+    "codec_driver": {
+      "path": "local_data/hydramp-public-install-z5lh31o1/qualify_installed.py",
+      "bytes": 3440,
+      "sha256": "cb4b64e7ea0723de0b2c94c3bf921a37251388d206d7af4a7bec57bb6bc8f97f"
+    },
+    "codec_supervision": {
+      "path": "local_data/hydramp-public-install-z5lh31o1/installed-run/supervision.json",
+      "bytes": 245,
+      "sha256": "75d97b118b8a04929740f377e167fc3360cc823b54bd6c19ca9ed4a745501b5d"
+    },
+    "codec_result": {
+      "path": "local_data/hydramp-public-install-z5lh31o1/installed-run/installed-check-result.json",
+      "bytes": 543,
+      "sha256": "c3fb75166d2ef8b07399c9cf5d1308a27fbc14913b7feba1d49483dfa8277f24"
+    },
+    "codec_events": {
+      "path": "local_data/hydramp-public-install-z5lh31o1/installed-run/codec-events.jsonl",
+      "bytes": 22075,
+      "sha256": "45d5087e584cdd451791726b2515942c5f99bcefe7581cc3373f6289529af283"
+    },
+    "supported_artifact_receiving": {
+      "path": "local_data/hydramp-public-install-z5lh31o1/codec-artifact-received.json",
+      "bytes": 1018,
+      "sha256": "9101d20502c52a45ad1b5960f90dec5ec14371f50ddb0e4cc666c094bd087b05"
+    },
+    "codec_harness_reuse": {
+      "path": "local_data/hydramp-public-install-z5lh31o1/codec-harness-reuse.json",
+      "bytes": 570,
+      "sha256": "0a46df0668ad31eec771913cb7d89c927e50cebe1ce046830d18e16d4fd951bb"
+    },
+    "metadata_probe": {
+      "path": "local_data/hydramp-public-install-z5lh31o1/metadata-run/public-wheel-heads.json",
+      "bytes": 11812,
+      "sha256": "879d6a38e443b2d7828a15ab73a605c569eca4135331b040bc23d90acc713a95"
+    },
+    "metadata_CPU_limit_limitation": {
+      "path": "local_data/hydramp-public-install-z5lh31o1/metadata-cpu-limit-disposition.json",
+      "bytes": 719,
+      "sha256": "10574342c0546ba3fb1d1a3522f41fd76641e7f02fd094e225c359c709462cfe"
+    },
+    "fixture_preparation_disposition": {
+      "path": "local_data/hydramp-public-install-z5lh31o1/preparation-cache-disposition.json",
+      "bytes": 347,
+      "sha256": "1d795fd9e17f0bf28ae4fac1471489366498d0395e41c420e7a23b37b74ab616"
+    },
+    "receipt_builder": {
+      "path": "local_data/hydramp-public-install-z5lh31o1/receive_public_installation.py",
+      "bytes": 8099,
+      "sha256": "aa7e2f0d9eff03d15ddd2d538d8bb15c90808301ac107223904cdd7fd31d1016"
+    }
+  },
+  "public_downloads": [
+    {
+      "name": "filelock",
+      "version": "4.2.5",
+      "public_url": "https://files.pythonhosted.org/packages/14/2d/2cf36eca330b7a97c0e9076e8fc4272127c29398fa2bb7b24d4321b8b476/filelock-4.2.5-py3-none-any.whl",
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-public-install-z5lh31o1/wheels/filelock-4.2.5-py3-none-any.whl",
+      "bytes": 163877,
+      "sha256": "46ce42d27e5cdde09ee7197349663e97cb106679bd9e75db3a09679fbc7aa1a8"
+    },
+    {
+      "name": "fsspec",
+      "version": "2026.9.0",
+      "public_url": "https://files.pythonhosted.org/packages/6c/c0/a98505f18594f1bce828bb159cec0fcf9860562f1a2c85913409fc8f3d9e/fsspec-2026.9.0-py3-none-any.whl",
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-public-install-z5lh31o1/wheels/fsspec-2026.9.0-py3-none-any.whl",
+      "bytes": 221738,
+      "sha256": "8dd6e646e99ea382bd85f97a45e6b526a442d79423a7dc673f1e2756d05fcb5f"
+    },
+    {
+      "name": "iniconfig",
+      "version": "2.3.1",
+      "public_url": "https://files.pythonhosted.org/packages/56/43/4ca9e49d27a1fcf6bece6f6aec0ea46bb9112489b93d4b688fb415457bdb/iniconfig-2.3.1-py3-none-any.whl",
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-public-install-z5lh31o1/wheels/iniconfig-2.3.1-py3-none-any.whl",
+      "bytes": 7552,
+      "sha256": "9121e2c1fdb355232495be3194c8dfe87ccc2d5dee45947b78e68f499790d7a7"
+    },
+    {
+      "name": "jinja2",
+      "version": "3.1.6",
+      "public_url": "https://files.pythonhosted.org/packages/62/a1/3d680cbfd5f4b8f15abc1d571870c5fc3e594bb582bc3b64ea099db13e56/jinja2-3.1.6-py3-none-any.whl",
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-public-install-z5lh31o1/wheels/jinja2-3.1.6-py3-none-any.whl",
+      "bytes": 134899,
+      "sha256": "85ece4451f492d0c13c5dd7c13a64681a86afae63a5f347908daf103ce6d2f67"
+    },
+    {
+      "name": "markupsafe",
+      "version": "3.0.4",
+      "public_url": "https://files.pythonhosted.org/packages/8f/db/d7282caf7ab03af44d5d6fdbaa019b35c7d7f1c90588b839c07cba640d6a/markupsafe-3.0.4-cp314-cp314-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-public-install-z5lh31o1/wheels/markupsafe-3.0.4-cp314-cp314-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+      "bytes": 23049,
+      "sha256": "a8e9f292fcda89b324f2f5c91d13f1424a153e40fc2756f38ee23b15835ff300"
+    },
+    {
+      "name": "mpmath",
+      "version": "1.3.0",
+      "public_url": "https://files.pythonhosted.org/packages/43/e3/7d92a15f894aa0c9c4b49b8ee9ac9850d6e63b03c9c32c0367a13ae62209/mpmath-1.3.0-py3-none-any.whl",
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-public-install-z5lh31o1/wheels/mpmath-1.3.0-py3-none-any.whl",
+      "bytes": 536198,
+      "sha256": "a0b2b9fe80bbcd81a6647ff13108738cfb482d481d826cc0e02f5b35e5c88d2c"
+    },
+    {
+      "name": "networkx",
+      "version": "3.7",
+      "public_url": "https://files.pythonhosted.org/packages/7e/cd/fe58041e9011f307c490e3e17dd48cc516448f7c698a3f2d9d9d65d7e6a8/networkx-3.7-py3-none-any.whl",
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-public-install-z5lh31o1/wheels/networkx-3.7-py3-none-any.whl",
+      "bytes": 2142205,
+      "sha256": "e3fd2c13a7814cee3746340d8d7f8598a67f16a58bf47fb7f8793fab6efca1b0"
+    },
+    {
+      "name": "numpy",
+      "version": "2.4.6",
+      "public_url": "https://files.pythonhosted.org/packages/f3/eb/ebffaa97dc55502df69584a8f0dcf07f69a3e0b3e2323670a2722db9aa39/numpy-2.4.6-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-public-install-z5lh31o1/wheels/numpy-2.4.6-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+      "bytes": 16638245,
+      "sha256": "a2c306dea656c12c68f51f4cea133cbe78ca7435eb28c735eac1d3ebe73be6e8"
+    },
+    {
+      "name": "packaging",
+      "version": "26.3",
+      "public_url": "https://files.pythonhosted.org/packages/63/34/ba1c580383c9eada3711951fef0795c80b829a078d72188184bcab9dd527/packaging-26.3-py3-none-any.whl",
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-public-install-z5lh31o1/wheels/packaging-26.3-py3-none-any.whl",
+      "bytes": 129956,
+      "sha256": "d7193f7c8e4e93f444fde0262bf90af30e16fa0ad0ad44cb553c87339b23cd1c"
+    },
+    {
+      "name": "pluggy",
+      "version": "1.7.0",
+      "public_url": "https://files.pythonhosted.org/packages/40/9e/2b38731e0fc536806f16490e1a12d7f0dc2a1235aa8cc07bcc75416a7daa/pluggy-1.7.0-py3-none-any.whl",
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-public-install-z5lh31o1/wheels/pluggy-1.7.0-py3-none-any.whl",
+      "bytes": 27082,
+      "sha256": "7dd7b0d8832ba3cb632c306926ded123429211b83641b35dc5c41ad2d34f9bec"
+    },
+    {
+      "name": "pygments",
+      "version": "2.21.0",
+      "public_url": "https://files.pythonhosted.org/packages/71/46/17f022dd3e953bf20a04a028a21ec746d942f8d2af30fa0f124fa0e6a684/pygments-2.21.0-py3-none-any.whl",
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-public-install-z5lh31o1/wheels/pygments-2.21.0-py3-none-any.whl",
+      "bytes": 1250147,
+      "sha256": "2363c69b61c4a97c838da3b130dcd6468f4848992b21a82f2a63ec34377137d9"
+    },
+    {
+      "name": "pytest",
+      "version": "9.2.0",
+      "public_url": "https://files.pythonhosted.org/packages/51/39/1f5d8c8877a0fa327db959c19341d4be61660de1ab6b7391f9eb805bcd67/pytest-9.2.0-py3-none-any.whl",
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-public-install-z5lh31o1/wheels/pytest-9.2.0-py3-none-any.whl",
+      "bytes": 411776,
+      "sha256": "07acdcf88ec174f907dc01af70bf52d49b014bbab03faeeade31c96b18c2e588"
+    },
+    {
+      "name": "pytest-receptor",
+      "version": "1.2.2",
+      "public_url": "https://files.pythonhosted.org/packages/51/04/7de494b23276135ebc27e1b89abbd85c588c658489e5749ff9e3ab731fd5/pytest_receptor-1.2.2-py3-none-any.whl",
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-public-install-z5lh31o1/wheels/pytest_receptor-1.2.2-py3-none-any.whl",
+      "bytes": 45128,
+      "sha256": "48c290fba7e12d19015fa436989fdad465d5ff7bba78fa94f7825e305ccf7961"
+    },
+    {
+      "name": "setuptools",
+      "version": "84.2.1",
+      "public_url": "https://files.pythonhosted.org/packages/ef/55/6dc6d6bb953bdfc52519a0059592c52b6e3b8ad51cf8256dffceb55b0610/setuptools-84.2.1-py3-none-any.whl",
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-public-install-z5lh31o1/wheels/setuptools-84.2.1-py3-none-any.whl",
+      "bytes": 876263,
+      "sha256": "ca140b45d5325a9478f880e351484f62fef15f336462e449ca0c03c873d589c2"
+    },
+    {
+      "name": "sympy",
+      "version": "1.14.0",
+      "public_url": "https://files.pythonhosted.org/packages/a2/09/77d55d46fd61b4a135c444fc97158ef34a095e5681d0a6c10b75bf356191/sympy-1.14.0-py3-none-any.whl",
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-public-install-z5lh31o1/wheels/sympy-1.14.0-py3-none-any.whl",
+      "bytes": 6299353,
+      "sha256": "e091cc3e99d2141a0ba2847328f5479b05d94a6635cb96148ccb3f34671bd8f5"
+    },
+    {
+      "name": "torch",
+      "version": "2.15.0+cpu",
+      "public_url": "https://download-r2.pytorch.org/whl/cpu/torch-2.15.0%2Bcpu-cp314-cp314-manylinux_2_28_x86_64.whl",
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-public-install-z5lh31o1/wheels/torch-2.15.0+cpu-cp314-cp314-manylinux_2_28_x86_64.whl",
+      "bytes": 209533799,
+      "sha256": "f089c94912c955269a20e5fee6b6a371209b610849c9ece26e908a748d87a723"
+    },
+    {
+      "name": "typing-extensions",
+      "version": "4.16.0",
+      "public_url": "https://files.pythonhosted.org/packages/49/d3/b8441a820a491ddfc024b0b0cf0393375b75ea13866d9c66727e54c2fc80/typing_extensions-4.16.0-py3-none-any.whl",
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-public-install-z5lh31o1/wheels/typing_extensions-4.16.0-py3-none-any.whl",
+      "bytes": 45571,
+      "sha256": "481caa481374e813c1b176ada14e97f1f67a4539ce9cfeb3f350d78d6370c2e8"
+    }
+  ],
+  "public_wheel_count": 17,
+  "public_archive_bytes": 238486838,
+  "all_public_wheel_SHA256_and_sizes_verified": true,
+  "retained_third_party_payloads_reused": false,
+  "source_wheel_and_installed_modules_identical": [
+    {
+      "path": "hydramp_torch/__init__.py",
+      "sha256": "d8214c3bf427aebc88a3406b946ec0e9c42e3a1229f5cb5822ca2533d69193fc"
+    },
+    {
+      "path": "hydramp_torch/_checkpoint.py",
+      "sha256": "9dc25424162f1a92778bd2ce49bfc8620916ce8fbac2637287399724d26abd03"
+    },
+    {
+      "path": "hydramp_torch/analogue.py",
+      "sha256": "64f8a40006f65de188d6b1e97c4eae1a2f3766d0b9cd5b8b4ce80d43817bbbc6"
+    },
+    {
+      "path": "hydramp_torch/codec.py",
+      "sha256": "4c929cce23c20b11a46c1ff333f7b16420f72448aeb1c6286aa320bc72997156"
+    },
+    {
+      "path": "hydramp_torch/encoder.py",
+      "sha256": "2abf1dd009a9bca39ad30d69e0f32cc3b225dd14b38e4ba46d1fbf3077723256"
+    },
+    {
+      "path": "hydramp_torch/generation.py",
+      "sha256": "83d8a976cdfcdb64fed531db30a2e365954f0acb0f4072a3b0c5c1aaf266bd62"
+    },
+    {
+      "path": "hydramp_torch/inference.py",
+      "sha256": "98f6494c2c93c8375c04909df683cd90c767fb8a024ee6b57da258cbfd2a4199"
+    },
+    {
+      "path": "hydramp_torch/prior.py",
+      "sha256": "3a765e5f906d7e00bd3b181c305f0665c712af6fa5988a4265f4b8369e124d19"
+    },
+    {
+      "path": "hydramp_torch/properties.py",
+      "sha256": "c47bd6f8224b996b6d221caf2de151d3d6aae1360faf4a3ec56fdd8b09abe758"
+    }
+  ],
+  "baseline_wheel_RECORD_hashes_verified": 13,
+  "installation": {
+    "wall_seconds": 41.38611521106213,
+    "peak_sampled_aggregate_RSS_bytes": 262524928,
+    "native_steps": [
+      {
+        "name": "download",
+        "exit_code": 0
+      },
+      {
+        "name": "sync",
+        "exit_code": 0
+      },
+      {
+        "name": "install-private-baseline",
+        "exit_code": 0
+      },
+      {
+        "name": "native-dependency-check",
+        "exit_code": 0
+      },
+      {
+        "name": "installed-metadata",
+        "exit_code": 0
+      }
+    ],
+    "cpu_limit": [
+      120,
+      120
+    ],
+    "address_space_limit": [
+      8589934592,
+      8589934592
+    ]
+  },
+  "installed_distributions": [
+    {
+      "name": "hydramp-torch",
+      "version": "0.0.0.dev7",
+      "install_root": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-public-install-z5lh31o1/environment/lib/python3.14/site-packages"
+    },
+    {
+      "name": "pytest",
+      "version": "9.2.0",
+      "install_root": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-public-install-z5lh31o1/environment/lib/python3.14/site-packages"
+    },
+    {
+      "name": "numpy",
+      "version": "2.4.6",
+      "install_root": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-public-install-z5lh31o1/environment/lib/python3.14/site-packages"
+    },
+    {
+      "name": "filelock",
+      "version": "4.2.5",
+      "install_root": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-public-install-z5lh31o1/environment/lib/python3.14/site-packages"
+    },
+    {
+      "name": "iniconfig",
+      "version": "2.3.1",
+      "install_root": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-public-install-z5lh31o1/environment/lib/python3.14/site-packages"
+    },
+    {
+      "name": "MarkupSafe",
+      "version": "3.0.4",
+      "install_root": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-public-install-z5lh31o1/environment/lib/python3.14/site-packages"
+    },
+    {
+      "name": "fsspec",
+      "version": "2026.9.0",
+      "install_root": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-public-install-z5lh31o1/environment/lib/python3.14/site-packages"
+    },
+    {
+      "name": "torch",
+      "version": "2.15.0+cpu",
+      "install_root": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-public-install-z5lh31o1/environment/lib/python3.14/site-packages"
+    },
+    {
+      "name": "mpmath",
+      "version": "1.3.0",
+      "install_root": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-public-install-z5lh31o1/environment/lib/python3.14/site-packages"
+    },
+    {
+      "name": "sympy",
+      "version": "1.14.0",
+      "install_root": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-public-install-z5lh31o1/environment/lib/python3.14/site-packages"
+    },
+    {
+      "name": "typing_extensions",
+      "version": "4.16.0",
+      "install_root": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-public-install-z5lh31o1/environment/lib/python3.14/site-packages"
+    },
+    {
+      "name": "packaging",
+      "version": "26.3",
+      "install_root": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-public-install-z5lh31o1/environment/lib/python3.14/site-packages"
+    },
+    {
+      "name": "networkx",
+      "version": "3.7",
+      "install_root": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-public-install-z5lh31o1/environment/lib/python3.14/site-packages"
+    },
+    {
+      "name": "pytest-receptor",
+      "version": "1.2.2",
+      "install_root": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-public-install-z5lh31o1/environment/lib/python3.14/site-packages"
+    },
+    {
+      "name": "setuptools",
+      "version": "84.2.1",
+      "install_root": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-public-install-z5lh31o1/environment/lib/python3.14/site-packages"
+    },
+    {
+      "name": "pluggy",
+      "version": "1.7.0",
+      "install_root": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-public-install-z5lh31o1/environment/lib/python3.14/site-packages"
+    },
+    {
+      "name": "Pygments",
+      "version": "2.21.0",
+      "install_root": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-public-install-z5lh31o1/environment/lib/python3.14/site-packages"
+    },
+    {
+      "name": "Jinja2",
+      "version": "3.1.6",
+      "install_root": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-public-install-z5lh31o1/environment/lib/python3.14/site-packages"
+    }
+  ],
+  "codec": {
+    "passed": 17,
+    "native_exit_code": 0,
+    "wall_seconds": 9.00536496983841,
+    "peak_sampled_aggregate_RSS_bytes": 310358016,
+    "result": {
+      "native_exit_code": 0,
+      "package": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-public-install-z5lh31o1/environment/lib/python3.14/site-packages/hydramp_torch/__init__.py",
+      "version": "0.0.0.dev7",
+      "numpy": "2.4.6",
+      "torch": "2.15.0+cpu",
+      "export_count": 16,
+      "cpu_ids": [
+        0,
+        1
+      ],
+      "numerical_threads": 1,
+      "elapsed_seconds": 8.440218903124332,
+      "kernel_peak_RSS_bytes": 289136640,
+      "denied_dispatch": [],
+      "neural_evaluations": 0,
+      "learned_parameter_or_PCA_reads": 0,
+      "PeptideMT_present": false
+    },
+    "artifact_complete": true
+  },
+  "new_neural_evaluations_or_learned_parameter_reads": 0,
+  "GPU": false,
+  "public_dependency_claim": "Exact locked Linux x86_64 CPython 3.14.7 base/test wheels, public retrieval then offline install, with the unchanged private own wheel; no retained third-party payload or sdist reuse",
+  "not_qualified": [
+    "Public hydramp-torch distribution",
+    "Clean public source/build frontend environment",
+    "Other platforms or Python minors",
+    "Optional modlAMP properties route",
+    "Third-party console-script entrypoints",
+    "New numerical/scientific acceptance"
+  ],
+  "source_pins_model_assets_and_accepted_resources_unchanged": true,
+  "no_push_tag_release_or_author_contact": true,
+  "receiving_failure_disposition": "The first receipt-building attempt incorrectly indexed ArtifactRecord. The registered supported contract requires artifact.final.data; use it here. No tests or public requests are repeated.",
+  "retention": {
+    "owner_issues": [
+      "uibcdf/hydramp#4",
+      "uibcdf/peptidemt#32"
+    ],
+    "review_date": "2026-11-19",
+    "environment": "Retain for next independent-product contract work; no worker remains running",
+    "archives": "Retain original public wheel bytes/hash/origin ledger for exact offline reconstruction",
+    "cache": "Remove task-local uv cache after verification; retain archives/environment/evidence"
+  }
+}

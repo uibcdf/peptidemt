@@ -1,0 +1,633 @@
+{
+  "schema": "peptidemt.hydramp_amp_trace_execution@1",
+  "date": "2026-11-03",
+  "recorded_at_utc": "2026-11-03T18:48:46.213183+00:00",
+  "owner_issue": "uibcdf/hydramp#1",
+  "consumer_issue": "uibcdf/peptidemt#8",
+  "status": "Exact approved AMP trace completed; final-kernel switch reproduces all10 changed pair relations; whole-head numerical superiority unestablished",
+  "authority": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/evidence/hydramp_amp_trace_authorization.json",
+    "bytes": 3832,
+    "sha256": "3adc72eac7f46c3325c83ff9a5ce264209b0bd775179fae6e8f976ea22445211"
+  },
+  "plan": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-head-cause-2q_m3p18/trace-plan.json",
+    "bytes": 32856,
+    "sha256": "0e8b7b09234f92991f2f41e33b9b2f6f306986046674ca91d6d9b3122f0c93b5"
+  },
+  "candidate": "hydramp-torch==0.0.0.dev3",
+  "wheel": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-comparison-qnbdpism/artifacts/hydramp_torch-0.0.0.dev3-py3-none-any.whl",
+    "bytes": 11987,
+    "sha256": "81761e0d48d92f0956e0afc28b3b4154f16032de53c666fd2cfbb53606102ed7"
+  },
+  "worker": {
+    "path": "/home/liliana/repos@uibcdf/hydramp/local_data/pytorch-comparison/ports/pytorch/devtools/amp_trace.py",
+    "bytes": 18995,
+    "sha256": "e25c66a6df509eca1b04331d70ca34d2c75207a15ede9f913ea144bde718c106"
+  },
+  "source_commit": "6590d2f4c2963f25d30669052a4c4a857e0e7279",
+  "starter_commit": "7804df862872ccc6d09fe01c41bafbca194cfa31",
+  "uncommitted": true,
+  "executed_calls": {
+    "native_amp_forwards": 12,
+    "torch_amp_forwards": 12,
+    "torch_mic_forwards": 12,
+    "learned_network_forwards_total": 36,
+    "torch_sigmoid_replay_vectors": 24,
+    "fp64_activation_reference_vectors": 2,
+    "reference_logits_per_vector": 384,
+    "decoder_encoder_pca_generation_descriptor_macrel_evaluations": 0,
+    "retries": 0,
+    "gpu_computation": 0
+  },
+  "actual_progress": {
+    "legacy": {
+      "stage": "legacy",
+      "attempted": [
+        "seed_1001",
+        "seed_1002",
+        "seed_1003",
+        "seed_1004",
+        "seed_1006",
+        "seed_1007",
+        "seed_1008",
+        "seed_1009",
+        "seed_1010",
+        "seed_1012",
+        "seed_1013",
+        "seed_1014"
+      ],
+      "completed": [
+        "seed_1001",
+        "seed_1002",
+        "seed_1003",
+        "seed_1004",
+        "seed_1006",
+        "seed_1007",
+        "seed_1008",
+        "seed_1009",
+        "seed_1010",
+        "seed_1012",
+        "seed_1013",
+        "seed_1014"
+      ],
+      "sigmoid_replay_vectors": 0
+    },
+    "torch": {
+      "stage": "torch",
+      "attempted": [
+        "seed_1001",
+        "seed_1002",
+        "seed_1003",
+        "seed_1004",
+        "seed_1006",
+        "seed_1007",
+        "seed_1008",
+        "seed_1009",
+        "seed_1010",
+        "seed_1012",
+        "seed_1013",
+        "seed_1014"
+      ],
+      "completed": [
+        "seed_1001",
+        "seed_1002",
+        "seed_1003",
+        "seed_1004",
+        "seed_1006",
+        "seed_1007",
+        "seed_1008",
+        "seed_1009",
+        "seed_1010",
+        "seed_1012",
+        "seed_1013",
+        "seed_1014"
+      ],
+      "sigmoid_replay_vectors": 24
+    }
+  },
+  "worker_outcomes": {
+    "legacy": {
+      "exit_code": 0,
+      "stop_reason": null,
+      "wall_seconds": 42.091260373126715,
+      "peak_sampled_rss_bytes": 434716672,
+      "plan_sha256": "0e8b7b09234f92991f2f41e33b9b2f6f306986046674ca91d6d9b3122f0c93b5",
+      "retry_allowed": false
+    },
+    "torch": {
+      "exit_code": 0,
+      "stop_reason": null,
+      "wall_seconds": 48.38440911890939,
+      "peak_sampled_rss_bytes": 276746240,
+      "plan_sha256": "0e8b7b09234f92991f2f41e33b9b2f6f306986046674ca91d6d9b3122f0c93b5",
+      "retry_allowed": false
+    }
+  },
+  "outer_supervision": {
+    "legacy": {
+      "stage": "legacy",
+      "exit_code": 0,
+      "outer_stop_reason": null,
+      "outer_wall_seconds": 42.86996443499811,
+      "controller_sampled_and_hwm_peak_bytes": 25518080,
+      "rusage_children_maxrss_bytes": 443871232,
+      "rusage_note": "Includes descendants; not exclusive controller RAM."
+    },
+    "torch": {
+      "stage": "torch",
+      "exit_code": 0,
+      "outer_stop_reason": null,
+      "outer_wall_seconds": 49.70118628581986,
+      "controller_sampled_and_hwm_peak_bytes": 25681920,
+      "rusage_children_maxrss_bytes": 276520960,
+      "rusage_note": "Includes descendants; not exclusive controller RAM."
+    }
+  },
+  "report_execution": {
+    "exit_code": 0,
+    "wall_seconds": 24.333972210995853,
+    "kernel_child_peak_rss_bytes": 65470464,
+    "fp64_activation_vectors": 2,
+    "logits_per_vector": 384,
+    "new_learned_model_calls": 0,
+    "scope": "Saved trace data only; explicit isolated prefix,engine imports/network blocked,np.load restricted to two traces."
+  },
+  "report": {
+    "schema": "hydramp.amp_trace_report@1",
+    "stage_metrics": {
+      "embedding": {
+        "exact": true,
+        "maximum_absolute_error": 0.0,
+        "rms_error": 0.0
+      },
+      "lstm1": {
+        "exact": false,
+        "maximum_absolute_error": 1.9297003746032715e-06,
+        "rms_error": 7.265053121880699e-08
+      },
+      "pool": {
+        "exact": false,
+        "maximum_absolute_error": 1.8477439880371094e-06,
+        "rms_error": 7.333000913084919e-08
+      },
+      "lstm2": {
+        "exact": false,
+        "maximum_absolute_error": 1.7434358596801758e-06,
+        "rms_error": 1.1146857253751868e-07
+      },
+      "logits": {
+        "exact": false,
+        "maximum_absolute_error": 5.4836273193359375e-06,
+        "rms_error": 1.1953316327671529e-06
+      },
+      "amp": {
+        "exact": false,
+        "maximum_absolute_error": 8.344650268554688e-07,
+        "rms_error": 1.2548440570424485e-07
+      }
+    },
+    "first_nonexact_surface": "lstm1",
+    "identical_native_logits_final_kernel_differences": 120,
+    "final_activation_error_reference": {
+      "legacy": {
+        "maximum_error_vs_own_logit_fp64_sigmoid": 1.546973398269813e-07,
+        "values_equal_to_own_logit_fp64_rounded_float32": 88
+      },
+      "torch": {
+        "maximum_error_vs_own_logit_fp64_sigmoid": 7.723589601216219e-08,
+        "values_equal_to_own_logit_fp64_rounded_float32": 117
+      }
+    },
+    "critical_pair_counterfactuals": [
+      {
+        "case_ids": [
+          [
+            1001,
+            13
+          ],
+          [
+            1006,
+            6
+          ]
+        ],
+        "original_change_kind": "new_port_tie",
+        "pair_relations": {
+          "native": 1,
+          "torch_on_native_logits": 0,
+          "torch": 0,
+          "fp64_on_native_logits": 1,
+          "fp64_on_torch_logits": 1
+        },
+        "switching_only_final_sigmoid_reproduces_port_relation": true,
+        "native_logits": [
+          11.759258270263672,
+          11.756959915161133
+        ],
+        "torch_logits": [
+          11.759256362915039,
+          11.75696086883545
+        ]
+      },
+      {
+        "case_ids": [
+          [
+            1002,
+            2
+          ],
+          [
+            1004,
+            15
+          ]
+        ],
+        "original_change_kind": "new_port_tie",
+        "pair_relations": {
+          "native": -1,
+          "torch_on_native_logits": 0,
+          "torch": 0,
+          "fp64_on_native_logits": -1,
+          "fp64_on_torch_logits": -1
+        },
+        "switching_only_final_sigmoid_reproduces_port_relation": true,
+        "native_logits": [
+          11.13182544708252,
+          11.133207321166992
+        ],
+        "torch_logits": [
+          11.13182258605957,
+          11.133208274841309
+        ]
+      },
+      {
+        "case_ids": [
+          [
+            1002,
+            12
+          ],
+          [
+            1008,
+            9
+          ]
+        ],
+        "original_change_kind": "new_port_tie",
+        "pair_relations": {
+          "native": -1,
+          "torch_on_native_logits": 0,
+          "torch": 0,
+          "fp64_on_native_logits": -1,
+          "fp64_on_torch_logits": -1
+        },
+        "switching_only_final_sigmoid_reproduces_port_relation": true,
+        "native_logits": [
+          14.782966613769531,
+          14.957414627075195
+        ],
+        "torch_logits": [
+          14.782966613769531,
+          14.957414627075195
+        ]
+      },
+      {
+        "case_ids": [
+          [
+            1003,
+            8
+          ],
+          [
+            1007,
+            14
+          ]
+        ],
+        "original_change_kind": "new_port_tie",
+        "pair_relations": {
+          "native": -1,
+          "torch_on_native_logits": 0,
+          "torch": 0,
+          "fp64_on_native_logits": -1,
+          "fp64_on_torch_logits": -1
+        },
+        "switching_only_final_sigmoid_reproduces_port_relation": true,
+        "native_logits": [
+          13.982282638549805,
+          13.998758316040039
+        ],
+        "torch_logits": [
+          13.982283592224121,
+          13.998756408691406
+        ]
+      },
+      {
+        "case_ids": [
+          [
+            1003,
+            8
+          ],
+          [
+            1010,
+            7
+          ]
+        ],
+        "original_change_kind": "new_port_tie",
+        "pair_relations": {
+          "native": -1,
+          "torch_on_native_logits": 0,
+          "torch": 0,
+          "fp64_on_native_logits": -1,
+          "fp64_on_torch_logits": -1
+        },
+        "switching_only_final_sigmoid_reproduces_port_relation": true,
+        "native_logits": [
+          13.982282638549805,
+          14.020597457885742
+        ],
+        "torch_logits": [
+          13.982283592224121,
+          14.020597457885742
+        ]
+      },
+      {
+        "case_ids": [
+          [
+            1004,
+            2
+          ],
+          [
+            1008,
+            3
+          ]
+        ],
+        "original_change_kind": "split_native_tie",
+        "pair_relations": {
+          "native": 0,
+          "torch_on_native_logits": 1,
+          "torch": 1,
+          "fp64_on_native_logits": 1,
+          "fp64_on_torch_logits": 1
+        },
+        "switching_only_final_sigmoid_reproduces_port_relation": true,
+        "native_logits": [
+          14.456036567687988,
+          14.384033203125
+        ],
+        "torch_logits": [
+          14.456035614013672,
+          14.384032249450684
+        ]
+      },
+      {
+        "case_ids": [
+          [
+            1006,
+            15
+          ],
+          [
+            1007,
+            5
+          ]
+        ],
+        "original_change_kind": "new_port_tie",
+        "pair_relations": {
+          "native": 1,
+          "torch_on_native_logits": 0,
+          "torch": 0,
+          "fp64_on_native_logits": 1,
+          "fp64_on_torch_logits": 1
+        },
+        "switching_only_final_sigmoid_reproduces_port_relation": true,
+        "native_logits": [
+          13.328717231750488,
+          13.308892250061035
+        ],
+        "torch_logits": [
+          13.328718185424805,
+          13.308892250061035
+        ]
+      },
+      {
+        "case_ids": [
+          [
+            1008,
+            3
+          ],
+          [
+            1014,
+            0
+          ]
+        ],
+        "original_change_kind": "split_native_tie",
+        "pair_relations": {
+          "native": 0,
+          "torch_on_native_logits": -1,
+          "torch": -1,
+          "fp64_on_native_logits": -1,
+          "fp64_on_torch_logits": -1
+        },
+        "switching_only_final_sigmoid_reproduces_port_relation": true,
+        "native_logits": [
+          14.384033203125,
+          14.488561630249023
+        ],
+        "torch_logits": [
+          14.384032249450684,
+          14.488561630249023
+        ]
+      },
+      {
+        "case_ids": [
+          [
+            1009,
+            7
+          ],
+          [
+            1013,
+            12
+          ]
+        ],
+        "original_change_kind": "reversal",
+        "pair_relations": {
+          "native": -1,
+          "torch_on_native_logits": 1,
+          "torch": 1,
+          "fp64_on_native_logits": 1,
+          "fp64_on_torch_logits": 1
+        },
+        "switching_only_final_sigmoid_reproduces_port_relation": true,
+        "native_logits": [
+          10.50706672668457,
+          10.506082534790039
+        ],
+        "torch_logits": [
+          10.50706672668457,
+          10.506082534790039
+        ]
+      },
+      {
+        "case_ids": [
+          [
+            1012,
+            13
+          ],
+          [
+            1013,
+            6
+          ]
+        ],
+        "original_change_kind": "new_port_tie",
+        "pair_relations": {
+          "native": -1,
+          "torch_on_native_logits": 0,
+          "torch": 0,
+          "fp64_on_native_logits": -1,
+          "fp64_on_torch_logits": -1
+        },
+        "switching_only_final_sigmoid_reproduces_port_relation": true,
+        "native_logits": [
+          12.565313339233398,
+          12.56888198852539
+        ],
+        "torch_logits": [
+          12.565312385559082,
+          12.568882942199707
+        ]
+      }
+    ],
+    "pairs_reproduced_by_final_kernel_switch_alone": 10,
+    "score_difference_decomposition_maximum_residual": 0.0,
+    "fp64_formulation_maximum_absolute_difference": 1.1102230246251565e-16,
+    "scientific_acceptance": false,
+    "scope": "Causal endpoint/stage evidence on retained contexts. Final-activation FP64 reference is not an independent FP64 whole-head solution; prior FAILs/thresholds/selector contracts remain unchanged."
+  },
+  "critical_pair_interpretation": {
+    "final_kernel_switch_reproduces_changed_relation": 10,
+    "fp64_order_consistent_between_native_and_port_logits": 10,
+    "modern_resolves_native_ties_in_fp64_direction": 2,
+    "modern_corrects_native_reversal_in_fp64_direction": 1,
+    "modern_new_ties_where_fp64_distinguishes_order": 7
+  },
+  "saved_model_endpoints_and_port_own_logit_replays_bitwise_reproduced": true,
+  "artifacts": {
+    "amp-trace-report.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-head-cause-2q_m3p18/trace/amp-trace-report.json",
+      "bytes": 7948,
+      "sha256": "82ac99ced555c30724db86e4abe9c412c4e7a13a6930f3d80271bf4075488f33"
+    },
+    "attempt-legacy.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-head-cause-2q_m3p18/trace/attempt-legacy.json",
+      "bytes": 232,
+      "sha256": "ff0d1b7e4ed54fc95c6cf86ddc94b92af99977c5c92d03528fd697d9aa3de6dd"
+    },
+    "attempt-torch.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-head-cause-2q_m3p18/trace/attempt-torch.json",
+      "bytes": 231,
+      "sha256": "08aa35f8732dacbeaca7fef4455606aebf28749bb397b6c647e759eb7e902e79"
+    },
+    "authorization.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-head-cause-2q_m3p18/trace/authorization.json",
+      "bytes": 3832,
+      "sha256": "3adc72eac7f46c3325c83ff9a5ce264209b0bd775179fae6e8f976ea22445211"
+    },
+    "legacy-trace-partial.npz": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-head-cause-2q_m3p18/trace/legacy-trace-partial.npz",
+      "bytes": 4029430,
+      "sha256": "9ab3301347eaf003e9bd085df60c988ae8d1826b370cb44c31184a74a6a49f0a"
+    },
+    "legacy-trace-progress.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-head-cause-2q_m3p18/trace/legacy-trace-progress.json",
+      "bytes": 505,
+      "sha256": "d71a33470199bad48c45ad2b5a951678733ac8f855ff5bde5b75c41aadbc8b77"
+    },
+    "legacy-trace.npz": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-head-cause-2q_m3p18/trace/legacy-trace.npz",
+      "bytes": 4029430,
+      "sha256": "9ab3301347eaf003e9bd085df60c988ae8d1826b370cb44c31184a74a6a49f0a"
+    },
+    "logs/legacy.log": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-head-cause-2q_m3p18/trace/logs/legacy.log",
+      "bytes": 1623,
+      "sha256": "0e08648ea15e7a892145e41b76907d768b6858e1d4679b2a5a257e0728c9225b"
+    },
+    "logs/torch.log": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-head-cause-2q_m3p18/trace/logs/torch.log",
+      "bytes": 125,
+      "sha256": "818bc309d608406081b8ff82bdfdf9959e456f1b3e74a2bfa5dbef799d0bd12f"
+    },
+    "report-execution.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-head-cause-2q_m3p18/trace/report-execution.json",
+      "bytes": 321,
+      "sha256": "3b89d3fea432ed572660cc75b98d6eb8ae63e72edfc0fefe54547cf57ef29724"
+    },
+    "report-runtime.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-head-cause-2q_m3p18/trace/report-runtime.json",
+      "bytes": 423,
+      "sha256": "57ed65ccec95998e1616814fa1a0883f4ee7bf634c32c91ee68410837ed371cc"
+    },
+    "supervisor-legacy.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-head-cause-2q_m3p18/trace/supervisor-legacy.json",
+      "bytes": 284,
+      "sha256": "ec6a671e820cc710fa74e84fb12c4dbdbd96df9d05d45d4d3b655d452e226325"
+    },
+    "supervisor-torch.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-head-cause-2q_m3p18/trace/supervisor-torch.json",
+      "bytes": 283,
+      "sha256": "5c6becc4f661f9a4cd47f5cb642bcf5a81ad7dbcf2c7c31db79a2255aec3b811"
+    },
+    "torch-trace-partial.npz": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-head-cause-2q_m3p18/trace/torch-trace-partial.npz",
+      "bytes": 4042102,
+      "sha256": "b5e32245f9b702a926e43f44eeb87253d6e67e7845807c1e9736bca838b05b6f"
+    },
+    "torch-trace-progress.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-head-cause-2q_m3p18/trace/torch-trace-progress.json",
+      "bytes": 505,
+      "sha256": "490ea56b382007bb1fad95726c573dd6c08f435a1ef67586e52a8f4e1875caf1"
+    },
+    "torch-trace.npz": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-head-cause-2q_m3p18/trace/torch-trace.npz",
+      "bytes": 4042102,
+      "sha256": "b5e32245f9b702a926e43f44eeb87253d6e67e7845807c1e9736bca838b05b6f"
+    },
+    "logs/trace-supervisor-legacy.log": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-head-cause-2q_m3p18/logs/trace-supervisor-legacy.log",
+      "bytes": 232,
+      "sha256": "ff0d1b7e4ed54fc95c6cf86ddc94b92af99977c5c92d03528fd697d9aa3de6dd"
+    },
+    "logs/trace-supervisor-torch.log": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-head-cause-2q_m3p18/logs/trace-supervisor-torch.log",
+      "bytes": 231,
+      "sha256": "08aa35f8732dacbeaca7fef4455606aebf28749bb397b6c647e759eb7e902e79"
+    },
+    "logs/trace-report.log": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-head-cause-2q_m3p18/logs/trace-report.log",
+      "bytes": 7948,
+      "sha256": "82ac99ced555c30724db86e4abe9c412c4e7a13a6930f3d80271bf4075488f33"
+    },
+    "guarded_trace_report.py": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-head-cause-2q_m3p18/guarded_trace_report.py",
+      "bytes": 1555,
+      "sha256": "95c51bcacc47af56221dd8f51b984003dfaad3107aade81c54e8bc6206f5c337"
+    }
+  },
+  "resource_summary": {
+    "model_worker_wall_seconds": 90.4756694920361,
+    "report_wall_seconds": 24.333972210995853,
+    "combined_worker_and_report_seconds": 114.80964170303196,
+    "sampled_worker_plus_controller_peak_bytes": {
+      "legacy": 460234752,
+      "torch": 302428160
+    },
+    "scope": "Sampled worker plus separately observed controller maxima; conservative sum,not an instantaneous kernel group cap. No stable speed claim on shared host."
+  },
+  "interpretation": "Holding native logits fixed and changing only final sigmoid suffices to reproduce all10 observed AMP relation changes. Embeddings are exact; earlier recorded drift starts at LSTM1 and reaches5.48e-6 in logits. At the reversed pair both implementations have bitwise-identical logits and modern order matches both FP64 final-activation references. Modern resolves2 native ties consistently with FP64 but adds7 ties where FP64 retains strict order. Modern is therefore not uniformly better at preserving global strict ordering. Its final activation has lower maximum error and more rounded-reference matches on the respective captured logits; this is not a full-head accuracy or biological-validation result.",
+  "remaining": [
+    "Explain/quantify upstream recurrence accuracy against an independent full-head higher-precision reference if claiming whole-model numerical improvement",
+    "Original Drive/starter asset identity",
+    "Broader acceptance,portable consumer/provenance and H0-H4 receiving"
+  ],
+  "prior_numerical_and_global_observable_FAILs_preserved": true,
+  "scientific_acceptance": false,
+  "remaining_learned_or_activation_allowance": 0,
+  "retention_review": "2026-11-13",
+  "producer_record": "devguide/evidence/pytorch_amp_trace_execution.json in local peptidemt-pytorch-comparison worktree",
+  "producer_record_sha256": "c60d505e47ee4cd7396ad2d0e719e4caebee75ab6b4d38128bbdbce5ef1b1f6b"
+}

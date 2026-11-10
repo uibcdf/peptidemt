@@ -2,7 +2,7 @@
 
 Status: **installation and guarded imports reproduced; full H0/H1 remain partial**,
 2026-10-30. Owning work: [PeptideMT #8](https://github.com/uibcdf/peptidemt/issues/8)
-and [D38 qualification](pending_proposals/qualify_hydramp_increment_2.md).
+and [D38 qualification](archive/qualify_hydramp_increment_2.md).
 The [machine-readable receipt](evidence/hydramp_h0_h1_review.json) retains exact
 inputs, versions, native metadata discrepancies, origins and log hashes.
 

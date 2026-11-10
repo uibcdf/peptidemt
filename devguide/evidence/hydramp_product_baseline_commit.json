@@ -1,0 +1,69 @@
+{
+  "schema": "peptidemt.hydramp_product_baseline_commit@1",
+  "recorded_at_utc": "2026-11-05T23:45:06.732796+00:00",
+  "status": "exact_prepared_baseline_committed_locally",
+  "owner_issue": "uibcdf/hydramp#4",
+  "consumer_issue": "uibcdf/peptidemt#32",
+  "authorization": {
+    "path": "devguide/evidence/hydramp_product_baseline_commit_authorization.json",
+    "bytes": 1066,
+    "sha256": "0e6acd5ff01f3a369c0ed09530a3c1ee950bb8c0c9d85d7787fc4136b8ae96ec"
+  },
+  "preparation_receipt_preserved": {
+    "path": "devguide/evidence/hydramp_product_baseline.json",
+    "bytes": 20440,
+    "sha256": "9cb1a04b300cf6472a3987146ca251598480393c35f53539d8a7c5a4a6ad2f67"
+  },
+  "preparation_closeout_preserved": {
+    "path": "devguide/evidence/hydramp_product_baseline_closeout.json",
+    "bytes": 1645,
+    "sha256": "6c582ff04585fb4f089967df4a45f0464120c38cbe03b7b88f2b4a47e9ffe4a1"
+  },
+  "native_commit_result": {
+    "path": "local_data/hydramp-product-baseline-uepif2a_/local-commit-result.json",
+    "bytes": 2497,
+    "sha256": "951937f2c84b6aa16d4379e361aa58fff3b459a13680c1c9c775f8cef759da2c"
+  },
+  "native_commit_log": {
+    "path": "local_data/hydramp-product-baseline-uepif2a_/local-commit.log",
+    "bytes": 4673,
+    "sha256": "088cfe13da21260b13a2839f2da965df708271992c9ef1d8ad9ec8bac51f9c2c"
+  },
+  "worktree": "/home/liliana/repos@uibcdf/hydramp/local_data/product-baseline-20261105",
+  "branch": "peptidemt-product-baseline",
+  "commit": "a77baff9de97e8ab4ae101b9b0c79122dea22ce3",
+  "tree": "2476a08a50d32779db2f43683928450e62b66f91",
+  "parents": [
+    "6590d2f4c2963f25d30669052a4c4a857e0e7279"
+  ],
+  "subject": "Consolidate the unchanged PyTorch core as a reproducible local baseline",
+  "matches_exact_approved_prepared_tree": true,
+  "other_branch_refs_preserved": true,
+  "worktree_clean_after_commit": true,
+  "historical_source_doc_status": "The exact committed tree intentionally retains its pre-commit preparation checkpoint; this later receipt supplies the completed Git action and is not a source amendment.",
+  "prior_artifacts_and_installed_checks_reused": "Only Git history identity changed; no payload/build/test change. Reuse original successful checks rather than rerun models or codec tests.",
+  "final_source_artifacts": {
+    "source_archive": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-product-baseline-uepif2a_/source-artifacts-final/hydramp_torch-0.0.0.dev7.tar.gz",
+      "bytes": 141198,
+      "sha256": "c4e050d561a3736ed7b527e834175aec5156e436d7aae4312d556023b559581f"
+    },
+    "wheel": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-product-baseline-uepif2a_/source-artifacts-final/hydramp_torch-0.0.0.dev7-py3-none-any.whl",
+      "bytes": 21771,
+      "sha256": "18347066126c439279328224ef71b158f9077a1a67954c742839e0596393c83d"
+    },
+    "reproduced_from_final_source_archive": true,
+    "byte_identical_to_installed_qualified_wheel": true,
+    "codec_test_repetition_needed": false,
+    "build_native_exit_codes": [
+      0,
+      0
+    ]
+  },
+  "version": "0.0.0.dev7",
+  "new_scientific_acceptance": false,
+  "new_neural_or_model_calls": 0,
+  "push_tag_release_package_publication_or_author_contact": false,
+  "public_dependency_install_qualified": false
+}

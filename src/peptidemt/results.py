@@ -6,7 +6,7 @@ from collections import Counter
 from collections.abc import Mapping
 from dataclasses import dataclass, field, fields
 
-from ._data import decode, encode, mapping, nonempty_text
+from ._data import decode, encode, load_json, mapping, nonempty_text
 from .inputs import InputRecord, SequenceRecord
 
 _REQUIRED = (
@@ -205,15 +205,7 @@ class ResultSet:
     def from_json(cls, text: str) -> "ResultSet":
         """Read only the explicit v1 data schema; never unpickle or import engines."""
 
-        def unique_pairs(pairs):
-            result = {}
-            for key, value in pairs:
-                if key in result:
-                    raise ValueError(f"Duplicate JSON key: {key}")
-                result[key] = value
-            return result
-
-        document = json.loads(text, object_pairs_hook=unique_pairs)
+        document = load_json(text)
         if (
             not isinstance(document, dict)
             or set(document) != {"schema", "data"}

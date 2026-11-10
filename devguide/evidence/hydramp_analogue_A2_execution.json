@@ -1,0 +1,1930 @@
+{
+  "schema": "peptidemt.hydramp_analogue_A2_execution@1",
+  "recorded_at_utc": "2026-11-04T19:47:10.932577+00:00",
+  "owner_issue": "uibcdf/hydramp#4",
+  "consumer_issue": "uibcdf/peptidemt#32",
+  "status": "Executed once: finite joint decisions/results PASS; prospective probability diagnostic FAIL; scientific disposition pending",
+  "plan": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-analogue-A2-prep-1yjhj4v8/plan.json",
+    "bytes": 89049,
+    "sha256": "556c917c1937a564ae047d6b30f3cb91311f50c22d55633eed27be1b808c35d4"
+  },
+  "authorization": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-analogue-A2-prep-1yjhj4v8/authorization.json",
+    "bytes": 2348,
+    "sha256": "25455bda98ebd655aba23658961c313c509dd09ee022f36194d91d432c2bb0ea"
+  },
+  "fixture": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-analogue-A2-prep-1yjhj4v8/fixture.json",
+    "bytes": 2779,
+    "sha256": "dd6e9dcc65785dc361ddcd970384288ab320384344d432d2e0902e13c276b378"
+  },
+  "preparation": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/evidence/hydramp_analogue_A2_preparation.json",
+    "bytes": 11622,
+    "sha256": "1fd1bd1920da3c3159146662750b1818a3883a96305c8c1e173c7a3f0b122d97"
+  },
+  "candidate": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/continuation-cycle1-chk2ha32/artifacts/hydramp_torch-0.0.0.dev5-py3-none-any.whl",
+    "bytes": 19385,
+    "sha256": "f6b9e30609ddde675418a2e6696b1026656212921c2b47cf0c6d182bcfc5433e"
+  },
+  "worker_tool": {
+    "path": "/home/liliana/repos@uibcdf/hydramp/local_data/pytorch-analogue/ports/pytorch/devtools/analogue_parity.py",
+    "bytes": 27324,
+    "sha256": "5428bb65d4afa4950a4e95316b2defad3d7ef0d30e59f92e7e5f4d3b29c048a2"
+  },
+  "operator": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-analogue-A2-prep-1yjhj4v8/analogue_control.py",
+    "bytes": 3904,
+    "sha256": "d0bdbf2da5c8b08ac73e74ee60a60f6e7caae225b2bd969e2f80779c01844d5c"
+  },
+  "analysis_tool": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-analogue-A2-prep-1yjhj4v8/analyze_saved.py",
+    "bytes": 8637,
+    "sha256": "14dc74215e6330776531eb695188280a584854e222aa24246b11d31f0f234eb8"
+  },
+  "analysis": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-analogue-A2-prep-1yjhj4v8/saved-analysis.json",
+    "bytes": 19885,
+    "sha256": "12098282baa06f89d157c9611b3bd1be2c2ff6ffcb73eb0bdd846ded7f1eb187"
+  },
+  "comparison": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-analogue-A2-prep-1yjhj4v8/real-run/comparison.json",
+    "bytes": 14268,
+    "sha256": "611e152c92047a6d974e8b67ddc47777cca2b3317fe41e0f2fa568e246b97f34"
+  },
+  "operator_log": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-analogue-A2-prep-1yjhj4v8/real-operator.log",
+    "bytes": 416,
+    "sha256": "c81bcfb84ca23bf4b66001ff66ad7921cfdfc98f10100fcf380c41d8135568ec"
+  },
+  "workers": {
+    "legacy": {
+      "supervision": {
+        "started": true,
+        "returncode": 0,
+        "failure": null,
+        "wall_seconds": 22.542745250975713,
+        "peak_sampled_process_tree_rss_bytes": 578953216,
+        "retained_output_bytes": 1726310,
+        "retry": false
+      },
+      "execution": {
+        "construction_eager_epsilon_draws": [
+          {
+            "shape": [
+              64
+            ],
+            "type": "EagerTensor"
+          },
+          {
+            "shape": [
+              64
+            ],
+            "type": "EagerTensor"
+          }
+        ],
+        "legacy_PCA_deserializations": 1,
+        "PCA_inverse_transforms": 0,
+        "reference": "Unmodified public original constructor and analogue_generation; observational taps only; original descriptors included",
+        "attempted_calls": 3,
+        "completed_calls": 3,
+        "outputs": [
+          {
+            "tag": "zero",
+            "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-analogue-A2-prep-1yjhj4v8/real-run/legacy/zero.json",
+            "sha256": "93aebcb27a15343c2a204f75609fcc23c0c4390ae079abe97e7f04f3a9e17aec",
+            "seconds": 4.117518013110384,
+            "ledger": {
+              "calls": [
+                {
+                  "name": "sigma",
+                  "rows": 8,
+                  "completed": true
+                },
+                {
+                  "name": "amp",
+                  "rows": 8,
+                  "completed": true
+                },
+                {
+                  "name": "mic",
+                  "rows": 8,
+                  "completed": true
+                },
+                {
+                  "name": "mean",
+                  "rows": 16,
+                  "completed": true
+                },
+                {
+                  "name": "decoder",
+                  "rows": 16,
+                  "completed": true
+                },
+                {
+                  "name": "amp",
+                  "rows": 16,
+                  "completed": true
+                },
+                {
+                  "name": "mic",
+                  "rows": 16,
+                  "completed": true
+                }
+              ],
+              "descriptor_bundles": 2
+            }
+          },
+          {
+            "tag": "sample",
+            "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-analogue-A2-prep-1yjhj4v8/real-run/legacy/sample.json",
+            "sha256": "93aa3f5bc1507b0a47c8a0090ca4cf5759899ed0dad8057ca00c143c5767fcd5",
+            "seconds": 2.032797375926748,
+            "ledger": {
+              "calls": [
+                {
+                  "name": "sigma",
+                  "rows": 8,
+                  "completed": true
+                },
+                {
+                  "name": "amp",
+                  "rows": 8,
+                  "completed": true
+                },
+                {
+                  "name": "mic",
+                  "rows": 8,
+                  "completed": true
+                },
+                {
+                  "name": "mean",
+                  "rows": 16,
+                  "completed": true
+                },
+                {
+                  "name": "decoder",
+                  "rows": 16,
+                  "completed": true
+                },
+                {
+                  "name": "amp",
+                  "rows": 16,
+                  "completed": true
+                },
+                {
+                  "name": "mic",
+                  "rows": 16,
+                  "completed": true
+                }
+              ],
+              "descriptor_bundles": 2
+            }
+          },
+          {
+            "tag": "repeat",
+            "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-analogue-A2-prep-1yjhj4v8/real-run/legacy/repeat.json",
+            "sha256": "93aa3f5bc1507b0a47c8a0090ca4cf5759899ed0dad8057ca00c143c5767fcd5",
+            "seconds": 1.8972505261190236,
+            "ledger": {
+              "calls": [
+                {
+                  "name": "sigma",
+                  "rows": 8,
+                  "completed": true
+                },
+                {
+                  "name": "amp",
+                  "rows": 8,
+                  "completed": true
+                },
+                {
+                  "name": "mic",
+                  "rows": 8,
+                  "completed": true
+                },
+                {
+                  "name": "mean",
+                  "rows": 16,
+                  "completed": true
+                },
+                {
+                  "name": "decoder",
+                  "rows": 16,
+                  "completed": true
+                },
+                {
+                  "name": "amp",
+                  "rows": 16,
+                  "completed": true
+                },
+                {
+                  "name": "mic",
+                  "rows": 16,
+                  "completed": true
+                }
+              ],
+              "descriptor_bundles": 2
+            }
+          }
+        ],
+        "asset_open_events": [
+          "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/model_config.json",
+          "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/AMPExpandedEncoder_hidden/layer.json",
+          "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/AMPExpandedEncoder_hidden/0_weight.npy",
+          "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/AMPExpandedEncoder_hidden/1_weight.npy",
+          "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/AMPExpandedEncoder_hidden/2_weight.npy",
+          "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/AMPExpandedEncoder_hidden/3_weight.npy",
+          "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/AMPExpandedEncoder_hidden/4_weight.npy",
+          "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/AMPExpandedEncoder_hidden/5_weight.npy",
+          "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/AMPExpandedEncoder_dense_z_mean/layer.json",
+          "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/AMPExpandedEncoder_dense_z_mean/0_weight.npy",
+          "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/AMPExpandedEncoder_dense_z_mean/1_weight.npy",
+          "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/NoConvAMPClassifier_lstm2/layer.json",
+          "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/NoConvAMPClassifier_lstm2/0_weight.npy",
+          "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/NoConvAMPClassifier_lstm2/1_weight.npy",
+          "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/NoConvAMPClassifier_lstm2/2_weight.npy",
+          "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/NoConvAMPClassifier_embedding/layer.json",
+          "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/NoConvAMPClassifier_embedding/0_weight.npy",
+          "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/AMPExpandedDecoder_latent_to_hidden/layer.json",
+          "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/AMPExpandedDecoder_latent_to_hidden/0_weight.npy",
+          "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/AMPExpandedDecoder_latent_to_hidden/1_weight.npy",
+          "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/AMPExpandedDecoder_latent_to_hidden/2_weight.npy",
+          "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/VeltriAMPClassifier_dense_output/layer.json",
+          "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/VeltriAMPClassifier_dense_output/0_weight.npy",
+          "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/VeltriAMPClassifier_dense_output/1_weight.npy",
+          "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/AMPExpandedDecoder_dense/layer.json",
+          "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/AMPExpandedDecoder_dense/0_weight.npy",
+          "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/AMPExpandedDecoder_dense/1_weight.npy",
+          "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/AMPExpandedEncoder_embedding/layer.json",
+          "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/AMPExpandedEncoder_embedding/0_weight.npy",
+          "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/VeltriAMPClassifier_embedding/layer.json",
+          "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/VeltriAMPClassifier_embedding/0_weight.npy",
+          "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/VeltriAMPClassifier_lstm/layer.json",
+          "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/VeltriAMPClassifier_lstm/0_weight.npy",
+          "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/VeltriAMPClassifier_lstm/1_weight.npy",
+          "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/VeltriAMPClassifier_lstm/2_weight.npy",
+          "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/NoConvAMPClassifier_dense_output/layer.json",
+          "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/NoConvAMPClassifier_dense_output/0_weight.npy",
+          "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/NoConvAMPClassifier_dense_output/1_weight.npy",
+          "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/AMPExpandedDecoder_lstm/layer.json",
+          "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/AMPExpandedDecoder_lstm/0_weight.npy",
+          "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/AMPExpandedDecoder_lstm/1_weight.npy",
+          "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/AMPExpandedDecoder_lstm/2_weight.npy",
+          "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/AMPExpandedEncoder_dense_z_sigma/layer.json",
+          "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/AMPExpandedEncoder_dense_z_sigma/0_weight.npy",
+          "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/AMPExpandedEncoder_dense_z_sigma/1_weight.npy",
+          "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/VeltriAMPClassifier_convolution/layer.json",
+          "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/VeltriAMPClassifier_convolution/0_weight.npy",
+          "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/VeltriAMPClassifier_convolution/1_weight.npy",
+          "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/NoConvAMPClassifier_lstm1/layer.json",
+          "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/NoConvAMPClassifier_lstm1/0_weight.npy",
+          "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/NoConvAMPClassifier_lstm1/1_weight.npy",
+          "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/NoConvAMPClassifier_lstm1/2_weight.npy",
+          "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/AMPExpandedEncoder_hidden2/layer.json",
+          "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/AMPExpandedEncoder_hidden2/0_weight.npy",
+          "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/AMPExpandedEncoder_hidden2/1_weight.npy",
+          "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/AMPExpandedEncoder_hidden2/2_weight.npy",
+          "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/AMPExpandedEncoder_hidden2/3_weight.npy",
+          "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/AMPExpandedEncoder_hidden2/4_weight.npy",
+          "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/AMPExpandedEncoder_hidden2/5_weight.npy",
+          "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/pca_decomposer.joblib"
+        ]
+      },
+      "model_parameter_array_open_events": 42
+    },
+    "modern": {
+      "supervision": {
+        "started": true,
+        "returncode": 0,
+        "failure": null,
+        "wall_seconds": 2.879982772981748,
+        "peak_sampled_process_tree_rss_bytes": 279465984,
+        "retained_output_bytes": 2732225,
+        "retry": false
+      },
+      "execution": {
+        "reference": "Exact installed dev5 composer; no PCA/descriptors",
+        "PCA_deserializations": 0,
+        "attempted_calls": 3,
+        "completed_calls": 3,
+        "outputs": [
+          {
+            "tag": "zero",
+            "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-analogue-A2-prep-1yjhj4v8/real-run/modern/zero.json",
+            "sha256": "85739f30c01e51df5c27f783e1614515847962ffcb31ca89f7fa7d9deb0b852b",
+            "seconds": 0.08946926798671484,
+            "ledger": {
+              "neural_evaluations": 7,
+              "calls": [
+                {
+                  "name": "sigma",
+                  "rows": 8,
+                  "completed": true
+                },
+                {
+                  "name": "amp",
+                  "rows": 8,
+                  "completed": true
+                },
+                {
+                  "name": "mic",
+                  "rows": 8,
+                  "completed": true
+                },
+                {
+                  "name": "mean",
+                  "rows": 16,
+                  "completed": true
+                },
+                {
+                  "name": "decoder",
+                  "rows": 16,
+                  "completed": true
+                },
+                {
+                  "name": "amp",
+                  "rows": 16,
+                  "completed": true
+                },
+                {
+                  "name": "mic",
+                  "rows": 16,
+                  "completed": true
+                }
+              ],
+              "API_structure": "two encoder, one decoder, two paired-head invocations",
+              "RNG_unchanged": true
+            }
+          },
+          {
+            "tag": "sample",
+            "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-analogue-A2-prep-1yjhj4v8/real-run/modern/sample.json",
+            "sha256": "efacb04176198a7933668e4f11bc0800332a22401f704f4a82a4d86b33ee0e54",
+            "seconds": 0.08015735982917249,
+            "ledger": {
+              "neural_evaluations": 7,
+              "calls": [
+                {
+                  "name": "sigma",
+                  "rows": 8,
+                  "completed": true
+                },
+                {
+                  "name": "amp",
+                  "rows": 8,
+                  "completed": true
+                },
+                {
+                  "name": "mic",
+                  "rows": 8,
+                  "completed": true
+                },
+                {
+                  "name": "mean",
+                  "rows": 16,
+                  "completed": true
+                },
+                {
+                  "name": "decoder",
+                  "rows": 16,
+                  "completed": true
+                },
+                {
+                  "name": "amp",
+                  "rows": 16,
+                  "completed": true
+                },
+                {
+                  "name": "mic",
+                  "rows": 16,
+                  "completed": true
+                }
+              ],
+              "API_structure": "two encoder, one decoder, two paired-head invocations",
+              "RNG_unchanged": true
+            }
+          },
+          {
+            "tag": "repeat",
+            "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-analogue-A2-prep-1yjhj4v8/real-run/modern/repeat.json",
+            "sha256": "efacb04176198a7933668e4f11bc0800332a22401f704f4a82a4d86b33ee0e54",
+            "seconds": 0.07970761507749557,
+            "ledger": {
+              "neural_evaluations": 7,
+              "calls": [
+                {
+                  "name": "sigma",
+                  "rows": 8,
+                  "completed": true
+                },
+                {
+                  "name": "amp",
+                  "rows": 8,
+                  "completed": true
+                },
+                {
+                  "name": "mic",
+                  "rows": 8,
+                  "completed": true
+                },
+                {
+                  "name": "mean",
+                  "rows": 16,
+                  "completed": true
+                },
+                {
+                  "name": "decoder",
+                  "rows": 16,
+                  "completed": true
+                },
+                {
+                  "name": "amp",
+                  "rows": 16,
+                  "completed": true
+                },
+                {
+                  "name": "mic",
+                  "rows": 16,
+                  "completed": true
+                }
+              ],
+              "API_structure": "two encoder, one decoder, two paired-head invocations",
+              "RNG_unchanged": true
+            }
+          }
+        ],
+        "asset_open_events": [
+          "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/model_config.json",
+          "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/AMPExpandedEncoder_embedding/layer.json",
+          "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/AMPExpandedEncoder_embedding/0_weight.npy",
+          "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/AMPExpandedEncoder_hidden/layer.json",
+          "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/AMPExpandedEncoder_hidden/0_weight.npy",
+          "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/AMPExpandedEncoder_hidden/1_weight.npy",
+          "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/AMPExpandedEncoder_hidden/2_weight.npy",
+          "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/AMPExpandedEncoder_hidden/3_weight.npy",
+          "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/AMPExpandedEncoder_hidden/4_weight.npy",
+          "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/AMPExpandedEncoder_hidden/5_weight.npy",
+          "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/AMPExpandedEncoder_hidden2/layer.json",
+          "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/AMPExpandedEncoder_hidden2/0_weight.npy",
+          "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/AMPExpandedEncoder_hidden2/1_weight.npy",
+          "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/AMPExpandedEncoder_hidden2/2_weight.npy",
+          "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/AMPExpandedEncoder_hidden2/3_weight.npy",
+          "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/AMPExpandedEncoder_hidden2/4_weight.npy",
+          "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/AMPExpandedEncoder_hidden2/5_weight.npy",
+          "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/AMPExpandedEncoder_dense_z_mean/layer.json",
+          "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/AMPExpandedEncoder_dense_z_mean/0_weight.npy",
+          "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/AMPExpandedEncoder_dense_z_mean/1_weight.npy",
+          "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/AMPExpandedEncoder_dense_z_sigma/layer.json",
+          "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/AMPExpandedEncoder_dense_z_sigma/0_weight.npy",
+          "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/AMPExpandedEncoder_dense_z_sigma/1_weight.npy",
+          "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/model_config.json",
+          "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/AMPExpandedDecoder_latent_to_hidden/layer.json",
+          "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/AMPExpandedDecoder_latent_to_hidden/0_weight.npy",
+          "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/AMPExpandedDecoder_latent_to_hidden/1_weight.npy",
+          "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/AMPExpandedDecoder_latent_to_hidden/2_weight.npy",
+          "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/AMPExpandedDecoder_lstm/layer.json",
+          "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/AMPExpandedDecoder_lstm/0_weight.npy",
+          "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/AMPExpandedDecoder_lstm/1_weight.npy",
+          "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/AMPExpandedDecoder_lstm/2_weight.npy",
+          "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/AMPExpandedDecoder_dense/layer.json",
+          "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/AMPExpandedDecoder_dense/0_weight.npy",
+          "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/AMPExpandedDecoder_dense/1_weight.npy",
+          "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/NoConvAMPClassifier_embedding/layer.json",
+          "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/NoConvAMPClassifier_embedding/0_weight.npy",
+          "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/NoConvAMPClassifier_lstm1/layer.json",
+          "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/NoConvAMPClassifier_lstm1/0_weight.npy",
+          "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/NoConvAMPClassifier_lstm1/1_weight.npy",
+          "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/NoConvAMPClassifier_lstm1/2_weight.npy",
+          "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/NoConvAMPClassifier_lstm2/layer.json",
+          "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/NoConvAMPClassifier_lstm2/0_weight.npy",
+          "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/NoConvAMPClassifier_lstm2/1_weight.npy",
+          "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/NoConvAMPClassifier_lstm2/2_weight.npy",
+          "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/NoConvAMPClassifier_dense_output/layer.json",
+          "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/NoConvAMPClassifier_dense_output/0_weight.npy",
+          "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/NoConvAMPClassifier_dense_output/1_weight.npy",
+          "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/VeltriAMPClassifier_embedding/layer.json",
+          "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/VeltriAMPClassifier_embedding/0_weight.npy",
+          "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/VeltriAMPClassifier_convolution/layer.json",
+          "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/VeltriAMPClassifier_convolution/0_weight.npy",
+          "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/VeltriAMPClassifier_convolution/1_weight.npy",
+          "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/VeltriAMPClassifier_lstm/layer.json",
+          "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/VeltriAMPClassifier_lstm/0_weight.npy",
+          "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/VeltriAMPClassifier_lstm/1_weight.npy",
+          "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/VeltriAMPClassifier_lstm/2_weight.npy",
+          "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/VeltriAMPClassifier_dense_output/layer.json",
+          "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/VeltriAMPClassifier_dense_output/0_weight.npy",
+          "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/VeltriAMPClassifier_dense_output/1_weight.npy"
+        ]
+      },
+      "model_parameter_array_open_events": 42
+    }
+  },
+  "comparison_checks": {
+    "pass": false,
+    "checks": {
+      "zero": {
+        "numeric": {
+          "prototype_mean": {
+            "max_absolute": 1.9073486328125e-06,
+            "RMS": 3.59311381181944e-07,
+            "failed": 0,
+            "elements": 512,
+            "pass": true
+          },
+          "prototype_log_variance": {
+            "max_absolute": 3.337860107421875e-06,
+            "RMS": 8.22431397195468e-07,
+            "failed": 0,
+            "elements": 512,
+            "pass": true
+          },
+          "prototype_std": {
+            "max_absolute": 6.67572021484375e-06,
+            "RMS": 3.2645054911834193e-07,
+            "failed": 0,
+            "elements": 512,
+            "pass": true
+          },
+          "prototype_scale": {
+            "max_absolute": 0.0,
+            "RMS": 0.0,
+            "failed": 0,
+            "elements": 512,
+            "pass": true
+          },
+          "prototype_amp": {
+            "max_absolute": 5.21540641784668e-08,
+            "RMS": 2.2850640390785964e-08,
+            "failed": 0,
+            "elements": 8,
+            "pass": true
+          },
+          "prototype_mic": {
+            "max_absolute": 1.1920928955078125e-07,
+            "RMS": 5.2397105431459035e-08,
+            "failed": 0,
+            "elements": 8,
+            "pass": true
+          },
+          "means": {
+            "max_absolute": 1.9073486328125e-06,
+            "RMS": 3.698014675996165e-07,
+            "failed": 0,
+            "elements": 1024,
+            "pass": true
+          },
+          "noise": {
+            "max_absolute": 0.0,
+            "RMS": 0.0,
+            "failed": 0,
+            "elements": 1024,
+            "pass": true
+          },
+          "latents": {
+            "max_absolute": 1.9073486328125e-06,
+            "RMS": 3.698014675996165e-07,
+            "failed": 0,
+            "elements": 1024,
+            "pass": true
+          },
+          "conditioned": {
+            "max_absolute": 1.9073486328125e-06,
+            "RMS": 3.641553121054576e-07,
+            "failed": 0,
+            "elements": 1056,
+            "pass": true
+          },
+          "decoder_inputs": {
+            "max_absolute": 1.9073486328125e-06,
+            "RMS": 3.641553121054576e-07,
+            "failed": 0,
+            "elements": 1056,
+            "pass": true
+          },
+          "probabilities": {
+            "max_absolute": 5.1081180572509766e-05,
+            "RMS": 1.3536734170884055e-06,
+            "failed": 14,
+            "elements": 8400,
+            "pass": false
+          },
+          "amp": {
+            "max_absolute": 1.1920928955078125e-07,
+            "RMS": 5.77720344784514e-08,
+            "failed": 0,
+            "elements": 16,
+            "pass": true
+          },
+          "mic": {
+            "max_absolute": 1.1920928955078125e-07,
+            "RMS": 4.924711365687646e-08,
+            "failed": 0,
+            "elements": 16,
+            "pass": true
+          }
+        },
+        "exact": {
+          "prototype_tokens": true,
+          "submitted_tokens": true,
+          "tokens": true,
+          "sequences": true,
+          "improves": true
+        },
+        "buckets": [
+          {
+            "strings_exact": true,
+            "mapping_valid": true,
+            "scores": {},
+            "pass": true
+          },
+          {
+            "strings_exact": true,
+            "mapping_valid": true,
+            "scores": {},
+            "pass": true
+          },
+          {
+            "strings_exact": true,
+            "mapping_valid": true,
+            "scores": {},
+            "pass": true
+          },
+          {
+            "strings_exact": true,
+            "mapping_valid": true,
+            "scores": {},
+            "pass": true
+          },
+          {
+            "strings_exact": true,
+            "mapping_valid": true,
+            "scores": {
+              "amp": {
+                "max_absolute": 1.1920928955078125e-07,
+                "RMS": 1.1920928955078125e-07,
+                "failed": 0,
+                "elements": 1,
+                "pass": true
+              },
+              "mic": {
+                "max_absolute": 1.1920928955078125e-07,
+                "RMS": 1.1920928955078125e-07,
+                "failed": 0,
+                "elements": 1,
+                "pass": true
+              }
+            },
+            "pass": true
+          },
+          {
+            "strings_exact": true,
+            "mapping_valid": true,
+            "scores": {},
+            "pass": true
+          },
+          {
+            "strings_exact": true,
+            "mapping_valid": true,
+            "scores": {},
+            "pass": true
+          },
+          {
+            "strings_exact": true,
+            "mapping_valid": true,
+            "scores": {},
+            "pass": true
+          }
+        ],
+        "repeat_exact": {
+          "legacy": true,
+          "modern": true
+        },
+        "zero_noise_exact": true,
+        "original_duplicate_dictionary_size": 6,
+        "modern_occurrences": 8
+      },
+      "sample": {
+        "numeric": {
+          "prototype_mean": {
+            "max_absolute": 1.9073486328125e-06,
+            "RMS": 3.59311381181944e-07,
+            "failed": 0,
+            "elements": 512,
+            "pass": true
+          },
+          "prototype_log_variance": {
+            "max_absolute": 3.337860107421875e-06,
+            "RMS": 8.22431397195468e-07,
+            "failed": 0,
+            "elements": 512,
+            "pass": true
+          },
+          "prototype_std": {
+            "max_absolute": 6.67572021484375e-06,
+            "RMS": 3.2645054911834193e-07,
+            "failed": 0,
+            "elements": 512,
+            "pass": true
+          },
+          "prototype_scale": {
+            "max_absolute": 6.67572021484375e-06,
+            "RMS": 3.2645054911834193e-07,
+            "failed": 0,
+            "elements": 512,
+            "pass": true
+          },
+          "prototype_amp": {
+            "max_absolute": 5.21540641784668e-08,
+            "RMS": 2.2850640390785964e-08,
+            "failed": 0,
+            "elements": 8,
+            "pass": true
+          },
+          "prototype_mic": {
+            "max_absolute": 1.1920928955078125e-07,
+            "RMS": 5.2397105431459035e-08,
+            "failed": 0,
+            "elements": 8,
+            "pass": true
+          },
+          "means": {
+            "max_absolute": 1.9073486328125e-06,
+            "RMS": 3.698014675996165e-07,
+            "failed": 0,
+            "elements": 1024,
+            "pass": true
+          },
+          "noise": {
+            "max_absolute": 9.141925925604255e-06,
+            "RMS": 3.051815662034649e-07,
+            "failed": 0,
+            "elements": 1024,
+            "pass": true
+          },
+          "latents": {
+            "max_absolute": 8.992914313665779e-06,
+            "RMS": 4.773351123001163e-07,
+            "failed": 0,
+            "elements": 1024,
+            "pass": true
+          },
+          "conditioned": {
+            "max_absolute": 8.992914313665779e-06,
+            "RMS": 4.700471253584683e-07,
+            "failed": 0,
+            "elements": 1056,
+            "pass": true
+          },
+          "decoder_inputs": {
+            "max_absolute": 9.5367431640625e-06,
+            "RMS": 4.804939749608449e-07,
+            "failed": 0,
+            "elements": 1056,
+            "pass": true
+          },
+          "probabilities": {
+            "max_absolute": 3.0517578125e-05,
+            "RMS": 6.227536662056834e-07,
+            "failed": 7,
+            "elements": 8400,
+            "pass": false
+          },
+          "amp": {
+            "max_absolute": 1.1920928955078125e-07,
+            "RMS": 5.0600907605909274e-08,
+            "failed": 0,
+            "elements": 16,
+            "pass": true
+          },
+          "mic": {
+            "max_absolute": 1.1920928955078125e-07,
+            "RMS": 6.010826740640329e-08,
+            "failed": 0,
+            "elements": 16,
+            "pass": true
+          }
+        },
+        "exact": {
+          "prototype_tokens": true,
+          "submitted_tokens": true,
+          "tokens": true,
+          "sequences": true,
+          "improves": true
+        },
+        "buckets": [
+          {
+            "strings_exact": true,
+            "mapping_valid": true,
+            "scores": {},
+            "pass": true
+          },
+          {
+            "strings_exact": true,
+            "mapping_valid": true,
+            "scores": {},
+            "pass": true
+          },
+          {
+            "strings_exact": true,
+            "mapping_valid": true,
+            "scores": {},
+            "pass": true
+          },
+          {
+            "strings_exact": true,
+            "mapping_valid": true,
+            "scores": {},
+            "pass": true
+          },
+          {
+            "strings_exact": true,
+            "mapping_valid": true,
+            "scores": {
+              "amp": {
+                "max_absolute": 1.1920928955078125e-07,
+                "RMS": 1.1920928955078125e-07,
+                "failed": 0,
+                "elements": 1,
+                "pass": true
+              },
+              "mic": {
+                "max_absolute": 1.1920928955078125e-07,
+                "RMS": 1.1920928955078125e-07,
+                "failed": 0,
+                "elements": 1,
+                "pass": true
+              }
+            },
+            "pass": true
+          },
+          {
+            "strings_exact": true,
+            "mapping_valid": true,
+            "scores": {},
+            "pass": true
+          },
+          {
+            "strings_exact": true,
+            "mapping_valid": true,
+            "scores": {},
+            "pass": true
+          },
+          {
+            "strings_exact": true,
+            "mapping_valid": true,
+            "scores": {},
+            "pass": true
+          }
+        ],
+        "repeat_exact": {
+          "legacy": true,
+          "modern": true
+        },
+        "zero_noise_exact": true,
+        "original_duplicate_dictionary_size": 6,
+        "modern_occurrences": 8
+      },
+      "repeat": {
+        "numeric": {
+          "prototype_mean": {
+            "max_absolute": 1.9073486328125e-06,
+            "RMS": 3.59311381181944e-07,
+            "failed": 0,
+            "elements": 512,
+            "pass": true
+          },
+          "prototype_log_variance": {
+            "max_absolute": 3.337860107421875e-06,
+            "RMS": 8.22431397195468e-07,
+            "failed": 0,
+            "elements": 512,
+            "pass": true
+          },
+          "prototype_std": {
+            "max_absolute": 6.67572021484375e-06,
+            "RMS": 3.2645054911834193e-07,
+            "failed": 0,
+            "elements": 512,
+            "pass": true
+          },
+          "prototype_scale": {
+            "max_absolute": 6.67572021484375e-06,
+            "RMS": 3.2645054911834193e-07,
+            "failed": 0,
+            "elements": 512,
+            "pass": true
+          },
+          "prototype_amp": {
+            "max_absolute": 5.21540641784668e-08,
+            "RMS": 2.2850640390785964e-08,
+            "failed": 0,
+            "elements": 8,
+            "pass": true
+          },
+          "prototype_mic": {
+            "max_absolute": 1.1920928955078125e-07,
+            "RMS": 5.2397105431459035e-08,
+            "failed": 0,
+            "elements": 8,
+            "pass": true
+          },
+          "means": {
+            "max_absolute": 1.9073486328125e-06,
+            "RMS": 3.698014675996165e-07,
+            "failed": 0,
+            "elements": 1024,
+            "pass": true
+          },
+          "noise": {
+            "max_absolute": 9.141925925604255e-06,
+            "RMS": 3.051815662034649e-07,
+            "failed": 0,
+            "elements": 1024,
+            "pass": true
+          },
+          "latents": {
+            "max_absolute": 8.992914313665779e-06,
+            "RMS": 4.773351123001163e-07,
+            "failed": 0,
+            "elements": 1024,
+            "pass": true
+          },
+          "conditioned": {
+            "max_absolute": 8.992914313665779e-06,
+            "RMS": 4.700471253584683e-07,
+            "failed": 0,
+            "elements": 1056,
+            "pass": true
+          },
+          "decoder_inputs": {
+            "max_absolute": 9.5367431640625e-06,
+            "RMS": 4.804939749608449e-07,
+            "failed": 0,
+            "elements": 1056,
+            "pass": true
+          },
+          "probabilities": {
+            "max_absolute": 3.0517578125e-05,
+            "RMS": 6.227536662056834e-07,
+            "failed": 7,
+            "elements": 8400,
+            "pass": false
+          },
+          "amp": {
+            "max_absolute": 1.1920928955078125e-07,
+            "RMS": 5.0600907605909274e-08,
+            "failed": 0,
+            "elements": 16,
+            "pass": true
+          },
+          "mic": {
+            "max_absolute": 1.1920928955078125e-07,
+            "RMS": 6.010826740640329e-08,
+            "failed": 0,
+            "elements": 16,
+            "pass": true
+          }
+        },
+        "exact": {
+          "prototype_tokens": true,
+          "submitted_tokens": true,
+          "tokens": true,
+          "sequences": true,
+          "improves": true
+        },
+        "buckets": [
+          {
+            "strings_exact": true,
+            "mapping_valid": true,
+            "scores": {},
+            "pass": true
+          },
+          {
+            "strings_exact": true,
+            "mapping_valid": true,
+            "scores": {},
+            "pass": true
+          },
+          {
+            "strings_exact": true,
+            "mapping_valid": true,
+            "scores": {},
+            "pass": true
+          },
+          {
+            "strings_exact": true,
+            "mapping_valid": true,
+            "scores": {},
+            "pass": true
+          },
+          {
+            "strings_exact": true,
+            "mapping_valid": true,
+            "scores": {
+              "amp": {
+                "max_absolute": 1.1920928955078125e-07,
+                "RMS": 1.1920928955078125e-07,
+                "failed": 0,
+                "elements": 1,
+                "pass": true
+              },
+              "mic": {
+                "max_absolute": 1.1920928955078125e-07,
+                "RMS": 1.1920928955078125e-07,
+                "failed": 0,
+                "elements": 1,
+                "pass": true
+              }
+            },
+            "pass": true
+          },
+          {
+            "strings_exact": true,
+            "mapping_valid": true,
+            "scores": {},
+            "pass": true
+          },
+          {
+            "strings_exact": true,
+            "mapping_valid": true,
+            "scores": {},
+            "pass": true
+          },
+          {
+            "strings_exact": true,
+            "mapping_valid": true,
+            "scores": {},
+            "pass": true
+          }
+        ],
+        "repeat_exact": {
+          "legacy": true,
+          "modern": true
+        },
+        "zero_noise_exact": true,
+        "original_duplicate_dictionary_size": 6,
+        "modern_occurrences": 8
+      }
+    },
+    "meaning": "Finite numerical/observable comparison; no scientific acceptance or biological superiority; duplicate dictionary difference is deliberate"
+  },
+  "saved_data_analysis": {
+    "schema": "hydramp.analogue_A2_saved_analysis@1",
+    "scientific_imports": 0,
+    "parameter_arrays_read": 0,
+    "new_model_evaluations": 0,
+    "inputs": [
+      {
+        "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-analogue-A2-prep-1yjhj4v8/real-run/legacy/zero.json",
+        "sha256": "93aebcb27a15343c2a204f75609fcc23c0c4390ae079abe97e7f04f3a9e17aec"
+      },
+      {
+        "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-analogue-A2-prep-1yjhj4v8/real-run/modern/zero.json",
+        "sha256": "85739f30c01e51df5c27f783e1614515847962ffcb31ca89f7fa7d9deb0b852b"
+      },
+      {
+        "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-analogue-A2-prep-1yjhj4v8/real-run/legacy/sample.json",
+        "sha256": "93aa3f5bc1507b0a47c8a0090ca4cf5759899ed0dad8057ca00c143c5767fcd5"
+      },
+      {
+        "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-analogue-A2-prep-1yjhj4v8/real-run/modern/sample.json",
+        "sha256": "efacb04176198a7933668e4f11bc0800332a22401f704f4a82a4d86b33ee0e54"
+      },
+      {
+        "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-analogue-A2-prep-1yjhj4v8/real-run/legacy/repeat.json",
+        "sha256": "93aa3f5bc1507b0a47c8a0090ca4cf5759899ed0dad8057ca00c143c5767fcd5"
+      },
+      {
+        "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-analogue-A2-prep-1yjhj4v8/real-run/modern/repeat.json",
+        "sha256": "efacb04176198a7933668e4f11bc0800332a22401f704f4a82a4d86b33ee0e54"
+      }
+    ],
+    "checks": {
+      "zero": {
+        "failed_probability_elements": 14,
+        "probability_elements": 8400,
+        "failed_rows": [
+          4,
+          5,
+          12,
+          13
+        ],
+        "failed_positions_zero_based": [
+          22,
+          23
+        ],
+        "largest_failure": {
+          "row": 5,
+          "position": 23,
+          "token": 19,
+          "absolute_difference": 5.1081180572509766e-05,
+          "legacy": 0.9139136672019958,
+          "modern": 0.9138625860214233,
+          "tolerance": 2.027827334403992e-05
+        },
+        "all_probability_failures": [
+          {
+            "row": 4,
+            "position": 23,
+            "token": 9,
+            "absolute_difference": 1.8149614334106445e-05,
+            "legacy": 0.4961194097995758,
+            "modern": 0.4961012601852417,
+            "tolerance": 1.1922388195991516e-05
+          },
+          {
+            "row": 4,
+            "position": 23,
+            "token": 10,
+            "absolute_difference": 1.9788742065429688e-05,
+            "legacy": 0.4747314155101776,
+            "modern": 0.47475120425224304,
+            "tolerance": 1.1494628310203552e-05
+          },
+          {
+            "row": 5,
+            "position": 22,
+            "token": 15,
+            "absolute_difference": 3.224611282348633e-05,
+            "legacy": 0.3214823603630066,
+            "modern": 0.3215146064758301,
+            "tolerance": 8.429647207260133e-06
+          },
+          {
+            "row": 5,
+            "position": 22,
+            "token": 20,
+            "absolute_difference": 3.135204315185547e-05,
+            "legacy": 0.6743203997612,
+            "modern": 0.6742890477180481,
+            "tolerance": 1.5486407995224e-05
+          },
+          {
+            "row": 5,
+            "position": 23,
+            "token": 9,
+            "absolute_difference": 4.8041343688964844e-05,
+            "legacy": 0.07777998596429825,
+            "modern": 0.07782802730798721,
+            "tolerance": 3.555599719285965e-06
+          },
+          {
+            "row": 5,
+            "position": 23,
+            "token": 14,
+            "absolute_difference": 3.0454248189926147e-06,
+            "legacy": 0.008287153206765652,
+            "modern": 0.008290198631584644,
+            "tolerance": 2.165743064135313e-06
+          },
+          {
+            "row": 5,
+            "position": 23,
+            "token": 19,
+            "absolute_difference": 5.1081180572509766e-05,
+            "legacy": 0.9139136672019958,
+            "modern": 0.9138625860214233,
+            "tolerance": 2.027827334403992e-05
+          },
+          {
+            "row": 12,
+            "position": 23,
+            "token": 9,
+            "absolute_difference": 1.8149614334106445e-05,
+            "legacy": 0.4961194097995758,
+            "modern": 0.4961012601852417,
+            "tolerance": 1.1922388195991516e-05
+          },
+          {
+            "row": 12,
+            "position": 23,
+            "token": 10,
+            "absolute_difference": 1.9788742065429688e-05,
+            "legacy": 0.4747314155101776,
+            "modern": 0.47475120425224304,
+            "tolerance": 1.1494628310203552e-05
+          },
+          {
+            "row": 13,
+            "position": 22,
+            "token": 15,
+            "absolute_difference": 3.224611282348633e-05,
+            "legacy": 0.3214823603630066,
+            "modern": 0.3215146064758301,
+            "tolerance": 8.429647207260133e-06
+          },
+          {
+            "row": 13,
+            "position": 22,
+            "token": 20,
+            "absolute_difference": 3.135204315185547e-05,
+            "legacy": 0.6743203997612,
+            "modern": 0.6742890477180481,
+            "tolerance": 1.5486407995224e-05
+          },
+          {
+            "row": 13,
+            "position": 23,
+            "token": 9,
+            "absolute_difference": 4.8041343688964844e-05,
+            "legacy": 0.07777998596429825,
+            "modern": 0.07782802730798721,
+            "tolerance": 3.555599719285965e-06
+          },
+          {
+            "row": 13,
+            "position": 23,
+            "token": 14,
+            "absolute_difference": 3.0454248189926147e-06,
+            "legacy": 0.008287153206765652,
+            "modern": 0.008290198631584644,
+            "tolerance": 2.165743064135313e-06
+          },
+          {
+            "row": 13,
+            "position": 23,
+            "token": 19,
+            "absolute_difference": 5.1081180572509766e-05,
+            "legacy": 0.9139136672019958,
+            "modern": 0.9138625860214233,
+            "tolerance": 2.027827334403992e-05
+          }
+        ],
+        "minimum_top_two_margin": {
+          "legacy": 0.021387994289398193,
+          "modern": 0.021350055932998657
+        },
+        "argmax_changes": 0,
+        "maximum_scale_normalized_noise_difference": null,
+        "head_decisions": {
+          "amp": {
+            "legacy_equality_with_prototype_rows": [
+              1,
+              2,
+              3,
+              5,
+              6,
+              7,
+              9,
+              10,
+              11,
+              13,
+              14,
+              15
+            ],
+            "modern_equality_with_prototype_rows": [
+              1,
+              2,
+              3,
+              5,
+              6,
+              9,
+              10,
+              11,
+              13,
+              14
+            ],
+            "strict_comparison_mask_exact": false,
+            "strict_comparison_mismatches": [
+              {
+                "row": 7,
+                "legacy_margin": 0.0,
+                "modern_margin": 4.842877388000488e-08,
+                "legacy_generated": 0.04265817999839783,
+                "legacy_prototype": 0.04265817999839783,
+                "modern_generated": 0.042658209800720215,
+                "modern_prototype": 0.042658161371946335,
+                "same_raw_tokens_as_prototype": true,
+                "self_excluded": true,
+                "joint_improvement_exact": true
+              },
+              {
+                "row": 15,
+                "legacy_margin": 0.0,
+                "modern_margin": 4.842877388000488e-08,
+                "legacy_generated": 0.04265817999839783,
+                "legacy_prototype": 0.04265817999839783,
+                "modern_generated": 0.042658209800720215,
+                "modern_prototype": 0.042658161371946335,
+                "same_raw_tokens_as_prototype": true,
+                "self_excluded": true,
+                "joint_improvement_exact": true
+              }
+            ]
+          },
+          "mic": {
+            "legacy_equality_with_prototype_rows": [
+              1,
+              2,
+              3,
+              7,
+              9,
+              10,
+              11,
+              15
+            ],
+            "modern_equality_with_prototype_rows": [
+              1,
+              2,
+              3,
+              6,
+              9,
+              10,
+              11,
+              14
+            ],
+            "strict_comparison_mask_exact": true,
+            "strict_comparison_mismatches": []
+          }
+        },
+        "raw_improvement_rows": [
+          4,
+          12
+        ],
+        "self_projection_rows": [
+          1,
+          2,
+          3,
+          6,
+          7,
+          9,
+          10,
+          11,
+          14,
+          15
+        ],
+        "empty_projection_rows": [],
+        "retained_rows": [
+          4
+        ],
+        "returned_candidates_per_occurrence": [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        "repeated_prototypes_have_empty_buckets": true,
+        "numeric_inputs_finite": true
+      },
+      "sample": {
+        "failed_probability_elements": 7,
+        "probability_elements": 8400,
+        "failed_rows": [
+          3,
+          5,
+          11,
+          13
+        ],
+        "failed_positions_zero_based": [
+          11,
+          17,
+          22,
+          23
+        ],
+        "largest_failure": {
+          "row": 5,
+          "position": 22,
+          "token": 15,
+          "absolute_difference": 3.0517578125e-05,
+          "legacy": 0.7441645264625549,
+          "modern": 0.7441340088844299,
+          "tolerance": 1.68832905292511e-05
+        },
+        "all_probability_failures": [
+          {
+            "row": 3,
+            "position": 11,
+            "token": 13,
+            "absolute_difference": 1.545250415802002e-05,
+            "legacy": 0.14929555356502533,
+            "modern": 0.1492801010608673,
+            "tolerance": 4.985911071300507e-06
+          },
+          {
+            "row": 5,
+            "position": 22,
+            "token": 15,
+            "absolute_difference": 3.0517578125e-05,
+            "legacy": 0.7441645264625549,
+            "modern": 0.7441340088844299,
+            "tolerance": 1.68832905292511e-05
+          },
+          {
+            "row": 5,
+            "position": 22,
+            "token": 20,
+            "absolute_difference": 3.0368566513061523e-05,
+            "legacy": 0.25475776195526123,
+            "modern": 0.2547881305217743,
+            "tolerance": 7.095155239105225e-06
+          },
+          {
+            "row": 5,
+            "position": 23,
+            "token": 19,
+            "absolute_difference": 4.369765520095825e-06,
+            "legacy": 0.03315058350563049,
+            "modern": 0.03315495327115059,
+            "tolerance": 2.6630116701126096e-06
+          },
+          {
+            "row": 11,
+            "position": 17,
+            "token": 7,
+            "absolute_difference": 4.880130290985107e-06,
+            "legacy": 0.0278187058866024,
+            "modern": 0.027813825756311417,
+            "tolerance": 2.556374117732048e-06
+          },
+          {
+            "row": 13,
+            "position": 22,
+            "token": 14,
+            "absolute_difference": 2.0459294319152832e-05,
+            "legacy": 0.1752479523420334,
+            "modern": 0.17526841163635254,
+            "tolerance": 5.504959046840668e-06
+          },
+          {
+            "row": 13,
+            "position": 22,
+            "token": 20,
+            "absolute_difference": 1.4990568161010742e-05,
+            "legacy": 0.44252124428749084,
+            "modern": 0.44250625371932983,
+            "tolerance": 1.0850424885749816e-05
+          }
+        ],
+        "minimum_top_two_margin": {
+          "legacy": 0.06091964244842529,
+          "modern": 0.060910314321517944
+        },
+        "argmax_changes": 0,
+        "maximum_scale_normalized_noise_difference": 4.440892098500626e-16,
+        "head_decisions": {
+          "amp": {
+            "legacy_equality_with_prototype_rows": [
+              1,
+              2,
+              3,
+              5,
+              6,
+              7,
+              9,
+              10,
+              11,
+              13,
+              14,
+              15
+            ],
+            "modern_equality_with_prototype_rows": [
+              1,
+              2,
+              3,
+              5,
+              6,
+              9,
+              10,
+              11,
+              13,
+              14
+            ],
+            "strict_comparison_mask_exact": false,
+            "strict_comparison_mismatches": [
+              {
+                "row": 7,
+                "legacy_margin": 0.0,
+                "modern_margin": 4.842877388000488e-08,
+                "legacy_generated": 0.04265817999839783,
+                "legacy_prototype": 0.04265817999839783,
+                "modern_generated": 0.042658209800720215,
+                "modern_prototype": 0.042658161371946335,
+                "same_raw_tokens_as_prototype": true,
+                "self_excluded": true,
+                "joint_improvement_exact": true
+              },
+              {
+                "row": 15,
+                "legacy_margin": 0.0,
+                "modern_margin": 4.842877388000488e-08,
+                "legacy_generated": 0.04265817999839783,
+                "legacy_prototype": 0.04265817999839783,
+                "modern_generated": 0.042658209800720215,
+                "modern_prototype": 0.042658161371946335,
+                "same_raw_tokens_as_prototype": true,
+                "self_excluded": true,
+                "joint_improvement_exact": true
+              }
+            ]
+          },
+          "mic": {
+            "legacy_equality_with_prototype_rows": [
+              1,
+              2,
+              3,
+              5,
+              7,
+              9,
+              10,
+              11,
+              15
+            ],
+            "modern_equality_with_prototype_rows": [
+              1,
+              2,
+              3,
+              5,
+              6,
+              9,
+              10,
+              11,
+              14
+            ],
+            "strict_comparison_mask_exact": true,
+            "strict_comparison_mismatches": []
+          }
+        },
+        "raw_improvement_rows": [
+          4,
+          12
+        ],
+        "self_projection_rows": [
+          1,
+          2,
+          3,
+          5,
+          6,
+          7,
+          9,
+          10,
+          11,
+          14,
+          15
+        ],
+        "empty_projection_rows": [],
+        "retained_rows": [
+          4
+        ],
+        "returned_candidates_per_occurrence": [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        "repeated_prototypes_have_empty_buckets": true,
+        "numeric_inputs_finite": true
+      },
+      "repeat": {
+        "failed_probability_elements": 7,
+        "probability_elements": 8400,
+        "failed_rows": [
+          3,
+          5,
+          11,
+          13
+        ],
+        "failed_positions_zero_based": [
+          11,
+          17,
+          22,
+          23
+        ],
+        "largest_failure": {
+          "row": 5,
+          "position": 22,
+          "token": 15,
+          "absolute_difference": 3.0517578125e-05,
+          "legacy": 0.7441645264625549,
+          "modern": 0.7441340088844299,
+          "tolerance": 1.68832905292511e-05
+        },
+        "all_probability_failures": [
+          {
+            "row": 3,
+            "position": 11,
+            "token": 13,
+            "absolute_difference": 1.545250415802002e-05,
+            "legacy": 0.14929555356502533,
+            "modern": 0.1492801010608673,
+            "tolerance": 4.985911071300507e-06
+          },
+          {
+            "row": 5,
+            "position": 22,
+            "token": 15,
+            "absolute_difference": 3.0517578125e-05,
+            "legacy": 0.7441645264625549,
+            "modern": 0.7441340088844299,
+            "tolerance": 1.68832905292511e-05
+          },
+          {
+            "row": 5,
+            "position": 22,
+            "token": 20,
+            "absolute_difference": 3.0368566513061523e-05,
+            "legacy": 0.25475776195526123,
+            "modern": 0.2547881305217743,
+            "tolerance": 7.095155239105225e-06
+          },
+          {
+            "row": 5,
+            "position": 23,
+            "token": 19,
+            "absolute_difference": 4.369765520095825e-06,
+            "legacy": 0.03315058350563049,
+            "modern": 0.03315495327115059,
+            "tolerance": 2.6630116701126096e-06
+          },
+          {
+            "row": 11,
+            "position": 17,
+            "token": 7,
+            "absolute_difference": 4.880130290985107e-06,
+            "legacy": 0.0278187058866024,
+            "modern": 0.027813825756311417,
+            "tolerance": 2.556374117732048e-06
+          },
+          {
+            "row": 13,
+            "position": 22,
+            "token": 14,
+            "absolute_difference": 2.0459294319152832e-05,
+            "legacy": 0.1752479523420334,
+            "modern": 0.17526841163635254,
+            "tolerance": 5.504959046840668e-06
+          },
+          {
+            "row": 13,
+            "position": 22,
+            "token": 20,
+            "absolute_difference": 1.4990568161010742e-05,
+            "legacy": 0.44252124428749084,
+            "modern": 0.44250625371932983,
+            "tolerance": 1.0850424885749816e-05
+          }
+        ],
+        "minimum_top_two_margin": {
+          "legacy": 0.06091964244842529,
+          "modern": 0.060910314321517944
+        },
+        "argmax_changes": 0,
+        "maximum_scale_normalized_noise_difference": 4.440892098500626e-16,
+        "head_decisions": {
+          "amp": {
+            "legacy_equality_with_prototype_rows": [
+              1,
+              2,
+              3,
+              5,
+              6,
+              7,
+              9,
+              10,
+              11,
+              13,
+              14,
+              15
+            ],
+            "modern_equality_with_prototype_rows": [
+              1,
+              2,
+              3,
+              5,
+              6,
+              9,
+              10,
+              11,
+              13,
+              14
+            ],
+            "strict_comparison_mask_exact": false,
+            "strict_comparison_mismatches": [
+              {
+                "row": 7,
+                "legacy_margin": 0.0,
+                "modern_margin": 4.842877388000488e-08,
+                "legacy_generated": 0.04265817999839783,
+                "legacy_prototype": 0.04265817999839783,
+                "modern_generated": 0.042658209800720215,
+                "modern_prototype": 0.042658161371946335,
+                "same_raw_tokens_as_prototype": true,
+                "self_excluded": true,
+                "joint_improvement_exact": true
+              },
+              {
+                "row": 15,
+                "legacy_margin": 0.0,
+                "modern_margin": 4.842877388000488e-08,
+                "legacy_generated": 0.04265817999839783,
+                "legacy_prototype": 0.04265817999839783,
+                "modern_generated": 0.042658209800720215,
+                "modern_prototype": 0.042658161371946335,
+                "same_raw_tokens_as_prototype": true,
+                "self_excluded": true,
+                "joint_improvement_exact": true
+              }
+            ]
+          },
+          "mic": {
+            "legacy_equality_with_prototype_rows": [
+              1,
+              2,
+              3,
+              5,
+              7,
+              9,
+              10,
+              11,
+              15
+            ],
+            "modern_equality_with_prototype_rows": [
+              1,
+              2,
+              3,
+              5,
+              6,
+              9,
+              10,
+              11,
+              14
+            ],
+            "strict_comparison_mask_exact": true,
+            "strict_comparison_mismatches": []
+          }
+        },
+        "raw_improvement_rows": [
+          4,
+          12
+        ],
+        "self_projection_rows": [
+          1,
+          2,
+          3,
+          5,
+          6,
+          7,
+          9,
+          10,
+          11,
+          14,
+          15
+        ],
+        "empty_projection_rows": [],
+        "retained_rows": [
+          4
+        ],
+        "returned_candidates_per_occurrence": [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        "repeated_prototypes_have_empty_buckets": true,
+        "numeric_inputs_finite": true
+      }
+    },
+    "distinct_returned_strings_across_calls": 1,
+    "causal_limit": "Saved data separate scale differences from standardized noise and locate probability discrepancies; they do not isolate encoder-input versus decoder arithmetic contributions or establish which implementation is closer to a new independent numerical reference."
+  },
+  "execution_total": {
+    "neural_evaluations": 42,
+    "analogue_calls": 6,
+    "legacy_descriptor_bundles": 6,
+    "legacy_unused_PCA_deserializations": 1,
+    "legacy_eager64_epsilon_draws": 2,
+    "PCA_inverse_transforms": 0,
+    "wall_seconds": 25.42272802395746,
+    "maximum_sampled_process_tree_rss_bytes": 578953216,
+    "retry": false,
+    "allowance_exhausted": true,
+    "additional_models_in_saved_analysis": 0
+  },
+  "all_run_files": [
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-analogue-A2-prep-1yjhj4v8/real-run/attempt-legacy.json",
+      "bytes": 204,
+      "sha256": "273d65c8957341acffe9dcc7c64c1aa8a5aeff0c2eeeb06a7aa88660e642e453"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-analogue-A2-prep-1yjhj4v8/real-run/attempt-modern.json",
+      "bytes": 203,
+      "sha256": "7dd46d2e7d461b49e50b310d68e691006b6001df36399d8e0a0275db252b6677"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-analogue-A2-prep-1yjhj4v8/real-run/comparison.json",
+      "bytes": 14268,
+      "sha256": "611e152c92047a6d974e8b67ddc47777cca2b3317fe41e0f2fa568e246b97f34"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-analogue-A2-prep-1yjhj4v8/real-run/legacy/execution.json",
+      "bytes": 13151,
+      "sha256": "98ea83e8cc660e34d2304698ab298961cdca18d17bff4632d00bcf8cbb499588"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-analogue-A2-prep-1yjhj4v8/real-run/legacy/repeat.json",
+      "bytes": 342481,
+      "sha256": "93aa3f5bc1507b0a47c8a0090ca4cf5759899ed0dad8057ca00c143c5767fcd5"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-analogue-A2-prep-1yjhj4v8/real-run/legacy/sample.json",
+      "bytes": 342481,
+      "sha256": "93aa3f5bc1507b0a47c8a0090ca4cf5759899ed0dad8057ca00c143c5767fcd5"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-analogue-A2-prep-1yjhj4v8/real-run/legacy/zero.json",
+      "bytes": 316938,
+      "sha256": "93aebcb27a15343c2a204f75609fcc23c0c4390ae079abe97e7f04f3a9e17aec"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-analogue-A2-prep-1yjhj4v8/real-run/legacy-console.log",
+      "bytes": 1473,
+      "sha256": "709efab62909a0cd366045fe2f5dce1321b77604c580d932f73f4e9906c7f4c5"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-analogue-A2-prep-1yjhj4v8/real-run/modern/execution.json",
+      "bytes": 13190,
+      "sha256": "a60261a1a45d6114e92d3196af95b7648125986e2cd1e53bd3c2da565a351703"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-analogue-A2-prep-1yjhj4v8/real-run/modern/repeat.json",
+      "bytes": 339205,
+      "sha256": "efacb04176198a7933668e4f11bc0800332a22401f704f4a82a4d86b33ee0e54"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-analogue-A2-prep-1yjhj4v8/real-run/modern/sample.json",
+      "bytes": 339205,
+      "sha256": "efacb04176198a7933668e4f11bc0800332a22401f704f4a82a4d86b33ee0e54"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-analogue-A2-prep-1yjhj4v8/real-run/modern/zero.json",
+      "bytes": 313954,
+      "sha256": "85739f30c01e51df5c27f783e1614515847962ffcb31ca89f7fa7d9deb0b852b"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-analogue-A2-prep-1yjhj4v8/real-run/modern-console.log",
+      "bytes": 55,
+      "sha256": "884354b37e6b04a3357c1c19e413c21596db4ece60fb962fcc509557c56364cf"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-analogue-A2-prep-1yjhj4v8/real-run/mpl/fontlist-v330.json",
+      "bytes": 709580,
+      "sha256": "6233dffb6ab7948be5b036c66af10427f0c06568a56c0eef31a5ff5501ac8e3a"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-analogue-A2-prep-1yjhj4v8/real-run/worker-entry-legacy.json",
+      "bytes": 102,
+      "sha256": "03aa4d1d8aa441021b2565b900e8e8e400e76984f759da753dc48ca52ae50be0"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-analogue-A2-prep-1yjhj4v8/real-run/worker-entry-modern.json",
+      "bytes": 102,
+      "sha256": "e8d809f4a7e5ac94d090e88d7bf6ad7a89dc675cb67169647a1589cee73c7637"
+    }
+  ],
+  "post_execution_host": {
+    "MemAvailable_bytes": 13286342656,
+    "task_free_disk_bytes": 2521187340288
+  },
+  "postflight": {
+    "same_plan_SHA256": true,
+    "all_pinned_source_wheel_inventory_metadata_and_asset_bytes_match": true,
+    "byte_only_arrays_deserialized": 0
+  },
+  "scientific_disposition": {
+    "adopted": false,
+    "recommendation": "Review narrow experimental native-score analogue use for the exact dev5 resource, preserving probability FAIL, standalone AMP near-tie mismatch and sparse structural coverage. No automatic consumer API or biological/general equivalence claim.",
+    "causal_limits": "Saved data separate scale differences from standardized noise and locate probability discrepancies; they do not isolate encoder-input versus decoder arithmetic contributions or establish which implementation is closer to a new independent numerical reference.",
+    "no_new_tolerance_precision_weight_threshold_or_selector_change": true,
+    "old_D41_dev3_and_dev4_preserved": true
+  },
+  "source_delivery": {
+    "peptidemt_git_HEAD": "1f8c444e4619499cae8ad9970122c5f40adf6127",
+    "HydrAMP_original_base": "6590d2f4c2963f25d30669052a4c4a857e0e7279",
+    "modern_source": "local/uncommitted; original Git base does not identify the port",
+    "commit_push_release_or_author_contact": false
+  },
+  "retention": {
+    "paths": [
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-analogue-A2-prep-1yjhj4v8"
+    ],
+    "owner": "HydrAMP#4 / PeptideMT#32",
+    "reason": "Active scientific disposition and exact failure/output evidence",
+    "review_by": "2026-11-18",
+    "remove_condition": "Owner disposition and durable evidence retention agreed; shared assets/environments are not task-owned cleanup"
+  }
+}

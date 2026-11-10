@@ -1,0 +1,89 @@
+{
+  "schema": "peptidemt.continuation_plan_review@1",
+  "date": "2026-11-04",
+  "revision": 2,
+  "owner_issue": "uibcdf/peptidemt#33",
+  "previous_plan": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/continuation-plan-review-ca3nc8q3/continuation_plan_revision1.md",
+    "bytes": 11566,
+    "sha256": "6c9eb1fa0227d6c7afdf246683647e660423783fefd70d97cb8030bf3ffbc153"
+  },
+  "revised_documents": [
+    {
+      "path": "devguide/continuation_plan_2026_11_04.md",
+      "bytes": 17569,
+      "sha256": "e4c8bcdf07f8c71a50f7f2c84f2978835d2abf10e6a3f12c719b270a9e70eaf0"
+    },
+    {
+      "path": "devguide/README.md",
+      "bytes": 34786,
+      "sha256": "1cf455bfbdd719e55076002c7dcb8c22b067a46ba3bbdbb8c36f804fd2f8fe46"
+    },
+    {
+      "path": "devguide/pending_proposals/scientific_capability_audit.md",
+      "bytes": 4175,
+      "sha256": "fbeddb9f604822383b126f0fd9dedf41a8060afc4193e51b2f70dea89d6fe0ea"
+    }
+  ],
+  "review_findings": [
+    "Numbering implied false serial dependencies",
+    "Study preparation lacked a bounded first question and stopping point",
+    "Consumer receiving contract was scheduled too late; actual PeptideMT redesign milestone absent",
+    "Some blocker reporting was conflated with successful completion",
+    "Too many simultaneous directions and unbounded provider modernization scope"
+  ],
+  "changes": [
+    "Three first-cycle outputs; one main implementation plus one bounded analysis task",
+    "Receiving brief before real execution; distinct provider qualification and consumer workflow milestones",
+    "Independent maintenance and target-case planning; no full-HydrAMP prerequisite",
+    "Explicit completion versus unresolved blocker; concrete comparison brief",
+    "Authority/dependency table; unchanged original A1 artificial authorization and current pause"
+  ],
+  "inputs": [
+    {
+      "path": "devguide/evidence/hydramp_analogue_A1_pause.json",
+      "bytes": 2238,
+      "sha256": "8604a7469cb48dc6476b7086adebd4f4117a9ed2acad7495983ff180dcf979a6"
+    },
+    {
+      "path": "devguide/evidence/hydramp_analogue_A1_authorization.json",
+      "bytes": 1032,
+      "sha256": "f65a40b983ec60613f77f481a68336c35f74fdf4dfc10939d460926f38ab5457"
+    },
+    {
+      "path": "devguide/peptidemt_scientific_audit_2026_11_04.md",
+      "bytes": 33563,
+      "sha256": "d468e8928cbe32c4756d1b9ec445c539db9271a275fb665464dbabd3ef48b8a1"
+    }
+  ],
+  "runtime_sources_unchanged": true,
+  "runtime_snapshot_receipt": "devguide/evidence/peptidemt_scientific_audit_2026_11_04.json",
+  "new_model_calls": 0,
+  "implementation_resumed": false,
+  "new_scientific_decisions": [],
+  "commits_pushes_releases_author_contacts": [],
+  "retention_review_date": "2026-11-14",
+  "checks": {
+    "reporting_guard": {
+      "command": "python -m pytest --receptor=llm tests/test_reporting_protocol.py",
+      "exit_code": 0,
+      "passed": 1,
+      "seconds": 0.11,
+      "python": "3.14.7",
+      "receptor": "1.2.2+2.gb9676f8"
+    },
+    "generated_indexes": {
+      "command": "python devtools/devguide_index.py --check",
+      "exit_code": 0
+    },
+    "whitespace_diff_exit_code": 0,
+    "relative_file_links": {
+      "documents": 3,
+      "checked": 123,
+      "missing": 0,
+      "external_targets_and_anchors_not_exhaustively_checked": true
+    },
+    "previous_and_current_artifact_hashes_verified": true,
+    "scope": "Documentation and plan integrity, no scientific qualification"
+  }
+}

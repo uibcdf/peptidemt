@@ -1,0 +1,24 @@
+{
+  "schema": "peptidemt.mdm2_node_feasibility_closeout@1",
+  "recorded_utc": "2026-11-10T16:07:34.378900+00:00",
+  "receipt": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/evidence/mdm2_node_feasibility_2026_11_10.json",
+    "bytes": 15821,
+    "sha256": "e5794875bf3169bfb0fb29c12d5764f7e4595057f0d7a3735688669c6f7e4177"
+  },
+  "reports": [
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/mdm2_node_feasibility.md",
+      "bytes": 16155,
+      "sha256": "d345a18731adeb87f32d6d904a1b8d1eb64c4978cc45a11adb4d2001171c49ef"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/mdm2_input_profile_preparation.md",
+      "bytes": 8839,
+      "sha256": "97c4f02c2bb3917f65870a3c952b947eac471bf046303807e81b5e62072312d7"
+    }
+  ],
+  "verification": "Read-only chemistry request completed; one diagnosed serialization retry retained. Documentation checks pass; owner/parent comments read back exactly. No model or docking qualification claimed.",
+  "accepted_original_receipts_unchanged": true,
+  "commit_push_or_release": false
+}

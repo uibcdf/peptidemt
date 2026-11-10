@@ -1,0 +1,69 @@
+{
+  "schema": "peptidemt.hydramp_amp_reference_execution_closeout@1",
+  "date": "2026-11-03",
+  "recorded_at_utc": "2026-11-03T19:08:34.281293+00:00",
+  "owner_issue": "uibcdf/hydramp#1",
+  "consumer_issue": "uibcdf/peptidemt#8",
+  "status": "Approved full-head reference completed and exact results received in both existing issues; scientific disposition pending",
+  "execution": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/evidence/hydramp_amp_reference_execution.json",
+    "bytes": 20690,
+    "sha256": "6db554ac146081f008f02eb464d8cc799b3932de3c1ea86f44374628c75d22e3"
+  },
+  "publication": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/evidence/hydramp_amp_reference_execution_issue_updates.json",
+    "bytes": 981,
+    "sha256": "606338f0ee346e4cae28720c1c2271bcaeab271bdb15bbc7ad516dde0cd87aab"
+  },
+  "checks": {
+    "frozen_receipt_file_references_verified": 42,
+    "plan_pins_verified": 22,
+    "relative_file_links_verified": 207,
+    "legacy_amp_and_license_unchanged": true,
+    "approved_reference_forwards_completed": 24,
+    "remaining_reference_allowance": 0,
+    "tests": "17 guarded artificial checks already passed; no source changes since execution; lint/format and doc/index checks pass",
+    "status": "Numerical evidence recorded,scientific disposition remains pending"
+  },
+  "maintained_records": [
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/hydramp_amp_reference.md",
+      "bytes": 11237,
+      "sha256": "d1c50792652270e1a3396d2bfe804fc06a2302ca2e29f9fc7396ef31d810722e"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/hydramp_amp_numerics.md",
+      "bytes": 14521,
+      "sha256": "a2b552f0ffd4186a41ddaacb043155e32daeb10638bf5de686a0c8c53df64044"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/hydramp_rank_relevance.md",
+      "bytes": 10162,
+      "sha256": "18d4d67a6f3ffe558ef8ef91bc310613bdeca8e2717e2e6d1ed03845ba620431"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/README.md",
+      "bytes": 25312,
+      "sha256": "6d51053b269cc342b547673aeeb75c502612dc38925cc2847a1ad2bc9bb89245"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/decisions.md",
+      "bytes": 78164,
+      "sha256": "f609f423a9693e4307aa5402399390ab6ef0b4e682d0856f169afcb707aeb300"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/pending_proposals/qualify_hydramp_increment_2.md",
+      "bytes": 28468,
+      "sha256": "6025d482acab1a8099b6a2df72052d31084537edfe9da5298f6c8f7001404546"
+    }
+  ],
+  "interpretation": "Complete modern AMP head has lower aggregate maximum/mean/RMS error on192 retained contexts;91modern/58native/43equal AMP scalar error comparisons. Original reversal corrected and2ties split;7new modern ties persist. No general/biological superiority,uniform pointwise improvement or acceptance inferred.",
+  "remaining_reference_forwards": 0,
+  "remaining_causal_trace_model_activation_allowance": 0,
+  "production_source_weights_thresholds_chemistry_descriptors_selectors_changed": false,
+  "scientific_acceptance": false,
+  "commit_push_release": false,
+  "ci_or_biological_qualification_claim": false,
+  "temporary_resources": "Exact task resources and all original evidence retained for investigator review2026-11-13. No shared environments/resources cleaned.",
+  "next_scientific_decision": "Review existing proposed limited dev3 disposition in PeptideMT#8; this evidence supports retaining the modern implementation,without accepting the deviation or completing H0-H4 automatically. New scientific execution still needs its own exact finite budget."
+}

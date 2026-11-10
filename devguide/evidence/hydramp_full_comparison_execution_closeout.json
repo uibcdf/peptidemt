@@ -1,0 +1,29 @@
+{
+  "schema": "peptidemt.hydramp_full_comparison_execution_closeout@1",
+  "recorded_at_utc": "2026-11-03T16:39:22.462954+00:00",
+  "issue": "uibcdf/peptidemt#8",
+  "status": "authorized execution complete; diagnostic FAIL retained; scientific acceptance pending",
+  "execution_receipt": "devguide/evidence/hydramp_full_comparison_execution.json",
+  "execution_receipt_sha256": "6a951ad5b76aac167c4525c5fd69cd94d1cf8233107b51d17fd0e2d6022729cb",
+  "producer_receipt_sha256": "5ba48c835f1a4c3dbdebc38dee48e3df0d6f7601fb7c8676563c36f696bf2c5e",
+  "checks": {
+    "pinned_local_artifacts_verified": 25,
+    "maintained_document_relative_links_resolved": 170,
+    "report_indexes_current": true,
+    "reporting_protocol_pytest": {
+      "passed": 1,
+      "receptor": "published 1.2.2 in isolated candidate worker"
+    },
+    "git_diff_check": "pass",
+    "published_result_body_verified": true
+  },
+  "published_result": "https://github.com/uibcdf/peptidemt/issues/8#issuecomment-6609787381",
+  "new_model_evaluations_during_closeout": 0,
+  "remaining_neural_allowance": 0,
+  "commit_or_push": false,
+  "notes": [
+    "Historical preparation receipts remain unchanged.",
+    "Documentation checks are not scientific or CI qualification.",
+    "All generated sequences, arrays and checkpoint data remain local."
+  ]
+}

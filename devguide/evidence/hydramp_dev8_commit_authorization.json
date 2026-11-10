@@ -1,0 +1,196 @@
+{
+  "schema": "peptidemt.hydramp_dev8_commit_authorization@1",
+  "recorded_at_utc": "2026-11-06T04:06:08.963328+00:00",
+  "authority": "Explicit investigator approval of the concrete single local dev8 commit after the final source review",
+  "owner": "uibcdf/hydramp",
+  "branch": "peptidemt-generation-results",
+  "parent_commit": "a77baff9de97e8ab4ae101b9b0c79122dea22ce3",
+  "expected_tree": "cc2c11506e0df4a6238c774e85a12ce0ce82fc52",
+  "commit_subject": "Add independent generation results and provenance profile",
+  "path_count": 21,
+  "paths": [
+    {
+      "path": "ports/pytorch/pyproject.toml",
+      "mode": "100644",
+      "sha256": "f82a5e1eccc582b8f63d9f3eaca4a676b10939b1cda7b766cf0032ba8fbd1a8b",
+      "git_blob": "7923404500ee16a9ff1bc682bbacae9671502e4c",
+      "bytes": 942,
+      "new_file": false
+    },
+    {
+      "path": "ports/pytorch/src/hydramp_torch/__init__.py",
+      "mode": "100644",
+      "sha256": "f61313c2a83238b4861bd9cd28777d83f2e4f8dd2be63f5c7163f95061571d84",
+      "git_blob": "baae96079d8c4ad16bd101444eb080e8639ba1bf",
+      "bytes": 1277,
+      "new_file": false
+    },
+    {
+      "path": "ports/pytorch/src/hydramp_torch/_version.py",
+      "mode": "100644",
+      "sha256": "17911c4e4cef5142dbecc32637f9c2275856d85ec81cf4bfffa7f7913acf253b",
+      "git_blob": "d21416eda0ad06472f3eb80c32866e2a827cd0ad",
+      "bytes": 109,
+      "new_file": true
+    },
+    {
+      "path": "ports/pytorch/src/hydramp_torch/codec.py",
+      "mode": "100644",
+      "sha256": "549ce530a73b019aeace0c6fa44dd83f031983c73d3593adda40d83c8fc78d48",
+      "git_blob": "36ce00f60378a1a031a2b5cc27774028ee0411c9",
+      "bytes": 1585,
+      "new_file": false
+    },
+    {
+      "path": "ports/pytorch/src/hydramp_torch/inference.py",
+      "mode": "100644",
+      "sha256": "fa03c15eaa62a441e7c13687a00a8988ef332bd42a9f10a0b294c97dc34a1426",
+      "git_blob": "ddee1e9d16535e5b4a500d59e5d6e7d1073686c5",
+      "bytes": 11909,
+      "new_file": false
+    },
+    {
+      "path": "ports/pytorch/src/hydramp_torch/integrations.py",
+      "mode": "100644",
+      "sha256": "4956217f6aff8a5f392a4a6118e76f7bdffd200492a2ab714a23db5ccd907cd5",
+      "git_blob": "08ad194c097a0cc548bfca71501ed69ee3fd7e3a",
+      "bytes": 1380,
+      "new_file": true
+    },
+    {
+      "path": "ports/pytorch/src/hydramp_torch/profiles.py",
+      "mode": "100644",
+      "sha256": "315a8fb1f500926ad80429cd01259e27642c1191b000780300744fe4742dea7d",
+      "git_blob": "3459f9dea3d06094ec76cad32a5281bc2c1eb63e",
+      "bytes": 5748,
+      "new_file": true
+    },
+    {
+      "path": "ports/pytorch/src/hydramp_torch/properties.py",
+      "mode": "100644",
+      "sha256": "91cefe4ba5f80e070c7a028759af86efa71456ca577845447ed53fab9b4f3fba",
+      "git_blob": "11b4c3657e1aa86e6bf20c8413af81af7a112426",
+      "bytes": 3144,
+      "new_file": false
+    },
+    {
+      "path": "ports/pytorch/src/hydramp_torch/results.py",
+      "mode": "100644",
+      "sha256": "a0fe96f172e032726948405abb89f40cc1ddadba702f77ec278caea21b4ee156",
+      "git_blob": "e231a5f446eea87fd9d233ffd9b7d5edb74cb6c2",
+      "bytes": 17350,
+      "new_file": true
+    },
+    {
+      "path": "ports/pytorch/src/hydramp_torch/vocabulary.py",
+      "mode": "100644",
+      "sha256": "458544eb2e10887b19e4e83eaeec32af75f39e4c4d530553a101df1b6501b849",
+      "git_blob": "af9e6f78aa876c5b1ed48045ca0cc6d910b4a09c",
+      "bytes": 813,
+      "new_file": true
+    },
+    {
+      "path": "ports/pytorch/tests/test_generation_profiles.py",
+      "mode": "100644",
+      "sha256": "315a381ee9b6561e3c391054b3f2bf649393d45310c4828d44cfcd996b931f5c",
+      "git_blob": "60ec69502cd8839d03d15670b19a36995444c97a",
+      "bytes": 4388,
+      "new_file": true
+    },
+    {
+      "path": "ports/pytorch/tests/test_generation_results.py",
+      "mode": "100644",
+      "sha256": "efd54c44f5ff2c886f87bec4322a0f4cfce64fbbc1b8ad19b9c5e7e3488bcea1",
+      "git_blob": "71450a1a33fcb47d068fc08518f34c776c86928f",
+      "bytes": 14000,
+      "new_file": true
+    },
+    {
+      "path": "ports/pytorch/tests/test_result_integrations.py",
+      "mode": "100644",
+      "sha256": "f1b6d5e56124efec7963e8752a1e75e47d1eef1baf61fb0a2ee89728d70b5cb9",
+      "git_blob": "6ade80d04af121571cd4a7da7602c7baacaba9b4",
+      "bytes": 3972,
+      "new_file": true
+    },
+    {
+      "path": "ports/pytorch/uv.lock",
+      "mode": "100644",
+      "sha256": "3bc9972489805d4c0508aca2e9d282208f89076f20f8d371c97200faa49d059b",
+      "git_blob": "e8ddab462f229e164dce2034f6683f21aec06c53",
+      "bytes": 127285,
+      "new_file": false
+    },
+    {
+      "path": "AGENTS.md",
+      "mode": "100644",
+      "sha256": "4cdf18a9fea666945b1e5ff5c3cb31f17b8a628bddd6526aaf7a1e8d3c8b6b61",
+      "git_blob": "3773b321c8e395567ad3f022520f561cf8ace3d6",
+      "bytes": 6215,
+      "new_file": false
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "sha256": "bf2de4257044cc7b318a8a12c575fd2d70d124f83133866e791593bc4c16f94e",
+      "git_blob": "4b94d29cff89150d0ce054ce6beb83d28b6a15b6",
+      "bytes": 10619,
+      "new_file": false
+    },
+    {
+      "path": "devguide/README.md",
+      "mode": "100644",
+      "sha256": "c515236087057e7ea876208a751e6d012ef6a6cc1e71eaf734382981e34fa223",
+      "git_blob": "83d5749a88d211336b06497d0a5d099f42151f90",
+      "bytes": 9915,
+      "new_file": false
+    },
+    {
+      "path": "devguide/generation_results.md",
+      "mode": "100644",
+      "sha256": "f26e935c6e802e4451c765ddda0dfb48a6cc1b56b511daa42c5650a99b63e746",
+      "git_blob": "ae76f1424510dc13019975eca8d5d6efc9ac585c",
+      "bytes": 6202,
+      "new_file": true
+    },
+    {
+      "path": "ports/pytorch/README.md",
+      "mode": "100644",
+      "sha256": "6d2a505988c132d517a55168ee34845db730db2c92497a209c4fc215f6fa97ee",
+      "git_blob": "a9e98b69536e538dd5868a6af00db7aa1f5801b1",
+      "bytes": 5299,
+      "new_file": false
+    },
+    {
+      "path": "devguide/pytorch_product_status.md",
+      "mode": "100644",
+      "sha256": "53b84390034a7e5d3165cc3d63c677bf8db07a6431eaa08f6ebcd976805422a0",
+      "git_blob": "8694772b83526405f6b84886764ec6e1fd328e7d",
+      "bytes": 9262,
+      "new_file": false
+    },
+    {
+      "path": "devguide/pytorch_product_status_dev6_20261105.md",
+      "mode": "100644",
+      "sha256": "adc1b92692366f16f41bdf9b590c5ca6ccfdc05f7046144f98409d97a44cdded",
+      "git_blob": "0529f39416649157e767b480d999e7fc2169253d",
+      "bytes": 10006,
+      "new_file": true
+    }
+  ],
+  "proposal_path": "local_data/hydramp-dev8-source-review-rosd6pob/commit-proposal.json",
+  "proposal_sha256": "c1f6cded4546dc93832eeced77aa7d6526e56d82b8a32ac44f7ac8c12caaffc3",
+  "source_review_receipt_sha256": "e4fa762a0c67b6ce215692f72081c4e07abf3afeec770d20538bf03512d7126d",
+  "scope_excludes": [
+    "push",
+    "merge",
+    "tag",
+    "package publication",
+    "model execution",
+    "new scientific acceptance",
+    "third-party contact"
+  ],
+  "one_commit_only": true,
+  "prior_D50_no_commit_clause_superseded_for_this_action_only": true,
+  "earlier_receipts_unchanged": true
+}

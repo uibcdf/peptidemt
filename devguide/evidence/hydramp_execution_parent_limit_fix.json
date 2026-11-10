@@ -1,0 +1,76 @@
+{
+  "schema": "peptidemt.hydramp_execution_parent_limit_fix@1",
+  "date": "2026-11-03",
+  "recorded_at_utc": "2026-11-03T23:49:03.487117+00:00",
+  "issue": "uibcdf/peptidemt#8",
+  "status": "Qualifier fixed and guarded without scientific execution; corrected plan requires fresh approval",
+  "failed_execution": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/evidence/hydramp_execution_adapter_failed_execution.json",
+    "bytes": 4618,
+    "sha256": "3151d15891a9f7adf56f9ee1f68f7c42687c44f0bcd154de72663107a73aa94f"
+  },
+  "correction": "Apply parent soft1GiB/hard8GiB, retaining an inheritable hard ceiling for the planned8GiB worker. Return nonzero on incomplete/failed case while preserving its observations.",
+  "regression_guard": "devtools/tests/test_hydramp_execution_qualification.py::test_parent_soft_limit_preserves_inherited_worker_hard_ceiling",
+  "tests": {
+    "exit_code": 0,
+    "wall_seconds": 0.6706403498537838,
+    "child_kernel_HWM_rss_bytes": 44777472,
+    "tests": 4,
+    "model_PCA_descriptor_Macrel_calls": 0,
+    "scope": "Four corrected qualification-harness guards, including real tiny stdlib subprocess limit inheritance; CPU0/1 one thread;parent soft1GiB/hard8GiB for inheritance test only;no scientific imports/allocations;20s cap"
+  },
+  "corrected_plan": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/live-plan-corrected.json",
+    "bytes": 96839,
+    "sha256": "31317bd3023165300d9558134e73c584a3bdfa25e2c619a200cff11c65c33608"
+  },
+  "original_plan": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/live-plan.json",
+    "bytes": 95905,
+    "sha256": "1d4679f27d06d95bd402b1f9239e8dc1fc5120a722da5057be526220985da665"
+  },
+  "consumer_wheel_unchanged": "18b1cb18b9662092203aad9c64d45bc0d61a862577297c13a664572dbdbc3e83",
+  "original_HydrAMP_candidate_unchanged": "81761e0d48d92f0956e0afc28b3b4154f16032de53c666fd2cfbb53606102ed7",
+  "new_model_PCA_descriptor_Macrel_calls": 0,
+  "scientific_acceptance": false,
+  "new_authorization_present": false,
+  "new_model_attempt_present": false,
+  "retention_review": "2026-11-13",
+  "artifacts": {
+    "/home/liliana/repos@uibcdf/peptidemt/devtools/hydramp_execution_qualification.py": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/devtools/hydramp_execution_qualification.py",
+      "bytes": 7697,
+      "sha256": "59da342554fd66e6b4112de617dbcbe38f45f55af1bce0876e62a2d6dfca69c3"
+    },
+    "/home/liliana/repos@uibcdf/peptidemt/devtools/tests/test_hydramp_execution_qualification.py": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/devtools/tests/test_hydramp_execution_qualification.py",
+      "bytes": 3283,
+      "sha256": "fab72270af125605c5e286c719ce1841cb345d37c2c7e960dab9b20da46c76bd"
+    },
+    "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/tests/parent-limit-fix.xml": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/tests/parent-limit-fix.xml",
+      "bytes": 899,
+      "sha256": "e41cdb98372e0f6fab4e0229311ab538b2ba5a9c118c5363f88958fa0d991bf9"
+    },
+    "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/logs/parent-limit-fix-tests.log": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/logs/parent-limit-fix-tests.log",
+      "bytes": 32,
+      "sha256": "feeb1be4498452af38f42524ad8ea5317267394e23fae3ddd7a8f996016f730e"
+    },
+    "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/parent-limit-fix-tests-execution.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/parent-limit-fix-tests-execution.json",
+      "bytes": 384,
+      "sha256": "fa76aafc62da03120bd0a1c0a98fb15817876d3beb3a2e99368ed570a053f924"
+    },
+    "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/live-plan-corrected.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/live-plan-corrected.json",
+      "bytes": 96839,
+      "sha256": "31317bd3023165300d9558134e73c584a3bdfa25e2c619a200cff11c65c33608"
+    },
+    "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/failed-first-attempt/source/devtools/hydramp_execution_qualification.py": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/failed-first-attempt/source/devtools/hydramp_execution_qualification.py",
+      "bytes": 6811,
+      "sha256": "b33b08499badd4e68080429d6a3cfaa181eace3d71259a46c41b9667a5bfaad5"
+    }
+  }
+}

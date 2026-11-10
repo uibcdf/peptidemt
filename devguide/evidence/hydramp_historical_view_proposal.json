@@ -1,0 +1,282 @@
+{
+  "schema": "peptidemt.hydramp_historical_view_proposal@1",
+  "recorded_at_utc": "2026-11-05T02:37:17.424164+00:00",
+  "local_date": "2026-11-04",
+  "status": "Review proposal v1; experimental/model view and implementation unapproved",
+  "owner_issue": "uibcdf/hydramp#3",
+  "consumer_issue": "uibcdf/peptidemt#32",
+  "product_issue": "uibcdf/hydramp#4",
+  "authority": "Continue preparing the chemical-entity/unchanged-sequence relation after C0; preparation is not scientific adoption or a model allowance",
+  "proposal": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/hydramp_historical_view_proposal.md",
+    "bytes": 12785,
+    "sha256": "30f8b637c4c8dde4949c9080381a002dc98f38f5e2e4f5f1c03273ba02463376"
+  },
+  "review_manifest": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-historical-view-vt45bq1w/review-manifest.json",
+    "bytes": 78963,
+    "sha256": "e14fd7272e4894bb34cc4afe64ef8422c91474ace0c73cc201ea2e64fd5c049e"
+  },
+  "task_directory": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-historical-view-vt45bq1w",
+  "manifest_source": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-C0-audit-yqpagjub/measured-panel-audit.json",
+    "bytes": 59097,
+    "sha256": "ae1ac16ad7f47f571a21a54dc4a45c3a3d7f1b0dae3e3eb62e6c8ccfc1eec9db"
+  },
+  "source_and_contract_files": [
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/hydramp_C0_data_audit.md",
+      "bytes": 13963,
+      "sha256": "5a8d42eda450f45bbce72092ca5444e0fb2c4377dc32cc5d2a301dde621920c0"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/evidence/hydramp_C0_data_audit.json",
+      "bytes": 46931,
+      "sha256": "570e87304ceb2240c716c327c48962d83b9578f0dd720d8ada440bd293b42df5"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/evidence/hydramp_C0_data_audit_closeout.json",
+      "bytes": 2488,
+      "sha256": "45402c8de29d7788a6dd39c5ddb3bcfd5a4247da3ab5c5ef6ef757e7f1b9f3d1"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/hydramp_scientific_comparison_protocol.md",
+      "bytes": 25314,
+      "sha256": "e0ad05abbd23547dc29934debfcf0941d31defd155820a13faf979f51698ee27"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/hydramp_redesign_work_order.md",
+      "bytes": 17356,
+      "sha256": "7e734c104510552f10d03b5e07ca7095aca6ff49ba76e11cf4d2fce9b9d8e8c4"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/src/peptidemt/inputs.py",
+      "bytes": 5827,
+      "sha256": "0d56b4089d95fadeda2b1f9152a0e8520ee8d2d4c6ee8efbae49bf2344e07b4e"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/src/peptidemt/_analogue_receiving.py",
+      "bytes": 16483,
+      "sha256": "1ffc5d64c16003b16cec9612df837ee54edd2fd42d221890d9b26649b8490d8f"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/molsysmt/molsysmt/build/add_missing_terminal_cappings.py",
+      "bytes": 23970,
+      "sha256": "910f0ab4c75a72afd6c45a568a1e22d5890ac59cd74f6106cf0d214012c2d954"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/molsysmt/molsysmt/data/databases/terminal_cappings/n_terminal.json",
+      "bytes": 1064,
+      "sha256": "c8347c759a3dad77b5b07f538a3daab186e6e125862ee213d77ea76ddcecd114"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/molsysmt/molsysmt/physchem/get_mass.py",
+      "bytes": 6342,
+      "sha256": "b22b50a788c245aa86ad6e34eb644a8ef32dc3ea065e77968a26ec0c4860c257"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-C0-audit-yqpagjub/source-pages/hydramp_fulltext.xml",
+      "bytes": 425006,
+      "sha256": "a9f0e232ae428abe2fba01eefa294babbf11d20b3106bf2ba62d39dabe1cea62"
+    },
+    {
+      "path": "/home/liliana/amp_papers/s41467-023-36994-z.pdf",
+      "bytes": 2141006,
+      "sha256": "da5ab97c9c9ba850e5758e9d4e9f991a8448e5725d089d928cd413390e947093"
+    }
+  ],
+  "reproduction_script": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-historical-view-vt45bq1w/prepare_review_manifest.py",
+    "bytes": 6287,
+    "sha256": "32a2c13f6880210de5fac1aa6b8a3e5961256ad21e8186cacbe293337e605390"
+  },
+  "receipt_builder": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-historical-view-vt45bq1w/build_receipt.py",
+    "bytes": 4885,
+    "sha256": "87e353ec0f24a5834f2b10191748775b0e3fdbbb228cf079412524e2880119b2"
+  },
+  "independent_PDF_table_column_check": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-historical-view-vt45bq1w/historical_table2_pdf_layout.txt",
+    "bytes": 43988,
+    "sha256": "049ec6ebd09fcc636b8266a2e72c35d3583109bb47f167d6352db77dffc1bb68"
+  },
+  "proposed_scope": "Proposed historical fixed-input diagnostic, E. coli ATCC 25922 observations; no generation or independent-performance claim",
+  "review_inventory_totals": {
+    "table_occurrences": 42,
+    "distinct_raw_strings": 39,
+    "table_occurrences_by_table": {
+      "Tab1": 11,
+      "Tab2": 31
+    },
+    "raw_MIC_comparators": {
+      "=": 35,
+      ">": 7
+    },
+    "repeated_strings_with_different_table_observations": 3,
+    "exact_published_pool_overlap_distinct_strings": 6,
+    "current_annotated_consumer_compatible_occurrences": 0,
+    "independent_test_members_qualified": 0
+  },
+  "repeated_string_observations": [
+    {
+      "sequence_sha256": "747b8e6bdac2099167b13616bb74f5e04533f177b038aea864861d871dea6604",
+      "source_names": [
+        "Pexiganan",
+        "Pexiganan"
+      ],
+      "source_occurrence_ids": [
+        "hydramp2023:Tab1:xml-tr-1",
+        "hydramp2023:Tab2:xml-tr-38"
+      ],
+      "raw_MIC_values_ug_per_mL": [
+        "4",
+        "16"
+      ],
+      "distinct_reported_values": 2,
+      "interpretation": "distinct table observations; no averaged, minimum, preferred, independent-replicate or corrected label assigned"
+    },
+    {
+      "sequence_sha256": "3dce732542e48a8fdb8c0e73e07ab3f2141357fe94fb04000a5884888d803072",
+      "source_names": [
+        "Hydraganan-1",
+        "Hydraganan-1"
+      ],
+      "source_occurrence_ids": [
+        "hydramp2023:Tab1:xml-tr-2",
+        "hydramp2023:Tab2:xml-tr-39"
+      ],
+      "raw_MIC_values_ug_per_mL": [
+        "2",
+        "8"
+      ],
+      "distinct_reported_values": 2,
+      "interpretation": "distinct table observations; no averaged, minimum, preferred, independent-replicate or corrected label assigned"
+    },
+    {
+      "sequence_sha256": "62481d6aaf6091e701b7b9f6c40fc279be1dd692ec68d24f0ec9d4855bcc7e95",
+      "source_names": [
+        "Hydraganan-2",
+        "Hydraganan-2"
+      ],
+      "source_occurrence_ids": [
+        "hydramp2023:Tab1:xml-tr-3",
+        "hydramp2023:Tab2:xml-tr-40"
+      ],
+      "raw_MIC_values_ug_per_mL": [
+        "16",
+        "128"
+      ],
+      "distinct_reported_values": 2,
+      "interpretation": "distinct table observations; no averaged, minimum, preferred, independent-replicate or corrected label assigned"
+    }
+  ],
+  "scientific_gates": {
+    "chemical_view_approved": false,
+    "assay_scope_approved": false,
+    "complete_entity_identity_qualified": false,
+    "native_class_truth_qualified": false,
+    "source_use_review_complete": false,
+    "checkpoint_exposure_resolved": false,
+    "similarity_rule_approved": false,
+    "exact_execution_authorized": false
+  },
+  "runtime": {
+    "python": "3.14.7 | packaged by conda-forge | (main, Sep  2 2026, 21:08:32) [GCC 15.3.0]",
+    "executable": "/home/liliana/Myopt/miniconda3/envs/molsyssuite@uibcdf_3.14/bin/python",
+    "imports": "standard library only",
+    "model_inputs_constructed": 0,
+    "model_calls": 0,
+    "molecular_build_mass_alignment_calls": 0,
+    "unit_conversions": 0,
+    "network_calls": 0
+  },
+  "scientific_interpretation": {
+    "retain_amide_on_source": true,
+    "sequence_view_explicitly_omits_unencoded_annotation": true,
+    "source_chemistry_erasure_permitted": false,
+    "chemical_equivalence_claimed": false,
+    "annotated_public_consumer_gate_unchanged": true,
+    "new_native_input_or_unannotated_copy_constructed": false,
+    "same_strain_different_table_values_not_averaged_or_preferred": true,
+    "no_new_clinical_or_training_class_label": true,
+    "no_independent_cohort_qualified": true,
+    "mass_unit_ranking_is_not_assumed_molar_ranking": true,
+    "native_training_pooled_target_vs_strain_specific_assay_distinguished": true
+  },
+  "owner_capability_observations": {
+    "molsysmt_commit": "71fbe4f46d3c70e4e973c8025f01752a8c9b1084",
+    "static_only": [
+      "NH2 terminal template present",
+      "public physchem.get_mass present",
+      "NME documented as N-methyl amide; not interchangeable with primary amide"
+    ],
+    "molecular_operation_executed": false,
+    "exact_preparation_or_mass_qualified": false,
+    "new_owner_defect_or_missing_operation_established": false
+  },
+  "workspace_inspection": {
+    "official_tool": "uibcdf/molsyssuite devtools/scripts/suite_status.py",
+    "bounded_repositories": [
+      "peptidemt",
+      "molsysmt"
+    ],
+    "fetch": true,
+    "process_exit": 1,
+    "cause": "attention state: preserved PeptideMT dirty work and MolSysMT behind upstream; no fetch error",
+    "snapshot": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-historical-view-vt45bq1w/suite-status.json",
+      "bytes": 16676,
+      "sha256": "708ed76871f831380b2b11da53a40814319a20fde62a019a794637f1e2ab91f5"
+    },
+    "summary": [
+      {
+        "repository": "uibcdf/peptidemt",
+        "initiative": "",
+        "root": "/home/liliana/repos@uibcdf/peptidemt",
+        "branch": "main",
+        "head": "1f8c444e4619",
+        "upstream": "origin/main",
+        "ahead": 0,
+        "behind": 0,
+        "error": "",
+        "healthy": false,
+        "state": "attention",
+        "dirty_entries": 265
+      },
+      {
+        "repository": "uibcdf/molsysmt",
+        "initiative": "stabilization",
+        "root": "/home/liliana/repos@uibcdf/molsysmt",
+        "branch": "main",
+        "head": "71fbe4f46d3c",
+        "upstream": "origin/main",
+        "ahead": 0,
+        "behind": 93,
+        "error": "",
+        "healthy": false,
+        "state": "attention",
+        "dirty_entries": 0
+      }
+    ],
+    "disposition": "Preserve both source revisions for the existing audit. No merge, pull, rebase, stash, commit or worktree cleanup."
+  },
+  "canonical_guide": {
+    "byte_identical": true,
+    "sha256": "850a98f0757a18734b328332c88e4622f60bdef097148a1fd59b9f009846bfe4"
+  },
+  "preserved_approvals": "D35/M1\u2013M8, D41, D44 and D45 unchanged; no new scientific acceptance or execution budget",
+  "no_operations": [
+    "ML/Macrel/PCA/descriptor/training/GPU",
+    "alignment or molecule construction",
+    "mass or unit conversion",
+    "provider/consumer runtime edit",
+    "new public API",
+    "new issue or third-party outreach",
+    "package installation",
+    "commit/push/release"
+  ],
+  "retention": {
+    "owner": "HydrAMP#3 / PeptideMT#32",
+    "review_by": "2026-11-18"
+  }
+}

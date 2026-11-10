@@ -1,0 +1,130 @@
+{
+  "schema": "peptidemt.hydramp_execution_adapter_closeout@1",
+  "date": "2026-11-03",
+  "recorded_at_utc": "2026-11-03T23:38:01.322608+00:00",
+  "status": "Implemented/controlled installed verification complete; exact real-case approval pending",
+  "issue": "uibcdf/peptidemt#8",
+  "provider_proposal": "uibcdf/hydramp#2",
+  "preparation": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/evidence/hydramp_execution_adapter_preparation.json",
+    "bytes": 138513,
+    "sha256": "fdb6474c203c591e6cff8921504d2bad9991b3aeadaadc088e1853cf6c8a6296"
+  },
+  "publication": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/evidence/hydramp_execution_adapter_issue_update.json",
+    "bytes": 5764,
+    "sha256": "670a89e6f4652b70bbf28018c016df3bc8193d77afd58174d70367d3ab18fdba"
+  },
+  "plan": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/live-plan.json",
+    "bytes": 95905,
+    "sha256": "1d4679f27d06d95bd402b1f9239e8dc1fc5120a722da5057be526220985da665"
+  },
+  "installed_controlled_checks": 55,
+  "model_free_approval_controls": 2,
+  "documentation": "Exact final installed consumer: HTML warnings fatal passes, six memory-input doctests pass",
+  "real_model_PCA_descriptor_Macrel_calls": 0,
+  "real_authorization_present": false,
+  "real_model_attempt_present": false,
+  "scientific_acceptance": false,
+  "commit_push_package_or_site_publication": false,
+  "retention_review": "2026-11-13",
+  "checks": {
+    "ruff_check": {
+      "exit_code": 0,
+      "log_sha256": "82b3e6a6c090a57601d22943bd23fca9218d1031dbe5a7b754092f9a156b4f18"
+    },
+    "ruff_format": {
+      "exit_code": 0,
+      "log_sha256": "1797ba33db9c9ef754817e0f9ed6324336a2128b9e103101798411f3ccf41704"
+    },
+    "devguide_index": {
+      "exit_code": 0,
+      "log_sha256": "3a525cb88e38e62b2cd78f962eec311aeb1797c9a439b3c7d832b95b00a8d5b5"
+    },
+    "whitespace": {
+      "exit_code": 0,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "owner_whitespace": {
+      "exit_code": 0,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "legacy_preserved": {
+      "exit_code": 0,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "plan_preflight": {
+      "exit_code": 0,
+      "log_sha256": "7523a0f005554393e9b5d72ca219852620d3738af66c526394c1e4142d182fc0"
+    },
+    "relative_file_links": {
+      "checked": 248,
+      "missing": 0
+    },
+    "exact_package_python_files_in_both_workers": 22
+  },
+  "current_documents": {
+    "README.md": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/README.md",
+      "bytes": 12046,
+      "sha256": "0aee0985941841c94bffdeba3b4da9f619a2a7af4b16be8595056b02f3b7d7c3"
+    },
+    "devguide/README.md": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/README.md",
+      "bytes": 28477,
+      "sha256": "aaea94807d77ffbbe429712e1c28a2e7c4752bf0570017e89c9e0f4137d364f0"
+    },
+    "devguide/hydramp_execution_adapter.md": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/hydramp_execution_adapter.md",
+      "bytes": 9929,
+      "sha256": "1da958fc02926df50e83f27d3f1b1cb59d223c0ec19e98f1732cd0aa874e9baa"
+    },
+    "devguide/optional_engine_review.md": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/optional_engine_review.md",
+      "bytes": 8493,
+      "sha256": "a8163ffd0b7a1039ad5f98c21c9d678c2cded227b389088b06f978587ed3d601"
+    },
+    "devguide/decisions.md": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/decisions.md",
+      "bytes": 82884,
+      "sha256": "bcd9c50aaf912f0849fdfe5aa2ea4ff0b4364c3f3552fc32ba9224db4acad69f"
+    },
+    "devguide/pending_proposals/qualify_hydramp_increment_2.md": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/pending_proposals/qualify_hydramp_increment_2.md",
+      "bytes": 33978,
+      "sha256": "e6fb70f73305a8ff3b7ddc15975a0912656ceb5aaae5211fb573bfb0c8c5f3d3"
+    },
+    "devguide/hydramp_public_receiving.md": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/hydramp_public_receiving.md",
+      "bytes": 7675,
+      "sha256": "e4a401966ac728b37470d0e2b70443b075fc25201567d82c59d6fd0760168d5f"
+    },
+    "docs/content/user/hydramp_execution.md": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/docs/content/user/hydramp_execution.md",
+      "bytes": 6865,
+      "sha256": "96c073a1428f664431fed740356046d7ff837b0c8be3cd0d28bb828d5be58e12"
+    },
+    "docs/content/user/generation_results.md": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/docs/content/user/generation_results.md",
+      "bytes": 5737,
+      "sha256": "8591c543a6ce69c8d2c61a3ac92b1761261c031a1e54ad915e4221e72e20f3fa"
+    },
+    "docs/content/user/index.md": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/docs/content/user/index.md",
+      "bytes": 353,
+      "sha256": "4815e976de54c6f12af2d0450bb966c2199ddec45f403f930f7894aeed0bc6c6"
+    },
+    "docs/index.md": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/docs/index.md",
+      "bytes": 1847,
+      "sha256": "2b4b62495d7d8bc9faa8adecbb4061bdbdf10d35e606107b9d35a8afcaded5b6"
+    },
+    "docs/api/public.rst": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/docs/api/public.rst",
+      "bytes": 1107,
+      "sha256": "cf0f81730dc283fdec28028204c762029e9ba8f7e82d71bb703fa378cd2d7acb"
+    }
+  },
+  "remaining_required_work": "Obtain exact new host/call approval; run at most the one16-proposal installed-adapter case; inspect actual provenance/attribution/data fidelity and return scientific disposition with original limits preserved"
+}

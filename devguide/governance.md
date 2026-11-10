@@ -34,6 +34,15 @@ when the commissioned W2 boundary actually appears.
 
 ## Current evidence and limits
 
+The investigator's D49 [standing execution delegation](evidence/shared_host_execution_delegation.json)
+authorizes reasonable routine executions and diagnostic retries within approved
+scientific work, without per-run permission prompts. Follow root `AGENTS.md`
+for shared-host RAM/CPU stewardship, bounded run declarations and retained
+evidence. Earlier spent envelopes remain historical, not renewed or erased;
+current bounded runs cite standing delegation. This changes resource-consent
+workflow, not scientific contracts, acceptance, GPU/publication/external-contact
+authority or component ownership.
+
 [W0 engineering receiving](archive/complete_w0.md) records the official starter,
 genuine immutable policy/admission, baseline source/installed checks and fresh
 fifteen-member shared integration. Tool/guide delivery, active instruction review,

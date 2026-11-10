@@ -1,0 +1,37 @@
+{
+  "schema": "peptidemt.hydramp_full_comparison_closeout@1",
+  "recorded_at_utc": "2026-11-03T06:08:20.952206+00:00",
+  "issue": "uibcdf/peptidemt#8",
+  "checks": {
+    "package_artificial_tests": {
+      "passed": 76,
+      "failed": 0
+    },
+    "final_controller_artificial_tests": {
+      "passed": 13,
+      "failed": 0
+    },
+    "model_free_descriptor_pair": "Five fields exactly agree across old/new/published values on eight occurrences; two bundles completed",
+    "native_dependency_closure": "Clean for 41 distributions in modern candidate; old legacy discrepancies retained",
+    "original_17_base_external_versions": "Unchanged",
+    "source_reference_numerical_core_prior_and_generation_bytes": "Preserved",
+    "byte_only_preflight": "Pass under Python3.14 and3.8; zero models loaded",
+    "ruff_check_and_format": "Pass on five changed/new files",
+    "report_index": "Pass, current",
+    "reporting_protocol_pytest": {
+      "passed": 1,
+      "exit": 0,
+      "receptor": "Published1.2.2 in isolated qualification worker"
+    },
+    "relative_links_checked_before_publication_links": 132,
+    "source_plan_wheel_producer_hashes": "Verified",
+    "publication_comments": "Both bodies verified",
+    "git_diff_check": "Pass"
+  },
+  "pending_plan_sha256": "b019e1dfa4e8c61ed667198b73dd7b09dfb5308459225399c84c9eb54beae929",
+  "neural_stage_attempts": 0,
+  "model_or_pca_loads_in_this_preparation": 0,
+  "real_descriptor_bundles_in_this_preparation": 2,
+  "needs_investigator_approval": "New exact six-generation/22-forward CPU/RAM/time/call envelope before either neural stage. No learned budget refill inferred.",
+  "publication": "Own-project issue updates only; code local/uncommitted, no package release, commit or push."
+}

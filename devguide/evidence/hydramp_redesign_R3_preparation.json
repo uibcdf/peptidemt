@@ -1,0 +1,435 @@
+{
+  "schema": "peptidemt.hydramp_redesign_R3_preparation@1",
+  "recorded_at_utc": "2026-11-04T22:56:35.604028+00:00",
+  "status": "prepared; awaiting exact investigator execution authorization",
+  "owner_issue": "uibcdf/peptidemt#32",
+  "provider_issue": "uibcdf/hydramp#4",
+  "decision": "D45 R1/R2 completed; R3 is separate and not approved by preparation",
+  "plan": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-redesign-R3-yq620q_v/plan.json",
+    "bytes": 97791,
+    "sha256": "7a55b24e8c5d2cc105274e54dec83cf442f80b28211d0f297f55d6c2b1216974"
+  },
+  "work_record": "devguide/hydramp_redesign_R3_qualification.md",
+  "task_directory": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-redesign-R3-yq620q_v",
+  "operator": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/devtools/hydramp_redesign_r3.py",
+    "bytes": 14098,
+    "sha256": "13aed05592fc80b8d6e65a0d2c47566796a7fbf4f8e647cf493170a7204777e6"
+  },
+  "operator_tests": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/tests/test_redesign_r3_operator.py",
+    "bytes": 3262,
+    "sha256": "5de0f003cd3566fbe3ac5af66f21025a31e5549d840463b809946c9951c1510b"
+  },
+  "fixture": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-redesign-R3-yq620q_v/fixture.json",
+    "bytes": 2879,
+    "sha256": "c1ab0c53c5c594bd48af0a05d149dee7c2703d2230a55382bcac75beb06cd7a1"
+  },
+  "profiles": {
+    "generation": {
+      "python": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-redesign-R3-yq620q_v/generation/bin/python",
+      "inventory": {
+        "pytest": "9.2.0",
+        "numpy": "2.4.6",
+        "filelock": "4.2.5",
+        "iniconfig": "2.3.1",
+        "markupsafe": "3.0.4",
+        "depdigest": "0.15.1",
+        "fsspec": "2026.9.0",
+        "torch": "2.15.0+cpu",
+        "mpmath": "1.3.0",
+        "sympy": "1.14.0",
+        "typing_extensions": "4.16.0",
+        "packaging": "26.3",
+        "networkx": "3.7",
+        "pytest-receptor": "1.2.2",
+        "setuptools": "84.2.1",
+        "hydramp-torch": "0.0.0.dev6",
+        "pluggy": "1.7.0",
+        "smonitor": "0.22.0",
+        "pygments": "2.21.0",
+        "jinja2": "3.1.6",
+        "peptidemt": "0.1.0+unknown"
+      },
+      "consumer_root": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-redesign-R3-yq620q_v/generation/lib/python3.14/site-packages/peptidemt",
+      "python_version": "3.14.7 | packaged by conda-forge | (main, Sep  2 2026, 21:08:32) [GCC 15.3.0]",
+      "probe": "preflight-generation/result.json",
+      "distribution_count": 21
+    },
+    "assessment": {
+      "python": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-redesign-R3-yq620q_v/assessment/bin/python",
+      "inventory": {
+        "widgetsnbextension": "4.0.16",
+        "hyperframe": "6.1.0",
+        "idna": "3.20",
+        "colorama": "0.4.6",
+        "brotli": "1.2.1",
+        "jedi": "0.20.1",
+        "pint": "0.26.2",
+        "pyyaml": "6.0.3",
+        "platformdirs": "4.13.7",
+        "traitlets": "5.16.1",
+        "ptyprocess": "0.7.0",
+        "aiosignal": "1.4.0",
+        "h2": "4.4.1",
+        "ackredit": "0.9.0",
+        "pytest": "9.2.0",
+        "macrel": "1.6.1",
+        "importlib_metadata": "10.0.0",
+        "propcache": "0.5.4",
+        "pure_eval": "0.2.4",
+        "tomli": "2.5.0",
+        "msgpack": "1.2.4",
+        "iniconfig": "2.3.1",
+        "prompt_toolkit": "3.0.53",
+        "exceptiongroup": "1.3.1",
+        "h5py": "3.16.0",
+        "charset-normalizer": "3.5.2",
+        "stack_data": "0.6.3",
+        "certifi": "2026.10.23",
+        "pillow": "13.0.0",
+        "pandas": "3.1.0",
+        "numpy": "2.5.4",
+        "depdigest": "0.15.1",
+        "tqdm": "4.70.1",
+        "atomicwrites": "1.4.1",
+        "executing": "2.3.0",
+        "matplotlib": "3.11.2",
+        "python-dateutil": "3.0.0",
+        "molsysviewer": "0.24.0",
+        "cycler": "0.12.1",
+        "attrs": "26.1.0",
+        "multidict": "7.2.1",
+        "flexcache": "0.3",
+        "jupyterlab_widgets": "3.0.17",
+        "urllib3": "2.8.0",
+        "argdigest": "0.17.0",
+        "pyunitwizard": "0.29.0",
+        "wheel": "0.48.0",
+        "onnxruntime": "1.25.1",
+        "mmcif": "1.1.1",
+        "versioningit": "3.3.0",
+        "pip": "26.2.2",
+        "kiwisolver": "1.5.1",
+        "aiohappyeyeballs": "2.7.1",
+        "typing_extensions": "4.16.0",
+        "packaging": "26.3",
+        "networkx": "3.7",
+        "pyrodigal": "3.7.1",
+        "biopython": "1.88",
+        "psutil": "7.2.2",
+        "contourpy": "1.4.0",
+        "parso": "0.8.7",
+        "pyparsing": "3.3.3",
+        "tornado": "6.5.10",
+        "ipywidgets": "8.1.9",
+        "flatbuffers": "25.12.19",
+        "pysocks": "1.7.1",
+        "wrapt": "2.5.1",
+        "fonttools": "4.68.0",
+        "requests": "2.34.2",
+        "six": "1.17.0",
+        "anywidget": "0.11.0",
+        "tzdata": "2026.6",
+        "zipp": "4.1.2",
+        "aiohttp": "3.14.5",
+        "pluggy": "1.7.0",
+        "flexparser": "0.4",
+        "frozenlist": "1.8.0",
+        "matplotlib-inline": "0.2.2",
+        "hpack": "4.2.0",
+        "cached-property": "2.0.1",
+        "molsysmt": "0.23.0+286.g3781031d0",
+        "ipython": "9.17.1",
+        "pexpect": "4.9.0",
+        "comm": "0.2.3",
+        "yarl": "1.25.1",
+        "psygnal": "0.16.1",
+        "protobuf": "7.36.2",
+        "asttokens": "3.0.2",
+        "archspec": "0.2.6",
+        "smonitor": "0.22.0",
+        "pygments": "2.21.0",
+        "wcwidth": "0.9.4",
+        "pytest-receptor": "1.1.0",
+        "ipython_pygments_lexers": "1.1.1",
+        "peptidemt": "0.1.0+unknown"
+      },
+      "consumer_root": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-redesign-R3-yq620q_v/assessment/lib/python3.14/site-packages/peptidemt",
+      "python_version": "3.14.10 | packaged by conda-forge | (main, Oct 26 2026, 11:35:38) [GCC 15.3.0]",
+      "probe": "preflight-assessment-resume/result.json",
+      "distribution_count": 95
+    }
+  },
+  "dependency_checks": {
+    "generation": "21 compatible distributions",
+    "assessment": "99 compatible distributions",
+    "logs": [
+      {
+        "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-redesign-R3-yq620q_v/logs/assessment-check.log",
+        "bytes": 153,
+        "sha256": "c2de5a7b55400728cc999e41ff0fc943b59a5f6df7462491de2c4bbefb3c4057"
+      },
+      {
+        "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-redesign-R3-yq620q_v/logs/generation-check.log",
+        "bytes": 155,
+        "sha256": "12b8dc3b6d04c70efc58aed6288670e607e1a0c0b7bfbf6cf16e74177621ae74"
+      }
+    ],
+    "construction": "Offline local wheels plus unchanged retained payloads/symlinked code and faithful copied metadata; no dependency solving, public installer or other-platform claim"
+  },
+  "installed_wheel_equality": [
+    {
+      "profile": "generation",
+      "wheel": {
+        "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-redesign-R3-yq620q_v/artifacts/peptidemt-0.1.0+unknown-py3-none-any.whl",
+        "bytes": 52278,
+        "sha256": "9104ad927b1cb113e98a72063193fc2d309ceb3a109900d3a6e02ea2882a437b"
+      },
+      "equal_installed_files": 30
+    },
+    {
+      "profile": "generation",
+      "wheel": {
+        "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-redesign-R3-yq620q_v/artifacts/hydramp_torch-0.0.0.dev6-py3-none-any.whl",
+        "bytes": 20316,
+        "sha256": "1ceb810546c8efe4736d12f67f34d04a0acb1c61440d4a8dcbf961bdd8de0b2a"
+      },
+      "equal_installed_files": 13
+    },
+    {
+      "profile": "assessment",
+      "wheel": {
+        "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-redesign-R3-yq620q_v/artifacts/peptidemt-0.1.0+unknown-py3-none-any.whl",
+        "bytes": 52278,
+        "sha256": "9104ad927b1cb113e98a72063193fc2d309ceb3a109900d3a6e02ea2882a437b"
+      },
+      "equal_installed_files": 30
+    },
+    {
+      "profile": "assessment",
+      "wheel": {
+        "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/provider-candidate/molsysmt-0.23.0+286.g3781031d0-cp311-abi3-linux_x86_64.whl",
+        "bytes": 61780278,
+        "sha256": "36fc0ffc34447727ee65cca6ce5313e45b7abd48a63dfa0ff02cc8abc8ced9a7"
+      },
+      "equal_installed_files": 3346
+    }
+  ],
+  "Macrel_source_and_assets_match_accepted_W3": true,
+  "full_frozen_pin_source_inventory_checkpoint_check": "PASS; byte hashing only, no deserialization",
+  "host": {
+    "recorded_at_utc": "2026-11-04T22:54:46.466964+00:00",
+    "affinity": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "memory": {
+      "MemTotal": 32937586688,
+      "MemAvailable": 14243442688,
+      "SwapTotal": 8589930496,
+      "SwapFree": 1021005824
+    },
+    "disk_free_bytes": 2520518991872,
+    "uname_resolved": "/usr/lib/cargo/bin/coreutils/uname"
+  },
+  "suite_status": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-redesign-R3-yq620q_v/suite-status.json",
+    "bytes": 16105,
+    "sha256": "fd870ebe703ae28591b49c731758908d79dfb23ad8f4c1ffe0d47a3ac491f752"
+  },
+  "preserved_workspace": {
+    "PeptideMT_HEAD": "1f8c444e4619499cae8ad9970122c5f40adf6127",
+    "PeptideMT_initial_dirty_paths": 251,
+    "MolSysMT_HEAD": "71fbe4f46d3c70e4e973c8025f01752a8c9b1084",
+    "MolSysMT_behind_main": 93,
+    "Ackredit_HEAD": "74f865d7eca1f5386235885d4ea001e53b5b822d",
+    "Ackredit_behind_main": 15,
+    "disposition": "Preserved intentionally; qualified installed historical source boundary and shared everyday profile remain separate. No worktree update/stash/reset.",
+    "known_shared_dependencies": "Seven inherited AmberTools conflicts under MolSysSuite#82, preserved"
+  },
+  "model_free_checks": {
+    "operator_tests_passed": 8,
+    "log": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-redesign-R3-yq620q_v/logs/operator-tests-final.log",
+      "bytes": 32,
+      "sha256": "0ada6a10f6dc0474ea400ad42a1a9f5b76ff4ad1c124e50545dee71bc65678a4"
+    },
+    "generation": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-redesign-R3-yq620q_v/preflight-generation/result.json",
+      "bytes": 4613,
+      "sha256": "758681027d7cfedfaaaa573300fcf4827e49205ddb82e5cd651614065a9c8d1c"
+    },
+    "assessment": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-redesign-R3-yq620q_v/preflight-assessment-resume/result.json",
+      "bytes": 6324,
+      "sha256": "26e91b5b6ea2ed5c9d93117a84e6170862b85099dfc78c5a750193b010705eaa"
+    },
+    "successful_eight_occurrence_transport": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-redesign-R3-yq620q_v/preflight-assessment-verified/submitted.fasta",
+      "bytes": 195,
+      "sha256": "f5d54f967e6855d8aab6d057366c581965f36c9ed83f485b382a090f739b5087"
+    },
+    "transport_not_repeated_after_success": true,
+    "cached_A2_received_occurrences": 1,
+    "cached_candidate_original_parent": 6,
+    "assessment_values_for_selection": "Declared artificial fixture, not Macrel predictions",
+    "actual_Ackredit_0_9_capture": "Controlled completion state only, not new executed models",
+    "accepted_259_source_101_installed_tests_and_A1_A2_W3_campaigns_repeated": false
+  },
+  "preparation_failures": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-redesign-R3-yq620q_v/preparation-failures.json",
+    "bytes": 1956,
+    "sha256": "378b03bf06622d16d37a0ee9750615db2ab7ae76867ca5daccc4fb555630241c"
+  },
+  "retained_model_free_execution_records": [
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-redesign-R3-yq620q_v/preflight-assessment-diagnostic-execution.json",
+      "bytes": 209,
+      "sha256": "396105bb8ca4a9f9c36c1b2ed3fa5a7cd34ba3dd8a7d86d960e61adf8b44d852"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-redesign-R3-yq620q_v/preflight-assessment-execution.json",
+      "bytes": 209,
+      "sha256": "83f89d17daabc8b85e2a8276314f94eba3d54232bbfd3ef05272ffcfb9d41810"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-redesign-R3-yq620q_v/preflight-assessment-final-execution.json",
+      "bytes": 209,
+      "sha256": "41653f8d02f70dcc970b70622bff83a5dca8b3f01bca0134b50a89427f4090e4"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-redesign-R3-yq620q_v/preflight-assessment-resume-execution.json",
+      "bytes": 196,
+      "sha256": "5ef2e1c43d958dedf56d8bf9fa8098c53e24ad5f0a778fb838060d289362deb2"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-redesign-R3-yq620q_v/preflight-assessment-verified-execution.json",
+      "bytes": 210,
+      "sha256": "eb2907b1c49d9691ac681f430cd55b708695c4f4b2286b26b147f99af9982136"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-redesign-R3-yq620q_v/preflight-generation-execution.json",
+      "bytes": 197,
+      "sha256": "bdddb317a461bb08c4efad8f0d07e29746ffeae67c513f8d8b0df76fd396d724"
+    }
+  ],
+  "proposed_budget": {
+    "hydramp_analogue_calls": 3,
+    "networks_per_analogue": 7,
+    "pretrained_neural_evaluations": 21,
+    "macrel_calls_maximum": 3,
+    "onnx_evaluations_per_nonempty_batch": 2,
+    "onnx_evaluations_maximum": 6,
+    "total_neural_evaluations_maximum": 27,
+    "encoder_forward_maximum": 6,
+    "decoder_forward_maximum": 3,
+    "native_AMP_head_forward_maximum": 6,
+    "native_MIC_head_forward_maximum": 6,
+    "generated_attempt_rows_per_analogue": 16,
+    "submitted_parent_occurrences_per_analogue": 8,
+    "macrel_controls_records": 4,
+    "macrel_parent_records": 8,
+    "macrel_child_records_maximum": 16,
+    "minimum_if_no_child_is_eligible": 25,
+    "unused_allowance_reusable": false,
+    "descriptors_PCA_training_GPU": 0,
+    "legacy_tensorflow_evaluations": 0,
+    "automatic_retries": 0,
+    "read_only_uname_p_queries": "at most one per Python process; at most 11 Python hosts/workers plus up to 11 additional read-only uname children across the six stages, not neural calls"
+  },
+  "proposed_host_limits": {
+    "shared_host": {
+      "sequential_scientific_workers": 1,
+      "maximum_supervised_stage_seconds": 120,
+      "maximum_total_seconds": 720,
+      "task_RAM_intent_bytes": 4000000000,
+      "sampled_tree_RSS_stop_bytes": 2147483648,
+      "hard_RSS_limit": false,
+      "max_retained_run_output_bytes": 805306368,
+      "GPU": false,
+      "host_and_workers_share_limits": true,
+      "notes": "Outer scientific host plus its sole child are counted together; sampled RSS can overshoot between samples. Guards do not reserve RAM or reclaim other users swap."
+    },
+    "child_limits": {
+      "address_space_bytes": 8589934592,
+      "cpu_ids": [
+        0,
+        1
+      ],
+      "nice": 10
+    },
+    "supervisor_limits": {
+      "min_available_memory_bytes": 8589934592,
+      "min_free_disk_bytes": 1073741824,
+      "threads": 1,
+      "wall_seconds": 120,
+      "rss_stop_bytes": 2147483648,
+      "max_output_bytes": 134217728
+    },
+    "hydramp_limits": {
+      "max_records": 16,
+      "wall_seconds": 90,
+      "address_space_bytes": 8589934592,
+      "rss_stop_bytes": 2147483648,
+      "max_output_bytes": 134217728,
+      "cpu_ids": [
+        0,
+        1
+      ],
+      "threads": 1,
+      "nice": 10,
+      "min_available_memory_bytes": 8589934592,
+      "min_free_disk_bytes": 1073741824
+    },
+    "macrel_limits": {
+      "max_records": 16,
+      "max_input_bytes": 8192,
+      "wall_seconds": 90,
+      "memory_bytes": 4294967296,
+      "intra_op_threads": 1,
+      "blas_threads": 1,
+      "cpu_ids": [
+        0,
+        1
+      ],
+      "nice": 10,
+      "min_available_memory_bytes": 8589934592
+    }
+  },
+  "new_pretrained_network_evaluations": 0,
+  "new_artificial_network_evaluations": 0,
+  "new_Macrel_calls": 0,
+  "new_PCA_or_descriptors": 0,
+  "GPU_use": false,
+  "asset_work": "Bytes hashed and compared only; model-free guard attempts blocked before learned-file opening",
+  "authorization_or_scientific_run_created": false,
+  "new_scientific_acceptance": false,
+  "source_delivery": "Local/uncommitted. No commit, push, package/model publication, sister-provider code changes or external-author contact.",
+  "scientific_limits": "Technical consumer qualification only. Six distinct structural prototypes cannot establish AMP efficacy, safety, population quality, general legacy equivalence, better peptides or applicability to other families.",
+  "retention": {
+    "owner": "PeptideMT#32 / HydrAMP#4",
+    "review_by": "2026-11-18",
+    "old_prefixes_shared_profile_original_reference_assets": "preserved"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "schema": "peptidemt.hydramp_amp_error_attribution_closeout@1",
+  "date": "2026-11-03",
+  "owner_issue": "uibcdf/hydramp#1",
+  "consumer_issue": "uibcdf/peptidemt#8",
+  "status": "Saved-data attribution and both issue publications verified; no new learned/activation calls",
+  "execution": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/evidence/hydramp_amp_error_attribution.json",
+    "bytes": 12559,
+    "sha256": "5172e71b7baec2a6a269075fb194f9e8732618fd29140c71e2e1bdeb2084b76b"
+  },
+  "publication": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/evidence/hydramp_amp_error_attribution_issue_updates.json",
+    "bytes": 657,
+    "sha256": "bb58de472bad5a41d215fa90344920ede34a4959a0db2dd0b6f91ed0e610b641"
+  },
+  "checks": {
+    "pinned_files_verified": 5,
+    "relative_file_links_verified": 192,
+    "guarded_artificial_tests": "8passed;isolated published Receptor1.2.2",
+    "ruff_lint_format": "pass",
+    "index_and_both_diff_check": "pass"
+  },
+  "prior_document_snapshot_manifest": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-amp-attribution-5_91_f32/previous-document-snapshots.json",
+    "bytes": 1325,
+    "sha256": "e3f64728a07af897ade3b11e252558e5df3cebb82d986e698f90d2d5d1b032eb"
+  },
+  "prior_document_snapshots": [
+    {
+      "maintained_path": "/home/liliana/repos@uibcdf/peptidemt/devguide/README.md",
+      "preserved_path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-amp-attribution-5_91_f32/previous_docs/README.md",
+      "sha256": "6d51053b269cc342b547673aeeb75c502612dc38925cc2847a1ad2bc9bb89245"
+    },
+    {
+      "maintained_path": "/home/liliana/repos@uibcdf/peptidemt/devguide/decisions.md",
+      "preserved_path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-amp-attribution-5_91_f32/previous_docs/decisions.md",
+      "sha256": "f609f423a9693e4307aa5402399390ab6ef0b4e682d0856f169afcb707aeb300"
+    },
+    {
+      "maintained_path": "/home/liliana/repos@uibcdf/peptidemt/devguide/pending_proposals/qualify_hydramp_increment_2.md",
+      "preserved_path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-amp-attribution-5_91_f32/previous_docs/pending_proposals/qualify_hydramp_increment_2.md",
+      "sha256": "6025d482acab1a8099b6a2df72052d31084537edfe9da5298f6c8f7001404546"
+    },
+    {
+      "maintained_path": "/home/liliana/repos@uibcdf/peptidemt/devguide/hydramp_amp_reference.md",
+      "preserved_path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-amp-attribution-5_91_f32/previous_docs/hydramp_amp_reference.md",
+      "sha256": "d1c50792652270e1a3396d2bfe804fc06a2302ca2e29f9fc7396ef31d810722e"
+    }
+  ],
+  "scientific_acceptance": false,
+  "production_changes": false,
+  "new_model_weight_pca_loads": 0,
+  "new_model_activation_evaluations": 0,
+  "remaining_old_allowance": 0,
+  "commit_push_release": false,
+  "retention_review": "2026-11-13",
+  "next_diagnostic": "If exact per-engine activation-error/cancellation magnitudes are needed,prepare a fresh finite activation-only reference plan before requesting permission; do not reuse exhausted allowances."
+}

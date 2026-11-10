@@ -4,6 +4,18 @@ from pathlib import Path
 
 PACKAGE_ROOT = Path(__file__).resolve().parents[2]
 CATALOG = {
+    "HydrAMPFailureWarning": {
+        "code": "PEP-WARN-RUN-002",
+        "source": "peptidemt.hydramp.execution",
+        "category": "execution",
+        "level": "WARNING",
+    },
+    "HydrAMPAttributionWarning": {
+        "code": "PEP-WARN-ATTR-002",
+        "source": "peptidemt.hydramp.attribution",
+        "category": "attribution",
+        "level": "WARNING",
+    },
     "AttributionWarning": {
         "code": "PEP-WARN-ATTR-001",
         "source": "peptidemt.macrel.attribution",
@@ -24,6 +36,14 @@ CATALOG = {
     },
 }
 CODES = {
+    "PEP-WARN-RUN-002": {
+        "user_message": "HydrAMP generation failed at '{stage}' ({cause_type}).",
+        "user_hint": "Inspect receipt provenance; no scores were invented and no retry was attempted.",
+    },
+    "PEP-WARN-ATTR-002": {
+        "user_message": "Optional HydrAMP attribution failed ({cause_type}).",
+        "user_hint": "Completed results and offline bibliography are preserved.",
+    },
     "PEP-WARN-ATTR-001": {
         "user_message": "Optional scientific attribution failed ({cause_type}).",
         "user_hint": "Completed results and offline bibliography are preserved; Ackredit >=0.9.0 is required for portable capture.",
@@ -38,6 +58,8 @@ CODES = {
     },
 }
 SIGNALS = {
+    "peptidemt.hydramp.execution": {"extra_required": ["stage", "cause_type"]},
+    "peptidemt.hydramp.attribution": {"extra_required": ["cause_type"]},
     "peptidemt.macrel.attribution": {"extra_required": ["cause_type"]},
     "peptidemt.dependency": {"extra_required": ["library"]},
     "peptidemt.macrel.execution": {"extra_required": ["stage", "cause_type"]},

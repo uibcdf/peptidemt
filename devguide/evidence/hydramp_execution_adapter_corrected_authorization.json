@@ -1,0 +1,44 @@
+{
+  "schema": "peptidemt.hydramp_execution_adapter_authorization@1",
+  "recorded_at_utc": "2026-11-03T23:56:12.752032+00:00",
+  "plan_sha256": "31317bd3023165300d9558134e73c584a3bdfa25e2c619a200cff11c65c33608",
+  "investigator_reference": "Investigator explicitly authorizes the corrected single-attempt plan in direct response to the exact 31317bd3\u2026c33608 request in this session; original failed attempt retained.",
+  "call_budget": {
+    "public_generation_calls": 1,
+    "numeric_PCA_loads": 1,
+    "checkpoint_loads": 1,
+    "PCA_inverse_transforms": 1,
+    "decoder_forwards": 1,
+    "AMP_forwards": 1,
+    "MIC_forwards": 1,
+    "descriptor_bundles": 1,
+    "neural_forwards_total": 3,
+    "proposals": 16,
+    "Macrel_calls": 0,
+    "legacy_calls": 0,
+    "retries": 0
+  },
+  "resources": {
+    "task_RAM_intent_bytes": 4000000000,
+    "worker_tree_sampled_RSS_stop_bytes": 2147483648,
+    "worker_address_space_bytes": 8589934592,
+    "minimum_host_available_bytes": 8589934592,
+    "minimum_disk_free_bytes": 1073741824,
+    "output_max_bytes": 134217728,
+    "worker_wall_seconds": 180,
+    "overall_case_wall_seconds": 210,
+    "parent_address_space_bytes": 1073741824,
+    "cpu_ids": [
+      0,
+      1
+    ],
+    "numerical_threads": 1,
+    "nice": 10,
+    "GPU": false,
+    "network": false,
+    "parent_address_space_soft_bytes": 1073741824,
+    "parent_address_space_hard_bytes": 8589934592,
+    "parent_limit_explanation": "Parent enforced soft1GiB; hard8GiB is retained solely so its worker can inherit/set the already planned8GiB ceiling. This is virtual address space, not resident RAM."
+  },
+  "scope": "One new installed public generation of16 proposals, seed1001;three neural forwards,one checkpoint/PCA load and inverse,one descriptor bundle;no Macrel/legacy/GPU/network/retries;not broad scientific adoption or publication"
+}

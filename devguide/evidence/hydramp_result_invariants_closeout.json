@@ -1,0 +1,144 @@
+{
+  "schema": "peptidemt.hydramp_result_invariants_closeout@1",
+  "recorded_at_utc": "2026-11-06T04:38:26.972905+00:00",
+  "status": "constructor_replace_correction_qualified_private_dev9_uncommitted",
+  "qualification": {
+    "path": "devguide/evidence/hydramp_result_invariants.json",
+    "bytes": 66106,
+    "sha256": "15c5814cfec53531e51f5424d46ea54f028e0e345fd9b30f2bd0537cf77c81d3"
+  },
+  "issue_updates": {
+    "path": "devguide/evidence/hydramp_result_invariants_issue_updates.json",
+    "bytes": 40369,
+    "sha256": "ab743d4b2be39b9881eda2430bdb26732158053fab72641c2eb1a54d0b186fb7"
+  },
+  "candidate_branch": "peptidemt-result-invariants",
+  "candidate_HEAD": "6a3ff905635a4bd744854cd540f8513916aa99f0",
+  "managed_dirty_paths": 12,
+  "index_empty": true,
+  "preserved_dev8_clean": true,
+  "installed_bytes_retained_after_task_cache_cleanup": true,
+  "new_commit": null,
+  "current_documents": [
+    {
+      "path": "devguide/hydramp_result_invariants.md",
+      "bytes": 6413,
+      "sha256": "e1da73c6cf4350970909b98b65233b38464ea3f059f8b4a2b5ac29f823d6c6c0"
+    },
+    {
+      "path": "devguide/README.md",
+      "bytes": 45525,
+      "sha256": "f4c057ebec28cd84200cabd2a9b7dd06b517bbeae4b9152b98c8c64efc741569"
+    },
+    {
+      "path": "devguide/hydramp_dev8_source_review.md",
+      "bytes": 9431,
+      "sha256": "1ee0123d93dc07e2d932d625228572ad094cb27b33feefbc05d805bd7019bd6b"
+    },
+    {
+      "path": "devguide/continuation_plan_2026_11_04.md",
+      "bytes": 24181,
+      "sha256": "fab67b3791c383b4fe64a6cd82de05022ec1490cfc7fe04ed4fe9065896e12e0"
+    },
+    {
+      "path": "devguide/pending_proposals/hydramp_scientific_followup.md",
+      "bytes": 44209,
+      "sha256": "44e014a6c8895d55839f16a776915ae7e2607daceef8ea33028b7728a4fcc55e"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/hydramp/local_data/result-invariants-20261105/README.md",
+      "bytes": 11158,
+      "sha256": "89b0ae2747b4ebd91be7ce806dfc323185e27103039db9603b09b0766f2ab212"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/hydramp/local_data/result-invariants-20261105/AGENTS.md",
+      "bytes": 6856,
+      "sha256": "4f66d2349656e38182062530dd1687e787820b7c1e5a8906bedcde8df580774a"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/hydramp/local_data/result-invariants-20261105/devguide/README.md",
+      "bytes": 10193,
+      "sha256": "51f4ab218b0d9ea928a38e17f547d65166cf45eb285511287376f1475757e47b"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/hydramp/local_data/result-invariants-20261105/devguide/pytorch_product_status.md",
+      "bytes": 9793,
+      "sha256": "7adfe06b33e993407766e1d476866ae987a4f61669a6af550e13826252532162"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/hydramp/local_data/result-invariants-20261105/devguide/result_invariants.md",
+      "bytes": 5079,
+      "sha256": "26d8b9594d3ba686ed92b67fcd3ca9fdca454e3cd9d6f1d5d14b5dec6084d5dd"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/hydramp/local_data/result-invariants-20261105/ports/pytorch/README.md",
+      "bytes": 6390,
+      "sha256": "1af00be3114f33e71f8ab897d0a8e73e41d98d74a9dbc4d3a6e5ca11bdca9f50"
+    }
+  ],
+  "documentation_check": {
+    "status": "pass",
+    "relative_file_links_checked": 246,
+    "missing": [],
+    "trailing_whitespace": [],
+    "scope": "Changed/current text relative file existence and whitespace, not remote/full anchors or scientific/CI qualification",
+    "original_owner_bodies_preserved": [
+      "README.md",
+      "AGENTS.md",
+      "devguide/README.md",
+      "devguide/pytorch_product_status.md"
+    ],
+    "documents": [
+      "/home/liliana/repos@uibcdf/peptidemt/devguide/hydramp_result_invariants.md",
+      "/home/liliana/repos@uibcdf/peptidemt/devguide/README.md",
+      "/home/liliana/repos@uibcdf/peptidemt/devguide/hydramp_dev8_source_review.md",
+      "/home/liliana/repos@uibcdf/peptidemt/devguide/continuation_plan_2026_11_04.md",
+      "/home/liliana/repos@uibcdf/peptidemt/devguide/pending_proposals/hydramp_scientific_followup.md",
+      "/home/liliana/repos@uibcdf/hydramp/local_data/result-invariants-20261105/README.md",
+      "/home/liliana/repos@uibcdf/hydramp/local_data/result-invariants-20261105/AGENTS.md",
+      "/home/liliana/repos@uibcdf/hydramp/local_data/result-invariants-20261105/devguide/README.md",
+      "/home/liliana/repos@uibcdf/hydramp/local_data/result-invariants-20261105/devguide/pytorch_product_status.md",
+      "/home/liliana/repos@uibcdf/hydramp/local_data/result-invariants-20261105/devguide/result_invariants.md",
+      "/home/liliana/repos@uibcdf/hydramp/local_data/result-invariants-20261105/ports/pytorch/README.md"
+    ]
+  },
+  "report_index_check": {
+    "command": "python devtools/devguide_index.py --check",
+    "exit_code": 0
+  },
+  "scoped_diff_whitespace_checks": {
+    "PeptideMT": 0,
+    "HydrAMP": 0
+  },
+  "existing_scientific_definition_schema_and_accepted_resources_preserved": true,
+  "completed": [
+    "Constructor/replace validation and immutable array snapshots",
+    "73 source, 73 exact installed and five actual SDK passes",
+    "Reproduced wheel/native closure/installed integrity",
+    "Actual retained dev8 archive cold-read compatibility",
+    "Owner/consumer issue feedback and current documentation"
+  ],
+  "remaining": [
+    "Uncommitted candidate source review/consolidation and any separately authorized local Git step",
+    "Broader independent product/scientific and source-delivery/integration work in existing #4/#32",
+    "No new scientific acceptance, public/newer SDK or other-platform qualification"
+  ],
+  "no_new_neural_PCA_descriptor_GPU_calls": true,
+  "no_new_commit_push_merge_tag_release_or_contact": true,
+  "retention": {
+    "owner": [
+      "uibcdf/hydramp#4",
+      "uibcdf/peptidemt#32"
+    ],
+    "review_date": "2026-11-19",
+    "removed_only_task_installer_cache": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-result-invariants-qjs8u3_7/uv-cache",
+    "removed_logical_bytes": 857317164,
+    "retained": [
+      "private source/wheel/reproduced wheel",
+      "source manifest, patch and test/evidence artifacts",
+      "new isolated installed fixture",
+      "original committed dev8 and all previous accepted assets/fixtures"
+    ],
+    "no_global_cache_or_other_checkout_removed": true
+  }
+}

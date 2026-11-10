@@ -1,0 +1,405 @@
+{
+  "schema": "peptidemt.mdm2_t0_work_order_preparation@1",
+  "recorded_at_utc": "2026-11-06T05:17:05.044693+00:00",
+  "status": "concrete_scientific_work_order_prepared_pending_investigator_approval_not_implemented_or_executed",
+  "authority": {
+    "scope": "Prepare the concrete T0 identity/structural-reference work order under existing PeptideMT #33; no coordinate acquisition/preparation or scientific execution yet",
+    "authority": "Investigator continuation after the MDM2-reference proposal; work-order preparation only, not inferred scientific acceptance",
+    "base_proposal": "devguide/target_case_mdm2_reference_proposal.md",
+    "proposal_sha256": "feda2fa9fdf8209d540022e3ff8537f1673b33aa2f49eb254e1605610805bca6",
+    "owner_issue": "uibcdf/peptidemt#33",
+    "no_new_commit_model_or_structure_execution": true
+  },
+  "order": {
+    "path": "devguide/mdm2_t0_work_order.md",
+    "bytes": 13862,
+    "sha256": "a9aa332ba60225dfad14a234050a0e112b599baef09e5df50d52125bf4ef7de0"
+  },
+  "parent_feasibility_proposal": {
+    "path": "devguide/target_case_mdm2_reference_proposal.md",
+    "bytes": 12246,
+    "sha256": "e394f97b43c189632a5622a35061abace79c53ee0f0aa1c18acbd8fb74821eb9"
+  },
+  "owner_issue": "uibcdf/peptidemt#33",
+  "source_inventory": {
+    "repository": "uibcdf/molsysmt",
+    "ref": "ed09f64539a5af6c1dbe9bd352c7ef65dcd4a7a6",
+    "kind": "read-only source at fetched development ref; not installed/runtime qualification",
+    "files": [
+      {
+        "path": "AGENTS.md",
+        "bytes": 16699,
+        "sha256": "1b4a6a6f14f9cd8b81c4af131d3b0a9858b539e8d9363cb1937c83dae502e115"
+      },
+      {
+        "path": "molsysmt/form/AGENTS.md",
+        "bytes": 6473,
+        "sha256": "5601621abe5be923f5e43ea90206ed702a2edbdb98580d3442ea7a1185cfdf52"
+      },
+      {
+        "path": "molsysmt/form/mmcif_PdbxContainers_DataContainer/to_molsysmt_MolSys.py",
+        "bytes": 47354,
+        "sha256": "0e3e94af8c2d366ef567e0c8d548f6ebebcc9835a941c7bc1385355a08282b50"
+      },
+      {
+        "path": "molsysmt/form/mmcif_PdbxContainers_DataContainer/to_molsysmt_Topology.py",
+        "bytes": 1000,
+        "sha256": "82c670211681671140123f5f11216d3e7cb9bb05c819b534b5572d7cab3f2a16"
+      },
+      {
+        "path": "molsysmt/basic/convert.py",
+        "bytes": 44605,
+        "sha256": "623ddf763ae7c9350a54d2c5db6bc6798baf03e30eebeea5f6c4aca1c4fb2d7f"
+      },
+      {
+        "path": "molsysmt/structure/least_rmsd_fit.py",
+        "bytes": 17565,
+        "sha256": "27f3e45230846299404be46748ea8a42020b260e7246dfb917828894157ec4d1"
+      },
+      {
+        "path": "molsysmt/structure/get_rmsd.py",
+        "bytes": 10436,
+        "sha256": "b8f6cae8afbefc5ebe19147b208a540f235d630857c30bed85cdf2f66af4beca"
+      },
+      {
+        "path": "molsysmt/structure/get_contacts.py",
+        "bytes": 22453,
+        "sha256": "3c95b34287d6ea31690bd914d3c914645916f97c26e913085247a04e35dc9144"
+      },
+      {
+        "path": "molsysmt/structure/get_distances.py",
+        "bytes": 27661,
+        "sha256": "4d6700453fa67451b3b989ef48166cac368a5d42afd73a60279a4304e89c23f3"
+      },
+      {
+        "path": "molsysmt/structure/translate.py",
+        "bytes": 4073,
+        "sha256": "3e14eeae9b3c7fdfc89932c3ce858cc4e1f6751f17ee9e4223c537f30d3daa82"
+      },
+      {
+        "path": "molsysmt/structure/rotate.py",
+        "bytes": 6515,
+        "sha256": "09972a41ad8b2e7e47ead41fa306b500f0297f576fde045021b2dd72b90ce4db"
+      },
+      {
+        "path": "molsysmt/form/molsysmt_MolSys/get_topological_attributes.py",
+        "bytes": 340030,
+        "sha256": "a4c4d6b909884ebcd663ad01f761de89a8e2299367253f5865f4eb0c27cc2fd6"
+      },
+      {
+        "path": "molsysmt/form/molsysmt_MolSys/get_structural_attributes.py",
+        "bytes": 22536,
+        "sha256": "c863013f2468f611009518196991e60474439924a7eb54c1c30b0acb934c34c2"
+      },
+      {
+        "path": "molsysmt/form/file_cif/__init__.py",
+        "bytes": 1329,
+        "sha256": "f55f53adfba21317d72fda997095eefe56478b8bfc5f604ca7a67bd0a9c949a2"
+      },
+      {
+        "path": "molsysmt/form/file_cif/to_mmcif_PdbxContainers_DataContainer.py",
+        "bytes": 1338,
+        "sha256": "a933508dab53007af6a4fe0472a95bb72c267b290af3d4c2c42a10b52d1a0a3d"
+      },
+      {
+        "path": "molsysmt/form/file_cif/to_molsysmt_MolSys.py",
+        "bytes": 1412,
+        "sha256": "39845a8eefbd88999adfd0444bb63adc191e07026a8fa86ed9b9396e06829cbb"
+      }
+    ]
+  },
+  "source_snapshot_files": [
+    {
+      "path": "local_data/peptidemt-mdm2-t0-order-bq07atyc/molsysmt-source/AGENTS.md",
+      "bytes": 16699,
+      "sha256": "1b4a6a6f14f9cd8b81c4af131d3b0a9858b539e8d9363cb1937c83dae502e115"
+    },
+    {
+      "path": "local_data/peptidemt-mdm2-t0-order-bq07atyc/molsysmt-source/molsysmt/form/AGENTS.md",
+      "bytes": 6473,
+      "sha256": "5601621abe5be923f5e43ea90206ed702a2edbdb98580d3442ea7a1185cfdf52"
+    },
+    {
+      "path": "local_data/peptidemt-mdm2-t0-order-bq07atyc/molsysmt-source/molsysmt/form/mmcif_PdbxContainers_DataContainer/to_molsysmt_MolSys.py",
+      "bytes": 47354,
+      "sha256": "0e3e94af8c2d366ef567e0c8d548f6ebebcc9835a941c7bc1385355a08282b50"
+    },
+    {
+      "path": "local_data/peptidemt-mdm2-t0-order-bq07atyc/molsysmt-source/molsysmt/form/mmcif_PdbxContainers_DataContainer/to_molsysmt_Topology.py",
+      "bytes": 1000,
+      "sha256": "82c670211681671140123f5f11216d3e7cb9bb05c819b534b5572d7cab3f2a16"
+    },
+    {
+      "path": "local_data/peptidemt-mdm2-t0-order-bq07atyc/molsysmt-source/molsysmt/basic/convert.py",
+      "bytes": 44605,
+      "sha256": "623ddf763ae7c9350a54d2c5db6bc6798baf03e30eebeea5f6c4aca1c4fb2d7f"
+    },
+    {
+      "path": "local_data/peptidemt-mdm2-t0-order-bq07atyc/molsysmt-source/molsysmt/structure/least_rmsd_fit.py",
+      "bytes": 17565,
+      "sha256": "27f3e45230846299404be46748ea8a42020b260e7246dfb917828894157ec4d1"
+    },
+    {
+      "path": "local_data/peptidemt-mdm2-t0-order-bq07atyc/molsysmt-source/molsysmt/structure/get_rmsd.py",
+      "bytes": 10436,
+      "sha256": "b8f6cae8afbefc5ebe19147b208a540f235d630857c30bed85cdf2f66af4beca"
+    },
+    {
+      "path": "local_data/peptidemt-mdm2-t0-order-bq07atyc/molsysmt-source/molsysmt/structure/get_contacts.py",
+      "bytes": 22453,
+      "sha256": "3c95b34287d6ea31690bd914d3c914645916f97c26e913085247a04e35dc9144"
+    },
+    {
+      "path": "local_data/peptidemt-mdm2-t0-order-bq07atyc/molsysmt-source/molsysmt/structure/get_distances.py",
+      "bytes": 27661,
+      "sha256": "4d6700453fa67451b3b989ef48166cac368a5d42afd73a60279a4304e89c23f3"
+    },
+    {
+      "path": "local_data/peptidemt-mdm2-t0-order-bq07atyc/molsysmt-source/molsysmt/structure/translate.py",
+      "bytes": 4073,
+      "sha256": "3e14eeae9b3c7fdfc89932c3ce858cc4e1f6751f17ee9e4223c537f30d3daa82"
+    },
+    {
+      "path": "local_data/peptidemt-mdm2-t0-order-bq07atyc/molsysmt-source/molsysmt/structure/rotate.py",
+      "bytes": 6515,
+      "sha256": "09972a41ad8b2e7e47ead41fa306b500f0297f576fde045021b2dd72b90ce4db"
+    },
+    {
+      "path": "local_data/peptidemt-mdm2-t0-order-bq07atyc/molsysmt-source/molsysmt/form/molsysmt_MolSys/get_topological_attributes.py",
+      "bytes": 340030,
+      "sha256": "a4c4d6b909884ebcd663ad01f761de89a8e2299367253f5865f4eb0c27cc2fd6"
+    },
+    {
+      "path": "local_data/peptidemt-mdm2-t0-order-bq07atyc/molsysmt-source/molsysmt/form/molsysmt_MolSys/get_structural_attributes.py",
+      "bytes": 22536,
+      "sha256": "c863013f2468f611009518196991e60474439924a7eb54c1c30b0acb934c34c2"
+    },
+    {
+      "path": "local_data/peptidemt-mdm2-t0-order-bq07atyc/molsysmt-source/molsysmt/form/file_cif/__init__.py",
+      "bytes": 1329,
+      "sha256": "f55f53adfba21317d72fda997095eefe56478b8bfc5f604ca7a67bd0a9c949a2"
+    },
+    {
+      "path": "local_data/peptidemt-mdm2-t0-order-bq07atyc/molsysmt-source/molsysmt/form/file_cif/to_mmcif_PdbxContainers_DataContainer.py",
+      "bytes": 1338,
+      "sha256": "a933508dab53007af6a4fe0472a95bb72c267b290af3d4c2c42a10b52d1a0a3d"
+    },
+    {
+      "path": "local_data/peptidemt-mdm2-t0-order-bq07atyc/molsysmt-source/molsysmt/form/file_cif/to_molsysmt_MolSys.py",
+      "bytes": 1412,
+      "sha256": "39845a8eefbd88999adfd0444bb63adc191e07026a8fa86ed9b9396e06829cbb"
+    }
+  ],
+  "public_geometry_signatures": {
+    "translate": {
+      "parameters": [
+        "molecular_system",
+        "translation",
+        "selection",
+        "structure_indices",
+        "syntax",
+        "in_place",
+        "skip_digestion"
+      ],
+      "line": 11,
+      "file": "molsysmt/structure/translate.py"
+    },
+    "get_contacts": {
+      "parameters": [
+        "molecular_system",
+        "selection",
+        "center_of_atoms",
+        "weights",
+        "structure_indices",
+        "selection_2",
+        "center_of_atoms_2",
+        "weights_2",
+        "structure_indices_2",
+        "threshold",
+        "pairs",
+        "pbc",
+        "syntax",
+        "output_type",
+        "output_indices",
+        "use_gpu",
+        "gpu_backend",
+        "cell_list",
+        "parallel",
+        "num_threads",
+        "skip_digestion"
+      ],
+      "line": 19,
+      "file": "molsysmt/structure/get_contacts.py"
+    },
+    "least_rmsd_fit": {
+      "parameters": [
+        "molecular_system",
+        "selection",
+        "selection_fit",
+        "structure_indices",
+        "reference_molecular_system",
+        "reference_selection_fit",
+        "reference_structure_index",
+        "to_form",
+        "in_place",
+        "syntax",
+        "engine",
+        "parallel",
+        "num_threads",
+        "use_gpu",
+        "gpu_backend",
+        "precision",
+        "skip_digestion"
+      ],
+      "line": 18,
+      "file": "molsysmt/structure/least_rmsd_fit.py"
+    },
+    "get_rmsd": {
+      "parameters": [
+        "molecular_system",
+        "selection",
+        "structure_indices",
+        "reference_molecular_system",
+        "reference_selection",
+        "reference_structure_index",
+        "syntax",
+        "engine",
+        "heavy_mode",
+        "use_gpu",
+        "parallel",
+        "num_threads"
+      ],
+      "line": 60,
+      "file": "molsysmt/structure/get_rmsd.py"
+    },
+    "get_distances": {
+      "parameters": [
+        "molecular_system",
+        "selection",
+        "structure_indices",
+        "center_of_atoms",
+        "weights",
+        "molecular_system_2",
+        "selection_2",
+        "structure_indices_2",
+        "center_of_atoms_2",
+        "weights_2",
+        "pairs",
+        "pbc",
+        "output_type",
+        "output_indices",
+        "output_structure_indices",
+        "engine",
+        "syntax",
+        "heavy_mode",
+        "use_gpu",
+        "parallel",
+        "num_threads",
+        "skip_digestion"
+      ],
+      "line": 145,
+      "file": "molsysmt/structure/get_distances.py"
+    },
+    "rotate": {
+      "parameters": [
+        "molecular_system",
+        "rotation",
+        "rotation_center",
+        "selection",
+        "structure_indices",
+        "syntax",
+        "in_place",
+        "skip_digestion"
+      ],
+      "line": 14,
+      "file": "molsysmt/structure/rotate.py"
+    }
+  },
+  "static_connectivity_policy_observation": {
+    "repository": "uibcdf/molsysmt",
+    "ref": "ed09f64539a5af6c1dbe9bd352c7ef65dcd4a7a6",
+    "path": "molsysmt/form/mmcif_PdbxContainers_DataContainer/to_molsysmt_Topology.py",
+    "sha256": "82c670211681671140123f5f11216d3e7cb9bb05c819b534b5572d7cab3f2a16",
+    "observation": "get_missing_bonds parameter is declared but never read in the wrapper body; delegated MolSys conversion receives no such option",
+    "verification": "Static AST/source only; no molecular input/public route executed",
+    "existing_owner_issue": "uibcdf/molsysmt#304",
+    "consumer": "uibcdf/peptidemt#33 T0 work-order preparation",
+    "interim_rule": "Do not label CIF inference disabled by this option; retain inferred bond evidence/connectivity status, or defer any explicit-only policy requirement to the owner"
+  },
+  "existing_owner_issues": {
+    "connectivity_policy": "uibcdf/molsysmt#304",
+    "closed_occupancy_source_fix": "uibcdf/molsysmt#556"
+  },
+  "proposed_definitions": {
+    "source": "1YCR revision 1.5, actual file hashes to be recorded at receiving before geometry",
+    "structure": "one represented coordinate view; isolated nonperiodic receptor/peptide reference",
+    "atoms": "verified observed receptor and peptide heavy atoms only; maximum 2048 selected total",
+    "contacts_nm": [
+      0.4,
+      0.45,
+      0.5
+    ],
+    "primary_contact_nm": 0.45,
+    "numerical_tolerance_nm": 1e-06,
+    "fit": "unique non-collinear receptor C-alpha correspondence, whole-complex transform, peptide RMSD without a second fit",
+    "controls": [
+      "reference",
+      "whole-complex z+90deg rotation then translation [1,2,3] nm",
+      "peptide-only translation [10,0,0] nm"
+    ],
+    "chemical_scope": "retain unknowns and owner-reported inferred connectivity; no coordinate repair or chemistry assignment"
+  },
+  "proposed_resources": {
+    "serial": true,
+    "cpu_ids": [
+      0,
+      1
+    ],
+    "numerical_threads": 1,
+    "aggregate_RSS_stop_bytes": 1073741824,
+    "host_RAM_reserve_bytes": 8589934592,
+    "address_space_bytes": 8589934592,
+    "wall_seconds_per_numerical_worker": 180,
+    "CPU_seconds_per_numerical_worker": 120,
+    "task_output_bytes": 67108864,
+    "numerical_worker_network": "offline after asset/source manifest freezing",
+    "D50_4GiB_reserve_exception_transferred": false
+  },
+  "unsatisfied_entry_gates": [
+    "Investigator acceptance of scientific case/T0 definitions and scope",
+    "Exact installed source/native-extension/dependency profile receiving at inspected owner source or reviewed replacement",
+    "Bounded acquisition and source identity/observation admission; no coordinate file received yet"
+  ],
+  "required_future_outcomes": [
+    "honest source/observation mapping and chemistry/inference limitations",
+    "reference/rigid-transform invariance and displaced-pose adverse geometry",
+    "unchanged source/reference, exact native outputs/axes/units/settings, saved inspection",
+    "no affinity, mechanism, cell entry, anticancer or target-design claim from geometry success"
+  ],
+  "suite_snapshot": {
+    "path": "local_data/peptidemt-mdm2-t0-order-bq07atyc/suite-state.json",
+    "bytes": 23036,
+    "sha256": "3ac27f8de243cf2a9e486b8a5d5c580a9e666e0e0c80c5c9bbef0be15a47782c"
+  },
+  "suite_disposition": "Read-only bounded official remote refresh and source inspection; preserve worktrees and installed environments. Source at fetched development ref is inspected without changing the older shared checkout.",
+  "new_coordinate_download_preparation_or_geometry_calculations": 0,
+  "new_neural_or_PCA_descriptor_GPU_calls": 0,
+  "new_tests_builds_or_installs": 0,
+  "new_commit_push_merge_tag_release_or_external_contact": false,
+  "dev9_code_and_qualification_unchanged": true,
+  "new_D_decision_or_case_acceptance": false,
+  "retention": {
+    "owner": [
+      "uibcdf/peptidemt#33",
+      "uibcdf/molsysmt#304"
+    ],
+    "review_date": "2026-11-19",
+    "task": "local_data/peptidemt-mdm2-t0-order-bq07atyc",
+    "retain": [
+      "exact proposed order and source/API snapshots",
+      "static policy observation and existing-issue feedback",
+      "preparation/doc/evidence checks"
+    ],
+    "new_environment_or_model_cache": false
+  }
+}

@@ -23,7 +23,7 @@ preprocessing, provisional chemistry/lengths, both selectors and M1–M8; its sc
 design is closed within scope. D36's W0–W4 are delivered, with exact Macrel
 build/assets/environment, central receiving and actual qualification retained.
 D37 accepts that computational bundle. The next
-[HydrAMP commissioning review](pending_proposals/qualify_hydramp_increment_2.md)
+[HydrAMP commissioning review](archive/qualify_hydramp_increment_2.md)
 is commissioned under D38 for bounded preparation and qualification; exact
 bundle/use conditions and fresh host/call limits precede model loading/inference.
 The bounded horizon review adds only

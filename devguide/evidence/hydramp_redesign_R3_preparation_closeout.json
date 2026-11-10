@@ -1,0 +1,38 @@
+{
+  "schema": "peptidemt.hydramp_redesign_R3_preparation_closeout@1",
+  "date": "2026-11-04",
+  "plan_sha256": "7a55b24e8c5d2cc105274e54dec83cf442f80b28211d0f297f55d6c2b1216974",
+  "preparation_receipt_sha256": "84485d4173b6b8f82f228353e98b2266857b0981a66f4072612d6ef345d7d8b1",
+  "checks": {
+    "operator_tests_passed": 8,
+    "installed_prefix_dependency_checks": "21 and 99 distributions compatible",
+    "installed_consumer_provider_MolSysMT_wheel_audit": "PASS",
+    "Macrel_sources_and_assets_vs_accepted_W3": "PASS",
+    "frozen_source_inventory_artifact_check": "PASS",
+    "ruff": "PASS",
+    "format_files": 168,
+    "reporting_indexes": "current",
+    "relative_file_links_checked": 158,
+    "missing_relative_file_links": 0,
+    "whitespace": "PASS",
+    "new_pretrained_or_artificial_network_evaluations": 0,
+    "new_Macrel_calls": 0,
+    "real_authorization_or_run_created": false
+  },
+  "issue_updates": [
+    {
+      "repository": "uibcdf/peptidemt",
+      "id": 6644300868,
+      "url": "https://github.com/uibcdf/peptidemt/issues/32#issuecomment-6644300868",
+      "exact_body_verified": true
+    },
+    {
+      "repository": "uibcdf/hydramp",
+      "id": 6644309952,
+      "url": "https://github.com/uibcdf/hydramp/issues/4#issuecomment-6644309952",
+      "exact_body_verified": true
+    }
+  ],
+  "scientific_status": "Preparation only; fresh exact investigator R3 authorization pending. D45 R1/R2 and earlier exhausted execution budgets unchanged.",
+  "source_delivery": "Local/uncommitted; no commit/push/package-model publication or external-author contact."
+}

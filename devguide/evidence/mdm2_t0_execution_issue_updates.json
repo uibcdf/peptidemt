@@ -1,0 +1,64 @@
+{
+  "schema": "peptidemt.mdm2_t0_execution_issue_updates@1",
+  "recorded_at_utc": "2026-11-06T07:05:41.223Z",
+  "execution_receipt": {
+    "path": "devguide/evidence/mdm2_t0_execution.json",
+    "sha256": "bd12b0bd4eb1a12885e151d25e07d855a0ff62c0b42d3156e3dd2afa188b0593"
+  },
+  "comments": [
+    {
+      "repository": "uibcdf/peptidemt",
+      "issue": 38,
+      "id": 6679220503,
+      "url": "https://github.com/uibcdf/peptidemt/issues/38#issuecomment-6679220503",
+      "body": "## Local correction verified; publication remains pending\n\nThe real secondary-thread/32 MiB-child guard now passes after `tree_rss` traverses every task's children list and deduplicates processes. The exact pre-fix helper bytes are recovered and verified against the original failed declaration SHA; they and the failing native output are retained unchanged.\n\nA separate selected run passes **15 tests**, native exit 0, with published Pytest Receptor 1.2.2: the RSS guard, 11 T0 artificial checks, and the existing timeout, output/host-memory and parent-death guards. No molecular/learned provider is imported in that run. The clean T0 installation and successful geometry use corrected supervision.\n\nConsumer evidence: `devguide/evidence/mdm2_t0_execution.json`, SHA-256 `bd12b0bd4eb1a12885e151d25e07d855a0ff62c0b42d3156e3dd2afa188b0593`; analysis/guard record `devguide/pending_bugs/thread_children_rss.md`. Earlier compiler RSS observations retain the documented incomplete-traversal limitation; historical scientific results are not recalculated or relabeled.\n\nThis is a local, uncommitted correction. Keep the issue partial/open until source/guard delivery is reviewed and published under separate Git authority. No API/dependency/physics change, model/GPU execution or release follows.",
+      "exact_readback": true
+    },
+    {
+      "repository": "uibcdf/molsysmt",
+      "issue": 304,
+      "id": 6679221537,
+      "url": "https://github.com/uibcdf/molsysmt/issues/304#issuecomment-6679221537",
+      "body": "## PeptideMT T0 native-CIF receiving at the inspected source\n\nActual consumer receiving now completes with MolSysMT `ed09f64539a5af6c1dbe9bd352c7ef65dcd4a7a6` in an isolated clean Linux/Python 3.14.7 profile. The versioned 1YCR revision-1.5 CIF has expanded SHA-256 `03f62994ea1ff55d98c0d9d835b706319e523367fce56d9deb51b850c83e47a8`.\n\nThe public native reader returns 818 observed heavy atoms, **739 explicit / 96 inferred bonds**, and **partial** connectivity completeness. The conversion report is equivalent within its non-exhaustive chemical-state scope. The fixed reference/rigid/displaced coordinate controls pass 29 checks. This establishes only the specified observed-coordinate receiving and geometry, not complete chemistry, affinity or simulation readiness.\n\nThe unused mmCIF `get_missing_bonds` observation above remains unchanged; explicit-only policy is still owner work. No flag is passed and falsely credited with disabling inference. No parser, inference implementation or provider source is copied/changed downstream.\n\nConsumer report `devguide/mdm2_t0_qualification.md`, execution receipt SHA-256 `bd12b0bd4eb1a12885e151d25e07d855a0ff62c0b42d3156e3dd2afa188b0593` in uibcdf/peptidemt. Those files are local/uncommitted. Separate cold-loader diagnostic feedback is tracked in #601.",
+      "exact_readback": true
+    },
+    {
+      "repository": "uibcdf/peptidemt",
+      "issue": 33,
+      "id": 6679222549,
+      "url": "https://github.com/uibcdf/peptidemt/issues/33#issuecomment-6679222549",
+      "body": "## D51 T0 completed: exact molecular receiving, three geometry views and saved inspection\n\nThe single approved structural-reference case now completes in a clean, isolated Linux/Python 3.14.7 profile at MolSysMT `ed09f64539a5af6c1dbe9bd352c7ef65dcd4a7a6`. Native pip check, actual source/native origins, application unit-policy preservation and 3,258 profile file pins pass. Shared clones/environment remain preserved.\n\nResults:\n- 1YCR revision 1.5: 705 MDM2 / 113 p53 observed heavy atoms, 85 receptor fit anchors and 98 source/native group correspondences.\n- **29/29 geometry checks pass**. Peptide RMSD after receptor fitting is approximately 4.21e-16 nm for the reference, 1.36e-15 nm for the rigid transform and exactly 10 nm for the displaced peptide. Atom-pair contacts at 0.40/0.45/0.50 nm are 105/253/461 for reference and rigid views, and 0/0/0 after displacement.\n- Independent saved inspection passes without molecular-provider import or geometry recomputation. The separate NumPy summary only reads retained arrays.\n- **15 selected tests pass**, native exit 0 / published receptor 1.2.2: T0 artificial interpretation/integrity checks, the real RSS regression and existing process guards. Repository Ruff checks pass.\n\nThe investigator's latest resource correction is **4 GiB available-host-RAM reserve / 2 GiB aggregate task RSS stop**, CPU0/1 and one numerical thread. Actual geometry takes 5.37 s and peaks at 309,362,688 bytes (about 295 MiB). Its one planned `uname -p` cold-start metadata query is recorded; network, other unplanned processes and GPU remain disabled.\n\nPreserve the failed 8-GiB-reserve builds, user-interrupted intermediate profile, ambient Amber dependency failures, corrected Conda package-name mistake, initial cold-loader failure and both RSS regression outcomes. PeptideMT #38 owns the local supervision correction; MolSysMT #601 owns diagnostic feedback, #304 retains the partial-connectivity/explicit-policy boundary, and MolSysSuite #82 holds the ambient workspace observation.\n\nScientific limits: **partial connectivity** (739 explicit / 96 inferred bonds), unknown chemical readiness and incomplete coordinate coverage remain explicit. A non-exhaustive conversion report or independently dated validation PDF is not blanket chemical validation. T0 establishes identity and artificial geometry handling on one known complex; it does not establish binding prediction, affinity/selectivity, biological utility or improved peptide design. No models, GPU, new sequences, M1–M8/selector changes or historical campaign reruns occur. HydrAMP dev9's twelve task paths and exact qualification remain unchanged.\n\nReport: `devguide/mdm2_t0_qualification.md`.\nExecution receipt: `devguide/evidence/mdm2_t0_execution.json`, SHA-256 **`bd12b0bd4eb1a12885e151d25e07d855a0ff62c0b42d3156e3dd2afa188b0593`**.\nExact executed source bytes are retained; a subsequent mechanical stdlib import-order cleanup changes no other byte and does not repeat geometry. Private build scratch/failed inherited venv are retired; the qualified source fixture/results remain retained for review. No commit/push/public package is created.\n\nThe investigator now commissions pursuing the longer-horizon independently evaluated target-directed demonstrator, respecting component ownership. Next work is prospective T1 scientific/data/evaluator requirements and owner-tool/gap review, not automatic adoption of a binding model or an unreviewed chemical/target contract. The broader capability-audit issue remains partial/open.",
+      "exact_readback": true
+    },
+    {
+      "repository": "uibcdf/molsyssuite",
+      "issue": 82,
+      "id": 6678822888,
+      "url": "https://github.com/uibcdf/molsyssuite/issues/82#issuecomment-6678822888",
+      "body": "## PeptideMT T0: current inherited workspace dependency check is not clean\n\nConsumer: uibcdf/peptidemt#33, D51 structural-reference receiving. The named shared Python 3.14.7 workspace and an initial `--system-site-packages` private venv expose these current `pip check` failures:\n\n- `packmol-memgen 2026.3.25` and `proprep 1.0.0` require absent `pdb2pqr`;\n- `ndfes`, `edgembar` and `fetkutils` 3.6.5 require NumPy <2, while this workspace has NumPy 2.4.6;\n- `proprep 1.0.0` also requires NumPy <2 and Biopython <1.86, while Biopython 1.88 is present.\n\nThis is an observation of this current local ambient workspace, **not a reproduced failure of the canonical clean recipe, a revocation of earlier accepted workspace/W0 evidence, or a MolSysMT reader defect**. No unrelated Amber package, NumPy/Biopython bound, shared editable checkout or global environment was changed.\n\nConsumer disposition: create an offline, clean Conda qualification profile from the owner's declared dependency routes (`py-mmcif` is the Conda name of Python distribution `mmcif`), then install fixed isolated development sources. That profile now passes native `pip check`, actual import/native-source/unit-policy receiving and the single finite T0 case. This is an isolated consumer profile, not a newly qualified whole-suite workspace or public package claim.\n\nEvidence: local `devguide/evidence/mdm2_t0_implementation.json` retains the earlier checkpoint; the subsequent T0 execution receipt/report preserves the inherited-check failure, exact clean-prefix packages/sources and successful receiving. The initial failed check is `profile-receiving-sroq6aij/pip-check.json` in the task directory.\n\nPlease retain this local workspace addition/incompatibility finding with #82's development-profile stewardship. We are not requesting automatic global repairs or changing the current registered cohort; removal is an owner-reviewed workspace repair or an explicitly separate compatible profile. No third-party upstream issue or source change was published.",
+      "exact_readback": true
+    }
+  ],
+  "owner_proposal": {
+    "repository": "uibcdf/molsysmt",
+    "issue": 601,
+    "url": "https://github.com/uibcdf/molsysmt/issues/601",
+    "body": "PeptideMT #33's approved T0 receiving at MolSysMT **`ed09f64539a5af6c1dbe9bd352c7ef65dcd4a7a6`** exposes a diagnostic limitation: an operational adapter-load failure becomes an invalid `molecular_system` argument, losing the original cause.\n\nIn a fresh Linux/Python 3.14.7 process, loading the native CIF adapter loads h5py; its cold platform query uses `uname -p`. Our explicitly restricted worker initially rejected unplanned subprocesses. With the existing, unchanged 1YCR revision-1.5 CIF:\n\n1. direct cold adapter import exposes **RuntimeError: blocked uname**;\n2. public `get_form(path)` instead raises **KeyError('file:cif')**;\n3. public `convert(path, to_form='mmcif.PdbxContainers.DataContainer')` finally reports **ArgumentError** blaming the input path.\n\nWithout that restriction, the same path is identified as `file:cif`. Declaring and recording that single harmless host-metadata query before strict dispatch restrictions makes the unchanged public conversion and the complete T0 case pass. No reader, argument digestion, chemistry or scientific criterion is bypassed or patched downstream.\n\nRelevant classification source: [assess_molecular_system and validate_molecular_system_argument](https://github.com/uibcdf/molsysmt/blob/ed09f64539a5af6c1dbe9bd352c7ef65dcd4a7a6/molsysmt/_private/molecular_system_validation.py). Assessment broadly catches form-discovery exceptions, and the unsupported branch discards its reason when creating ArgumentError. The earlier lazy form-loading boundary also obscures the original operational exception.\n\n**Requested owner review:** retain adapter-load/verification failures as operational/unverified causes, with their original exception or structured context, while keeping genuinely unsupported or invalid inputs distinct. Review the lazy form-load and argument-validation boundaries together. This is a diagnostic improvement proposal; its exact supported exception contract remains the owner's decision.\n\nConsumer evidence is retained locally under `local_data/peptidemt-mdm2-t0-d1u79kql/`: failed `geometry-mjuqpw98`, unrestricted `reader-diagnosis-_o2m2ot1`, restricted `reader-diagnosis-zq8qtbnl`, and successful `geometry-7epks3v9`. Maintained consumer report/evidence will link this issue. These local files are not claimed to be published source.\n\nNo external h5py issue, provider source modification, new scientific method, fallback parser, model/GPU execution or historical scientific rerun is requested. The consumer has a supported, recorded technical startup sequence; better original-cause reporting would make future environment/adapter failures actionable.",
+    "state": "open",
+    "labels": [
+      "component:peptidemt"
+    ],
+    "exact_readback": true
+  },
+  "scope": "Existing consumer/owner issues reused except two focused owning findings: PeptideMT #38 RSS defect and MolSysMT #601 diagnostic proposal. No external-author contact, issue closure or source/public package publication.",
+  "new_issues": [
+    {
+      "repository": "uibcdf/peptidemt",
+      "issue": 38
+    },
+    {
+      "repository": "uibcdf/molsysmt",
+      "issue": 601
+    }
+  ]
+}

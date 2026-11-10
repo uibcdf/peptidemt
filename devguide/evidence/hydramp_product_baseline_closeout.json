@@ -1,0 +1,39 @@
+{
+  "schema": "peptidemt.hydramp_product_baseline_closeout@1",
+  "recorded_at_utc": "2026-11-05T23:40:27.727780+00:00",
+  "status": "prepared_qualified_local_commit_pending",
+  "baseline": {
+    "path": "devguide/evidence/hydramp_product_baseline.json",
+    "bytes": 20440,
+    "sha256": "9cb1a04b300cf6472a3987146ca251598480393c35f53539d8a7c5a4a6ad2f67"
+  },
+  "issue_updates": {
+    "path": "devguide/evidence/hydramp_product_baseline_issue_updates.json",
+    "bytes": 11022,
+    "sha256": "94160b3ed6ab1d1941c9e5169e6dd7ff6ab5ee4f7c7f8ef5ecc897a10d785895"
+  },
+  "checks": {
+    "path": "local_data/hydramp-product-baseline-uepif2a_/closeout-checks.json",
+    "bytes": 787,
+    "sha256": "b5db1b06d6d6ed43958d8f254d7f6d78ab109aaeb917164ad167d081e624a9bd"
+  },
+  "documentation_links": {
+    "path": "local_data/hydramp-product-baseline-uepif2a_/documentation-link-check.json",
+    "bytes": 1099,
+    "sha256": "b8f3b614c26cf08b8b661ae55336e85c50d83586e915c59fc762a70035a95b5e"
+  },
+  "prepared_tree": "2476a08a50d32779db2f43683928450e62b66f91",
+  "local_commit": null,
+  "commit_request": {
+    "asked": true,
+    "branch": "peptidemt-product-baseline",
+    "message": "Consolidate the unchanged PyTorch core as a reproducible local baseline",
+    "source_instruction": "/home/liliana/repos@uibcdf/hydramp/local_data/pytorch-redesign/AGENTS.md",
+    "quote": "local editing/branch authorization does not imply committing or pushing.",
+    "includes_push_or_release": false
+  },
+  "new_neural_evaluations": 0,
+  "scientific_acceptance_unchanged": true,
+  "public_dependency_install_qualified": false,
+  "retention_review_date": "2026-11-19"
+}

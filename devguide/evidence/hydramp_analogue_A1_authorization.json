@@ -1,0 +1,17 @@
+{
+  "schema": "peptidemt.hydramp_analogue_A1_authorization@1",
+  "recorded_at_utc": "2026-11-04T16:22:13.060001+00:00",
+  "authority": "Investigator explicitly directs continuing in direct response to approval of the concrete analogue contract and A1 artificial-weight implementation/tests.",
+  "owner_issue": "uibcdf/hydramp#4",
+  "consumer_issue": "uibcdf/peptidemt#32",
+  "decision": "D43",
+  "A1_approved": true,
+  "contract_sha256": "11c1a85ec9233ba5a09ee18be377d41a577831793b9d7b7a2eef817a3415d360",
+  "first_route": "Native-score improvement; occurrence-preserving; explicit seeded latent noise/attempt/temperature; no optional sequence filters, discovery or descriptors",
+  "A2_real_weights_or_execution_approved": false,
+  "candidate_worktree": "/home/liliana/repos@uibcdf/hydramp/local_data/pytorch-analogue",
+  "task_directory": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-analogue-A1-g_nhwciy",
+  "task_RAM_intent_bytes": 4000000000,
+  "CPU_only": true,
+  "no_commit_push_release_or_author_contact": true
+}

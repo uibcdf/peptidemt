@@ -1,0 +1,154 @@
+{
+  "schema": "peptidemt.mdm2_t1b_preparation@1",
+  "recorded_utc": "2026-11-10T06:07:06.334863+00:00",
+  "local_scientific_date": "2026-11-10",
+  "status": "read_only_preparation_and_unaccepted_proposal",
+  "authority": "D52 evidence/provider preparation and investigator continuation; D53 remains completed within its original scope",
+  "owner_issue": "uibcdf/peptidemt#33",
+  "proposal": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/mdm2_t1b_proposal.md",
+    "bytes": 11932,
+    "sha256": "f3050dd1482b36bdd76aaa30fa7270c22c32dff9e0244db5b8b6b4834bc3d958"
+  },
+  "task_directory": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-t1b-review-yr15dnex",
+  "preserved_T1a_reference": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-t1a-b03dl94b/receive-i2rgfxvx/reference.json",
+    "bytes": 582445,
+    "sha256": "b9af350ef8a39febcb807c18c7d56d8a11391c2c6284ab689ac9d3293007cea6"
+  },
+  "source_block_ledger": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-t1b-review-yr15dnex/source-block-ledger.json",
+    "bytes": 1224,
+    "sha256": "3ecf464f6e7641796d30b296b852576069f3cd5ef44cfeae4e357aea4867c80d"
+  },
+  "workspace_inspection": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-t1b-review-yr15dnex/workspace.json",
+    "bytes": 22573,
+    "sha256": "e6842da81218169a2a5667f253a0196d87d862108d28a3cd8af42a4e916f0ba1"
+  },
+  "owner_observations": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-t1b-review-yr15dnex/owner-observations.json",
+    "bytes": 20474,
+    "sha256": "f4152ee53fdcac21cd30a1950c5664379ea66515653eaaa9edad0375729ce331"
+  },
+  "canonical_guide": {
+    "url": "https://raw.githubusercontent.com/uibcdf/molsyssuite/main/MOLSYSSUITE_GUIDE.md",
+    "local": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/MOLSYSSUITE_GUIDE.md",
+      "bytes": 69263,
+      "sha256": "850a98f0757a18734b328332c88e4622f60bdef097148a1fd59b9f009846bfe4"
+    },
+    "retrieved_copy": {
+      "path": "/tmp/peptidemt-canonical-guide-t1b-20261110.md",
+      "bytes": 69263,
+      "sha256": "850a98f0757a18734b328332c88e4622f60bdef097148a1fd59b9f009846bfe4"
+    },
+    "bytes_equal": true
+  },
+  "source_inspection": [
+    {
+      "repository": "uibcdf/molsysmt",
+      "commit": "c9bb16eab13bac7c0ea91607ef61a576c07ee82b",
+      "path": "molsysmt/physchem/get_peptide_chemical_template.py",
+      "bytes": 5408,
+      "sha256": "e78ab6b16ab02a1175afb51bbf7b93642da204c84943a20c80abf31c6f4ce96e",
+      "claim": "source inspection only"
+    },
+    {
+      "repository": "uibcdf/molsysmt",
+      "commit": "c9bb16eab13bac7c0ea91607ef61a576c07ee82b",
+      "path": "molsysmt/chemical_states/get_atom_correspondences.py",
+      "bytes": 12395,
+      "sha256": "1fd9c0202e352ba9e02ea212547f797d6d79cbb95217b4dacc07bffb56926762",
+      "claim": "source inspection only"
+    },
+    {
+      "repository": "uibcdf/dockingmt",
+      "commit": "ac459ca7ba4d029b317c653c9af17e258050e752",
+      "path": "README.md",
+      "bytes": 31746,
+      "sha256": "4dcdbb1c7ea5e90acdde5e92f33a7b5cdc55657183059bebd226290c64db4735",
+      "claim": "source inspection only"
+    }
+  ],
+  "web_observations": [
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2660734/",
+      "doi": "10.1073/pnas.0900947106",
+      "surface": "web-rendered primary article",
+      "finding": "PMI synthetic-target structural context and 3EQS citation; no chemical identity transfer to 2010 panel"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/instance/2660734/bin/0900947106_0900947106SI.pdf",
+      "surface": "web request",
+      "finding": "Browser-check HTML, not PDF; no challenge solved or supplement contents received"
+    },
+    {
+      "url": "https://www.nature.com/articles/s41598-018-36589-5",
+      "doi": "10.1038/s41598-018-36589-5",
+      "surface": "web-rendered primary article",
+      "finding": "Explicit acetylated/amidated peptide description and different assay/construct context; no cohort substitution or pooled endpoint"
+    },
+    {
+      "url": "https://www.nature.com/articles/s41598-018-36589-5/tables/3",
+      "surface": "web request",
+      "finding": "HTTP 500/identity-provider redirect unavailable; no numerical table extraction"
+    },
+    {
+      "url": "https://www.nature.com/articles/s41598-018-36589-5/tables/2",
+      "surface": "web request",
+      "finding": "HTTP 500/identity-provider redirect unavailable; no numerical table extraction"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2804373/",
+      "surface": "web request",
+      "finding": "Browser-check HTML; search excerpt not promoted to inspected primary full text or qualified source"
+    },
+    {
+      "url": "https://www.rcsb.org/structure/3EQS",
+      "surface": "official entry metadata rendered by web tool",
+      "entry": "3EQS",
+      "revision": [
+        1,
+        2
+      ],
+      "finding": "85/12 deposited entity lengths; 95 modeled vs 97 deposited residues; two listed assemblies; guanidine component; no coordinates acquired or molecular parser run"
+    },
+    {
+      "url": "https://www.bonvinlab.org/haddock3-user-manual/bpg/peptides.html",
+      "surface": "official guide",
+      "finding": "Peptide-conformation ensembles recommended; no executed profile or accepted search parameters"
+    },
+    {
+      "url": "https://www.bonvinlab.org/haddock3-user-manual/download-haddock3.html",
+      "surface": "official guide",
+      "finding": "CNS acquisition/separate use terms; no installation or candidate-bundle acceptance"
+    }
+  ],
+  "web_observation_limit": "Rendered source review only; raw acquisition digests absent for new external pages, no complete dataset/source qualification",
+  "previous_qualified_T0_profile": {
+    "receipt": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-t0-d1u79kql/profile-qualification.json",
+      "bytes": 869742,
+      "sha256": "ff7ab6b091498e04f76eaabb6eb6631df587c9e1ebd42d233b2af4130b981578"
+    },
+    "source_ref": "ed09f64539a5af6c1dbe9bd352c7ef65dcd4a7a6",
+    "reused_as_execution_evidence": false
+  },
+  "host_observation": {
+    "available_memory_bytes": 24631545856,
+    "load_average": [
+      0.3193359375,
+      0.3857421875,
+      0.33544921875
+    ],
+    "disk_free_bytes": 2498768662528
+  },
+  "molecular_operations": 0,
+  "models_or_docking_runs": 0,
+  "third_party_contacts_or_publications": 0,
+  "dependencies_installed_or_changed": 0,
+  "new_commit_push_or_release": false,
+  "full_demonstrator_complete": false,
+  "new_scientific_contract_accepted": false
+}

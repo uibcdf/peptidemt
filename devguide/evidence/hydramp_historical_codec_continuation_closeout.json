@@ -1,0 +1,129 @@
+{
+  "schema": "peptidemt.hydramp_historical_codec_continuation_closeout@1",
+  "recorded_at_utc": "2026-11-05T21:39:55.748078+00:00",
+  "continuation_receipt": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/evidence/hydramp_historical_codec_continuation.json",
+    "bytes": 20934,
+    "sha256": "d77e7de04847ce4467d29fc49cb643e696ebc4b1bc6e6fa8ffb1fbdd2ffc80d2"
+  },
+  "final_checks": {
+    "ruff_check": {
+      "command": [
+        "/home/liliana/Myopt/miniconda3/envs/molsyssuite@uibcdf_3.14/bin/ruff",
+        "check",
+        "."
+      ],
+      "native_exit_code": 0,
+      "stdout": "All checks passed!\n",
+      "stderr": ""
+    },
+    "ruff_format": {
+      "command": [
+        "/home/liliana/Myopt/miniconda3/envs/molsyssuite@uibcdf_3.14/bin/ruff",
+        "format",
+        "--check",
+        "."
+      ],
+      "native_exit_code": 0,
+      "stdout": "185 files already formatted\n",
+      "stderr": ""
+    },
+    "devguide_index": {
+      "command": [
+        "/home/liliana/Myopt/miniconda3/envs/molsyssuite@uibcdf_3.14/bin/python",
+        "devtools/devguide_index.py",
+        "--check"
+      ],
+      "native_exit_code": 0,
+      "stdout": "Generated report indexes are current.\n",
+      "stderr": ""
+    },
+    "focused_diff_whitespace": {
+      "command": [
+        "git",
+        "diff",
+        "--check",
+        "--",
+        "AGENTS.md",
+        "devguide/governance.md",
+        "devguide/decisions.md",
+        "devguide/README.md",
+        "devguide/pending_proposals/hydramp_scientific_followup.md",
+        "devguide/hydramp_historical_real_implementation.md"
+      ],
+      "native_exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    "documentation": {
+      "relative_links_checked": 291,
+      "missing_paths": [],
+      "trailing_whitespace": []
+    }
+  },
+  "final_checks_artifact": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-stewardship-b7lgekxj/final-checks.json",
+    "bytes": 1309,
+    "sha256": "223ed924d783852eac370bb732618d682fc1392dd6c08186e92d7d85e5e94487"
+  },
+  "owner_updates": [
+    {
+      "repository": "uibcdf/peptidemt",
+      "issue": 32,
+      "comment_id": 6670223072,
+      "url": "https://github.com/uibcdf/peptidemt/issues/32#issuecomment-6670223072",
+      "published_at_utc": "2026-11-05T21:38:58Z",
+      "readback_matches": true,
+      "body_sha256": "e0f9f609ce2a340476be249a06ff9789b0702f042fd06ee34532c4436e7c8e77",
+      "issue_remains_open": true
+    },
+    {
+      "repository": "uibcdf/hydramp",
+      "issue": 3,
+      "comment_id": 6670228392,
+      "url": "https://github.com/uibcdf/hydramp/issues/3#issuecomment-6670228392",
+      "published_at_utc": "2026-11-05T21:39:15Z",
+      "readback_matches": true,
+      "body_sha256": "54530106f500a7b7a35e739cfe15fa6d610ee45ee60a97ea3400f2ef5ff8cf7d",
+      "issue_remains_open": true
+    }
+  ],
+  "routine_profile": {
+    "name": "molsyssuite@uibcdf_3.14",
+    "python_executable": "/home/liliana/Myopt/miniconda3/envs/molsyssuite@uibcdf_3.14/bin/python",
+    "python": "3.14.7 | packaged by conda-forge | (main, Sep  2 2026, 21:08:32) [GCC 15.3.0]",
+    "package_versions": {
+      "pytest": "9.1.1",
+      "pytest-receptor": "1.2.2+2.gb9676f8",
+      "ruff": "0.16.10",
+      "ackredit": "0.12.0+11.g74f865d",
+      "depdigest": "0.15.1+8.g0884f0c",
+      "smonitor": "0.22.0+16.gccdcace"
+    }
+  },
+  "selected_test_command": [
+    "python",
+    "-m",
+    "pytest",
+    "--receptor=llm",
+    "--receptor-events=local_data/hydramp-stewardship-b7lgekxj/controls-events.jsonl",
+    "--basetemp=local_data/hydramp-stewardship-b7lgekxj/controls-temp",
+    "devtools/tests/test_hydramp_historical_real.py",
+    "tests/test_hydramp_execution.py::test_timeout_kills_owned_worker_and_descendant",
+    "tests/test_hydramp_execution.py::test_fast_oversized_output_and_host_memory_guard",
+    "tests/test_reporting_protocol.py"
+  ],
+  "selected_test_environment": {
+    "TMPDIR": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-stewardship-b7lgekxj/tmp",
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  },
+  "no_additional_execution_during_closeout": true,
+  "learned_evaluations": 0,
+  "new_commit_or_push": false,
+  "retention": {
+    "owner": "PeptideMT#32 / HydrAMP#3",
+    "review_by": "2026-11-19"
+  }
+}

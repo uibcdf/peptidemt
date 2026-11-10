@@ -1,0 +1,482 @@
+{
+  "schema": "peptidemt.hydramp_dev8_source_review@1",
+  "recorded_at_utc": "2026-11-06T02:11:58.421259+00:00",
+  "status": "source_review_complete_scoped_local_commit_prepared_awaiting_explicit_Git_authorization",
+  "owner_issues": [
+    "uibcdf/hydramp#4",
+    "uibcdf/hydramp#2",
+    "uibcdf/peptidemt#32"
+  ],
+  "review_authority": "Investigator continuation of D50 review/consolidation; D49 standing technical delegation. No Git action inferred.",
+  "source_qualification_reused": {
+    "path": "devguide/evidence/hydramp_generation_result_qualification.json",
+    "bytes": 71206,
+    "sha256": "fffab901acd64b4c144a67a03b7e45c883d718014ed8cf8a786559e0fd7f748d"
+  },
+  "existing_source_installed_or_SDK_tests_repeated": false,
+  "all_previously_qualified_package_and_test_bytes_unchanged": true,
+  "source_base": "a77baff9de97e8ab4ae101b9b0c79122dea22ce3",
+  "expected_proposed_tree": "cc2c11506e0df4a6238c774e85a12ce0ce82fc52",
+  "tree_is_a_proposal_not_existing_commit": true,
+  "current_managed_source": [
+    {
+      "path": "/home/liliana/repos@uibcdf/hydramp/local_data/generation-results-20261105/ports/pytorch/pyproject.toml",
+      "bytes": 942,
+      "sha256": "f82a5e1eccc582b8f63d9f3eaca4a676b10939b1cda7b766cf0032ba8fbd1a8b"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/hydramp/local_data/generation-results-20261105/ports/pytorch/src/hydramp_torch/__init__.py",
+      "bytes": 1277,
+      "sha256": "f61313c2a83238b4861bd9cd28777d83f2e4f8dd2be63f5c7163f95061571d84"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/hydramp/local_data/generation-results-20261105/ports/pytorch/src/hydramp_torch/_version.py",
+      "bytes": 109,
+      "sha256": "17911c4e4cef5142dbecc32637f9c2275856d85ec81cf4bfffa7f7913acf253b"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/hydramp/local_data/generation-results-20261105/ports/pytorch/src/hydramp_torch/codec.py",
+      "bytes": 1585,
+      "sha256": "549ce530a73b019aeace0c6fa44dd83f031983c73d3593adda40d83c8fc78d48"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/hydramp/local_data/generation-results-20261105/ports/pytorch/src/hydramp_torch/inference.py",
+      "bytes": 11909,
+      "sha256": "fa03c15eaa62a441e7c13687a00a8988ef332bd42a9f10a0b294c97dc34a1426"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/hydramp/local_data/generation-results-20261105/ports/pytorch/src/hydramp_torch/integrations.py",
+      "bytes": 1380,
+      "sha256": "4956217f6aff8a5f392a4a6118e76f7bdffd200492a2ab714a23db5ccd907cd5"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/hydramp/local_data/generation-results-20261105/ports/pytorch/src/hydramp_torch/profiles.py",
+      "bytes": 5748,
+      "sha256": "315a8fb1f500926ad80429cd01259e27642c1191b000780300744fe4742dea7d"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/hydramp/local_data/generation-results-20261105/ports/pytorch/src/hydramp_torch/properties.py",
+      "bytes": 3144,
+      "sha256": "91cefe4ba5f80e070c7a028759af86efa71456ca577845447ed53fab9b4f3fba"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/hydramp/local_data/generation-results-20261105/ports/pytorch/src/hydramp_torch/results.py",
+      "bytes": 17350,
+      "sha256": "a0fe96f172e032726948405abb89f40cc1ddadba702f77ec278caea21b4ee156"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/hydramp/local_data/generation-results-20261105/ports/pytorch/src/hydramp_torch/vocabulary.py",
+      "bytes": 813,
+      "sha256": "458544eb2e10887b19e4e83eaeec32af75f39e4c4d530553a101df1b6501b849"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/hydramp/local_data/generation-results-20261105/ports/pytorch/tests/test_generation_profiles.py",
+      "bytes": 4388,
+      "sha256": "315a381ee9b6561e3c391054b3f2bf649393d45310c4828d44cfcd996b931f5c"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/hydramp/local_data/generation-results-20261105/ports/pytorch/tests/test_generation_results.py",
+      "bytes": 14000,
+      "sha256": "efd54c44f5ff2c886f87bec4322a0f4cfce64fbbc1b8ad19b9c5e7e3488bcea1"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/hydramp/local_data/generation-results-20261105/ports/pytorch/tests/test_result_integrations.py",
+      "bytes": 3972,
+      "sha256": "f1b6d5e56124efec7963e8752a1e75e47d1eef1baf61fb0a2ee89728d70b5cb9"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/hydramp/local_data/generation-results-20261105/ports/pytorch/uv.lock",
+      "bytes": 127285,
+      "sha256": "3bc9972489805d4c0508aca2e9d282208f89076f20f8d371c97200faa49d059b"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/hydramp/local_data/generation-results-20261105/AGENTS.md",
+      "bytes": 6215,
+      "sha256": "4cdf18a9fea666945b1e5ff5c3cb31f17b8a628bddd6526aaf7a1e8d3c8b6b61"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/hydramp/local_data/generation-results-20261105/README.md",
+      "bytes": 10619,
+      "sha256": "bf2de4257044cc7b318a8a12c575fd2d70d124f83133866e791593bc4c16f94e"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/hydramp/local_data/generation-results-20261105/devguide/README.md",
+      "bytes": 9915,
+      "sha256": "c515236087057e7ea876208a751e6d012ef6a6cc1e71eaf734382981e34fa223"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/hydramp/local_data/generation-results-20261105/devguide/generation_results.md",
+      "bytes": 6202,
+      "sha256": "f26e935c6e802e4451c765ddda0dfb48a6cc1b56b511daa42c5650a99b63e746"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/hydramp/local_data/generation-results-20261105/ports/pytorch/README.md",
+      "bytes": 5299,
+      "sha256": "6d2a505988c132d517a55168ee34845db730db2c92497a209c4fc215f6fa97ee"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/hydramp/local_data/generation-results-20261105/devguide/pytorch_product_status.md",
+      "bytes": 9262,
+      "sha256": "53b84390034a7e5d3165cc3d63c677bf8db07a6431eaa08f6ebcd976805422a0"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/hydramp/local_data/generation-results-20261105/devguide/pytorch_product_status_dev6_20261105.md",
+      "bytes": 10006,
+      "sha256": "adc1b92692366f16f41bdf9b590c5ca6ccfdc05f7046144f98409d97a44cdded"
+    }
+  ],
+  "findings": [
+    {
+      "id": "R1",
+      "severity": "documentation inconsistency",
+      "status": "corrected",
+      "observation": "Current product map still described dev6 and claimed metadata/result I/O gaps after dev7/dev8 delivery",
+      "disposition": "New current map; exact original map preserved separately; guide navigation corrected",
+      "history_identity": {
+        "old_status_sha256": "adc1b92692366f16f41bdf9b590c5ca6ccfdc05f7046144f98409d97a44cdded",
+        "preserved_path": "devguide/pytorch_product_status_dev6_20261105.md",
+        "source_package_changed": false,
+        "reason": "Current product map still advertises dev6, missing metadata and no independent result I/O after dev7/dev8 delivery"
+      }
+    },
+    {
+      "id": "R2",
+      "severity": "nonblocking API contract follow-up",
+      "status": "confirmed and documented; no runtime change",
+      "observation": "Direct GenerationResult construction/replace does not validate metadata or freeze/copy caller arrays; the save/load factories do",
+      "disposition": "Document the factory boundary; report a public-constructor contract follow-up in existing HydrAMP #4. No redesign adopted."
+    }
+  ],
+  "constructor_probe": {
+    "declaration.json": {
+      "at_utc": "2026-11-06T02:08:29.256339+00:00",
+      "authority": "D49; D50 approved serial data-only profile",
+      "resource_authority": "devguide/evidence/hydramp_generation_result_serial_authorization.json",
+      "question": "Does the public dataclass constructor enforce the validated/frozen invariants of save/load outputs?",
+      "command": [
+        "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-result-implementation-w5p9gdfz/environment/bin/python",
+        "-I",
+        "-B",
+        "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-dev8-source-review-rosd6pob/probe_constructor.py",
+        "59"
+      ],
+      "limits": {
+        "min_available_memory_bytes": 4294967296,
+        "min_free_disk_bytes": 2147483648,
+        "threads": 1,
+        "wall_seconds": 30,
+        "rss_stop_bytes": 536870912,
+        "max_output_bytes": 1048576
+      },
+      "cpu_seconds": 10,
+      "cpu_ids": [
+        0,
+        1
+      ],
+      "threads": 1,
+      "neural_or_learned_calls": 0,
+      "available_memory_bytes": 6736355328,
+      "script_sha256": "b95ccc8633bbd3e387e9691664d2fb4d2b194c5e4693377f6e1386d32d48c795"
+    },
+    "supervision.json": {
+      "started": true,
+      "returncode": 0,
+      "failure": null,
+      "wall_seconds": 1.5376662209164351,
+      "peak_sampled_process_tree_rss_bytes": 62324736,
+      "retained_output_bytes": 1721,
+      "retry": false,
+      "rss_scope": "supervisor_and_descendants"
+    },
+    "result.json": {
+      "native_exit": 0,
+      "scope": "Data-only constructor diagnosis, not a saved archive or scientific result",
+      "installed_origin": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-result-implementation-w5p9gdfz/environment/lib/python3.14/site-packages/hydramp_torch/__init__.py",
+      "candidate": "0.0.0.dev8",
+      "direct_constructor_validates_manifest": false,
+      "direct_constructor_copies_or_freezes_caller_arrays": false,
+      "factory_save_load_invariants_not_retested_or_changed": true,
+      "status": "Confirmed nonblocking public-constructor documentation/contract follow-up",
+      "neural_or_learned_calls": 0,
+      "Torch_imported": false,
+      "cpu_ids": [
+        0,
+        1
+      ]
+    }
+  },
+  "diagnostic_evidence": [
+    {
+      "path": "local_data/hydramp-dev8-source-review-rosd6pob/constructor-probe/declaration.json",
+      "bytes": 1044,
+      "sha256": "71b10cf092164599b5e268de6c8116b9d1e9d933ac0268e5fe47a812e6115bae"
+    },
+    {
+      "path": "local_data/hydramp-dev8-source-review-rosd6pob/constructor-probe/result.json",
+      "bytes": 677,
+      "sha256": "dea06a4a4d2b5bdd17bf70e9a9b7ea1d82b3c3848beb4d380a633bcabb8df065"
+    },
+    {
+      "path": "local_data/hydramp-dev8-source-review-rosd6pob/constructor-probe/supervision.json",
+      "bytes": 245,
+      "sha256": "56c50a40e6026b178dcbdc6ed54c3e712e8e0791467679a5f923ca4f6fbabc27"
+    }
+  ],
+  "diagnostic_source": {
+    "path": "local_data/hydramp-dev8-source-review-rosd6pob/probe_constructor.py",
+    "bytes": 2380,
+    "sha256": "b95ccc8633bbd3e387e9691664d2fb4d2b194c5e4693377f6e1386d32d48c795"
+  },
+  "commit_proposal": {
+    "scope": "One local HydrAMP commit only; not yet authorized or executed",
+    "branch": "peptidemt-generation-results",
+    "parent_commit": "a77baff9de97e8ab4ae101b9b0c79122dea22ce3",
+    "expected_tree": "cc2c11506e0df4a6238c774e85a12ce0ce82fc52",
+    "commit_subject": "Add independent generation results and provenance profile",
+    "commit_body": "Add bounded completed-generation NPZ/JSON save/read, a descriptive owner profile and explicit saved-result Recorda/Ackredit adapters. Preserve native scientific kernels and accepted resources.\n\nQualified with 52 focused source tests, 52 exact installed-wheel tests and five actual SDK checks; reproducible wheel, installed integrity and native dependency closure verified. Documentation updates distinguish current dev8 capability from preserved dev6 history. Direct dataclass construction remains an explicit follow-up; validated save/load is the supported retained-result boundary.",
+    "paths": [
+      {
+        "path": "ports/pytorch/pyproject.toml",
+        "mode": "100644",
+        "sha256": "f82a5e1eccc582b8f63d9f3eaca4a676b10939b1cda7b766cf0032ba8fbd1a8b",
+        "git_blob": "7923404500ee16a9ff1bc682bbacae9671502e4c",
+        "bytes": 942,
+        "new_file": false
+      },
+      {
+        "path": "ports/pytorch/src/hydramp_torch/__init__.py",
+        "mode": "100644",
+        "sha256": "f61313c2a83238b4861bd9cd28777d83f2e4f8dd2be63f5c7163f95061571d84",
+        "git_blob": "baae96079d8c4ad16bd101444eb080e8639ba1bf",
+        "bytes": 1277,
+        "new_file": false
+      },
+      {
+        "path": "ports/pytorch/src/hydramp_torch/_version.py",
+        "mode": "100644",
+        "sha256": "17911c4e4cef5142dbecc32637f9c2275856d85ec81cf4bfffa7f7913acf253b",
+        "git_blob": "d21416eda0ad06472f3eb80c32866e2a827cd0ad",
+        "bytes": 109,
+        "new_file": true
+      },
+      {
+        "path": "ports/pytorch/src/hydramp_torch/codec.py",
+        "mode": "100644",
+        "sha256": "549ce530a73b019aeace0c6fa44dd83f031983c73d3593adda40d83c8fc78d48",
+        "git_blob": "36ce00f60378a1a031a2b5cc27774028ee0411c9",
+        "bytes": 1585,
+        "new_file": false
+      },
+      {
+        "path": "ports/pytorch/src/hydramp_torch/inference.py",
+        "mode": "100644",
+        "sha256": "fa03c15eaa62a441e7c13687a00a8988ef332bd42a9f10a0b294c97dc34a1426",
+        "git_blob": "ddee1e9d16535e5b4a500d59e5d6e7d1073686c5",
+        "bytes": 11909,
+        "new_file": false
+      },
+      {
+        "path": "ports/pytorch/src/hydramp_torch/integrations.py",
+        "mode": "100644",
+        "sha256": "4956217f6aff8a5f392a4a6118e76f7bdffd200492a2ab714a23db5ccd907cd5",
+        "git_blob": "08ad194c097a0cc548bfca71501ed69ee3fd7e3a",
+        "bytes": 1380,
+        "new_file": true
+      },
+      {
+        "path": "ports/pytorch/src/hydramp_torch/profiles.py",
+        "mode": "100644",
+        "sha256": "315a8fb1f500926ad80429cd01259e27642c1191b000780300744fe4742dea7d",
+        "git_blob": "3459f9dea3d06094ec76cad32a5281bc2c1eb63e",
+        "bytes": 5748,
+        "new_file": true
+      },
+      {
+        "path": "ports/pytorch/src/hydramp_torch/properties.py",
+        "mode": "100644",
+        "sha256": "91cefe4ba5f80e070c7a028759af86efa71456ca577845447ed53fab9b4f3fba",
+        "git_blob": "11b4c3657e1aa86e6bf20c8413af81af7a112426",
+        "bytes": 3144,
+        "new_file": false
+      },
+      {
+        "path": "ports/pytorch/src/hydramp_torch/results.py",
+        "mode": "100644",
+        "sha256": "a0fe96f172e032726948405abb89f40cc1ddadba702f77ec278caea21b4ee156",
+        "git_blob": "e231a5f446eea87fd9d233ffd9b7d5edb74cb6c2",
+        "bytes": 17350,
+        "new_file": true
+      },
+      {
+        "path": "ports/pytorch/src/hydramp_torch/vocabulary.py",
+        "mode": "100644",
+        "sha256": "458544eb2e10887b19e4e83eaeec32af75f39e4c4d530553a101df1b6501b849",
+        "git_blob": "af9e6f78aa876c5b1ed48045ca0cc6d910b4a09c",
+        "bytes": 813,
+        "new_file": true
+      },
+      {
+        "path": "ports/pytorch/tests/test_generation_profiles.py",
+        "mode": "100644",
+        "sha256": "315a381ee9b6561e3c391054b3f2bf649393d45310c4828d44cfcd996b931f5c",
+        "git_blob": "60ec69502cd8839d03d15670b19a36995444c97a",
+        "bytes": 4388,
+        "new_file": true
+      },
+      {
+        "path": "ports/pytorch/tests/test_generation_results.py",
+        "mode": "100644",
+        "sha256": "efd54c44f5ff2c886f87bec4322a0f4cfce64fbbc1b8ad19b9c5e7e3488bcea1",
+        "git_blob": "71450a1a33fcb47d068fc08518f34c776c86928f",
+        "bytes": 14000,
+        "new_file": true
+      },
+      {
+        "path": "ports/pytorch/tests/test_result_integrations.py",
+        "mode": "100644",
+        "sha256": "f1b6d5e56124efec7963e8752a1e75e47d1eef1baf61fb0a2ee89728d70b5cb9",
+        "git_blob": "6ade80d04af121571cd4a7da7602c7baacaba9b4",
+        "bytes": 3972,
+        "new_file": true
+      },
+      {
+        "path": "ports/pytorch/uv.lock",
+        "mode": "100644",
+        "sha256": "3bc9972489805d4c0508aca2e9d282208f89076f20f8d371c97200faa49d059b",
+        "git_blob": "e8ddab462f229e164dce2034f6683f21aec06c53",
+        "bytes": 127285,
+        "new_file": false
+      },
+      {
+        "path": "AGENTS.md",
+        "mode": "100644",
+        "sha256": "4cdf18a9fea666945b1e5ff5c3cb31f17b8a628bddd6526aaf7a1e8d3c8b6b61",
+        "git_blob": "3773b321c8e395567ad3f022520f561cf8ace3d6",
+        "bytes": 6215,
+        "new_file": false
+      },
+      {
+        "path": "README.md",
+        "mode": "100644",
+        "sha256": "bf2de4257044cc7b318a8a12c575fd2d70d124f83133866e791593bc4c16f94e",
+        "git_blob": "4b94d29cff89150d0ce054ce6beb83d28b6a15b6",
+        "bytes": 10619,
+        "new_file": false
+      },
+      {
+        "path": "devguide/README.md",
+        "mode": "100644",
+        "sha256": "c515236087057e7ea876208a751e6d012ef6a6cc1e71eaf734382981e34fa223",
+        "git_blob": "83d5749a88d211336b06497d0a5d099f42151f90",
+        "bytes": 9915,
+        "new_file": false
+      },
+      {
+        "path": "devguide/generation_results.md",
+        "mode": "100644",
+        "sha256": "f26e935c6e802e4451c765ddda0dfb48a6cc1b56b511daa42c5650a99b63e746",
+        "git_blob": "ae76f1424510dc13019975eca8d5d6efc9ac585c",
+        "bytes": 6202,
+        "new_file": true
+      },
+      {
+        "path": "ports/pytorch/README.md",
+        "mode": "100644",
+        "sha256": "6d2a505988c132d517a55168ee34845db730db2c92497a209c4fc215f6fa97ee",
+        "git_blob": "a9e98b69536e538dd5868a6af00db7aa1f5801b1",
+        "bytes": 5299,
+        "new_file": false
+      },
+      {
+        "path": "devguide/pytorch_product_status.md",
+        "mode": "100644",
+        "sha256": "53b84390034a7e5d3165cc3d63c677bf8db07a6431eaa08f6ebcd976805422a0",
+        "git_blob": "8694772b83526405f6b84886764ec6e1fd328e7d",
+        "bytes": 9262,
+        "new_file": false
+      },
+      {
+        "path": "devguide/pytorch_product_status_dev6_20261105.md",
+        "mode": "100644",
+        "sha256": "adc1b92692366f16f41bdf9b590c5ca6ccfdc05f7046144f98409d97a44cdded",
+        "git_blob": "0529f39416649157e767b480d999e7fc2169253d",
+        "bytes": 10006,
+        "new_file": true
+      }
+    ],
+    "git_index_or_objects_modified": false,
+    "push_or_tag_or_release": false,
+    "user_consent_required_before_commit": "D50 explicitly excludes Git commit/push; root and owner AGENTS.md distinguish editing from committing",
+    "qualified_wheel_sha256": "21d2313c761e4fb8eb76e2f506615dc8e296a74c25cd440b863f78240c7f353f",
+    "package_and_test_sources_unchanged_since_qualification": true
+  },
+  "concrete_proposal_files": [
+    {
+      "path": "local_data/hydramp-dev8-source-review-rosd6pob/commit-proposal.json",
+      "bytes": 7250,
+      "sha256": "c1f6cded4546dc93832eeced77aa7d6526e56d82b8a32ac44f7ac8c12caaffc3"
+    },
+    {
+      "path": "local_data/hydramp-dev8-source-review-rosd6pob/commit-message.txt",
+      "bytes": 643,
+      "sha256": "2265e348f5fd8d455f0ec872b05131768a355197ce1b082fb8eb667f6fa93e5b"
+    },
+    {
+      "path": "local_data/hydramp-dev8-source-review-rosd6pob/commit-paths.txt",
+      "bytes": 773,
+      "sha256": "48004a22bff5101a0e584459d0bda18a97a10b855f8f2e29bc531cf49213f87c"
+    },
+    {
+      "path": "local_data/hydramp-dev8-source-review-rosd6pob/complete-review.patch",
+      "bytes": 103859,
+      "sha256": "e26203f7b2fded25437ee8aa9d97e41b3a96aeb1c5c4daadad7d9df4ba67c7d4"
+    },
+    {
+      "path": "local_data/hydramp-dev8-source-review-rosd6pob/prepare_commit_proposal.py",
+      "bytes": 4662,
+      "sha256": "549571dc1e37f4087cff689a08474752fa55b8e24e400ba1435c7bf6905f27c1"
+    }
+  ],
+  "suite_state": {
+    "path": "local_data/hydramp-dev8-source-review-rosd6pob/suite-state.json",
+    "bytes": 21260,
+    "sha256": "e869d26677bfb69b6db81b9a7bf270ab1549eb2eefbbeb515a03aa4c92321f30"
+  },
+  "suite_state_disposition": "Preserved all ongoing PeptideMT work; Ackredit clean and 15 behind fetched main; no pull/stash/merge/environment updates. Recorda observed directly, not a current suite registry selector.",
+  "SDK_sources_at_review": {
+    "recorda": {
+      "head": "ff52fa5d8628d796f413b833c8abe73907990cf9",
+      "dirty": false
+    },
+    "ackredit": {
+      "head": "74f865d7eca1f5386235885d4ea001e53b5b822d",
+      "dirty": false
+    }
+  },
+  "working_document": {
+    "path": "devguide/hydramp_dev8_source_review.md",
+    "bytes": 7591,
+    "sha256": "0d965877ab57696fdbc8a0a71493423245582b24abb7d1ec6c79662b9e73a048"
+  },
+  "limitations": [
+    "Focused contract/source review, not proof of general correctness or a new full/scientific suite",
+    "Factory result validation does not apply to manually constructed dataclass objects",
+    "Transport bounds do not establish worst-case RAM or filesystem/platform guarantees",
+    "Public SDK closure/newer Ackredit, live capture and schema migrations remain separate"
+  ],
+  "new_neural_or_learned_PCA_or_real_descriptor_calls": 0,
+  "GPU": false,
+  "git_commit_index_or_objects_mutated": false,
+  "no_push_tag_release_or_external_contact": true,
+  "retention": {
+    "owner": "HydrAMP #4/#2 and PeptideMT #32",
+    "task": "local_data/hydramp-dev8-source-review-rosd6pob",
+    "review_date": "2026-11-19",
+    "retain": [
+      "source snapshots/commit proposal",
+      "new bounded diagnostic",
+      "existing exact wheel/environment and historical receipts"
+    ],
+    "no_new_environment_or_installer_cache": true
+  }
+}

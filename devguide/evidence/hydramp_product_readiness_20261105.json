@@ -1,0 +1,1076 @@
+{
+  "schema": "peptidemt.hydramp_product_readiness@1",
+  "recorded_at_utc": "2026-11-05T22:48:22.160403+00:00",
+  "date": "2026-11-05",
+  "status": "current_product_review_and_document_navigation_delivered_product_consolidation_pending",
+  "owner_issue": "uibcdf/hydramp#4",
+  "consumer_issue": "uibcdf/peptidemt#32",
+  "authority": "Investigator proceeds with current independent-product review after data-gap audit; routine documentation fixes within that review; no scientific/runtime/Git-publication authority inferred",
+  "report": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/hydramp_product_readiness_20261105.md",
+    "bytes": 8723,
+    "sha256": "8dc6eb9a93005c615d48b85a9862aa63c420126754024fd7fce9278cf91bcd75"
+  },
+  "owner_worktree": "/home/liliana/repos@uibcdf/hydramp/local_data/pytorch-redesign",
+  "owner_branch": "peptidemt-pytorch-redesign",
+  "reference_HEAD": "6590d2f4c2963f25d30669052a4c4a857e0e7279",
+  "host_HEAD": "1f8c444e4619499cae8ad9970122c5f40adf6127",
+  "static_audit_script": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-product-readiness-thi6vegn/audit_product.py",
+    "bytes": 6082,
+    "sha256": "95616d88361917719a843038b6d8ef40165698997189cc849da3a73f6a0aa93d"
+  },
+  "static_audit_result": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-product-readiness-thi6vegn/static-audit.json",
+    "bytes": 29212,
+    "sha256": "5e110ec19447bfaa0faa65c2f95920d40e69fab0914213f0fe941582bb760c9d"
+  },
+  "static_audit_log": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-product-readiness-thi6vegn/static-audit.log",
+    "bytes": 455,
+    "sha256": "ec1f8aaa5adefd57ad5a6555e8333c29afb841b311bf0487d31c0df6a3bad531"
+  },
+  "static_audit_native_exit": 0,
+  "review_findings": {
+    "wheel": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-redesign-R1R2-k0to7w60/artifacts/hydramp_torch-0.0.0.dev6-py3-none-any.whl",
+      "bytes": 20316,
+      "sha256": "1ceb810546c8efe4736d12f67f34d04a0acb1c61440d4a8dcbf961bdd8de0b2a"
+    },
+    "record_entries_verified": 13,
+    "modules": [
+      {
+        "wheel_member": "hydramp_torch/__init__.py",
+        "source": {
+          "path": "/home/liliana/repos@uibcdf/hydramp/local_data/pytorch-redesign/ports/pytorch/src/hydramp_torch/__init__.py",
+          "bytes": 966,
+          "sha256": "d8214c3bf427aebc88a3406b946ec0e9c42e3a1229f5cb5822ca2533d69193fc"
+        },
+        "installed": {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-redesign-R3-yq620q_v/generation/lib/python3.14/site-packages/hydramp_torch/__init__.py",
+          "bytes": 966,
+          "sha256": "d8214c3bf427aebc88a3406b946ec0e9c42e3a1229f5cb5822ca2533d69193fc"
+        },
+        "public_symbols": {},
+        "imports": [
+          "analogue",
+          "codec",
+          "encoder",
+          "generation",
+          "inference",
+          "prior",
+          "properties"
+        ]
+      },
+      {
+        "wheel_member": "hydramp_torch/_checkpoint.py",
+        "source": {
+          "path": "/home/liliana/repos@uibcdf/hydramp/local_data/pytorch-redesign/ports/pytorch/src/hydramp_torch/_checkpoint.py",
+          "bytes": 780,
+          "sha256": "9dc25424162f1a92778bd2ce49bfc8620916ce8fbac2637287399724d26abd03"
+        },
+        "installed": {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-redesign-R3-yq620q_v/generation/lib/python3.14/site-packages/hydramp_torch/_checkpoint.py",
+          "bytes": 780,
+          "sha256": "9dc25424162f1a92778bd2ce49bfc8620916ce8fbac2637287399724d26abd03"
+        },
+        "public_symbols": {
+          "read_checkpoint_file": {
+            "kind": "FunctionDef",
+            "methods": [],
+            "annotated_fields": []
+          }
+        },
+        "imports": [
+          "hashlib"
+        ]
+      },
+      {
+        "wheel_member": "hydramp_torch/analogue.py",
+        "source": {
+          "path": "/home/liliana/repos@uibcdf/hydramp/local_data/pytorch-redesign/ports/pytorch/src/hydramp_torch/analogue.py",
+          "bytes": 12495,
+          "sha256": "64f8a40006f65de188d6b1e97c4eae1a2f3766d0b9cd5b8b4ce80d43817bbbc6"
+        },
+        "installed": {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-redesign-R3-yq620q_v/generation/lib/python3.14/site-packages/hydramp_torch/analogue.py",
+          "bytes": 12495,
+          "sha256": "64f8a40006f65de188d6b1e97c4eae1a2f3766d0b9cd5b8b4ce80d43817bbbc6"
+        },
+        "public_symbols": {
+          "AnalogueCandidate": {
+            "kind": "ClassDef",
+            "methods": [],
+            "annotated_fields": [
+              "trace_row",
+              "attempt_index",
+              "sequence",
+              "amp",
+              "mic"
+            ]
+          },
+          "AnalogueResult": {
+            "kind": "ClassDef",
+            "methods": [
+              "status"
+            ],
+            "annotated_fields": [
+              "prototype_index",
+              "prototype_sequence",
+              "amp",
+              "mic",
+              "candidates"
+            ]
+          },
+          "AnalogueTrace": {
+            "kind": "ClassDef",
+            "methods": [],
+            "annotated_fields": [
+              "results",
+              "seed",
+              "temperature",
+              "n_attempts",
+              "prototype_tokens",
+              "prototype_mean",
+              "prototype_log_variance",
+              "prototype_std",
+              "prototype_scale",
+              "std_underflow",
+              "scale_underflow",
+              "prototype_amp",
+              "prototype_mic",
+              "prototype_indices",
+              "attempt_indices",
+              "submitted_tokens",
+              "means",
+              "noise",
+              "latents",
+              "conditioned",
+              "decoder_inputs",
+              "tokens",
+              "sequences",
+              "amp",
+              "mic",
+              "improves",
+              "excludes_self",
+              "projected_empty",
+              "duplicate",
+              "retained"
+            ]
+          },
+          "HydrAMPAnalogueGenerator": {
+            "kind": "ClassDef",
+            "methods": [
+              "generate_with_trace"
+            ],
+            "annotated_fields": []
+          }
+        },
+        "imports": [
+          "dataclasses",
+          "encoder",
+          "generation",
+          "inference",
+          "math",
+          "numbers",
+          "numpy",
+          "torch"
+        ]
+      },
+      {
+        "wheel_member": "hydramp_torch/codec.py",
+        "source": {
+          "path": "/home/liliana/repos@uibcdf/hydramp/local_data/pytorch-redesign/ports/pytorch/src/hydramp_torch/codec.py",
+          "bytes": 1565,
+          "sha256": "4c929cce23c20b11a46c1ff333f7b16420f72448aeb1c6286aa320bc72997156"
+        },
+        "installed": {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-redesign-R3-yq620q_v/generation/lib/python3.14/site-packages/hydramp_torch/codec.py",
+          "bytes": 1565,
+          "sha256": "4c929cce23c20b11a46c1ff333f7b16420f72448aeb1c6286aa320bc72997156"
+        },
+        "public_symbols": {
+          "encode_sequences": {
+            "kind": "FunctionDef",
+            "methods": [],
+            "annotated_fields": []
+          }
+        },
+        "imports": [
+          "collections.abc",
+          "torch"
+        ]
+      },
+      {
+        "wheel_member": "hydramp_torch/encoder.py",
+        "source": {
+          "path": "/home/liliana/repos@uibcdf/hydramp/local_data/pytorch-redesign/ports/pytorch/src/hydramp_torch/encoder.py",
+          "bytes": 8796,
+          "sha256": "2abf1dd009a9bca39ad30d69e0f32cc3b225dd14b38e4ba46d1fbf3077723256"
+        },
+        "installed": {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-redesign-R3-yq620q_v/generation/lib/python3.14/site-packages/hydramp_torch/encoder.py",
+          "bytes": 8796,
+          "sha256": "2abf1dd009a9bca39ad30d69e0f32cc3b225dd14b38e4ba46d1fbf3077723256"
+        },
+        "public_symbols": {
+          "EncoderPosterior": {
+            "kind": "ClassDef",
+            "methods": [],
+            "annotated_fields": [
+              "mean",
+              "log_variance"
+            ]
+          },
+          "HydrAMPEncoder": {
+            "kind": "ClassDef",
+            "methods": [
+              "encode_tokens"
+            ],
+            "annotated_fields": []
+          },
+          "load_encoder_checkpoint": {
+            "kind": "FunctionDef",
+            "methods": [
+              "read"
+            ],
+            "annotated_fields": []
+          }
+        },
+        "imports": [
+          "_checkpoint",
+          "collections.abc",
+          "dataclasses",
+          "inference",
+          "io",
+          "json",
+          "numpy",
+          "pathlib",
+          "torch",
+          "torch.nn"
+        ]
+      },
+      {
+        "wheel_member": "hydramp_torch/generation.py",
+        "source": {
+          "path": "/home/liliana/repos@uibcdf/hydramp/local_data/pytorch-redesign/ports/pytorch/src/hydramp_torch/generation.py",
+          "bytes": 8136,
+          "sha256": "83d8a976cdfcdb64fed531db30a2e365954f0acb0f4072a3b0c5c1aaf266bd62"
+        },
+        "installed": {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-redesign-R3-yq620q_v/generation/lib/python3.14/site-packages/hydramp_torch/generation.py",
+          "bytes": 8136,
+          "sha256": "83d8a976cdfcdb64fed531db30a2e365954f0acb0f4072a3b0c5c1aaf266bd62"
+        },
+        "public_symbols": {
+          "GenerationTrace": {
+            "kind": "ClassDef",
+            "methods": [],
+            "annotated_fields": [
+              "native_results",
+              "returned_input_indices",
+              "seed",
+              "sampled_latents",
+              "conditioned",
+              "tokens",
+              "sequences",
+              "amp",
+              "mic"
+            ]
+          },
+          "HydrAMPGenerator": {
+            "kind": "ClassDef",
+            "methods": [
+              "unconstrained_generation",
+              "generate_with_trace"
+            ],
+            "annotated_fields": []
+          }
+        },
+        "imports": [
+          "dataclasses",
+          "inference",
+          "numbers",
+          "numpy",
+          "torch"
+        ]
+      },
+      {
+        "wheel_member": "hydramp_torch/inference.py",
+        "source": {
+          "path": "/home/liliana/repos@uibcdf/hydramp/local_data/pytorch-redesign/ports/pytorch/src/hydramp_torch/inference.py",
+          "bytes": 12538,
+          "sha256": "98f6494c2c93c8375c04909df683cd90c767fb8a024ee6b57da258cbfd2a4199"
+        },
+        "installed": {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-redesign-R3-yq620q_v/generation/lib/python3.14/site-packages/hydramp_torch/inference.py",
+          "bytes": 12538,
+          "sha256": "98f6494c2c93c8375c04909df683cd90c767fb8a024ee6b57da258cbfd2a4199"
+        },
+        "public_symbols": {
+          "HydrAMPInference": {
+            "kind": "ClassDef",
+            "methods": [
+              "decode_conditioned",
+              "score_tokens"
+            ],
+            "annotated_fields": []
+          },
+          "translate_tokens": {
+            "kind": "FunctionDef",
+            "methods": [],
+            "annotated_fields": []
+          },
+          "load_checkpoint": {
+            "kind": "FunctionDef",
+            "methods": [
+              "read"
+            ],
+            "annotated_fields": []
+          }
+        },
+        "imports": [
+          "_checkpoint",
+          "collections.abc",
+          "io",
+          "json",
+          "numpy",
+          "pathlib",
+          "torch",
+          "torch.nn"
+        ]
+      },
+      {
+        "wheel_member": "hydramp_torch/prior.py",
+        "source": {
+          "path": "/home/liliana/repos@uibcdf/hydramp/local_data/pytorch-redesign/ports/pytorch/src/hydramp_torch/prior.py",
+          "bytes": 2485,
+          "sha256": "3a765e5f906d7e00bd3b181c305f0665c712af6fa5988a4265f4b8369e124d19"
+        },
+        "installed": {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-redesign-R3-yq620q_v/generation/lib/python3.14/site-packages/hydramp_torch/prior.py",
+          "bytes": 2485,
+          "sha256": "3a765e5f906d7e00bd3b181c305f0665c712af6fa5988a4265f4b8369e124d19"
+        },
+        "public_symbols": {
+          "PCAProjection": {
+            "kind": "ClassDef",
+            "methods": [
+              "inverse_transform"
+            ],
+            "annotated_fields": []
+          }
+        },
+        "imports": [
+          "numpy"
+        ]
+      },
+      {
+        "wheel_member": "hydramp_torch/properties.py",
+        "source": {
+          "path": "/home/liliana/repos@uibcdf/hydramp/local_data/pytorch-redesign/ports/pytorch/src/hydramp_torch/properties.py",
+          "bytes": 2563,
+          "sha256": "c47bd6f8224b996b6d221caf2de151d3d6aae1360faf4a3ec56fdd8b09abe758"
+        },
+        "installed": {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-redesign-R3-yq620q_v/generation/lib/python3.14/site-packages/hydramp_torch/properties.py",
+          "bytes": 2563,
+          "sha256": "c47bd6f8224b996b6d221caf2de151d3d6aae1360faf4a3ec56fdd8b09abe758"
+        },
+        "public_symbols": {
+          "LegacyModlampProperties": {
+            "kind": "ClassDef",
+            "methods": [
+              "prepare"
+            ],
+            "annotated_fields": []
+          },
+          "Modlamp433Properties": {
+            "kind": "ClassDef",
+            "methods": [],
+            "annotated_fields": []
+          }
+        },
+        "imports": [
+          "importlib.metadata",
+          "modlamp"
+        ]
+      }
+    ],
+    "exported_names": [
+      "encode_sequences",
+      "AnalogueCandidate",
+      "AnalogueResult",
+      "AnalogueTrace",
+      "HydrAMPAnalogueGenerator",
+      "EncoderPosterior",
+      "HydrAMPEncoder",
+      "load_encoder_checkpoint",
+      "GenerationTrace",
+      "HydrAMPGenerator",
+      "HydrAMPInference",
+      "LegacyModlampProperties",
+      "Modlamp433Properties",
+      "PCAProjection",
+      "load_checkpoint",
+      "translate_tokens"
+    ],
+    "export_count": 16,
+    "module_count": 9,
+    "runtime_requires": [
+      "numpy==2.4.6",
+      "torch==2.15.0+cpu",
+      "modlamp==4.3.3; extra == \"properties\"",
+      "pytest<10,>=9; extra == \"test\"",
+      "pytest-receptor==1.2.2; extra == \"test\""
+    ],
+    "requires_python": "<3.15,>=3.14",
+    "project_urls": [],
+    "long_description_present": false,
+    "installed_entrypoint_files": [],
+    "package_main_present": false,
+    "license_preserved": true,
+    "legacy_reference_files_byte_preserved": [
+      "LICENSE",
+      "amp/.gitattributes",
+      "amp/__init__.py",
+      "amp/config.py",
+      "amp/data_utils/__init__.py",
+      "amp/data_utils/csv.py",
+      "amp/data_utils/data_loader.py",
+      "amp/data_utils/data_loader_single_file.py",
+      "amp/data_utils/download.py",
+      "amp/data_utils/fasta.py",
+      "amp/data_utils/sequence.py",
+      "amp/evaluation/config.py",
+      "amp/evaluation/scripts/run_cas.py",
+      "amp/evaluation/scripts/run_nas.py",
+      "amp/inference/__init__.py",
+      "amp/inference/filtering.py",
+      "amp/inference/inference.py",
+      "amp/inference/scripts/predict_if_amp.py",
+      "amp/inference/scripts/predict_sample_args.sh",
+      "amp/inference/scripts/run_analouge_generaton.py",
+      "amp/inference/scripts/run_unconstrained_generation.py",
+      "amp/layers/__init__.py",
+      "amp/layers/autoregressive_gru.py",
+      "amp/layers/gumbel_softmax.py",
+      "amp/layers/vae_loss.py",
+      "amp/models/__init__.py",
+      "amp/models/decoders/__init__.py",
+      "amp/models/decoders/amp_expanded_decoder.py",
+      "amp/models/decoders/decoder.py",
+      "amp/models/discriminators/__init__.py",
+      "amp/models/discriminators/amp_classifier_noCONV.py",
+      "amp/models/discriminators/discriminator.py",
+      "amp/models/discriminators/veltri_amp_classifier.py",
+      "amp/models/encoders/__init__.py",
+      "amp/models/encoders/amp_expanded_encoder.py",
+      "amp/models/encoders/encoder.py",
+      "amp/models/master/__init__.py",
+      "amp/models/master/master.py",
+      "amp/models/model.py",
+      "amp/models/model_garden.py",
+      "amp/utils/__init__.py",
+      "amp/utils/basic_model_serializer.py",
+      "amp/utils/callback.py",
+      "amp/utils/classifier_utils.py",
+      "amp/utils/dict_model_layer_collection.py",
+      "amp/utils/generate_peptides.py",
+      "amp/utils/generator.py",
+      "amp/utils/metrics.py",
+      "amp/utils/phys_chem_propterties.py",
+      "amp/utils/seed.py"
+    ],
+    "source_test_modules": [
+      {
+        "path": "/home/liliana/repos@uibcdf/hydramp/local_data/pytorch-redesign/ports/pytorch/tests/test_amp_activation_attribution.py",
+        "bytes": 3576,
+        "sha256": "299f494711b9c7a36f44e9d8c6dd0c2d67c39fde63ca35b148d8d34f1d06a603"
+      },
+      {
+        "path": "/home/liliana/repos@uibcdf/hydramp/local_data/pytorch-redesign/ports/pytorch/tests/test_amp_error_attribution.py",
+        "bytes": 3829,
+        "sha256": "2af7d7b695fe4cbf51296092e8d53e769171eb5a107e4c96fc6917a58d7681ea"
+      },
+      {
+        "path": "/home/liliana/repos@uibcdf/hydramp/local_data/pytorch-redesign/ports/pytorch/tests/test_amp_reference.py",
+        "bytes": 9126,
+        "sha256": "26b9e604ba3d99f7d469655410f475f3121f2adcd6b9915696fc51c2c6020ab4"
+      },
+      {
+        "path": "/home/liliana/repos@uibcdf/hydramp/local_data/pytorch-redesign/ports/pytorch/tests/test_amp_trace.py",
+        "bytes": 6355,
+        "sha256": "a10cb116c544e05eebf2f072cd6eb146913321e5f7ee25b98acad141f8bdd39c"
+      },
+      {
+        "path": "/home/liliana/repos@uibcdf/hydramp/local_data/pytorch-redesign/ports/pytorch/tests/test_analogue.py",
+        "bytes": 16663,
+        "sha256": "41a5d24a0c92d313d14bf839d4632936307ee3b16356c8cb29f72c16383c10c0"
+      },
+      {
+        "path": "/home/liliana/repos@uibcdf/hydramp/local_data/pytorch-redesign/ports/pytorch/tests/test_analogue_parity.py",
+        "bytes": 9162,
+        "sha256": "50bd08c808a274e23c9052b8bc63da938c42ca0eb220bbf30e5160d329701b7c"
+      },
+      {
+        "path": "/home/liliana/repos@uibcdf/hydramp/local_data/pytorch-redesign/ports/pytorch/tests/test_codec.py",
+        "bytes": 2110,
+        "sha256": "9a7926ca4f5059f0f2e456ea482646a1f85dfa501b72d9dc3e0064c6cf7d770f"
+      },
+      {
+        "path": "/home/liliana/repos@uibcdf/hydramp/local_data/pytorch-redesign/ports/pytorch/tests/test_confidence.py",
+        "bytes": 14887,
+        "sha256": "30b681dba8d37e8ae18613fbc3df80694364dca976d9234b14f3dee1da0144f7"
+      },
+      {
+        "path": "/home/liliana/repos@uibcdf/hydramp/local_data/pytorch-redesign/ports/pytorch/tests/test_decoder_trace.py",
+        "bytes": 6687,
+        "sha256": "3d0623fdb520bc0cc9679f013ae9477c2c5ccf23616aa62452c387ddf765865e"
+      },
+      {
+        "path": "/home/liliana/repos@uibcdf/hydramp/local_data/pytorch-redesign/ports/pytorch/tests/test_encoder.py",
+        "bytes": 14930,
+        "sha256": "e27a5f51eae6505b18635b59f8772263ea80b95602ac00c4580cd1fa854ca5b9"
+      },
+      {
+        "path": "/home/liliana/repos@uibcdf/hydramp/local_data/pytorch-redesign/ports/pytorch/tests/test_encoder_parity.py",
+        "bytes": 4285,
+        "sha256": "9f613ff255b76565d80093035a67e61a65d7e312ca1b02fac635e05a9b1c0a9a"
+      },
+      {
+        "path": "/home/liliana/repos@uibcdf/hydramp/local_data/pytorch-redesign/ports/pytorch/tests/test_full_comparison.py",
+        "bytes": 8178,
+        "sha256": "f06a894e91d847c6c7f011793128d3bc476821faad47a4c10f5efa30f69ab5cf"
+      },
+      {
+        "path": "/home/liliana/repos@uibcdf/hydramp/local_data/pytorch-redesign/ports/pytorch/tests/test_generation.py",
+        "bytes": 8453,
+        "sha256": "6d48d486b53f18314a2e8721b0919a97edaeacdf68af53f1bb25c462e6fe297e"
+      },
+      {
+        "path": "/home/liliana/repos@uibcdf/hydramp/local_data/pytorch-redesign/ports/pytorch/tests/test_inference.py",
+        "bytes": 12253,
+        "sha256": "e87da17ecb6f55591ec9365fb08c0fc9ab8dd0983197e54ba65889287bee037d"
+      },
+      {
+        "path": "/home/liliana/repos@uibcdf/hydramp/local_data/pytorch-redesign/ports/pytorch/tests/test_parity.py",
+        "bytes": 3624,
+        "sha256": "c81ee56a853aa6a79830f5c7858c95543051d539f1d742b121e0604cd470ca90"
+      },
+      {
+        "path": "/home/liliana/repos@uibcdf/hydramp/local_data/pytorch-redesign/ports/pytorch/tests/test_properties.py",
+        "bytes": 3394,
+        "sha256": "e47557c15f896f7542687b9d63c36ebc48882cd704c4cb57c759935cf6765a4e"
+      },
+      {
+        "path": "/home/liliana/repos@uibcdf/hydramp/local_data/pytorch-redesign/ports/pytorch/tests/test_rank_relevance.py",
+        "bytes": 3717,
+        "sha256": "1134cab8083a57441ac69687d4615dc1cbaba5cf57013b949b04e276687c0cdd"
+      }
+    ],
+    "provider_test_pins_reused": [],
+    "existing_qualification_counts": {
+      "shared_source_tests": {
+        "passed": 259,
+        "seconds": 8.44,
+        "log": {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-redesign-R1R2-k0to7w60/source-suite-final.log",
+          "bytes": 34,
+          "sha256": "008b0692528fea633d6c3cd95ba5b284dd83607b4ee187188bcff654876803f3"
+        },
+        "scientific_scope": "No learned-model/Macrel calls; actual Ackredit capture on controlled completion state"
+      },
+      "installed_tests": {
+        "passed": 101,
+        "provider_codec": 17,
+        "consumer": 84,
+        "log": {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-redesign-R1R2-k0to7w60/qualification/pytest.log",
+          "bytes": 264,
+          "sha256": "41ead218284ee3383030ef859cf643f5e110fb0a72ea1b4bb743edca4ed27d93"
+        },
+        "junit": {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-redesign-R1R2-k0to7w60/qualification/tests.xml",
+          "bytes": 17732,
+          "sha256": "fc21ba367783fa830248ace90a0a5e4a7a8856a72400716d4fc63ed59e8c4a78"
+        },
+        "note": "All completed once before guard-fixture correction; accepted cases reused, not rerun"
+      },
+      "direct_adapter_repeat": {
+        "passed": true,
+        "reused_installed_tests": 101,
+        "repeated_installed_tests": 0,
+        "artificial_neural_evaluations_this_resume": 7,
+        "total_artificial_neural_evaluations_including_first": 21,
+        "total_analogue_calls": 3,
+        "pretrained_model_or_Macrel_calls": 0,
+        "PCA_descriptors_GPU_network": false,
+        "direct_adapter_repeat_original_trace_and_links_exact": true,
+        "nonempty_repeated_parent_buckets": true,
+        "compatible_parent_mapping": [
+          0,
+          1,
+          3
+        ],
+        "candidate_parent_mapping": [
+          0,
+          1,
+          3
+        ],
+        "returned_child_occurrences": 3,
+        "distinct_returned_strings": 1,
+        "replay_and_unchanged_selectors": "PASS on explicitly artificial assessment values, no Macrel execution",
+        "optional_attribution": "First guard-induced failure retained; absent backend now reported unavailable with offline bibliography; real capture checked in shared source lane",
+        "inventory": {
+          "pytest": "9.2.0",
+          "numpy": "2.4.6",
+          "filelock": "4.2.5",
+          "iniconfig": "2.3.1",
+          "MarkupSafe": "3.0.4",
+          "depdigest": "0.15.1",
+          "fsspec": "2026.9.0",
+          "torch": "2.15.0+cpu",
+          "mpmath": "1.3.0",
+          "sympy": "1.14.0",
+          "typing_extensions": "4.16.0",
+          "packaging": "26.3",
+          "networkx": "3.7",
+          "pytest-receptor": "1.2.2",
+          "setuptools": "84.2.1",
+          "hydramp-torch": "0.0.0.dev6",
+          "pluggy": "1.7.0",
+          "smonitor": "0.22.0",
+          "Pygments": "2.21.0",
+          "Jinja2": "3.1.6",
+          "peptidemt": "0.1.0+unknown"
+        },
+        "wheels": {
+          "peptidemt-0.1.0+unknown-py3-none-any.whl": "9104ad927b1cb113e98a72063193fc2d309ceb3a109900d3a6e02ea2882a437b",
+          "hydramp_torch-0.0.0.dev6-py3-none-any.whl": "1ceb810546c8efe4736d12f67f34d04a0acb1c61440d4a8dcbf961bdd8de0b2a"
+        }
+      },
+      "first_supervision": {
+        "started": true,
+        "returncode": 1,
+        "failure": "worker_failure",
+        "wall_seconds": 9.192683266941458,
+        "peak_sampled_process_tree_rss_bytes": 573259776,
+        "retained_output_bytes": 406485,
+        "retry": false
+      },
+      "pending_only_supervision": {
+        "started": true,
+        "returncode": 0,
+        "failure": null,
+        "wall_seconds": 3.741983762010932,
+        "peak_sampled_process_tree_rss_bytes": 309739520,
+        "retained_output_bytes": 142899,
+        "retry": false
+      },
+      "guard_diagnosis": {
+        "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-redesign-R1R2-k0to7w60/guard-diagnosis.log",
+        "bytes": 894,
+        "sha256": "70a667ef972e0b43ef0ebd574e3269b6380c8bfd15a87670749dc67f03f16b68"
+      },
+      "guard_correction": {
+        "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-redesign-R1R2-k0to7w60/guard-correction.json",
+        "bytes": 642,
+        "sha256": "5905c82753c36e979dc6dfddb2de9147a4a9de209cb6715a790259f2e1158cad"
+      },
+      "guard_probe": {
+        "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-redesign-R1R2-k0to7w60/guard-corrected-probe.json",
+        "bytes": 48,
+        "sha256": "5fa25c11366e8032d63cb197c351f069ab43c10ef09fc98682394b1b82c62fa1"
+      },
+      "independent_installed_codec": {
+        "outcome": {
+          "passed": true,
+          "consumer_and_support_imports": 0,
+          "model_or_parameter_calls": 0,
+          "scope": "Independent installed codec with consumer/support imports and all parameter reads blocked"
+        },
+        "supervision": {
+          "started": true,
+          "returncode": 0,
+          "failure": null,
+          "wall_seconds": 2.1794097020756453,
+          "peak_sampled_process_tree_rss_bytes": 250564608,
+          "retained_output_bytes": 185,
+          "retry": false
+        },
+        "first_operator_stop": {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-redesign-R1R2-k0to7w60/independent-codec-first-execution.json",
+          "bytes": 432,
+          "sha256": "5fca767439c95d6bef916678c3885e83c22c040841f1dc687021bb49b4fb7703"
+        },
+        "correction": "Use a dedicated output directory; the first auxiliary probe incorrectly included pre-existing task/prefix bytes. No model/parameter call exists in this codec-only probe.",
+        "probe_source": {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-redesign-R1R2-k0to7w60/probe_independent_codec.py",
+          "bytes": 1390,
+          "sha256": "6aab049137708a5e8f06425d1878caff59f1a3062f1da671ade9df33bb476b6c"
+        },
+        "original_probe_source": {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-redesign-R1R2-k0to7w60/probe-independent-before-output-directory-fix.py",
+          "bytes": 1379,
+          "sha256": "0feb2d2e305ef9d15380108b1d53e6b4758575ae0aa931b5c1ec2134b1511453"
+        }
+      },
+      "strict_documentation": {
+        "HTML": "PASS after fixing one external-tree link",
+        "doctest": {
+          "passed": 6,
+          "failures": 0
+        },
+        "models_or_parameter_reads": 0,
+        "HTML_log": {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-redesign-R1R2-k0to7w60/docs-html-delivery.log",
+          "bytes": 2704,
+          "sha256": "75a8cebe0c423edfc2b900031fc660a78e4ffd6e6983f4c41db693fc86179320"
+        },
+        "doctest_log": {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-redesign-R1R2-k0to7w60/docs-doctest.log",
+          "bytes": 2750,
+          "sha256": "439b93ced75e469c8488b43a7a17d030a8ff393bf91c5f52dc515c218ed0d73a"
+        }
+      }
+    },
+    "owner_documents_before": [
+      {
+        "relative": "README.md",
+        "identity": {
+          "path": "/home/liliana/repos@uibcdf/hydramp/local_data/pytorch-redesign/README.md",
+          "bytes": 9529,
+          "sha256": "1060895c71e22c69216168b250901459e3f72cdd89aaf4a52dc192f43774366f"
+        },
+        "snapshot": {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-product-readiness-thi6vegn/owner-docs-before/README.md",
+          "bytes": 9529,
+          "sha256": "1060895c71e22c69216168b250901459e3f72cdd89aaf4a52dc192f43774366f"
+        }
+      },
+      {
+        "relative": "AGENTS.md",
+        "identity": {
+          "path": "/home/liliana/repos@uibcdf/hydramp/local_data/pytorch-redesign/AGENTS.md",
+          "bytes": 4731,
+          "sha256": "0864e82dc514c86515db30ab90a2765185e0d865723287d5722fbff20a6503ae"
+        },
+        "snapshot": {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-product-readiness-thi6vegn/owner-docs-before/AGENTS.md",
+          "bytes": 4731,
+          "sha256": "0864e82dc514c86515db30ab90a2765185e0d865723287d5722fbff20a6503ae"
+        }
+      },
+      {
+        "relative": "devguide/README.md",
+        "identity": {
+          "path": "/home/liliana/repos@uibcdf/hydramp/local_data/pytorch-redesign/devguide/README.md",
+          "bytes": 9019,
+          "sha256": "8c0726b75ff7c23891d1dfc30fb9775f8494b8720c5b1eef05c5c9febbfc45c5"
+        },
+        "snapshot": {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-product-readiness-thi6vegn/owner-docs-before/devguide/README.md",
+          "bytes": 9019,
+          "sha256": "8c0726b75ff7c23891d1dfc30fb9775f8494b8720c5b1eef05c5c9febbfc45c5"
+        }
+      },
+      {
+        "relative": "devguide/pytorch_product_review.md",
+        "identity": {
+          "path": "/home/liliana/repos@uibcdf/hydramp/local_data/pytorch-redesign/devguide/pytorch_product_review.md",
+          "bytes": 7864,
+          "sha256": "583d401fd1347b909c50c66d1cc7d95bb17101ca0e2e62e27a036c8e1b53484a"
+        },
+        "snapshot": {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-product-readiness-thi6vegn/owner-docs-before/devguide/pytorch_product_review.md",
+          "bytes": 7864,
+          "sha256": "583d401fd1347b909c50c66d1cc7d95bb17101ca0e2e62e27a036c8e1b53484a"
+        }
+      },
+      {
+        "relative": "devguide/pytorch_user_guide.md",
+        "identity": {
+          "path": "/home/liliana/repos@uibcdf/hydramp/local_data/pytorch-redesign/devguide/pytorch_user_guide.md",
+          "bytes": 7560,
+          "sha256": "0c7dc14ec6537dbc658e2c0dfbf40240cc3dbd6b233e56a4c7c1b2a5d9980526"
+        },
+        "snapshot": {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-product-readiness-thi6vegn/owner-docs-before/devguide/pytorch_user_guide.md",
+          "bytes": 7560,
+          "sha256": "0c7dc14ec6537dbc658e2c0dfbf40240cc3dbd6b233e56a4c7c1b2a5d9980526"
+        }
+      },
+      {
+        "relative": "devguide/pytorch_model_card.md",
+        "identity": {
+          "path": "/home/liliana/repos@uibcdf/hydramp/local_data/pytorch-redesign/devguide/pytorch_model_card.md",
+          "bytes": 4927,
+          "sha256": "167492fc468aea66578f3e04412df03cb79f913a2d467fa8d820fe35314df97e"
+        },
+        "snapshot": {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-product-readiness-thi6vegn/owner-docs-before/devguide/pytorch_model_card.md",
+          "bytes": 4927,
+          "sha256": "167492fc468aea66578f3e04412df03cb79f913a2d467fa8d820fe35314df97e"
+        }
+      },
+      {
+        "relative": "ports/pytorch/README.md",
+        "identity": {
+          "path": "/home/liliana/repos@uibcdf/hydramp/local_data/pytorch-redesign/ports/pytorch/README.md",
+          "bytes": 8089,
+          "sha256": "adbdfe52fba17c5f3df267448fa0b0a1eaf5c0e76a9085a39f36bf75ba382ea5"
+        },
+        "snapshot": {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-product-readiness-thi6vegn/owner-docs-before/ports/pytorch/README.md",
+          "bytes": 8089,
+          "sha256": "adbdfe52fba17c5f3df267448fa0b0a1eaf5c0e76a9085a39f36bf75ba382ea5"
+        }
+      }
+    ],
+    "scientific_imports_or_model_reads": 0,
+    "new_test_or_inference_execution": false
+  },
+  "supplemental_prior_codec_test_pin": {
+    "pins": [
+      {
+        "path": "/home/liliana/repos@uibcdf/hydramp/local_data/pytorch-redesign/ports/pytorch/tests/test_codec.py",
+        "bytes": 2110,
+        "sha256": "9a7926ca4f5059f0f2e456ea482646a1f85dfa501b72d9dc3e0064c6cf7d770f"
+      }
+    ],
+    "matched": true,
+    "note": "One provider codec test pin is retained in R1R2 provider_changes; full 17-module inventory is not a new test run"
+  },
+  "current_owner_doc_changes": {
+    "owner": "/home/liliana/repos@uibcdf/hydramp/local_data/pytorch-redesign",
+    "new_document": {
+      "relative": "devguide/pytorch_product_status.md",
+      "bytes": 10006,
+      "sha256": "adc1b92692366f16f41bdf9b590c5ca6ccfdc05f7046144f98409d97a44cdded"
+    },
+    "updated": [
+      {
+        "relative": "README.md",
+        "previous_body_retained_byte_for_byte": true,
+        "bytes": 9898,
+        "sha256": "94eb7c6454ca269b91e605013d83a06aef89fe07d1a34286521a4f5ff0650bfb"
+      },
+      {
+        "relative": "AGENTS.md",
+        "previous_body_retained_byte_for_byte": true,
+        "bytes": 5050,
+        "sha256": "ec4e81b34594a87e0570666617edeab3a1c599929916239122552c73f0a45e9d"
+      },
+      {
+        "relative": "devguide/README.md",
+        "previous_body_retained_byte_for_byte": true,
+        "bytes": 9331,
+        "sha256": "bc0b2a56787d78d31fed105e0bba5fb8b850895b4954a6d1cfb50ff1f35bbac1"
+      },
+      {
+        "relative": "devguide/pytorch_product_review.md",
+        "previous_body_retained_byte_for_byte": true,
+        "bytes": 8072,
+        "sha256": "5b75c5e851c9d4b3d8093aa02458835c89535127af166553215cfc055f39f247"
+      },
+      {
+        "relative": "devguide/pytorch_user_guide.md",
+        "previous_body_retained_byte_for_byte": true,
+        "bytes": 7903,
+        "sha256": "a334c088686fa969f3a386fd753a2a5176710e7200cb121c6c599b98643e7783"
+      },
+      {
+        "relative": "devguide/pytorch_model_card.md",
+        "previous_body_retained_byte_for_byte": true,
+        "bytes": 5159,
+        "sha256": "2507326f4780994b90c89fff6caac09b5d9efd9964da22f2f646cf2af9a801a8"
+      },
+      {
+        "relative": "ports/pytorch/README.md",
+        "previous_body_retained_byte_for_byte": true,
+        "bytes": 8525,
+        "sha256": "ad79da3e1f60d1f0c5da4f5a3de1bb77aa017a73e7df69fe6472c870fa35c2e9"
+      }
+    ],
+    "runtime_metadata_lock_assets_unchanged": true,
+    "commit_or_push": false
+  },
+  "owner_current_guide": {
+    "path": "/home/liliana/repos@uibcdf/hydramp/local_data/pytorch-redesign/devguide/pytorch_product_status.md",
+    "bytes": 10006,
+    "sha256": "adc1b92692366f16f41bdf9b590c5ca6ccfdc05f7046144f98409d97a44cdded"
+  },
+  "owner_edit_plan": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-product-readiness-thi6vegn/owner-document-edit-plan-final.json",
+    "bytes": 2246,
+    "sha256": "7f511055a9cc4e655f578eb028421f63ade32d6e42de75697e5b8c4cbb471ea9"
+  },
+  "document_previous_bodies_retained": true,
+  "owner_runtime_installed_metadata_lock_test_and_wheel_bytes_unchanged": true,
+  "earlier_retained_receipts_unchanged": [
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/evidence/hydramp_product_review.json",
+      "bytes": 33105,
+      "sha256": "9d6db1ee732e9bed2d190811cf25bd539a609d1e864e2d43f4b76cdfa5011139"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/evidence/hydramp_redesign_R1R2.json",
+      "bytes": 23649,
+      "sha256": "c685e82737e1049880f4b8b085f7bc2d7af3b64037cba936a5834590a3d98dde"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/evidence/hydramp_encoder_E2_execution.json",
+      "bytes": 25926,
+      "sha256": "fc95a2fef96f3930d4f1dd3d3f1a23dc02dedcce107a95f54e62a9e23f6cd0f1"
+    }
+  ],
+  "scientific_evidence_references": [
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/evidence/hydramp_dev3_acceptance.json",
+      "bytes": 5194,
+      "sha256": "0cd7fe9147c918e2c1598f6f917b537c178f6b07e35f6a137b59701ba24a7842"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/evidence/hydramp_dev5_acceptance.json",
+      "bytes": 2204,
+      "sha256": "60a8f003cf80a39a84cb722ffd6d7d377cff38fd6abea2dcc9b02bab19ea42f8"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/evidence/hydramp_redesign_R3_execution.json",
+      "bytes": 25344,
+      "sha256": "9fa24f007a8feca1cf504d4a8aefa2a542c8ecaab11f3aa880980ca6b1b4db1e"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/evidence/hydramp_historical_real_execution.json",
+      "bytes": 107521,
+      "sha256": "b9b8b428bb8243b59bd4447dd0f94329c7724ab98363929a6ddd5ce07cd7dd99"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/evidence/hydramp_external_data_readiness.json",
+      "bytes": 35149,
+      "sha256": "10d0c874fd8b2866fa69ebe583ca23021186f2b01d888f83124f0a4f87491677"
+    }
+  ],
+  "test_scope": "Static inventory and retained-source identity only; no new owner scientific/installed suite, framework imports or parameter loading. Documentation/reporting checks are recorded separately at closeout",
+  "product_gaps": [
+    "Reviewed modern source is uncommitted across retained worktrees; one coherent reproducible source/package baseline is not delivered by this review",
+    "Wheel project URLs and long description are missing; CPU-index route and current dependency/profile scope require exact candidate qualification before public claims",
+    "Native traces have no reviewed independent portable result/provenance contract; Recorda/Ackredit responsibilities precede such implementation",
+    "CLI is optional, not selected as an immediate prerequisite",
+    "Optional-filter/trainable-surface/family/collaboration work retains separate scientific scope and owning issues"
+  ],
+  "primary_data_followup": {
+    "initial_sandbox_DNS_failures": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-product-readiness-thi6vegn/primary-source-metadata-probe.json",
+      "bytes": 587,
+      "sha256": "820747739d2e27f36ab8144296000fed957ecefebe2a72c6962a1c43cb68a196"
+    },
+    "network_enabled_public_retry": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-product-readiness-thi6vegn/primary-source-metadata-probe-network.json",
+      "bytes": 2936,
+      "sha256": "08e0c9538cedc43e3918381924456ca1ac5589dfb4e17553e32fee44a2bf7b73"
+    },
+    "crossref_metadata": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-product-readiness-thi6vegn/crossref.json",
+      "bytes": 20380,
+      "sha256": "aae7e50fdb03352e65ed02aa456d6e764af936bda0c281175c9886b4e745d708"
+    },
+    "publisher_response": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-product-readiness-thi6vegn/ampdiffusion-publisher.xml",
+      "bytes": 2000,
+      "sha256": "80ffb113a50b41e5ec09a04f9627eb65a313d272eb27c75639281696bb85f22c"
+    },
+    "publisher_probe": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-product-readiness-thi6vegn/primary-fulltext-probe.json",
+      "bytes": 388,
+      "sha256": "20bcaf75590f5813147f7de917e96d263b81f7c911a1e079027d2c82458d3309"
+    },
+    "EuropePMC_metadata": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-product-readiness-thi6vegn/europepmc.json",
+      "bytes": 195,
+      "sha256": "502b552829df0e75f6db5ac679bba5f42ab9a724f35d1730b77c67f86ed2ea8e"
+    },
+    "semantic_result": {
+      "crossref_VoR_license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                7,
+                30
+              ]
+            ],
+            "date-time": "2025-07-30T00:00:00Z",
+            "timestamp": 1753833600000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "publisher_open_access": {
+        "openaccess": "1",
+        "openaccessArticle": "true",
+        "openaccessType": "Full",
+        "openaccessUserLicense": "http://creativecommons.org/licenses/by/4.0/"
+      },
+      "publisher_response_is_metadata_only": true,
+      "primary_experimental_table_obtained": false,
+      "EuropePMC_DOI_results": 0,
+      "new_chemical_or_assay_fields_filled": false,
+      "model_calls": 0
+    },
+    "interpretation": "Article VoR CC BY4 is independently reported by registry and publisher metadata. HTTP200 has no original text/tables, so primary experimental CSV/chemistry/assay verification remains pending; no missing fields filled or new cohort accepted",
+    "API_keys_or_credentials_used": false
+  },
+  "scope": {
+    "new_neural_or_artificial_network_evaluations": 0,
+    "model_imports_or_parameter_PCA_reads": 0,
+    "scientific_math_preprocessing_selector_or_chemistry_changed": false,
+    "new_schema_API_or_CLI": false,
+    "new_acceptance": false,
+    "new_dependency_or_build": false,
+    "GPU": false,
+    "owner_code_or_legacy_source_changes": false,
+    "commit_push_or_Git_integration": false,
+    "package_asset_or_raw_sequence_publication": false,
+    "external_author_contact": false
+  },
+  "workspace": {
+    "task": {
+      "task": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-product-readiness-thi6vegn",
+      "available_memory_bytes": 15635394560,
+      "loadavg": [
+        1.1240234375,
+        1.3916015625,
+        1.86572265625
+      ],
+      "disk_free_bytes": 2518533824512,
+      "model_evaluations": 0,
+      "GPU": false,
+      "retention": {
+        "owner": "HydrAMP#4 / PeptideMT#32",
+        "review_by": "2026-11-19"
+      }
+    },
+    "official_suite_status": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-product-readiness-thi6vegn/suite-status.json",
+      "bytes": 18960,
+      "sha256": "f962900787a2a5fb0924fa7044ade39a6cf7f03dc0df370bd81512b797436b33"
+    },
+    "official_suite_status_native_exit": 1,
+    "disposition": "Preserve dirty PeptideMT and all HydrAMP worktrees. Only eight guarded owner-document edits; no source merge/reset/stash/pull or environment change",
+    "canonical_guide": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/MOLSYSSUITE_GUIDE.md",
+      "bytes": 69263,
+      "sha256": "850a98f0757a18734b328332c88e4622f60bdef097148a1fd59b9f009846bfe4"
+    },
+    "canonical_bytes_equal": true
+  },
+  "retention": {
+    "owner": "HydrAMP#4 / PeptideMT#32",
+    "review_by": "2026-11-19"
+  }
+}

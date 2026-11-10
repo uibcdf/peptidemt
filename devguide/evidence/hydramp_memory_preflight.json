@@ -1,0 +1,51 @@
+{
+  "schema": "peptidemt.hydramp_memory_preflight@1",
+  "observed_at_utc": "2026-10-30T22:38:54.518375+00:00",
+  "issue": "uibcdf/peptidemt#8",
+  "task_directory": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-parity-637rwaat",
+  "measurements": {
+    "legacy": {
+      "stage": "legacy",
+      "python": "3.8.20 | packaged by conda-forge | (default, Sep 30 2024, 17:52:49) \n[GCC 13.3.0]",
+      "prefix": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-h1-20261030-6jc5a1me/worker",
+      "peak_rss_kib": 355776,
+      "status": {
+        "VmPeak": "2002312 kB",
+        "VmSize": "1949936 kB",
+        "VmHWM": "356008 kB",
+        "VmRSS": "356008 kB",
+        "Threads": "1"
+      },
+      "pretrained_loads": 0,
+      "log_sha256": "a385d9ba52c18f207a745060fe7163d1ec94b991994445ec9483de3d36837426",
+      "sampled_high_water_rss_bytes": 364552192
+    },
+    "torch": {
+      "stage": "torch",
+      "python": "3.14.7 | packaged by conda-forge | (main, Sep  2 2026, 21:08:32) [GCC 15.3.0]",
+      "prefix": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-torch-lvrqr0lk/worker",
+      "peak_rss_kib": 256192,
+      "status": {
+        "VmPeak": "630548 kB",
+        "VmSize": "630548 kB",
+        "VmHWM": "256460 kB",
+        "VmRSS": "256460 kB",
+        "Threads": "1"
+      },
+      "pretrained_loads": 0,
+      "log_sha256": "1a04f54a0d4a8a2091043026f012cd8cc61925ca62de50dab474184ec6929904",
+      "sampled_high_water_rss_bytes": 262615040
+    }
+  },
+  "measurement_script_sha256": "3fc1b9b50b2fbb7595b4dd456b8ea5f8b7bdc39b577e16c3af65f4c94345c2f1",
+  "method": "Sequential isolated guarded library/class imports; scientific artifact opens and network blocked; CPU affinity 0,1, one native thread, nice 10, 8 GiB address-space limit. No model constructed.",
+  "all_native_npy_file_bytes": 3688444,
+  "inference_peak_rss": "Not measured; no real checkpoint/PCA loaded.",
+  "assessment": "An 8 GiB RAM allocation is expected to be ample for this fixed 12-row comparison. Import RSS is about 348 MiB legacy and 250 MiB Torch; real-graph/model overhead remains unmeasured. Keep the existing 2 GiB sampled RSS stop and sequential workers. The 8 GiB address-space limit is not a physical RAM reservation.",
+  "plan_changed": false,
+  "plan_sha256": "5e595692db5863aa43e2b36106e7eaf4e39b2a8a7f1dd25026930d981d829833",
+  "real_model_loads": 0,
+  "real_pca_loads": 0,
+  "gpu_used": false,
+  "shared_environment_modified": false
+}

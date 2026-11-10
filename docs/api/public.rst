@@ -31,6 +31,9 @@ Receiving and selecting results
 .. autoclass:: peptidemt.ResultSet
    :members:
 
+.. autoclass:: peptidemt.HydrAMPReceipt
+   :members:
+
 .. autoclass:: peptidemt.Selection
    :members:
 
@@ -43,3 +46,36 @@ Selecting the optional Macrel route
    :members:
 
 .. autofunction:: peptidemt.assess_macrel
+
+Selecting the provisional HydrAMP route
+----------------------------------------
+
+.. autoclass:: peptidemt.HydrAMPBundle
+   :members:
+
+.. autoclass:: peptidemt.HydrAMPLimits
+   :members:
+
+.. autofunction:: peptidemt.generate_hydramp
+
+Receiving and composing provisional analogue results
+----------------------------------------------------
+
+.. autoclass:: peptidemt.HydrAMPAnalogueReceipt
+   :members:
+   :undoc-members:
+
+.. autoclass:: peptidemt.AnalogueParentOutcome
+   :members:
+   :undoc-members:
+
+.. autoclass:: peptidemt.AnalogueLink
+   :members:
+   :undoc-members:
+
+.. autofunction:: peptidemt.analogue_input_issues
+
+.. autoclass:: peptidemt.HydrAMPAnalogueBundle
+   :members:
+
+.. autofunction:: peptidemt.redesign_hydramp

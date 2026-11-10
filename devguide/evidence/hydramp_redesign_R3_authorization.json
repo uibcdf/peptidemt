@@ -1,0 +1,119 @@
+{
+  "schema": "peptidemt.hydramp_redesign_R3_authorization@1",
+  "recorded_at_utc": "2026-11-04T23:01:45.320559+00:00",
+  "explicit_investigator_approval": true,
+  "plan_sha256": "7a55b24e8c5d2cc105274e54dec83cf442f80b28211d0f297f55d6c2b1216974",
+  "reply_reference": "Investigator continuation directive in this session immediately following the exact R3 approval request for plan 7a55b24e8c5d2cc105274e54dec83cf442f80b28211d0f297f55d6c2b1216974, 2026-11-04",
+  "scope": "Execute that exact R3 once with its case, artifacts, use conditions, prospective criteria and complete finite shared-host/call limits. Execution authority only; no new scientific acceptance.",
+  "call_budget": {
+    "hydramp_analogue_calls": 3,
+    "networks_per_analogue": 7,
+    "pretrained_neural_evaluations": 21,
+    "macrel_calls_maximum": 3,
+    "onnx_evaluations_per_nonempty_batch": 2,
+    "onnx_evaluations_maximum": 6,
+    "total_neural_evaluations_maximum": 27,
+    "encoder_forward_maximum": 6,
+    "decoder_forward_maximum": 3,
+    "native_AMP_head_forward_maximum": 6,
+    "native_MIC_head_forward_maximum": 6,
+    "generated_attempt_rows_per_analogue": 16,
+    "submitted_parent_occurrences_per_analogue": 8,
+    "macrel_controls_records": 4,
+    "macrel_parent_records": 8,
+    "macrel_child_records_maximum": 16,
+    "minimum_if_no_child_is_eligible": 25,
+    "unused_allowance_reusable": false,
+    "descriptors_PCA_training_GPU": 0,
+    "legacy_tensorflow_evaluations": 0,
+    "automatic_retries": 0,
+    "read_only_uname_p_queries": "at most one per Python process; at most 11 Python hosts/workers plus up to 11 additional read-only uname children across the six stages, not neural calls"
+  },
+  "host_limits": {
+    "shared_host": {
+      "sequential_scientific_workers": 1,
+      "maximum_supervised_stage_seconds": 120,
+      "maximum_total_seconds": 720,
+      "task_RAM_intent_bytes": 4000000000,
+      "sampled_tree_RSS_stop_bytes": 2147483648,
+      "hard_RSS_limit": false,
+      "max_retained_run_output_bytes": 805306368,
+      "GPU": false,
+      "host_and_workers_share_limits": true,
+      "notes": "Outer scientific host plus its sole child are counted together; sampled RSS can overshoot between samples. Guards do not reserve RAM or reclaim other users swap."
+    },
+    "child_limits": {
+      "address_space_bytes": 8589934592,
+      "cpu_ids": [
+        0,
+        1
+      ],
+      "nice": 10
+    },
+    "supervisor_limits": {
+      "min_available_memory_bytes": 8589934592,
+      "min_free_disk_bytes": 1073741824,
+      "threads": 1,
+      "wall_seconds": 120,
+      "rss_stop_bytes": 2147483648,
+      "max_output_bytes": 134217728
+    },
+    "hydramp_limits": {
+      "max_records": 16,
+      "wall_seconds": 90,
+      "address_space_bytes": 8589934592,
+      "rss_stop_bytes": 2147483648,
+      "max_output_bytes": 134217728,
+      "cpu_ids": [
+        0,
+        1
+      ],
+      "threads": 1,
+      "nice": 10,
+      "min_available_memory_bytes": 8589934592,
+      "min_free_disk_bytes": 1073741824
+    },
+    "macrel_limits": {
+      "max_records": 16,
+      "max_input_bytes": 8192,
+      "wall_seconds": 90,
+      "memory_bytes": 4294967296,
+      "intra_op_threads": 1,
+      "blas_threads": 1,
+      "cpu_ids": [
+        0,
+        1
+      ],
+      "nice": 10,
+      "min_available_memory_bytes": 8589934592
+    }
+  },
+  "preflight": {
+    "all_frozen_pins_sources_inventories_and_model_bytes_match": true,
+    "available_memory_bytes": 14696538112,
+    "free_disk_bytes": 2520507133952,
+    "allowed_affinity": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ]
+  },
+  "prohibited": "No retry, refill, extra diagnostics, training, feedback, target/other-family models, GPU, package/model publication, commit/push or external-author contact."
+}

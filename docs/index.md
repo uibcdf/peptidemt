@@ -8,8 +8,12 @@ Macrel resource and applies two reproducible computational ordering policies.
 
 Macrel 1.6.1 is accepted for this bounded exploratory role under D37. Other
 evaluators can later contribute their own scoped evidence; their scores are not
-automatically interchangeable. Generation, redesign and target-conditioned
-capabilities remain future work.
+automatically interchangeable. The provisional HydrAMP data boundary receives
+and replays existing generation evidence without a model. The separate provisional
+generation execution adapter has controlled installed tests and one accepted
+real-checkpoint case under D41. The provisional analogue receiving/isolated
+redesign boundary now has artificial R1/R2 qualification; its real consumer R3
+case remains pending. Target-conditioned capabilities remain future work.
 
 ::::{grid} 1 2 2 3
 :gutter: 3
@@ -30,6 +34,12 @@ Understand the accepted resource, inputs, outputs and operational limits.
 :link: macrel-qualification
 :link-type: ref
 Read what was tested and what remains biologically unestablished.
+:::
+
+:::{grid-item-card} HydrAMP results
+:link: hydramp-results
+:link-type: ref
+Preserve generated proposals and compose them with separate assessment.
 :::
 
 ::::

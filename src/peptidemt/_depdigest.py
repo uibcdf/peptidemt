@@ -3,6 +3,7 @@
 from ._diagnostics import RequiredDependencyError
 
 LIBRARIES = {
+    "hydramp_torch": {"type": "soft", "pypi": None, "conda": None},
     "ackredit": {
         "type": "soft",
         "pypi": None,
@@ -20,4 +21,6 @@ LIBRARIES = {
     },
 }
 EXCEPTION_CLASS = RequiredDependencyError
-DOC_URL = "https://github.com/uibcdf/peptidemt/blob/main/devguide/w2_macrel.md"
+DOC_URL = (
+    "https://github.com/uibcdf/peptidemt/blob/main/devguide/optional_engine_review.md"
+)

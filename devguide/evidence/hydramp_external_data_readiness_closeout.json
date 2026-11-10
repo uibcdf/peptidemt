@@ -1,0 +1,150 @@
+{
+  "schema": "peptidemt.hydramp_external_data_readiness_closeout@1",
+  "recorded_at_utc": "2026-11-05T22:29:25.743048+00:00",
+  "review_receipt": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/evidence/hydramp_external_data_readiness.json",
+    "bytes": 35149,
+    "sha256": "10d0c874fd8b2866fa69ebe583ca23021186f2b01d888f83124f0a4f87491677"
+  },
+  "maintained_documents": [
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/hydramp_external_data_readiness.md",
+      "bytes": 9762,
+      "sha256": "7c5b8ef938c4249bbc7908fa3482ffc1371a7ad8d01c7c92e0adf7e1ddf56f20"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/README.md",
+      "bytes": 42015,
+      "sha256": "35e9eb68a39a8d71eecc4ac5fa1ab4a2ae8437f2cbad8efc5a13799df7c06953"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/pending_proposals/hydramp_scientific_followup.md",
+      "bytes": 34902,
+      "sha256": "e1fd4c486d04144e59759d1ac9de1442a2ed0804519739b1395c40cfe955dfee"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/continuation_plan_2026_11_04.md",
+      "bytes": 21330,
+      "sha256": "8a76a672740f27f1c796035d1c91d67b7570d9244b2ff1dfea26fb85818fcf16"
+    }
+  ],
+  "final_checks": {
+    "index": {
+      "command": [
+        "/home/liliana/Myopt/miniconda3/envs/molsyssuite@uibcdf_3.14/bin/python",
+        "devtools/devguide_index.py",
+        "--check"
+      ],
+      "exit_code": 0,
+      "stdout": "Generated report indexes are current.\n",
+      "stderr": ""
+    },
+    "whitespace": {
+      "command": [
+        "git",
+        "diff",
+        "--check",
+        "--",
+        "devguide/hydramp_external_data_readiness.md",
+        "devguide/README.md",
+        "devguide/pending_proposals/hydramp_scientific_followup.md",
+        "devguide/continuation_plan_2026_11_04.md"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    "reporting_test": {
+      "native_exit_code": 0,
+      "receptor_complete": true,
+      "final": {
+        "artifact_policy": {
+          "dropped_records": 0,
+          "max_bytes": 52428800,
+          "truncated": false
+        },
+        "complete": true,
+        "counts": {
+          "collected": 1,
+          "deselected": 0,
+          "errors": 0,
+          "executed": 1,
+          "failed": 0,
+          "not_executed": 0,
+          "passed": 1,
+          "reruns": 0,
+          "skipped": 0,
+          "subtests": {},
+          "warnings": 0,
+          "xfailed": 0,
+          "xpassed": 0
+        },
+        "duration": 0.11241842014715075,
+        "exitstatus": 0,
+        "extensions": {
+          "dropped": 0,
+          "incomplete": false,
+          "recorded": 0
+        },
+        "integrity": {
+          "algorithm": "sha256",
+          "digest": "e510f107c05507ed95d1d8df7b4225172db5105d9e2d8c41c06c3160ac3aaad7",
+          "records": 4
+        },
+        "invalid_selections": [],
+        "note": "",
+        "outcome": "PASS",
+        "root_causes": 0,
+        "run_id": "c35bf84b5b2245b389ef581e27325452",
+        "schema": "pytest-receptor.events@1",
+        "stop_reason": "",
+        "type": "session_finish"
+      },
+      "log": "PASS exit=0 | 1 passed | 0.11s\n\n"
+    },
+    "links": {
+      "checked": 208,
+      "missing": [],
+      "trailing_whitespace": []
+    },
+    "retained_neural_implementation_unchanged": true
+  },
+  "final_checks_artifact": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-data-gap-audit-icsxatz0/final-checks.json",
+    "bytes": 1975,
+    "sha256": "91c84c6cb7f8d12fb02c50b7a0ee3cb60370e263a344b1c5ea9b9a729f03ded9"
+  },
+  "public_summary_updates": [
+    {
+      "repository": "uibcdf/hydramp",
+      "issue": 3,
+      "comment_id": 6671183740,
+      "url": "https://github.com/uibcdf/hydramp/issues/3#issuecomment-6671183740",
+      "created_at": "2026-11-05T22:27:43Z",
+      "readback_matches": true,
+      "body_sha256": "736f17477d8350adfafda273d48617a583fbe8596287282c825281fe936e61ef",
+      "issue_remains_open": true
+    },
+    {
+      "repository": "uibcdf/peptidemt",
+      "issue": 32,
+      "comment_id": 6671192185,
+      "url": "https://github.com/uibcdf/peptidemt/issues/32#issuecomment-6671192185",
+      "created_at": "2026-11-05T22:28:10Z",
+      "readback_matches": true,
+      "body_sha256": "2ca4abe5f2a4ed39962fb78e88101e0198cde7bfe570be4b67143bb49f59fe1e",
+      "issue_remains_open": true
+    }
+  ],
+  "analysis_completed": true,
+  "fully_qualified_independent_cohort": false,
+  "broader_C0_status": "partial",
+  "cohort_model_execution_or_new_science_accepted": false,
+  "new_neural_calls": 0,
+  "no_install_commit_push_or_nonowned_repository_publication": true,
+  "next_review_candidate": "Verify original AMP-Diffusion experimental table and chemical/assay metadata before a separately reviewed ATCC11775 transportability endpoint; independent product review remains a parallel useful track",
+  "retention": {
+    "owner": "HydrAMP#3 / PeptideMT#32",
+    "review_by": "2026-11-19"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schema": "peptidemt.hydramp_confidence_preparation_closeout@1",
+  "recorded_at_utc": "2026-11-03T17:08:06.903911+00:00",
+  "issue": "uibcdf/peptidemt#8",
+  "status": "Preparation complete; exact new execution approval pending",
+  "plan_sha256": "eec881986bdacd41b3409a9de33afecc5460ce561d8d6e319ffebb1c576a7b59",
+  "producer_receipt_sha256": "3fee425a51ceefadb76cc0213153621891902e947047b11cec03665c6a5721e9",
+  "published_update": "https://github.com/uibcdf/peptidemt/issues/8#issuecomment-6610438413",
+  "checks": {
+    "artificial_checks_passed": 31,
+    "real_scientific_artifacts_and_providers_blocked_in_tests": true,
+    "byte_only_preflight": "pass",
+    "raw_input_bytes_match_both_numpy_versions": true,
+    "python38_worker_parse": "pass",
+    "ruff_lint_and_format": "pass",
+    "report_indexes_current": true,
+    "relative_links_resolved": 171,
+    "git_diff_check": "pass",
+    "publication_body_verified": true,
+    "source_and_candidate_pins_verified": true,
+    "old_primary_output_hashes_verified": 23
+  },
+  "cross_repository_state": {
+    "peptidemt": "main, 0 ahead/0 behind, existing dirty work preserved",
+    "molsysmt": "main, clean, 0 ahead/50 behind after fetch; no changes/pull, not used by this provider validation",
+    "hydramp": "existing comparison worktree and original reference preserved; issues still disabled"
+  },
+  "new_model_pca_descriptor_macrel_calls": 0,
+  "scientific_stage_attempts": 0,
+  "commit_or_push": false,
+  "remaining_boundary": "Exact candidate/use and 132-forward resource budget approval before learned execution; no acceptance inferred",
+  "retained_resources_review": "2026-11-13"
+}

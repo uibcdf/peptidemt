@@ -1,0 +1,41 @@
+{
+  "schema": "peptidemt.mdm2_t0_resource_adjustment@1",
+  "recorded_at_utc": "2026-11-06T05:56:54.525411+00:00",
+  "authority": "Investigator explicitly directs a 2 GiB available-host-RAM reserve after reviewing the interrupted T0 installation; routine bounded execution remains delegated by D49/D51",
+  "scope": "Current T0 isolated profile preparation, technical receiving, three approved geometry views and saved inspection only",
+  "previous_reserve_bytes": 8589934592,
+  "current_reserve_bytes": 2147483648,
+  "unchanged": {
+    "aggregate_supervisor_descendant_rss_stop_bytes": 1073741824,
+    "cpu_ids": [
+      0,
+      1
+    ],
+    "numerical_threads": 1,
+    "address_space_bytes": 8589934592,
+    "numerical_wall_seconds": 180,
+    "numerical_cpu_seconds": 120,
+    "numerical_output_bytes": 67108864,
+    "engineering_wall_seconds": 300,
+    "engineering_cpu_seconds": 240,
+    "engineering_output_bytes": 2147483648,
+    "GPU_authorized": false
+  },
+  "original_authorization": {
+    "path": "devguide/evidence/mdm2_t0_authorization.json",
+    "bytes": 1438,
+    "sha256": "b733568dae069ea50bbf8290f7bd42d0789879b4c3f5abb818d65d75cb936063"
+  },
+  "prior_checkpoint": {
+    "path": "devguide/evidence/mdm2_t0_implementation.json",
+    "bytes": 15747,
+    "sha256": "0f9f7de6e2a373fdbe2f607c184767fb72f61887442eae043aeb1145a8cf3ea5"
+  },
+  "prior_closeout": {
+    "path": "devguide/evidence/mdm2_t0_implementation_closeout.json",
+    "bytes": 2292,
+    "sha256": "67f424193056cc032c824b17e4c2d33919532c638f121c8e36731850e7363b4c"
+  },
+  "change_kind": "Scoped host-resource adjustment only; no science/source/chemistry/criteria/model/Git/publication expansion",
+  "technical_selection": "Retain the existing 1 GiB task RSS stop. The investigator selected the 2 GiB host reserve; this is not a claim of approval of a new run-specific plan."
+}

@@ -1,0 +1,990 @@
+{
+  "schema": "peptidemt.hydramp_amp_activation_attribution@1",
+  "date": "2026-11-03",
+  "recorded_at_utc": "2026-11-03T19:53:50.406738+00:00",
+  "owner_issue": "uibcdf/hydramp#1",
+  "consumer_issue": "uibcdf/peptidemt#8",
+  "status": "Finite parameter-free attribution completed;58native wins and7newties quantified; productiondev3 unchanged",
+  "commission": "Current investigator continuation of bounded58-case attribution. Agent-selected finite parameter-free arithmetic using saved outputs under existing CPU/4GB constraints; no new model/weights/PCA permission inferred. Recompute only two old-reference formulas because prior per-input reference arrays were not retained; preserve them now. No framework sigmoid replay or learned computation.",
+  "plan": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-activation-attribution-roz3mgcp/plan.json",
+    "bytes": 4576,
+    "sha256": "8851e14a3963e9fbf2e83adb78c5a44c40adff72dfb3f68645d828a33550cd61"
+  },
+  "source": {
+    "path": "/home/liliana/repos@uibcdf/hydramp/local_data/pytorch-comparison/ports/pytorch/devtools/amp_activation_attribution.py",
+    "bytes": 9843,
+    "sha256": "4c6649f5e6039353dade1d0bc55b9d3871967c3db3b3da0757b392ede4056efb"
+  },
+  "tests": {
+    "path": "/home/liliana/repos@uibcdf/hydramp/local_data/pytorch-comparison/ports/pytorch/tests/test_amp_activation_attribution.py",
+    "bytes": 3576,
+    "sha256": "299f494711b9c7a36f44e9d8c6dd0c2d67c39fde63ca35b148d8d34f1d06a603"
+  },
+  "guard": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-activation-attribution-roz3mgcp/guarded_analysis.py",
+    "bytes": 1723,
+    "sha256": "6251512470f42d7a4be08f38dcf51a4ea2e4ff34ae0b2865891a61f6f1802f33"
+  },
+  "saved_rounding_source": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-activation-attribution-roz3mgcp/saved_rounding_review.py",
+    "bytes": 3290,
+    "sha256": "0ee811dfa277a299e0e6db47dc043d064e7f572504b78bdb2d74fe2fbcd852d1"
+  },
+  "budget": {
+    "parameter_free_formula_vectors": 2,
+    "values_per_vector": 384,
+    "new_model_weight_pca_loads": 0,
+    "new_network_forwards": 0,
+    "framework_activation_calls": 0,
+    "retries": 0,
+    "cpu_affinity": [
+      0,
+      1
+    ],
+    "threads": 1,
+    "nice": 10,
+    "analysis_wall_seconds": 30,
+    "address_space_bytes": 1073741824,
+    "rss_stop_bytes": 536870912,
+    "minimum_host_available_bytes": 8589934592,
+    "minimum_free_disk_bytes": 1073741824,
+    "output_stop_bytes": 134217728,
+    "gpu": false,
+    "network": false,
+    "task_ram_intent_bytes": 4000000000
+  },
+  "actual": {
+    "new_model_weight_pca_loads": 0,
+    "new_neural_network_forwards": 0,
+    "new_framework_activation_calls": 0,
+    "parameter_free_formula_vectors": 2,
+    "values_per_vector": 384,
+    "remaining_formula_vectors": 0,
+    "retries": 0,
+    "gpu_computation": 0
+  },
+  "tests_execution": {
+    "exit_code": 0,
+    "stop_reason": null,
+    "wall_seconds": 0.6190178289543837,
+    "worker_sampled_and_hwm_rss_bytes": 59707392,
+    "rusage_children_cumulative_maxrss_bytes": 59551744,
+    "rusage_note": "Cumulative descendants across stages,not an exclusive per-stage RSS measurement",
+    "new_network_forwards": 0,
+    "new_model_weight_pca_loads": 0,
+    "parameter_free_formula_vectors": 0,
+    "retries": 0
+  },
+  "analysis_execution": {
+    "exit_code": 0,
+    "stop_reason": null,
+    "wall_seconds": 0.35711689689196646,
+    "worker_sampled_and_hwm_rss_bytes": 54837248,
+    "rusage_children_cumulative_maxrss_bytes": 59551744,
+    "rusage_note": "Cumulative descendants across stages,not an exclusive per-stage RSS measurement",
+    "new_network_forwards": 0,
+    "new_model_weight_pca_loads": 0,
+    "parameter_free_formula_vectors": 2,
+    "retries": 0
+  },
+  "saved_rounding_execution": {
+    "exit_code": 0,
+    "wall_seconds": 0.21741908718831837,
+    "new_network_or_activation_evaluations": 0,
+    "scope": "Saved activations only;exp/tanh/matrix/model/network blocked,1GiBAS one numericalthread CPU0/1 nice10"
+  },
+  "report": {
+    "schema": "hydramp.amp_activation_error_attribution@1",
+    "score_closer_counts": {
+      "native": 58,
+      "modern": 91,
+      "equal": 43
+    },
+    "groups": {
+      "native": {
+        "rows": 58,
+        "ideal_activation_output_closer": {
+          "native": 39,
+          "modern": 12,
+          "equal": 7
+        },
+        "own_logit_activation_error_smaller": {
+          "native": 36,
+          "modern": 22,
+          "equal": 0
+        },
+        "matched_native_logits_activation_error_smaller": {
+          "native": 28,
+          "modern": 16,
+          "equal": 14
+        },
+        "native_upstream_error": {
+          "count": 58,
+          "minimum": 9.459100169806334e-14,
+          "median": 1.3943965685228599e-08,
+          "maximum": 2.3269829796390695e-07,
+          "mean": 4.0328954347823745e-08
+        },
+        "modern_upstream_error": {
+          "count": 58,
+          "minimum": 9.459100169806334e-14,
+          "median": 5.05240925451067e-08,
+          "maximum": 6.136961561153953e-07,
+          "mean": 9.050471564953124e-08
+        },
+        "native_activation_error": {
+          "count": 58,
+          "minimum": 1.1580528203047891e-10,
+          "median": 1.5260346208911812e-08,
+          "maximum": 6.629575510785912e-08,
+          "mean": 1.815057942380946e-08
+        },
+        "modern_activation_error": {
+          "count": 58,
+          "minimum": 1.305619115425649e-10,
+          "median": 2.4583679425482785e-08,
+          "maximum": 7.723589601216219e-08,
+          "mean": 2.8339711173672643e-08
+        },
+        "native_opposing_error_signs": 31,
+        "modern_opposing_error_signs": 26,
+        "native_activation_reduces_upstream_absolute_error": 17,
+        "modern_activation_reduces_upstream_absolute_error": 14,
+        "modern_kernel_more_accurate_at_native_logits_but_full_head_output_worse": 8,
+        "native_kernel_less_accurate_at_native_logits_and_native_score_still_closer_than_actual_modern": 16
+      },
+      "modern": {
+        "rows": 91,
+        "ideal_activation_output_closer": {
+          "native": 13,
+          "modern": 57,
+          "equal": 21
+        },
+        "own_logit_activation_error_smaller": {
+          "native": 20,
+          "modern": 71,
+          "equal": 0
+        },
+        "matched_native_logits_activation_error_smaller": {
+          "native": 8,
+          "modern": 65,
+          "equal": 18
+        },
+        "native_upstream_error": {
+          "count": 91,
+          "minimum": 1.2501111257279263e-13,
+          "median": 1.4524774771818016e-08,
+          "maximum": 1.2861771846450765e-06,
+          "mean": 1.0536626126074513e-07
+        },
+        "modern_upstream_error": {
+          "count": 91,
+          "minimum": 1.2501111257279263e-13,
+          "median": 6.7625440429777695e-09,
+          "maximum": 1.0925943643158575e-06,
+          "mean": 5.3680655636494096e-08
+        },
+        "native_activation_error": {
+          "count": 91,
+          "minimum": 2.8377980521021584e-10,
+          "median": 2.8698643100844023e-08,
+          "maximum": 1.546973398269813e-07,
+          "mean": 3.503976007682606e-08
+        },
+        "modern_activation_error": {
+          "count": 91,
+          "minimum": 1.2492406740137463e-12,
+          "median": 1.2915055802587005e-08,
+          "maximum": 6.848108802248731e-08,
+          "mean": 1.522168398730171e-08
+        },
+        "native_opposing_error_signs": 45,
+        "modern_opposing_error_signs": 50,
+        "native_activation_reduces_upstream_absolute_error": 20,
+        "modern_activation_reduces_upstream_absolute_error": 33,
+        "modern_kernel_more_accurate_at_native_logits_but_full_head_output_worse": 11,
+        "native_kernel_less_accurate_at_native_logits_and_native_score_still_closer_than_actual_modern": 0
+      },
+      "equal": {
+        "rows": 43,
+        "ideal_activation_output_closer": {
+          "native": 7,
+          "modern": 25,
+          "equal": 11
+        },
+        "own_logit_activation_error_smaller": {
+          "native": 12,
+          "modern": 20,
+          "equal": 11
+        },
+        "matched_native_logits_activation_error_smaller": {
+          "native": 1,
+          "modern": 2,
+          "equal": 40
+        },
+        "native_upstream_error": {
+          "count": 43,
+          "minimum": 1.7763568394002505e-13,
+          "median": 3.7149727738494676e-11,
+          "maximum": 3.4740010801392884e-07,
+          "mean": 2.581896640800575e-08
+        },
+        "modern_upstream_error": {
+          "count": 43,
+          "minimum": 6.394884621840902e-14,
+          "median": 1.0062284339085181e-11,
+          "maximum": 3.6365677180683065e-07,
+          "mean": 2.1879024802801775e-08
+        },
+        "native_activation_error": {
+          "count": 43,
+          "minimum": 5.839633776538733e-10,
+          "median": 2.2420618805973902e-08,
+          "maximum": 5.740722663905018e-08,
+          "mean": 2.402242727575305e-08
+        },
+        "modern_activation_error": {
+          "count": 43,
+          "minimum": 7.287656034193901e-10,
+          "median": 2.2420618805973902e-08,
+          "maximum": 5.740722663905018e-08,
+          "mean": 2.353019867194611e-08
+        },
+        "native_opposing_error_signs": 28,
+        "modern_opposing_error_signs": 17,
+        "native_activation_reduces_upstream_absolute_error": 7,
+        "modern_activation_reduces_upstream_absolute_error": 2,
+        "modern_kernel_more_accurate_at_native_logits_but_full_head_output_worse": 2,
+        "native_kernel_less_accurate_at_native_logits_and_native_score_still_closer_than_actual_modern": 0
+      }
+    },
+    "decomposition_maximum_residual": {
+      "native": 0.0,
+      "modern": 0.0
+    },
+    "equations": {
+      "upstream": "FP64_sigmoid(saved_FP32_logit) - saved_full_head_FP64_score",
+      "activation": "saved_FP32_score - FP64_sigmoid(saved_FP32_logit)",
+      "total": "upstream + activation"
+    },
+    "scope": "Approximate FP64 component attribution; matched-native-logit comparison uses identical arguments. Own-logit comparisons use different arguments. Opposing components need not improve total error. No exact-arithmetic, biology, global equivalence or acceptance claim.",
+    "alternate_formulation": {
+      "schema": "hydramp.amp_activation_error_attribution@1",
+      "score_closer_counts": {
+        "native": 58,
+        "modern": 91,
+        "equal": 43
+      },
+      "groups": {
+        "native": {
+          "rows": 58,
+          "ideal_activation_output_closer": {
+            "native": 39,
+            "modern": 12,
+            "equal": 7
+          },
+          "own_logit_activation_error_smaller": {
+            "native": 36,
+            "modern": 22,
+            "equal": 0
+          },
+          "matched_native_logits_activation_error_smaller": {
+            "native": 28,
+            "modern": 16,
+            "equal": 14
+          },
+          "native_upstream_error": {
+            "count": 58,
+            "minimum": 9.459100169806334e-14,
+            "median": 1.3943965669616087e-08,
+            "maximum": 2.3269829796390695e-07,
+            "mean": 4.032895434827985e-08
+          },
+          "modern_upstream_error": {
+            "count": 58,
+            "minimum": 9.459100169806334e-14,
+            "median": 5.052409255551504e-08,
+            "maximum": 6.136961561153953e-07,
+            "mean": 9.05047156514529e-08
+          },
+          "native_activation_error": {
+            "count": 58,
+            "minimum": 1.1580525427490329e-10,
+            "median": 1.526034615340066e-08,
+            "maximum": 6.629575510785912e-08,
+            "mean": 1.815057941589105e-08
+          },
+          "modern_activation_error": {
+            "count": 58,
+            "minimum": 1.3056189462901102e-10,
+            "median": 2.4583679425482785e-08,
+            "maximum": 7.723589601216219e-08,
+            "mean": 2.8339711168775042e-08
+          },
+          "native_opposing_error_signs": 31,
+          "modern_opposing_error_signs": 26,
+          "native_activation_reduces_upstream_absolute_error": 17,
+          "modern_activation_reduces_upstream_absolute_error": 14,
+          "modern_kernel_more_accurate_at_native_logits_but_full_head_output_worse": 8,
+          "native_kernel_less_accurate_at_native_logits_and_native_score_still_closer_than_actual_modern": 16
+        },
+        "modern": {
+          "rows": 91,
+          "ideal_activation_output_closer": {
+            "native": 13,
+            "modern": 57,
+            "equal": 21
+          },
+          "own_logit_activation_error_smaller": {
+            "native": 20,
+            "modern": 71,
+            "equal": 0
+          },
+          "matched_native_logits_activation_error_smaller": {
+            "native": 8,
+            "modern": 65,
+            "equal": 18
+          },
+          "native_upstream_error": {
+            "count": 91,
+            "minimum": 1.2501111257279263e-13,
+            "median": 1.4524774744062441e-08,
+            "maximum": 1.2861771846450765e-06,
+            "mean": 1.0536626125945421e-07
+          },
+          "modern_upstream_error": {
+            "count": 91,
+            "minimum": 1.2501111257279263e-13,
+            "median": 6.7625440395083225e-09,
+            "maximum": 1.0925943643158575e-06,
+            "mean": 5.3680655626961455e-08
+          },
+          "native_activation_error": {
+            "count": 91,
+            "minimum": 2.837797774546402e-10,
+            "median": 2.86986431285996e-08,
+            "maximum": 1.546973398269813e-07,
+            "mean": 3.503976007392671e-08
+          },
+          "modern_activation_error": {
+            "count": 91,
+            "minimum": 1.2492784584594574e-12,
+            "median": 1.2915055858098157e-08,
+            "maximum": 6.848108791146501e-08,
+            "mean": 1.522168398530606e-08
+          },
+          "native_opposing_error_signs": 45,
+          "modern_opposing_error_signs": 50,
+          "native_activation_reduces_upstream_absolute_error": 20,
+          "modern_activation_reduces_upstream_absolute_error": 33,
+          "modern_kernel_more_accurate_at_native_logits_but_full_head_output_worse": 11,
+          "native_kernel_less_accurate_at_native_logits_and_native_score_still_closer_than_actual_modern": 0
+        },
+        "equal": {
+          "rows": 43,
+          "ideal_activation_output_closer": {
+            "native": 7,
+            "modern": 25,
+            "equal": 11
+          },
+          "own_logit_activation_error_smaller": {
+            "native": 12,
+            "modern": 20,
+            "equal": 11
+          },
+          "matched_native_logits_activation_error_smaller": {
+            "native": 1,
+            "modern": 2,
+            "equal": 40
+          },
+          "native_upstream_error": {
+            "count": 43,
+            "minimum": 1.7763568394002505e-13,
+            "median": 3.7149727738494676e-11,
+            "maximum": 3.4740010812495115e-07,
+            "mean": 2.5818966410910403e-08
+          },
+          "modern_upstream_error": {
+            "count": 43,
+            "minimum": 6.394884621840902e-14,
+            "median": 1.0062395361387644e-11,
+            "maximum": 3.6365677180683065e-07,
+            "mean": 2.187902480021986e-08
+          },
+          "native_activation_error": {
+            "count": 43,
+            "minimum": 5.839633776538733e-10,
+            "median": 2.2420618805973902e-08,
+            "maximum": 5.740722675007248e-08,
+            "mean": 2.4022427283821532e-08
+          },
+          "modern_activation_error": {
+            "count": 43,
+            "minimum": 7.287657144416926e-10,
+            "median": 2.2420618805973902e-08,
+            "maximum": 5.740722675007248e-08,
+            "mean": 2.353019867969185e-08
+          },
+          "native_opposing_error_signs": 28,
+          "modern_opposing_error_signs": 17,
+          "native_activation_reduces_upstream_absolute_error": 7,
+          "modern_activation_reduces_upstream_absolute_error": 2,
+          "modern_kernel_more_accurate_at_native_logits_but_full_head_output_worse": 2,
+          "native_kernel_less_accurate_at_native_logits_and_native_score_still_closer_than_actual_modern": 0
+        }
+      },
+      "decomposition_maximum_residual": {
+        "native": 0.0,
+        "modern": 0.0
+      },
+      "equations": {
+        "upstream": "FP64_sigmoid(saved_FP32_logit) - saved_full_head_FP64_score",
+        "activation": "saved_FP32_score - FP64_sigmoid(saved_FP32_logit)",
+        "total": "upstream + activation"
+      },
+      "scope": "Approximate FP64 component attribution; matched-native-logit comparison uses identical arguments. Own-logit comparisons use different arguments. Opposing components need not improve total error. No exact-arithmetic, biology, global equivalence or acceptance claim."
+    },
+    "reference_formula_maximum_discrepancy": 1.1102230246251565e-16,
+    "reference_formula_float32_casts_agree": true,
+    "previous_activation_aggregates_reproduced": {
+      "legacy": {
+        "maximum_error_vs_own_logit_fp64_sigmoid": 1.546973398269813e-07,
+        "values_equal_to_own_logit_fp64_rounded_float32": 88
+      },
+      "torch": {
+        "maximum_error_vs_own_logit_fp64_sigmoid": 7.723589601216219e-08,
+        "values_equal_to_own_logit_fp64_rounded_float32": 117
+      }
+    },
+    "critical_pair_rounding": [
+      {
+        "case_ids": [
+          [
+            1001,
+            13
+          ],
+          [
+            1006,
+            6
+          ]
+        ],
+        "original_change_kind": "new_port_tie",
+        "relations": {
+          "native": 1,
+          "modern": 0,
+          "fp64": 1,
+          "fp64_cast_float32": 0
+        }
+      },
+      {
+        "case_ids": [
+          [
+            1002,
+            2
+          ],
+          [
+            1004,
+            15
+          ]
+        ],
+        "original_change_kind": "new_port_tie",
+        "relations": {
+          "native": -1,
+          "modern": 0,
+          "fp64": -1,
+          "fp64_cast_float32": -1
+        }
+      },
+      {
+        "case_ids": [
+          [
+            1002,
+            12
+          ],
+          [
+            1008,
+            9
+          ]
+        ],
+        "original_change_kind": "new_port_tie",
+        "relations": {
+          "native": -1,
+          "modern": 0,
+          "fp64": -1,
+          "fp64_cast_float32": -1
+        }
+      },
+      {
+        "case_ids": [
+          [
+            1003,
+            8
+          ],
+          [
+            1007,
+            14
+          ]
+        ],
+        "original_change_kind": "new_port_tie",
+        "relations": {
+          "native": -1,
+          "modern": 0,
+          "fp64": -1,
+          "fp64_cast_float32": 0
+        }
+      },
+      {
+        "case_ids": [
+          [
+            1003,
+            8
+          ],
+          [
+            1010,
+            7
+          ]
+        ],
+        "original_change_kind": "new_port_tie",
+        "relations": {
+          "native": -1,
+          "modern": 0,
+          "fp64": -1,
+          "fp64_cast_float32": 0
+        }
+      },
+      {
+        "case_ids": [
+          [
+            1004,
+            2
+          ],
+          [
+            1008,
+            3
+          ]
+        ],
+        "original_change_kind": "split_native_tie",
+        "relations": {
+          "native": 0,
+          "modern": 1,
+          "fp64": 1,
+          "fp64_cast_float32": 1
+        }
+      },
+      {
+        "case_ids": [
+          [
+            1006,
+            15
+          ],
+          [
+            1007,
+            5
+          ]
+        ],
+        "original_change_kind": "new_port_tie",
+        "relations": {
+          "native": 1,
+          "modern": 0,
+          "fp64": 1,
+          "fp64_cast_float32": 1
+        }
+      },
+      {
+        "case_ids": [
+          [
+            1008,
+            3
+          ],
+          [
+            1014,
+            0
+          ]
+        ],
+        "original_change_kind": "split_native_tie",
+        "relations": {
+          "native": 0,
+          "modern": -1,
+          "fp64": -1,
+          "fp64_cast_float32": -1
+        }
+      },
+      {
+        "case_ids": [
+          [
+            1009,
+            7
+          ],
+          [
+            1013,
+            12
+          ]
+        ],
+        "original_change_kind": "reversal",
+        "relations": {
+          "native": -1,
+          "modern": 1,
+          "fp64": 1,
+          "fp64_cast_float32": 0
+        }
+      },
+      {
+        "case_ids": [
+          [
+            1012,
+            13
+          ],
+          [
+            1013,
+            6
+          ]
+        ],
+        "original_change_kind": "new_port_tie",
+        "relations": {
+          "native": -1,
+          "modern": 0,
+          "fp64": -1,
+          "fp64_cast_float32": -1
+        }
+      }
+    ],
+    "parameter_free_activation_formula_vectors": 2,
+    "values_per_formula_vector": 384,
+    "new_model_weight_pca_loads": 0,
+    "new_neural_network_forwards": 0,
+    "scientific_acceptance": false
+  },
+  "saved_only_precision_counterfactual": {
+    "schema": "hydramp.saved_final_sigmoid_precision_counterfactual@1",
+    "status": "Diagnostic counterfactual only,not implemented or accepted",
+    "metrics": {
+      "native": {
+        "maximum_absolute_error": 1.2580579705767647e-06,
+        "mean_absolute_error": 8.666131082690914e-08,
+        "rms_error": 1.6331376140388154e-07,
+        "matches_full_reference_cast_float32": 48
+      },
+      "modern": {
+        "maximum_absolute_error": 1.0792440362505928e-06,
+        "mean_absolute_error": 7.246328662308932e-08,
+        "rms_error": 1.3615489328389863e-07,
+        "matches_full_reference_cast_float32": 47
+      },
+      "modern_final_sigmoid_fp64_then_float32": {
+        "maximum_absolute_error": 1.0792440362505928e-06,
+        "mean_absolute_error": 6.532236732855261e-08,
+        "rms_error": 1.3487767108276224e-07,
+        "matches_full_reference_cast_float32": 89
+      }
+    },
+    "counterfactual_vs_actual_modern": {
+      "improves": 59,
+      "worsens": 16,
+      "equal": 117
+    },
+    "critical_pairs": [
+      {
+        "case_ids": [
+          [
+            1001,
+            13
+          ],
+          [
+            1006,
+            6
+          ]
+        ],
+        "original_change_kind": "new_port_tie",
+        "relations": {
+          "native": 1,
+          "modern": 0,
+          "fp64": 1,
+          "fp64_cast_float32": 0
+        }
+      },
+      {
+        "case_ids": [
+          [
+            1002,
+            2
+          ],
+          [
+            1004,
+            15
+          ]
+        ],
+        "original_change_kind": "new_port_tie",
+        "relations": {
+          "native": -1,
+          "modern": -1,
+          "fp64": -1,
+          "fp64_cast_float32": -1
+        }
+      },
+      {
+        "case_ids": [
+          [
+            1002,
+            12
+          ],
+          [
+            1008,
+            9
+          ]
+        ],
+        "original_change_kind": "new_port_tie",
+        "relations": {
+          "native": -1,
+          "modern": -1,
+          "fp64": -1,
+          "fp64_cast_float32": -1
+        }
+      },
+      {
+        "case_ids": [
+          [
+            1003,
+            8
+          ],
+          [
+            1007,
+            14
+          ]
+        ],
+        "original_change_kind": "new_port_tie",
+        "relations": {
+          "native": -1,
+          "modern": 0,
+          "fp64": -1,
+          "fp64_cast_float32": 0
+        }
+      },
+      {
+        "case_ids": [
+          [
+            1003,
+            8
+          ],
+          [
+            1010,
+            7
+          ]
+        ],
+        "original_change_kind": "new_port_tie",
+        "relations": {
+          "native": -1,
+          "modern": 0,
+          "fp64": -1,
+          "fp64_cast_float32": 0
+        }
+      },
+      {
+        "case_ids": [
+          [
+            1004,
+            2
+          ],
+          [
+            1008,
+            3
+          ]
+        ],
+        "original_change_kind": "split_native_tie",
+        "relations": {
+          "native": 0,
+          "modern": 1,
+          "fp64": 1,
+          "fp64_cast_float32": 1
+        }
+      },
+      {
+        "case_ids": [
+          [
+            1006,
+            15
+          ],
+          [
+            1007,
+            5
+          ]
+        ],
+        "original_change_kind": "new_port_tie",
+        "relations": {
+          "native": 1,
+          "modern": 1,
+          "fp64": 1,
+          "fp64_cast_float32": 1
+        }
+      },
+      {
+        "case_ids": [
+          [
+            1008,
+            3
+          ],
+          [
+            1014,
+            0
+          ]
+        ],
+        "original_change_kind": "split_native_tie",
+        "relations": {
+          "native": 0,
+          "modern": -1,
+          "fp64": -1,
+          "fp64_cast_float32": -1
+        }
+      },
+      {
+        "case_ids": [
+          [
+            1009,
+            7
+          ],
+          [
+            1013,
+            12
+          ]
+        ],
+        "original_change_kind": "reversal",
+        "relations": {
+          "native": -1,
+          "modern": 0,
+          "fp64": 1,
+          "fp64_cast_float32": 0
+        }
+      },
+      {
+        "case_ids": [
+          [
+            1012,
+            13
+          ],
+          [
+            1013,
+            6
+          ]
+        ],
+        "original_change_kind": "new_port_tie",
+        "relations": {
+          "native": -1,
+          "modern": -1,
+          "fp64": -1,
+          "fp64_cast_float32": -1
+        }
+      }
+    ],
+    "batches_with_changed_native_return_sort_order": [
+      1012
+    ],
+    "new_model_weight_pca_loads": 0,
+    "new_network_or_activation_evaluations": 0,
+    "scope": "Casts saved per-input FP64 activations tofloat32 and compares retained outputs. No precision/deployment/source/weight/equation/selector change; candidate acceptance and qualification still required."
+  },
+  "artifacts": {
+    "plan.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-activation-attribution-roz3mgcp/plan.json",
+      "bytes": 4576,
+      "sha256": "8851e14a3963e9fbf2e83adb78c5a44c40adff72dfb3f68645d828a33550cd61"
+    },
+    "analysis-execution.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-activation-attribution-roz3mgcp/analysis-execution.json",
+      "bytes": 405,
+      "sha256": "0fc0a5f1b8ea02f045e225ed50afd0ae3fadf24ce0a0c204f348742312a5e3a9"
+    },
+    "saved_rounding_review.py": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-activation-attribution-roz3mgcp/saved_rounding_review.py",
+      "bytes": 3290,
+      "sha256": "0ee811dfa277a299e0e6db47dc043d064e7f572504b78bdb2d74fe2fbcd852d1"
+    },
+    "saved-rounding-execution.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-activation-attribution-roz3mgcp/saved-rounding-execution.json",
+      "bytes": 222,
+      "sha256": "cb2881cb39091d18c656c6dd322ec32fb9a94d2638481248f139ec2d31da5f4b"
+    },
+    "tests-execution.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-activation-attribution-roz3mgcp/tests-execution.json",
+      "bytes": 404,
+      "sha256": "44a7ea5d38f61bd94bf0fbebbdc45508257c8451b0e0b019c0704c11ec5184ba"
+    },
+    "guarded_analysis.py": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-activation-attribution-roz3mgcp/guarded_analysis.py",
+      "bytes": 1723,
+      "sha256": "6251512470f42d7a4be08f38dcf51a4ea2e4ff34ae0b2865891a61f6f1802f33"
+    },
+    "host-preflight.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-activation-attribution-roz3mgcp/host-preflight.json",
+      "bytes": 214,
+      "sha256": "445c0cdd6efb4e53a385f66ae3c4b59fc3539eb8393f72700dfc5751f6fe75a3"
+    },
+    "tests/results.xml": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-activation-attribution-roz3mgcp/tests/results.xml",
+      "bytes": 1259,
+      "sha256": "d81d781adede238254cc12ac8c476b8e3a575ad634836d692ef22dc19923c2b2"
+    },
+    "logs/tests.log": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-activation-attribution-roz3mgcp/logs/tests.log",
+      "bytes": 32,
+      "sha256": "a34e2496ee48a4c1b0be125c703d2f95fc9ce52b48b34a034248390a38ead62b"
+    },
+    "logs/saved-rounding.log": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-activation-attribution-roz3mgcp/logs/saved-rounding.log",
+      "bytes": 4442,
+      "sha256": "b5172daf145345d857451ad02e92da693461b184439c3e3d62e30e12d04b269e"
+    },
+    "logs/analysis.log": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-activation-attribution-roz3mgcp/logs/analysis.log",
+      "bytes": 15929,
+      "sha256": "81ee9a649688c9644261a135d22e594b8f9234d6b1ec4502b379c6e99ad6bcb8"
+    },
+    "run/reference-attempt.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-activation-attribution-roz3mgcp/run/reference-attempt.json",
+      "bytes": 89,
+      "sha256": "f2d3aa7c260300e0cb9452f9d3e4876be77ea3ca2002884b35c5090d73075a94"
+    },
+    "run/activation-attribution-report.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-activation-attribution-roz3mgcp/run/activation-attribution-report.json",
+      "bytes": 15929,
+      "sha256": "81ee9a649688c9644261a135d22e594b8f9234d6b1ec4502b379c6e99ad6bcb8"
+    },
+    "run/activation-reference.npz": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-activation-attribution-roz3mgcp/run/activation-reference.npz",
+      "bytes": 8452,
+      "sha256": "519236b8b36dfb21783a7a376b8d1ecbaf565367c2daed38f1e400d3f4da03da"
+    },
+    "run/reference-completion.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-activation-attribution-roz3mgcp/run/reference-completion.json",
+      "bytes": 142,
+      "sha256": "88e612755fce884f0aa891fb0bdd79a480bd59428a2f23ea706cc05819d8846a"
+    },
+    "run/saved-rounding-counterfactual.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-activation-attribution-roz3mgcp/run/saved-rounding-counterfactual.json",
+      "bytes": 4442,
+      "sha256": "b5172daf145345d857451ad02e92da693461b184439c3e3d62e30e12d04b269e"
+    },
+    "tests/tmp/test_reference_attempt_is_excl0/reference-attempt.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-activation-attribution-roz3mgcp/tests/tmp/test_reference_attempt_is_excl0/reference-attempt.json",
+      "bytes": 89,
+      "sha256": "f2d3aa7c260300e0cb9452f9d3e4876be77ea3ca2002884b35c5090d73075a94"
+    },
+    "tests/tmp/test_reference_attempt_is_excl0/activation-reference.npz": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-activation-attribution-roz3mgcp/tests/tmp/test_reference_attempt_is_excl0/activation-reference.npz",
+      "bytes": 8452,
+      "sha256": "ef8db41d8b02a34429a3c11c26655cd7ad6f90688a8672698b773c386857a49a"
+    }
+  },
+  "scope_limits": [
+    "FP64 approximate reference,not exact arithmetic or biological truth",
+    "Own-logit and matched-native-logit metrics address different questions; both reported",
+    "Old scalar traces lacked per-input reference arrays; exactly two necessary formula vectors reconstructed and now retained; no framework/model rerun",
+    "Hypothetical FP64final sigmoid remains unimplemented/unqualified,changes one batch order and worsens16outputs; no deployment precision/source change or acceptance",
+    "OriginalFAILs/tolerances,D40 and broaderdev3 acceptance/H0-H4 remain unchanged"
+  ],
+  "candidate": "hydramp-torch==0.0.0.dev3",
+  "wheel_sha256": "81761e0d48d92f0956e0afc28b3b4154f16032de53c666fd2cfbb53606102ed7",
+  "scientific_acceptance": false,
+  "production_changes": false,
+  "commit_push_release": false,
+  "retention_review": "2026-11-13"
+}

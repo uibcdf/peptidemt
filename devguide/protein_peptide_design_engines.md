@@ -7,6 +7,11 @@ access. D25–D26 adopt alternative B, all seven principles and context-sensitiv
 semantic obligations. Concrete contracts remain deferred. No engine is selected
 or executed.
 
+Current additional evidence: the investigator-requested
+[2026-11-10 docking/binder exploration](peptide_protein_binding_survey_2026_11_10.md)
+compares newer short-peptide experiments, BC2/BoltzGen and complex prediction.
+The present document retains its dated conceptual decisions and source snapshots.
+
 Navigation: [index](README.md) · [capabilities](capabilities_and_composition.md)
 · [strategies](generative_strategies.md) · [families](functional_families.md)
 · [ecosystem audit](integration_audit.md) · [decisions](decisions.md).

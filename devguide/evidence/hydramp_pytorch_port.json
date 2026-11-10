@@ -1,0 +1,87 @@
+{
+  "schema": "peptidemt.hydramp_pytorch_port@1",
+  "date": "2026-10-30",
+  "issue": "uibcdf/peptidemt#8",
+  "decision": "D39",
+  "repository": "uibcdf/hydramp",
+  "branch": "peptidemt-pytorch",
+  "base_commit": "6590d2f4c2963f25d30669052a4c4a857e0e7279",
+  "state": "Local uncommitted experimental core; no published commit, release or pretrained qualification.",
+  "producer_record": "devguide/evidence/pytorch_port.json in the local peptidemt-pytorch worktree",
+  "producer_record_sha256": "5180aac23557340c026a962b7b25f84e512f855bc78ea8c8fc1439233a0527b2",
+  "local_worktree": "/home/liliana/repos@uibcdf/hydramp/local_data/pytorch-port",
+  "package": {
+    "name": "hydramp-torch",
+    "version": "0.0.0.dev0",
+    "wheel": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-torch-lvrqr0lk/artifacts/hydramp_torch-0.0.0.dev0-py3-none-any.whl",
+    "bytes": 7866,
+    "sha256": "738377ef8943fa79456d54747fd4f19a00a6194eeb07a9d57adac37e19903e1d",
+    "installed_payload_members_verified": 7,
+    "record_excluded": "Installer updates RECORD; all other seven members compared byte for byte.",
+    "installer_archive_digest": "uv direct_url archive_info is empty; archive SHA256 is operator-recorded, with installed payload verification."
+  },
+  "runtime": {
+    "python": "3.14.7 | packaged by conda-forge | (main, Sep  2 2026, 21:08:32) [GCC 15.3.0]",
+    "executable": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-torch-lvrqr0lk/worker/bin/python",
+    "torch": "2.15.0+cpu",
+    "numpy": "2.4.6",
+    "cuda_binary_version": null,
+    "native_threads": 1,
+    "affinity": [
+      0,
+      1
+    ]
+  },
+  "installed_distributions": 18,
+  "checks": {
+    "build_exit": 0,
+    "exact_wheel_install_exit": 0,
+    "native_dependency_check_exit": 0,
+    "native_dependency_check_packages": 18,
+    "synthetic_source_tests": {
+      "exit": 0,
+      "passed": 25
+    },
+    "synthetic_installed_wheel_tests": {
+      "exit": 0,
+      "passed": 25,
+      "failed": 0,
+      "errors": 0,
+      "skipped": 0,
+      "seconds": 1.266
+    },
+    "ruff_check": "passed for new source/tests only",
+    "ruff_format_check": "passed for new source/tests only",
+    "guarded_modules_absent": true,
+    "initial_installed_test_note": "First installed run passed with read-only worktree cache warning; log/XML retained with -initial suffix. Final run uses a task-owned cache and has no warning."
+  },
+  "preserved_reference": {
+    "upstream_amp_and_license_files": 50,
+    "byte_identity_verified": true,
+    "original_worktree_branch": "peptidemt-inference",
+    "original_worktree_preserved": true,
+    "legacy_workers_preserved": true
+  },
+  "scientific_execution": {
+    "pretrained_model_loads": 0,
+    "real_pca_loads": 0,
+    "real_generation_calls": 0,
+    "new_macrel_calls": 0,
+    "gpu_used": false,
+    "weights_used": "Artificial test arrays only; no real checkpoint/PCA arrays read."
+  },
+  "reporting": {
+    "fork_issues": "disabled, observed via gh issue list",
+    "consumer_route": "Reuse PeptideMT #8; no upstream write or settings change."
+  },
+  "not_qualified": [
+    "Pretrained weight/PCA fidelity",
+    "Original autoregressive graph weight-assignment timing",
+    "Native seed/RNG equivalence",
+    "Original properties=True descriptors and pandas sorting/ties",
+    "Complete native results/provenance and PeptideMT adapter",
+    "Original Drive versus starter artifact parity",
+    "Encoder/analogue/training/other-family support"
+  ],
+  "next_gate": "Exact bundle/use and fresh shared-host/call allowance before real weight/PCA loading or legacy-versus-port execution; old H2 count is not extended."
+}

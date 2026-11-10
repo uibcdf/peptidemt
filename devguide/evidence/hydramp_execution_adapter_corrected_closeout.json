@@ -1,0 +1,163 @@
+{
+  "schema": "peptidemt.hydramp_execution_adapter_corrected_closeout@1",
+  "date": "2026-11-03",
+  "recorded_at_utc": "2026-11-03T23:59:36.060704+00:00",
+  "status": "Bounded installed adapter case completed and issue update fetched back exactly; wider scientific acceptance pending",
+  "checks": {
+    "ruff": {
+      "exit_code": 0,
+      "log": {
+        "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/logs/corrected-closeout-ruff.log",
+        "bytes": 19,
+        "sha256": "82b3e6a6c090a57601d22943bd23fca9218d1031dbe5a7b754092f9a156b4f18"
+      }
+    },
+    "format": {
+      "exit_code": 0,
+      "log": {
+        "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/logs/corrected-closeout-format.log",
+        "bytes": 28,
+        "sha256": "1797ba33db9c9ef754817e0f9ed6324336a2128b9e103101798411f3ccf41704"
+      }
+    },
+    "index": {
+      "exit_code": 0,
+      "log": {
+        "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/logs/corrected-closeout-index.log",
+        "bytes": 38,
+        "sha256": "3a525cb88e38e62b2cd78f962eec311aeb1797c9a439b3c7d832b95b00a8d5b5"
+      }
+    },
+    "whitespace": {
+      "exit_code": 0,
+      "log": {
+        "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/logs/corrected-closeout-whitespace.log",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    "plan_unchanged": {
+      "exit_code": 0,
+      "log": {
+        "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/logs/corrected-closeout-plan_unchanged.log",
+        "bytes": 53,
+        "sha256": "7523a0f005554393e9b5d72ca219852620d3738af66c526394c1e4142d182fc0"
+      }
+    },
+    "relative_file_links": {
+      "checked": 262,
+      "missing": 0
+    },
+    "wheel_source_and_both_prefixes_python_files": 22
+  },
+  "reused_installed_controlled_tests": {
+    "count": 55,
+    "evidence": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/evidence/hydramp_execution_adapter_preparation.json",
+      "bytes": 138513,
+      "sha256": "fdb6474c203c591e6cff8921504d2bad9991b3aeadaadc088e1853cf6c8a6296"
+    },
+    "reason": "Exact wheel and all22packagePythonfiles unchanged; no executable changes this turn"
+  },
+  "reused_qualifier_model_free_guards": {
+    "count": 4,
+    "evidence": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/evidence/hydramp_execution_parent_limit_fix.json",
+      "bytes": 4717,
+      "sha256": "eb0765bac3822a760b84fc72ab9db33d44af4204a999b235df24b319cf56daa6"
+    },
+    "reason": "Both frozen qualifier executable inputs unchanged"
+  },
+  "documentation": {
+    "stages": [
+      {
+        "builder": "html",
+        "exit_code": 0,
+        "wall_seconds": 1.721457398030907
+      },
+      {
+        "builder": "doctest",
+        "exit_code": 0,
+        "wall_seconds": 1.270984994014725
+      }
+    ],
+    "scope": "Sphinx tools from shared development profile with explicit exact installed consumer wheel import; no model/engine/artifact/network access",
+    "child_HWM_rss_bytes": 98463744,
+    "new_scientific_calls": 0
+  },
+  "evidence": [
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/evidence/hydramp_execution_adapter_corrected_authorization.json",
+      "bytes": 1857,
+      "sha256": "3cab3ae671f980e2e391da9882480db945c7bd6a2fefd4a11217175e4ade0b02"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/evidence/hydramp_execution_adapter_corrected_execution.json",
+      "bytes": 7152,
+      "sha256": "8c3d8fdee4b35fc45c5de22d248c0d4e4da421b3344d0f06ac33fa814e0f6f88"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/evidence/hydramp_execution_adapter_corrected_issue_update.json",
+      "bytes": 3647,
+      "sha256": "b59324aefd0b721a48a09c7b2dcb9b7e3590399550811c4c7c0944f380ba155f"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/evidence/hydramp_execution_adapter_failed_execution.json",
+      "bytes": 4618,
+      "sha256": "3151d15891a9f7adf56f9ee1f68f7c42687c44f0bcd154de72663107a73aa94f"
+    }
+  ],
+  "maintained_documents": [
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/README.md",
+      "bytes": 12113,
+      "sha256": "0210c3d75cc528490287107c5e95f2f0d12b3f28864f4f6d204c78daef72bfcf"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/README.md",
+      "bytes": 29586,
+      "sha256": "66c04f05ac93552650040d4b4ccceb1c2dcbb3a9d2bcff18b3bb441add3c7ae3"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/decisions.md",
+      "bytes": 84744,
+      "sha256": "3fdefd51d822ad71d0f4d0a4c313846f246b4092caf2142da136edeaaf9a117e"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/pending_proposals/qualify_hydramp_increment_2.md",
+      "bytes": 35465,
+      "sha256": "0358e9545dd666f554b4c9945da727fbb0719cab74ce16f824edb4bf545a7e02"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/hydramp_execution_adapter.md",
+      "bytes": 16926,
+      "sha256": "d3daa8bba3f7c96665052f2aabf3f1bf98b038a7bcdc277c2144c6deee733ff7"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/hydramp_public_receiving.md",
+      "bytes": 7823,
+      "sha256": "608b5e659b0c38d18655847a5908ffd14c3d3c0d188e67908240fe6df04097d8"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/optional_engine_review.md",
+      "bytes": 8674,
+      "sha256": "23b9b7db416f3427ef6f400bf7125d42f15f98b9ad46c6fe481194597de310b3"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/docs/content/user/hydramp_execution.md",
+      "bytes": 7452,
+      "sha256": "8bf1db8bffca54ab7e7b885c8ac5409588c2ee442fc17ccef4b3571a567d952a"
+    }
+  ],
+  "new_real_public_calls": 1,
+  "neural_forwards": 3,
+  "Macrel_calls": 0,
+  "legacy_calls": 0,
+  "retries": 0,
+  "scientific_acceptance": false,
+  "authorization_consumed": true,
+  "further_execution_authorized": false,
+  "commits_created": 0,
+  "pushes_or_releases": 0,
+  "retention_review": "2026-11-13"
+}

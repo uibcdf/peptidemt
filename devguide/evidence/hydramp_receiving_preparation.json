@@ -1,0 +1,408 @@
+{
+  "schema": "peptidemt.hydramp_receiving_preparation@1",
+  "date": "2026-11-03",
+  "recorded_at_utc": "2026-11-03T20:12:26.063772+00:00",
+  "owner_issue": "uibcdf/peptidemt#8",
+  "provider_issue": "uibcdf/hydramp#1",
+  "status": "Private data-only receipt prepared;16artificial source tests and272saved native occurrence replay pass;no live adapter/Macrel/H3-H4 acceptance",
+  "authority": "D38/D39 existing consumer receiving/orchestration commission and investigator continuation; preserve independent mathematical improvements rather than force legacy equivalence",
+  "plan": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-receiving-prep-zgp2f9ue/plan.json",
+    "bytes": 2136,
+    "sha256": "e8db78eed08454064218c447f615b7448b08332d23782619dae3189831758e0f"
+  },
+  "source": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/src/peptidemt/_hydramp_receiving.py",
+    "bytes": 10150,
+    "sha256": "befeab875836a1d71277642fb541c95c13dab80fcff166eefc76f7c02ed98f04"
+  },
+  "tests": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/tests/test_hydramp_receiving.py",
+    "bytes": 9195,
+    "sha256": "f25ae7c0033cde24312b74dbd834d177678f39ba0285142ca72a11244fe1012d"
+  },
+  "test_execution": {
+    "exit_code": 0,
+    "wall_seconds": 0.5184420039877295,
+    "child_kernel_peak_rss_bytes": 46309376,
+    "source_profile": "isolated seven-distribution Python3.14 worker,published Receptor1.2.2;source-only PeptideMT import;no installed PeptideMT qualification",
+    "scientific_model_descriptor_macrel_calls": 0
+  },
+  "saved_replay_execution": {
+    "exit_code": 0,
+    "wall_seconds": 0.61776103801094,
+    "child_kernel_peak_rss_bytes": 40042496,
+    "source_only": true,
+    "new_model_weight_pca_descriptor_macrel_or_activation_calls": 0
+  },
+  "saved_replay_report": {
+    "schema": "peptidemt.hydramp_receiving_saved_replay@1",
+    "batches": 17,
+    "returned_occurrences": 272,
+    "distinct_original_latent_inputs": 256,
+    "includes_same_seed_repeat": true,
+    "zero_token_positions_preserved": 1693,
+    "macrel_input_issues": {
+      "sequence_changing_native_preprocessing": 20
+    },
+    "reports": [
+      {
+        "tag": "seed_1001",
+        "rows": 16,
+        "native_values_order_mapping_trace_and_float_hex_replay_preserved": true,
+        "source_qualification_reference": null,
+        "receipt_sha256": "954132b43423291dbc3531278efcf0022c833dbfabd600e541798090ea27acd6"
+      },
+      {
+        "tag": "seed_1002",
+        "rows": 16,
+        "native_values_order_mapping_trace_and_float_hex_replay_preserved": true,
+        "source_qualification_reference": null,
+        "receipt_sha256": "6a177b5c0800f950f0e21db6e5e0f71c91dd63cbe89b7ffb632b198a8ef6db23"
+      },
+      {
+        "tag": "seed_1003",
+        "rows": 16,
+        "native_values_order_mapping_trace_and_float_hex_replay_preserved": true,
+        "source_qualification_reference": null,
+        "receipt_sha256": "f19b12a234f75964f36822e8c16faa242c11ae0e1dc87868e6bf06fa3d697b22"
+      },
+      {
+        "tag": "seed_1004",
+        "rows": 16,
+        "native_values_order_mapping_trace_and_float_hex_replay_preserved": true,
+        "source_qualification_reference": null,
+        "receipt_sha256": "e26afcc3e2f1e4616c0d2639f316db3c23a7e36516fc1fc6bdb16484d15340cd"
+      },
+      {
+        "tag": "seed_1005",
+        "rows": 16,
+        "native_values_order_mapping_trace_and_float_hex_replay_preserved": true,
+        "source_qualification_reference": null,
+        "receipt_sha256": "1b72216177c709a84236103203ef6a36f09abeb9e41009013ef17a2ee60c26b9"
+      },
+      {
+        "tag": "seed_1006",
+        "rows": 16,
+        "native_values_order_mapping_trace_and_float_hex_replay_preserved": true,
+        "source_qualification_reference": null,
+        "receipt_sha256": "bcf79d80cb5df34b3a5185321569cf48ac8af16a93556abe42b99c72fc57d575"
+      },
+      {
+        "tag": "seed_1007",
+        "rows": 16,
+        "native_values_order_mapping_trace_and_float_hex_replay_preserved": true,
+        "source_qualification_reference": null,
+        "receipt_sha256": "730f600273f283f4ceda55b6a91ba36c395ca7b4c6c8db279c18ad3ec6b2b4fe"
+      },
+      {
+        "tag": "seed_1008",
+        "rows": 16,
+        "native_values_order_mapping_trace_and_float_hex_replay_preserved": true,
+        "source_qualification_reference": null,
+        "receipt_sha256": "2349609a5422e73156dc8fb55f81dbdae4dc81ce18917a4c25a79d39a91ec96d"
+      },
+      {
+        "tag": "seed_1009",
+        "rows": 16,
+        "native_values_order_mapping_trace_and_float_hex_replay_preserved": true,
+        "source_qualification_reference": null,
+        "receipt_sha256": "263a04f33d94cf9f26adad9a13ced91ec8728adca7a5573ea799d2e6b235ec7f"
+      },
+      {
+        "tag": "seed_1010",
+        "rows": 16,
+        "native_values_order_mapping_trace_and_float_hex_replay_preserved": true,
+        "source_qualification_reference": null,
+        "receipt_sha256": "6cd3fa7734646e6e1204899ca9ec4628a9e3b50cf4b5e6de8606aebb665fe9e5"
+      },
+      {
+        "tag": "seed_1011",
+        "rows": 16,
+        "native_values_order_mapping_trace_and_float_hex_replay_preserved": true,
+        "source_qualification_reference": null,
+        "receipt_sha256": "7d5ba13eca4a588c188af1cffc8c9c14e881522a08b1858ac03a00f64339420a"
+      },
+      {
+        "tag": "seed_1012",
+        "rows": 16,
+        "native_values_order_mapping_trace_and_float_hex_replay_preserved": true,
+        "source_qualification_reference": null,
+        "receipt_sha256": "693eee7d5e67935a5dd4bc68424b2515947e9318845c7d0727990447373c6100"
+      },
+      {
+        "tag": "seed_1013",
+        "rows": 16,
+        "native_values_order_mapping_trace_and_float_hex_replay_preserved": true,
+        "source_qualification_reference": null,
+        "receipt_sha256": "ed8ad946ce1e4d9f744fc95e596492a7697f908fb20e5356e7cabad3f0e6c8e4"
+      },
+      {
+        "tag": "seed_1014",
+        "rows": 16,
+        "native_values_order_mapping_trace_and_float_hex_replay_preserved": true,
+        "source_qualification_reference": null,
+        "receipt_sha256": "f05d3e4ef927f3ef07c4504dc9ea458c5d7cc37fd03228c75c2556e767c8641f"
+      },
+      {
+        "tag": "seed_1015",
+        "rows": 16,
+        "native_values_order_mapping_trace_and_float_hex_replay_preserved": true,
+        "source_qualification_reference": null,
+        "receipt_sha256": "5582b595e6377fb712699609c233814776beda4b716f17f0f92d156811437c6c"
+      },
+      {
+        "tag": "seed_1016",
+        "rows": 16,
+        "native_values_order_mapping_trace_and_float_hex_replay_preserved": true,
+        "source_qualification_reference": null,
+        "receipt_sha256": "f6789dc3a961c0be5369221dd8cd48d8d203a47e89ad77530d43a22348e3d42b"
+      },
+      {
+        "tag": "repeat_1001",
+        "rows": 16,
+        "native_values_order_mapping_trace_and_float_hex_replay_preserved": true,
+        "source_qualification_reference": null,
+        "receipt_sha256": "53a32dd41d0eceb7769512647ed08f4cf30bf857a366761da9c7159c4b8e5614"
+      }
+    ],
+    "new_model_weight_pca_descriptor_macrel_or_activation_calls": 0,
+    "scientific_acceptance": false,
+    "scope": "Data-only source receiving of frozen real dev3 outputs;no fresh generation,installed-package,H3live adapter or H4Macrel qualification. Incompatible proposals retained without chemistry inference,repair,deduplication or native-score prefilter."
+  },
+  "original_saved_sources": {
+    "torch-full.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-confidence-pvxbhixg/run/torch-full.json",
+      "bytes": 115617,
+      "sha256": "9704864f65dfe50d6f8ed245868a12f762ca9e7904b1d371151d20d0f1c37bbd"
+    },
+    "torch-full.npz": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-confidence-pvxbhixg/run/torch-full.npz",
+      "bytes": 1183584,
+      "sha256": "520354552ba6377484a7f51a2d4535e0df7b0e43efc98d1dde48c83c8f3850b3"
+    }
+  },
+  "artifacts": {
+    "final-tests-execution.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-receiving-prep-zgp2f9ue/final-tests-execution.json",
+      "bytes": 310,
+      "sha256": "b61327dbcfce658f869428b8d923c41835eaa4ae6e7ffce643d64215eabe43aa"
+    },
+    "saved-replay-report.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-receiving-prep-zgp2f9ue/saved-replay-report.json",
+      "bytes": 5348,
+      "sha256": "608cd2f5b2a810cb31ee03c5983b7132dd23838d88c43479260092d7ade43cf3"
+    },
+    "saved_replay.py": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-receiving-prep-zgp2f9ue/saved_replay.py",
+      "bytes": 4853,
+      "sha256": "91822d4721405476c3721eab1c56a86a144d447383d16fe0488be96c52e7e29d"
+    },
+    "trace-tests-execution.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-receiving-prep-zgp2f9ue/trace-tests-execution.json",
+      "bytes": 310,
+      "sha256": "ba7ea0c66adef20bde9e886f6c5e74205bce63dc3f6446ae1c3a80137e404f18"
+    },
+    "plan.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-receiving-prep-zgp2f9ue/plan.json",
+      "bytes": 2136,
+      "sha256": "e8db78eed08454064218c447f615b7448b08332d23782619dae3189831758e0f"
+    },
+    "guarded_tests.py": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-receiving-prep-zgp2f9ue/guarded_tests.py",
+      "bytes": 1445,
+      "sha256": "4ca9f333dcb6800b0a50104f953235e5407471cbbffa8e4c7be11925eb089006"
+    },
+    "tests-execution.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-receiving-prep-zgp2f9ue/tests-execution.json",
+      "bytes": 355,
+      "sha256": "75eb179d1787ba05a8bf304660b4a6d582298ec35e78386ad68b0208ee521301"
+    },
+    "saved-replay-execution.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-receiving-prep-zgp2f9ue/saved-replay-execution.json",
+      "bytes": 190,
+      "sha256": "96709ad666d4fb71ee78533d891d9f2761beb95d2c759da0e7ea64af83b5a236"
+    },
+    "saved-sources.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-receiving-prep-zgp2f9ue/saved-sources.json",
+      "bytes": 484,
+      "sha256": "8314b0c3655bacd1008f5f89069c620b7c05c63945224461254b2554fd42756c"
+    },
+    "before-from-trace/plan.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-receiving-prep-zgp2f9ue/before-from-trace/plan.json",
+      "bytes": 2136,
+      "sha256": "ab73927666e2edd8bba0fc05c426bd13dd68f1f2a0777da3e987963bd4aaaf0f"
+    },
+    "before-from-trace/results.xml": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-receiving-prep-zgp2f9ue/before-from-trace/results.xml",
+      "bytes": 2335,
+      "sha256": "fb068936b20924e80cfee2debd1d0ae3af1c2b678fe254dde9d383844d3ae651"
+    },
+    "before-from-trace/tests-execution.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-receiving-prep-zgp2f9ue/before-from-trace/tests-execution.json",
+      "bytes": 310,
+      "sha256": "b61327dbcfce658f869428b8d923c41835eaa4ae6e7ffce643d64215eabe43aa"
+    },
+    "tests/final-results.xml": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-receiving-prep-zgp2f9ue/tests/final-results.xml",
+      "bytes": 2335,
+      "sha256": "fb068936b20924e80cfee2debd1d0ae3af1c2b678fe254dde9d383844d3ae651"
+    },
+    "tests/trace-results.xml": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-receiving-prep-zgp2f9ue/tests/trace-results.xml",
+      "bytes": 2479,
+      "sha256": "f37dba462d465975737e33f1466a9815d8dcfd6512b72af84bd07bca9e2bf9c2"
+    },
+    "tests/results.xml": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-receiving-prep-zgp2f9ue/tests/results.xml",
+      "bytes": 2196,
+      "sha256": "4a12a93731d001cc349eb874627eae97a0dfa155932cddf5c87cd8a04c1eb4b4"
+    },
+    "before-decoder-input-fields/plan.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-receiving-prep-zgp2f9ue/before-decoder-input-fields/plan.json",
+      "bytes": 2136,
+      "sha256": "01fa10b450b21b9f3e309744c0204ef433f14c07c0959c97e0ccd5e02361e9ab"
+    },
+    "before-decoder-input-fields/results.xml": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-receiving-prep-zgp2f9ue/before-decoder-input-fields/results.xml",
+      "bytes": 2196,
+      "sha256": "4a12a93731d001cc349eb874627eae97a0dfa155932cddf5c87cd8a04c1eb4b4"
+    },
+    "before-decoder-input-fields/test_hydramp_receiving.py": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-receiving-prep-zgp2f9ue/before-decoder-input-fields/test_hydramp_receiving.py",
+      "bytes": 7585,
+      "sha256": "35f3fda06f595fdf907196b29afacaf3e8216496ef2977547d19a548e5984d84"
+    },
+    "before-decoder-input-fields/tests-execution.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-receiving-prep-zgp2f9ue/before-decoder-input-fields/tests-execution.json",
+      "bytes": 355,
+      "sha256": "75eb179d1787ba05a8bf304660b4a6d582298ec35e78386ad68b0208ee521301"
+    },
+    "before-decoder-input-fields/_hydramp_receiving.py": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-receiving-prep-zgp2f9ue/before-decoder-input-fields/_hydramp_receiving.py",
+      "bytes": 9095,
+      "sha256": "b8b6fc6e191ec558533fe9b6c03ce3e522c1230802386109cf43e20cf9f4508b"
+    },
+    "logs/tests.log": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-receiving-prep-zgp2f9ue/logs/tests.log",
+      "bytes": 33,
+      "sha256": "d63054a3d2d4a2c64d625d01676bad353f2d45e2b14a3bf6f2cb21d1f654b477"
+    },
+    "logs/saved-replay.log": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-receiving-prep-zgp2f9ue/logs/saved-replay.log",
+      "bytes": 5348,
+      "sha256": "608cd2f5b2a810cb31ee03c5983b7132dd23838d88c43479260092d7ade43cf3"
+    },
+    "logs/final-tests.log": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-receiving-prep-zgp2f9ue/logs/final-tests.log",
+      "bytes": 33,
+      "sha256": "ddb11b78b5ac86469cbd34b788cf29eb0acabe144a387b31e14ca3c0e3f4f9d4"
+    },
+    "logs/trace-tests.log": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-receiving-prep-zgp2f9ue/logs/trace-tests.log",
+      "bytes": 33,
+      "sha256": "8d55b0c146606c89ef50a2ecb1720a453c9baa09e8a333d3c9edc82aba51def4"
+    },
+    "saved-receipts/seed_1011.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-receiving-prep-zgp2f9ue/saved-receipts/seed_1011.json",
+      "bytes": 132943,
+      "sha256": "7d5ba13eca4a588c188af1cffc8c9c14e881522a08b1858ac03a00f64339420a"
+    },
+    "saved-receipts/seed_1001.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-receiving-prep-zgp2f9ue/saved-receipts/seed_1001.json",
+      "bytes": 132972,
+      "sha256": "954132b43423291dbc3531278efcf0022c833dbfabd600e541798090ea27acd6"
+    },
+    "saved-receipts/seed_1010.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-receiving-prep-zgp2f9ue/saved-receipts/seed_1010.json",
+      "bytes": 133030,
+      "sha256": "6cd3fa7734646e6e1204899ca9ec4628a9e3b50cf4b5e6de8606aebb665fe9e5"
+    },
+    "saved-receipts/seed_1012.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-receiving-prep-zgp2f9ue/saved-receipts/seed_1012.json",
+      "bytes": 132999,
+      "sha256": "693eee7d5e67935a5dd4bc68424b2515947e9318845c7d0727990447373c6100"
+    },
+    "saved-receipts/seed_1013.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-receiving-prep-zgp2f9ue/saved-receipts/seed_1013.json",
+      "bytes": 132859,
+      "sha256": "ed8ad946ce1e4d9f744fc95e596492a7697f908fb20e5356e7cabad3f0e6c8e4"
+    },
+    "saved-receipts/seed_1007.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-receiving-prep-zgp2f9ue/saved-receipts/seed_1007.json",
+      "bytes": 132962,
+      "sha256": "730f600273f283f4ceda55b6a91ba36c395ca7b4c6c8db279c18ad3ec6b2b4fe"
+    },
+    "saved-receipts/seed_1003.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-receiving-prep-zgp2f9ue/saved-receipts/seed_1003.json",
+      "bytes": 132948,
+      "sha256": "f19b12a234f75964f36822e8c16faa242c11ae0e1dc87868e6bf06fa3d697b22"
+    },
+    "saved-receipts/repeat_1001.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-receiving-prep-zgp2f9ue/saved-receipts/repeat_1001.json",
+      "bytes": 132976,
+      "sha256": "53a32dd41d0eceb7769512647ed08f4cf30bf857a366761da9c7159c4b8e5614"
+    },
+    "saved-receipts/seed_1015.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-receiving-prep-zgp2f9ue/saved-receipts/seed_1015.json",
+      "bytes": 132910,
+      "sha256": "5582b595e6377fb712699609c233814776beda4b716f17f0f92d156811437c6c"
+    },
+    "saved-receipts/seed_1006.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-receiving-prep-zgp2f9ue/saved-receipts/seed_1006.json",
+      "bytes": 133120,
+      "sha256": "bcf79d80cb5df34b3a5185321569cf48ac8af16a93556abe42b99c72fc57d575"
+    },
+    "saved-receipts/seed_1014.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-receiving-prep-zgp2f9ue/saved-receipts/seed_1014.json",
+      "bytes": 133005,
+      "sha256": "f05d3e4ef927f3ef07c4504dc9ea458c5d7cc37fd03228c75c2556e767c8641f"
+    },
+    "saved-receipts/seed_1009.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-receiving-prep-zgp2f9ue/saved-receipts/seed_1009.json",
+      "bytes": 133000,
+      "sha256": "263a04f33d94cf9f26adad9a13ced91ec8728adca7a5573ea799d2e6b235ec7f"
+    },
+    "saved-receipts/seed_1002.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-receiving-prep-zgp2f9ue/saved-receipts/seed_1002.json",
+      "bytes": 132988,
+      "sha256": "6a177b5c0800f950f0e21db6e5e0f71c91dd63cbe89b7ffb632b198a8ef6db23"
+    },
+    "saved-receipts/seed_1005.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-receiving-prep-zgp2f9ue/saved-receipts/seed_1005.json",
+      "bytes": 132883,
+      "sha256": "1b72216177c709a84236103203ef6a36f09abeb9e41009013ef17a2ee60c26b9"
+    },
+    "saved-receipts/seed_1008.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-receiving-prep-zgp2f9ue/saved-receipts/seed_1008.json",
+      "bytes": 133034,
+      "sha256": "2349609a5422e73156dc8fb55f81dbdae4dc81ce18917a4c25a79d39a91ec96d"
+    },
+    "saved-receipts/seed_1004.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-receiving-prep-zgp2f9ue/saved-receipts/seed_1004.json",
+      "bytes": 132989,
+      "sha256": "e26afcc3e2f1e4616c0d2639f316db3c23a7e36516fc1fc6bdb16484d15340cd"
+    },
+    "saved-receipts/seed_1016.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-receiving-prep-zgp2f9ue/saved-receipts/seed_1016.json",
+      "bytes": 132959,
+      "sha256": "f6789dc3a961c0be5369221dd8cd48d8d203a47e89ad77530d43a22348e3d42b"
+    }
+  },
+  "public_api_export_added": false,
+  "core_M1_M8_or_selector_contract_changed": false,
+  "molecular_or_fasta_implementation_added": false,
+  "new_runtime_dependency_or_environment_installation": false,
+  "new_model_weight_pca_descriptor_macrel_or_activation_calls": 0,
+  "scientific_acceptance": false,
+  "commit_push_release": false,
+  "limitations": [
+    "Private source receiving contract;no installed PeptideMT-wheel qualification or new public generation API",
+    "No live direct/adapter run,actual Macrel join or H4procedural control executed",
+    "Imported generator evidence remains qualification_reference=None;independent later Macrel scores cannot qualify this generator",
+    "Per-occurrence transport checks compare the same modern provider outputs,not numerical identity with legacy TensorFlow",
+    "Original pre-cast conditioned arrays were not retained in the broad campaign;captured FP32 decoder input and FP64 PCA/latent values retain distinct names",
+    "Oldmodel/activation budgets exhausted;real new generation/Macrel execution still needs a fully frozen fresh plan and host budget"
+  ],
+  "retention_review": "2026-11-13"
+}

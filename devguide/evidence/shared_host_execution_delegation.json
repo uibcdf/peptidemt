@@ -1,0 +1,47 @@
+{
+  "schema": "peptidemt.shared_host_execution_delegation@1",
+  "recorded_at_utc": "2026-11-05T21:20:09.216667+00:00",
+  "local_date": "2026-11-05",
+  "decision": "D49",
+  "authority": "Investigator explicitly delegates reasonable routine executions and retries, asks to persist this in AGENTS.md, and requires care for the shared machine",
+  "owner_issue": "uibcdf/peptidemt#32",
+  "scientific_owner_issue": "uibcdf/hydramp#3",
+  "routine_execution_within_approved_work": true,
+  "individual_run_confirmation_required": false,
+  "run_specific_investigator_review_claimed": false,
+  "scope": "Testing, measurements, diagnosis and necessary bounded retries within already approved scientific contracts; current ongoing finite D46-D48 historical HydrAMP comparison keeps its exact source/endpoint/chemistry/provider/call-design contract",
+  "default_current_envelope": {
+    "cpu_ids": [
+      0,
+      1
+    ],
+    "numerical_threads": 1,
+    "heavy_workers_concurrent": 1,
+    "task_RAM_intent_bytes": 4000000000,
+    "aggregate_RSS_stop_bytes": 2147483648,
+    "min_available_RAM_bytes": 8589934592,
+    "per_child_virtual_address_space_bytes": 8589934592,
+    "per_child_wall_seconds": 180,
+    "per_child_CPU_seconds": 120,
+    "min_free_workspace_bytes": 2147483648
+  },
+  "requirements": [
+    "Inspect host memory/load/disk before substantial runs; defer under pressure",
+    "Declare small purpose-specific resource and call limits and record actual source/input/environment identities",
+    "Preserve failed attempts and successful reusable evidence; no blind retries or wholesale repetition of accepted campaigns",
+    "Historical spent budgets remain spent; a fresh bounded batch cites this explicit standing delegation",
+    "No record may falsely claim investigator review of a run-specific plan"
+  ],
+  "not_authorized": [
+    "GPU",
+    "material scientific/chemistry/preprocessing/acceptance contract changes",
+    "new scientific models/families/targets/training/feedback",
+    "public packages/sites/releases or third-party contact"
+  ],
+  "historical_receipts_changed": false,
+  "working_instruction": "AGENTS.md#standing-execution-authority-and-shared-host-resources",
+  "retention": {
+    "owner": "PeptideMT#32 / HydrAMP#3",
+    "review_by": "2026-11-19"
+  }
+}

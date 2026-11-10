@@ -1,0 +1,77 @@
+{
+  "schema": "peptidemt.bindcraft_mdm2_source_review_closeout@1",
+  "recorded_utc": "2026-11-10T15:14:59.702914+00:00",
+  "source_receipt": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/evidence/bindcraft_mdm2_source_review_2026_11_10.json",
+    "bytes": 31332,
+    "sha256": "f9674021409cdc3b3316b697271efa4ec43db322e9e6713ca6b5b1c1d57bef54"
+  },
+  "documents": [
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/bindcraft_mdm2_source_review_2026_11_10.md",
+      "bytes": 9466,
+      "sha256": "58c06576cdcd5e2923526f40047bcd62b869e01aedcfaf33f56d8ce365995c17"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/mdm2_comparative_pilot_proposal.md",
+      "bytes": 10310,
+      "sha256": "d65bf3bee1d5246743edb163e9e0e178d7e021bee9ca8ca58680901bc970ddc1"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/README.md",
+      "bytes": 49784,
+      "sha256": "546976599928fc76cb32982f727ea30e90afb67e743b907b6e8479b27948f1be"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/target_directed_demonstrator.md",
+      "bytes": 10326,
+      "sha256": "b12222204b6151f22226cfe1f23872e0f6fece9793c0056d6a8ce04c4813321a"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/decisions.md",
+      "bytes": 113101,
+      "sha256": "a46a8074ce6b0006a3dce70c6d132fb611ddb75a85cf7a41d3979685912b6a8c"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/continuation_plan_2026_11_04.md",
+      "bytes": 29784,
+      "sha256": "3c4e728248faba85f82e14e0653d172bd8039003f8cd722847d7ca4a65ec4d29"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/pending_proposals/scientific_capability_audit.md",
+      "bytes": 15141,
+      "sha256": "38ded2876ac1267b92b1a3a43e979892b47183d13d349520349ca261b1a2912f"
+    }
+  ],
+  "documentation_checks": {
+    "record": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-bindcraft-mdm2-review-kte1roqw/inspection/documentation-checks.json",
+      "bytes": 1017,
+      "sha256": "9d6b1ee4f66d43db8baf655de58b2335d2c903ce758aff65b2ec85ccb9315861"
+    },
+    "relative_paths_and_anchors": 349,
+    "errors": [],
+    "report_indexes": "current; exit 0",
+    "git_diff_whitespace": "exit 0",
+    "maintained_document_whitespace": "checked after resource-citation addition"
+  },
+  "issue_update": {
+    "url": "https://github.com/uibcdf/peptidemt/issues/33#issuecomment-6771076108",
+    "comment_id": 6771076108,
+    "body_sha256": "c9d37d0ed62ac34296f652d0c45bfdc9b1c04681453242766edc47d08ed9d702",
+    "readback": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-bindcraft-mdm2-review-kte1roqw/issue-readback.json",
+      "bytes": 2973,
+      "sha256": "3953cda1056925d0d3e9702d37a5d359891ae22da3a00fe44275426ba7a1a2af"
+    },
+    "exact_body_verified": true
+  },
+  "known_access_failures": "Initial web PMC returned browser check; Figshare search/API and DOI opens unavailable in web tool. Public documented Figshare API/NLM BioC ordinary requests succeed without challenge solving or authentication.",
+  "qualified_science_or_implementation": false,
+  "proposed_pilot_approved": false,
+  "scientific_or_unit_tests_rerun": false,
+  "molecular_or_model_runs": 0,
+  "all_jobs_terminal": true,
+  "new_commit_push_or_release": false,
+  "original_D52_objective_complete": false
+}

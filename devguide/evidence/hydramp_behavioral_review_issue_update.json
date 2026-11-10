@@ -1,0 +1,9 @@
+{
+  "schema": "peptidemt.behavioral_review_issue_update@1",
+  "issue": "uibcdf/peptidemt#8",
+  "comment_url": "https://github.com/uibcdf/peptidemt/issues/8#issuecomment-6594967117",
+  "created_at": "2026-11-03T03:49:48Z",
+  "body_sha256": "8cbe498c2d28286c4e465a878e506c3809191da19008dfb0c40b60401e3a5854",
+  "verified": true,
+  "scope": "Saved-output behavioral analysis, raw RNG comparison and proposed acceptance plan; no new learned execution or acceptance."
+}

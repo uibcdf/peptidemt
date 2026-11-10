@@ -1,0 +1,223 @@
+{
+  "recorded_utc": "2026-11-06T08:02:15.687023+00:00",
+  "owner": "uibcdf/peptidemt#33",
+  "authority": {
+    "path": "devguide/evidence/target_directed_demonstrator_authorization.json",
+    "bytes": 1638,
+    "sha256": "84dd949951966e72664f096db2cad8132e18f7da630441a6f21635330f24f9f5"
+  },
+  "status": "inspected; recommendations only; no adopted evaluator",
+  "pending_scientific_proposal": {
+    "path": "devguide/mdm2_t1a_proposal.md",
+    "bytes": 7184,
+    "sha256": "069247bf4b46e8fafba553ecb5311f67b0bfd6748ea4a06822053c3285c05e56"
+  },
+  "proposal_matches_submitted_review_request": true,
+  "previous_goal_turn": "progress: experimental source and owner-capability review, concrete T1a proposal and verified owning-issue handoff",
+  "current_progress": "Bounded actual-source method comparison identifies modern HADDOCK3 declarations, limits of legacy tutorial transfer, ADCP source/distribution and chemistry concerns, and the existing MolSysMT mutation contract",
+  "source_inventory": [
+    {
+      "key": "MethodHaddockProject",
+      "path": "local_data/peptidemt-target-study-3l7pirsi/method-review/source/haddock3/pyproject.toml",
+      "repository": "haddocking/haddock3",
+      "ref": "62bef1fc2d9fc99b350f252be1389a6ca3d17f2d",
+      "url": "https://github.com/haddocking/haddock3/blob/62bef1fc2d9fc99b350f252be1389a6ca3d17f2d/pyproject.toml",
+      "source_chars": 3206,
+      "scope": "Read-only source inspection; not an installation, dependency qualification or method selection",
+      "bytes": 3206,
+      "sha256": "40f45adc669a6cdc8f5da705c48a0b6dfdd033caa62bac74ab657d4ca7b225b4"
+    },
+    {
+      "key": "MethodHaddockDisclaimer",
+      "path": "local_data/peptidemt-target-study-3l7pirsi/method-review/source/haddock3/DISCLAIMER.md",
+      "repository": "haddocking/haddock3",
+      "ref": "62bef1fc2d9fc99b350f252be1389a6ca3d17f2d",
+      "url": "https://github.com/haddocking/haddock3/blob/62bef1fc2d9fc99b350f252be1389a6ca3d17f2d/DISCLAIMER.md",
+      "source_chars": 1167,
+      "scope": "Read-only source inspection; not an installation, dependency qualification or method selection",
+      "bytes": 1167,
+      "sha256": "a7d233abbe158d96f82d6de8a6afec3fde635d6cc951b29e612d034c2d37f3fb"
+    },
+    {
+      "key": "MethodHaddockPeptideFull",
+      "path": "local_data/peptidemt-target-study-3l7pirsi/method-review/source/haddock3/docking-protein-peptide-full.cfg",
+      "repository": "haddocking/haddock3",
+      "ref": "62bef1fc2d9fc99b350f252be1389a6ca3d17f2d",
+      "url": "https://github.com/haddocking/haddock3/blob/62bef1fc2d9fc99b350f252be1389a6ca3d17f2d/examples/docking-protein-peptide/docking-protein-peptide-full.cfg",
+      "source_chars": 2100,
+      "scope": "Read-only source inspection; not an installation, dependency qualification or method selection",
+      "bytes": 2100,
+      "sha256": "c3a81397febf6e46740c7997d88cf95d62cc8a96b1a16e35d9fb3e4a508eb632"
+    },
+    {
+      "key": "MethodHaddockPeptideTest",
+      "path": "local_data/peptidemt-target-study-3l7pirsi/method-review/source/haddock3/docking-protein-peptide-test.cfg",
+      "repository": "haddocking/haddock3",
+      "ref": "62bef1fc2d9fc99b350f252be1389a6ca3d17f2d",
+      "url": "https://github.com/haddocking/haddock3/blob/62bef1fc2d9fc99b350f252be1389a6ca3d17f2d/examples/docking-protein-peptide/docking-protein-peptide-test.cfg",
+      "source_chars": 1917,
+      "scope": "Read-only source inspection; not an installation, dependency qualification or method selection",
+      "bytes": 1917,
+      "sha256": "2b25368598fca21c2b943990a55d52de451211d8c812f7d8f880d8c275e991db"
+    },
+    {
+      "key": "MethodADCPLicense",
+      "path": "local_data/peptidemt-target-study-3l7pirsi/method-review/source/ADCP/LICENSE",
+      "repository": "sannerlab/ADCP",
+      "ref": "1768a5414dcb3069ee306302145a1d371427f02e",
+      "url": "https://github.com/sannerlab/ADCP/blob/1768a5414dcb3069ee306302145a1d371427f02e/LICENSE",
+      "source_chars": 1319,
+      "scope": "Read-only source inspection; not an installation, dependency qualification or method selection",
+      "bytes": 1319,
+      "sha256": "d5a0e8f91d3005eb955d19dbc894e8d831f1a09443f0be3e8d4b3135fd9bbbad"
+    },
+    {
+      "key": "MethodADCPLauncher",
+      "path": "local_data/peptidemt-target-study-3l7pirsi/method-review/source/ADCP/runADCP.py",
+      "repository": "sannerlab/ADCP",
+      "ref": "1768a5414dcb3069ee306302145a1d371427f02e",
+      "url": "https://github.com/sannerlab/ADCP/blob/1768a5414dcb3069ee306302145a1d371427f02e/runADCP.py",
+      "source_chars": 21486,
+      "scope": "Read-only source inspection; not an installation, dependency qualification or method selection",
+      "bytes": 21486,
+      "sha256": "815176eb7421677c16d38f2ec61d52edd34199c8b3554cab8a4d81cd4492577c",
+      "python314_syntax": {
+        "status": "SyntaxError; source only, not a qualified distribution test",
+        "line": 149,
+        "message": "Missing parentheses in call to 'print'. Did you mean print(...)?",
+        "source_line": "print \"ERROR: no receptor files found\""
+      }
+    },
+    {
+      "key": "MethodADCPReadme",
+      "path": "local_data/peptidemt-target-study-3l7pirsi/method-review/source/ADCP/README.md",
+      "repository": "sannerlab/ADCP",
+      "ref": "1768a5414dcb3069ee306302145a1d371427f02e",
+      "url": "https://github.com/sannerlab/ADCP/blob/1768a5414dcb3069ee306302145a1d371427f02e/README.md",
+      "source_chars": 43,
+      "scope": "Read-only source inspection; not an installation, dependency qualification or method selection",
+      "bytes": 43,
+      "sha256": "2684d01f86453a67d04341838a9fce0e4a10ef0e9b2398f88558f70ff378f4e3"
+    },
+    {
+      "key": "MethodRosettaLicense",
+      "path": "local_data/peptidemt-target-study-3l7pirsi/method-review/source/rosetta/LICENSE.md",
+      "repository": "RosettaCommons/rosetta",
+      "ref": "eddc15bbac60cf91302d3faf76895bd6d215cc50",
+      "url": "https://github.com/RosettaCommons/rosetta/blob/eddc15bbac60cf91302d3faf76895bd6d215cc50/LICENSE.md",
+      "source_chars": 7204,
+      "scope": "Read-only source inspection; not an installation, dependency qualification or method selection",
+      "bytes": 7216,
+      "sha256": "8cc2e394ee31761ac27a9ebee4fe2a567758e17cadc1ed0318c54e9cfe0d5214"
+    },
+    {
+      "path": "local_data/peptidemt-target-study-3l7pirsi/method-review/source/molsysmt/build/mutate.py",
+      "repository": "uibcdf/molsysmt",
+      "ref": "ed09f64539a5af6c1dbe9bd352c7ef65dcd4a7a6",
+      "url": "https://github.com/uibcdf/molsysmt/blob/ed09f64539a5af6c1dbe9bd352c7ef65dcd4a7a6/molsysmt/build/mutate.py",
+      "scope": "Source-only public mutation contract inspection; no molecular call",
+      "bytes": 10114,
+      "sha256": "2ac70f0e3892a3f3f225bef19d0d0e1abe5a8c5d91cde5ce73056d46d3f5dbdb",
+      "python314_syntax": "parsed; no import or runtime execution",
+      "public_functions": [
+        {
+          "name": "mutate",
+          "signature": "molecular_system, mutations=None, keys='group_index', selection='all', syntax='MolSysMT', engine='MolSysMT', *, skip_digestion=False"
+        }
+      ]
+    }
+  ],
+  "official_primary_references": [
+    {
+      "url": "https://sannerlab.github.io/software/adcp/index.html",
+      "scope": "Current versus deprecated routes and linked source; not distribution qualification"
+    },
+    {
+      "url": "https://sannerlab.github.io/software/adcp/1.1/documentation.html",
+      "scope": "Current manual, inherited cap FAQ, documented OpenMM residue replacement and example-only Python environment"
+    },
+    {
+      "url": "https://sannerlab.github.io/software/adcp/license.html",
+      "scope": "Site license description; source/distribution correspondence unresolved"
+    },
+    {
+      "url": "https://docs.rosettacommons.org/docs/latest/application_documentation/docking/flex-pep-dock",
+      "scope": "Protocol modes, non-blind/refinement scope, scoring and sampling limits"
+    },
+    {
+      "url": "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1002170",
+      "scope": "Primary FlexPepBind target-specific method/validation pattern, not MDM2 qualification"
+    },
+    {
+      "url": "https://www.bonvinlab.org/haddock3-user-manual/bpg/peptides.html",
+      "scope": "Current peptide manual and linked tutorial route"
+    },
+    {
+      "url": "https://www.bonvinlab.org/education/molmod/docking/",
+      "scope": "Historical mouse MDM2 model/web-server tutorial; not current human-source qualification"
+    },
+    {
+      "url": "https://www.bonvinlab.org/haddock3-user-manual/download-haddock3.html",
+      "scope": "Installation behavior and separately governed CNS binary; no install performed"
+    }
+  ],
+  "provider_thread_observation": {
+    "observed_utc": "2026-11-06T08:02:15.492Z",
+    "scope": "One read-only poll of the two actual provider threads; this is not a live-job wait",
+    "threads": [
+      {
+        "repository": "uibcdf/molsysmt",
+        "issue": 447,
+        "comments_observed": [
+          {
+            "id": 6679876257,
+            "updated_at": "2026-11-06T07:42:50Z"
+          }
+        ],
+        "later_substantive_reply_observed": false
+      },
+      {
+        "repository": "uibcdf/dockingmt",
+        "issue": 33,
+        "comments_observed": [
+          {
+            "id": 6679884695,
+            "updated_at": "2026-11-06T07:43:23Z"
+          }
+        ],
+        "later_substantive_reply_observed": false
+      }
+    ]
+  },
+  "preserved_inspection_failure": {
+    "path": "local_data/peptidemt-target-study-3l7pirsi/method-review/first-inspection-failure.json",
+    "bytes": 590,
+    "sha256": "ae68ca4c723e6d5138178089b08e88cfd332c13137902fed59ae4917dcb50a1e"
+  },
+  "failure_disposition": "Python 2 syntax in the inspected ADCP source is recorded as a source/refusal observation, not a qualified 1.1 runtime failure or reason to modify upstream",
+  "readiness": {
+    "pose_method_selected": false,
+    "affinity_evaluator_qualified": false,
+    "independent_selection_utility_executed": false,
+    "T1a_implementation_commission_received": false,
+    "candidate_data_chemistry_qualified": false
+  },
+  "operations": {
+    "molecular_calls": 0,
+    "neural_evaluations": 0,
+    "docking": 0,
+    "installations": 0,
+    "provider_source_changes": 0,
+    "new_issues_or_comments": 0,
+    "external_contact": 0,
+    "git_commit_or_push": 0
+  },
+  "scope_limits": "Current-source support declarations and examples are not installation, dependency-closure, numerical, affinity or biological validation",
+  "next_required_decision": "Investigator review of the already submitted T1a scientific contract; no duplicate question and no per-run resource approval requested",
+  "full_goal_complete": false,
+  "temporary_resources": {
+    "path": "local_data/peptidemt-target-study-3l7pirsi/method-review",
+    "purpose": "Exact small source files, documented source-inspection refusal and provider-thread readback for the future owner-led evaluation decision",
+    "retirement": "Remove task-only duplicates after handoff or cancellation; retain necessary evidence and preserve source/shared worktrees"
+  }
+}

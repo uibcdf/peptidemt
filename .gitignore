@@ -21,3 +21,7 @@ build/
 dist/
 *.egg-info/
 docs/_build/
+
+# Private native HydrAMP records travel in the migration ZIP, with original bytes.
+devguide/evidence/hydramp_h4_preparation.json
+devguide/evidence/hydramp_h4_execution.json

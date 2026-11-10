@@ -1,0 +1,240 @@
+{
+  "date": "2026-10-30",
+  "issue": "uibcdf/peptidemt#8",
+  "status": "Single authorized candidate forward executed; FAIL under unchanged final-probability criterion. Grouping candidate is not a demonstrated correction or adopted model.",
+  "branch": "peptidemt-pytorch-gru-layout",
+  "worktree": "/home/liliana/repos@uibcdf/hydramp/local_data/pytorch-gru-layout",
+  "task_directory": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-gru-candidate-onrd97e8",
+  "validation_directory": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-gru-candidate-onrd97e8/validation",
+  "approved_plan": {
+    "bytes": 25422,
+    "sha256": "9ebb32814d91e05a94a7a879eb918a0b86230e676d5634a39e53eb7f0f700396"
+  },
+  "candidate_wheel": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-gru-candidate-onrd97e8/artifacts/hydramp_torch-0.0.0.dev1-py3-none-any.whl",
+    "bytes": 7933,
+    "sha256": "1ea26260899236549d77cb36a206c55e91e2cf6e9080d1fa9a1a5369c1718fc8"
+  },
+  "control": {
+    "bytes": 19017,
+    "sha256": "197672a0e2bbf618114e7814041555af8ebb40b4a19e5105a1040fa1a809328e"
+  },
+  "worker": {
+    "bytes": 4103,
+    "sha256": "3c47de3a4ab2c89292f045f6495bb40faaeeafb21501fc17ee7bb3bb327b36fa"
+  },
+  "result": {
+    "decoder_validation_pass": false,
+    "token_mismatches": 0,
+    "strings_exact": true,
+    "stages": {
+      "autoregressive": {
+        "pass": false,
+        "maximum_absolute_error": 1.627206802368164e-05,
+        "rms_error": 6.216207443716424e-07,
+        "outside_tolerance": 31,
+        "first_different_timestep": 0,
+        "first_outside_tolerance_timestep": 10,
+        "maximum_error_by_timestep": [
+          1.1175870895385742e-06,
+          9.5367431640625e-07,
+          9.5367431640625e-07,
+          1.9073486328125e-06,
+          1.9073486328125e-06,
+          2.1457672119140625e-06,
+          2.86102294921875e-06,
+          3.337860107421875e-06,
+          3.337860107421875e-06,
+          2.86102294921875e-06,
+          8.165836334228516e-06,
+          7.212162017822266e-06,
+          3.635883331298828e-06,
+          5.4836273193359375e-06,
+          6.034970283508301e-06,
+          6.288290023803711e-06,
+          6.973743438720703e-06,
+          5.505979061126709e-06,
+          6.0782767832279205e-06,
+          4.433095455169678e-06,
+          5.125999450683594e-06,
+          4.231929779052734e-06,
+          4.351139068603516e-06,
+          1.0907649993896484e-05,
+          1.627206802368164e-05
+        ]
+      },
+      "lstm": {
+        "pass": false,
+        "maximum_absolute_error": 2.1725893020629883e-05,
+        "rms_error": 8.614003068418651e-07,
+        "outside_tolerance": 102,
+        "first_different_timestep": 0,
+        "first_outside_tolerance_timestep": 3,
+        "maximum_error_by_timestep": [
+          1.7583370208740234e-06,
+          2.5033950805664062e-06,
+          4.172325134277344e-06,
+          3.874301910400391e-06,
+          6.048940122127533e-06,
+          3.814697265625e-06,
+          8.745118975639343e-06,
+          1.2703239917755127e-05,
+          8.07642936706543e-06,
+          1.3113021850585938e-05,
+          2.1725893020629883e-05,
+          1.683831214904785e-05,
+          1.1354684829711914e-05,
+          1.5974044799804688e-05,
+          9.521842002868652e-06,
+          1.158192753791809e-05,
+          1.1205673217773438e-05,
+          6.429851055145264e-06,
+          1.3250857591629028e-05,
+          1.138448715209961e-05,
+          7.569789886474609e-06,
+          1.1563301086425781e-05,
+          1.5854835510253906e-05,
+          1.8268823623657227e-05,
+          1.3142824172973633e-05
+        ]
+      },
+      "logits": {
+        "pass": false,
+        "maximum_absolute_error": 0.0002231597900390625,
+        "rms_error": 1.8152789828665512e-05,
+        "outside_tolerance": 191,
+        "first_different_timestep": 0,
+        "first_outside_tolerance_timestep": 1,
+        "maximum_error_by_timestep": [
+          1.430511474609375e-05,
+          1.71661376953125e-05,
+          2.765655517578125e-05,
+          3.0517578125e-05,
+          5.53131103515625e-05,
+          4.57763671875e-05,
+          9.34600830078125e-05,
+          9.775161743164062e-05,
+          0.00011444091796875,
+          6.866455078125e-05,
+          0.0002231597900390625,
+          0.0001430511474609375,
+          7.05718994140625e-05,
+          8.0108642578125e-05,
+          0.000102996826171875,
+          0.00011682510375976562,
+          8.296966552734375e-05,
+          7.2479248046875e-05,
+          7.510185241699219e-05,
+          0.000110626220703125,
+          0.0001277923583984375,
+          7.43865966796875e-05,
+          0.0001068115234375,
+          0.00016689300537109375,
+          5.7220458984375e-05
+        ]
+      },
+      "probabilities": {
+        "pass": false,
+        "maximum_absolute_error": 5.188584327697754e-05,
+        "rms_error": 1.5485109338242018e-06,
+        "outside_tolerance": 17,
+        "first_different_timestep": 0,
+        "first_outside_tolerance_timestep": 4,
+        "maximum_error_by_timestep": [
+          2.8014183044433594e-06,
+          1.1920928955078125e-07,
+          1.9818544387817383e-06,
+          6.556510925292969e-07,
+          1.6480684280395508e-05,
+          3.4868717193603516e-06,
+          3.1888484954833984e-05,
+          3.8743019104003906e-05,
+          1.3947486877441406e-05,
+          8.106231689453125e-06,
+          6.288290023803711e-06,
+          5.188584327697754e-05,
+          7.212162017822266e-06,
+          1.1831521987915039e-05,
+          6.198883056640625e-06,
+          3.11732292175293e-05,
+          1.9371509552001953e-06,
+          9.98377799987793e-07,
+          1.1920928955078125e-07,
+          1.210719347000122e-07,
+          4.291534423828125e-06,
+          5.662441253662109e-06,
+          2.0675361156463623e-06,
+          1.1920928955078125e-07,
+          6.109476089477539e-06
+        ]
+      }
+    },
+    "scientific_acceptance": false,
+    "scope": "Single changed-candidate decoder comparison against retained native trace/strings; no general model acceptance or full generator qualification."
+  },
+  "saved_array_analysis": {
+    "scope": "Saved-array analysis only; zero new model forward calls.",
+    "stage_changes": {
+      "autoregressive": {
+        "elements_changed": 11758,
+        "max_absolute_change": 3.7848949432373047e-06,
+        "first_changed_timestep": 0,
+        "first_timestep_bitwise_equal": false
+      },
+      "lstm": {
+        "elements_changed": 21317,
+        "max_absolute_change": 1.0833144187927246e-05,
+        "first_changed_timestep": 0,
+        "first_timestep_bitwise_equal": false
+      },
+      "logits": {
+        "elements_changed": 5186,
+        "max_absolute_change": 8.7738037109375e-05,
+        "first_changed_timestep": 0,
+        "first_timestep_bitwise_equal": false
+      },
+      "probabilities": {
+        "elements_changed": 4630,
+        "max_absolute_change": 1.424551010131836e-05,
+        "first_changed_timestep": 0,
+        "first_timestep_bitwise_equal": false
+      }
+    },
+    "inference": "The grouping change alters the GRU output already at timestep0, but does not eliminate the discrepancy against native or meet the final probability criterion. It is not a demonstrated correction.",
+    "analysis_wording_correction": "Initial wording conflated an unchanged global first-step maximum error with unchanged element values; the saved elementwise comparison shows values changed from timestep0. Statistics and primary arrays are unchanged; initial analysis retained."
+  },
+  "resources": {
+    "exit_code": 0,
+    "stop_reason": null,
+    "wall_seconds": 2.2277987860143185,
+    "peak_sampled_rss_bytes": 275869696,
+    "plan_sha256": "9ebb32814d91e05a94a7a879eb918a0b86230e676d5634a39e53eb7f0f700396",
+    "retry_allowed": false,
+    "supervisor_peak_rss_bytes": 23908352,
+    "conservative_combined_sampled_rss_bytes": 299778048,
+    "observed_at_utc": "2026-10-30T23:34:39.900188+00:00"
+  },
+  "executed_calls": {
+    "candidate_model_loads": 1,
+    "candidate_decoder_forwards": 1,
+    "rows": 12,
+    "native_model_loads": 0,
+    "native_decoder_forwards": 0,
+    "pca_loads": 0,
+    "head_forwards": 0,
+    "macrel_calls": 0,
+    "native_generation_api_calls": 0,
+    "retries": 0,
+    "gpu_computation": false
+  },
+  "interpretation": {
+    "established": "Joint versus separate recurrent products changes values from timestep0 but does not remove the native-vs-port discrepancy. Candidate has 17/6300 probabilities outside tolerance with max5.188584327697754e-5, versus dev0 18/6300 max4.845857620239258e-5. Tokens/strings remain exact.",
+    "not_established": "Which elementary arithmetic/backend operation accounts for the residual difference, or whether a deployment-code defect rather than accumulated float32 rounding is involved.",
+    "disposition": "Do not adopt dev1 or loosen tolerance. Retain the failed candidate, original dev0 and both preceding experiments; do not try further source changes on a guessed cause."
+  },
+  "preservation": "No original source/licence, prior artifact, prior environment or prior model result replaced. No commit/push or release.",
+  "next_boundary": "A separately prepared/approved independent higher-precision numerical reference can assess implementation error without guessing more production-code changes; no such learned-parameter evaluation is authorized by this spent one-forward budget.",
+  "schema": "peptidemt.hydramp_gru_candidate_execution@1",
+  "producer_record": "devguide/evidence/pytorch_gru_candidate_execution.json in local peptidemt-pytorch-gru-layout worktree",
+  "producer_record_sha256": "53b1316b3a579070c07715c3e6aa95988c794d8acddf1f0d7fc39bdf53977f79"
+}

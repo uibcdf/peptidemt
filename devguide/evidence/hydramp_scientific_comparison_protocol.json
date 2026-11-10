@@ -1,0 +1,201 @@
+{
+  "schema": "peptidemt.hydramp_scientific_comparison_protocol@1",
+  "recorded_at_utc": "2026-11-04T23:43:09.265061+00:00",
+  "status": "Review proposal v1; no scientific acceptance or execution authorization",
+  "owner_issue": "uibcdf/hydramp#3",
+  "consumer_issue": "uibcdf/peptidemt#32",
+  "product_issue": "uibcdf/hydramp#4",
+  "investigator_direction": "Prepare the prospective scientific comparison after the R3 report. This commissions the proposal, not its presently unapproved scientific choices or any new model campaign.",
+  "protocol": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/hydramp_scientific_comparison_protocol.md",
+    "bytes": 25314,
+    "sha256": "e0ad05abbd23547dc29934debfcf0941d31defd155820a13faf979f51698ee27"
+  },
+  "owner_mirror": {
+    "path": "/home/liliana/repos@uibcdf/hydramp/local_data/pytorch-redesign/devguide/scientific_comparison_protocol.md",
+    "bytes": 25314,
+    "sha256": "e0ad05abbd23547dc29934debfcf0941d31defd155820a13faf979f51698ee27"
+  },
+  "mirror_byte_identical": true,
+  "task_directory": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-scientific-protocol-q4z5xrp8",
+  "sources": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-scientific-protocol-q4z5xrp8/primary-sources.json",
+    "bytes": 3417,
+    "sha256": "43efaf30067a98c459bd4bf6e3cd2268da5219cdec38cee06dac6a254a9b9231"
+  },
+  "source_code_notebooks_inspected_not_executed": [
+    {
+      "path": "/home/liliana/repos@uibcdf/hydramp/scripts/mic_classifier_training_prodecure.ipynb",
+      "bytes": 125718,
+      "sha256": "5fc3642c4d0faa8cbd93593463b77cdaef1d72bed5a365673537a38ba6534bf8"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/hydramp/scripts/dataset_preparation.ipynb",
+      "bytes": 63860,
+      "sha256": "913a357d33ec9af4d9a0a96420ce2f9f16e0d833b7789c0e1d7a21076c847b46"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/molsysmt/molsysmt/topology/get_sequence_identity.py",
+      "bytes": 5553,
+      "sha256": "70c1899591e43ffbd1380e0db3b021290a5845ccad15f4ef969e0594df6e081e"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/molsysmt/molsysmt/topology/get_sequence_alignment.py",
+      "bytes": 4231,
+      "sha256": "040654bd3e418392d91a786e3897b032904a69de2b582616ac00144931a8f36e"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/hydramp/local_data/pytorch-redesign/amp/inference/inference.py",
+      "bytes": 16706,
+      "sha256": "3500b3cec26818b0de30d13ca3817a7cd289bf6675122f1ffa5daf0926cccd01"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/hydramp/local_data/pytorch-redesign/ports/pytorch/src/hydramp_torch/analogue.py",
+      "bytes": 12495,
+      "sha256": "64f8a40006f65de188d6b1e97c4eae1a2f3766d0b9cd5b8b4ce80d43817bbbc6"
+    }
+  ],
+  "static_source_observations": {
+    "original_MIC_training_label": "value < 1.5",
+    "units_as_starter_describes_them": "log10(MIC / micromolar); original archive and assay provenance still require C0 qualification",
+    "original_test_used_as_validation": true,
+    "training_or_split_names_do_not_certify_independence": true,
+    "Deep_AMP_biochemical_header_is_not_a_qualified_MIC_table": true,
+    "CFPS_growth_or_expression_is_not_automatically_a_purified_peptide_MIC": true
+  },
+  "reused_R3": {
+    "receipt": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/evidence/hydramp_redesign_R3_execution.json",
+      "bytes": 25344,
+      "sha256": "9fa24f007a8feca1cf504d4a8aefa2a542c8ecaab11f3aa880980ca6b1b4db1e"
+    },
+    "no_R3_or_prior_numerical_campaign_repeated": true,
+    "same_original_A2_candidate_remains_evidence_not_new_independent_data": true
+  },
+  "owner_interface_probe": {
+    "result": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-scientific-protocol-q4z5xrp8/owner-identity-probe.json",
+      "bytes": 2141,
+      "sha256": "08c2f5fea4eb758bb574adc8823b33b1d1a612329821f9372c145df7892d1d39"
+    },
+    "tool": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-scientific-protocol-q4z5xrp8/owner_identity_probe.py",
+      "bytes": 2881,
+      "sha256": "5dfee2860f46f648c548b419cf61909121ccdf217256eea02d0aa089ea7100b0"
+    },
+    "log": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-scientific-protocol-q4z5xrp8/owner-identity-probe.log",
+      "bytes": 2422,
+      "sha256": "6a041b5f2f9d69abca18ee3fe901cdeb4f7d0c5285aea04560709b47aff87b1c"
+    },
+    "owner_calls": 8,
+    "learned_models_or_assets": 0,
+    "new_neural_or_Macrel_calls": 0,
+    "scientific_meaning": "Finite supported-interface/normalization probe only; symmetric minimum and 80% relation are proposed consumer scientific policy, not owner defaults or biological independence",
+    "versions": {
+      "molsysmt": "0.23.0+322.g71fbe4f46",
+      "biopython": "1.88",
+      "depdigest": "0.15.1+8.g0884f0c",
+      "smonitor": "0.22.0+3.gebdd054"
+    },
+    "maximum_kernel_RSS_bytes": 377131008,
+    "Tier_2_sequence_projection_warning_retained": true,
+    "no_provider_bug_or_missing_reusable_operation_established": true
+  },
+  "proposed_pilots": {
+    "approved": false,
+    "sizes": {
+      "C2_fixed_cases": 128,
+      "C2_batch_size": 16,
+      "C2_heads_per_score_call": 2,
+      "implementations": 2,
+      "C3_parents": 32,
+      "C3_parent_batch_size": 8,
+      "C3_noise_blocks": 4,
+      "C3_attempts": 2,
+      "networks_per_analogue_call": 7,
+      "Macrel_batch_size": 16,
+      "Macrel_control_batches": 1
+    },
+    "C2_network_evaluations": 32,
+    "C3_calls_both_arms": 32,
+    "C3_raw_attempt_rows_both_arms": 512,
+    "C3_network_evaluations": 224,
+    "maximum_Macrel_calls": 35,
+    "maximum_ONNX_evaluations": 70,
+    "preliminary_neural_upper_bound": 326,
+    "is_an_execution_budget": false,
+    "legacy_incidental_work_and_actual_host_limits": "Need separate observed exact plan; not covered by the neural-only estimate",
+    "C3_proposed_seeds": [
+      39001,
+      39002,
+      39003,
+      39004,
+      39005,
+      39006,
+      39007,
+      39008,
+      39009,
+      39010,
+      39011,
+      39012,
+      39013,
+      39014,
+      39015,
+      39016
+    ],
+    "C2_primary": "Paired difference in low-MIC-head Brier loss on an audited measured cohort",
+    "C3_endpoint": "Descriptive proposal coverage and separately labelled native/Macrel changes; no biological claim from predictions"
+  },
+  "scientific_readiness": {
+    "ready_to_execute_C2_C3": false,
+    "independent_measured_cohort_qualified": false,
+    "chemistry_view_extension_approved": false,
+    "pilot_sizes_and_similarity_policy_approved": false,
+    "numeric_equivalence_or_noninferiority_margin_approved": false,
+    "absolute_quality_floor_approved": false,
+    "confirmatory_sample_size_or_clustered_analysis_qualified": false,
+    "fresh_model_call_or_host_authorization": false,
+    "recommended_next_deliverable": "C0: auditable data/use/exposure/chemistry/assay/relatedness review and proposed frozen cohort, before either model is loaded"
+  },
+  "review_findings": [
+    "Historical numeric fidelity, fixed-input prediction, proposal profiles and empirical benefit have separate verdicts",
+    "Test labels/row names and assumed negatives do not establish an independent biological benchmark",
+    "Keep measured entity chemistry and current admission limits; no annotation removal to force eligibility",
+    "Native reward or Macrel agreement is not ground truth; higher E. coli MIC is not general AMP-negative truth",
+    "Pilot sizes are feasibility proposals, not power calculations; no arbitrary equivalence margin retrofitted",
+    "Repeated draws/related sequences and common study conditions do not create independent biological replicates",
+    "If data/terms/chemistry or class coverage are insufficient, return to review rather than filling with training/synthetic cases"
+  ],
+  "repository_state": {
+    "suite_status": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-scientific-protocol-q4z5xrp8/suite-status.json",
+      "bytes": 16287,
+      "sha256": "d92d8ef895c4039911542edfb669841823f2aebc77354397540bc53cc2530334"
+    },
+    "PeptideMT_HEAD": "1f8c444e4619499cae8ad9970122c5f40adf6127",
+    "MolSysMT_HEAD": "71fbe4f46d3c70e4e973c8025f01752a8c9b1084",
+    "MolSysMT_behind_main": 93,
+    "disposition": "Preserve concurrent PeptideMT work and older MolSysMT development checkout; no pulls/merges/stashes/resets or provider source/environment changes",
+    "owner_worktree": "/home/liliana/repos@uibcdf/hydramp/local_data/pytorch-redesign",
+    "owner_branch": "peptidemt-pytorch-redesign",
+    "owner_Git_base": "6590d2f4c2963f25d30669052a4c4a857e0e7279",
+    "common_guide": "Fetched canonical main is byte-identical to synchronized local guide"
+  },
+  "new_neural_evaluations": 0,
+  "new_Macrel_calls": 0,
+  "new_PCA_or_descriptor_calls": 0,
+  "scientific_models_loaded_or_executed": false,
+  "new_model_or_training_archives_acquired": false,
+  "new_dependencies_installed": false,
+  "GPU": false,
+  "molecular_parser_alignment_or_generic_journal_implementation_added": false,
+  "new_scientific_acceptance": false,
+  "new_commits_pushes_package_model_publication_or_external_author_contact": false,
+  "source_delivery": "Local/uncommitted scientific proposal; existing owner/consumer issues reused, no new issue.",
+  "retention": {
+    "owner": "HydrAMP#3 / PeptideMT#32",
+    "review_by": "2026-11-18",
+    "old_model_prefixes_assets_and_parameter_files": "preserved, not loaded"
+  }
+}

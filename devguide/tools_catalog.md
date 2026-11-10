@@ -15,6 +15,10 @@ validation of the rendered forms on 2026-10-30; optional index pinning remains
 unverified. The initial [opening-post receipt](evidence/scientific_resources_discussions.json)
 and [resource-card receipt](evidence/resource_card_discussions.json) remain dated
 publication evidence rather than being overwritten by this reorganization.
+The 2026-11-03 [resource intake](evidence/scientific_resources_intake_20261103.json)
+revisits the existing OmegAMP card and adds one AMP challenge record and a
+watchlist section in the existing datasets index. The nineteen earlier
+conversations remain; this adds no category or label vocabulary.
 Navigation: [design guide](README.md) · [source survey](generative_resource_survey.md)
 · [family/resource semantics](functional_families.md).
 
@@ -56,7 +60,7 @@ This is the operational routing for the existing PeptideMT categories, under the
 | Category | Content |
 | --- | --- |
 | Models and Tools | Tools, predictors, generators and computational workflows; one maintained conversation per resource. |
-| Datasets and Benchmarks | Data collections, annotations and evaluation benchmarks; one maintained conversation per resource. |
+| Datasets and Benchmarks | Data collections, annotations, evaluation benchmarks and peptide-design challenges; one maintained conversation per reviewed resource or event. |
 | Literature and Resources | Papers, reviews, guides and other scientific references that merit their own discussion. A paper documenting a tool or dataset can stay in that resource's conversation. |
 | Q&A | Questions about using or interpreting PeptideMT. |
 | Ideas | Early ideas that have not yet become concrete actionable work. |
@@ -310,6 +314,32 @@ records their identities, exact body hashes and index updates.
 | ELP–EEP discovery | CPP | [#26](https://github.com/uibcdf/peptidemt/discussions/26) | [Record](cpp_resource_survey.md#elpeep-discovery) | `family:cpp`, `role:search` |
 | CPPsite3: data resource | CPP / data | [#27](https://github.com/uibcdf/peptidemt/discussions/27) | [Record](cpp_resource_survey.md#cppsite3-data-resource) | `family:cpp` |
 
+## Challenge monitoring and 2026-11-03 resource update
+
+The investigator asks to retain peptide-design challenge opportunities for later
+participation review. Use the **Peptide design challenges — watchlist** section
+in [existing index #12](https://github.com/uibcdf/peptidemt/discussions/12), with
+[the maintained watchlist](peptide_design_challenges.md). A reviewed event has
+one resource conversation in **Datasets and Benchmarks** with the supported
+family label; early discoveries can remain index comments. No separate category,
+family hierarchy or additional coordinating discussion is introduced.
+
+| Resource | Current conversation | Maintained record | Reviewed labels |
+| --- | --- | --- | --- |
+| OmegAMP | [Existing #17; source follow-up](https://github.com/uibcdf/peptidemt/discussions/17#discussioncomment-19381855) | [Review](omegamp_review.md) | Existing `family:amp`, `role:generation` |
+| AMP Challenge 2027 | [#31](https://github.com/uibcdf/peptidemt/discussions/31) | [Watchlist/event record](peptide_design_challenges.md#amp-challenge-2027) | `family:amp` |
+
+OmegAMP's inspected main commit is unchanged from the initial survey. Challenge
+requirements/status remain dated source observations; deadlines and final
+assay/ranking/participation terms are not independently confirmed. Monitoring is
+not participation acceptance, model qualification or a generation budget. The
+new review files remain local until separately published; discussion updates
+provide self-contained official source links and do not link to nonexistent
+main-branch files. The [publication receipt](evidence/scientific_resource_discussion_updates_20261103.json)
+verifies all three updates, the retained nineteen earlier records and the two
+affected searches (eight AMP resources; three dataset/benchmark entries).
+The earlier count table remains its explicitly dated historical observation.
+
 ## Category intake forms
 
 Three published forms match the API-observed category slugs:
@@ -357,7 +387,7 @@ qualification assertions stay in the corresponding technical records.
 
 | Function/context | Starting references and evidence scope |
 | --- | --- |
-| AMP and adverse hemolysis | [Macrel acceptance](increment_1_review.md), [HydrAMP qualification work](pending_proposals/qualify_hydramp_increment_2.md), and the [generator survey](generative_resource_survey.md). Only the stated Macrel bundle is accepted; listed generators remain separately qualified or proposed as recorded. |
+| AMP and adverse hemolysis | [Macrel acceptance](increment_1_review.md), [HydrAMP qualification work](archive/qualify_hydramp_increment_2.md), and the [generator survey](generative_resource_survey.md). D37 accepts the stated Macrel bundle and D41 accepts the exact [modern HydrAMP resource](hydramp_dev3_acceptance.md) for experimental AMP generation; other resources retain their own status. |
 | CPP and cellular access | [Bounded resource survey](cpp_resource_survey.md), [functional definitions](functional_families.md) and [CPP project guides](cpp_guided_projects.md). Generator, classifier, uptake, escape and formulation-dependent delivery roles remain distinct; no CPP route is installed or qualified. |
 | ACP and selective cellular activity | [CPP-like anticancer case](case_study_cpp_anticancer_mdm2_mdmx.md), [family semantics](functional_families.md), TACaPe/PepGenWL/MMCD in the [survey](generative_resource_survey.md). Context and actual trained-asset availability remain explicit. |
 | Target-conditioned or broader chemical design | [Existing engine review](protein_peptide_design_engines.md) and later resources in the [survey](generative_resource_survey.md). Preserve native target/chemistry meanings and the current commissioning limits. |
@@ -370,11 +400,14 @@ does not certify installation, scientific usefulness or general family support.
 
 ## Issues and current work
 
-[PeptideMT #8](https://github.com/uibcdf/peptidemt/issues/8) remains the bounded
-HydrAMP preparation/qualification theme. Its survey references are historical
-work context, not ownership of the permanent discovery area. Keep source and
-qualification evidence, failures and future implementation decisions linked to
-that issue. Do not convert or close it merely to relocate broad collection.
+[PeptideMT #8](https://github.com/uibcdf/peptidemt/issues/8) is now closed after
+the bounded HydrAMP qualification and D41 disposition; its
+[archived record](archive/qualify_hydramp_increment_2.md) preserves the source,
+qualification, failures and acceptance limits. Future consumer/scientific/product
+work belongs to [#32](https://github.com/uibcdf/peptidemt/issues/32), while provider
+work uses its HydrAMP owner issues. Its earlier survey references remain
+historical context, not ownership of the permanent discovery area. Do not reopen
+the completed qualification to curate resources.
 
 Existing [Discussions setup #3](https://github.com/uibcdf/peptidemt/issues/3) is
 complete. A useful local category is a new extension, not evidence of a failed

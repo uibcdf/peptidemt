@@ -1,0 +1,289 @@
+{
+  "schema": "peptidemt.hydramp_confidence_execution@1",
+  "date": "2026-11-03",
+  "recorded_at_utc": "2026-11-03T17:14:22.371645+00:00",
+  "issue": "uibcdf/peptidemt#8",
+  "status": "Approved execution complete; unchanged numerical diagnostic and global AMP pair-relation criterion FAIL; scientific acceptance pending.",
+  "authority": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/evidence/hydramp_confidence_authorization.json",
+    "bytes": 10703,
+    "sha256": "5327d4c4b9c4547acfa9a0ddd6c91a82ad1f3121adece566703f76aa2a7dbe76"
+  },
+  "plan": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-confidence-pvxbhixg/plan.json",
+    "bytes": 47433,
+    "sha256": "eec881986bdacd41b3409a9de33afecc5460ce561d8d6e319ffebb1c576a7b59"
+  },
+  "source_commit": "6590d2f4c2963f25d30669052a4c4a857e0e7279",
+  "starter_commit": "7804df862872ccc6d09fe01c41bafbca194cfa31",
+  "candidate": "hydramp-torch==0.0.0.dev3",
+  "wheel": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-comparison-qnbdpism/artifacts/hydramp_torch-0.0.0.dev3-py3-none-any.whl",
+    "bytes": 11987,
+    "sha256": "81761e0d48d92f0956e0afc28b3b4154f16032de53c666fd2cfbb53606102ed7"
+  },
+  "worker": {
+    "path": "/home/liliana/repos@uibcdf/hydramp/local_data/pytorch-comparison/ports/pytorch/devtools/confidence.py",
+    "bytes": 30988,
+    "sha256": "42549fc2d40e670b82b8554b1e7a259fb7d5b6ee5e5de76867c5b5d58c0170bd"
+  },
+  "uncommitted": true,
+  "executed_calls": {
+    "network_forwards": 132,
+    "public_generation_calls": 34,
+    "core_layout_batches": 10,
+    "descriptor_bundles": 34,
+    "pca_inverse_transforms": 34,
+    "original_pca_pickle_loads": 1,
+    "existing_numeric_pca_loads": 1,
+    "pca_exports": 0,
+    "encoder_forwards": 0,
+    "macrel_calls": 0,
+    "gpu_computation": 0,
+    "retries": 0
+  },
+  "worker_outcomes": {
+    "legacy": {
+      "worker": {
+        "exit_code": 0,
+        "stop_reason": null,
+        "wall_seconds": 53.87449217098765,
+        "peak_sampled_rss_bytes": 550121472,
+        "plan_sha256": "eec881986bdacd41b3409a9de33afecc5460ce561d8d6e319ffebb1c576a7b59",
+        "retry_allowed": false
+      },
+      "outer_supervision": {
+        "exit_code": 0,
+        "supervisor_wall_seconds": 54.11178372008726,
+        "supervisor_maxrss_bytes": 559112192,
+        "stage": "legacy"
+      },
+      "regions": {
+        "worker_function_imports": 22.51829519192688,
+        "provider_and_model_construction": 5.40328224003315,
+        "collection_and_output": 25.040100635029376,
+        "scope": "Separate regions inside worker(); full supervisor wall includes preflight/startup too."
+      }
+    },
+    "torch": {
+      "worker": {
+        "exit_code": 0,
+        "stop_reason": null,
+        "wall_seconds": 14.515705646947026,
+        "peak_sampled_rss_bytes": 423284736,
+        "plan_sha256": "eec881986bdacd41b3409a9de33afecc5460ce561d8d6e319ffebb1c576a7b59",
+        "retry_allowed": false
+      },
+      "outer_supervision": {
+        "exit_code": 0,
+        "supervisor_wall_seconds": 14.758287801174447,
+        "supervisor_maxrss_bytes": 423735296,
+        "supervisor_sampled_and_hwm_peak_bytes": 26628096,
+        "stage": "torch",
+        "resource_ru_maxrss_semantics": "RUSAGE_CHILDREN can include the largest descendant; not exclusive supervisor RAM."
+      },
+      "regions": {
+        "worker_function_imports": 1.4329938569571823,
+        "provider_and_model_construction": 11.186977406963706,
+        "collection_and_output": 1.099075062200427,
+        "scope": "Separate regions inside worker(); full supervisor wall includes preflight/startup too."
+      }
+    }
+  },
+  "results": {
+    "distinct_latent_inputs": 256,
+    "distinct_input_token_positions": 6400,
+    "paired_token_positions_with_repeats_controls": 7700,
+    "all_tokens_equal": true,
+    "all_public_returns_and_five_descriptors_exact": true,
+    "same_worker_repeats_bitwise_exact": true,
+    "maximum_amp_score_error": 8.344650268554688e-07,
+    "maximum_mic_score_error": 2.5033950805664062e-06,
+    "all_head_errors_within_original_band": true,
+    "numerical_diagnostic_pass": false,
+    "observable_fixture_checks_pass": false,
+    "decoder_values_outside_band_with_reuses": 421,
+    "decoder_values_compared_with_reuses": 161700,
+    "distinct_input_decoder_values_outside_band": 346,
+    "distinct_input_decoder_values_compared": 134400,
+    "maximum_decoder_probability_error": 0.00022727251052856445,
+    "minimum_native_token_margin": 1.9609928131103516e-05,
+    "native_margin_not_above_twice_local_error": 0,
+    "coverage_bins": {
+      "margin_le_1e_2": 14,
+      "margin_le_1e_3": 3,
+      "margin_le_1e_4": 2
+    },
+    "global_head_pair_relations": {
+      "amp": {
+        "pairs": 32640,
+        "reversals": 1,
+        "split_native_ties": 2,
+        "new_port_ties": 7,
+        "minimum_native_positive_gap": 5.960464477539063e-08
+      },
+      "mic": {
+        "pairs": 32640,
+        "reversals": 0,
+        "split_native_ties": 0,
+        "new_port_ties": 0,
+        "minimum_native_positive_gap": 2.6079760573338717e-10
+      }
+    },
+    "all_changed_amp_pairs_cross_batch": true,
+    "changed_amp_pair_count": 10,
+    "native_public_batch_order_changes": 0,
+    "within_worker_core_layout_token_or_pair_order_changes": 0,
+    "native_batch_probability_band_violations_partition3": 5
+  },
+  "diagnostic_exit": 1,
+  "artifact_manifest": {
+    "attempt-legacy.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-confidence-pvxbhixg/run/attempt-legacy.json",
+      "bytes": 231,
+      "sha256": "e0e736d4e820dce8308cbc9a144680755316a121f0f949f24bc92381e0ca485e"
+    },
+    "attempt-torch.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-confidence-pvxbhixg/run/attempt-torch.json",
+      "bytes": 232,
+      "sha256": "8572d897daffa4bcff0aba175e2c6785cc2ca3d61e1f0c576ff62d80e42bc6f6"
+    },
+    "authorization.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-confidence-pvxbhixg/run/authorization.json",
+      "bytes": 10703,
+      "sha256": "5327d4c4b9c4547acfa9a0ddd6c91a82ad1f3121adece566703f76aa2a7dbe76"
+    },
+    "confidence-report.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-confidence-pvxbhixg/run/confidence-report.json",
+      "bytes": 77970,
+      "sha256": "cb8d7b98ab1be6c4f0164058df5565ad9e23f435526ba6ca4a9b205eff9cafde"
+    },
+    "latents.npy": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-confidence-pvxbhixg/run/latents.npy",
+      "bytes": 131200,
+      "sha256": "4b6b6a68e724f27ee2043bb5c6d0afb3c78e3dd5e97b74433c8e88f2320492c5"
+    },
+    "legacy-full.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-confidence-pvxbhixg/run/legacy-full.json",
+      "bytes": 117632,
+      "sha256": "90c5cff29e21154a9a37d15e8bd481a5098b36ae9ba896f91c2dc12f7a07f7a7"
+    },
+    "legacy-full.npz": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-confidence-pvxbhixg/run/legacy-full.npz",
+      "bytes": 1183584,
+      "sha256": "8d20381b900d4db51b9713f210adb16021e7b5e228d8f027f2b0bb65dc51ab5e"
+    },
+    "legacy-partial.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-confidence-pvxbhixg/run/legacy-partial.json",
+      "bytes": 119693,
+      "sha256": "8443098bcadbbd49abbc25b28a7ad5e55182f5c800aafe87b318a145fbeeec4e"
+    },
+    "legacy-partial.npz": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-confidence-pvxbhixg/run/legacy-partial.npz",
+      "bytes": 1183584,
+      "sha256": "8d20381b900d4db51b9713f210adb16021e7b5e228d8f027f2b0bb65dc51ab5e"
+    },
+    "legacy-regions.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-confidence-pvxbhixg/run/legacy-regions.json",
+      "bytes": 528,
+      "sha256": "c0cb0ef741a10944b420a6c7c9c7f805d724442ed13ec2eaa9eb05d10c12a962"
+    },
+    "logs/legacy.log": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-confidence-pvxbhixg/run/logs/legacy.log",
+      "bytes": 4369,
+      "sha256": "ca6e59724af3285abd4a002b993509de064c184c3543d7984839c8c492111d87"
+    },
+    "logs/torch.log": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-confidence-pvxbhixg/run/logs/torch.log",
+      "bytes": 592,
+      "sha256": "2bfddcae79f41a92b8e28ef6269320bc871daf1fb6c99177de38edf2cffdf3c3"
+    },
+    "supervisor-legacy.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-confidence-pvxbhixg/run/supervisor-legacy.json",
+      "bytes": 130,
+      "sha256": "469caa7793e26fcd6bea828da0dcc5b836bceb986fc9b148653c051d91f3dc1e"
+    },
+    "supervisor-torch.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-confidence-pvxbhixg/run/supervisor-torch.json",
+      "bytes": 302,
+      "sha256": "562d30ac03da9b36c891b57c725ee11769f002829926f072c265c3b2284b2de7"
+    },
+    "torch-full.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-confidence-pvxbhixg/run/torch-full.json",
+      "bytes": 115617,
+      "sha256": "9704864f65dfe50d6f8ed245868a12f762ca9e7904b1d371151d20d0f1c37bbd"
+    },
+    "torch-full.npz": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-confidence-pvxbhixg/run/torch-full.npz",
+      "bytes": 1183584,
+      "sha256": "520354552ba6377484a7f51a2d4535e0df7b0e43efc98d1dde48c83c8f3850b3"
+    },
+    "torch-partial.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-confidence-pvxbhixg/run/torch-partial.json",
+      "bytes": 117678,
+      "sha256": "c317978c90ae5b4628d99c068fd67d7c6e1d47919897c6cf8712cd5686d145a9"
+    },
+    "torch-partial.npz": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-confidence-pvxbhixg/run/torch-partial.npz",
+      "bytes": 1183584,
+      "sha256": "520354552ba6377484a7f51a2d4535e0df7b0e43efc98d1dde48c83c8f3850b3"
+    },
+    "torch-regions.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-confidence-pvxbhixg/run/torch-regions.json",
+      "bytes": 529,
+      "sha256": "df76262e22d32924f7ce405c770f522d99f4edd3ad724d088d01ee13ff6ff8bf"
+    },
+    "analysis/guarded_report.py": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-confidence-pvxbhixg/guarded_report.py",
+      "bytes": 856,
+      "sha256": "4228be93463614b4f5696d9c368e7ec38361c85ace1db24bfadc7a2b786435c3"
+    },
+    "analysis/review_saved.py": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-confidence-pvxbhixg/review_saved.py",
+      "bytes": 3330,
+      "sha256": "f74bc66f8395d27f7b07dc0bca17fbd34333d69279371048a993a1ed220d9afe"
+    },
+    "analysis/report-execution.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-confidence-pvxbhixg/report-execution.json",
+      "bytes": 194,
+      "sha256": "f9220b32e59e0e2270f642b50327dc583f8bc9335c35884d64fd7313017dc866"
+    },
+    "analysis/saved-output-review.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-confidence-pvxbhixg/saved-output-review.json",
+      "bytes": 10988,
+      "sha256": "d8eb260d339a5af1c1d8dd556ea279792e800dfb3a1d8d68d0a8edc765146495"
+    },
+    "analysis/critical-pair-review.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-confidence-pvxbhixg/critical-pair-review.json",
+      "bytes": 6535,
+      "sha256": "4aa0eca6ec1355e9637186195ff18781229cd2064275a551ecd5e03f154cc479"
+    }
+  },
+  "resource_interpretation": "Worker RSS is sampled. The historical outer field supervisor_maxrss_bytes is RUSAGE_CHILDREN and can include descendants; it is NOT exclusive supervisor RAM and must not be added as an independent supervisor measurement. Modern exclusive controller VmHWM/RSS was separately observed. No instantaneous/kernel group RSS cap is claimed.",
+  "scientific_interpretation": "Broader computational evidence supports sequence/return fidelity on this route and fixture; global AMP near-tie ordering is not identical. All ten changed relations involve cross-batch scores near 1. Plausible float32 sensitivity, not proof of its individual arithmetic cause. Keep both failed verdicts, thresholds and D40 scope unchanged; no rounding, score/selector alteration, correction or automatic adoption.",
+  "limitations": [
+    "Native legacy metadata discrepancies remain separately recorded; no clean native closure is claimed for the old worker.",
+    "Modern candidate has clean native closure with 41 distributions; its use remains bounded local research qualification.",
+    "Original references, D40 scope, failed comparisons and all prior workers/artifacts remain unchanged.",
+    "No training, analogue/nonAMP/Gumbel/filtering/target-conditioning, Macrel, GPU, new chemistry or publication is granted.",
+    "Prior twenty-input reference outputs are retained without another inference run.",
+    "The selected native-reference weights are the pinned official-starter bundle; original Google Drive versus starter byte identity remains unverified.",
+    "Batch controls inspect the same measured PCA inputs directly through decoder/heads, not a second public seeded-generation route.",
+    "The sixteen seeds/256 cases are predeclared convenience coverage, not a random-sampling error-rate study.",
+    "Real exact/near ties and empty strings may be absent; artificial contract checks do not establish that pretrained coverage."
+  ],
+  "pending": [
+    "Investigator numerical/ranking relevance review using retained cases",
+    "Google Drive versus starter asset-byte provenance",
+    "Portable PeptideMT adapter/provenance and actual H0-H4 qualification",
+    "Any new learned diagnostic requires a new exact finite approval"
+  ],
+  "remaining_network_allowance": 0,
+  "retention": {
+    "owner": "PeptideMT #8 / investigator-owned HydrAMP fork",
+    "review_by": "2026-11-13",
+    "disposition": "Preserve all new and previous input/output/source/environment evidence."
+  },
+  "producer_record": "devguide/evidence/pytorch_confidence_execution.json in local peptidemt-pytorch-comparison worktree",
+  "producer_record_sha256": "0b122819c3a4fd4329158d3e2a7fab195f62f64c27728bca3640052fd3a4a99d"
+}

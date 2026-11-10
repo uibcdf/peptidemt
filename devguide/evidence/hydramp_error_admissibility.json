@@ -1,0 +1,20 @@
+{
+  "schema": "peptidemt.decoder_error_admissibility@1",
+  "date": "2026-10-30",
+  "issue": "uibcdf/peptidemt#8",
+  "status": "Assistant assessment proposal; no investigator acceptance, tolerance change or execution authorization inferred.",
+  "source": "Analysis of existing native/dev1 arrays only; no new forward, weights load or FP64 learned-parameter diagnostic.",
+  "reference_archive_sha256": "ad584797d832b076e9f6e3d95274635b2e6a0cde3ca251810de93da7555de8c7",
+  "candidate_archive_sha256": "e28363c13fa5788de8c893c8df913c163836c0ea6479cb5bec3c6882dc7477d0",
+  "max_absolute_probability_error": 5.188584327697754e-05,
+  "mean_absolute_error": 1.0837905795569391e-07,
+  "rms_error": 1.5485109338242018e-06,
+  "minimum_native_top_two_margin": 0.024026036262512207,
+  "twice_global_max_error": 0.00010377168655395508,
+  "minimum_margin_over_twice_global_error": 231.5278575531304,
+  "all_300_argmax_tokens_equal": true,
+  "total_evaluated_positions": 300,
+  "assessment": "Likely admissible numerical drift for the deterministic argmax output on this finite fixture; insufficient by itself for general port/scientific acceptance. Existing strict diagnostic FAIL remains unchanged. Initial diagnostic band was not established as a scientific impact boundary.",
+  "next": "Independent approximate FP64 reference and broader behavior/boundary fixtures before choosing a justified numerical acceptance policy. Prepared reference remains unexecuted and awaits separate approval.",
+  "general_numerical_context": "https://docs.pytorch.org/docs/main/notes/numerical_accuracy.html"
+}

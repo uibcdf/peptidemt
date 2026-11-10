@@ -1,0 +1,86 @@
+{
+  "schema": "peptidemt.hydramp_product_baseline_commit_closeout@1",
+  "recorded_at_utc": "2026-11-05T23:48:39.922177+00:00",
+  "status": "local_source_consolidation_complete",
+  "commit": "a77baff9de97e8ab4ae101b9b0c79122dea22ce3",
+  "tree": "2476a08a50d32779db2f43683928450e62b66f91",
+  "commit_receipt": {
+    "path": "devguide/evidence/hydramp_product_baseline_commit.json",
+    "bytes": 3269,
+    "sha256": "4d3610cd2e57136c7d7fe0ce77ad12f3c7c67d46402e0547243ccf0be021d11e"
+  },
+  "issue_updates": {
+    "path": "devguide/evidence/hydramp_product_baseline_commit_issue_updates.json",
+    "bytes": 12741,
+    "sha256": "dab2c4a6f51f442d5d68a786557da5eaed7fb614da6540dda89cb088ed260d77"
+  },
+  "pre_commit_receipt_hashes_preserved": {
+    "devguide/evidence/hydramp_product_baseline.json": "9cb1a04b300cf6472a3987146ca251598480393c35f53539d8a7c5a4a6ad2f67",
+    "devguide/evidence/hydramp_product_baseline_closeout.json": "6c582ff04585fb4f089967df4a45f0464120c38cbe03b7b88f2b4a47e9ffe4a1",
+    "devguide/evidence/hydramp_product_baseline_issue_updates.json": "94160b3ed6ab1d1941c9e5169e6dd7ff6ab5ee4f7c7f8ef5ecc897a10d785895"
+  },
+  "current_documentation": [
+    {
+      "path": "devguide/hydramp_product_baseline.md",
+      "bytes": 7038,
+      "sha256": "c7c7ec0b2a9f5239418c46e668c234f21728f4c7f542437fd49eb27e3a0dd4df"
+    },
+    {
+      "path": "devguide/README.md",
+      "bytes": 43290,
+      "sha256": "e048c20720710fa76774c469bfb7add90b4c9379d9a90d67ce552bacb567a897"
+    },
+    {
+      "path": "devguide/pending_proposals/hydramp_scientific_followup.md",
+      "bytes": 37824,
+      "sha256": "246ff38cb8172d12174b42e25d2378a6ba1fe621cbda460975ae02f190c1d04a"
+    },
+    {
+      "path": "devguide/continuation_plan_2026_11_04.md",
+      "bytes": 22266,
+      "sha256": "9b070a1497a0a024d9e410743d3fe0207549c90ea1de5f977b86d7ade631b590"
+    }
+  ],
+  "checks": {
+    "relative_file_links_checked": 222,
+    "missing_relative_file_links": 0,
+    "relative_link_scope": "File existence for current maintained checkpoint documents; remote/anchor audit not repeated",
+    "whitespace": "No trailing whitespace in current checkpoint documents",
+    "report_index_command": "python devtools/devguide_index.py --check",
+    "report_index_native_exit_code": 0,
+    "report_index_log": {
+      "path": "local_data/hydramp-product-baseline-uepif2a_/commit-report-index-check.log",
+      "bytes": 38,
+      "sha256": "3a525cb88e38e62b2cd78f962eec311aeb1797c9a439b3c7d832b95b00a8d5b5"
+    },
+    "new_receipt_JSON_valid": true,
+    "canonical_guide_current_fetch_byte_identical": true,
+    "canonical_guide_url": "https://github.com/uibcdf/molsyssuite/blob/main/MOLSYSSUITE_GUIDE.md",
+    "local_synchronized_guide": {
+      "path": "MOLSYSSUITE_GUIDE.md",
+      "bytes": 69263,
+      "sha256": "850a98f0757a18734b328332c88e4622f60bdef097148a1fd59b9f009846bfe4"
+    },
+    "exact_committed_tree_verified": true,
+    "owner_worktree_clean": true,
+    "existing_issue_comment_and_body_readbacks_exact": true
+  },
+  "qualification_reused": {
+    "reason": "Git history identity and reporting changed; package/source payloads match the qualified tree/artifacts",
+    "codec_tests_passed": 17,
+    "codec_native_exit_code": 0,
+    "new_tests_or_model_calls": 0,
+    "raw_installed_evidence": "local_data/hydramp-product-baseline-uepif2a_/installed-run",
+    "public_dependency_install_qualified": false
+  },
+  "remaining": [
+    "Public dependency-install/distribution route",
+    "Reviewed independent scientific result/workflow contract",
+    "Broader scientific validation and use boundaries under existing owner issues"
+  ],
+  "broader_owner_issues_remain_open": [
+    "uibcdf/hydramp#4",
+    "uibcdf/peptidemt#32"
+  ],
+  "no_push_tag_release_package_publication_or_author_contact": true
+}

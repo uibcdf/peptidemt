@@ -1,0 +1,33 @@
+{
+  "schema": "peptidemt.mdm2_t0_work_order_issue_updates@1",
+  "recorded_at_utc": "2026-11-06T05:21:03.086Z",
+  "status": "proposed_work_order_prepared_and_existing_owner_consumer_issues_updated_no_scientific_acceptance",
+  "preparation": {
+    "path": "devguide/evidence/mdm2_t0_work_order_preparation.json",
+    "sha256": "fa48731935230f6347d6b3719df21a044063e5863c0d17c0054ddb5f86791013"
+  },
+  "comments": [
+    {
+      "repository": "uibcdf/molsysmt",
+      "issue": 304,
+      "role": "static_owner_source_observation_not_runtime_reproduction",
+      "id": 6677524249,
+      "url": "https://github.com/uibcdf/molsysmt/issues/304#issuecomment-6677524249",
+      "body": "## PeptideMT T0 consumer note: mmCIF inference policy must remain explicit\n\nWhile preparing uibcdf/peptidemt#33's proposed MDM2 structural-reference work order, read-only inspection at MolSysMT **`ed09f64539a5af6c1dbe9bd352c7ef65dcd4a7a6`** finds a related mmCIF wrapper observation:\n\n- [`mmcif_PdbxContainers_DataContainer/to_molsysmt_Topology.py`](https://github.com/uibcdf/molsysmt/blob/ed09f64539a5af6c1dbe9bd352c7ef65dcd4a7a6/molsysmt/form/mmcif_PdbxContainers_DataContainer/to_molsysmt_Topology.py) declares `get_missing_bonds=True`, but the function body never reads the parameter and delegates to `to_molsysmt_MolSys` without a policy argument. A static AST check confirms the unused parameter.\n- [The delegated native converter](https://github.com/uibcdf/molsysmt/blob/ed09f64539a5af6c1dbe9bd352c7ef65dcd4a7a6/molsysmt/form/mmcif_PdbxContainers_DataContainer/to_molsysmt_MolSys.py) can call native missing-bond inference, records `evidence=\"inferred\"` and marks partial connectivity when appropriate.\n- This is **static source evidence only**. No molecular file, `get_missing_bonds=False` public conversion, topology inference or numerical operation has been executed for this consumer. It is not a new measured reproduction of the PDB outcomes above.\n\nConsumer need: a reference-coordinate inspection must distinguish deposited observations, reader-derived connectivity and chemical readiness. We must not pass the unused flag and label inference disabled, or silently implement a molecular parser/inference policy downstream.\n\nInterim consumer disposition: retain source bytes and owner-provided bond evidence/connectivity status, leave undetermined chemistry explicit, and restrict any later T0 calculation to observed-coordinate geometry. If an explicit-only policy becomes required, it remains blocked on a supported owner route/contract; no replacement reader or local bond inference is introduced.\n\nPlease consider the unused mmCIF option and documented inference-policy scope within this existing theme, without assuming a provider implementation or priority from the consumer report. Removal condition: an owner-supported explicit policy and actual consumer receiving qualify that behavior.\n\nLocal consumer work-order draft: `devguide/mdm2_t0_work_order.md`; source/AST evidence is retained with the T0 preparation records. The T0 scientific work order itself remains proposed and has not executed. No new issue, provider source modification, model call or scientific acceptance follows.",
+      "readback_exact": true
+    },
+    {
+      "repository": "uibcdf/peptidemt",
+      "issue": 33,
+      "role": "consumer_work_order_prepared_pending_investigator_review",
+      "id": 6677621519,
+      "url": "https://github.com/uibcdf/peptidemt/issues/33#issuecomment-6677621519",
+      "body": "## Concrete T0 structural-reference work order prepared — approval pending\n\nPrepared local `devguide/mdm2_t0_work_order.md`, linked from the feasibility proposal, continuation plan and maintained audit record. This is a proposed scientific work order, not an accepted case or execution report.\n\nThe proposal fixes one 1YCR revision-1.5 MDM2–p53 observed-coordinate reference and three views: reference, whole-complex rigid transform, and peptide-only 10 nm displacement. MolSysMT owns receipt, molecular selections/copies, transformations, receptor-frame fitting, distances, contacts and RMSDs. Proposed contact thresholds are 0.45 nm plus 0.40/0.50 nm sensitivity; numerical identity/rigid-transform tolerance is 1e-6 nm. These are diagnostic geometry checks, with no binding/affinity, anticancer, prediction or design claim.\n\nEntry gates remain unsatisfied: exact coordinate bytes/source mappings must be received after approval, and an installed profile at inspected MolSysMT `ed09f64539a5af6c1dbe9bd352c7ef65dcd4a7a6` must be qualified without silently replacing the older shared editable checkout. The reader's unused mmCIF inference option is documented as a **static observation**, in [existing MolSysMT #304](https://github.com/uibcdf/molsysmt/issues/304#issuecomment-6677524249); no public conversion failure or provider fix has been executed here.\n\nProposed execution is serial CPU-only, one numerical thread, 1 GiB aggregate RSS stop and 8 GiB available-host-RAM reserve; numerical workers run offline after bounded source receiving. The D50-specific 4 GiB reserve exception is not transferred. Following one scientific-scope approval, D49 delegates routine technical checks and diagnosed retries within the accepted envelope without approval per call.\n\nPreparation evidence:\n- order SHA-256: `a9aa332ba60225dfad14a234050a0e112b599baef09e5df50d52125bf4ef7de0`\n- `devguide/evidence/mdm2_t0_work_order_preparation.json` SHA-256: `fa48731935230f6347d6b3719df21a044063e5863c0d17c0054ddb5f86791013`\n- 192 local file links and 3 new-record fragments checked; report indexes current; scoped whitespace check passed. These documentation checks do not qualify the scientific operation.\n\nNo coordinate acquisition/preparation, geometry calculation, scientific-provider import, model loading/evaluation, GPU use, new tests/builds/installs, commit or accepted scientific decision occurred. Existing HydrAMP dev9 code and qualification remain unchanged and uncommitted. This issue remains partial/open. Next boundary: investigator approval or revision of the concrete T0 scientific scope and criteria before implementation/receiving/geometry.",
+      "readback_exact": true
+    }
+  ],
+  "new_issues": 0,
+  "new_scientific_execution": 0,
+  "new_commits": 0,
+  "scope": "Existing investigator-owned component and consumer issues only. No upstream external-author contact or issue closure. Local maintained work order is a proposal; it is not claimed to be committed/published source."
+}

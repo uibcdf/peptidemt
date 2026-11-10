@@ -1,0 +1,41 @@
+{
+  "schema": "peptidemt.hydramp_h4_authorization@1",
+  "plan_sha256": "f9b8040897079401d75c6ad3afd3b0cfc499350abfc2943a268b37646ba82c2a",
+  "investigator_reference": "Investigator continuation approving the exact prepared H3/H4 CPU plan in the current session, after the full host/call request",
+  "recorded_at_utc": "2026-11-03T21:59:57.030113+00:00",
+  "scope": "Only the two stages and exact finite calls/resources in the approved plan; no retries, GPU or scientific adoption",
+  "call_budget": {
+    "generation_calls": 2,
+    "decoder_forwards": 2,
+    "amp_forwards": 2,
+    "mic_forwards": 2,
+    "descriptor_bundles": 2,
+    "pca_numeric_loads": 1,
+    "pca_inverse_transforms": 2,
+    "macrel_calls": 3,
+    "macrel_proposed_records_max": 36,
+    "onnx_head_executions_max": 6,
+    "retries": 0
+  },
+  "resource_limits": {
+    "generation_wall_seconds": 180,
+    "assessment_wall_seconds": 420,
+    "total_stage_wall_seconds": 600,
+    "worker_address_space_bytes": 8589934592,
+    "tree_rss_stop_bytes": 2147483648,
+    "minimum_available_bytes": 8589934592,
+    "minimum_free_disk_bytes": 1073741824,
+    "output_stop_bytes": 134217728,
+    "task_ram_intent_bytes": 4000000000,
+    "gpu": false,
+    "network": false,
+    "stages_sequential": true,
+    "cpu_affinity": [
+      0,
+      1
+    ],
+    "torch_and_blas_threads": 1,
+    "macrel_onnx_intra_threads": 2,
+    "nice": 10
+  }
+}

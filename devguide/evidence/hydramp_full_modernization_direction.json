@@ -1,0 +1,53 @@
+{
+  "schema": "peptidemt.hydramp_full_modernization_direction@1",
+  "date": "2026-11-03",
+  "status": "Own-use/full original-functional modernization prioritized; staged module orders proposed; author contact deferred to the end",
+  "new_D_number": null,
+  "D41_unchanged": true,
+  "blanket_module_or_training_authority": false,
+  "new_scientific_calls": 0,
+  "external_contact": false,
+  "comments": [
+    {
+      "repository": "uibcdf/hydramp",
+      "issue": 4,
+      "id": 6619819730,
+      "url": "https://github.com/uibcdf/hydramp/issues/4#issuecomment-6619819730",
+      "body": "Investigator steering after the initial product review: **prioritize our own use and aim to modernize HydrAMP's complete original functional scope**, rather than stopping at the selected inference port. A faithful, tested, maintainable full modernization could make a later collaboration proposal stronger; original-author interest remains unknown.\n\n**Do not contact original authors now.** Possible contact belongs at the end, after substantial modernization/validation and internal review, and still requires explicit recipient/channel/content permission. #6 retains that deferred item; an upstream response is not a prerequisite for our planning.\n\nThe staged scope is **proposed**, not a blanket implementation/training commission:\n1. Inventory original capabilities and choose a bounded first module; encoder/latent posterior is a useful candidate for enabling redesign.\n2. Qualify encoder, then the original analogue route with explicit occurrence/randomness/temperature/no-hit semantics.\n3. Complete required original inference variants/prediction workflows, treating filters, repeated attempts, ordering and stochastic decoding as scientific behavior.\n4. Plan trainable classifiers/generative objectives and data/checkpoint/evaluation pipelines as a substantial separate phase. The accepted inference core uses frozen buffers/eval mode; training is not a flag switch.\n5. Consolidate independent documentation, regression/CI, installation and artifact delivery, then prepare any possible handoff internally.\n\nFull scope means original HydrAMP functions, not automatically porting every comparison model/notebook present in the repository. PeptideMT orchestration/selection remains separate and molecular file/system operations remain MolSysMT-owned. Other-family/new-method research stays in #5.\n\nA source inventory also found apparent original optional-filter mask/dispatch problems, now reported in our #7. No model was run and impact is not quantified. Confirm intended/observed behavior before copying or correcting those branches; preserve the frozen original reference and accepted unfiltered dev3. No silent scientific change follows.\n\nConsumer proposal: `devguide/hydramp_full_modernization.md`, under https://github.com/uibcdf/peptidemt/issues/32. This changes the planning priority from immediate standalone-contract/collaboration preparation to staged own-use modernization. D41, D35/M1–M8, exact accepted artifacts and all consumed execution budgets remain unchanged. No new code, training, model/PCA/descriptor call, GPU, release, commit/push or external contact occurs.",
+      "created_at": "2026-11-04T01:14:33Z",
+      "updated_at": "2026-11-04T01:14:33Z",
+      "body_exact": true
+    },
+    {
+      "repository": "uibcdf/hydramp",
+      "issue": 6,
+      "id": 6619821126,
+      "url": "https://github.com/uibcdf/hydramp/issues/6#issuecomment-6619821126",
+      "body": "Investigator timing clarification: **do not contact anyone now; possible original-author contact is deferred to the end of our own-use modernization effort**, after substantial validated functionality and internal readiness review.\n\nThe investigator favors aiming for modernization of HydrAMP's full original functional scope, both for our own utility and as a potentially stronger future collaboration contribution. This is an evolution objective with staged modules to agree, not a completed full port, a training commission or a guarantee of author interest.\n\nKeep this issue as a deferred handoff record. Our work should not wait for an upstream response, and recording the objective does not authorize any email, upstream issue/comment, PR or other external contact/publication. Any eventual recipient/channel/content still needs explicit investigator permission. Product/module planning stays in #4; scientific-output comparison #3 and other-family/successor feasibility #5 remain separate. Consumer tracking: https://github.com/uibcdf/peptidemt/issues/32.",
+      "created_at": "2026-11-04T01:14:39Z",
+      "updated_at": "2026-11-04T01:14:39Z",
+      "body_exact": true
+    },
+    {
+      "repository": "uibcdf/peptidemt",
+      "issue": 32,
+      "id": 6619822712,
+      "url": "https://github.com/uibcdf/peptidemt/issues/32#issuecomment-6619822712",
+      "body": "The investigator now prioritizes **modernizing the complete original HydrAMP for our own use**, while preserving possible future collaboration as a benefit. **Original-author contact is deferred until the end**, with no external contact authorized now.\n\nThe proposed local programme is `devguide/hydramp_full_modernization.md`, linked from the strategic review and this active work record. It inventories remaining original inference/prediction modes, encoder/posterior, analogue/redesign, training objectives/data/checkpointing, evaluation and product delivery. Candidate order: bounded encoder work first, then analogue generation; training is a separate substantial phase. This is proposed module planning, not blanket implementation or a new execution budget. Independent portable-result/CLI work should follow actual capability needs.\n\nThe exact accepted dev3 resource and D41/D35/M1–M8/selector meanings remain unchanged. Modernizing the original method is distinct from the possible other-family/new-method research under HydrAMP #5. Preserve numerical improvements and all unfavorable original/modern evidence; do not silently copy or repair original behavior.\n\nSource inspection also found apparent optional-filter mask/dispatch problems in the original, reported **in our fork** as https://github.com/uibcdf/hydramp/issues/7. They concern analogue/filtered branches; the accepted unfiltered route bypasses them. Findings are static, not a newly executed test or measured scientific effect.\n\nOwning planning updates are in HydrAMP #4 and deferred handoff #6. No source/model/weights change, scientific call, training, GPU, release, commit/push or original-author contact occurs in this planning step.",
+      "created_at": "2026-11-04T01:14:46Z",
+      "updated_at": "2026-11-04T01:14:46Z",
+      "body_exact": true
+    }
+  ],
+  "filter_issue": {
+    "repository": "uibcdf/hydramp",
+    "number": 7,
+    "url": "https://github.com/uibcdf/hydramp/issues/7",
+    "title": "Audit original generation filter dispatch and mask application before porting",
+    "body": "## Source findings to investigate before full modernization\n\nThe investigators favor modernizing HydrAMP's complete original functional scope for our own use, retaining possible collaboration for the end. A source inventory found apparent filtering defects in the frozen original reference. Record them in **our fork**; no upstream report/contact or scientific fix is authorized here.\n\nReference: `6590d2f4c2963f25d30669052a4c4a857e0e7279`.\n- `amp/inference/inference.py` SHA-256 `3500b3cec26818b0de30d13ca3817a7cd289bf6675122f1ffa5daf0926cccd01`.\n- `amp/inference/filtering.py` SHA-256 `1e2cd83164302af98dd754e1cd17281ea7a13616db82eca71e04042986b50383`.\n\n## Observed by source inspection\n\n1. In `analogue_generation`, `get_filtering_mask` produces `mask`, which is combined with `better`, but `_dispose_into_bucket` receives `better` rather than the combined mask. Optional filters therefore appear bypassed in the final analogue selection.\n2. In filtered `unconstrained_generation`, `phych_chem_mask_idx` is calculated, but the subsequent `np.intersect1d` reduction receives `phych_chem_mask` itself alongside index arrays. This appears to mix a boolean mask/scalar with indices rather than use the calculated accepted indices.\n3. `filter_out_hydrophobic_clusters` dispatches to `check_sequence_for_repetitive_clusters`, despite a distinct hydrophobic-cluster predicate being defined.\n4. `filter_out_known_amps` dispatches to `check_sequence_for_positive_clusters`, with no known-AMP reference lookup on that path.\n\nThese are **static findings**. No original model/PCA was loaded, no pretrained generation/filter campaign was run and no quantitative scientific impact has been established. Confirm intended semantics and actual behavior before calling a corrected variant faithful to the original.\n\n## Scope and current acceptance\n\nThe accepted modern D41 route is `filter_out=False` with one attempt and no analogue route; its control flow bypasses these original filtering blocks. Do not change the accepted dev3 candidate, D35/M1–M8, Macrel or the PeptideMT selectors. This is separate from the existing near-tie numerical investigation #1.\n\nProduct/modernization planning: #4. Consumer: https://github.com/uibcdf/peptidemt/issues/32. No issue has been filed in the original authors' repository.\n\n## Proposed resolution criteria\n\n- Add focused artificial mask/index and dispatch cases with no models, real descriptors or external data; separate candidate filtering from native AMP/MIC thresholds and native ordering.\n- Confirm both analogue and filtered de novo application, no-options behavior and option-name semantics, retaining empty/no-hit outcomes.\n- Record intended versus observed behavior and preserve the frozen legacy reference. A scientific compatibility-versus-correction decision is required before changing outputs; do not silently copy or repair the apparent defects during the port.\n- Scope implementation and any later real-model validation separately. This issue itself grants no new inference/training/GPU/resource allowance, external publication or full-module implementation.\n",
+    "state": "open",
+    "created_at": "2026-11-04T01:11:41Z",
+    "body_exact": true,
+    "verification": "source inspection only; no model or filter execution"
+  }
+}

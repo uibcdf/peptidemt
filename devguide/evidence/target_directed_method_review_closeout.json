@@ -1,0 +1,84 @@
+{
+  "recorded_utc": "2026-11-06T08:02:53.314680+00:00",
+  "status": "D52 bounded method preparation delivered; full objective incomplete",
+  "method_receipt": {
+    "path": "devguide/evidence/target_directed_method_review.json",
+    "bytes": 11134,
+    "sha256": "321370bb9e95ca2f5b3e3a2cdbc4b9a1901f55680627c8d85f1051abc81891b1"
+  },
+  "maintained_documents": [
+    {
+      "path": "devguide/target_directed_method_review.md",
+      "bytes": 11753,
+      "sha256": "38f2ba16641b86650304135074b70021efc51bb967b2814bb2094b8d77e410a5"
+    },
+    {
+      "path": "devguide/target_directed_demonstrator.md",
+      "bytes": 5401,
+      "sha256": "68ba540b68c4ac1019defcc72f7383315eb445f297b483a8519ef0c062ad74b8"
+    },
+    {
+      "path": "devguide/README.md",
+      "bytes": 47852,
+      "sha256": "0f6705cecb070f93a1af29a7c79870623a4706a841f764affd9d4b322afeb009"
+    },
+    {
+      "path": "devguide/pending_proposals/scientific_capability_audit.md",
+      "bytes": 11138,
+      "sha256": "9f8e330ba968b5d3b5a572b7d68637d864fefc9390ecf3b474680abcdd5a6b2b"
+    }
+  ],
+  "documentation_checks": {
+    "relative_links": 186,
+    "heading_fragments": 13,
+    "commands": [
+      {
+        "command": [
+          "python",
+          "devtools/devguide_index.py",
+          "--check"
+        ],
+        "returncode": 0,
+        "stdout": "Generated report indexes are current.\n",
+        "stderr": ""
+      },
+      {
+        "command": [
+          "git",
+          "diff",
+          "--check"
+        ],
+        "returncode": 0,
+        "stdout": "",
+        "stderr": ""
+      }
+    ],
+    "errors": []
+  },
+  "protected_inputs": [
+    {
+      "path": "devguide/mdm2_t1a_proposal.md",
+      "bytes": 7184,
+      "sha256": "069247bf4b46e8fafba553ecb5311f67b0bfd6748ea4a06822053c3285c05e56",
+      "unchanged": true
+    },
+    {
+      "path": "devguide/evidence/mdm2_t0_execution.json",
+      "bytes": 31113,
+      "sha256": "bd12b0bd4eb1a12885e151d25e07d855a0ff62c0b42d3156e3dd2afa188b0593",
+      "unchanged": true
+    },
+    {
+      "path": "devguide/evidence/hydramp_result_invariants.json",
+      "bytes": 66106,
+      "sha256": "15c5814cfec53531e51f5424d46ea54f028e0e345fd9b30f2bd0537cf77c81d3",
+      "unchanged": true
+    }
+  ],
+  "new_runtime_source": false,
+  "runtime_or_scientific_tests": false,
+  "new_scientific_calls": 0,
+  "provider_modifications": 0,
+  "full_goal_complete": false,
+  "next_action": "Receive investigator disposition of the already requested T1a contract; no implementation, method adoption or new approval inferred from automatic continuation"
+}

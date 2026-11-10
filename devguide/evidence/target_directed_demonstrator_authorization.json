@@ -1,0 +1,31 @@
+{
+  "schema": "peptidemt.target_directed_demonstrator_commission@1",
+  "recorded_at_utc": "2026-11-06T07:05:06.662178+00:00",
+  "decision": "D52",
+  "authority": "Explicit investigator direction to attempt the proposed longer-horizon objective while respecting negotiated repository rules and component ownership; propose needed molecular operations to MolSysMT rather than implementing them downstream",
+  "objective": "One independently evaluated target-directed peptide design/selection demonstrator, compared with prespecified references and simple baselines",
+  "initial_commission": "Evidence/provider review and prospective concrete T1 study definition; retain scientific-readiness review before new domain/model/chemistry/acceptance implementation",
+  "candidate_case": "MDM2-p53 remains conditional on experimental evidence and evaluator feasibility, not blanket T1 acceptance",
+  "preserved": [
+    "D14 responsibilities/readiness",
+    "D35 and M1-M8",
+    "accepted AMP resource limits",
+    "D49 routine execution delegation",
+    "D51 completed T0 evidence",
+    "component-owned reusable tools",
+    "explicit permission for external issues"
+  ],
+  "not_authorized_by_this_preparation": [
+    "new predictive model loading/execution",
+    "new peptide generation or target-conditioned generation",
+    "unreviewed chemistry/target/assay thresholds",
+    "training/feedback",
+    "GPU",
+    "Git/package publication"
+  ],
+  "parent_T0_receipt": {
+    "path": "devguide/evidence/mdm2_t0_execution.json",
+    "sha256": "bd12b0bd4eb1a12885e151d25e07d855a0ff62c0b42d3156e3dd2afa188b0593"
+  },
+  "issue": "uibcdf/peptidemt#33"
+}

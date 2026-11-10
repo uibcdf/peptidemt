@@ -1,0 +1,267 @@
+{
+  "schema": "peptidemt.hydramp_analogue_A1@1",
+  "date": "2026-11-04",
+  "decision": "D43",
+  "owner_issue": "uibcdf/hydramp#4",
+  "consumer_issue": "uibcdf/peptidemt#32",
+  "status": "Installed artificial implementation passed; no pretrained qualification",
+  "resumption": {
+    "date": "2026-11-04",
+    "authority": "Investigator explicitly directs implementing the reviewed continuation plan; lifts the audit implementation pause. Existing unchanged A1 artificial authority applies. Real model budgets/criteria remain separately gated.",
+    "prior_drafts_verified": [
+      {
+        "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-analogue-A1-g_nhwciy/paused-staging/analogue.py",
+        "bytes": 12206,
+        "sha256": "e1a62ffd71c7c120e875df96cd2b4b1219684236b8051c7742403ea64f9cc23d"
+      },
+      {
+        "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-analogue-A1-g_nhwciy/paused-staging/test_analogue.py",
+        "bytes": 16041,
+        "sha256": "3be674c4dc2053e4b9e40f1dd30c40f543b8cd049f79fd3cb0a6848eba16d8a5"
+      }
+    ],
+    "before": [
+      {
+        "path": "src/peptidemt/_hydramp_receiving.py",
+        "sha256": "d02fab3f7b81abea5e7ee96e5fec4ea9b8bfbbf55ba8267de2e0defb1035b0c3"
+      },
+      {
+        "path": "tests/test_hydramp_receiving.py",
+        "sha256": "dec529dc2fc7d0e48176b3afe3098aeee97fc885c8a67e3ac1ea0b3e22e78010"
+      },
+      {
+        "path": "AGENTS.md",
+        "sha256": "4117041c96ac507ab60d06909eb5942c67f10d31161941b8df0da558b9e67a29"
+      },
+      {
+        "path": "devguide/decisions.md",
+        "sha256": "5e3d022fd351cb12708dde42dbea3ed10ef78ebafb30b2d3027176c83f963fc5"
+      },
+      {
+        "path": "devguide/continuation_plan_2026_11_04.md",
+        "sha256": "e4c8bcdf07f8c71a50f7f2c84f2978835d2abf10e6a3f12c719b270a9e70eaf0"
+      }
+    ],
+    "new_real_model_authority": false
+  },
+  "candidate": {
+    "version": "0.0.0.dev5",
+    "wheel": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/continuation-cycle1-chk2ha32/artifacts/hydramp_torch-0.0.0.dev5-py3-none-any.whl",
+      "bytes": 19385,
+      "sha256": "f6b9e30609ddde675418a2e6696b1026656212921c2b47cf0c6d182bcfc5433e"
+    },
+    "worktree": "/home/liliana/repos@uibcdf/hydramp/local_data/pytorch-analogue",
+    "base_commit": "6590d2f4c2963f25d30669052a4c4a857e0e7279",
+    "source_state": "local/uncommitted; original git base is not port commit",
+    "sources": [
+      {
+        "path": "/home/liliana/repos@uibcdf/hydramp/local_data/pytorch-analogue/ports/pytorch/src/hydramp_torch/__init__.py",
+        "bytes": 906,
+        "sha256": "ee4a064daa0515b806d92c908582655d2858d8882683055553103087cfc8df46"
+      },
+      {
+        "path": "/home/liliana/repos@uibcdf/hydramp/local_data/pytorch-analogue/ports/pytorch/src/hydramp_torch/_checkpoint.py",
+        "bytes": 780,
+        "sha256": "9dc25424162f1a92778bd2ce49bfc8620916ce8fbac2637287399724d26abd03"
+      },
+      {
+        "path": "/home/liliana/repos@uibcdf/hydramp/local_data/pytorch-analogue/ports/pytorch/src/hydramp_torch/analogue.py",
+        "bytes": 12495,
+        "sha256": "64f8a40006f65de188d6b1e97c4eae1a2f3766d0b9cd5b8b4ce80d43817bbbc6"
+      },
+      {
+        "path": "/home/liliana/repos@uibcdf/hydramp/local_data/pytorch-analogue/ports/pytorch/src/hydramp_torch/encoder.py",
+        "bytes": 8796,
+        "sha256": "2abf1dd009a9bca39ad30d69e0f32cc3b225dd14b38e4ba46d1fbf3077723256"
+      },
+      {
+        "path": "/home/liliana/repos@uibcdf/hydramp/local_data/pytorch-analogue/ports/pytorch/src/hydramp_torch/generation.py",
+        "bytes": 8136,
+        "sha256": "83d8a976cdfcdb64fed531db30a2e365954f0acb0f4072a3b0c5c1aaf266bd62"
+      },
+      {
+        "path": "/home/liliana/repos@uibcdf/hydramp/local_data/pytorch-analogue/ports/pytorch/src/hydramp_torch/inference.py",
+        "bytes": 12538,
+        "sha256": "98f6494c2c93c8375c04909df683cd90c767fb8a024ee6b57da258cbfd2a4199"
+      },
+      {
+        "path": "/home/liliana/repos@uibcdf/hydramp/local_data/pytorch-analogue/ports/pytorch/src/hydramp_torch/prior.py",
+        "bytes": 2485,
+        "sha256": "3a765e5f906d7e00bd3b181c305f0665c712af6fa5988a4265f4b8369e124d19"
+      },
+      {
+        "path": "/home/liliana/repos@uibcdf/hydramp/local_data/pytorch-analogue/ports/pytorch/src/hydramp_torch/properties.py",
+        "bytes": 2563,
+        "sha256": "c47bd6f8224b996b6d221caf2de151d3d6aae1360faf4a3ec56fdd8b09abe758"
+      }
+    ],
+    "tests": {
+      "path": "/home/liliana/repos@uibcdf/hydramp/local_data/pytorch-analogue/ports/pytorch/tests/test_analogue.py",
+      "bytes": 16663,
+      "sha256": "41a5d24a0c92d313d14bf839d4632936307ee3b16356c8cb29f72c16383c10c0"
+    }
+  },
+  "build": {
+    "exit_code": 0,
+    "wall_seconds": 1.471757726976648,
+    "setuptools": "84.2.1",
+    "wheel": "0.45.1",
+    "build_python": "3.14.7",
+    "route": "Offline dedicated build prefix exposing exact previously cached build providers; direct PEP517 backend, no scientific runtime or dependency install",
+    "new_scientific_calls": 0,
+    "child_kernel_HWM_rss_bytes": 56545280
+  },
+  "installed_probe": {
+    "python": "3.14.7 | packaged by conda-forge | (main, Sep  2 2026, 21:08:32) [GCC 15.3.0]",
+    "executable": "/home/liliana/repos@uibcdf/peptidemt/local_data/continuation-cycle1-chk2ha32/worker/bin/python",
+    "prefix": "/home/liliana/repos@uibcdf/peptidemt/local_data/continuation-cycle1-chk2ha32/worker",
+    "provider_origin": "/home/liliana/repos@uibcdf/peptidemt/local_data/continuation-cycle1-chk2ha32/worker/lib/python3.14/site-packages/hydramp_torch/__init__.py",
+    "torch": "2.15.0+cpu",
+    "numpy": "2.4.6",
+    "receptor": "1.2.2",
+    "versions": {
+      "idna": "3.20",
+      "pytest": "9.2.0",
+      "numpy": "2.4.6",
+      "narwhals": "2.28.0",
+      "python-dateutil": "4.0.0",
+      "filelock": "4.2.5",
+      "iniconfig": "2.3.1",
+      "scipy": "1.18.1",
+      "charset-normalizer": "3.5.2",
+      "certifi": "2026.10.23",
+      "pillow": "13.0.0",
+      "pandas": "3.1.0",
+      "MarkupSafe": "3.0.4",
+      "fsspec": "2026.9.0",
+      "matplotlib": "3.11.2",
+      "cycler": "0.12.1",
+      "torch": "2.15.0+cpu",
+      "mpmath": "1.3.0",
+      "urllib3": "2.8.0",
+      "cloudpickle": "3.1.2",
+      "kiwisolver": "1.5.1",
+      "sympy": "1.14.0",
+      "typing_extensions": "4.16.0",
+      "packaging": "26.3",
+      "networkx": "3.7",
+      "joblib": "1.6.0",
+      "pytest-receptor": "1.2.2",
+      "contourpy": "1.4.0",
+      "pyparsing": "3.3.3",
+      "setuptools": "84.2.1",
+      "hydramp-torch": "0.0.0.dev5",
+      "fonttools": "4.68.0",
+      "requests": "2.34.2",
+      "tzdata": "2026.6",
+      "threadpoolctl": "3.7.0",
+      "pluggy": "1.7.0",
+      "modlamp": "4.3.3",
+      "lxml": "6.1.3",
+      "Pygments": "2.21.0",
+      "scikit-learn": "1.9.1",
+      "Jinja2": "3.1.6"
+    },
+    "affinity": [
+      0,
+      1
+    ],
+    "nice": 10,
+    "torch_threads": 1,
+    "interop_threads": 1,
+    "wheel_sha256": "f6b9e30609ddde675418a2e6696b1026656212921c2b47cf0c6d182bcfc5433e"
+  },
+  "dependency_metadata": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/continuation-cycle1-chk2ha32/dependency-metadata.json",
+    "bytes": 57347,
+    "sha256": "1e1a504992a723f47b4d8af7ac9e96b3efde6e7456559fdf9aa61e8a9185fe67"
+  },
+  "deployment_limit": "Reuses frozen E1 dependency payloads with exact copied dist-info; not new neutral public solver/installer or console-script qualification",
+  "execution": {
+    "scope": "Analogue A1 plus applicable encoder/core/generation/property-spy installed regressions; artificial parameters only; all real artifacts/providers/consumer/network blocked",
+    "supervision": {
+      "started": true,
+      "returncode": 0,
+      "failure": null,
+      "wall_seconds": 7.012108054943383,
+      "peak_sampled_process_tree_rss_bytes": 345468928,
+      "retained_output_bytes": 73041168,
+      "retry": false
+    },
+    "wall_seconds_including_supervision": 7.040993300033733,
+    "new_pretrained_PCA_descriptor_Macrel_calls": 0,
+    "resources": {
+      "min_available_memory_bytes": 8589934592,
+      "min_free_disk_bytes": 1073741824,
+      "threads": 1,
+      "wall_seconds": 120,
+      "rss_stop_bytes": 2147483648,
+      "max_output_bytes": 134217728
+    },
+    "candidate": "dev5"
+  },
+  "counts": {
+    "test_analogue": 61,
+    "test_encoder": 41,
+    "test_inference": 25,
+    "test_generation": 24,
+    "test_properties": 5
+  },
+  "total_distinct_tests": 156,
+  "initial_failure": {
+    "execution": {
+      "scope": "Analogue A1 plus applicable encoder/core/generation/property-spy installed regressions; artificial parameters only; all real artifacts/providers/consumer/network blocked",
+      "supervision": {
+        "started": true,
+        "returncode": 1,
+        "failure": "worker_failure",
+        "wall_seconds": 14.439582169987261,
+        "peak_sampled_process_tree_rss_bytes": 345960448,
+        "retained_output_bytes": 73044284,
+        "retry": false
+      },
+      "wall_seconds_including_supervision": 14.468810396967456,
+      "new_pretrained_PCA_descriptor_Macrel_calls": 0,
+      "resources": {
+        "min_available_memory_bytes": 8589934592,
+        "min_free_disk_bytes": 1073741824,
+        "threads": 1,
+        "wall_seconds": 120,
+        "rss_stop_bytes": 2147483648,
+        "max_output_bytes": 134217728
+      },
+      "candidate": "dev5"
+    },
+    "test_before_fix": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/continuation-cycle1-chk2ha32/failed-repeat-fixture-test.py",
+      "bytes": 16659,
+      "sha256": "a8b8dd32f1428c9d3fda162f2eeb3610a676b9582de8f2639e5208ce97d99809"
+    },
+    "log": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/continuation-cycle1-chk2ha32/test-run-initial-fixture-failure/pytest.log",
+      "bytes": 811,
+      "sha256": "7131068390dcf3097ff0a6ca748dec11b2072cf9d0b643dc8c5ecc72ce3dc6b8"
+    },
+    "cause": "Fake score provider identified only the second score call as generated; fixed alternating call state. Runtime/wheel unchanged."
+  },
+  "preservation": {
+    "prior_six_runtime_files_byte_identical": [
+      "_checkpoint.py",
+      "encoder.py",
+      "generation.py",
+      "inference.py",
+      "prior.py",
+      "properties.py"
+    ],
+    "dependency_graph_unchanged_except_own_version": true,
+    "accepted_dev3_and_dev4_wheels_unchanged": true,
+    "frozen_original_work_order_unchanged": true
+  },
+  "new_pretrained_PCA_descriptor_Macrel_calls": 0,
+  "actual_artificial_neural_fixture_execution": true,
+  "new_consumer_analogue_API": false,
+  "new_scientific_acceptance": false,
+  "new_commits_pushes_releases_author_contacts": [],
+  "retention_review_date": "2026-11-14"
+}

@@ -1,0 +1,149 @@
+{
+  "schema": "peptidemt.hydramp_pytorch_parity_preparation@1",
+  "date": "2026-10-30",
+  "issue": "uibcdf/peptidemt#8",
+  "status": "Prepared; exact-bundle/use and shared-host/call approval pending. No real stage executed.",
+  "producer_record": "devguide/evidence/pytorch_parity_preparation.json in the local HydrAMP peptidemt-pytorch worktree",
+  "producer_record_sha256": "c40b0a36e5048e9a5036d6baf0cd61eef156b05e8c3294dad1d37bd590dd450b",
+  "producer_plan": "devguide/evidence/pytorch_parity_plan.json in that worktree",
+  "source_commit": "6590d2f4c2963f25d30669052a4c4a857e0e7279",
+  "starter_commit": "7804df862872ccc6d09fe01c41bafbca194cfa31",
+  "local_worktree": "/home/liliana/repos@uibcdf/hydramp/local_data/pytorch-port",
+  "task_directory": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-parity-637rwaat",
+  "plan_path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-parity-637rwaat/plan.json",
+  "plan": {
+    "bytes": 22656,
+    "sha256": "5e595692db5863aa43e2b36106e7eaf4e39b2a8a7f1dd25026930d981d829833"
+  },
+  "tool_path": "/home/liliana/repos@uibcdf/hydramp/local_data/pytorch-port/ports/pytorch/devtools/parity.py",
+  "tool": {
+    "bytes": 17846,
+    "sha256": "686a7d4adbd80058d8689ef185680759f299c2643a6cb4c1dde57ebc1d15cd48"
+  },
+  "budget": {
+    "workers": 2,
+    "concurrent_workers": 1,
+    "cpu_affinity": [
+      0,
+      1
+    ],
+    "native_threads": 1,
+    "nice": 10,
+    "address_space_bytes": 8589934592,
+    "rss_stop_bytes": 2147483648,
+    "minimum_mem_available_bytes": 8589934592,
+    "worker_wall_seconds": 180,
+    "aggregate_worker_wall_seconds": 360,
+    "output_stop_bytes": 134217728,
+    "minimum_free_disk_bytes": 1073741824,
+    "gpu": false,
+    "network": false,
+    "retries": 0,
+    "legacy_model_constructions": 1,
+    "torch_model_constructions": 1,
+    "pca_pickle_loads": 1,
+    "pca_coefficient_exports": 1,
+    "pca_inverse_transforms_per_worker": 1,
+    "decoder_evaluations_per_worker": 1,
+    "amp_evaluations_per_worker": 1,
+    "mic_evaluations_per_worker": 1,
+    "rows_per_network_evaluation": 12,
+    "network_evaluations_total": 6,
+    "unconstrained_generation_calls": 0,
+    "descriptor_calls": 0,
+    "macrel_calls": 0
+  },
+  "comparison": {
+    "purpose": "Implementation fidelity diagnosis only; investigator scientific acceptance is separate.",
+    "pca_atol": 1e-10,
+    "pca_rtol": 1e-10,
+    "float32_atol": 2e-06,
+    "float32_rtol": 2e-05,
+    "argmax_tokens": "exact",
+    "sequence_strings": "exact, in original occurrence order",
+    "nonfinite": "fail",
+    "mismatch": "report and stop; no tolerance relaxation or automatic retry"
+  },
+  "local_use": "Bounded local research comparison of publisher-attributed epoch-37 checkpoint and PCA. Retain University of Warsaw MIT notices and method attribution; no redistribution, training, commercial/output-rights clearance or scientific adoption.",
+  "host_observation": {
+    "date": "2026-10-30",
+    "python": "3.14.7",
+    "machine": "x86_64",
+    "glibc": [
+      "glibc",
+      "2.43"
+    ],
+    "cpu_logical": 20,
+    "affinity": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "load_average": [
+      1.38916015625,
+      1.2646484375,
+      1.078125
+    ],
+    "memory": {
+      "MemTotal": "32165612 kB",
+      "MemAvailable": "16537544 kB",
+      "SwapTotal": "8388604 kB",
+      "SwapFree": "184612 kB"
+    },
+    "memory_pressure": "some avg10=0.00 avg60=0.00 avg300=0.00 total=282435761\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=273625856\n",
+    "disk": {
+      "total": 2952356167680,
+      "used": 245803077632,
+      "free": 2556506742784
+    }
+  },
+  "checks": {
+    "synthetic_tests": {
+      "exit": 0,
+      "passed": 11,
+      "failed": 0,
+      "skipped": 0,
+      "scope": "Comparator logic uses NumPy and artificial outputs only. The guard wrapper imports the installed CPU Torch/core to verify the environment; it constructs no model and blocks real checkpoint/PCA access."
+    },
+    "python38_syntax": "passed without importing scientific modules",
+    "byte_only_preflight": {
+      "exit": 0,
+      "artifacts": 65,
+      "legacy_source_files": 41,
+      "pretrained_artifacts_deserialized": 0
+    },
+    "previous_core_receipt": "All prior source/evidence identities preserved; 25 core tests not repeated.",
+    "preliminary_failures": [
+      "Parenthesized context manager syntax was incompatible with Python 3.8; replaced by nested context managers before passing syntax check.",
+      "An operator test command resolved the venv Python symlink to the shared base interpreter; CPU-only assertion stopped it before any pretrained model/PCA loading. Fixed by preserving the literal venv executable path; initial failed log retained. No shared-environment package change or GPU operation."
+    ]
+  },
+  "scientific_execution": {
+    "legacy_stage_attempts": 0,
+    "torch_stage_attempts": 0,
+    "pretrained_model_loads": 0,
+    "real_pca_loads": 0,
+    "real_network_evaluations": 0,
+    "native_generation_api_calls": 0,
+    "new_macrel_calls": 0,
+    "gpu_used": false
+  },
+  "pending": "Explicit human authorization for the exact local-use bundle, disclosed legacy metadata profile and this fresh budget before either model stage."
+}

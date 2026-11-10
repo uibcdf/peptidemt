@@ -1,0 +1,72 @@
+{
+  "schema": "peptidemt.hydramp_redesign_R3_execution_closeout@1",
+  "date": "2026-11-04",
+  "plan_sha256": "7a55b24e8c5d2cc105274e54dec83cf442f80b28211d0f297f55d6c2b1216974",
+  "authorization_sha256": "4febd7eb91da789465809870f13ca8ef45102e840bb4da3d893c1bebaaa0e3c0",
+  "execution_receipt_sha256": "9fa24f007a8feca1cf504d4a8aefa2a542c8ecaab11f3aa880980ca6b1b4db1e",
+  "status": "Finite installed-consumer technical receiving PASS; scientific utility remains unqualified",
+  "checks": {
+    "six_stages_passed": true,
+    "neural_evaluations": 27,
+    "remaining_allowance": 0,
+    "supervised_wall_seconds": 33.376769916387275,
+    "maximum_sampled_tree_RSS_bytes": 569028608,
+    "retries": 0,
+    "GPU": false,
+    "pre_and_postflight_frozen_identity": "PASS",
+    "fresh_guarded_saved_receiving": "PASS",
+    "saved_original_A2_ordered_candidate_strings": "match",
+    "actual_optional_attribution": "captured",
+    "strict_HTML": "PASS",
+    "doctest": {
+      "passed": 6,
+      "failed": 0
+    },
+    "ruff": "PASS",
+    "format_files": 168,
+    "reporting_indexes": "current",
+    "relative_file_links": 288,
+    "missing_relative_file_links": 0,
+    "whitespace": "PASS",
+    "evidence_JSON": "valid",
+    "canonical_MolSysSuite_guide": "byte-identical fetched main",
+    "prior_eight_operator_guards": "reused, no operator changes",
+    "prior_259_source_101_installed_tests": "reused, not rerun"
+  },
+  "scientific_observation": {
+    "returned_children": 1,
+    "distinct_prototypes": 6,
+    "compatible_parent_occurrences": 8,
+    "native_scores": "improved",
+    "Macrel_AMP": "decreased; label true to false",
+    "Macrel_hemolysis": "increased; both labels remain NonHemo",
+    "same_returned_strings_as_saved_original_A2": true,
+    "no_biological_or_useful_optimization_claim": true
+  },
+  "issue_updates": [
+    {
+      "repository": "uibcdf/peptidemt",
+      "id": 6644637424,
+      "url": "https://github.com/uibcdf/peptidemt/issues/32#issuecomment-6644637424",
+      "exact_body_verified": true
+    },
+    {
+      "repository": "uibcdf/hydramp",
+      "id": 6644650516,
+      "url": "https://github.com/uibcdf/hydramp/issues/4#issuecomment-6644650516",
+      "exact_body_verified": true
+    },
+    {
+      "repository": "uibcdf/hydramp",
+      "id": 6644652173,
+      "url": "https://github.com/uibcdf/hydramp/issues/3#issuecomment-6644652173",
+      "exact_body_verified": true
+    }
+  ],
+  "issue_disposition": "Existing #32/#4/#3 remain open for broader scientific/product work; no new issue or shared-contract change",
+  "source_delivery": "Consumer/provider artifacts and runtime sources unchanged, code/evidence local/uncommitted; no commit/push/package-model publication or external-author contact",
+  "retention": {
+    "owner": "PeptideMT#32 / HydrAMP#4",
+    "review_by": "2026-11-18"
+  }
+}

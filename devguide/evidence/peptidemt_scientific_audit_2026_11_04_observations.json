@@ -1,0 +1,132 @@
+{
+  "schema": "peptidemt.audit_review2_probes@1",
+  "date": "2026-11-04",
+  "scope": "Source API controlled data and two retained historical assessments; not installed qualification or new inference",
+  "H4_receipt_sha256": "074eab1b6d4df5660b8c1a30498761eef5c3759992b8e3ec582bdd8a490315cc",
+  "script_sha256": "46f3612e5ac158cccc30107d4d49a57e1c17b1b29c3d7f8d28399c950d59c145",
+  "historical_pool_analysis": [
+    {
+      "seed": 1001,
+      "source_sha256": "580d24df56b56c1a70284c5e0467fa1503a1cafd113e4891b6eb28449acacf78",
+      "proposed_occurrences": 16,
+      "assessed_eligible_occurrences": 15,
+      "distinct_proposed_sequence_strings": 16,
+      "distinct_eligible_sequence_strings": 15,
+      "unique_AMP_score_values": 12,
+      "unique_Hemo_score_values": 15,
+      "joint_native_labels_in_entire_eligible_pool": 0,
+      "selected_overlap": 0,
+      "selections": {
+        "amp-first": {
+          "tokens": [
+            "input-0",
+            "input-6",
+            "input-1",
+            "input-9"
+          ],
+          "AMP_positive": 4,
+          "NonHemo": 0,
+          "joint_native_labels": 0,
+          "mean_native_AMP_score": 0.678217887878418,
+          "mean_native_Hemo_score": 0.7252475619316101,
+          "distinct_sequence_strings": 4
+        },
+        "hemolysis-first": {
+          "tokens": [
+            "input-8",
+            "input-14",
+            "input-13",
+            "input-15"
+          ],
+          "AMP_positive": 0,
+          "NonHemo": 4,
+          "joint_native_labels": 0,
+          "mean_native_AMP_score": 0.13861405849456787,
+          "mean_native_Hemo_score": 0.05198042094707489,
+          "distinct_sequence_strings": 4
+        }
+      }
+    },
+    {
+      "seed": 1002,
+      "source_sha256": "3a63dc1249b20a656fe1d480be3b056882cb2b9e38ee33f6b89f92aa3df39adc",
+      "proposed_occurrences": 16,
+      "assessed_eligible_occurrences": 15,
+      "distinct_proposed_sequence_strings": 16,
+      "distinct_eligible_sequence_strings": 15,
+      "unique_AMP_score_values": 12,
+      "unique_Hemo_score_values": 14,
+      "joint_native_labels_in_entire_eligible_pool": 0,
+      "selected_overlap": 0,
+      "selections": {
+        "amp-first": {
+          "tokens": [
+            "input-3",
+            "input-2",
+            "input-7",
+            "input-0"
+          ],
+          "AMP_positive": 4,
+          "NonHemo": 0,
+          "joint_native_labels": 0,
+          "mean_native_AMP_score": 0.6707921326160431,
+          "mean_native_Hemo_score": 0.8811881393194199,
+          "distinct_sequence_strings": 4
+        },
+        "hemolysis-first": {
+          "tokens": [
+            "input-11",
+            "input-14",
+            "input-6",
+            "input-13"
+          ],
+          "AMP_positive": 0,
+          "NonHemo": 4,
+          "joint_native_labels": 0,
+          "mean_native_AMP_score": 0.14356455206871033,
+          "mean_native_Hemo_score": 0.017326965928077698,
+          "distinct_sequence_strings": 4
+        }
+      }
+    }
+  ],
+  "artificial_semantic_probes": {
+    "lexicographic_tradeoff": {
+      "amp-first": [
+        "input-0"
+      ],
+      "hemolysis-first": [
+        "input-1"
+      ]
+    },
+    "unassessed_context_does_not_change_selection": true,
+    "duplicate_occurrences_selected": [
+      "input-0",
+      "input-1"
+    ],
+    "same_id_distinct_evidence": {
+      "result_JSON_different": true,
+      "Selection_objects_equal": true
+    },
+    "missing_head_excluded": [
+      "input-1"
+    ]
+  },
+  "malformed_receipt_observation": {
+    "in_memory": {
+      "exception": "OverflowError",
+      "message": "int too large to convert to float"
+    },
+    "JSON_roundtrip": {
+      "exception": "OverflowError",
+      "message": "int too large to convert to float"
+    }
+  },
+  "new_model_calls": 0,
+  "scientific_imports": [],
+  "resource_limits": {
+    "address_space_bytes": 1073741824,
+    "CPU_seconds": 15
+  },
+  "interpretation": "Known behavior probes are not new acceptance gates. Oversized integer is a reproduced diagnostic robustness defect; no native scientific failure inferred."
+}

@@ -1,0 +1,24 @@
+{
+  "schema": "peptidemt.hydramp_analogue_preparation_closeout@1",
+  "recorded_at_utc": "2026-11-04T16:18:12.900300+00:00",
+  "status": "A0 proposal/source review complete; A1 artificial implementation approval pending",
+  "owner_work_order_sha256": "11c1a85ec9233ba5a09ee18be377d41a577831793b9d7b7a2eef817a3415d360",
+  "evidence_sha256": "ee2d952385ae889e686d2cc67c45691361edea02fb6f777b7b5f9b6801cf4627",
+  "verified_hashes": 29,
+  "valid_relative_links": 226,
+  "owner_consumer_evidence_identical": true,
+  "checks": {
+    "ruff_check": "pass",
+    "ruff_format": "143 files already formatted",
+    "devguide_indexes": "current; existing queue stays partial",
+    "both_git_diff_check": "pass",
+    "owner_original_amp_and_LICENSE_diff": "empty",
+    "scientific_implementation_or_model_tests": "not run; source-only proposal"
+  },
+  "publication_receipt_sha256": "12f567e4da71db773b14f4da4de2b6481f0067e3390265eb09141acd8f5dba4e",
+  "scientific_model_calls": 0,
+  "real_parameter_array_opens_or_rehashes": 0,
+  "new_issues_commits_pushes_releases_external_contacts": [],
+  "next_decision": "Approve/narrow/defer concrete first analogue contract and A1 artificial-only implementation; real execution remains separately authorized",
+  "retention_through": "2026-11-14"
+}

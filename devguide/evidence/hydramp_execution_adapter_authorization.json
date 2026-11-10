@@ -1,0 +1,41 @@
+{
+  "schema": "peptidemt.hydramp_execution_adapter_authorization@1",
+  "recorded_at_utc": "2026-11-03T23:41:30.386866+00:00",
+  "plan_sha256": "1d4679f27d06d95bd402b1f9239e8dc1fc5120a722da5057be526220985da665",
+  "investigator_reference": "Investigator explicitly instructs proceeding in direct response to the complete exact-plan single CPU-case authorization request in this session",
+  "call_budget": {
+    "public_generation_calls": 1,
+    "numeric_PCA_loads": 1,
+    "checkpoint_loads": 1,
+    "PCA_inverse_transforms": 1,
+    "decoder_forwards": 1,
+    "AMP_forwards": 1,
+    "MIC_forwards": 1,
+    "descriptor_bundles": 1,
+    "neural_forwards_total": 3,
+    "proposals": 16,
+    "Macrel_calls": 0,
+    "legacy_calls": 0,
+    "retries": 0
+  },
+  "resources": {
+    "task_RAM_intent_bytes": 4000000000,
+    "worker_tree_sampled_RSS_stop_bytes": 2147483648,
+    "worker_address_space_bytes": 8589934592,
+    "minimum_host_available_bytes": 8589934592,
+    "minimum_disk_free_bytes": 1073741824,
+    "output_max_bytes": 134217728,
+    "worker_wall_seconds": 180,
+    "overall_case_wall_seconds": 210,
+    "parent_address_space_bytes": 1073741824,
+    "cpu_ids": [
+      0,
+      1
+    ],
+    "numerical_threads": 1,
+    "nice": 10,
+    "GPU": false,
+    "network": false
+  },
+  "scope": "Exactly one public generation of16 proposals at seed1001;3neural forwards,one descriptor bundle and numeric PCA/checkpoint loading,no Macrel/legacy/GPU/network/retries; no broad scientific adoption or publication"
+}

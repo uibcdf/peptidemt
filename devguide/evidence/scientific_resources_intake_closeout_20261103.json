@@ -1,0 +1,74 @@
+{
+  "schema": "peptidemt.scientific_resources_intake_closeout@1",
+  "date": "2026-11-03",
+  "status": "Existing OmegAMPrecord refreshed;AMPChallenge2027 published;watchlist established in existing datasets index",
+  "sources": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/evidence/scientific_resources_intake_20261103.json",
+    "bytes": 7488,
+    "sha256": "48432927615c7616ef5745fa74ab9fe548e0e6dca9aa910f7860730e68daa8f0"
+  },
+  "publication": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/evidence/scientific_resource_discussion_updates_20261103.json",
+    "bytes": 3108,
+    "sha256": "d5089cafb84bfaf3dbbf351d43c0234e60f54fa02ae16e2eeeadaf67470bc776"
+  },
+  "checks": {
+    "source_text_hashes": 12,
+    "relative_file_links": 161,
+    "devguide_index": "pass;existing indexes current",
+    "git_diff_check": "pass",
+    "public_body_category_label_and_search_readback": "pass",
+    "previous19discussions_retained": true,
+    "new_categories": 0,
+    "new_label_vocabulary": 0,
+    "local_verification_correction": "Initial ad-hoc assertion addressed exact_readback at wrong OmegAMP receipt nesting; corrected to its comment field. No component or publication changed."
+  },
+  "maintained_records": [
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/omegamp_review.md",
+      "bytes": 5111,
+      "sha256": "af073470cff7df314b16a0559fe4fe4e5fa68f62e3cb9cc4f2d0b14bcf220f97"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/peptide_design_challenges.md",
+      "bytes": 6430,
+      "sha256": "056f00bae68c2c18070e1fd35225e96032af9a333532efe8951200f6c19226e9"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/amp_resource_cards.md",
+      "bytes": 8020,
+      "sha256": "6579c6d1d9ca367ae582f2a5f31c30aed6c4632513c69e146b5f4c8b0eded5d4"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/tools_catalog.md",
+      "bytes": 36388,
+      "sha256": "e04c09419cb56448497be476daad403fe798980b51052c168084f4ae4e9638c9"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/README.md",
+      "bytes": 26031,
+      "sha256": "a1b3722192420308ee23ee5a74874eba0bba8c0c0f6f1e75a4a4ff1e97015805"
+    }
+  ],
+  "scope_limits": {
+    "scientific_acceptance": false,
+    "model_install_or_execution": false,
+    "weights_or_datasets_acquired": false,
+    "event_registration_submission_or_organizer_contact": false,
+    "third_party_repository_write": false,
+    "commit_push_release": false,
+    "new_review_files_published_on_main": false
+  },
+  "limitations": [
+    "Current challenge dates,final protocol and active submission status not independently established",
+    "Proposal PDF not reviewed;OpenReview browser challenge prevents independent paper evaluation",
+    "Exact OmegAMPassets/terms/runtime and CPU/RAM remain unqualified",
+    "New review files and code remain local/uncommitted;public Discussions have self-contained sources"
+  ],
+  "temporary_resources": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptide-resource-intake-2ys_dp1r",
+    "owner": "PeptideMTresource-intake review",
+    "retention_review": "2026-11-13",
+    "disposition": "Retain source-text snapshots and publication evidence;no model/installation/environment artifacts acquired;no background job or future schedule created"
+  }
+}

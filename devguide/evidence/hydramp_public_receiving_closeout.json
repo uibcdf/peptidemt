@@ -1,0 +1,114 @@
+{
+  "schema": "peptidemt.hydramp_public_receiving_closeout@1",
+  "date": "2026-11-03",
+  "recorded_at_utc": "2026-11-03T22:27:52.184895+00:00",
+  "issue": "uibcdf/peptidemt#8",
+  "status": "Provisional public data receiving and exact local installed-wheel proof complete; public generation execution/scientific disposition pending",
+  "execution": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/evidence/hydramp_public_receiving.json",
+    "bytes": 16625,
+    "sha256": "1c12fd16edca2ba297de7d154c5e93ea08ad0311849157018463d5ffa7e52ad0"
+  },
+  "publication": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/evidence/hydramp_public_receiving_issue_update.json",
+    "bytes": 3772,
+    "sha256": "b907e23b8c922aa1ce3e3bfa5802f016487c2b3d113d906602fa2278db5d74b1"
+  },
+  "checks": {
+    "ruff_check": {
+      "exit_code": 0,
+      "log_sha256": "82b3e6a6c090a57601d22943bd23fca9218d1031dbe5a7b754092f9a156b4f18"
+    },
+    "ruff_format": {
+      "exit_code": 0,
+      "log_sha256": "376c98847555bc08e6d0e81fe12f18c2e0f80f00d2279bb463c6b7c5f3d666c1"
+    },
+    "devguide_index": {
+      "exit_code": 0,
+      "log_sha256": "3a525cb88e38e62b2cd78f962eec311aeb1797c9a439b3c7d832b95b00a8d5b5"
+    },
+    "whitespace": {
+      "exit_code": 0,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "relative_file_links": {
+      "checked": 225,
+      "missing": 0
+    },
+    "unchanged_exact_tested_package_files": 18
+  },
+  "installed_tests": 41,
+  "documentation": "HTML passes with warnings fatal; six memory-input doctests pass; final HTML rebuilt after formatting one displayed Python snippet",
+  "new_scientific_model_PCA_descriptor_Macrel_calls": 0,
+  "scientific_acceptance": false,
+  "retention_review": "2026-11-13",
+  "documents": {
+    "devguide/hydramp_public_receiving.md": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/hydramp_public_receiving.md",
+      "bytes": 7560,
+      "sha256": "50c3cdf82aaee8a106ebaaaa832639906c85949bd73a624b1b5a2322d7d196eb"
+    },
+    "devguide/README.md": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/README.md",
+      "bytes": 27836,
+      "sha256": "d068ab0acd8a43a0bf222d422547768d7743cad0764afd64f621900f57de64cf"
+    },
+    "devguide/optional_engine_review.md": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/optional_engine_review.md",
+      "bytes": 7941,
+      "sha256": "fd0a1a0516f85507aa8902a20ede7ba5f9dfd285a823fdb710fd2929f476f7c7"
+    },
+    "devguide/pending_proposals/qualify_hydramp_increment_2.md": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/pending_proposals/qualify_hydramp_increment_2.md",
+      "bytes": 32832,
+      "sha256": "4f09b7b184024a9823f62343a4b7c5ec44888655428ca2ea8ef2d0b4385b495f"
+    },
+    "devguide/decisions.md": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/decisions.md",
+      "bytes": 81636,
+      "sha256": "e63cd9467588d0c40e4bfb266f0a90c2e0afdf3e3e9160e11364757aba06831f"
+    },
+    "devguide/hydramp_receiving_preparation.md": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/hydramp_receiving_preparation.md",
+      "bytes": 9266,
+      "sha256": "b9286ddf714ab41f545c260acf61002ea27bdffa9cc77a63591322931931466b"
+    },
+    "devguide/hydramp_h4_qualification.md": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/hydramp_h4_qualification.md",
+      "bytes": 15787,
+      "sha256": "5736006c83f82bcd20ff7b16b29142d05b83119da73cc28ed0c3438f8296cd0e"
+    },
+    "docs/content/user/generation_results.md": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/docs/content/user/generation_results.md",
+      "bytes": 5634,
+      "sha256": "1b9e342f40221d277b922ff3ac14f08ae3287d8096403028108d0121ab4f8355"
+    },
+    "docs/content/user/index.md": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/docs/content/user/index.md",
+      "bytes": 335,
+      "sha256": "c288933437e772c386b28c0c7f12046c725de1f95942f504856437fed5c33e9f"
+    },
+    "docs/api/public.rst": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/docs/api/public.rst",
+      "bytes": 873,
+      "sha256": "e11520639e824bb444b754ad55ff2284c43b9e651437711e7c8145ab2cd82573"
+    },
+    "docs/index.md": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/docs/index.md",
+      "bytes": 1759,
+      "sha256": "d23125c28a7bc8ed551e3dc21a90797ea0459e0231c7534d4297badd5d769990"
+    }
+  },
+  "prior_source_snapshot": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-public-receiving-umevqhn1/prior-source-manifest.json",
+    "bytes": 3764,
+    "sha256": "9e0556eace260984b5b93f83f1eb125ce5631d8c51368ff1a413908d387bf557"
+  },
+  "remaining_work": [
+    "Public isolated generation execution adapter and its actual installed-provider/attribution qualification",
+    "Investigator scientific disposition of dev3/H0-H4 with numerical and joint AMP/hemolysis limitations retained",
+    "Full applicable CI/platform receiving before any later distribution claim"
+  ],
+  "note": "Existing model/call budgets remain exhausted; no new inference approval requested or inferred by this data-only step",
+  "commit_push_package_publication": false
+}

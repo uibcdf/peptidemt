@@ -45,4 +45,12 @@ class AttributionWarning(CatalogWarning):
         )
 
 
+class HydrAMPFailureWarning(MacrelFailureWarning):
+    catalog_key = "HydrAMPFailureWarning"
+
+
+class HydrAMPAttributionWarning(AttributionWarning):
+    catalog_key = "HydrAMPAttributionWarning"
+
+
 bundle = DiagnosticBundle(CATALOG, META, PACKAGE_ROOT)

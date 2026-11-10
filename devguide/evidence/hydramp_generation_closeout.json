@@ -1,0 +1,44 @@
+{
+  "schema": "peptidemt.hydramp_generation_closeout@1",
+  "recorded_at_utc": "2026-11-03T04:37:45.065533+00:00",
+  "issue": "uibcdf/peptidemt#8",
+  "checks": {
+    "installed_wheel_artificial_tests": {
+      "passed": 74,
+      "failed": 0,
+      "exit": 0
+    },
+    "native_base_dependency_closure": {
+      "installed_distributions": 18,
+      "exit": 0
+    },
+    "external_versions_and_lock_graph_unchanged": true,
+    "numerical_core_and_prior_equal_dev0": true,
+    "ruff_check_and_format": "pass on five changed/new Python files",
+    "report_index": "pass, current",
+    "reporting_protocol_pytest": {
+      "passed": 1,
+      "failed": 0,
+      "exit": 0
+    },
+    "git_diff_check": "pass",
+    "relative_links_checked": 118,
+    "source_wheel_task_and_provider_hashes": "verified",
+    "issue_comments_and_provider_component_label": "verified"
+  },
+  "pretrained_execution": {
+    "model_or_pca_loads": 0,
+    "model_forwards": 0,
+    "real_descriptor_calls": 0,
+    "macrel_calls": 0,
+    "gpu_compute": false
+  },
+  "pending": [
+    "Explicit descriptor deployment/owner qualification",
+    "Fresh exact broader fixture/use and finite model resource/call proposal",
+    "Actual complete native result/descriptor/ordering/seed parity",
+    "PeptideMT adapter and portable result/provenance",
+    "H0\u2013H4 receiving and investigator acceptance of the full resource"
+  ],
+  "publication": "Only authorized own-project issue updates; source remains local/uncommitted, no package release or push."
+}

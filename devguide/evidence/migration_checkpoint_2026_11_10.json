@@ -1,0 +1,157 @@
+{
+  "schema": "peptidemt.migration_checkpoint@1",
+  "recorded_utc": "2026-11-10T19:15:26.194119+00:00",
+  "status": "handoff_prepared_destination_not_received",
+  "owner_issues": [
+    "uibcdf/peptidemt#33",
+    "uibcdf/peptidemt#32",
+    "uibcdf/hydramp#4"
+  ],
+  "authority": "Investigator explicitly requests reviewing/completing devguide and issues as a continuation checkpoint before migration to a different machine",
+  "host_correction": {
+    "old_feasibility_record": "devguide/evidence/mdm2_node_feasibility_2026_11_10.json",
+    "old_measurements_apply_to": "source machine only",
+    "destination": "different machine; specifications and location not supplied",
+    "destination_or_GPU_receiving_executed": false,
+    "old_receipt_changed": false
+  },
+  "checkpoint_document": "devguide/migration_checkpoint_2026_11_10.md",
+  "task_directory": "local_data/peptidemt-migration-checkpoint-9wc2d747",
+  "repositories": {
+    "peptidemt": {
+      "head": "1f8c444e4619499cae8ad9970122c5f40adf6127",
+      "tracked_status_lines": [
+        " M AGENTS.md",
+        " M README.md",
+        " M devguide/README.md",
+        " M devguide/amp_resource_cards.md",
+        " M devguide/archive/README.md",
+        " M devguide/decisions.md",
+        " M devguide/design_methodology.md",
+        " M devguide/generative_resource_survey.md",
+        " M devguide/governance.md",
+        " M devguide/hydramp_environment_review.md",
+        " M devguide/open_questions.md",
+        " M devguide/optional_engine_review.md",
+        " M devguide/pending_bugs/README.md",
+        " M devguide/pending_proposals/README.md",
+        " D devguide/pending_proposals/qualify_hydramp_increment_2.md",
+        " M devguide/protein_peptide_design_engines.md",
+        " M devguide/roadmap.md",
+        " M devguide/scientific_trajectory.md",
+        " M devguide/tools_catalog.md",
+        " M devguide/v0_1_scope.md",
+        " M docs/README.md",
+        " M docs/api/public.rst",
+        " M docs/content/user/index.md",
+        " M docs/index.md",
+        " M src/peptidemt/__init__.py",
+        " M src/peptidemt/_attribution.py",
+        " M src/peptidemt/_data.py",
+        " M src/peptidemt/_depdigest.py",
+        " M src/peptidemt/_diagnostics.py",
+        " M src/peptidemt/_private/smonitor/catalog.py",
+        " M src/peptidemt/results.py",
+        " M tests/test_attribution.py",
+        " M tests/test_w2_macrel.py"
+      ]
+    },
+    "hydramp": {
+      "head": "6590d2f4c2963f25d30669052a4c4a857e0e7279",
+      "tracked_status_lines": [
+        " M .gitignore",
+        " M README.md",
+        " M setup.py"
+      ]
+    },
+    "molsysmt": {
+      "head": "71fbe4f46d3c70e4e973c8025f01752a8c9b1084",
+      "tracked_status_lines": []
+    },
+    "dockingmt": {
+      "head": "2fda6238e6b1cb3742f5d30b8ed3af699f9ed748",
+      "tracked_status_lines": []
+    },
+    "molsyssuite": {
+      "head": "b9852d973e96613a68cab7278491ff647bfd0b7d",
+      "tracked_status_lines": []
+    },
+    "pyunitwizard": {
+      "head": "9d74f0e1e911d78c1906948e74ce8da93935557d",
+      "tracked_status_lines": []
+    },
+    "ackredit": {
+      "head": "74f865d7eca1f5386235885d4ea001e53b5b822d",
+      "tracked_status_lines": []
+    },
+    "recorda": {
+      "head": "ff52fa5d8628d796f413b833c8abe73907990cf9",
+      "tracked_status_lines": []
+    }
+  },
+  "source_and_worktree_inventory": "local_data/peptidemt-migration-checkpoint-9wc2d747/repositories.json",
+  "non_git_evidence_inventory": "local_data/peptidemt-migration-checkpoint-9wc2d747/non-git-evidence-inventory.json",
+  "initial_reference_inventory": {
+    "identity_path_records": 1746,
+    "available": 1745,
+    "absent": [
+      {
+        "path": "/tmp/peptidemt-current-discussions.json",
+        "evidence_documents": [
+          "devguide/evidence/scientific_resources_intake_20261103.json"
+        ],
+        "expected_sha256": [
+          "b9d78cfa5c576bc801f0f1ca9d6993d3e72f347215b674d037f66fa4e485c44e"
+        ],
+        "exists": false,
+        "kind": "unavailable",
+        "bytes": null,
+        "integrity_rehashed": false
+      }
+    ],
+    "scope": "Explicit path/sha256 records in maintained JSON receipts; metadata-only inventory, not full recursive asset closure"
+  },
+  "pre_edit_navigation_audit": {
+    "local_link_targets": 1447,
+    "missing": 0,
+    "record": {
+      "path": "local_data/peptidemt-migration-checkpoint-9wc2d747/initial-links.json",
+      "bytes": 39,
+      "sha256": "eeaee9c756742d6c1b61936403726fe65816d4e267a3b9b3f9d60e99c5baddd7"
+    }
+  },
+  "private_recovery_output": {
+    "archive": "local_data/peptidemt-migration-checkpoint-9wc2d747/recovery.tar",
+    "manifest_inside_archive": "MANIFEST.json",
+    "sidecar": "local_data/peptidemt-migration-checkpoint-9wc2d747/recovery.tar.sha256",
+    "contains": "Full Git-visible PeptideMT and eleven HydrAMP worktree sources, PeptideMT/HydrAMP Git bundles, explicitly inventoried retained evidence files and this checkpoint operational records",
+    "not_claimed": "Full ignored workspace/Conda/model-asset closure, destination transfer or installed qualification",
+    "verification_record": "local_data/peptidemt-migration-checkpoint-9wc2d747/archive-verification.json"
+  },
+  "preserve_original_receipts": [
+    {
+      "path": "devguide/evidence/mdm2_node_feasibility_2026_11_10.json",
+      "bytes": 15821,
+      "sha256": "e5794875bf3169bfb0fb29c12d5764f7e4595057f0d7a3735688669c6f7e4177"
+    },
+    {
+      "path": "devguide/evidence/mdm2_t0_execution.json",
+      "bytes": 31113,
+      "sha256": "bd12b0bd4eb1a12885e151d25e07d855a0ff62c0b42d3156e3dd2afa188b0593"
+    },
+    {
+      "path": "devguide/evidence/mdm2_t1a_qualification.json",
+      "bytes": 37368,
+      "sha256": "156652a053840efe34fec2c0a0ce026654e5e936130381c523c180afd263775f"
+    },
+    {
+      "path": "devguide/evidence/hydramp_result_invariants.json",
+      "bytes": 66106,
+      "sha256": "15c5814cfec53531e51f5424d46ea54f028e0e345fd9b30f2bd0537cf77c81d3"
+    }
+  ],
+  "no_scientific_execution": true,
+  "commit_push_or_release": false,
+  "no_remote_transfer": true,
+  "archive_status": "prepared for bounded creation and byte verification; final outcome recorded in separate closeout"
+}

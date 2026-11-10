@@ -1,0 +1,37 @@
+{
+  "schema": "peptidemt.hydramp_generation_result_authorization@1",
+  "recorded_at_utc": "2026-11-06T00:41:29.944280+00:00",
+  "authority": "Explicit investigator approval of the concrete first independent generation-result/provenance contract",
+  "decision": "D50",
+  "owner_issues": [
+    "uibcdf/hydramp#4",
+    "uibcdf/hydramp#2",
+    "uibcdf/peptidemt#32"
+  ],
+  "approved_contract": {
+    "path": "devguide/hydramp_result_contract.md",
+    "sha256": "ce32baaa65cdce9a6474f95bac3a65ec5425fd3601bbdeb8f6e8983f4f4ed70b",
+    "snapshot": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-result-implementation-w5p9gdfz/approved_contract.md"
+  },
+  "commission": [
+    "Descriptive owner profile",
+    "Faithful save/read of completed generation traces and independent model-free inspection",
+    "Controlled lazy-import/vocabulary refactor preserving existing native APIs and meanings",
+    "Optional caller-owned Recorda references and detached Ackredit metadata",
+    "Synthetic/source/installed qualification with zero neural evaluations or learned reads"
+  ],
+  "base_commit": "a77baff9de97e8ab4ae101b9b0c79122dea22ce3",
+  "new_candidate": "0.0.0.dev8",
+  "planned_worktree": "/home/liliana/repos@uibcdf/hydramp/local_data/generation-results-20261105",
+  "planned_branch": "peptidemt-generation-results",
+  "standing_resource_authority": "D49",
+  "exclusions": [
+    "New scientific algorithms/chemistry or acceptance",
+    "Analogue/encoder portable contracts",
+    "Neural evaluations or weights/PCA loading",
+    "GPU/training/feedback/new families or targets",
+    "Package/model publication or external contact",
+    "Git commit/push"
+  ],
+  "retention_review_date": "2026-11-19"
+}

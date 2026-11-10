@@ -1,0 +1,23 @@
+{
+  "date": "2026-11-05",
+  "decision": "D49 standing technical execution delegation; investigator-approved D50 serial lightweight resource profile",
+  "scope": "synthetic generation-result/profile tests, optional saved-result SDK checks and packaging/install qualification only",
+  "user_selection": "Apply the serial 512 MiB profile and 4 GiB reserve",
+  "one_job_at_a_time": true,
+  "cpu_ids": [
+    0,
+    1
+  ],
+  "numerical_threads": 1,
+  "rss_stop_bytes": 536870912,
+  "rss_scope": "sampled supervisor and descendants",
+  "min_available_memory_bytes": 4294967296,
+  "address_space_bytes": 8589934592,
+  "wall_seconds_per_job": 180,
+  "cpu_seconds_per_worker": 120,
+  "no_gpu": true,
+  "neural_evaluations": 0,
+  "learned_or_pca_reads": 0,
+  "historical_receipts_unchanged": true,
+  "commit_push_release_or_new_scientific_scope_authorized": false
+}

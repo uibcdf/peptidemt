@@ -1,0 +1,120 @@
+{
+  "schema": "peptidemt.hydramp_numerical_receiving_preparation_closeout@1",
+  "date": "2026-11-03",
+  "recorded_at_utc": "2026-11-03T21:00:22.133849+00:00",
+  "state": "Finite attribution complete; private receiving source and saved replay pass; exact live H3/H4 plan prepared, approval pending",
+  "checks": {
+    "index": {
+      "exit_code": 0,
+      "log": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-h4-qualification-mc6nax6v/preparation/index.log",
+      "sha256": "3a525cb88e38e62b2cd78f962eec311aeb1797c9a439b3c7d832b95b00a8d5b5"
+    },
+    "consumer_whitespace": {
+      "exit_code": 0,
+      "log": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-h4-qualification-mc6nax6v/preparation/consumer_whitespace.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "provider_whitespace": {
+      "exit_code": 0,
+      "log": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-h4-qualification-mc6nax6v/preparation/provider_whitespace.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "preserved_original_source": {
+      "exit_code": 0,
+      "log": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-h4-qualification-mc6nax6v/preparation/preserved_original_source.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "relative_file_links": {
+      "exit_code": 0,
+      "log": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-h4-qualification-mc6nax6v/preparation/relative_file_links.log",
+      "sha256": "8ec353c8a7d03558915ca2cd074baa87799260acf5f1f0ac461f071934d65026"
+    },
+    "exact_plan_byte_preflight": {
+      "exit_code": 0,
+      "log": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-h4-qualification-mc6nax6v/preparation/exact_plan_byte_preflight.log",
+      "sha256": "bce08c0926463a273b31b49899a6f249e61e3d502c5cbe6920c786a00a52c649"
+    },
+    "canonical_guide_text_matches": true
+  },
+  "artificial_tests": {
+    "activation_attribution": 7,
+    "final_combined_receiver_controller": 34,
+    "no_new_live_model_pca_descriptor_macrel_calls": true
+  },
+  "plan_sha256": "f9b8040897079401d75c6ad3afd3b0cfc499350abfc2943a268b37646ba82c2a",
+  "scientific_authorization_present": false,
+  "scientific_attempts_present": false,
+  "scientific_acceptance": false,
+  "candidate": "hydramp-torch0.0.0.dev3 unchanged",
+  "known_limits": [
+    "FP64 diagnostic is approximate, not biological truth; modern aggregate improvement is not universal pointwise superiority",
+    "Historical probability/global-rank FAILs retained; no threshold changed or broad D40 extension",
+    "Source-extension experiment does not qualify a new installed public API",
+    "4GB task intent and 2GiB sampled process-tree RSS stop are not kernel memory reservations",
+    "No new host/call permission inferred from preparation or issue publication"
+  ],
+  "commit_push_release": false,
+  "retention_review": "2026-11-13",
+  "maintained_files": {
+    "AGENTS.md": {
+      "sha256": "c54975e685789f8ac60fa04296d19245063f1734e2df783c43666882f5b96bb5",
+      "bytes": 6781
+    },
+    "devguide/README.md": {
+      "sha256": "7fa21d38dc2876c03df53a681a4efcd9103d90e18842d07f58ae9123ceefcaee",
+      "bytes": 26711
+    },
+    "devguide/decisions.md": {
+      "sha256": "9fd2e26444094fa36a8b5e19b2cf0d81dca07a4c23b118143a6f59173a7bc3b3",
+      "bytes": 79788
+    },
+    "devguide/pending_proposals/qualify_hydramp_increment_2.md": {
+      "sha256": "39545d1bc686e8694e26f540472d5d95f3b99f4a008746b139a9cd0077970607",
+      "bytes": 30371
+    },
+    "devguide/hydramp_amp_activation_attribution.md": {
+      "sha256": "93b62a4d1a46bad84bd3acd2e88d5ab0207f9f126f0a4cdd1496985f9d1391b4",
+      "bytes": 6389
+    },
+    "devguide/hydramp_amp_error_attribution.md": {
+      "sha256": "bdd6107bcd9598e9f022bfd2ad00404d273dde51dfe63ff8136b81e281b0971f",
+      "bytes": 6735
+    },
+    "devguide/hydramp_receiving_preparation.md": {
+      "sha256": "69eded88ac74bb10bd30cfff50760ef3c64b3ff1a45cc31aee0a98cd74ba183e",
+      "bytes": 6880
+    },
+    "devguide/hydramp_h4_qualification.md": {
+      "sha256": "956083e3f7c677f99b69e9a3dc8edf7b117adc8e19842e00308491d00ecd584a",
+      "bytes": 9256
+    },
+    "devguide/hydramp_pytorch_review.md": {
+      "sha256": "597a24f23952a4d2c19a48b8b2cf7ca09a9152f51a14689a26db31d4b6523520",
+      "bytes": 10550
+    },
+    "devguide/evidence/hydramp_amp_activation_attribution.json": {
+      "sha256": "50bd26f61970cb2ea5e5560e624626af6b717bb373f0e56f5716c9d825fe07d8",
+      "bytes": 32013
+    },
+    "devguide/evidence/hydramp_receiving_preparation.json": {
+      "sha256": "36a731280b4937c349e46d1c7e76806bb5c4296941ef993e561051630fc20954",
+      "bytes": 20395
+    },
+    "devguide/evidence/hydramp_h4_preparation.json": {
+      "sha256": "866122b6d47f082318e366a395450a1b913f092274f604c06e32ef061f9936f5",
+      "bytes": 54057
+    },
+    "devguide/evidence/hydramp_activation_receiving_issue_updates.json": {
+      "sha256": "8fbd3044c3d0e7821416a25e71cd554c5452aaa455d6108bbc1b0d8c89b46c1a",
+      "bytes": 8264
+    },
+    "devguide/evidence/hydramp_h4_preparation_issue_update.json": {
+      "sha256": "10d04215cc921563e54d58ad16be6fa7d61a42ee30be318ffe52053a22bdb4b8",
+      "bytes": 4386
+    }
+  },
+  "previous_consumer_document_manifest": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-h4-qualification-mc6nax6v/preparation/previous_docs/manifest.json",
+    "sha256": "9c49d7bb1262e5f9ee5075900b65e8773d9106b0002cd2e8177d5b9fd94bcca8"
+  }
+}

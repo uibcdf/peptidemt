@@ -203,7 +203,7 @@ def test_unqualified_molsysmt_installers_are_not_invented(monkeypatch):
             worker._load_molsysmt()
         message = str(caught.value)
         assert "conda install" not in message and "pip install" not in message
-        assert "peptidemt/blob/main/devguide/w2_macrel.md" in message
+        assert "peptidemt/blob/main/devguide/optional_engine_review.md" in message
     finally:
         checker.is_installed.cache_clear()
 

@@ -1,0 +1,56 @@
+{
+  "schema": "peptidemt.hydramp_redesign_R1R2_closeout@1",
+  "date": "2026-11-04",
+  "delivery_receipt_sha256": "c685e82737e1049880f4b8b085f7bc2d7af3b64037cba936a5834590a3d98dde",
+  "checks": {
+    "source_tests_passed": 259,
+    "installed_tests_passed": 101,
+    "artificial_network_evaluations": 21,
+    "learned_model_or_Macrel_calls": 0,
+    "independent_codec_probe": "PASS with consumer/support imports and all parameter reads blocked",
+    "strict_HTML": "PASS",
+    "doctest": {
+      "passed": 6,
+      "failed": 0
+    },
+    "ruff": "PASS",
+    "format": {
+      "files": 165,
+      "status": "PASS"
+    },
+    "reporting_indexes": "current",
+    "relative_file_links": {
+      "checked": 306,
+      "missing": 0
+    },
+    "whitespace": "PASS",
+    "owner_receipt": "byte-identical",
+    "source_and_artifact_hashes": "match"
+  },
+  "issue_updates": [
+    {
+      "repository": "uibcdf/hydramp",
+      "id": 6642578731,
+      "url": "https://github.com/uibcdf/hydramp/issues/4#issuecomment-6642578731",
+      "exact_body_verified": true
+    },
+    {
+      "repository": "uibcdf/peptidemt",
+      "id": 6642620735,
+      "url": "https://github.com/uibcdf/peptidemt/issues/32#issuecomment-6642620735",
+      "exact_body_verified": true
+    }
+  ],
+  "remaining": {
+    "R3": "not begun; exact real case/bundles/criteria and fresh full host/call approval required",
+    "host_worker_identity": "controlled local wheel/caller match; shared editable metadata preserved, not interchangeable",
+    "shared_pip_check": "seven inherited AmberTools findings, already owned under MolSysSuite#82; isolated21-package profile clean",
+    "source_delivery": "local/uncommitted, no release/push/author contact"
+  },
+  "historical_owner_guidance": "Copied unchanged to separate worktree; independent saved-case helper retained to preserve README navigation",
+  "retention": {
+    "owner": "PeptideMT#32 / HydrAMP#4",
+    "review_by": "2026-11-18",
+    "shared_environments_and_assets": "preserved"
+  }
+}

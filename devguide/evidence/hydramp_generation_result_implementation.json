@@ -1,0 +1,371 @@
+{
+  "schema": "peptidemt.hydramp_generation_result_implementation@1",
+  "recorded_at_utc": "2026-11-06T01:27:11.031035+00:00",
+  "status": "source_implemented_final_source_and_artifact_qualification_incomplete_host_reserve",
+  "authority": {
+    "path": "devguide/evidence/hydramp_generation_result_authorization.json",
+    "bytes": 1701,
+    "sha256": "77687cc196e769f8def8ba96004fc6ee0cbc3307a555c91829cc17fe2df9a755"
+  },
+  "decision": "D50",
+  "standing_execution_authority": "D49",
+  "owner_issues": [
+    "uibcdf/hydramp#4",
+    "uibcdf/hydramp#2",
+    "uibcdf/peptidemt#32"
+  ],
+  "worktree": "/home/liliana/repos@uibcdf/hydramp/local_data/generation-results-20261105",
+  "branch": "peptidemt-generation-results",
+  "base_commit": "a77baff9de97e8ab4ae101b9b0c79122dea22ce3",
+  "new_commit": null,
+  "candidate": "0.0.0.dev8",
+  "current_source": {
+    "ports/pytorch/pyproject.toml": {
+      "sha256": "f82a5e1eccc582b8f63d9f3eaca4a676b10939b1cda7b766cf0032ba8fbd1a8b",
+      "bytes": 942
+    },
+    "ports/pytorch/src/hydramp_torch/__init__.py": {
+      "sha256": "f61313c2a83238b4861bd9cd28777d83f2e4f8dd2be63f5c7163f95061571d84",
+      "bytes": 1277
+    },
+    "ports/pytorch/src/hydramp_torch/_version.py": {
+      "sha256": "17911c4e4cef5142dbecc32637f9c2275856d85ec81cf4bfffa7f7913acf253b",
+      "bytes": 109
+    },
+    "ports/pytorch/src/hydramp_torch/codec.py": {
+      "sha256": "549ce530a73b019aeace0c6fa44dd83f031983c73d3593adda40d83c8fc78d48",
+      "bytes": 1585
+    },
+    "ports/pytorch/src/hydramp_torch/inference.py": {
+      "sha256": "fa03c15eaa62a441e7c13687a00a8988ef332bd42a9f10a0b294c97dc34a1426",
+      "bytes": 11909
+    },
+    "ports/pytorch/src/hydramp_torch/integrations.py": {
+      "sha256": "4956217f6aff8a5f392a4a6118e76f7bdffd200492a2ab714a23db5ccd907cd5",
+      "bytes": 1380
+    },
+    "ports/pytorch/src/hydramp_torch/profiles.py": {
+      "sha256": "315a8fb1f500926ad80429cd01259e27642c1191b000780300744fe4742dea7d",
+      "bytes": 5748
+    },
+    "ports/pytorch/src/hydramp_torch/properties.py": {
+      "sha256": "91cefe4ba5f80e070c7a028759af86efa71456ca577845447ed53fab9b4f3fba",
+      "bytes": 3144
+    },
+    "ports/pytorch/src/hydramp_torch/results.py": {
+      "sha256": "a0fe96f172e032726948405abb89f40cc1ddadba702f77ec278caea21b4ee156",
+      "bytes": 17350
+    },
+    "ports/pytorch/src/hydramp_torch/vocabulary.py": {
+      "sha256": "458544eb2e10887b19e4e83eaeec32af75f39e4c4d530553a101df1b6501b849",
+      "bytes": 813
+    },
+    "ports/pytorch/tests/test_generation_profiles.py": {
+      "sha256": "315a381ee9b6561e3c391054b3f2bf649393d45310c4828d44cfcd996b931f5c",
+      "bytes": 4388
+    },
+    "ports/pytorch/tests/test_generation_results.py": {
+      "sha256": "efd54c44f5ff2c886f87bec4322a0f4cfce64fbbc1b8ad19b9c5e7e3488bcea1",
+      "bytes": 14000
+    },
+    "ports/pytorch/tests/test_result_integrations.py": {
+      "sha256": "f1b6d5e56124efec7963e8752a1e75e47d1eef1baf61fb0a2ee89728d70b5cb9",
+      "bytes": 3972
+    },
+    "ports/pytorch/uv.lock": {
+      "sha256": "3bc9972489805d4c0508aca2e9d282208f89076f20f8d371c97200faa49d059b",
+      "bytes": 127285
+    },
+    "AGENTS.md": {
+      "sha256": "2df822851512c99d35f1e79c0877820d6728c817a1d5ea85607157a7458729fb",
+      "bytes": 5943
+    },
+    "README.md": {
+      "sha256": "bf2de4257044cc7b318a8a12c575fd2d70d124f83133866e791593bc4c16f94e",
+      "bytes": 10619
+    },
+    "devguide/README.md": {
+      "sha256": "c3644d6db1b78e1a40555a1c1651040fc1af28da2476cf85a43e4ab9607af0c1",
+      "bytes": 9765
+    },
+    "devguide/generation_results.md": {
+      "sha256": "7b9a0752bbfa4a6cb69165e2adba747988611760e955985932ad3552ea373cff",
+      "bytes": 3558
+    },
+    "ports/pytorch/README.md": {
+      "sha256": "6d2a505988c132d517a55168ee34845db730db2c92497a209c4fc215f6fa97ee",
+      "bytes": 5299
+    }
+  },
+  "source_manifest": {
+    "path": "local_data/hydramp-result-implementation-w5p9gdfz/final-source-manifest.json",
+    "bytes": 2823,
+    "sha256": "e25932cb7e23869956401b9cdb4ee295b345534996666b250e41f5cd1d713808"
+  },
+  "complete_review_patch": {
+    "path": "local_data/hydramp-result-implementation-w5p9gdfz/complete-owned-source.patch",
+    "bytes": 70984,
+    "sha256": "a9743d944f6caf041d81ba23c78d6a51c0347035bc1364c4b042511a3dbb85cb"
+  },
+  "delivered": [
+    "Detached owner profile and shared descriptor delegation parameters",
+    "Bounded faithful generation NPZ/JSON save/read with explicit original history/unknowns",
+    "Light owner vocabulary and lazy package exports; same original scientific methods",
+    "Explicit optional Recorda reference and Ackredit detached metadata adapters",
+    "Focused source/SDK regression tests and current user/owner instructions"
+  ],
+  "preservation": {
+    "clean_dev7_worktree_and_commit_preserved": true,
+    "inference_classes_and_other_functions_AST_unchanged": true,
+    "five_earlier_runtime_modules_byte_identical": [
+      "generation.py",
+      "analogue.py",
+      "encoder.py",
+      "prior.py",
+      "_checkpoint.py"
+    ],
+    "lock_graph_changes_only_project_version": true,
+    "numerical_pins_assets_and_accepted_resources_unchanged": true,
+    "PeptideMT_runtime_and_M1_M8_unchanged": true
+  },
+  "evidence": {
+    "owner-sync-manifest.json": {
+      "path": "local_data/hydramp-result-implementation-w5p9gdfz/owner-sync-manifest.json",
+      "bytes": 2079,
+      "sha256": "20db8aead8c200721c27885c1fe603689d8bc875f5a3ab88b585c88a302db8da"
+    },
+    "final-source-manifest.json": {
+      "path": "local_data/hydramp-result-implementation-w5p9gdfz/final-source-manifest.json",
+      "bytes": 2823,
+      "sha256": "e25932cb7e23869956401b9cdb4ee295b345534996666b250e41f5cd1d713808"
+    },
+    "static-preservation.json": {
+      "path": "local_data/hydramp-result-implementation-w5p9gdfz/static-preservation.json",
+      "bytes": 477,
+      "sha256": "614dc2ff578c430930e4ba08e5c1a549f2cae2376a6b385b13258e07877d5639"
+    },
+    "early-test-artifacts-received.json": {
+      "path": "local_data/hydramp-result-implementation-w5p9gdfz/early-test-artifacts-received.json",
+      "bytes": 3609,
+      "sha256": "cfb3109a1025f24a2f5120847a3550a47492377e2d6cc21c768c98794495c959"
+    },
+    "core-first-failure-disposition.json": {
+      "path": "local_data/hydramp-result-implementation-w5p9gdfz/core-first-failure-disposition.json",
+      "bytes": 919,
+      "sha256": "a2ca96e71469e383a5af047b2430f6df6ebc880ddbbbcfb67239a509ab85ad74"
+    },
+    "sync-whitelist-disposition.json": {
+      "path": "local_data/hydramp-result-implementation-w5p9gdfz/sync-whitelist-disposition.json",
+      "bytes": 423,
+      "sha256": "1ed682866e81f6839812f086948251565022c9169f20d9081802a448742ba6fb"
+    },
+    "core-run/declaration.json": {
+      "path": "local_data/hydramp-result-implementation-w5p9gdfz/core-run/declaration.json",
+      "bytes": 912,
+      "sha256": "adee6c9b8fd38e861aa9e9ab8402054c4e572ad683fd0507d05a07fc55993bfb"
+    },
+    "core-run/supervision.json": {
+      "path": "local_data/hydramp-result-implementation-w5p9gdfz/core-run/supervision.json",
+      "bytes": 260,
+      "sha256": "d00cb187cc0ab9f879caaf9d3bf2815c8009c21f5ae32e8d3aeaa8236ca72695"
+    },
+    "core-run/result.json": {
+      "path": "local_data/hydramp-result-implementation-w5p9gdfz/core-run/result.json",
+      "bytes": 509,
+      "sha256": "00d30593798ffd476a895c172e3be87fbee48c94cce36727641396abc49c0eb0"
+    },
+    "core-run/events.jsonl": {
+      "path": "local_data/hydramp-result-implementation-w5p9gdfz/core-run/events.jsonl",
+      "bytes": 76224,
+      "sha256": "7fe3fa4df4e6e872556d96663bce76ee5bc3d57d8a487de3aca6e45bdd2864ac"
+    },
+    "core-run/source-files-received.json": {
+      "path": "local_data/hydramp-result-implementation-w5p9gdfz/core-run/source-files-received.json",
+      "bytes": 1801,
+      "sha256": "e9d339a79815b578864d4721514dc4d7b00a33c66cc8263c26d67e244e3b2f2a"
+    },
+    "core-retry/declaration.json": {
+      "path": "local_data/hydramp-result-implementation-w5p9gdfz/core-retry/declaration.json",
+      "bytes": 860,
+      "sha256": "cbbfeb94e81fbf3f706444e67be67c8822f9b31841c908aba4e39b1d838a4337"
+    },
+    "core-retry/supervision.json": {
+      "path": "local_data/hydramp-result-implementation-w5p9gdfz/core-retry/supervision.json",
+      "bytes": 246,
+      "sha256": "95ec687c7dea799f4b1a7bdaa435aff128e07bb9c7ad859e00bcc620e5ec5a63"
+    },
+    "core-retry/result.json": {
+      "path": "local_data/hydramp-result-implementation-w5p9gdfz/core-retry/result.json",
+      "bytes": 620,
+      "sha256": "73e57d7d9a171cd6a20bd6d39ed4f5127df22aa05b1f1ff79dd74ee4d9d43a6d"
+    },
+    "core-retry/events.jsonl": {
+      "path": "local_data/hydramp-result-implementation-w5p9gdfz/core-retry/events.jsonl",
+      "bytes": 3577,
+      "sha256": "5295c8249198cb541c05eb977842c4791c1ee0c3f26873d4d0bfafc2a161d89b"
+    },
+    "sdk-run/declaration.json": {
+      "path": "local_data/hydramp-result-implementation-w5p9gdfz/sdk-run/declaration.json",
+      "bytes": 629,
+      "sha256": "2799875954d3f9724c29868f0430be8496034d3b697dea7a20fa93cdcd51888b"
+    },
+    "sdk-run/supervision.json": {
+      "path": "local_data/hydramp-result-implementation-w5p9gdfz/sdk-run/supervision.json",
+      "bytes": 244,
+      "sha256": "13169668bd52f5cf5df65e7c9d78830f3e14a5e6b79b2fac3c898324fae56070"
+    },
+    "sdk-run/result.json": {
+      "path": "local_data/hydramp-result-implementation-w5p9gdfz/sdk-run/result.json",
+      "bytes": 1378,
+      "sha256": "39f6158cb02b6634732cdd6b4d09e1784d51310a007c642d45728db6c4fe8f71"
+    },
+    "sdk-run/events.jsonl": {
+      "path": "local_data/hydramp-result-implementation-w5p9gdfz/sdk-run/events.jsonl",
+      "bytes": 9787,
+      "sha256": "d9c1bdf347a83af0f8c8934b97a1e854d996239697729bbe7a994535194cd82d"
+    },
+    "sdk-run/source-files.json": {
+      "path": "local_data/hydramp-result-implementation-w5p9gdfz/sdk-run/source-files.json",
+      "bytes": 1620,
+      "sha256": "20339f865e1a5cadc3ce213cdfc8a17adec6e77d5b0d1742ac22c14195659075"
+    },
+    "build-run/declaration.json": {
+      "path": "local_data/hydramp-result-implementation-w5p9gdfz/build-run/declaration.json",
+      "bytes": 609,
+      "sha256": "d74348b44694697c5dda57e4ae1f5008b3ae8f3d94cb768ebbde68dfd1df6be3"
+    },
+    "build-run/supervision.json": {
+      "path": "local_data/hydramp-result-implementation-w5p9gdfz/build-run/supervision.json",
+      "bytes": 59,
+      "sha256": "876256cd9a95b0b03514b0b69b8f6e188c2fdb39cd14c9ca1ba72ccfc60f91e3"
+    },
+    "build-retry/declaration.json": {
+      "path": "local_data/hydramp-result-implementation-w5p9gdfz/build-retry/declaration.json",
+      "bytes": 788,
+      "sha256": "46633517c6cfda2e435c21a7525e4bacbd7a6482c4f7e797a28fa4fd8c5e732a"
+    },
+    "build-retry/supervision.json": {
+      "path": "local_data/hydramp-result-implementation-w5p9gdfz/build-retry/supervision.json",
+      "bytes": 262,
+      "sha256": "7c78304815b422a1d1466ee07b5e83551b5fdf820be01637c12e7a7cb66744e6"
+    },
+    "interrupted-build-disposition.json": {
+      "path": "local_data/hydramp-result-implementation-w5p9gdfz/interrupted-build-disposition.json",
+      "bytes": 999,
+      "sha256": "96769894372e568bcf889caf6419bcdd313f8dbc6e884b4b18199c597f783a82"
+    },
+    "final-source-deferred.json": {
+      "path": "local_data/hydramp-result-implementation-w5p9gdfz/final-source-deferred.json",
+      "bytes": 184,
+      "sha256": "4524976ebb7b2c6b7a6b47982955fc6e31949f6c304f688ea8a229624514b08e"
+    },
+    "complete-owned-source.patch": {
+      "path": "local_data/hydramp-result-implementation-w5p9gdfz/complete-owned-source.patch",
+      "bytes": 70984,
+      "sha256": "a9743d944f6caf041d81ba23c78d6a51c0347035bc1364c4b042511a3dbb85cb"
+    }
+  },
+  "qualification": {
+    "initial_source": {
+      "native_exit": 1,
+      "passed": 46,
+      "failed": 1,
+      "scope": "Precursor source hashes in core-run/source-files-received.json; sole failure is harness handling of genuine SDK absence"
+    },
+    "single_selector_retry": {
+      "native_exit": 0,
+      "passed": 1,
+      "candidate_source_changed": false,
+      "scope": "Diagnosed harness-only correction; preserve original failure and 46 successes"
+    },
+    "actual_optional_provider_source": {
+      "native_exit": 0,
+      "passed": 5,
+      "Torch_imported": false,
+      "scope": "Earlier source identities in sdk-run/source-files.json; actual editable SDKs and published receptor; no live attribution"
+    },
+    "final_core_selection": {
+      "expected_tests": 52,
+      "executed": false,
+      "reason": "Profile metadata and regressions refined after the precursor checks; final source worker deferred for shared-host reserve"
+    },
+    "build": {
+      "initial_started": false,
+      "retry_started": true,
+      "retry_returncode": -9,
+      "retry_failure": "host_resource_guard",
+      "retry_wall_seconds": 26.3946776650846,
+      "retry_peak_aggregate_RSS_bytes": 110358528,
+      "artifacts_produced_or_qualified": false,
+      "native_build_log_limitation": "Buffered command output was not yet persisted at group interruption; no backend exception is inferred"
+    },
+    "exact_installed_candidate": {
+      "executed": false,
+      "qualified": false
+    },
+    "static_lint_format_and_compile": true
+  },
+  "prepared_unexecuted_remaining_drivers": {
+    "run_core_final.py": {
+      "path": "local_data/hydramp-result-implementation-w5p9gdfz/run_core_final.py",
+      "bytes": 4138,
+      "sha256": "9eb18b9aa18a1ff7b271e08784bcb66c12fe8bfb2550b9b42ec0cb243b29e19e"
+    },
+    "build_candidate_resumed.py": {
+      "path": "local_data/hydramp-result-implementation-w5p9gdfz/build_candidate_resumed.py",
+      "bytes": 2637,
+      "sha256": "b117e76ff518e8b0d4d96e5e4d3f06271cf6a14cc6f697a3856ab3da67ea5fd2"
+    },
+    "install_candidate.py": {
+      "path": "local_data/hydramp-result-implementation-w5p9gdfz/install_candidate.py",
+      "bytes": 3089,
+      "sha256": "6a1d33353fa897315c23e967744b2e4ddaed6f1436e32a56ba0f9000dcb8d2d2"
+    },
+    "run_installed.py": {
+      "path": "local_data/hydramp-result-implementation-w5p9gdfz/run_installed.py",
+      "bytes": 4186,
+      "sha256": "665c26c19982d204c9b877093534bba223f70f77799a605c6f1e89a39ced030d"
+    },
+    "run_sdks_installed.py": {
+      "path": "local_data/hydramp-result-implementation-w5p9gdfz/run_sdks_installed.py",
+      "bytes": 3512,
+      "sha256": "d6a41cb4b6da81ead152f673b57a2f1f79ab0e2d76535264ef23a7ccee342980"
+    }
+  },
+  "current_host": {
+    "available_memory_bytes": 8645492736,
+    "load": [
+      4.240234375,
+      5.66796875,
+      7.00146484375
+    ]
+  },
+  "next_build_start_headroom_bytes": 10737418240,
+  "runtime_reserve_bytes": 8589934592,
+  "source_report": {
+    "path": "devguide/hydramp_generation_result_implementation.md",
+    "bytes": 8146,
+    "sha256": "20cd1e471f5764bd48f12fb4a532f9513a69489acb11e728a22e56b65e33de2b"
+  },
+  "new_neural_or_artificial_network_evaluations": 0,
+  "learned_model_PCA_or_real_descriptor_reads_or_calls": 0,
+  "GPU": false,
+  "new_installed_environment_or_package_cache": false,
+  "public_installation_or_scientific_acceptance": false,
+  "commit_push_tag_release_or_external_contact": false,
+  "remaining": [
+    "Final current-source 52-test selection",
+    "Reproducible dev8 sdist/wheel build from final source",
+    "Fresh installed exact-wheel native dependency and payload receiving",
+    "Final installed core/actual-SDK checks and owner dispositions"
+  ],
+  "retention": {
+    "owner_issues": [
+      "uibcdf/hydramp#4",
+      "uibcdf/hydramp#2",
+      "uibcdf/peptidemt#32"
+    ],
+    "review_date": "2026-11-19",
+    "preserve": "Task source staging, prior native attempts and test artifacts, synthetic NPZ fixture and prepared bounded continuation drivers; existing environments/worktrees remain untouched"
+  }
+}

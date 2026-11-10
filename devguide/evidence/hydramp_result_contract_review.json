@@ -1,0 +1,340 @@
+{
+  "schema": "peptidemt.hydramp_result_contract_review@1",
+  "recorded_at_utc": "2026-11-06T00:29:22.764805+00:00",
+  "status": "proposal_prepared_numpy_storage_primitive_pass_provider_integration_deferred",
+  "owner_issues": [
+    "uibcdf/hydramp#4",
+    "uibcdf/hydramp#2",
+    "uibcdf/peptidemt#32"
+  ],
+  "commission": "Investigator continues preparation of a concrete independent result/provenance contract after exact public-dependency qualification",
+  "proposal": {
+    "path": "devguide/hydramp_result_contract.md",
+    "bytes": 16522,
+    "sha256": "ce32baaa65cdce9a6474f95bac3a65ec5425fd3601bbdeb8f6e8983f4f4ed70b"
+  },
+  "proposal_accepted_or_new_API_implementation_authorized": false,
+  "sources": {
+    "recorda": {
+      "head": "ff52fa5d8628d796f413b833c8abe73907990cf9",
+      "files": [
+        {
+          "path": "src/recorda/__init__.py",
+          "sha256": "4a8afb62ca1e8141e3018fd4ca96da3b0f63d2c1e7377562914ef2869db09c8e",
+          "bytes": 681
+        },
+        {
+          "path": "src/recorda/capture.py",
+          "sha256": "0a806a3fa97301ad949806cb2112f18829943558dd237ceb885789f3a318bcfb",
+          "bytes": 3575
+        },
+        {
+          "path": "src/recorda/runtime.py",
+          "sha256": "12078322e8cf4a4059ff8c685777101307ea076e993d69f53241328ffaad257d",
+          "bytes": 17604
+        },
+        {
+          "path": "src/recorda/reader.py",
+          "sha256": "a23e85b851cbaf6c6806fbf5d7ab76304538ac3da95a350a508867456ac38fe5",
+          "bytes": 4347
+        },
+        {
+          "path": "src/recorda/references.py",
+          "sha256": "e9e48191b32358a0e53218b0425ab44e87ecc454c40e00c009f70d2cddceb60f",
+          "bytes": 10329
+        },
+        {
+          "path": "devguide/REFERENCE_CHECKS.md",
+          "sha256": "b68c152753ec3edc23700bcb7ddce24559ed1ea31b9bdc622efc03d05f2d4782",
+          "bytes": 8305
+        },
+        {
+          "path": "devguide/ACTIVATION.md",
+          "sha256": "8b9d34e81d1f1f8f6bd9a025e9dd9cb19ce3bc9f03d455ccdd91b2c409fe7d18",
+          "bytes": 8706
+        }
+      ]
+    },
+    "ackredit": {
+      "head": "74f865d7eca1f5386235885d4ea001e53b5b822d",
+      "files": [
+        {
+          "path": "ackredit/core/attribution.py",
+          "sha256": "527950fbd77b94828b9e45fb719c08ca098722e7439eb7b3babd15a7a5e1791d",
+          "bytes": 18057
+        },
+        {
+          "path": "ackredit/core/session.py",
+          "sha256": "456e3db08e36adb4adaa1bc9b397276e7c787a146752fd9ce69644e188f1aa07",
+          "bytes": 12673
+        },
+        {
+          "path": "docs/content/user_guide/portable_attribution.md",
+          "sha256": "eb5553fcdf4d61255d718f9d8d9537ed31b4d3578af27cc57696ad10c3387ced",
+          "bytes": 6629
+        }
+      ]
+    },
+    "hydramp/local_data/product-baseline-20261105": {
+      "head": "a77baff9de97e8ab4ae101b9b0c79122dea22ce3",
+      "files": [
+        {
+          "path": "ports/pytorch/src/hydramp_torch/generation.py",
+          "sha256": "83d8a976cdfcdb64fed531db30a2e365954f0acb0f4072a3b0c5c1aaf266bd62",
+          "bytes": 8136
+        },
+        {
+          "path": "ports/pytorch/src/hydramp_torch/inference.py",
+          "sha256": "98f6494c2c93c8375c04909df683cd90c767fb8a024ee6b57da258cbfd2a4199",
+          "bytes": 12538
+        },
+        {
+          "path": "ports/pytorch/src/hydramp_torch/analogue.py",
+          "sha256": "64f8a40006f65de188d6b1e97c4eae1a2f3766d0b9cd5b8b4ce80d43817bbbc6",
+          "bytes": 12495
+        },
+        {
+          "path": "ports/pytorch/src/hydramp_torch/encoder.py",
+          "sha256": "2abf1dd009a9bca39ad30d69e0f32cc3b225dd14b38e4ba46d1fbf3077723256",
+          "bytes": 8796
+        },
+        {
+          "path": "ports/pytorch/src/hydramp_torch/__init__.py",
+          "sha256": "d8214c3bf427aebc88a3406b946ec0e9c42e3a1229f5cb5822ca2533d69193fc",
+          "bytes": 966
+        }
+      ]
+    }
+  },
+  "source_files_and_worktree_heads_unchanged_after_review": true,
+  "editable_provider_metadata": [
+    {
+      "name": "recorda",
+      "installed_metadata_version": "0.3.3",
+      "direct_url": {
+        "dir_info": {
+          "editable": true
+        },
+        "url": "file:///home/liliana/repos%40uibcdf/recorda"
+      }
+    },
+    {
+      "name": "ackredit",
+      "installed_metadata_version": "0.12.0+11.g74f865d",
+      "direct_url": {
+        "dir_info": {
+          "editable": true
+        },
+        "url": "file:///home/liliana/repos%40uibcdf/ackredit"
+      }
+    },
+    {
+      "name": "argdigest",
+      "installed_metadata_version": "0.17.0+5.gcd9c4f3",
+      "direct_url": {
+        "dir_info": {
+          "editable": true
+        },
+        "url": "file:///home/liliana/repos%40uibcdf/argdigest"
+      }
+    },
+    {
+      "name": "smonitor",
+      "installed_metadata_version": "0.22.0+16.gccdcace",
+      "direct_url": {
+        "dir_info": {
+          "editable": true
+        },
+        "url": "file:///home/liliana/repos%40uibcdf/smonitor"
+      }
+    },
+    {
+      "name": "depdigest",
+      "installed_metadata_version": "0.15.1+8.g0884f0c",
+      "direct_url": {
+        "dir_info": {
+          "editable": true
+        },
+        "url": "file:///home/liliana/repos%40uibcdf/depdigest"
+      }
+    }
+  ],
+  "ackredit_source_scope": "Clean local development checkout 15 commits behind fetched main; no public 0.12.1 receiving or environment upgrade is claimed",
+  "canonical_guide": {
+    "path": "MOLSYSSUITE_GUIDE.md",
+    "bytes": 69263,
+    "sha256": "850a98f0757a18734b328332c88e4622f60bdef097148a1fd59b9f009846bfe4"
+  },
+  "canonical_guide_current_fetched_content_identical": true,
+  "inputs": {
+    "task.json": {
+      "path": "local_data/hydramp-result-contract-yfjr66jh/task.json",
+      "bytes": 1095,
+      "sha256": "3c4a9408979385d4e93ec3e80b5202a9351535c2a636b0b812b274e1c3fbde0e"
+    },
+    "source-review.json": {
+      "path": "local_data/hydramp-result-contract-yfjr66jh/source-review.json",
+      "bytes": 2987,
+      "sha256": "23b77f8ef94baaf3dd17808b29ee807f80ec2aa9ce60beebb13f17a94d2ea8f6"
+    },
+    "suite-status.json": {
+      "path": "local_data/hydramp-result-contract-yfjr66jh/suite-status.json",
+      "bytes": 20307,
+      "sha256": "22a0da42e0977bbcc72096deda43dd666033987982758124961274ea14dac2d5"
+    },
+    "recorda-source-state.json": {
+      "path": "local_data/hydramp-result-contract-yfjr66jh/recorda-source-state.json",
+      "bytes": 93,
+      "sha256": "6b1b0e1816a548ee396c6929935a3ae4f80c73e0ca9e7301ed5981653a2396de"
+    },
+    "ackredit-source-state.json": {
+      "path": "local_data/hydramp-result-contract-yfjr66jh/ackredit-source-state.json",
+      "bytes": 93,
+      "sha256": "2e9fbb6a9e88b7039c65a7221b0248c108bf877fbab8f9df7a7711e0e9cfc46e"
+    },
+    "hydramp-source-state.json": {
+      "path": "local_data/hydramp-result-contract-yfjr66jh/hydramp-source-state.json",
+      "bytes": 115,
+      "sha256": "7aea6ea66a411c3f20ee1c5c68dc5092f021374eed29add711dc080f01ea0a0e"
+    },
+    "provider-run/declaration.json": {
+      "path": "local_data/hydramp-result-contract-yfjr66jh/provider-run/declaration.json",
+      "bytes": 556,
+      "sha256": "99044cc5f7e7ce2131c2b69fe1f93a4441e19963b8e3e590bc1b189c8eca9d64"
+    },
+    "provider-run/supervision.json": {
+      "path": "local_data/hydramp-result-contract-yfjr66jh/provider-run/supervision.json",
+      "bytes": 59,
+      "sha256": "876256cd9a95b0b03514b0b69b8f6e188c2fdb39cd14c9ca1ba72ccfc60f91e3"
+    },
+    "probe_providers.py": {
+      "path": "local_data/hydramp-result-contract-yfjr66jh/probe_providers.py",
+      "bytes": 5597,
+      "sha256": "46c23e8fc17935aab36aba128eeba530aeef0a3753b7dcf3a7e661fc7af4b378"
+    },
+    "host-guard-disposition.json": {
+      "path": "local_data/hydramp-result-contract-yfjr66jh/host-guard-disposition.json",
+      "bytes": 405,
+      "sha256": "6dd3f4dad768c3929f05e3d5ab42ab4c4baea8fde9e2be1f835dfb7bd4e2be4f"
+    },
+    "later-host-check.json": {
+      "path": "local_data/hydramp-result-contract-yfjr66jh/later-host-check.json",
+      "bytes": 204,
+      "sha256": "0ceac0ada55800cc0a6cf35752039e8b286b9f527f26aba647b57798b443e3c3"
+    },
+    "retry-deferred.json": {
+      "path": "local_data/hydramp-result-contract-yfjr66jh/retry-deferred.json",
+      "bytes": 192,
+      "sha256": "ca5d7db2442c0c3e95e13dad43ddac1c48e1afc8a4ad058704c8748343537682"
+    },
+    "array-run/declaration.json": {
+      "path": "local_data/hydramp-result-contract-yfjr66jh/array-run/declaration.json",
+      "bytes": 830,
+      "sha256": "af7689c61df9ee862c5675ff43b2f8eea3bf59dc64672484096a4e1fcde650b3"
+    },
+    "array-run/supervision.json": {
+      "path": "local_data/hydramp-result-contract-yfjr66jh/array-run/supervision.json",
+      "bytes": 245,
+      "sha256": "f8fd8320f0fac5500089b3a0bbaa9ec83450ba2641dafbf657674a9828e2e443"
+    },
+    "array-run/result.json": {
+      "path": "local_data/hydramp-result-contract-yfjr66jh/array-run/result.json",
+      "bytes": 757,
+      "sha256": "584614f59f04f2924a7a38e0da23f8486005e7b982d2ceb189e22d9f01f5c94c"
+    },
+    "array-run/synthetic.npz": {
+      "path": "local_data/hydramp-result-contract-yfjr66jh/array-run/synthetic.npz",
+      "bytes": 1678,
+      "sha256": "0f0d763834d587225284fafb2af92699c854cc11d4179986a389640df7747758"
+    },
+    "probe_arrays.py": {
+      "path": "local_data/hydramp-result-contract-yfjr66jh/probe_arrays.py",
+      "bytes": 3581,
+      "sha256": "a183c8a3612da795eddf22720a61967beba875f3e7442444f38ffa00ef88ed42"
+    }
+  },
+  "numpy_storage_primitive": {
+    "result": {
+      "status": "numpy_storage_primitives_pass",
+      "numpy": "2.4.6",
+      "numpy_origin": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-public-install-z5lh31o1/environment/lib/python3.14/site-packages/numpy/__init__.py",
+      "archive_members": [
+        "big_endian",
+        "flags",
+        "float32",
+        "float64",
+        "integers",
+        "manifest"
+      ],
+      "array_count": 6,
+      "dtype_shape_element_bytes_preserved": true,
+      "signed_zero_nearby_FP32_FP64_and_endianness_preserved": true,
+      "pickle_disabled_on_write_and_read": true,
+      "Torch_imported": false,
+      "HydrAMP_schema_reader_or_writer_implemented": false,
+      "HydrAMP_result_or_model_used": false,
+      "cpu_limit": [
+        15,
+        15
+      ],
+      "cpu_ids": [
+        0,
+        1
+      ],
+      "neural_calls_or_learned_reads": 0
+    },
+    "supervision": {
+      "started": true,
+      "returncode": 0,
+      "failure": null,
+      "wall_seconds": 1.6881371880881488,
+      "peak_sampled_process_tree_rss_bytes": 61755392,
+      "retained_output_bytes": 3265,
+      "retry": false,
+      "rss_scope": "supervisor_and_descendants"
+    },
+    "scope": "Supported NumPy primitives on six small synthetic arrays only; no HydrAMP schema, writer, reader, trace or model implemented/executed"
+  },
+  "provider_mechanism_probe": {
+    "supervision": {
+      "failure": "host_resource_guard",
+      "started": false
+    },
+    "actual_provider_child_invocations": 0,
+    "status": "not_started_host_guard",
+    "retry": "Deferred after observed memory below separately chosen 9 GiB conservative retry-start headroom; no reserve relaxed",
+    "source_contract_inspection_only": true,
+    "combined_provider_execution_or_adoption_claim": false
+  },
+  "design_findings": [
+    "Preserve original native tokens and all zero positions separately from projected strings",
+    "Preserve five GenerationTrace arrays, native occurrence/return mapping and any already-computed descriptor values",
+    "Separate original scientific producer from later exporter/reader identities; retain unknown provenance honestly",
+    "Use one NumPy NPZ/JSON domain artifact; reuse optional Recorda references and Ackredit detached payloads rather than generic persistence/credit copies",
+    "Current eager package initializer and vocabulary location require a controlled reader/import refactor; adding a submodule alone cannot provide a Torch-free reader",
+    "Method-profile requirement remains in existing HydrAMP #2; no unsupported provider gap or external issue is asserted"
+  ],
+  "primary_documentation": {
+    "numpy_load": "https://numpy.org/doc/2.4/reference/generated/numpy.load.html",
+    "numpy_savez": "Official web page fetch returned an unexpected status; actual pinned NumPy 2.4.6 signature and write/read behavior are verified by the retained primitive probe"
+  },
+  "no_runtime_schema_or_scientific_policy_implementation": true,
+  "new_neural_calls_or_learned_reads": 0,
+  "GPU": false,
+  "new_environment_installation": false,
+  "new_commits_pushes_tags_packages_or_external_contact": false,
+  "prior_public_install_receipt": {
+    "path": "devguide/evidence/hydramp_public_installation.json",
+    "bytes": 22819,
+    "sha256": "4a6225787fdd5d9ca05f58cab3fb4a3ee97dab487b8a9d1d35c8662239bfde03"
+  },
+  "retention": {
+    "review_date": "2026-11-19",
+    "owner_issues": [
+      "uibcdf/hydramp#4",
+      "uibcdf/hydramp#2",
+      "uibcdf/peptidemt#32"
+    ],
+    "purpose": "Retain exact source review, guarded attempt and synthetic primitive evidence for contract review; reuse existing qualified environment without altering it"
+  }
+}

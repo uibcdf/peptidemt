@@ -1,0 +1,20 @@
+{
+  "schema": "peptidemt.hydramp_full_comparison_issue_updates@1",
+  "entries": [
+    {
+      "issue": "uibcdf/peptidemt#8",
+      "comment_url": "https://github.com/uibcdf/peptidemt/issues/8#issuecomment-6596674337",
+      "created_at": "2026-11-03T06:02:52Z",
+      "verified": true,
+      "body_sha256": "1fac245963d3f56360cf69e6ee3fb97d3ffd24f46cf947b25da159eee10e8ed4"
+    },
+    {
+      "issue": "uibcdf/molsysmt#485",
+      "comment_url": "https://github.com/uibcdf/molsysmt/issues/485#issuecomment-6596675645",
+      "created_at": "2026-11-03T06:02:57Z",
+      "verified": true,
+      "body_sha256": "2c5c88b1c1d891334752258cf7c4c849e2cca35ec96b22d65f54ec996eb7d258"
+    }
+  ],
+  "scope": "Measured model-free scalar parity and exact pending neural plan; no neural execution or scientific adoption."
+}

@@ -1,0 +1,40 @@
+{
+  "schema": "peptidemt.mdm2_t1a_authorization@1",
+  "decision": "D53",
+  "recorded_utc": "2026-11-10T05:14:57.890936+00:00",
+  "authority": "Explicit investigator approval in direct response to the T1a implementation-scope question",
+  "approved_proposal": {
+    "path": "devguide/mdm2_t1a_proposal.md",
+    "sha256": "069247bf4b46e8fafba553ecb5311f67b0bfd6748ea4a06822053c3285c05e56",
+    "preserved_copy": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-t1a-b03dl94b/approved-proposal.md"
+  },
+  "scope": "Private case-specific reported-affinity evidence receiving, source-occurrence/alias preservation, quantity/SD records, unquantified values, saved replay and controlled qualification; no molecular chemical-state admission",
+  "source_sha256": "99f361fdab13c2971362fbe5e96b255e8a32dd5f8d605154bcd98918268f1264",
+  "task_directory": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-t1a-b03dl94b",
+  "resources": {
+    "cpu_ids": [
+      0,
+      1
+    ],
+    "threads": 1,
+    "aggregate_rss_stop_bytes": 536870912,
+    "min_available_memory_bytes": 4294967296,
+    "wall_seconds": 180,
+    "cpu_seconds": 120,
+    "address_space_bytes": 8589934592,
+    "max_output_bytes": 67108864
+  },
+  "excluded": [
+    "new public API",
+    "molecular parsing or construction",
+    "chemical preparation/repair",
+    "new target model or affinity evaluator",
+    "docking",
+    "sequence generation",
+    "GPU",
+    "training/feedback",
+    "biological acceptance",
+    "commit/push/package or dataset publication"
+  ],
+  "routine_execution": "D49 delegates bounded technical checks and diagnosed retries; preserve original failures and spent records"
+}

@@ -1,0 +1,403 @@
+{
+  "schema": "peptidemt.target_case_mdm2_reference_review@1",
+  "recorded_at_utc": "2026-11-06T04:53:34.200251+00:00",
+  "status": "feasibility_proposal_and_dev9_source_review_delivered_no_case_or_commit_acceptance",
+  "authority": {
+    "authority": "Investigator continuation of final dev9 review and preparation of a concrete target/function case; existing continuation-plan package 6 under PeptideMT #33",
+    "scope": "Read-only source/evidence/literature feasibility analysis; no new scientific acceptance, implementation, structure preparation or model execution",
+    "owner_issues": [
+      "uibcdf/peptidemt#33",
+      "uibcdf/hydramp#4",
+      "uibcdf/peptidemt#32"
+    ],
+    "preserve_dev9_runtime": "0.0.0.dev9 based on 6a3ff905635a4bd744854cd540f8513916aa99f0",
+    "new_commit_authorized": false,
+    "neural_models_or_gpu_or_new_scientific_calculations": 0,
+    "resources": "Serial lightweight reads and documentation only"
+  },
+  "owner_issue": "uibcdf/peptidemt#33",
+  "scientific_case": "Proposed narrow human MDM2\u2013p53 structural reference, then separately qualified peptide-recognition evaluation and later design",
+  "case_accepted": false,
+  "target_model_or_generator_selected": null,
+  "readiness": {
+    "T0": "Source-backed feasibility for future identity/structural-reference qualification; no coordinate bytes received or MolSysMT runtime qualified here",
+    "T1": "Not implementation-ready: peptide-specific evaluator and matched binding panel unselected/unqualified",
+    "later_design": "No target-conditioned generation, feedback, cell-entry or anticancer inference commissioned"
+  },
+  "sources": {
+    "reviewed_at_local_date": "2026-11-05",
+    "sources": [
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/8875929/",
+        "kind": "primary study abstract/index",
+        "claim": "Structural reference for MDM2 bound to p53 transactivation-domain peptide; no new design or clinical inference"
+      },
+      {
+        "url": "https://www.rcsb.org/structure/1YCR",
+        "kind": "official primary structural-deposition metadata",
+        "observed": {
+          "revision": "1.5",
+          "method": "X-ray",
+          "resolution_angstrom": 2.6,
+          "entity_A_MDM2_declared_length": 109,
+          "entity_B_p53_declared_length": 15,
+          "modeled_total_groups": 98,
+          "deposited_total_groups": 124
+        },
+        "coordinate_download_or_preparation": false
+      },
+      {
+        "url": "https://www.rcsb.org/versions/1YCR",
+        "kind": "official revision history",
+        "observed_revision_date": "2024-02-14"
+      },
+      {
+        "url": "https://www.wwpdb.org/about/usage-policies",
+        "kind": "official archive usage policy",
+        "claim": "PDB archive data files under CC0; deposition and primary-source attribution retained; no unselected model/article permissions inferred"
+      }
+    ],
+    "access_limitations": [
+      {
+        "url": "https://data.rcsb.org/rest/v1/core/entry/1YCR",
+        "outcome": "Web tool inaccessible; no inference of data absence"
+      },
+      {
+        "url": "https://data.rcsb.org/rest/v1/core/polymer_entity/1YCR/2",
+        "outcome": "Web tool inaccessible; required coordinates/chain mapping not qualified by this review"
+      }
+    ],
+    "missing": [
+      "Immutable coordinate/validation-file bytes and exact hashes",
+      "Observed/deposited group mapping by chain and terminal chemistry",
+      "Matched biochemical binding panel and weak-binding controls",
+      "Any qualified peptide-specific prediction/design route"
+    ]
+  },
+  "provider_source_inventory": {
+    "molsysmt": {
+      "HEAD": "71fbe4f46d3c70e4e973c8025f01752a8c9b1084",
+      "files": [
+        {
+          "path": "AGENTS.md",
+          "bytes": 15491,
+          "sha256": "570e7a2b59afb15e029e2f1cbf64cf0c67a3b172468150e747d1dde52c7e9315",
+          "matches_HEAD": true
+        },
+        {
+          "path": "molsysmt/basic/convert.py",
+          "bytes": 39596,
+          "sha256": "6c2e676ce2b178784a610ec37e4b2650c53bf4b7ac3ab93796880609524ebadd",
+          "matches_HEAD": true
+        },
+        {
+          "path": "molsysmt/basic/get.py",
+          "bytes": 35340,
+          "sha256": "cab254d3e8ee731a4be0b8e943252f9b9a3a103b9b66ea1f802c2d99659f1c62",
+          "matches_HEAD": true
+        },
+        {
+          "path": "molsysmt/basic/select.py",
+          "bytes": 13539,
+          "sha256": "bd7c28d6a2624e37d0c967c997addcd96d97c71d54ed3cae664c6e70139575ff",
+          "matches_HEAD": true
+        },
+        {
+          "path": "molsysmt/form/file_cif/__init__.py",
+          "bytes": 1331,
+          "sha256": "8d500a42ce4b01d1c1bf9693354d21e727454897eb5d7261811cd28c8767cd1a",
+          "matches_HEAD": true
+        },
+        {
+          "path": "molsysmt/structure/get_contacts.py",
+          "bytes": 22453,
+          "sha256": "3c95b34287d6ea31690bd914d3c914645916f97c26e913085247a04e35dc9144",
+          "matches_HEAD": true
+        },
+        {
+          "path": "molsysmt/structure/get_distances.py",
+          "bytes": 27661,
+          "sha256": "4d6700453fa67451b3b989ef48166cac368a5d42afd73a60279a4304e89c23f3",
+          "matches_HEAD": true
+        },
+        {
+          "path": "molsysmt/structure/get_rmsd.py",
+          "bytes": 10436,
+          "sha256": "b8f6cae8afbefc5ebe19147b208a540f235d630857c30bed85cdf2f66af4beca",
+          "matches_HEAD": true
+        },
+        {
+          "path": "molsysmt/structure/translate.py",
+          "bytes": 4073,
+          "sha256": "3e14eeae9b3c7fdfc89932c3ce858cc4e1f6751f17ee9e4223c537f30d3daa82",
+          "matches_HEAD": true
+        },
+        {
+          "path": "molsysmt/structure/__init__.py",
+          "bytes": 1336,
+          "sha256": "93ceafed474a26a6f93076c65bc0c327bd5724e9e7ed37a0b3db42820cce712f",
+          "matches_HEAD": true
+        }
+      ]
+    },
+    "dockingmt": {
+      "HEAD": "1837eecb32ba87e5e78697ac667f9d5a7de9c3ae",
+      "files": [
+        {
+          "path": "AGENTS.md",
+          "bytes": 5801,
+          "sha256": "b552c7e22ecac8b481223aa3ad2327bbe1f866ea409be684522d92cbcc50ba06",
+          "matches_HEAD": true
+        },
+        {
+          "path": "README.md",
+          "bytes": 29803,
+          "sha256": "0cb0527f7250a54b3821f6f12cc14f6c55eb08df495d84ea554ebacec491e1bb",
+          "matches_HEAD": false
+        },
+        {
+          "path": "dockingmt/__init__.py",
+          "bytes": 1759,
+          "sha256": "07f71ed5cf3914d2e4cfbf35c43a7ea8b69497effd4dc8aa6336ae30e61a2359",
+          "matches_HEAD": true
+        }
+      ]
+    },
+    "molsysviewer": {
+      "HEAD": "73a6f388e09146650349dfe83564ae318ba20298",
+      "files": [
+        {
+          "path": "AGENTS.md",
+          "bytes": 16688,
+          "sha256": "0e9a0829e6e5f241b2654dff85d5c3a00a7da7d9c54f10752288d506e1a2ce62",
+          "matches_HEAD": true
+        },
+        {
+          "path": "README.md",
+          "bytes": 12732,
+          "sha256": "9e0602cc3038649e990e7bc9a6988c436ccc2f78a69ba740ebedb15c7e13ee47",
+          "matches_HEAD": true
+        }
+      ]
+    }
+  },
+  "provider_concurrent_work": {
+    "HEAD": "1837eecb32ba87e5e78697ac667f9d5a7de9c3ae",
+    "committed_README_sha256": "90948c5d53d6222d9df526bf75aec32aae3c3771b608190c79a662020d8be818",
+    "read_worktree_README_sha256": "0cb0527f7250a54b3821f6f12cc14f6c55eb08df495d84ea554ebacec491e1bb",
+    "scope_sentence_present_in_both": true,
+    "concurrent_status": [
+      " M README.md",
+      " M devguide/README.md",
+      "?? devguide/pending_proposals/deliver_installed_scoring_inspection.md",
+      "?? devguide/validation/data/scoring_inspection/",
+      "?? devguide/validation/installed_scoring_inspection.md",
+      "?? examples/"
+    ],
+    "disposition": "Preserve all concurrent provider documentation/example changes; scope conclusion uses the committed README and existing supported profile, not a claim that the dirty worktree is qualified peptide docking"
+  },
+  "suite_state": {
+    "path": "local_data/peptidemt-target-case-review-pux_arxn/suite-state.json",
+    "bytes": 22874,
+    "sha256": "d52ac81089c7bd10513b93332ffddbf9121e9a049042d19e05c6345ef1f7a038"
+  },
+  "suite_state_disposition": "Preserve PeptideMT ongoing changes, clean MolSysMT 122 behind fetched main, clean MolSysViewer 111 behind fetched main, and concurrent DockingMT documentation/examples. No pull/merge/stash, provider edits or environment changes. The raw source files are pinned separately from HEAD.",
+  "provider_scope_conclusion": "DockingMT committed and worktree READMEs agree on protein/small-molecule supported starting profile; no peptide qualification is established by this bounded inspection",
+  "no_confirmed_missing_provider_API_for_T0": true,
+  "no_speculative_provider_issue_opened": true,
+  "dev9_review": {
+    "status": "focused_review_no_new_blocker_identified",
+    "qualification_receipt_sha256": "15c5814cfec53531e51f5424d46ea54f028e0e345fd9b30f2bd0537cf77c81d3",
+    "public_dataclass_field_signature_unchanged": true,
+    "scientific_validator_and_file_I_O_ASTs_unchanged": true,
+    "qualification_repeated": false,
+    "reviewed": [
+      "constructor checks bound JSON and SHA-256 syntax, reuses native cross-field validation and snapshots arrays",
+      "replace uses the constructor and fails without mutating original data",
+      "manual digest remains declared, not external-file authentication or scientific attestation",
+      "extra array snapshots have an explicit memory-cost limitation",
+      "schema/exporter identities and optional SDK boundaries remain unchanged"
+    ],
+    "new_source_edits": 0
+  },
+  "dev9_qualification_reused": {
+    "path": "devguide/evidence/hydramp_result_invariants.json",
+    "bytes": 66106,
+    "sha256": "15c5814cfec53531e51f5424d46ea54f028e0e345fd9b30f2bd0537cf77c81d3"
+  },
+  "dev9_commit_proposal": {
+    "scope": "One local HydrAMP commit only; not yet authorized or executed",
+    "branch": "peptidemt-result-invariants",
+    "parent_commit": "6a3ff905635a4bd744854cd540f8513916aa99f0",
+    "expected_tree": "b8a334085bac8bf6c0d31c2cc9586ad1f311eb40",
+    "commit_subject": "Validate generation result construction and replacement",
+    "commit_body": "Validate bounded generation-result metadata and declared digests with the existing native schema validator, and snapshot constructor/replacement arrays immutably. Preserve native scientific methods and the saved schema.\n\nQualified with 73 source and 73 exact installed controls, five actual SDK checks, reproducible wheel/installed integrity and actual retained dev8 archive cold-read compatibility. Preserve the clean dev8 source and artifacts.",
+    "paths": [
+      {
+        "path": "ports/pytorch/src/hydramp_torch/results.py",
+        "mode": "100644",
+        "sha256": "b565849725d0b04708cff12b9e8b8cf0f7fe649818ac826a1bedd19d937c9400",
+        "git_blob": "489fbe4fcd0c30ff5793f68d93033c0f275e165f",
+        "bytes": 18830,
+        "new_file": false
+      },
+      {
+        "path": "ports/pytorch/src/hydramp_torch/_version.py",
+        "mode": "100644",
+        "sha256": "a4bd8feee27a19eb54b9b9ebf04904f318b255265f3c450fb5ad5fad8844cd31",
+        "git_blob": "fa7dc6292ffb100cc37edf0c412be5a57ae1b51f",
+        "bytes": 109,
+        "new_file": false
+      },
+      {
+        "path": "ports/pytorch/pyproject.toml",
+        "mode": "100644",
+        "sha256": "32a4fc273705338e652d9390ccd4f7a2533b727c3faa48aade69f3c62cd6db86",
+        "git_blob": "483ebffd02027f1c7020a69cdc01fd1ddf277f22",
+        "bytes": 942,
+        "new_file": false
+      },
+      {
+        "path": "ports/pytorch/uv.lock",
+        "mode": "100644",
+        "sha256": "f7bf76f480928872078d7876e25d70f2b55a12982b71688ac4c00e35fbb22498",
+        "git_blob": "92c3044b0aa2e2b209891aa6dca04d851680bc6a",
+        "bytes": 127285,
+        "new_file": false
+      },
+      {
+        "path": "ports/pytorch/tests/test_generation_results.py",
+        "mode": "100644",
+        "sha256": "c152360fc816696ca095b593a2cb4974cb6977dc78960a9968adfdbbf269363a",
+        "git_blob": "305b26e6810823bb15e0c9634039dc0747c1a11d",
+        "bytes": 14000,
+        "new_file": false
+      },
+      {
+        "path": "ports/pytorch/tests/test_result_construction.py",
+        "mode": "100644",
+        "sha256": "217fed415bd6811e03f69faa23752a9ddbe010a791c68674713b2f4ff76b9c64",
+        "git_blob": "c01cbfab9ef8faa22736f1010cdd91fdac8b2b4b",
+        "bytes": 6103,
+        "new_file": true
+      },
+      {
+        "path": "ports/pytorch/README.md",
+        "mode": "100644",
+        "sha256": "1af00be3114f33e71f8ab897d0a8e73e41d98d74a9dbc4d3a6e5ca11bdca9f50",
+        "git_blob": "7897cef4de05b7f04a8b4c66c63525bae9e26e41",
+        "bytes": 6390,
+        "new_file": false
+      },
+      {
+        "path": "AGENTS.md",
+        "mode": "100644",
+        "sha256": "4f66d2349656e38182062530dd1687e787820b7c1e5a8906bedcde8df580774a",
+        "git_blob": "b697d9983eb2bb4dfd1b583968606b5cc5840b67",
+        "bytes": 6856,
+        "new_file": false
+      },
+      {
+        "path": "devguide/README.md",
+        "mode": "100644",
+        "sha256": "51f4ab218b0d9ea928a38e17f547d65166cf45eb285511287376f1475757e47b",
+        "git_blob": "590fc8e7f72f98d8bf32495924f770440548774f",
+        "bytes": 10193,
+        "new_file": false
+      },
+      {
+        "path": "devguide/result_invariants.md",
+        "mode": "100644",
+        "sha256": "26d8b9594d3ba686ed92b67fcd3ca9fdca454e3cd9d6f1d5d14b5dec6084d5dd",
+        "git_blob": "9bd3f8d51bd83ae47661a19b9fede09c4a6bf821",
+        "bytes": 5079,
+        "new_file": true
+      },
+      {
+        "path": "README.md",
+        "mode": "100644",
+        "sha256": "89b0ae2747b4ebd91be7ce806dfc323185e27103039db9603b09b0766f2ab212",
+        "git_blob": "78728a8490dc5686bf284c50ec2d8e220f975a7f",
+        "bytes": 11158,
+        "new_file": false
+      },
+      {
+        "path": "devguide/pytorch_product_status.md",
+        "mode": "100644",
+        "sha256": "7adfe06b33e993407766e1d476866ae987a4f61669a6af550e13826252532162",
+        "git_blob": "7be5866073df84a5b98fe8d00d2c55d0d5b6adf6",
+        "bytes": 9793,
+        "new_file": false
+      }
+    ],
+    "git_index_or_objects_modified": false,
+    "push_or_tag_or_release": false,
+    "user_consent_required_before_commit": "D50 explicitly excludes Git commit/push; root and owner AGENTS.md distinguish editing from committing",
+    "qualified_wheel_sha256": "b808cd4c3af28fc4b1c786ecf82b59c9f0cab381949821d9fad9338273827453",
+    "package_and_test_sources_unchanged_since_qualification": true
+  },
+  "proposal_files": [
+    {
+      "path": "local_data/peptidemt-target-case-review-pux_arxn/prepare_commit_proposal.py",
+      "bytes": 4519,
+      "sha256": "cdc5edf2802be4a3149c2a9bf8dd5cb7ad81ee9aee5391fb30bf01f4f8ec681f"
+    },
+    {
+      "path": "local_data/peptidemt-target-case-review-pux_arxn/commit-proposal.json",
+      "bytes": 4500,
+      "sha256": "0fe12aa54582972b8567d636f4c37861b24db0f485faa6e705fd515c0370d994"
+    },
+    {
+      "path": "local_data/peptidemt-target-case-review-pux_arxn/commit-message.txt",
+      "bytes": 503,
+      "sha256": "f421352ca2ebc49bae7ae389d0f8daf04a6ac9cbc65eedc418e8aaa8937125c6"
+    },
+    {
+      "path": "local_data/peptidemt-target-case-review-pux_arxn/commit-paths.txt",
+      "bytes": 361,
+      "sha256": "43ae4f0a2da8f25455a2394bd8f96d811b1b8efbe32a937df434271d739baa42"
+    },
+    {
+      "path": "local_data/peptidemt-target-case-review-pux_arxn/complete-review.patch",
+      "bytes": 20999,
+      "sha256": "8dff894d8f12a6da59bb8cfb24e1425fef941dff224fd8e99e9b2586c8f59137"
+    }
+  ],
+  "working_records": [
+    {
+      "path": "devguide/target_case_mdm2_reference_proposal.md",
+      "bytes": 11851,
+      "sha256": "feda2fa9fdf8209d540022e3ff8537f1673b33aa2f49eb254e1605610805bca6"
+    },
+    {
+      "path": "devguide/hydramp_dev9_source_review.md",
+      "bytes": 2488,
+      "sha256": "7026d2e6a05c894382ed23973a2de144c525c58003833b4ac2257f2a1896d95a"
+    }
+  ],
+  "scientific_scope_schema_M1_M8_and_accepted_resources_unchanged": true,
+  "no_PDB_coordinate_download_or_preparation_or_geometry_calculation": true,
+  "new_tests_builds_installs_neural_PCA_descriptor_or_GPU_calls": 0,
+  "git_commit_index_or_objects_written": false,
+  "no_commit_push_merge_tag_release_or_contact": true,
+  "retention": {
+    "owner": [
+      "uibcdf/peptidemt#33",
+      "uibcdf/hydramp#4",
+      "uibcdf/peptidemt#32"
+    ],
+    "review_date": "2026-11-19",
+    "retain": [
+      "dev9 reviewed source and qualified fixtures",
+      "case primary-source notes and source inventories",
+      "exact commit proposal and current reports"
+    ],
+    "task": "local_data/peptidemt-target-case-review-pux_arxn"
+  },
+  "pre_publication_refinement": {
+    "earlier_receipt_sha256": "8ccb2be897c42a2b993dbff2d2221fe4e3abef36e771f0fa92133df142419cec",
+    "retained_copy": "local_data/peptidemt-target-case-review-pux_arxn/feasibility-receipt-before-boundary-note.json",
+    "change": "Make proposed isolated-complex/nonperiodic reference boundary explicit; no cutoff accepted or scientific execution",
+    "recorded_at_utc": "2026-11-06T04:54:28.798635+00:00"
+  }
+}

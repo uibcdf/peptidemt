@@ -1,0 +1,703 @@
+{
+  "schema": "peptidemt.mdm2_t0_execution@1",
+  "recorded_at_utc": "2026-11-06T06:58:30.300321+00:00",
+  "status": "completed_D51_single_reference_T0_source_profile_geometry_and_saved_receiving_local_not_published",
+  "authority": {
+    "scientific": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/evidence/mdm2_t0_authorization.json",
+      "bytes": 1438,
+      "sha256": "b733568dae069ea50bbf8290f7bd42d0789879b4c3f5abb818d65d75cb936063"
+    },
+    "current_resources": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/evidence/mdm2_t0_resource_correction.json",
+      "bytes": 1705,
+      "sha256": "a742bbaad05373346cf2d27e3ac100d806b1d939ff0bf0660eca989a49b63100"
+    },
+    "routine_technical_execution": "D49; diagnosed retries do not reuse or relabel historical spent ledgers",
+    "no_T1_or_model_commission": true
+  },
+  "current_report": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/mdm2_t0_qualification.md",
+    "bytes": 8372,
+    "sha256": "64bcd043b44b8deb47cb875f3f4b6ee9cdd847707e57eda58f6e84e7a669ccf2"
+  },
+  "current_order": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/mdm2_t0_work_order.md",
+    "bytes": 15957,
+    "sha256": "9ab5432bfae63da45176ac4c301fe0ecb42f6f13c46927c530e6e7b4e68001d0"
+  },
+  "source": {
+    "manifest": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-t0-d1u79kql/source/manifest.json",
+      "bytes": 3321,
+      "sha256": "84a6292c9e5c1421d873855d9e392f8ad00da896798c2617543f0b5d0b5a6413"
+    },
+    "coordinate_file": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-t0-d1u79kql/source/1ycr-v1-5.cif",
+      "bytes": 121649,
+      "sha256": "03f62994ea1ff55d98c0d9d835b706319e523367fce56d9deb51b850c83e47a8"
+    },
+    "reacquired": false,
+    "entry": "1YCR",
+    "revision": [
+      1,
+      5
+    ],
+    "source_model_id": "1",
+    "native_structure_id": null,
+    "native_structure_index": 0
+  },
+  "installed_profile": {
+    "record": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-t0-d1u79kql/profile-qualification.json",
+      "bytes": 869742,
+      "sha256": "ff7ab6b091498e04f76eaabb6eb6631df587c9e1ebd42d233b2af4130b981578"
+    },
+    "qualified_file_pins_reverified": 3258,
+    "source_ref": "ed09f64539a5af6c1dbe9bd352c7ef65dcd4a7a6",
+    "python": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-t0-d1u79kql/clean-profile-stage/environment/bin/python",
+    "python_version": "3.14.7 | packaged by conda-forge | (main, Sep  2 2026, 21:08:32) [GCC 15.3.0]",
+    "versions": {
+      "widgetsnbextension": "4.0.16",
+      "hyperframe": "6.1.0",
+      "idna": "3.20",
+      "platformdirs": "4.14.5",
+      "Brotli": "1.2.1",
+      "jedi": "0.20.1",
+      "Pint": "0.26.2",
+      "traitlets": "5.16.1",
+      "ptyprocess": "0.7.0",
+      "aiosignal": "1.4.0",
+      "h2": "4.4.1",
+      "pyunitwizard": "0.29.0+4.g9d74f0e",
+      "importlib_metadata": "10.0.0",
+      "propcache": "0.5.4",
+      "numpy": "2.4.6",
+      "pure_eval": "0.2.4",
+      "python-dateutil": "4.0.0",
+      "tomli": "2.5.0",
+      "msgpack": "1.2.4",
+      "prompt_toolkit": "3.0.53",
+      "h5py": "3.16.0",
+      "charset-normalizer": "3.5.2",
+      "stack_data": "0.6.3",
+      "certifi": "2026.10.23",
+      "pillow": "13.0.0",
+      "setuptools-rust": "1.13.0",
+      "tqdm": "4.70.1",
+      "executing": "2.3.0",
+      "matplotlib": "3.11.2",
+      "cycler": "0.12.1",
+      "attrs": "26.1.0",
+      "multidict": "7.2.1",
+      "flexcache": "0.3",
+      "jupyterlab_widgets": "3.0.17",
+      "urllib3": "2.8.0",
+      "wheel": "0.48.0",
+      "mmcif": "1.1.1",
+      "versioningit": "3.3.0",
+      "beartype": "0.22.9",
+      "pip": "26.2.2",
+      "argdigest": "0.17.0+13.g7e09e97",
+      "kiwisolver": "1.5.1",
+      "aiohappyeyeballs": "2.7.1",
+      "typing_extensions": "4.16.0",
+      "packaging": "26.3",
+      "networkx": "3.7",
+      "psutil": "7.2.2",
+      "contourpy": "1.4.0",
+      "parso": "0.8.7",
+      "pyparsing": "3.3.3",
+      "ipywidgets": "8.1.9",
+      "smonitor": "0.22.0+16.gccdcace",
+      "PySocks": "1.7.1",
+      "wrapt": "2.5.2",
+      "fonttools": "4.68.0",
+      "requests": "2.34.2",
+      "semantic-version": "2.10.0",
+      "anywidget": "0.11.0",
+      "tzdata": "2026.6",
+      "zipp": "4.1.2",
+      "aiohttp": "3.14.5",
+      "flexparser": "0.4",
+      "frozenlist": "1.8.0",
+      "matplotlib-inline": "0.2.2",
+      "hpack": "4.2.0",
+      "depdigest": "0.15.1+8.g0884f0c",
+      "molsysviewer": "0.24.0+188.g73a6f388",
+      "cached-property": "2.0.1",
+      "pexpect": "4.9.0",
+      "molsysmt": "0.23.0+445.ged09f6453",
+      "comm": "0.2.3",
+      "yarl": "1.25.1",
+      "psygnal": "0.16.1",
+      "munkres": "1.1.4",
+      "asttokens": "3.0.2",
+      "Pygments": "2.21.0",
+      "wcwidth": "0.9.4",
+      "ipython": "9.18.1",
+      "pandas": "3.1.1",
+      "ipython_pygments_lexers": "1.1.1",
+      "setuptools": "84.2.1"
+    },
+    "native_extension": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-t0-d1u79kql/molsysmt/molsysmt/_rust.abi3.so",
+      "bytes": 31236688,
+      "sha256": "9e18e308ef6976d4c12981564f069ce26bc0db906c42a285052891abb87dcb72"
+    },
+    "conda_inventory": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-t0-d1u79kql/qualified-conda-inventory.json",
+      "bytes": 83220,
+      "sha256": "3ca0744ee928678ef8936fa1ebf9e80b65755fd02a10e9a83e28262249f60803"
+    },
+    "peer_sources": [
+      {
+        "repository": "uibcdf/smonitor",
+        "source_head": "ccdcace55ba5caf431b4a6a6904d8d18173114a3",
+        "worktree": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-t0-d1u79kql/peers/smonitor",
+        "original_clean": true,
+        "selection": "Existing local development HEAD, not fetched main; preserve all original clones",
+        "original_head_after": "ccdcace55ba5caf431b4a6a6904d8d18173114a3",
+        "original_dirty_after": ""
+      },
+      {
+        "repository": "uibcdf/depdigest",
+        "source_head": "0884f0cc1dd60b79ed01930e68d80c87e51744c9",
+        "worktree": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-t0-d1u79kql/peers/depdigest",
+        "original_clean": true,
+        "selection": "Existing local development HEAD, not fetched main; preserve all original clones",
+        "original_head_after": "0884f0cc1dd60b79ed01930e68d80c87e51744c9",
+        "original_dirty_after": ""
+      },
+      {
+        "repository": "uibcdf/argdigest",
+        "source_head": "7e09e974c36bcf5cace99a7b898d0f5f7a9d3ff2",
+        "worktree": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-t0-d1u79kql/peers/argdigest",
+        "original_clean": true,
+        "selection": "Existing local development HEAD, not fetched main; preserve all original clones",
+        "original_head_after": "7e09e974c36bcf5cace99a7b898d0f5f7a9d3ff2",
+        "original_dirty_after": ""
+      },
+      {
+        "repository": "uibcdf/pyunitwizard",
+        "source_head": "9d74f0e1e911d78c1906948e74ce8da93935557d",
+        "worktree": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-t0-d1u79kql/peers/pyunitwizard",
+        "original_clean": true,
+        "selection": "Existing local development HEAD, not fetched main; preserve all original clones",
+        "original_head_after": "9d74f0e1e911d78c1906948e74ce8da93935557d",
+        "original_dirty_after": ""
+      },
+      {
+        "repository": "uibcdf/molsysviewer",
+        "source_head": "73a6f388e09146650349dfe83564ae318ba20298",
+        "worktree": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-t0-d1u79kql/peers/molsysviewer",
+        "original_clean": true,
+        "selection": "Existing local development HEAD, not fetched main; preserve all original clones",
+        "original_head_after": "73a6f388e09146650349dfe83564ae318ba20298",
+        "original_dirty_after": ""
+      }
+    ],
+    "pip_check": "passed in clean prefix; failed inherited profile retained separately",
+    "workspace_scope": "Isolated T0 qualification fixture; no whole-suite/public artifact/platform qualification"
+  },
+  "geometry": {
+    "directory": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-t0-d1u79kql/geometry-7epks3v9",
+    "declaration": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-t0-d1u79kql/geometry-7epks3v9/run-declaration.json",
+      "bytes": 1936,
+      "sha256": "8d12a3e79ebd76e8962b337a59c6d2e84acb992b4038ebe2758e765891ab71f8"
+    },
+    "result": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-t0-d1u79kql/geometry-7epks3v9/result.json",
+      "bytes": 5072,
+      "sha256": "80d2675fb0128e06dc1de2e02a6ff639dd36fec8f4ca90c903bac13ff5f9c0db"
+    },
+    "supervision": {
+      "started": true,
+      "returncode": 0,
+      "failure": null,
+      "wall_seconds": 5.366653044009581,
+      "peak_sampled_process_tree_rss_bytes": 309362688,
+      "retained_output_bytes": 2126433,
+      "retry": false,
+      "rss_scope": "supervisor_and_descendants"
+    },
+    "checks": {
+      "exact_three_views": true,
+      "required_arrays_present": true,
+      "finite_nonempty_distances": true,
+      "reference_contact_present": true,
+      "reference_receptor_fit": true,
+      "reference_peptide_rmsd": true,
+      "reference_distances_finite_same_shape": true,
+      "reference_contact_definition_040": true,
+      "reference_contact_definition_045": true,
+      "reference_contact_definition_050": true,
+      "rigid_receptor_fit": true,
+      "rigid_peptide_rmsd": true,
+      "rigid_distances_finite_same_shape": true,
+      "rigid_distances_preserved": true,
+      "rigid_contact_definition_040": true,
+      "rigid_contacts_preserved_040": true,
+      "rigid_contact_definition_045": true,
+      "rigid_contacts_preserved_045": true,
+      "rigid_contact_definition_050": true,
+      "rigid_contacts_preserved_050": true,
+      "displaced_receptor_fit": true,
+      "displaced_peptide_rmsd": true,
+      "displaced_distances_finite_same_shape": true,
+      "displaced_contact_definition_040": true,
+      "displaced_no_contacts_040": true,
+      "displaced_contact_definition_045": true,
+      "displaced_no_contacts_045": true,
+      "displaced_contact_definition_050": true,
+      "displaced_no_contacts_050": true
+    },
+    "views": {
+      "reference": {
+        "receptor_rmsd_nm": 4.02237796304665e-16,
+        "peptide_rmsd_nm": 4.212648190417871e-16
+      },
+      "rigid": {
+        "receptor_rmsd_nm": 1.3374145103917885e-15,
+        "peptide_rmsd_nm": 1.3623202110607144e-15
+      },
+      "displaced": {
+        "receptor_rmsd_nm": 4.02237796304665e-16,
+        "peptide_rmsd_nm": 10.0
+      }
+    },
+    "arrays": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-t0-d1u79kql/geometry-7epks3v9/arrays.npz",
+      "bytes": 1804322,
+      "sha256": "7c46c1a2d28fe520f1ab93d59ca02034011fb3de93ae81990d5a4979f18a7ae2"
+    },
+    "source_admission": {
+      "passed": true,
+      "selected_atoms": 818,
+      "receptor_atoms": 705,
+      "peptide_atoms": 113,
+      "fit_atoms": 85,
+      "excluded_atoms": 0,
+      "assembly": "deposited A/B pair; nonperiodic; no assembly/lattice transformation",
+      "source": {
+        "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-t0-d1u79kql/source/1ycr-v1-5.cif",
+        "bytes": 121649,
+        "sha256": "03f62994ea1ff55d98c0d9d835b706319e523367fce56d9deb51b850c83e47a8"
+      },
+      "entry": "1YCR",
+      "revision": [
+        1,
+        5
+      ],
+      "validation": "Retained report has independent provenance; exact coordinate-hash association not established",
+      "noncollinear_anchors_validated_by": "molsysmt.structure.least_rmsd_fit"
+    },
+    "conversion_report": {
+      "from_form": "file:cif",
+      "to_form": "molsysmt.MolSys",
+      "outcome": "equivalent",
+      "audited_scopes": [
+        "chemical_state"
+      ],
+      "is_exhaustive": false,
+      "issues": []
+    },
+    "observations": {
+      "connectivity_completeness": "partial",
+      "bond_evidence_counts": {
+        "explicit": 739,
+        "inferred": 96
+      },
+      "source_model_identifier": "1",
+      "native_structure_id": null,
+      "alternate_location": null
+    },
+    "planned_host_metadata": {
+      "processor": "",
+      "planned_commands": [
+        {
+          "arguments": [
+            "uname",
+            "-p"
+          ],
+          "executable": {
+            "path": "/usr/lib/cargo/bin/coreutils/uname",
+            "bytes": 11807104,
+            "sha256": "f84e76ea4da1e0c4e92254bd0d7dccdabe2c8b3098e734f27997dae3ee5d8e02"
+          }
+        }
+      ],
+      "new_geometry_operations": 0
+    },
+    "operations": "Consumer-level public calls inferred from completed fixed code: 3 copies, 1 rotation, 2 translations, 3 receptor fits, 6 RMSDs, 3 distance matrices and 9 contact maps. Not an instrumented count of owner-internal kernels or file reads. No neural/model call."
+  },
+  "saved_receiving": {
+    "directory": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-t0-d1u79kql/saved-inspection-8c3dnhef",
+    "inspection": {
+      "passed": true,
+      "checks": {
+        "exact_three_views": true,
+        "required_arrays_present": true,
+        "finite_nonempty_distances": true,
+        "reference_contact_present": true,
+        "reference_receptor_fit": true,
+        "reference_peptide_rmsd": true,
+        "reference_distances_finite_same_shape": true,
+        "reference_contact_definition_040": true,
+        "reference_contact_definition_045": true,
+        "reference_contact_definition_050": true,
+        "rigid_receptor_fit": true,
+        "rigid_peptide_rmsd": true,
+        "rigid_distances_finite_same_shape": true,
+        "rigid_distances_preserved": true,
+        "rigid_contact_definition_040": true,
+        "rigid_contacts_preserved_040": true,
+        "rigid_contact_definition_045": true,
+        "rigid_contacts_preserved_045": true,
+        "rigid_contact_definition_050": true,
+        "rigid_contacts_preserved_050": true,
+        "displaced_receptor_fit": true,
+        "displaced_peptide_rmsd": true,
+        "displaced_distances_finite_same_shape": true,
+        "displaced_contact_definition_040": true,
+        "displaced_no_contacts_040": true,
+        "displaced_contact_definition_045": true,
+        "displaced_no_contacts_045": true,
+        "displaced_contact_definition_050": true,
+        "displaced_no_contacts_050": true
+      },
+      "saved_array_sha256": "7c46c1a2d28fe520f1ab93d59ca02034011fb3de93ae81990d5a4979f18a7ae2",
+      "new_geometry_operations": 0,
+      "provider_imports": []
+    },
+    "summary": {
+      "contact_counts": {
+        "reference": {
+          "0.4": 105,
+          "0.45": 253,
+          "0.5": 461
+        },
+        "rigid": {
+          "0.4": 105,
+          "0.45": 253,
+          "0.5": 461
+        },
+        "displaced": {
+          "0.4": 0,
+          "0.45": 0,
+          "0.5": 0
+        }
+      },
+      "boundary_pair_counts": {
+        "0.4": 0,
+        "0.45": 0,
+        "0.5": 0
+      },
+      "maximum_rigid_distance_difference": {
+        "value": 3.9968028886505635e-15,
+        "unit": "nm"
+      },
+      "unique_group_source_mappings": 98,
+      "new_molecular_geometry_operations": 0
+    },
+    "supervision": {
+      "started": true,
+      "returncode": 0,
+      "failure": null,
+      "wall_seconds": 0.30846889200620353,
+      "peak_sampled_process_tree_rss_bytes": 71471104,
+      "retained_output_bytes": 2514,
+      "retry": false,
+      "rss_scope": "supervisor_and_descendants"
+    },
+    "new_geometry_operations": 0,
+    "stdlib_reader_then_separate_numpy_summary": true
+  },
+  "selected_tests": {
+    "directory": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-t0-d1u79kql/final-checks-0f93lobq",
+    "summary": "PASS exit=0 | 15 passed | 1.60s",
+    "native_result": {
+      "returncode": 0,
+      "command_arguments": [
+        "-c",
+        "/dev/null",
+        "--rootdir",
+        "/home/liliana/repos@uibcdf/peptidemt",
+        "-p",
+        "pytest_receptor.plugin",
+        "--receptor=llm",
+        "-o",
+        "cache_dir=/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-t0-d1u79kql/final-checks-0f93lobq/cache",
+        "--junitxml",
+        "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-t0-d1u79kql/final-checks-0f93lobq/junit.xml",
+        "/home/liliana/repos@uibcdf/peptidemt/devtools/tests/test_mdm2_t0.py",
+        "/home/liliana/repos@uibcdf/peptidemt/devtools/tests/test_process_supervision.py",
+        "/home/liliana/repos@uibcdf/peptidemt/tests/test_hydramp_execution.py::test_timeout_kills_owned_worker_and_descendant",
+        "/home/liliana/repos@uibcdf/peptidemt/tests/test_hydramp_execution.py::test_fast_oversized_output_and_host_memory_guard",
+        "/home/liliana/repos@uibcdf/peptidemt/tests/test_hydramp_execution.py::test_parent_death_kills_worker_group_without_changing_host_signal_policy"
+      ],
+      "receptor_origin": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-public-install-z5lh31o1/wheels/pytest_receptor-1.2.2-py3-none-any.whl/pytest_receptor/__init__.py",
+      "receptor_wheel": {
+        "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-public-install-z5lh31o1/wheels/pytest_receptor-1.2.2-py3-none-any.whl",
+        "bytes": 45128,
+        "sha256": "48c290fba7e12d19015fa436989fdad465d5ff7bba78fa94f7825e305ccf7961"
+      },
+      "scientific_provider_imports": []
+    },
+    "supervision": {
+      "started": true,
+      "returncode": 0,
+      "failure": null,
+      "wall_seconds": 2.180592047981918,
+      "peak_sampled_process_tree_rss_bytes": 139673600,
+      "retained_output_bytes": 10210,
+      "retry": false,
+      "rss_scope": "supervisor_and_descendants"
+    },
+    "declaration": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-t0-d1u79kql/final-checks-0f93lobq/declaration.json",
+      "bytes": 2172,
+      "sha256": "72944b62706c8947a24f3a703d3c602c28ac2fa3f58230b6ebf14fd61ad51681"
+    },
+    "junit": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-t0-d1u79kql/final-checks-0f93lobq/junit.xml",
+      "bytes": 2190,
+      "sha256": "c4cb64e972883c661bc41abe24f5107dc362fca9b07df53f136e8797ddf054bb"
+    },
+    "scope": "11 artificial T0 checks, real thread-child RSS guard and 3 existing process compatibility guards; no models/molecular operations"
+  },
+  "resource_regression": {
+    "owner": "uibcdf/peptidemt#38",
+    "failed_before": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-t0-d1u79kql/resource-checks-r66go8sw",
+    "passed_after": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-t0-d1u79kql/resource-checks-qsi_naxr",
+    "before_source": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-t0-d1u79kql/resource-supervision-before.py",
+      "bytes": 5333,
+      "sha256": "d748254aaebec30f7fdeafe23cb64982a65fd98de9a761d167ff21bfff365fa2"
+    },
+    "current_source": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/src/peptidemt/_hydramp_process.py",
+      "bytes": 5566,
+      "sha256": "5d03f493f54bbef4397561dfd80a773cea696c295da0b899fc2b57e6bbf706a6"
+    },
+    "finding": "Previous main-task-only traversal can omit thread-created children. Earlier compiler RSS samples remain historical and do not prove complete aggregate peaks. Final clean receiving uses corrected traversal.",
+    "publication_status": "Local uncommitted correction; owner issue remains partial"
+  },
+  "prior_engineering": [
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-t0-d1u79kql/engineering/supervision.json",
+      "facts": {
+        "started": true,
+        "returncode": -9,
+        "failure": "host_resource_guard",
+        "wall_seconds": 31.823246140033007,
+        "peak_sampled_process_tree_rss_bytes": 199979008,
+        "retained_output_bytes": 144769613,
+        "retry": false,
+        "rss_scope": "supervisor_and_descendants"
+      },
+      "scope_limitation": "Main-task-only traversal; do not retrospectively assert full compiler-tree RSS"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-t0-d1u79kql/engineering/attempt-0k91mzzg/supervision.json",
+      "facts": {
+        "started": true,
+        "returncode": -9,
+        "failure": "host_resource_guard",
+        "wall_seconds": 20.898588598007336,
+        "peak_sampled_process_tree_rss_bytes": 196415488,
+        "retained_output_bytes": 171678525,
+        "retry": false,
+        "rss_scope": "supervisor_and_descendants"
+      },
+      "scope_limitation": "Main-task-only traversal; do not retrospectively assert full compiler-tree RSS"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-t0-d1u79kql/engineering/attempt-33cvdz1u/supervision.json",
+      "facts": {
+        "started": true,
+        "returncode": -9,
+        "failure": "worker_failure",
+        "wall_seconds": 51.223457952961326,
+        "peak_sampled_process_tree_rss_bytes": 196497408,
+        "retained_output_bytes": 352646226,
+        "retry": false,
+        "rss_scope": "supervisor_and_descendants"
+      },
+      "scope_limitation": "Main-task-only traversal; do not retrospectively assert full compiler-tree RSS"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-t0-d1u79kql/engineering/attempt-g_80qjw4/supervision.json",
+      "facts": {
+        "started": true,
+        "returncode": 0,
+        "failure": null,
+        "wall_seconds": 133.52571396785788,
+        "peak_sampled_process_tree_rss_bytes": 195420160,
+        "retained_output_bytes": 800117339,
+        "retry": false,
+        "rss_scope": "supervisor_and_descendants"
+      },
+      "scope_limitation": "Main-task-only traversal; do not retrospectively assert full compiler-tree RSS"
+    }
+  ],
+  "intermediate_user_correction": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-t0-d1u79kql/resource-correction-interruption.json",
+    "bytes": 295,
+    "sha256": "dd030ca902fa467fcb288f387e30bcbc4819a6d620100719d2ed24ca37f3f469"
+  },
+  "clean_profile_engineering": {
+    "dry-run-supervision.json": {
+      "started": true,
+      "returncode": 1,
+      "failure": "worker_failure",
+      "wall_seconds": 247.64755490794778,
+      "peak_sampled_process_tree_rss_bytes": 934735872,
+      "retained_output_bytes": 2851,
+      "retry": false,
+      "rss_scope": "supervisor_and_descendants"
+    },
+    "create-supervision.json": {
+      "started": true,
+      "returncode": 0,
+      "failure": null,
+      "wall_seconds": 98.42199721396901,
+      "peak_sampled_process_tree_rss_bytes": 539095040,
+      "retained_output_bytes": 1451129860,
+      "retry": false,
+      "rss_scope": "supervisor_and_descendants"
+    },
+    "install-supervision.json": {
+      "started": true,
+      "returncode": 0,
+      "failure": null,
+      "wall_seconds": 38.865710308076814,
+      "peak_sampled_process_tree_rss_bytes": 546844672,
+      "retained_output_bytes": 1451297883,
+      "retry": false,
+      "rss_scope": "supervisor_and_descendants"
+    }
+  },
+  "profile_receiving_attempts": [
+    {
+      "directory": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-t0-d1u79kql/profile-receiving-sroq6aij",
+      "supervision": {
+        "started": true,
+        "returncode": 1,
+        "failure": "worker_failure",
+        "wall_seconds": 6.036669581895694,
+        "peak_sampled_process_tree_rss_bytes": 99483648,
+        "retained_output_bytes": 536,
+        "retry": false,
+        "rss_scope": "supervisor_and_descendants"
+      },
+      "pip_check": {
+        "returncode": 1,
+        "stdout": "packmol-memgen 2026.3.25 requires pdb2pqr, which is not installed.\nproprep 1.0.0 requires pdb2pqr, which is not installed.\nndfes 3.6.5 has requirement numpy<2, but you have numpy 2.4.6.\nedgembar 3.6.5 has requirement numpy<2, but you have numpy 2.4.6.\nfetkutils 3.6.5 has requirement numpy<2, but you have numpy 2.4.6.\nproprep 1.0.0 has requirement biopython<1.86,>=1.83, but you have biopython 1.88.\nproprep 1.0.0 has requirement numpy<2.0,>=1.26, but you have numpy 2.4.6.\n",
+        "stderr": ""
+      }
+    },
+    {
+      "directory": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-t0-d1u79kql/profile-receiving-x_e_6wq3",
+      "supervision": {
+        "started": true,
+        "returncode": 0,
+        "failure": null,
+        "wall_seconds": 6.371224424801767,
+        "peak_sampled_process_tree_rss_bytes": 129101824,
+        "retained_output_bytes": 869827,
+        "retry": false,
+        "rss_scope": "supervisor_and_descendants"
+      },
+      "pip_check": {
+        "returncode": 0,
+        "stdout": "No broken requirements found.\n",
+        "stderr": ""
+      }
+    }
+  ],
+  "failed_geometry_before_parsing": {
+    "directory": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-t0-d1u79kql/geometry-mjuqpw98",
+    "failure": {
+      "type": "ArgumentError",
+      "message": "Error in argument 'molecular_system' with value '/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-t0-d1u79kql/source/1ycr-v1-5.cif'. Check the API for the expected argument format. Docs: https://www.uibcdf.org/MolSysMT | Issues: https://github.com/uibcdf/MolSysMT/issues",
+      "traceback": "Traceback (most recent call last):\n  File \"/home/liliana/repos@uibcdf/peptidemt/devtools/mdm2_t0.py\", line 551, in worker\n    checks = geometry(task, directory)\n  File \"/home/liliana/repos@uibcdf/peptidemt/devtools/mdm2_t0.py\", line 216, in geometry\n    container = msm.convert(\n        str(source), to_form=\"mmcif.PdbxContainers.DataContainer\"\n    )\n  File \"/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-t0-d1u79kql/peers/smonitor/smonitor/core/decorator.py\", line 330, in invoke\n    return fn(*args, **kwargs)\n  File \"/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-t0-d1u79kql/peers/smonitor/smonitor/core/decorator.py\", line 330, in invoke\n    return fn(*args, **kwargs)\n  File \"/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-t0-d1u79kql/peers/argdigest/argdigest/core/decorator.py\", line 675, in wrapper\n    return _run_digestion()\n  File \"/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-t0-d1u79kql/peers/argdigest/argdigest/core/decorator.py\", line 640, in _run_digestion\n    gut(argname, gut)\n    ~~~^^^^^^^^^^^^^^\n  File \"/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-t0-d1u79kql/peers/argdigest/argdigest/core/decorator.py\", line 628, in gut\n    digested[argname] = fn_digest(**kwargs_for_digest)\n                        ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-t0-d1u79kql/molsysmt/molsysmt/_private/argdigest/argument/molecular_system.py\", line 62, in digest_molecular_system\n    return validate_molecular_system_argument(\n        molecular_system,\n        argument=\"molecular_system\",\n        caller=caller,\n    )\n  File \"/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-t0-d1u79kql/molsysmt/molsysmt/_private/molecular_system_validation.py\", line 233, in validate_molecular_system_argument\n    raise ArgumentError(argument, value=value, caller=caller, message=None)\nmolsysmt._private.smonitor.exceptions.ArgumentError: Error in argument 'molecular_system' with value '/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-t0-d1u79kql/source/1ycr-v1-5.cif'. Check the API for the expected argument format. Docs: https://www.uibcdf.org/MolSysMT | Issues: https://github.com/uibcdf/MolSysMT/issues\n",
+      "geometry_completed": false
+    },
+    "new_geometry_operations": 0
+  },
+  "reader_diagnosis_records": [
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-t0-d1u79kql/reader-diagnosis-_o2m2ot1/diagnosis.json",
+      "bytes": 217,
+      "sha256": "1b0a458ed963ad4cb8dbeffb74ecace4e09e50b4f3364a71f1ea030b2ddd9b71"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-t0-d1u79kql/reader-diagnosis-zq8qtbnl/diagnosis.json",
+      "bytes": 15242,
+      "sha256": "8626b399f178ba278e271cf212f0d23d2c87ef06b42a5c23c24695d4c9435109"
+    }
+  ],
+  "retention": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-t0-d1u79kql/retention.json",
+    "bytes": 6345,
+    "sha256": "3dff53d8dbb80f5290527ca657f1bf024c7d02b24865ddf1304f6bcf9d2efc19"
+  },
+  "executed_source_snapshots": [
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-t0-d1u79kql/execution-source/devtools/mdm2_t0.py",
+      "bytes": 28007,
+      "sha256": "76727ddbb75628c7b6a785c59d977b56c3e9f9c1b02946da4b575f6991cab8e4"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-t0-d1u79kql/execution-source/devtools/tests/test_mdm2_t0.py",
+      "bytes": 4627,
+      "sha256": "d8bdee2c53daea5abdf7ec17d9b34d9d3ab2366ce76458475cffb3e354d15e77"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-t0-d1u79kql/execution-source/devtools/tests/test_process_supervision.py",
+      "bytes": 1790,
+      "sha256": "2fb1adb58b1bcacf9c133fbf1b653235ecd767a2c8a7e4a26ee351db5e7dcfec"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-t0-d1u79kql/execution-source/src/peptidemt/_hydramp_process.py",
+      "bytes": 5566,
+      "sha256": "5d03f493f54bbef4397561dfd80a773cea696c295da0b899fc2b57e6bbf706a6"
+    }
+  ],
+  "feedback": {
+    "peptidemt": {
+      "audit": 33,
+      "resource_bug": 38
+    },
+    "molsysmt_diagnostic_proposal": 601,
+    "workspace": "uibcdf/molsyssuite#82 comment 6678822888",
+    "native_inference_policy": "uibcdf/molsysmt#304 remains owner work"
+  },
+  "unchanged_hydramp": {
+    "base": "6a3ff905635a4bd744854cd540f8513916aa99f0",
+    "task_paths_unchanged": 12,
+    "qualification_receipt_sha256": "15c5814cfec53531e51f5424d46ea54f028e0e345fd9b30f2bd0537cf77c81d3",
+    "new_commit": false
+  },
+  "not_claimed": [
+    "predictive recognition",
+    "affinity/selectivity/biological utility",
+    "simulation-ready chemistry",
+    "exact coordinate-hash association of external validation PDF",
+    "live Ackredit/Recorda receiving",
+    "CI/full-suite or public package qualification",
+    "whole-suite shared workspace repair"
+  ],
+  "zero_counts": {
+    "learned_model_loads_or_evaluations": 0,
+    "GPU_calls": 0,
+    "new_sequences_or_chemical_repairs": 0,
+    "M1_M8_or_selector_changes": 0,
+    "T1_execution": 0,
+    "new_commits_push_tags_release": 0,
+    "external_author_contact": 0
+  },
+  "next_authority_boundary": "T0 is complete. The subsequently commissioned longer-horizon objective retains scientific readiness review before a concrete new T1/data/chemistry/evaluator or generation contract."
+}

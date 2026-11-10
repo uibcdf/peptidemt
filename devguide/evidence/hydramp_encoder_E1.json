@@ -1,0 +1,452 @@
+{
+  "schema": "peptidemt.hydramp_encoder_E1@1",
+  "recorded_at_utc": "2026-11-04T13:45:44.669326+00:00",
+  "status": "E1 implementation and installed artificial qualification complete; E2 pending",
+  "decision": "D42",
+  "owner_issue": "uibcdf/hydramp#8",
+  "consumer_issue": "uibcdf/peptidemt#32",
+  "authority": {
+    "schema": "peptidemt.hydramp_encoder_E1_authorization@1",
+    "date": "2026-11-04",
+    "recorded_at_utc": "2026-11-04T13:21:20.430002+00:00",
+    "owner_issue": "uibcdf/hydramp#8",
+    "consumer_issue": "uibcdf/peptidemt#32",
+    "authority": "Investigator explicitly instructs continuing in direct response to approval of the concrete deterministic encoder contract and implementation/testing with artificial weights only.",
+    "E1_implementation_approved": true,
+    "contract_sha256": "064848b3832d65f462c86cf347f74b534fccb4044e803c156b5a04e2832a926e",
+    "input": "CPU int64[N,25],0..20;preserve occurrences and zeros",
+    "outputs": "CPU float32 mean/log_variance[N,64];no sampling/RNG/PCA/decoder/head/descriptors/analogue/training",
+    "E2_real_weights_or_execution_approved": false,
+    "accepted_dev3_unchanged": true,
+    "candidate_worktree": "/home/liliana/repos@uibcdf/hydramp/local_data/pytorch-encoder",
+    "task_directory": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-encoder-E1-jig040z0",
+    "no_commit_push_release_external_contact": true
+  },
+  "reviewed_original_proposal": {
+    "path": "/home/liliana/repos@uibcdf/hydramp/local_data/pytorch-comparison/devguide/pytorch_encoder_work_order.md",
+    "bytes": 9415,
+    "sha256": "064848b3832d65f462c86cf347f74b534fccb4044e803c156b5a04e2832a926e"
+  },
+  "candidate": {
+    "distribution": "hydramp-torch",
+    "version": "0.0.0.dev4",
+    "wheel": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-encoder-E1-jig040z0/artifacts/hydramp_torch-0.0.0.dev4-py3-none-any.whl",
+      "bytes": 15421,
+      "sha256": "01fe4e125eca5decdca89f43e8925e8e969d3453b7a4da701be8e96e5e18dbe0"
+    },
+    "source": {
+      "candidate": "hydramp-torch==0.0.0.dev4",
+      "worktree": "/home/liliana/repos@uibcdf/hydramp/local_data/pytorch-encoder",
+      "initial_sources": [
+        {
+          "path": "/home/liliana/repos@uibcdf/hydramp/local_data/pytorch-encoder/ports/pytorch/src/hydramp_torch/__init__.py",
+          "bytes": 688,
+          "sha256": "3774c91ced9b20c15ec61d2aef18235df54d77aa7f1b72ef14152f3e1f413219"
+        },
+        {
+          "path": "/home/liliana/repos@uibcdf/hydramp/local_data/pytorch-encoder/ports/pytorch/src/hydramp_torch/_checkpoint.py",
+          "bytes": 780,
+          "sha256": "9dc25424162f1a92778bd2ce49bfc8620916ce8fbac2637287399724d26abd03"
+        },
+        {
+          "path": "/home/liliana/repos@uibcdf/hydramp/local_data/pytorch-encoder/ports/pytorch/src/hydramp_torch/encoder.py",
+          "bytes": 8796,
+          "sha256": "2abf1dd009a9bca39ad30d69e0f32cc3b225dd14b38e4ba46d1fbf3077723256"
+        },
+        {
+          "path": "/home/liliana/repos@uibcdf/hydramp/local_data/pytorch-encoder/ports/pytorch/src/hydramp_torch/generation.py",
+          "bytes": 8136,
+          "sha256": "83d8a976cdfcdb64fed531db30a2e365954f0acb0f4072a3b0c5c1aaf266bd62"
+        },
+        {
+          "path": "/home/liliana/repos@uibcdf/hydramp/local_data/pytorch-encoder/ports/pytorch/src/hydramp_torch/inference.py",
+          "bytes": 12538,
+          "sha256": "98f6494c2c93c8375c04909df683cd90c767fb8a024ee6b57da258cbfd2a4199"
+        },
+        {
+          "path": "/home/liliana/repos@uibcdf/hydramp/local_data/pytorch-encoder/ports/pytorch/src/hydramp_torch/prior.py",
+          "bytes": 2485,
+          "sha256": "3a765e5f906d7e00bd3b181c305f0665c712af6fa5988a4265f4b8369e124d19"
+        },
+        {
+          "path": "/home/liliana/repos@uibcdf/hydramp/local_data/pytorch-encoder/ports/pytorch/src/hydramp_torch/properties.py",
+          "bytes": 2563,
+          "sha256": "c47bd6f8224b996b6d221caf2de151d3d6aae1360faf4a3ec56fdd8b09abe758"
+        }
+      ],
+      "new_test": {
+        "path": "/home/liliana/repos@uibcdf/hydramp/local_data/pytorch-encoder/ports/pytorch/tests/test_encoder.py",
+        "bytes": 14930,
+        "sha256": "e27a5f51eae6505b18635b59f8772263ea80b95602ac00c4580cd1fa854ca5b9"
+      },
+      "accepted_dev3_preserved": true
+    },
+    "git_base": "6590d2f4c2963f25d30669052a4c4a857e0e7279",
+    "branch": "peptidemt-pytorch-encoder",
+    "source_state": "local/uncommitted; base commit is not the port identity"
+  },
+  "contract": {
+    "input": "CPU int64[N,25]; N>0; values0..20; preserve occurrences/zeros",
+    "output": "CPU float32 mean and native raw log_variance[N,64]",
+    "sampling_or_RNG_mutation": false,
+    "prospective_artificial_atol": 2e-06,
+    "prospective_artificial_rtol": 2e-05,
+    "pretrained_acceptance_threshold": null
+  },
+  "installed_probe": {
+    "python": "3.14.7 | packaged by conda-forge | (main, Sep  2 2026, 21:08:32) [GCC 15.3.0]",
+    "executable": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-encoder-E1-jig040z0/worker/bin/python",
+    "prefix": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-encoder-E1-jig040z0/worker",
+    "provider_origin": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-encoder-E1-jig040z0/worker/lib/python3.14/site-packages/hydramp_torch/__init__.py",
+    "torch": "2.15.0+cpu",
+    "numpy": "2.4.6",
+    "receptor": "1.2.2",
+    "versions": {
+      "idna": "3.20",
+      "pytest": "9.2.0",
+      "numpy": "2.4.6",
+      "narwhals": "2.28.0",
+      "python-dateutil": "4.0.0",
+      "filelock": "4.2.5",
+      "iniconfig": "2.3.1",
+      "scipy": "1.18.1",
+      "charset-normalizer": "3.5.2",
+      "certifi": "2026.10.23",
+      "pillow": "13.0.0",
+      "pandas": "3.1.0",
+      "MarkupSafe": "3.0.4",
+      "fsspec": "2026.9.0",
+      "matplotlib": "3.11.2",
+      "cycler": "0.12.1",
+      "torch": "2.15.0+cpu",
+      "hydramp-torch": "0.0.0.dev4",
+      "mpmath": "1.3.0",
+      "urllib3": "2.8.0",
+      "cloudpickle": "3.1.2",
+      "kiwisolver": "1.5.1",
+      "sympy": "1.14.0",
+      "typing_extensions": "4.16.0",
+      "packaging": "26.3",
+      "networkx": "3.7",
+      "joblib": "1.6.0",
+      "pytest-receptor": "1.2.2",
+      "contourpy": "1.4.0",
+      "pyparsing": "3.3.3",
+      "setuptools": "84.2.1",
+      "fonttools": "4.68.0",
+      "requests": "2.34.2",
+      "tzdata": "2026.6",
+      "threadpoolctl": "3.7.0",
+      "pluggy": "1.7.0",
+      "modlamp": "4.3.3",
+      "lxml": "6.1.3",
+      "Pygments": "2.21.0",
+      "scikit-learn": "1.9.1",
+      "Jinja2": "3.1.6"
+    },
+    "affinity": [
+      0,
+      1
+    ],
+    "nice": 10,
+    "torch_threads": 1,
+    "interop_threads": 1,
+    "wheel_sha256": "01fe4e125eca5decdca89f43e8925e8e969d3453b7a4da701be8e96e5e18dbe0"
+  },
+  "preservation": {
+    "math_functions_classes_AST_identical": [
+      "_checked_array",
+      "_Weights",
+      "_ResetBeforeGRU",
+      "_LSTM",
+      "_pool",
+      "_same_conv_relu",
+      "HydrAMPInference",
+      "translate_tokens",
+      "_validate_layer"
+    ],
+    "old_loader_body_except_read_AST_identical": true,
+    "shared_file_reader_body_AST_identical": true,
+    "unchanged_generator_prior_properties_bytes": true,
+    "pyproject_and_lock_graph_unchanged_except_candidate_version": true,
+    "synthetic_JUnit_counts": {
+      "new_encoder": 41,
+      "existing_inference": 25,
+      "existing_generation": 24,
+      "existing_property_spies": 5,
+      "total": 95
+    },
+    "new_pretrained_calls": 0
+  },
+  "preserved_dev3_wheel": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-comparison-qnbdpism/artifacts/hydramp_torch-0.0.0.dev3-py3-none-any.whl",
+    "bytes": 11987,
+    "sha256": "81761e0d48d92f0956e0afc28b3b4154f16032de53c666fd2cfbb53606102ed7"
+  },
+  "preserved_dev3_runtime_sources": [
+    {
+      "path": "/home/liliana/repos@uibcdf/hydramp/local_data/pytorch-comparison/ports/pytorch/src/hydramp_torch/__init__.py",
+      "bytes": 532,
+      "sha256": "0fbc35363ae1eb7afb6d755830a9b37bad996913af91502e6f3476d7e687d0ec"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/hydramp/local_data/pytorch-comparison/ports/pytorch/src/hydramp_torch/generation.py",
+      "bytes": 8136,
+      "sha256": "83d8a976cdfcdb64fed531db30a2e365954f0acb0f4072a3b0c5c1aaf266bd62"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/hydramp/local_data/pytorch-comparison/ports/pytorch/src/hydramp_torch/inference.py",
+      "bytes": 13030,
+      "sha256": "7059207b81fcf823e084db27bc189f8174f88e5173230b750b5c4ed080dbf94e"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/hydramp/local_data/pytorch-comparison/ports/pytorch/src/hydramp_torch/prior.py",
+      "bytes": 2485,
+      "sha256": "3a765e5f906d7e00bd3b181c305f0665c712af6fa5988a4265f4b8369e124d19"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/hydramp/local_data/pytorch-comparison/ports/pytorch/src/hydramp_torch/properties.py",
+      "bytes": 2563,
+      "sha256": "c47bd6f8224b996b6d221caf2de151d3d6aae1360faf4a3ec56fdd8b09abe758"
+    }
+  ],
+  "accepted_consumer_wheel_sha256": "18b1cb18b9662092203aad9c64d45bc0d61a862577297c13a664572dbdbc3e83",
+  "build": {
+    "exit_code": 0,
+    "wall_seconds": 1.6726791819091886,
+    "setuptools": "84.2.1",
+    "wheel": "0.45.1",
+    "build_python": "3.14.7",
+    "route": "Offline dedicated build prefix exposing exact previously cached build providers; direct PEP517 backend, no scientific runtime or dependency install",
+    "new_scientific_calls": 0,
+    "child_kernel_HWM_rss_bytes": 55615488
+  },
+  "execution": {
+    "scope": "New encoder plus applicable original core/generation/property-spy installed regressions; artificial parameters only; all real artifacts/providers/consumer/network blocked",
+    "supervision": {
+      "started": true,
+      "returncode": 0,
+      "failure": null,
+      "wall_seconds": 13.462455150904134,
+      "peak_sampled_process_tree_rss_bytes": 343252992,
+      "retained_output_bytes": 73027881,
+      "retry": false
+    },
+    "wall_seconds_including_supervision": 13.494102817028761,
+    "new_pretrained_PCA_descriptor_Macrel_calls": 0,
+    "resources": {
+      "min_available_memory_bytes": 8589934592,
+      "min_free_disk_bytes": 1073741824,
+      "threads": 1,
+      "wall_seconds": 120,
+      "rss_stop_bytes": 2147483648,
+      "max_output_bytes": 134217728
+    },
+    "candidate": "dev4"
+  },
+  "deployment_fixture": {
+    "cause": "uv pip check inspects installed metadata directories and did not discover borrowed .pth/symlink distributions even though Python metadata resolved41. Copied exact metadata bytes into task-owned prefix; package payloads remain links to unchanged frozen runtime.",
+    "metadata_copies": [
+      "idna-3.20.dist-info",
+      "pytest-9.2.0.dist-info",
+      "numpy-2.4.6.dist-info",
+      "narwhals-2.28.0.dist-info",
+      "python_dateutil-4.0.0.dist-info",
+      "filelock-4.2.5.dist-info",
+      "iniconfig-2.3.1.dist-info",
+      "scipy-1.18.1.dist-info",
+      "charset_normalizer-3.5.2.dist-info",
+      "certifi-2026.10.23.dist-info",
+      "pillow-13.0.0.dist-info",
+      "pandas-3.1.0.dist-info",
+      "markupsafe-3.0.4.dist-info",
+      "fsspec-2026.9.0.dist-info",
+      "matplotlib-3.11.2.dist-info",
+      "cycler-0.12.1.dist-info",
+      "torch-2.15.0+cpu.dist-info",
+      "mpmath-1.3.0.dist-info",
+      "urllib3-2.8.0.dist-info",
+      "cloudpickle-3.1.2.dist-info",
+      "kiwisolver-1.5.1.dist-info",
+      "sympy-1.14.0.dist-info",
+      "typing_extensions-4.16.0.dist-info",
+      "packaging-26.3.dist-info",
+      "networkx-3.7.dist-info",
+      "joblib-1.6.0.dist-info",
+      "pytest_receptor-1.2.2.dist-info",
+      "contourpy-1.4.0.dist-info",
+      "pyparsing-3.3.3.dist-info",
+      "setuptools-84.2.1.dist-info",
+      "fonttools-4.68.0.dist-info",
+      "requests-2.34.2.dist-info",
+      "tzdata-2026.6.dist-info",
+      "threadpoolctl-3.7.0.dist-info",
+      "pluggy-1.7.0.dist-info",
+      "modlamp-4.3.3.dist-info",
+      "lxml-6.1.3.dist-info",
+      "pygments-2.21.0.dist-info",
+      "scikit_learn-1.9.1.dist-info",
+      "jinja2-3.1.6.dist-info"
+    ],
+    "distributions": 41,
+    "native_pip_check_exit": 0,
+    "shared_or_original_environments_modified": false,
+    "new_scientific_calls": 0
+  },
+  "scientific_scope": {
+    "all_parameters_artificial": true,
+    "new_pretrained_calls": 0,
+    "real_PCA_descriptor_Macrel_calls": 0,
+    "toy_PCA_decoder_heads_and_property_spies_in_regressions": true,
+    "real_arrays_or_model_assets_opened": false,
+    "E2_approved": false,
+    "dev4_adopted_by_PeptideMT": false,
+    "GPU_training_analogue_filterfix_release_or_author_contact": false
+  },
+  "qualification_limits": [
+    "Selected 95 tests, not all historical diagnostics",
+    "Borrowed frozen dependency payloads with exact copied metadata; no fresh solver or dependency console-script qualification",
+    "Sampled RSS stop is not a kernel RAM reservation",
+    "Artificial tests do not establish pretrained encoder equivalence or biological performance"
+  ],
+  "artifacts": [
+    {
+      "path": "/home/liliana/repos@uibcdf/hydramp/local_data/pytorch-encoder/devtools/review_saved_pytorch_case.py",
+      "bytes": 2433,
+      "sha256": "c5447f84d2860bdd60a0d42094f62b5830e1c51d99d602318636f939a9a2121b"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-encoder-E1-jig040z0/authorization.json",
+      "bytes": 1055,
+      "sha256": "8a1168515001f19bd64181d6ca33fe62ebdfc839f18dd024385154cfb7ea175f"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-encoder-E1-jig040z0/implementation-source.json",
+      "bytes": 2106,
+      "sha256": "f6dbdfed3a7eb7d7b31684e59f78ac17863cdb69efcdc993e3f25c05a14d70ab"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-encoder-E1-jig040z0/preservation-checks.json",
+      "bytes": 657,
+      "sha256": "168f0ac931866f90c79514e1d63996fade6c646cd9deba40e0f428bb4abd3fbe"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-encoder-E1-jig040z0/build-execution.json",
+      "bytes": 367,
+      "sha256": "a8ccfd6777803826e80838d7a31e82ce54da4ff3880f8a528aa52399042c8278"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-encoder-E1-jig040z0/test-execution.json",
+      "bytes": 779,
+      "sha256": "fa6f191350e5496af0e409bb1211e98025978b66f0bf98135003b9b6dc17b410"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-encoder-E1-jig040z0/runtime-fixture-correction.json",
+      "bytes": 1756,
+      "sha256": "3807210b82c50910951ecdcea8443f5cbcf97cc239770d75e71cc4d41d374952"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-encoder-E1-jig040z0/pth-python-metadata-probe.json",
+      "bytes": 63,
+      "sha256": "18007a2a88e1cb400a773f9857afd837aa61ef59850d61c1cfd73a0fe6644266"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-encoder-E1-jig040z0/guarded_installed_tests.py",
+      "bytes": 2613,
+      "sha256": "3f606ab0d3d5ecff0149420aaf78ede8cdd40213da129c1f3f70cde5c67d2d28"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-encoder-E1-jig040z0/logs/build.log",
+      "bytes": 3072,
+      "sha256": "013a6a4ce07ba6ec1ffac6818c864669579c9fd06a4a5a2c3341877bbfe17476"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-encoder-E1-jig040z0/logs/install.log",
+      "bytes": 293,
+      "sha256": "e5ec1a02c1e27e1c9f00666183b0a54e6fc6531219cf8dc5db86969847432b06"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-encoder-E1-jig040z0/logs/pip-check-direct.log",
+      "bytes": 293,
+      "sha256": "3de848162cc71d466292c2602245fa2d0a371f90da6c6762986dc9f635156d59"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-encoder-E1-jig040z0/logs/pip-check-final.log",
+      "bytes": 147,
+      "sha256": "8bea88fb5e932f70c2ab735759f7b410d4ba89fd27aaa497850d1db3ef7e0c5e"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-encoder-E1-jig040z0/logs/pip-check-pth-missing.log",
+      "bytes": 254,
+      "sha256": "c914835f994a3d29e7bed3d199ad6499cef7513915d371a2406576343c188644"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-encoder-E1-jig040z0/test-run/tests.xml",
+      "bytes": 12082,
+      "sha256": "919cb3972cddd078b231a62634aa22b055c7c7c59c925dabd070edafb1d03b19"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-encoder-E1-jig040z0/test-run/pytest.log",
+      "bytes": 33,
+      "sha256": "8db70f312318292e21b9e276fd03b690a113176f3c3f34140a91a3b7e77fc7b8"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-encoder-E1-jig040z0/test-run/installed-probe.json",
+      "bytes": 1808,
+      "sha256": "f929382131e7680456a175af2477a2085f931c619c614907392e0bb25b09f795"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-encoder-E1-jig040z0/build_hydramp_encoder_E1.py",
+      "bytes": 3501,
+      "sha256": "e83d80818480796152821e6b064f96976cdfb2362a5420dfaf643fd3e6fc5de1"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-encoder-E1-jig040z0/finish_hydramp_encoder_E1_owner.py",
+      "bytes": 2589,
+      "sha256": "53a2f987c627fc405ab5f90e4d40f880c5539632b9007666f3f1f5f21df6626d"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-encoder-E1-jig040z0/install_hydramp_encoder_E1_source.py",
+      "bytes": 2302,
+      "sha256": "657585b0e9e5f311098dbfa4229bba06a0fec4c725361d58f9ba476a1b6d5167"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-encoder-E1-jig040z0/run_hydramp_encoder_E1_tests.py",
+      "bytes": 4466,
+      "sha256": "bfc4d52968ba8645b63cea195d7e9686b3ed6daa1e5cbf468391b59bdbda39f5"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/hydramp/local_data/pytorch-encoder/ports/pytorch/pyproject.toml",
+      "bytes": 781,
+      "sha256": "9be2037bf889c63c9b26b4a3ef2ea33c1f7a263c875092f2ca6c026f700c60e9"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/hydramp/local_data/pytorch-encoder/ports/pytorch/uv.lock",
+      "bytes": 127285,
+      "sha256": "d4ae398616b5b50bbd37255c9f534c82c80852d199a510f37c68ea90e5ca594e"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/hydramp/local_data/pytorch-encoder/devguide/pytorch_encoder_E1.md",
+      "bytes": 6540,
+      "sha256": "d0ba18055f98fb1b37058a3b0bcc5bb16ed23deba68f5840e9c623ecb5bca053"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/hydramp/local_data/pytorch-encoder/devguide/pytorch_encoder_work_order.md",
+      "bytes": 9701,
+      "sha256": "7ec3b7597e40edf3a77285cb9bf4b0ee915501c804bf30c8c63f31cf7dc8fd03"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/hydramp_encoder_E1.md",
+      "bytes": 4104,
+      "sha256": "aab7d2dbbbf86e092287c0696efceaa12d8911bfc5878f02a8c88bb8b39c1c17"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/hydramp_encoder_work_order.md",
+      "bytes": 4283,
+      "sha256": "59c9ef7bff725c1a2876e057e6ed6c7fe502a1d72acb93f3a06ebaa88ec54564"
+    }
+  ],
+  "retention_through": "2026-11-14",
+  "commits_or_pushes": []
+}

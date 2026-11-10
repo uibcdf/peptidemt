@@ -1,0 +1,98 @@
+{
+  "schema": "peptidemt.target_case_and_dev9_review_closeout@1",
+  "recorded_at_utc": "2026-11-06T04:58:13.320236+00:00",
+  "status": "dev9_review_and_concrete_commit_proposal_ready_target_case_feasibility_proposed_only",
+  "review_receipt": {
+    "path": "devguide/evidence/target_case_mdm2_reference_review.json",
+    "bytes": 17186,
+    "sha256": "ae8de9fa245efc378930337fad15bb34d9d81eb895899cb6d667981712a62ccd"
+  },
+  "owning_issue_updates": {
+    "path": "devguide/evidence/target_case_mdm2_reference_issue_updates.json",
+    "bytes": 6839,
+    "sha256": "0504c69f8cf57bdb06b0134fd942909dbacf94409a22ac43e1fa7c1e2e17c867"
+  },
+  "current_documents": [
+    {
+      "path": "devguide/target_case_mdm2_reference_proposal.md",
+      "bytes": 11851,
+      "sha256": "feda2fa9fdf8209d540022e3ff8537f1673b33aa2f49eb254e1605610805bca6"
+    },
+    {
+      "path": "devguide/hydramp_dev9_source_review.md",
+      "bytes": 2488,
+      "sha256": "7026d2e6a05c894382ed23973a2de144c525c58003833b4ac2257f2a1896d95a"
+    },
+    {
+      "path": "devguide/README.md",
+      "bytes": 46015,
+      "sha256": "32e71e8f2f0e41a4006d2757ceef940c23071ea6e00e9422466a5fe0a8c5f85b"
+    },
+    {
+      "path": "devguide/continuation_plan_2026_11_04.md",
+      "bytes": 24913,
+      "sha256": "9bcc50720ef4aa52b5a5be94fc884024132f01bf553384afed18817a16cabfae"
+    },
+    {
+      "path": "devguide/pending_proposals/scientific_capability_audit.md",
+      "bytes": 6468,
+      "sha256": "21e183c576b362d655771c601fdf9af3baf13ee62d18773be818073414faf41a"
+    },
+    {
+      "path": "devguide/pending_proposals/hydramp_scientific_followup.md",
+      "bytes": 44758,
+      "sha256": "13621dfe31c73100f8748946c307256280aa8d2da0d60ab8121ac44271e5445d"
+    }
+  ],
+  "documentation_checks": {
+    "status": "pass",
+    "relative_file_links_checked": 257,
+    "new_record_local_fragments_checked": 3,
+    "missing": [],
+    "trailing_whitespace": [],
+    "files": [
+      "/home/liliana/repos@uibcdf/peptidemt/devguide/target_case_mdm2_reference_proposal.md",
+      "/home/liliana/repos@uibcdf/peptidemt/devguide/hydramp_dev9_source_review.md",
+      "/home/liliana/repos@uibcdf/peptidemt/devguide/README.md",
+      "/home/liliana/repos@uibcdf/peptidemt/devguide/continuation_plan_2026_11_04.md",
+      "/home/liliana/repos@uibcdf/peptidemt/devguide/pending_proposals/scientific_capability_audit.md",
+      "/home/liliana/repos@uibcdf/peptidemt/devguide/pending_proposals/hydramp_scientific_followup.md"
+    ],
+    "scope": "Local file links, new-record heading fragments, navigation and current text; no scientific, runtime, complete remote-link or CI qualification claim"
+  },
+  "index_check": {
+    "command": "python devtools/devguide_index.py --check",
+    "exit_code": 0
+  },
+  "scoped_diff_whitespace_checks": 0,
+  "dev9_HEAD_and_index_unchanged": true,
+  "dev9_expected_proposed_tree": "b8a334085bac8bf6c0d31c2cc9586ad1f311eb40",
+  "dev9_owned_paths": 12,
+  "dev8_preserved_clean": true,
+  "new_scientific_or_qualification_workers": 0,
+  "new_coordinate_download_preparation_or_geometry_calculations": 0,
+  "new_models_GPU_tests_builds_or_installs": 0,
+  "case_or_model_accepted": false,
+  "new_commit_push_merge_tag_release_or_contact": false,
+  "Git_mutation_scope_note": "No HydrAMP dev9 commit/index/object mutation; the official suite-status command separately performed its normal provider remote fetches, preserving worktrees.",
+  "remaining": [
+    "Separate authorization for the concrete dev9 local commit; prior one-off permission is spent",
+    "Investigator choice/rejection of the narrow MDM2 reference case",
+    "If chosen, prepare and agree a concrete T0 work order before coordinate/molecular work",
+    "No peptide-recognition evaluator/panel/design route is yet selected or qualified for T1"
+  ],
+  "retention": {
+    "owner": [
+      "uibcdf/peptidemt#33",
+      "uibcdf/hydramp#4",
+      "uibcdf/peptidemt#32"
+    ],
+    "review_date": "2026-11-19",
+    "retain": [
+      "dev9 reviewed source and qualified fixtures",
+      "case primary-source notes and source inventories",
+      "exact commit proposal and current reports"
+    ],
+    "task": "local_data/peptidemt-target-case-review-pux_arxn"
+  }
+}

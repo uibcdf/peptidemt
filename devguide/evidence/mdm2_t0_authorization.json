@@ -1,0 +1,37 @@
+{
+  "schema": "peptidemt.mdm2_t0_authorization@1",
+  "recorded_at_utc": "2026-11-06T05:26:28.524933+00:00",
+  "authority": "Explicit investigator approval after the concrete T0 implementation explanation and work-order question",
+  "approved_order": {
+    "path": "devguide/mdm2_t0_work_order.md",
+    "sha256": "a9aa332ba60225dfad14a234050a0e112b599baef09e5df50d52125bf4ef7de0"
+  },
+  "source_ref": "ed09f64539a5af6c1dbe9bd352c7ef65dcd4a7a6",
+  "scope": "Single 1YCR revision 1.5 structural reference; MolSysMT-owned molecular receiving and three finite geometry views; saved evidence/inspection",
+  "resources": {
+    "cpu_ids": [
+      0,
+      1
+    ],
+    "threads": 1,
+    "aggregate_rss_stop_bytes": 1073741824,
+    "min_available_memory_bytes": 8589934592,
+    "address_space_bytes": 8589934592,
+    "worker_wall_seconds": 180,
+    "worker_cpu_seconds": 120,
+    "max_output_bytes": 67108864
+  },
+  "required_entry_gate": "Exact application source/profile qualification before geometry",
+  "excluded": [
+    "T1/predictive binding",
+    "learned models",
+    "docking",
+    "target-conditioned generation",
+    "GPU",
+    "training/feedback",
+    "new public API/selector",
+    "commit/push/publication"
+  ],
+  "task_directory": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-t0-d1u79kql",
+  "technical_execution": "D49 routine checks and diagnosed bounded retries remain delegated; no approval per invocation"
+}

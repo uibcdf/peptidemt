@@ -1,0 +1,34 @@
+{
+  "schema": "peptidemt.hydramp_confidence_execution_closeout@1",
+  "recorded_at_utc": "2026-11-03T17:18:08.010664+00:00",
+  "issue": "uibcdf/peptidemt#8",
+  "status": "Approved campaign complete; numerical/global-AMP pair diagnostics FAIL; scientific relevance/adoption pending",
+  "execution_receipt_sha256": "24b93260161296abf271af74d6a1d4a98cc4fdcc90ef00ceeb42de0386de0328",
+  "producer_record_sha256": "0b122819c3a4fd4329158d3e2a7fab195f62f64c27728bca3640052fd3a4a99d",
+  "published_result": "https://github.com/uibcdf/peptidemt/issues/8#issuecomment-6610652523",
+  "checks": {
+    "execution_manifest_files_verified": 24,
+    "candidate_source_plan_and_authority_pins_verified": true,
+    "relative_links_resolved": 185,
+    "report_indexes_current": true,
+    "whitespace": "pass",
+    "published_result_body_verified": true,
+    "artificial_controller_checks_passed": 31,
+    "analysis_engine_imports_blocked": true,
+    "analysis_np_load_restricted_to_saved_outputs": true
+  },
+  "budget": {
+    "approved_network_forwards": 132,
+    "executed_network_forwards": 132,
+    "remaining": 0,
+    "retries": 0,
+    "new_model_calls_after_stage_completion": 0
+  },
+  "notes": [
+    "Previous preparation/closeout records remain historical and unchanged.",
+    "No scientific criterion/threshold,selector,weight,equation or other component changed.",
+    "No commit,push,public package or raw sequence/array/weight publication.",
+    "Original Drive/starter provenance,scientific numerical/ranking relevance and consumer integration remain pending.",
+    "Retain owned resources for review by 2026-11-13; shared and human work preserved."
+  ]
+}

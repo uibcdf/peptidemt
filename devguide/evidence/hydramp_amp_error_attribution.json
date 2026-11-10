@@ -1,0 +1,320 @@
+{
+  "schema": "peptidemt.hydramp_amp_saved_error_attribution@1",
+  "date": "2026-11-03",
+  "recorded_at_utc": "2026-11-03T19:14:28.988718+00:00",
+  "owner_issue": "uibcdf/hydramp#1",
+  "consumer_issue": "uibcdf/peptidemt#8",
+  "status": "Saved-data explanation of58native-closer AMP results; no new learned/activation execution",
+  "authority": "Investigator asks whether the58cases can be investigated; existing D39 diagnostic/source-evidence commission and owned-fork reporting authority. No additional learned/activation budget inferred.",
+  "config": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-amp-attribution-5_91_f32/config.json",
+    "bytes": 2366,
+    "sha256": "364fb540d77cc90e65f293b0e65ce8d309add461492ef42518ead523df10a762"
+  },
+  "source": {
+    "path": "/home/liliana/repos@uibcdf/hydramp/local_data/pytorch-comparison/ports/pytorch/devtools/amp_error_attribution.py",
+    "bytes": 7526,
+    "sha256": "df914fc0c0d68bb255027d43212a17bccc09719042ce83c64181dd25021e49d1"
+  },
+  "tests": {
+    "path": "/home/liliana/repos@uibcdf/hydramp/local_data/pytorch-comparison/ports/pytorch/tests/test_amp_error_attribution.py",
+    "bytes": 3829,
+    "sha256": "2af7d7b695fe4cbf51296092e8d53e769171eb5a107e4c96fc6917a58d7681ea"
+  },
+  "guard": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-amp-attribution-5_91_f32/guarded_saved_analysis.py",
+    "bytes": 1908,
+    "sha256": "5842e949ece4ff670730f6c526a859597f3a522e49f56a57c6e8fae0e8cf9549"
+  },
+  "report": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-amp-attribution-5_91_f32/run/saved-attribution.json",
+    "bytes": 6191,
+    "sha256": "044466a53e4814bac2ed7cb9613d1eb73cd561bb9306dde6a944d75757e1a3fb"
+  },
+  "report_summary": {
+    "schema": "hydramp.amp_saved_error_attribution@1",
+    "rows": 192,
+    "score_closer_counts": {
+      "native": 58,
+      "modern": 91,
+      "equal": 43
+    },
+    "logit_closer_counts": {
+      "native": 59,
+      "modern": 94,
+      "equal": 39
+    },
+    "cross_table_score_winner_then_logit_winner": {
+      "native": {
+        "native": 39,
+        "modern": 12,
+        "equal": 7
+      },
+      "modern": {
+        "native": 13,
+        "modern": 57,
+        "equal": 21
+      },
+      "equal": {
+        "native": 7,
+        "modern": 25,
+        "equal": 11
+      }
+    },
+    "groups": {
+      "native": {
+        "rows": 58,
+        "same_native_modern_logits": 7,
+        "fixed_logit_counterfactual_exactly_equals_actual_modern_score": 25,
+        "switch_only_final_kernel_error_vs_full_head_reference": {
+          "improves": 11,
+          "worsens": 33,
+          "unchanged": 14
+        },
+        "kernel_and_upstream_score_changes_opposite_sign": 13,
+        "native_output_error_opposite_sign_to_native_logit_error": 20,
+        "native_absolute_error": {
+          "count": 58,
+          "minimum": 1.5010410709531685e-10,
+          "median": 2.6517637696787943e-08,
+          "maximum": 2.564680902095162e-07,
+          "mean": 4.730550036227466e-08
+        },
+        "modern_absolute_error": {
+          "count": 58,
+          "minimum": 1.5470879690185346e-09,
+          "median": 7.281016384252936e-08,
+          "maximum": 6.419432735382813e-07,
+          "mean": 1.1303594991387651e-07
+        },
+        "absolute_error_advantage_native_minus_modern": {
+          "count": 58,
+          "minimum": -4.4942152022109383e-07,
+          "median": -5.567022722668957e-08,
+          "maximum": -1.1641532182693481e-09,
+          "mean": -6.573044955160184e-08
+        },
+        "matches_full_head_fp64_cast_to_float32": {
+          "native": 26,
+          "modern": 0
+        },
+        "ulp_distance_from_full_head_fp64_cast": {
+          "native": {
+            "count": 58,
+            "minimum": 0.0,
+            "median": 1.0,
+            "maximum": 18.0,
+            "mean": 2.2413793103448274
+          },
+          "modern": {
+            "count": 58,
+            "minimum": 1.0,
+            "median": 2.0,
+            "maximum": 59.0,
+            "mean": 5.413793103448276
+          }
+        },
+        "fp64_score_ranges": {
+          "below_0.9": 30,
+          "0.9_to_0.99": 11,
+          "0.99_to_0.999": 3,
+          "0.999_to_1": 14
+        }
+      },
+      "modern": {
+        "rows": 91,
+        "same_native_modern_logits": 21,
+        "fixed_logit_counterfactual_exactly_equals_actual_modern_score": 41,
+        "switch_only_final_kernel_error_vs_full_head_reference": {
+          "improves": 61,
+          "worsens": 12,
+          "unchanged": 18
+        },
+        "kernel_and_upstream_score_changes_opposite_sign": 19,
+        "native_output_error_opposite_sign_to_native_logit_error": 27,
+        "native_absolute_error": {
+          "count": 91,
+          "minimum": 7.916227162717629e-09,
+          "median": 6.97989146480893e-08,
+          "maximum": 1.2580579705767647e-06,
+          "mean": 1.3211908399820747e-07
+        },
+        "modern_absolute_error": {
+          "count": 91,
+          "minimum": 3.582346295690278e-11,
+          "median": 2.376472074683278e-08,
+          "maximum": 1.0792440362505928e-06,
+          "mean": 6.026868046934691e-08
+        },
+        "absolute_error_advantage_native_minus_modern": {
+          "count": 91,
+          "minimum": 8.80137379644097e-10,
+          "median": 3.358451672319518e-08,
+          "maximum": 5.513429641723633e-07,
+          "mean": 7.185040352886056e-08
+        },
+        "matches_full_head_fp64_cast_to_float32": {
+          "native": 0,
+          "modern": 25
+        },
+        "ulp_distance_from_full_head_fp64_cast": {
+          "native": {
+            "count": 91,
+            "minimum": 1.0,
+            "median": 5.0,
+            "maximum": 487.0,
+            "mean": 33.08791208791209
+          },
+          "modern": {
+            "count": 91,
+            "minimum": 0.0,
+            "median": 2.0,
+            "maximum": 50.0,
+            "mean": 5.274725274725275
+          }
+        },
+        "fp64_score_ranges": {
+          "below_0.9": 59,
+          "0.9_to_0.99": 4,
+          "0.99_to_0.999": 5,
+          "0.999_to_1": 23
+        }
+      },
+      "equal": {
+        "rows": 43,
+        "same_native_modern_logits": 11,
+        "fixed_logit_counterfactual_exactly_equals_actual_modern_score": 40,
+        "switch_only_final_kernel_error_vs_full_head_reference": {
+          "improves": 0,
+          "worsens": 3,
+          "unchanged": 40
+        },
+        "kernel_and_upstream_score_changes_opposite_sign": 3,
+        "native_output_error_opposite_sign_to_native_logit_error": 21,
+        "native_absolute_error": {
+          "count": 43,
+          "minimum": 2.598340653747755e-09,
+          "median": 2.9577696070148818e-08,
+          "maximum": 3.3200799287591565e-07,
+          "mean": 4.3544558463203344e-08
+        },
+        "modern_absolute_error": {
+          "count": 43,
+          "minimum": 2.598340653747755e-09,
+          "median": 2.9577696070148818e-08,
+          "maximum": 3.3200799287591565e-07,
+          "mean": 4.3544558463203344e-08
+        },
+        "absolute_error_advantage_native_minus_modern": {
+          "count": 43,
+          "minimum": 0.0,
+          "median": 0.0,
+          "maximum": 0.0,
+          "mean": 0.0
+        },
+        "matches_full_head_fp64_cast_to_float32": {
+          "native": 22,
+          "modern": 22
+        },
+        "ulp_distance_from_full_head_fp64_cast": {
+          "native": {
+            "count": 43,
+            "minimum": 0.0,
+            "median": 0.0,
+            "maximum": 8.0,
+            "mean": 0.9302325581395349
+          },
+          "modern": {
+            "count": 43,
+            "minimum": 0.0,
+            "median": 0.0,
+            "maximum": 8.0,
+            "mean": 0.9302325581395349
+          }
+        },
+        "fp64_score_ranges": {
+          "below_0.9": 6,
+          "0.9_to_0.99": 6,
+          "0.99_to_0.999": 2,
+          "0.999_to_1": 29
+        }
+      }
+    },
+    "model_or_activation_evaluations": 0,
+    "scope": "Post-hoc saved-array comparison. Fixed-logit counterfactual still includes original upstream drift against full-head FP64. It cannot separate exact per-engine activation error from logit-error cancellation without another activation reference. Descriptive bins are not scientific cutoffs; no rounding/tie policy or scientific acceptance change."
+  },
+  "test_execution": {
+    "exit_code": 0,
+    "wall_seconds": 0.8693003710359335,
+    "rusage_children_high_water_bytes": 69791744,
+    "rss_note": "Cumulative child high-water across artificial tests/analysis; not exclusive analysis RSS",
+    "model_weight_pca_loads": 0,
+    "model_or_activation_evaluations": 0,
+    "scope": "Saved arrays/artificial data only; reviewed archive allowlist,blocked engine/network/activation/matrix calls;1GiBAS CPU0/1 one thread nice10"
+  },
+  "analysis_execution": {
+    "exit_code": 0,
+    "wall_seconds": 0.3178889600094408,
+    "rusage_children_high_water_bytes": 69791744,
+    "rss_note": "Cumulative child high-water across artificial tests/analysis; not exclusive analysis RSS",
+    "model_weight_pca_loads": 0,
+    "model_or_activation_evaluations": 0,
+    "scope": "Saved arrays/artificial data only; reviewed archive allowlist,blocked engine/network/activation/matrix calls;1GiBAS CPU0/1 one thread nice10"
+  },
+  "artifacts": {
+    "analysis-execution.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-amp-attribution-5_91_f32/analysis-execution.json",
+      "bytes": 439,
+      "sha256": "a47681be55abad7598904f6a8dd88b0974c77b74c9a70a7f808d448031b80cc9"
+    },
+    "tests-execution.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-amp-attribution-5_91_f32/tests-execution.json",
+      "bytes": 439,
+      "sha256": "fce1a920ef4f3d1e7e9d9f2b43f1ef90470b2e636952663ad33eb4b2c2645ed7"
+    },
+    "config.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-amp-attribution-5_91_f32/config.json",
+      "bytes": 2366,
+      "sha256": "364fb540d77cc90e65f293b0e65ce8d309add461492ef42518ead523df10a762"
+    },
+    "tests/results.xml": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-amp-attribution-5_91_f32/tests/results.xml",
+      "bytes": 1328,
+      "sha256": "2b4421e3d57c7ee3f81b56348ec468b06efc82d4de7ce7fd99be2a961c8888fc"
+    },
+    "logs/tests.log": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-amp-attribution-5_91_f32/logs/tests.log",
+      "bytes": 32,
+      "sha256": "37e133848dbdd886b739ee896eb6000f99dadf4edc09481efa17c2c9467161dd"
+    },
+    "logs/analysis.log": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-amp-attribution-5_91_f32/logs/analysis.log",
+      "bytes": 6191,
+      "sha256": "044466a53e4814bac2ed7cb9613d1eb73cd561bb9306dde6a944d75757e1a3fb"
+    },
+    "run/saved-attribution.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-amp-attribution-5_91_f32/run/saved-attribution.json",
+      "bytes": 6191,
+      "sha256": "044466a53e4814bac2ed7cb9613d1eb73cd561bb9306dde6a944d75757e1a3fb"
+    }
+  },
+  "candidate": "hydramp-torch==0.0.0.dev3",
+  "candidate_wheel_sha256": "81761e0d48d92f0956e0afc28b3b4154f16032de53c666fd2cfbb53606102ed7",
+  "source_commit": "6590d2f4c2963f25d30669052a4c4a857e0e7279",
+  "starter_commit": "7804df862872ccc6d09fe01c41bafbca194cfa31",
+  "model_weight_pca_loads": 0,
+  "new_model_or_activation_evaluations": 0,
+  "remaining_old_model_activation_reference_allowance": 0,
+  "scientific_acceptance": false,
+  "production_changes": false,
+  "commit_push_release": false,
+  "limitations": [
+    "FP64whole-head reference is approximate and shares NumPy primitives across layouts",
+    "Logit/source classification locates observable contributions,not individual recurrent primitives",
+    "Existing fixed-logit modern-sigmoid counterfactual includes native upstream drift versus full-head reference; worsening it does not prove less accurate sigmoid at the identical mathematical argument",
+    "Native final/logit errors have opposite signs in20native-closer cases,consistent with compensation; exact magnitudes need own-logit high-precision activation references under a fresh specific budget",
+    "Posthoc192contexts; none of these descriptive errors or bins establishes biological relevance or new acceptance thresholds",
+    "48native/47modern matches to FP64cast target are another metric,not exact-arithmetic correctness guarantees"
+  ],
+  "retention_review": "2026-11-13"
+}

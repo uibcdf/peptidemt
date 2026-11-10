@@ -1,0 +1,49 @@
+{
+  "schema": "peptidemt.hydramp_historical_data_authorization@1",
+  "recorded_at_utc": "2026-11-05T14:40:29.186271+00:00",
+  "local_date": "2026-11-05",
+  "status": "Concrete first data-only receiver/inspection-replay cycle commissioned",
+  "authority": "Explicit investigator continuation in direct response to the completed D46 work-order/fixture report naming data-only receiver implementation as the next step",
+  "decision": "D46 view retained; subsequent implementation commission, no new scientific view",
+  "owner_issue": "uibcdf/peptidemt#32",
+  "scientific_owner_issue": "uibcdf/hydramp#3",
+  "commissioned_work_order": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/hydramp_historical_work_order.md",
+    "bytes": 8091,
+    "sha256": "6cbc285161f22c9aa39d7c2817d411edd265ae77b078a1859f14bc5c03102fd1"
+  },
+  "exact_preimplementation_copy": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-historical-data-4lk7py03/commissioned_work_order.md",
+    "bytes": 8091,
+    "sha256": "6cbc285161f22c9aa39d7c2817d411edd265ae77b078a1859f14bc5c03102fd1"
+  },
+  "view_authorization": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/evidence/hydramp_historical_view_authorization.json",
+    "bytes": 3090,
+    "sha256": "aaad0147790da3af47ca1703e2ce117150126d832062975959d6025f7a86f4a6"
+  },
+  "fixture_design": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-historical-order-l858kizr/controlled-fixture-design.json",
+    "bytes": 5862,
+    "sha256": "eb4faff262a326479d163eefbfaef28fe16abf84f0485f92e3e04ecd9a88e1cc"
+  },
+  "authorized": {
+    "developer_data_receiver": true,
+    "saved_data_inspection_and_replay": true,
+    "controlled_synthetic_data_tests": true,
+    "exact_full_source_data_receiving": true,
+    "source_and_model_work_guards": true,
+    "existing_public_admission_regression_checks": true
+  },
+  "not_included": [
+    "native model payload or token arrays",
+    "codec or network inference",
+    "ML/Macrel/PCA/descriptor/training/GPU",
+    "molecular build/mass/unit conversion/alignment",
+    "new public API or general chemistry admission",
+    "native class truth or independent biological benchmark",
+    "commit/push/release or third-party contact"
+  ],
+  "budgets": "No scientific model allowance; all earlier execution budgets remain exhausted",
+  "source_and_scope": "Preserve exact D46 historical source/chemistry/ATCC 25922 scope, all 42 observations and unknowns"
+}

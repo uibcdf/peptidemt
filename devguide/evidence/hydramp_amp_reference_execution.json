@@ -1,0 +1,651 @@
+{
+  "schema": "peptidemt.hydramp_amp_reference_execution@1",
+  "date": "2026-11-03",
+  "recorded_at_utc": "2026-11-03T19:03:57.496183+00:00",
+  "owner_issue": "uibcdf/hydramp#1",
+  "consumer_issue": "uibcdf/peptidemt#8",
+  "status": "Approved24-forward full-head FP64 reference completed; modern lower maximum/mean/RMS AMP error on192 selected original contexts; no general/biological acceptance",
+  "authorization": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/evidence/hydramp_amp_reference_authorization.json",
+    "bytes": 2653,
+    "sha256": "72cafeafc55fce2da2fb3e46e21aa882a58cc478ef97f421c87541883e08f97a"
+  },
+  "plan": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-amp-fp64-ft8c0prd/plan.json",
+    "bytes": 9755,
+    "sha256": "3035206916f0a95ef318f02f9195a12edc1ba031bf07584bca9c5d61fe432d3a"
+  },
+  "worker": {
+    "path": "/home/liliana/repos@uibcdf/hydramp/local_data/pytorch-comparison/ports/pytorch/devtools/amp_reference.py",
+    "bytes": 12119,
+    "sha256": "827eaeaed37df541d85e4fd45ca9cb065ec78e9ccf462b6dff95113fe23b9cd3"
+  },
+  "candidate": "hydramp-torch==0.0.0.dev3",
+  "candidate_wheel_sha256": "81761e0d48d92f0956e0afc28b3b4154f16032de53c666fd2cfbb53606102ed7",
+  "source_commit": "6590d2f4c2963f25d30669052a4c4a857e0e7279",
+  "starter_commit": "7804df862872ccc6d09fe01c41bafbca194cfa31",
+  "uncommitted": true,
+  "exact_calls": {
+    "fp64_full_amp_head_forwards": 24,
+    "rows_per_forward": 16,
+    "distinct_retained_context_rows": 192,
+    "numeric_amp_parameter_arrays_loaded_once": 9,
+    "new_native_torch_tf_network_forwards": 0,
+    "decoder_encoder_mic_pca_generation_descriptor_macrel_evaluations": 0,
+    "standalone_activation_replays": 0,
+    "retries": 0,
+    "gpu_computation": 0,
+    "remaining_reference_allowance": 0
+  },
+  "progress": {
+    "attempted": [
+      "seed_1001_separate",
+      "seed_1001_grouped",
+      "seed_1002_separate",
+      "seed_1002_grouped",
+      "seed_1003_separate",
+      "seed_1003_grouped",
+      "seed_1004_separate",
+      "seed_1004_grouped",
+      "seed_1006_separate",
+      "seed_1006_grouped",
+      "seed_1007_separate",
+      "seed_1007_grouped",
+      "seed_1008_separate",
+      "seed_1008_grouped",
+      "seed_1009_separate",
+      "seed_1009_grouped",
+      "seed_1010_separate",
+      "seed_1010_grouped",
+      "seed_1012_separate",
+      "seed_1012_grouped",
+      "seed_1013_separate",
+      "seed_1013_grouped",
+      "seed_1014_separate",
+      "seed_1014_grouped"
+    ],
+    "completed": [
+      "seed_1001_separate",
+      "seed_1001_grouped",
+      "seed_1002_separate",
+      "seed_1002_grouped",
+      "seed_1003_separate",
+      "seed_1003_grouped",
+      "seed_1004_separate",
+      "seed_1004_grouped",
+      "seed_1006_separate",
+      "seed_1006_grouped",
+      "seed_1007_separate",
+      "seed_1007_grouped",
+      "seed_1008_separate",
+      "seed_1008_grouped",
+      "seed_1009_separate",
+      "seed_1009_grouped",
+      "seed_1010_separate",
+      "seed_1010_grouped",
+      "seed_1012_separate",
+      "seed_1012_grouped",
+      "seed_1013_separate",
+      "seed_1013_grouped",
+      "seed_1014_separate",
+      "seed_1014_grouped"
+    ]
+  },
+  "worker_outcome": {
+    "exit_code": 0,
+    "stop_reason": null,
+    "wall_seconds": 3.7483679759316146,
+    "peak_sampled_rss_bytes": 85245952,
+    "plan_sha256": "3035206916f0a95ef318f02f9195a12edc1ba031bf07584bca9c5d61fe432d3a",
+    "retry_allowed": false
+  },
+  "outer_supervision": {
+    "exit_code": 0,
+    "outer_stop_reason": null,
+    "outer_wall_seconds": 4.016751689137891,
+    "controller_sampled_and_hwm_peak_bytes": 28635136,
+    "rusage_children_maxrss_bytes": 102219776,
+    "rusage_note": "Includes descendants; not exclusive controller RAM.",
+    "plan_sha256": "3035206916f0a95ef318f02f9195a12edc1ba031bf07584bca9c5d61fe432d3a",
+    "scope": "One approved exact reference attempt; no retry."
+  },
+  "report": {
+    "schema": "hydramp.amp_full_head_fp64_report@1",
+    "reference_formulations_consistent": true,
+    "reference_consistency": {
+      "embedding": {
+        "maximum_absolute_error": 0.0,
+        "mean_absolute_error": 0.0,
+        "rms_error": 0.0
+      },
+      "lstm1": {
+        "maximum_absolute_error": 0.0,
+        "mean_absolute_error": 0.0,
+        "rms_error": 0.0
+      },
+      "pool": {
+        "maximum_absolute_error": 0.0,
+        "mean_absolute_error": 0.0,
+        "rms_error": 0.0
+      },
+      "lstm2": {
+        "maximum_absolute_error": 0.0,
+        "mean_absolute_error": 0.0,
+        "rms_error": 0.0
+      },
+      "logits": {
+        "maximum_absolute_error": 0.0,
+        "mean_absolute_error": 0.0,
+        "rms_error": 0.0
+      },
+      "amp": {
+        "maximum_absolute_error": 0.0,
+        "mean_absolute_error": 0.0,
+        "rms_error": 0.0
+      }
+    },
+    "recorded_engine_error_vs_each_reference": {
+      "legacy": {
+        "separate": {
+          "embedding": {
+            "maximum_absolute_error": 0.0,
+            "mean_absolute_error": 0.0,
+            "rms_error": 0.0
+          },
+          "lstm1": {
+            "maximum_absolute_error": 6.926517987448921e-06,
+            "mean_absolute_error": 5.503202205690056e-08,
+            "rms_error": 9.666213578404229e-08
+          },
+          "pool": {
+            "maximum_absolute_error": 6.926517987448921e-06,
+            "mean_absolute_error": 5.57159041425243e-08,
+            "rms_error": 9.796085289828483e-08
+          },
+          "lstm2": {
+            "maximum_absolute_error": 4.439469309502897e-06,
+            "mean_absolute_error": 8.440764698954518e-08,
+            "rms_error": 1.417570369674977e-07
+          },
+          "logits": {
+            "maximum_absolute_error": 9.146197554876778e-06,
+            "mean_absolute_error": 1.1304749652403263e-06,
+            "rms_error": 1.6122940961252192e-06
+          },
+          "amp": {
+            "maximum_absolute_error": 1.2580579705767647e-06,
+            "mean_absolute_error": 8.666131082690914e-08,
+            "rms_error": 1.6331376140388154e-07
+          }
+        },
+        "grouped": {
+          "embedding": {
+            "maximum_absolute_error": 0.0,
+            "mean_absolute_error": 0.0,
+            "rms_error": 0.0
+          },
+          "lstm1": {
+            "maximum_absolute_error": 6.926517987448921e-06,
+            "mean_absolute_error": 5.503202205690056e-08,
+            "rms_error": 9.666213578404229e-08
+          },
+          "pool": {
+            "maximum_absolute_error": 6.926517987448921e-06,
+            "mean_absolute_error": 5.57159041425243e-08,
+            "rms_error": 9.796085289828483e-08
+          },
+          "lstm2": {
+            "maximum_absolute_error": 4.439469309502897e-06,
+            "mean_absolute_error": 8.440764698954518e-08,
+            "rms_error": 1.417570369674977e-07
+          },
+          "logits": {
+            "maximum_absolute_error": 9.146197554876778e-06,
+            "mean_absolute_error": 1.1304749652403263e-06,
+            "rms_error": 1.6122940961252192e-06
+          },
+          "amp": {
+            "maximum_absolute_error": 1.2580579705767647e-06,
+            "mean_absolute_error": 8.666131082690914e-08,
+            "rms_error": 1.6331376140388154e-07
+          }
+        }
+      },
+      "torch": {
+        "separate": {
+          "embedding": {
+            "maximum_absolute_error": 0.0,
+            "mean_absolute_error": 0.0,
+            "rms_error": 0.0
+          },
+          "lstm1": {
+            "maximum_absolute_error": 5.078773999411812e-06,
+            "mean_absolute_error": 4.7147671119058644e-08,
+            "rms_error": 8.300262245628544e-08
+          },
+          "pool": {
+            "maximum_absolute_error": 5.078773999411812e-06,
+            "mean_absolute_error": 4.7706657740356246e-08,
+            "rms_error": 8.360383095749572e-08
+          },
+          "lstm2": {
+            "maximum_absolute_error": 2.696033449822721e-06,
+            "mean_absolute_error": 7.181306328266601e-08,
+            "rms_error": 1.197093556539868e-07
+          },
+          "logits": {
+            "maximum_absolute_error": 5.88473543494672e-06,
+            "mean_absolute_error": 8.994924693960163e-07,
+            "rms_error": 1.2845176068764854e-06
+          },
+          "amp": {
+            "maximum_absolute_error": 1.0792440362505928e-06,
+            "mean_absolute_error": 7.246328662308932e-08,
+            "rms_error": 1.3615489328389863e-07
+          }
+        },
+        "grouped": {
+          "embedding": {
+            "maximum_absolute_error": 0.0,
+            "mean_absolute_error": 0.0,
+            "rms_error": 0.0
+          },
+          "lstm1": {
+            "maximum_absolute_error": 5.078773999411812e-06,
+            "mean_absolute_error": 4.7147671119058644e-08,
+            "rms_error": 8.300262245628544e-08
+          },
+          "pool": {
+            "maximum_absolute_error": 5.078773999411812e-06,
+            "mean_absolute_error": 4.7706657740356246e-08,
+            "rms_error": 8.360383095749572e-08
+          },
+          "lstm2": {
+            "maximum_absolute_error": 2.696033449822721e-06,
+            "mean_absolute_error": 7.181306328266601e-08,
+            "rms_error": 1.197093556539868e-07
+          },
+          "logits": {
+            "maximum_absolute_error": 5.88473543494672e-06,
+            "mean_absolute_error": 8.994924693960163e-07,
+            "rms_error": 1.2845176068764854e-06
+          },
+          "amp": {
+            "maximum_absolute_error": 1.0792440362505928e-06,
+            "mean_absolute_error": 7.246328662308932e-08,
+            "rms_error": 1.3615489328389863e-07
+          }
+        }
+      }
+    },
+    "scalar_closer_counts": {
+      "separate": {
+        "embedding": {
+          "native_smaller_error": 0,
+          "modern_smaller_error": 0,
+          "equal_error": 614400
+        },
+        "lstm1": {
+          "native_smaller_error": 105451,
+          "modern_smaller_error": 146731,
+          "equal_error": 55018
+        },
+        "pool": {
+          "native_smaller_error": 21003,
+          "modern_smaller_error": 29249,
+          "equal_error": 11188
+        },
+        "lstm2": {
+          "native_smaller_error": 6813,
+          "modern_smaller_error": 9651,
+          "equal_error": 2736
+        },
+        "logits": {
+          "native_smaller_error": 59,
+          "modern_smaller_error": 94,
+          "equal_error": 39
+        },
+        "amp": {
+          "native_smaller_error": 58,
+          "modern_smaller_error": 91,
+          "equal_error": 43
+        }
+      },
+      "grouped": {
+        "embedding": {
+          "native_smaller_error": 0,
+          "modern_smaller_error": 0,
+          "equal_error": 614400
+        },
+        "lstm1": {
+          "native_smaller_error": 105451,
+          "modern_smaller_error": 146731,
+          "equal_error": 55018
+        },
+        "pool": {
+          "native_smaller_error": 21003,
+          "modern_smaller_error": 29249,
+          "equal_error": 11188
+        },
+        "lstm2": {
+          "native_smaller_error": 6813,
+          "modern_smaller_error": 9651,
+          "equal_error": 2736
+        },
+        "logits": {
+          "native_smaller_error": 59,
+          "modern_smaller_error": 94,
+          "equal_error": 39
+        },
+        "amp": {
+          "native_smaller_error": 58,
+          "modern_smaller_error": 91,
+          "equal_error": 43
+        }
+      }
+    },
+    "critical_pairs": [
+      {
+        "case_ids": [
+          [
+            1001,
+            13
+          ],
+          [
+            1006,
+            6
+          ]
+        ],
+        "original_change_kind": "new_port_tie",
+        "relations": {
+          "legacy": 1,
+          "torch": 0,
+          "separate": 1,
+          "grouped": 1
+        },
+        "reference_gaps": {
+          "separate": 1.7953471487253125e-08,
+          "grouped": 1.7953471487253125e-08
+        },
+        "reference_order_resolved_beyond_formulation_difference": true
+      },
+      {
+        "case_ids": [
+          [
+            1002,
+            2
+          ],
+          [
+            1004,
+            15
+          ]
+        ],
+        "original_change_kind": "new_port_tie",
+        "relations": {
+          "legacy": -1,
+          "torch": 0,
+          "separate": -1,
+          "grouped": -1
+        },
+        "reference_gaps": {
+          "separate": -2.0269100287073627e-08,
+          "grouped": -2.0269100287073627e-08
+        },
+        "reference_order_resolved_beyond_formulation_difference": true
+      },
+      {
+        "case_ids": [
+          [
+            1002,
+            12
+          ],
+          [
+            1008,
+            9
+          ]
+        ],
+        "original_change_kind": "new_port_tie",
+        "relations": {
+          "legacy": -1,
+          "torch": 0,
+          "separate": -1,
+          "grouped": -1
+        },
+        "reference_gaps": {
+          "separate": -6.083767345455016e-08,
+          "grouped": -6.083767345455016e-08
+        },
+        "reference_order_resolved_beyond_formulation_difference": true
+      },
+      {
+        "case_ids": [
+          [
+            1003,
+            8
+          ],
+          [
+            1007,
+            14
+          ]
+        ],
+        "original_change_kind": "new_port_tie",
+        "relations": {
+          "legacy": -1,
+          "torch": 0,
+          "separate": -1,
+          "grouped": -1
+        },
+        "reference_gaps": {
+          "separate": -1.3827758715834193e-08,
+          "grouped": -1.3827758715834193e-08
+        },
+        "reference_order_resolved_beyond_formulation_difference": true
+      },
+      {
+        "case_ids": [
+          [
+            1003,
+            8
+          ],
+          [
+            1010,
+            7
+          ]
+        ],
+        "original_change_kind": "new_port_tie",
+        "relations": {
+          "legacy": -1,
+          "torch": 0,
+          "separate": -1,
+          "grouped": -1
+        },
+        "reference_gaps": {
+          "separate": -3.18152459932719e-08,
+          "grouped": -3.18152459932719e-08
+        },
+        "reference_order_resolved_beyond_formulation_difference": true
+      },
+      {
+        "case_ids": [
+          [
+            1004,
+            2
+          ],
+          [
+            1008,
+            3
+          ]
+        ],
+        "original_change_kind": "split_native_tie",
+        "relations": {
+          "legacy": 0,
+          "torch": 1,
+          "separate": 1,
+          "grouped": 1
+        },
+        "reference_gaps": {
+          "separate": 3.934610026679053e-08,
+          "grouped": 3.934610026679053e-08
+        },
+        "reference_order_resolved_beyond_formulation_difference": true
+      },
+      {
+        "case_ids": [
+          [
+            1006,
+            15
+          ],
+          [
+            1007,
+            5
+          ]
+        ],
+        "original_change_kind": "new_port_tie",
+        "relations": {
+          "legacy": 1,
+          "torch": 0,
+          "separate": 1,
+          "grouped": 1
+        },
+        "reference_gaps": {
+          "separate": 3.2578036490704676e-08,
+          "grouped": 3.2578036490704676e-08
+        },
+        "reference_order_resolved_beyond_formulation_difference": true
+      },
+      {
+        "case_ids": [
+          [
+            1008,
+            3
+          ],
+          [
+            1014,
+            0
+          ]
+        ],
+        "original_change_kind": "split_native_tie",
+        "relations": {
+          "legacy": 0,
+          "torch": -1,
+          "separate": -1,
+          "grouped": -1
+        },
+        "reference_gaps": {
+          "separate": -5.621215637408028e-08,
+          "grouped": -5.621215637408028e-08
+        },
+        "reference_order_resolved_beyond_formulation_difference": true
+      },
+      {
+        "case_ids": [
+          [
+            1009,
+            7
+          ],
+          [
+            1013,
+            12
+          ]
+        ],
+        "original_change_kind": "reversal",
+        "relations": {
+          "legacy": -1,
+          "torch": 1,
+          "separate": 1,
+          "grouped": 1
+        },
+        "reference_gaps": {
+          "separate": 2.6934041441606382e-08,
+          "grouped": 2.6934041441606382e-08
+        },
+        "reference_order_resolved_beyond_formulation_difference": true
+      },
+      {
+        "case_ids": [
+          [
+            1012,
+            13
+          ],
+          [
+            1013,
+            6
+          ]
+        ],
+        "original_change_kind": "new_port_tie",
+        "relations": {
+          "legacy": -1,
+          "torch": 0,
+          "separate": -1,
+          "grouped": -1
+        },
+        "reference_gaps": {
+          "separate": -1.2441910501870268e-08,
+          "grouped": -1.2441910501870268e-08
+        },
+        "reference_order_resolved_beyond_formulation_difference": true
+      }
+    ],
+    "reference_forwards": 24,
+    "posthoc_selected_rows": 192,
+    "scientific_acceptance": false,
+    "scope": "Approximate FP64 nominal network arithmetic on fixed float32 checkpoint parameters and original tokens; two arithmetic layouts share sigmoid/tanh and NumPy BLAS. Not exact arithmetic, new biological evidence, general equivalence or a tolerance change."
+  },
+  "artifacts": {
+    "logs/controller.log": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-amp-fp64-ft8c0prd/logs/controller.log",
+      "bytes": 231,
+      "sha256": "91900bbda58ff10258792352bd551ac0a460871771616fe3b375b8130ed009b0"
+    },
+    "run/amp-reference-report.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-amp-fp64-ft8c0prd/run/amp-reference-report.json",
+      "bytes": 12345,
+      "sha256": "219423350f143ca74b22089d624f4ab6879eec3f3b128d0c15b45af4ea00daa8"
+    },
+    "run/authorization.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-amp-fp64-ft8c0prd/run/authorization.json",
+      "bytes": 2653,
+      "sha256": "72cafeafc55fce2da2fb3e46e21aa882a58cc478ef97f421c87541883e08f97a"
+    },
+    "run/supervisor-oracle.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-amp-fp64-ft8c0prd/run/supervisor-oracle.json",
+      "bytes": 410,
+      "sha256": "2708ea36c28c2492dbcd629c84c72fcbc4dfddada8558dd3050d1cd913e662be"
+    },
+    "run/attempt-oracle.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-amp-fp64-ft8c0prd/run/attempt-oracle.json",
+      "bytes": 231,
+      "sha256": "91900bbda58ff10258792352bd551ac0a460871771616fe3b375b8130ed009b0"
+    },
+    "run/reference-progress.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-amp-fp64-ft8c0prd/run/reference-progress.json",
+      "bytes": 1269,
+      "sha256": "7cada0d6ca438dea1eabd1de3c1dd13c110d2a0913db1e94e540a12544bf9d33"
+    },
+    "run/reference-partial.npz": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-amp-fp64-ft8c0prd/run/reference-partial.npz",
+      "bytes": 16082278,
+      "sha256": "78bfd3d71b18c6087c744889f669e90dd95f657de54a21124234462fe2b76911"
+    },
+    "run/reference.npz": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-amp-fp64-ft8c0prd/run/reference.npz",
+      "bytes": 16082278,
+      "sha256": "78bfd3d71b18c6087c744889f669e90dd95f657de54a21124234462fe2b76911"
+    },
+    "run/logs/oracle.log": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-amp-fp64-ft8c0prd/run/logs/oracle.log",
+      "bytes": 12345,
+      "sha256": "219423350f143ca74b22089d624f4ab6879eec3f3b128d0c15b45af4ea00daa8"
+    }
+  },
+  "limitations": [
+    "192 posthoc original token contexts; not unbiased new biological or latent coverage",
+    "Same selected epoch37 checkpoint; Drive/starter byte identity remains unresolved",
+    "Two FP64 layouts share analytic activation implementation and NumPy BLAS; agreement is not exact arithmetic or an independent biological oracle",
+    "Only diagnostic arithmetic; unchanged float32 candidate/weights/equations/chemistry/preprocessing/descriptors/selectors and existing FAILs",
+    "Original tokens include zeros as unmasked embedding indices; fixed original 16-row contexts",
+    "No new model, training, GPU, package/model publication, commit or push; no retry or call refill"
+  ],
+  "interpretation": "Better aggregate numerical fidelity of whole AMP head on this selected cohort;91modern closer/58native closer/43equal AMP outputs. Not uniform improvement, general equivalence, biological superiority, deployment change or a D40 extension. Seven new modern ties remain; original FAILs/thresholds and H0-H4 pending status preserved.",
+  "retention_review": "2026-11-13"
+}

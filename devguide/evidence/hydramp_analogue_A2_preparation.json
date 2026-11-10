@@ -1,0 +1,316 @@
+{
+  "schema": "peptidemt.hydramp_analogue_A2_preparation@1",
+  "date": "2026-11-04",
+  "owner_issue": "uibcdf/hydramp#4",
+  "consumer_issue": "uibcdf/peptidemt#32",
+  "status": "Exact plan and instrument prepared; real approval/execution pending",
+  "plan": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-analogue-A2-prep-1yjhj4v8/plan.json",
+    "bytes": 89049,
+    "sha256": "556c917c1937a564ae047d6b30f3cb91311f50c22d55633eed27be1b808c35d4"
+  },
+  "fixture": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-analogue-A2-prep-1yjhj4v8/fixture.json",
+    "bytes": 2779,
+    "sha256": "dd6e9dcc65785dc361ddcd970384288ab320384344d432d2e0902e13c276b378"
+  },
+  "candidate": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/continuation-cycle1-chk2ha32/artifacts/hydramp_torch-0.0.0.dev5-py3-none-any.whl",
+    "bytes": 19385,
+    "sha256": "f6b9e30609ddde675418a2e6696b1026656212921c2b47cf0c6d182bcfc5433e"
+  },
+  "worker": {
+    "path": "/home/liliana/repos@uibcdf/hydramp/local_data/pytorch-analogue/ports/pytorch/devtools/analogue_parity.py",
+    "bytes": 27324,
+    "sha256": "5428bb65d4afa4950a4e95316b2defad3d7ef0d30e59f92e7e5f4d3b29c048a2"
+  },
+  "operator": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-analogue-A2-prep-1yjhj4v8/analogue_control.py",
+    "bytes": 3904,
+    "sha256": "d0bdbf2da5c8b08ac73e74ee60a60f6e7caae225b2bd969e2f80779c01844d5c"
+  },
+  "tests": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-analogue-A2-prep-1yjhj4v8/test_analogue_parity.py",
+    "bytes": 9162,
+    "sha256": "50bd08c808a274e23c9052b8bc63da938c42ca0eb220bbf30e5160d329701b7c"
+  },
+  "host": {
+    "MemTotal_bytes": 32937586688,
+    "MemAvailable_bytes": 15980056576,
+    "SwapTotal_bytes": 8589930496,
+    "SwapFree_bytes": 336015360,
+    "recorded_at_utc": "2026-11-04T18:13:13.985528+00:00",
+    "logical_CPUs": 20,
+    "allowed_CPU_ids": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "task_free_disk_bytes": 2521191739392
+  },
+  "asset_preflight": {
+    "files": 59,
+    "numeric_arrays": 42,
+    "pretrained_arrays_deserialized": 0,
+    "unused_legacy_PCA": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/pca_decomposer.joblib",
+      "bytes": 18711,
+      "sha256": "a3a5dcea04e91421be363c047249b93fa46e99e128aec929e1f6b0f0e488a26d"
+    }
+  },
+  "model_free_tests": {
+    "passed": 30,
+    "scope": "No scientific imports; malformed output, first-accepted row identity, call limits, guards, saved reporting, approval rejection",
+    "log": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-analogue-A2-prep-1yjhj4v8/unit-tests-final.log",
+      "bytes": 33,
+      "sha256": "446f571a2c131a552804f4d9cb994dddab88f05c894a15c8e1f1250d1ee62324"
+    },
+    "JUnit": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-analogue-A2-prep-1yjhj4v8/unit-tests.xml",
+      "bytes": 4951,
+      "sha256": "4760172620cd7d221475d140fd9a31fbeab22c9251a9e89700b25a93b0e22f74"
+    },
+    "runtime": "Exact dev5 worker Python3.14.7, published Pytest Receptor1.2.2"
+  },
+  "artificial_qualification": {
+    "plan": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-analogue-A2-prep-1yjhj4v8/artificial-plan.json",
+      "bytes": 89046,
+      "sha256": "d52f69a73cc4bfa1b71f761c3892d8756e8f1667bcda887a1fd54e0746942c68"
+    },
+    "workers": {
+      "legacy": {
+        "started": true,
+        "returncode": 0,
+        "failure": null,
+        "wall_seconds": 15.758323217043653,
+        "peak_sampled_process_tree_rss_bytes": 579284992,
+        "retained_output_bytes": 1670344,
+        "retry": false
+      },
+      "modern": {
+        "started": true,
+        "returncode": 0,
+        "failure": null,
+        "wall_seconds": 2.255213364958763,
+        "peak_sampled_process_tree_rss_bytes": 279896064,
+        "retained_output_bytes": 2617102,
+        "retry": false
+      }
+    },
+    "comparison": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-analogue-A2-prep-1yjhj4v8/artificial-run/comparison.json",
+      "bytes": 22816,
+      "sha256": "98fbaf0708166cca8f2c3d656e9db5e4588817e90a50be80742dc3280b8e3dec"
+    },
+    "comparison_pass": true,
+    "original_construction_epsilon_draws": [
+      {
+        "shape": [
+          64
+        ],
+        "type": "EagerTensor"
+      },
+      {
+        "shape": [
+          64
+        ],
+        "type": "EagerTensor"
+      }
+    ],
+    "original_descriptor_bundles": [
+      9,
+      9,
+      9
+    ],
+    "completed_neural_evaluations": 42,
+    "scope": "Declared artificial weights, real original constructor/analogue procedure, real original descriptors and installed modern dev5; no pretrained arrays loaded"
+  },
+  "retained_development_findings": [
+    {
+      "cause": "Initial fixture builder relative __file__ path; failed before any artificial array creation",
+      "type": "operator preparation"
+    },
+    {
+      "cause": "Initial RuntimeError command guard prevented platform uname fallback during TF import; corrected to OSError, all child execution remains blocked",
+      "evidence": {
+        "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-analogue-A2-prep-1yjhj4v8/artificial-run-before-command-guard/legacy-console.log",
+        "bytes": 4394,
+        "sha256": "213db16375b2f007c5a75e52aacc3677ce5b7c4ee914b8b6e8179e35adb817eb"
+      },
+      "type": "artificial instrument setup"
+    },
+    {
+      "cause": "Initial report only checked legal candidate row membership, not first accepted row identity; added independent raw-reference oracle and regression",
+      "evidence": {
+        "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-analogue-A2-prep-1yjhj4v8/unit-tests-before-mapping.log",
+        "bytes": 353,
+        "sha256": "f248a328482881a2f0b42c97d12d41cd617bf88b5da5037c759e694f31f01ee8"
+      },
+      "type": "model-free instrument reporter"
+    }
+  ],
+  "proposal": {
+    "network_evaluations": 42,
+    "neural_per_worker": 21,
+    "legacy_descriptor_bundle_cap": 27,
+    "legacy_eager_epsilon_draws": 2,
+    "legacy_unused_PCA_pickle_loads": 1,
+    "PCA_inverse_transforms": 0,
+    "limits": {
+      "min_available_memory_bytes": 8589934592,
+      "min_free_disk_bytes": 1073741824,
+      "threads": 1,
+      "wall_seconds": 120,
+      "rss_stop_bytes": 2147483648,
+      "max_output_bytes": 134217728
+    },
+    "child_limits": {
+      "address_space_bytes": 8589934592,
+      "cpu_ids": [
+        0,
+        1
+      ],
+      "nice": 10
+    },
+    "total_worker_seconds_cap": 240,
+    "task_RAM_intent_bytes": 4000000000,
+    "retry": false
+  },
+  "candidate_source_and_wheel_unchanged": true,
+  "original_descriptor_execution_in_artificial_qualification": true,
+  "real_run_directory_or_approval_record_created": false,
+  "new_scientific_acceptance": false,
+  "new_commits_pushes_releases_external_author_contacts": [],
+  "retention_review_date": "2026-11-14",
+  "checks": {
+    "instrument_model_free_tests": 30,
+    "installed_artificial_comparison": "PASS with final pinned instrument/operator; 42 artificial network evaluations in final case",
+    "reporting_guard": {
+      "passed": 1,
+      "seconds": 0.1,
+      "scope": "Source reporting lifecycle only"
+    },
+    "ruff": "pass",
+    "formatted_files": 5,
+    "preflight": "59 real model files and one PCA hashed; zero real arrays deserialized",
+    "relative_file_links": "146 across five documents; owner evidence copy delivered after initial missing-copy finding",
+    "native_model_source_unchanged": true,
+    "GPU": "No GPU execution",
+    "real_run_started": false
+  },
+  "new_pretrained_network_evaluations": 0,
+  "new_real_PCA_deserializations": 0,
+  "new_Macrel_calls": 0,
+  "retained_successful_artificial_runs": [
+    {
+      "directory": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-analogue-A2-prep-1yjhj4v8/artificial-run-initial-success",
+      "legacy_record": {
+        "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-analogue-A2-prep-1yjhj4v8/artificial-run-initial-success/legacy/execution.json",
+        "bytes": 13046,
+        "sha256": "d0d1a51c11dca14ab117f5a90e406ef7f3346b317df69a23ef601f8e2a310ebd"
+      },
+      "modern_record": {
+        "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-analogue-A2-prep-1yjhj4v8/artificial-run-initial-success/modern/execution.json",
+        "bytes": 13088,
+        "sha256": "fb4841ced0a67331a0ad94193c31739eb0dca078fed251e01a98e9026176e117"
+      },
+      "neural_evaluations": 42,
+      "native_descriptor_bundles": 27,
+      "artificial_PCA_loads": 1,
+      "eager_epsilon_draws": 2
+    },
+    {
+      "directory": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-analogue-A2-prep-1yjhj4v8/artificial-run-before-first-row-oracle",
+      "legacy_record": {
+        "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-analogue-A2-prep-1yjhj4v8/artificial-run-before-first-row-oracle/legacy/execution.json",
+        "bytes": 13046,
+        "sha256": "0d7c54f254973269388f8e7be2b3d14a1ba552afe6add2a9ca9af8e0e73e1da2"
+      },
+      "modern_record": {
+        "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-analogue-A2-prep-1yjhj4v8/artificial-run-before-first-row-oracle/modern/execution.json",
+        "bytes": 13087,
+        "sha256": "cbfa0cfc0dd4574d8a9e7a8b5c05169aeea4c999bbace8cf222dd073be0cef0c"
+      },
+      "neural_evaluations": 42,
+      "native_descriptor_bundles": 27,
+      "artificial_PCA_loads": 1,
+      "eager_epsilon_draws": 2
+    },
+    {
+      "directory": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-analogue-A2-prep-1yjhj4v8/artificial-run",
+      "legacy_record": {
+        "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-analogue-A2-prep-1yjhj4v8/artificial-run/legacy/execution.json",
+        "bytes": 13046,
+        "sha256": "8d281ff5e8a4a6bd175af1f27940796bf62c5f235615f6a5315bca8054d1957f"
+      },
+      "modern_record": {
+        "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-analogue-A2-prep-1yjhj4v8/artificial-run/modern/execution.json",
+        "bytes": 13089,
+        "sha256": "56de25c2ca258536b13e64dcba74954f63f2a35649ad33e25484a9fe3cce0d18"
+      },
+      "neural_evaluations": 42,
+      "native_descriptor_bundles": 27,
+      "artificial_PCA_loads": 1,
+      "eager_epsilon_draws": 2
+    }
+  ],
+  "all_preparation_artificial_work": {
+    "neural_evaluations": 126,
+    "native_descriptor_bundles": 81,
+    "artificial_PCA_loads": 3,
+    "eager_epsilon_draws": 6,
+    "interpretation": "Three separately retained successful development/qualification cases; final exact instrument case is 42 evaluations. No real allowance consumed."
+  },
+  "consumer_report": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/hydramp_analogue_A2.md",
+    "bytes": 9108,
+    "sha256": "74cab3e4b45e69cde4653815353afc7f13c05d0308671aa2a72243bb4f876b16"
+  },
+  "latest_read_only_host_snapshot": {
+    "MemTotal_bytes": 32937586688,
+    "MemAvailable_bytes": 15806455808,
+    "recorded_at_utc": "2026-11-04T18:22:57.844732+00:00",
+    "allowed_CPU_ids": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "task_free_disk_bytes": 2521187692544
+  }
+}

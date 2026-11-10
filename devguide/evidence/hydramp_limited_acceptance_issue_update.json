@@ -1,0 +1,10 @@
+{
+  "schema": "peptidemt.hydramp_limited_acceptance_issue_update@1",
+  "decision": "D40",
+  "issue": "uibcdf/peptidemt#8",
+  "comment_url": "https://github.com/uibcdf/peptidemt/issues/8#issuecomment-6595109769",
+  "created_at": "2026-11-03T04:01:07Z",
+  "body_sha256": "9b49aa772e529fff0c7feae863c8fd13de585d64172b81954fe3fba5ba070522",
+  "verified": true,
+  "scope": "Investigator-accepted twelve-input dev0 numerical disposition only; no wider qualification or new execution authority."
+}

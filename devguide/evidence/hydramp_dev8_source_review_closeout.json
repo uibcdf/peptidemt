@@ -1,0 +1,104 @@
+{
+  "schema": "peptidemt.hydramp_dev8_source_review_closeout@1",
+  "recorded_at_utc": "2026-11-06T02:14:19.624653+00:00",
+  "status": "review_complete_local_commit_pending_explicit_authorization",
+  "review_receipt": {
+    "path": "devguide/evidence/hydramp_dev8_source_review.json",
+    "bytes": 21007,
+    "sha256": "e4fa762a0c67b6ce215692f72081c4e07abf3afeec770d20538bf03512d7126d"
+  },
+  "issue_feedback": {
+    "path": "devguide/evidence/hydramp_dev8_source_review_issue_updates.json",
+    "bytes": 6189,
+    "sha256": "fc9212bb360e70d7fa742af6f228848b506ae3abaf9a86d144827ef5715e06e9"
+  },
+  "document_checks": {
+    "status": "pass",
+    "scope": "Relative file targets and current-text whitespace; no remote/full-anchor, scientific or CI claim",
+    "relative_links_checked": 254,
+    "missing": [],
+    "trailing_whitespace": [],
+    "documents": [
+      "/home/liliana/repos@uibcdf/peptidemt/devguide/hydramp_dev8_source_review.md",
+      "/home/liliana/repos@uibcdf/peptidemt/devguide/hydramp_generation_result_implementation.md",
+      "/home/liliana/repos@uibcdf/peptidemt/devguide/README.md",
+      "/home/liliana/repos@uibcdf/peptidemt/devguide/pending_proposals/hydramp_scientific_followup.md",
+      "/home/liliana/repos@uibcdf/peptidemt/devguide/hydramp_result_contract.md",
+      "/home/liliana/repos@uibcdf/hydramp/local_data/generation-results-20261105/devguide/README.md",
+      "/home/liliana/repos@uibcdf/hydramp/local_data/generation-results-20261105/devguide/pytorch_product_status.md",
+      "/home/liliana/repos@uibcdf/hydramp/local_data/generation-results-20261105/devguide/pytorch_product_status_dev6_20261105.md"
+    ],
+    "historical_dev6_map_preserved_byte_for_byte": true,
+    "original_guide_body_preserved": true
+  },
+  "current_documents": [
+    {
+      "path": "devguide/hydramp_dev8_source_review.md",
+      "bytes": 7591,
+      "sha256": "0d965877ab57696fdbc8a0a71493423245582b24abb7d1ec6c79662b9e73a048"
+    },
+    {
+      "path": "devguide/hydramp_generation_result_implementation.md",
+      "bytes": 11894,
+      "sha256": "9ae2a993b0268506dc06f9066d1328dbc5872355273aa25bc86c4020322a6dbf"
+    },
+    {
+      "path": "devguide/README.md",
+      "bytes": 44912,
+      "sha256": "51416b2987fb6b020765b4fb5ee9db0a5c2af1ed66cb08e54a521585991012d8"
+    },
+    {
+      "path": "devguide/pending_proposals/hydramp_scientific_followup.md",
+      "bytes": 43122,
+      "sha256": "86dea2adb956b8bc582dedf531d5c631c408e49068dac5186bff6f81763b0b86"
+    },
+    {
+      "path": "devguide/hydramp_result_contract.md",
+      "bytes": 17291,
+      "sha256": "d301803e1691ec3b9af82b08265be04caf1b1b1262305b2005aae15623b34c96"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/hydramp/local_data/generation-results-20261105/devguide/README.md",
+      "bytes": 9915,
+      "sha256": "c515236087057e7ea876208a751e6d012ef6a6cc1e71eaf734382981e34fa223"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/hydramp/local_data/generation-results-20261105/devguide/pytorch_product_status.md",
+      "bytes": 9262,
+      "sha256": "53b84390034a7e5d3165cc3d63c677bf8db07a6431eaa08f6ebcd976805422a0"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/hydramp/local_data/generation-results-20261105/devguide/pytorch_product_status_dev6_20261105.md",
+      "bytes": 10006,
+      "sha256": "adc1b92692366f16f41bdf9b590c5ca6ccfdc05f7046144f98409d97a44cdded"
+    }
+  ],
+  "index_check": {
+    "command": "python devtools/devguide_index.py --check",
+    "exit_code": 0
+  },
+  "scoped_diff_whitespace_checks": {
+    "PeptideMT": 0,
+    "HydrAMP": 0
+  },
+  "single_local_commit_proposal": {
+    "path": "local_data/hydramp-dev8-source-review-rosd6pob/commit-proposal.json",
+    "bytes": 7250,
+    "sha256": "c1f6cded4546dc93832eeced77aa7d6526e56d82b8a32ac44f7ac8c12caaffc3"
+  },
+  "expected_tree": "cc2c11506e0df4a6238c774e85a12ce0ce82fc52",
+  "path_count": 21,
+  "HEAD_and_index_unchanged": true,
+  "completed_work": [
+    "Focused source review; no factory-contract blocker identified",
+    "Stale dev6 product map corrected with byte-identical historical preservation",
+    "Unchecked direct-constructor limitation confirmed in one model-free probe and reported in existing owner issue",
+    "Concrete English commit message, owned path list and complete patch prepared"
+  ],
+  "remaining": "Explicit permission for the single local commit; D50/root/owner AGENTS exclude Git commit/push from data-only editing authority",
+  "source_scientific_or_resource_scope_unchanged": true,
+  "new_model_calls": 0,
+  "new_package_installs_or_rebuilds": 0,
+  "release_push_or_contact": false,
+  "retention_review_date": "2026-11-19"
+}

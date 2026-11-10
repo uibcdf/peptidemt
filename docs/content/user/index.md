@@ -9,5 +9,9 @@ assessment. The {ref}`public-api` documents the actual development API.
 :maxdepth: 2
 
 quickstart
+generation_results
+hydramp_execution
+hydramp_workflow
+analogue_redesign
 evaluators/index
 ```

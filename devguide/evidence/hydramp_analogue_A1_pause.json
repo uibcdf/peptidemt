@@ -1,0 +1,36 @@
+{
+  "schema": "peptidemt.hydramp_analogue_A1_pause@1",
+  "recorded_at_utc": "2026-11-04T16:29:35.434979+00:00",
+  "status": "Paused at investigator request; implementation drafts preserved, unbuilt and untested",
+  "owner_issue": "uibcdf/hydramp#4",
+  "consumer_issue": "uibcdf/peptidemt#32",
+  "authorization": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-analogue-A1-g_nhwciy/authorization.json",
+  "approved_contract_sha256": "11c1a85ec9233ba5a09ee18be377d41a577831793b9d7b7a2eef817a3415d360",
+  "candidate_worktree": "/home/liliana/repos@uibcdf/hydramp/local_data/pytorch-analogue",
+  "branch": "peptidemt-pytorch-analogue",
+  "base_commit": "6590d2f4c2963f25d30669052a4c4a857e0e7279",
+  "drafts": [
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-analogue-A1-g_nhwciy/paused-staging/analogue.py",
+      "bytes": 12206,
+      "sha256": "e1a62ffd71c7c120e875df96cd2b4b1219684236b8051c7742403ea64f9cc23d"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-analogue-A1-g_nhwciy/paused-staging/test_analogue.py",
+      "bytes": 16041,
+      "sha256": "3be674c4dc2053e4b9e40f1dd30c40f543b8cd049f79fd3cb0a6848eba16d8a5"
+    }
+  ],
+  "state": "Separate owner worktree copied from dev4. New implementation and tests remain in paused-staging, not installed in the candidate. Draft files passed Ruff check/format only. No test run, build, installation or model execution occurred. D43 authorization is recorded but its decisions/AGENTS synchronization remains pending.",
+  "remaining": [
+    "Inspect pause checkpoint and applicable instructions before resuming",
+    "Review/install staged analogue module/tests into separate candidate; update exports/version/lock without altering dependency pins",
+    "Complete D43 authorization/working-record synchronization",
+    "Qualify exact installed candidate with artificial parameters and applicable regressions under CPU/shared-host bounds",
+    "Record evidence and update existing owner/consumer issues; no real A2 models without new approval"
+  ],
+  "new_pretrained_or_synthetic_model_calls": 0,
+  "new_build_or_install": false,
+  "dev3_dev4_preserved": true,
+  "new_commits_pushes_releases_or_external_contacts": []
+}

@@ -1,0 +1,10 @@
+{
+  "schema": "peptidemt.hydramp_pytorch_parity_issue_update@1",
+  "issue": "uibcdf/peptidemt#8",
+  "comment_url": "https://github.com/uibcdf/peptidemt/issues/8#issuecomment-6535218763",
+  "created_at": "2026-10-30T22:54:21Z",
+  "published_body_sha256": "999bcd1319a06b6525f4d5e88c5b7ce23c16149884d6edf6af2c9a7557a483e9",
+  "local_body_sha256": "999bcd1319a06b6525f4d5e88c5b7ce23c16149884d6edf6af2c9a7557a483e9",
+  "body_verified": true,
+  "scope": "Aggregate scientific comparison/resource result only; no raw generated sequences or checkpoints. Source and full reports remain local/uncommitted."
+}

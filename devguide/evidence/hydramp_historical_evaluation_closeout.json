@@ -1,0 +1,200 @@
+{
+  "schema": "peptidemt.hydramp_historical_evaluation_closeout@1",
+  "recorded_at_utc": "2026-11-05T17:41:30.452762+00:00",
+  "local_date": "2026-11-05",
+  "status": "D47 local endpoint/comparator implementation, controlled evidence, documentation and authorized owning-issue updates complete; actual model comparison pending",
+  "implementation_receipt": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/evidence/hydramp_historical_evaluation_implementation.json",
+    "bytes": 20587,
+    "sha256": "764398caf2fdecbe5580a0cd78432faabbdb73e44facc8031a3dc7545d20a68d"
+  },
+  "authority": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/evidence/hydramp_historical_endpoint_authorization.json",
+    "bytes": 2766,
+    "sha256": "f2868f7d6865ead963f8c26fa908a9c6acd062bdc5decbbafd6500a8067b2afe"
+  },
+  "maintained_files": [
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/AGENTS.md",
+      "bytes": 9920,
+      "sha256": "546520c2d038f2e8f09fddac0daf7e40e4a9282715f0f66a62d2376a9cdfe2c4"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/README.md",
+      "bytes": 39132,
+      "sha256": "e16032cc52232d263e3c87c66c1fe76f02516c7522b8df7407d69d76bcbf3376"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/decisions.md",
+      "bytes": 101229,
+      "sha256": "26f16a667392d68e6115bbb1bd03ee2ef957a862111b9b46475d906826d17cfd"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/hydramp_historical_work_order.md",
+      "bytes": 9661,
+      "sha256": "74066aefa322670e64414cfe313196d08c1f7e1de300ea4997983a3c68dde75b"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/pending_proposals/hydramp_scientific_followup.md",
+      "bytes": 25959,
+      "sha256": "c78436e744a47424a7a399bf0e70ae4fda83e711add5976433c4710161a231f9"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/hydramp_historical_evaluation.md",
+      "bytes": 9942,
+      "sha256": "8ec4055d9c69c4ed662cbe0cf311b82802cd9f865bcd366d5dc8124374175963"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/evidence/hydramp_historical_endpoint_authorization.json",
+      "bytes": 2766,
+      "sha256": "f2868f7d6865ead963f8c26fa908a9c6acd062bdc5decbbafd6500a8067b2afe"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/evidence/hydramp_historical_evaluation_implementation.json",
+      "bytes": 20587,
+      "sha256": "764398caf2fdecbe5580a0cd78432faabbdb73e44facc8031a3dc7545d20a68d"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/devtools/hydramp_historical_evaluation.py",
+      "bytes": 16439,
+      "sha256": "e2085293adbf4643516dc60eaa6c14008f362a296a2fb1f4ae3c141dc27be14f"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/devtools/historical_evaluation_requirements.txt",
+      "bytes": 318,
+      "sha256": "b3994c72e6ab7207d98cdfa85698ccfac8913968552d16d5ca14eadd3c0fca52"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/devtools/tests/test_hydramp_historical_evaluation.py",
+      "bytes": 12521,
+      "sha256": "ad9621405bbff99cbfcac2f2d06f8fdcc143ea3c26cc7efcae448ec322188005"
+    }
+  ],
+  "checks": {
+    "final_selected_tests": "33 passed (32 optional developer controls + 1 reporting), native exit 0",
+    "receptor_artifact": "Complete PASS; supported reader verified integrity",
+    "ruff_lint": "PASS",
+    "ruff_format": "178 files PASS",
+    "documentation": {
+      "status": "PASS: bounded local links, whitespace, decision-table navigation and implementation receipt identities",
+      "documentation_paths": [
+        "/home/liliana/repos@uibcdf/peptidemt/AGENTS.md",
+        "/home/liliana/repos@uibcdf/peptidemt/devguide/README.md",
+        "/home/liliana/repos@uibcdf/peptidemt/devguide/decisions.md",
+        "/home/liliana/repos@uibcdf/peptidemt/devguide/hydramp_historical_work_order.md",
+        "/home/liliana/repos@uibcdf/peptidemt/devguide/pending_proposals/hydramp_scientific_followup.md",
+        "/home/liliana/repos@uibcdf/peptidemt/devguide/hydramp_historical_evaluation.md"
+      ],
+      "local_links_checked": 267,
+      "metadata_identity_checks": 32,
+      "all_recorded_file_identities_match": true,
+      "no_scientific_execution_or_new_statistic_calls": true
+    },
+    "reporting_index_command": "python devtools/devguide_index.py --check",
+    "reporting_index_exit": 0,
+    "git_diff_check_exit": 0,
+    "model_or_native_payload_calls": 0,
+    "scientific_runtime_or_biological_matrix_qualification": false
+  },
+  "check_artifacts": [
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-historical-evaluation-_ii6poyr/documentation-checks.json",
+      "bytes": 777,
+      "sha256": "2595433e5eb4778c6c5770ef9b9d729c1639ded31337602a9b9cd55e337cad2a"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-historical-evaluation-_ii6poyr/index-check.log",
+      "bytes": 38,
+      "sha256": "3a525cb88e38e62b2cd78f962eec311aeb1797c9a439b3c7d832b95b00a8d5b5"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-historical-evaluation-_ii6poyr/whitespace-check.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-historical-evaluation-_ii6poyr/issue-updates-verified.json",
+      "bytes": 557,
+      "sha256": "0484afde837e048a62c0b6e9db67176db9fb14710be232d8d83270dad4290d45"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-historical-evaluation-_ii6poyr/final-status.txt",
+      "bytes": 14843,
+      "sha256": "72fcaa85ba5a5eabb4e4d2fa2ecac4725128f147c46cc3a3a921da0639907553"
+    }
+  ],
+  "owning_issue_updates": [
+    {
+      "repository": "uibcdf/peptidemt",
+      "id": 6664896395,
+      "url": "https://github.com/uibcdf/peptidemt/issues/32#issuecomment-6664896395",
+      "updated_at": "2026-11-05T17:39:08Z",
+      "body_exact": true,
+      "local_body": {
+        "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-historical-evaluation-_ii6poyr/peptidemt-32-comment.md",
+        "bytes": 3196,
+        "sha256": "51f3dcda576bcee7b01a8df7682d534718e40f60a3c5513c6d75a3c1e00e6fae"
+      },
+      "published_body_sha256": "c29c7f6b65398103701c1c828a89d8df0c84b571db75967d65197f17c13c5b91",
+      "issue_status": "Open; broader scientific follow-up remains"
+    },
+    {
+      "repository": "uibcdf/hydramp",
+      "id": 6664917564,
+      "url": "https://github.com/uibcdf/hydramp/issues/3#issuecomment-6664917564",
+      "updated_at": "2026-11-05T17:39:37Z",
+      "body_exact": true,
+      "local_body": {
+        "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-historical-evaluation-_ii6poyr/hydramp-3-comment.md",
+        "bytes": 3049,
+        "sha256": "8507d75e122061ff28ae5ae900e7e15ead5de67afcdbae2102755b9da405384e"
+      },
+      "published_body_sha256": "2bf1149a79c4d6efae1ddc0078a3f59acf50a85d73f41a62c344e593074b7ead",
+      "issue_status": "Open; broader scientific follow-up remains"
+    }
+  ],
+  "publication_scope": "Only existing investigator-owned PeptideMT#32 and HydrAMP#3 comments; exact final bodies fetched and matched. No new/third-party issue, source push or release.",
+  "durable_instruction": "Root AGENTS.md routes D47 endpoint/synthetic scope to the maintained outcome; devguide current routes and D47 decision synchronized",
+  "baseline_preservation": "Prior source/receiver/tests and approved endpoint proposal/evidence identities checked unchanged in implementation receipt; concurrent work preserved",
+  "workspace_attention": "Official fetched status: dirty PeptideMT preserved, clean MolSysMT 103 commits behind; neither has a fetch error. No merge/rebase/stash/cleanup/commit/push.",
+  "reproduction_scripts": [
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-historical-evaluation-_ii6poyr/record_authorization.py",
+      "bytes": 2795,
+      "sha256": "9f09f399e11ba10a324d3db884901c574b23bee5c9ad55c0d1da0614168e9b42"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-historical-evaluation-_ii6poyr/qualify_actual_endpoint.py",
+      "bytes": 5927,
+      "sha256": "88b5944317df7852b7bbec137fa1aa37514eb0a47010c1e0a2db4143a09c7e04"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-historical-evaluation-_ii6poyr/build_implementation_receipt.py",
+      "bytes": 10386,
+      "sha256": "8ef0e96b405386f85308eead33ba1b4ffa9bd65f8dcc36ec73d2f1a6609db9b2"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-historical-evaluation-_ii6poyr/check_documentation.py",
+      "bytes": 2464,
+      "sha256": "b37f7fbce2ea55498f61b5de5bdcd183ca49d71682baf930602fd216e6d50409"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-historical-evaluation-_ii6poyr/build_closeout_receipt.py",
+      "bytes": 5223,
+      "sha256": "e9040bc8aa860e8a66eb46a48931f491ebeb104add5197a04c0de46bde93d43b"
+    }
+  ],
+  "next_scope": "Prepare/review a separate exact learned-score receiving/native-input/provider-codec/bundle/batch/host/call plan before model work. No existing allowance is reusable.",
+  "remaining_scientific_limits": [
+    "Synthetic statistical controls establish no actual original/modern HydrAMP performance or equivalence",
+    "Reported mass-activity endpoint is distinct from native pooled molar target; no score-to-MIC mapping or calibration",
+    "Selected historical panel, unresolved checkpoint/source exposure and assay/chemical limits do not support an independent benchmark",
+    "The finite 38-group primary profile has 12 positives; the broader unapproved C2 minimum is unmet",
+    "No accepted model/bundle/API/admission/selector changes or new scientific execution allowance"
+  ],
+  "retention": {
+    "owner": "HydrAMP#3 / PeptideMT#32",
+    "review_by": "2026-11-19",
+    "task_directory": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-historical-evaluation-_ii6poyr"
+  }
+}

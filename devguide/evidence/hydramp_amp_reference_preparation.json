@@ -1,0 +1,106 @@
+{
+  "schema": "peptidemt.hydramp_amp_full_head_reference_preparation@1",
+  "date": "2026-11-03",
+  "owner_issue": "uibcdf/hydramp#1",
+  "consumer_issue": "uibcdf/peptidemt#8",
+  "status": "Prepared and artificially tested; no fresh real-parameter authorization or execution",
+  "approved": false,
+  "pretrained_network_evaluations_executed": 0,
+  "real_parameter_arrays_deserialized": 0,
+  "plan": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-amp-fp64-ft8c0prd/plan.json",
+    "bytes": 9755,
+    "sha256": "3035206916f0a95ef318f02f9195a12edc1ba031bf07584bca9c5d61fe432d3a"
+  },
+  "worker": {
+    "path": "/home/liliana/repos@uibcdf/hydramp/local_data/pytorch-comparison/ports/pytorch/devtools/amp_reference.py",
+    "bytes": 12119,
+    "sha256": "827eaeaed37df541d85e4fd45ca9cb065ec78e9ccf462b6dff95113fe23b9cd3"
+  },
+  "tests": {
+    "path": "/home/liliana/repos@uibcdf/hydramp/local_data/pytorch-comparison/ports/pytorch/tests/test_amp_reference.py",
+    "bytes": 9126,
+    "sha256": "26b9e604ba3d99f7d469655410f475f3121f2adcd6b9915696fc51c2c6020ab4"
+  },
+  "math_reuse": {
+    "path": "/home/liliana/repos@uibcdf/hydramp/local_data/pytorch-gru-layout/ports/pytorch/devtools/numeric_reference.py",
+    "bytes": 13180,
+    "sha256": "be31c78e063f5d15142c6b750ccd169689396f95562b38c342f6ac06f3e58e6f"
+  },
+  "supervisor_reuse": {
+    "path": "/home/liliana/repos@uibcdf/hydramp/local_data/pytorch-comparison/ports/pytorch/devtools/parity.py",
+    "bytes": 18338,
+    "sha256": "21232aab3060dd6a9e8ac448d8b46aa0bac1dd32786f556f1e2b4acdb8347026"
+  },
+  "guard": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-amp-fp64-ft8c0prd/guarded_tests.py",
+    "bytes": 1440,
+    "sha256": "d732f575a852fbed3cfcd386bc68c75b7ac8e56d359ffd6f560d3a8a8c8b9c1f"
+  },
+  "test_execution": {
+    "exit_code": 0,
+    "wall_seconds": 5.180636405944824,
+    "child_kernel_peak_rss_bytes": 67813376,
+    "scope": "Artificial weights/fixtures only; no real artifact open, network or framework import; isolated NumPy/Python3.14/published Receptor1.2.2;1GiBAS CPU0/1 one numerical thread nice10"
+  },
+  "test_results": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-amp-fp64-ft8c0prd/tests/results.xml",
+    "bytes": 2420,
+    "sha256": "a4e004ba3b3a919b595cc96b78af00966747045c7aa2e0084baba39316911416"
+  },
+  "test_log": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-amp-fp64-ft8c0prd/logs/artificial-tests.log",
+    "bytes": 33,
+    "sha256": "50fcf8128a77a790a76be2221987be77923441a4516b15debfd6d9ac2bfb8f65"
+  },
+  "preflight": {
+    "files_hashed": 22,
+    "parameters_deserialized": 0
+  },
+  "budget": {
+    "workers": 1,
+    "concurrent_workers": 1,
+    "cpu_affinity": [
+      0,
+      1
+    ],
+    "native_threads": 1,
+    "nice": 10,
+    "address_space_bytes": 1073741824,
+    "rss_stop_bytes": 536870912,
+    "minimum_mem_available_bytes": 8589934592,
+    "minimum_free_disk_bytes": 1073741824,
+    "worker_wall_seconds": 180,
+    "aggregate_worker_wall_seconds": 180,
+    "output_stop_bytes": 134217728,
+    "gpu": false,
+    "network": false,
+    "retries": 0,
+    "task_ram_budget_bytes": 4000000000,
+    "network_evaluations_total": 24,
+    "rows_per_network_evaluation": 16,
+    "numeric_parameter_arrays": 9,
+    "parameter_load_sets": 1,
+    "native_torch_tf_network_evaluations": 0,
+    "decoder_encoder_mic_pca_generation_descriptor_macrel_evaluations": 0,
+    "standalone_activation_replays": 0
+  },
+  "reference_consistency_maxabs": {
+    "embedding": 0.0,
+    "lstm1": 1e-10,
+    "pool": 1e-10,
+    "lstm2": 1e-10,
+    "logits": 1e-10,
+    "amp": 1e-12
+  },
+  "predeclared_reporting": "Both layouts independently reported. All six surfaces: maximum/mean absolute and RMS error; per-scalar native/modern closer counts. All ten critical pairs including unfavorable modern ties. No extra model/activation evaluations in report. Reference consistency checks are instrument controls, not changed native-vs-port/scientific acceptance bands. On inconsistency retain failure without choosing a favorable reference.",
+  "limitations": [
+    "192 posthoc original token contexts; not unbiased new biological or latent coverage",
+    "Same selected epoch37 checkpoint; Drive/starter byte identity remains unresolved",
+    "Two FP64 layouts share analytic activation implementation and NumPy BLAS; agreement is not exact arithmetic or an independent biological oracle",
+    "Only diagnostic arithmetic; unchanged float32 candidate/weights/equations/chemistry/preprocessing/descriptors/selectors and existing FAILs",
+    "Original tokens include zeros as unmasked embedding indices; fixed original 16-row contexts",
+    "No new model, training, GPU, package/model publication, commit or push; no retry or call refill"
+  ],
+  "retention_review": "2026-11-13"
+}

@@ -1,0 +1,255 @@
+{
+  "schema": "peptidemt.peptide_binding_survey@1",
+  "recorded_utc": "2026-11-10T06:21:06.402656+00:00",
+  "scientific_review_date": "2026-11-10",
+  "authority": "Explicit investigator request to explore binder-design and protein-peptide docking alternatives before starting docking; D52 preparation",
+  "owner_issue": "uibcdf/peptidemt#33",
+  "status": "read_only_comparative_exploration; no method/chemistry adopted",
+  "report": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/peptide_protein_binding_survey_2026_11_10.md",
+    "sha256": "666718b69cafe04f2aeb5ff7172bc5fef0aff29493197f68de955e444b668308",
+    "bytes": 16755
+  },
+  "task_directory": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-peptide-binding-survey-0ys7e8yt",
+  "source_documents": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-peptide-binding-survey-0ys7e8yt/source-documents.json",
+    "sha256": "c3935dc7f9fddf6bdf19deb962e6eaaea8955537782f1aefb1d60dc35bc8beb5",
+    "bytes": 185511
+  },
+  "source_inventory": [
+    {
+      "repository": "martinpacesa/BindCraft",
+      "commit": "7713aa0d0d351e4117a8befeb8541f3a8ebd3368",
+      "path": "README.md",
+      "sha256": "fbd31d823a3fead3be2aa2f93901aeec723bc07cb600a5f89cd5408dd3158307",
+      "bytes": 16916,
+      "main_matches_pinned_bytes": true,
+      "evidence_scope": "README/guide/license inspection only, not model implementation or execution"
+    },
+    {
+      "repository": "PacesaLab/BindCraft2",
+      "commit": "8c1a858fdc1bfc94c60846ff11a0d01c9aa44136",
+      "path": "README.md",
+      "sha256": "be300e238ecdc1d4444bd3cbc8ec00cd6729bbf78710a6a61564d00539607f38",
+      "bytes": 17298,
+      "main_matches_pinned_bytes": true,
+      "evidence_scope": "README/guide/license inspection only, not model implementation or execution"
+    },
+    {
+      "repository": "PacesaLab/BindCraft2",
+      "commit": "8c1a858fdc1bfc94c60846ff11a0d01c9aa44136",
+      "path": "LICENSE",
+      "sha256": "411f53a5d471707dd23cacf65c890933d5a70e8cebbb1d5343a272c1f23f338d",
+      "bytes": 6256,
+      "main_matches_pinned_bytes": true,
+      "evidence_scope": "README/guide/license inspection only, not model implementation or execution"
+    },
+    {
+      "repository": "PacesaLab/BindCraft2",
+      "commit": "8c1a858fdc1bfc94c60846ff11a0d01c9aa44136",
+      "path": "docs/source/installation.md",
+      "sha256": "493c429a74450cddfe0ef7c6041e129011f77b8629fb6957eb634f75f8d6cbcd",
+      "bytes": 29912,
+      "main_matches_pinned_bytes": true,
+      "evidence_scope": "README/guide/license inspection only, not model implementation or execution"
+    },
+    {
+      "repository": "jwohlwend/boltz",
+      "commit": "b1ebfc46ecf57f5414e0d1a6f9027bbb122c53bc",
+      "path": "README.md",
+      "sha256": "79149435313841e6f9cc0c8b581259f3952a2469cbe6f9a733f7143b557025c2",
+      "bytes": 6415,
+      "main_matches_pinned_bytes": true,
+      "evidence_scope": "README/guide/license inspection only, not model implementation or execution"
+    },
+    {
+      "repository": "jwohlwend/boltz",
+      "commit": "b1ebfc46ecf57f5414e0d1a6f9027bbb122c53bc",
+      "path": "docs/prediction.md",
+      "sha256": "b9cb2ff437389864bde02e7e9fd9fbcc7de189ca2e240a5f3fb6261ca595a795",
+      "bytes": 28107,
+      "main_matches_pinned_bytes": true,
+      "evidence_scope": "README/guide/license inspection only, not model implementation or execution"
+    },
+    {
+      "repository": "HannesStark/boltzgen",
+      "commit": "6472b44e8072187e6eaa51271ae6838245206013",
+      "path": "README.md",
+      "sha256": "3f324ff2127414b6470c4d46a9fbd0ddc4f426615dd16937b9730832172952d0",
+      "bytes": 38027,
+      "main_matches_pinned_bytes": true,
+      "evidence_scope": "README/guide/license inspection only, not model implementation or execution"
+    },
+    {
+      "repository": "chaidiscovery/chai-lab",
+      "commit": "c691da74d6f348b19bc9f931abe95d66d0b88e78",
+      "path": "README.md",
+      "sha256": "ea6f6e64f6fc73d0e3dcbe6755c2aab226fa13bad279d1213acc0217f3f5013f",
+      "bytes": 9226,
+      "main_matches_pinned_bytes": null,
+      "evidence_scope": "README/guide/license inspection only, not model implementation or execution"
+    },
+    {
+      "repository": "NiuDongjiang/PepFGLD",
+      "commit": "4779933c5bb33d366b7330e6c2cd3c00ac27df09",
+      "path": "README.md",
+      "sha256": "dcd6af73e7ab5344f5b8e833743d63619e7c4d8a816eef7af653965dfcfca13c",
+      "bytes": 1074,
+      "main_matches_pinned_bytes": null,
+      "evidence_scope": "README/guide/license inspection only, not model implementation or execution"
+    },
+    {
+      "repository": "patrickbryant1/EvoBind",
+      "commit": "e8f77170d65dd079f29c35cc74e5d98a453f88a2",
+      "path": "README.md",
+      "sha256": "ab97ee9f464bdb0991470452a130026147374d2a8237caa3aefd56ba74e0184c",
+      "bytes": 5152,
+      "main_matches_pinned_bytes": null,
+      "evidence_scope": "README/guide/license inspection only, not model implementation or execution"
+    },
+    {
+      "repository": "programmablebio/pepmlm",
+      "commit": "3169c4920f8c383948e0a5d3a7c8f87e5e7d2436",
+      "path": "README.md",
+      "sha256": "baa2a90d1e0aad26c76c5f68a13dfd845461339d283c61987685b9bff123752f",
+      "bytes": 2951,
+      "main_matches_pinned_bytes": null,
+      "evidence_scope": "README/guide/license inspection only, not model implementation or execution"
+    },
+    {
+      "repository": "THUNLP-MT/PepGLAD",
+      "commit": "bad015ca50c312a89482adb5220c3d907f13df5c",
+      "path": "README.md",
+      "sha256": "92587be50f353b4d9c26c4ee70515d7e86bc181feb676c37b49f720070fdb0c3",
+      "bytes": 7929,
+      "main_matches_pinned_bytes": null,
+      "evidence_scope": "README/guide/license inspection only, not model implementation or execution"
+    },
+    {
+      "repository": "RosettaCommons/foundry",
+      "commit": "0d0b0ba44fab7ca76aa4b625c014ce5964c7d284",
+      "path": "README.md",
+      "sha256": "e3e7140cdc777498ad99fbc91b6c1e26963e025d2ca38232f4ffcb671f0aff17",
+      "bytes": 10770,
+      "main_matches_pinned_bytes": null,
+      "evidence_scope": "README/guide/license inspection only, not model implementation or execution"
+    }
+  ],
+  "primary_papers": [
+    {
+      "name": "Short-peptide BindCraft experimental evaluation",
+      "doi": "10.1021/acschembio.5c00774",
+      "online_date": "2025-11-18",
+      "issue_date": "2025-12-19",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12723675/",
+      "surface": "primary full-text web rendering; publisher direct open refused; publisher indexed text and PubMed metadata also inspected",
+      "review_limit": "No SI/dataset/chemical-state receiving; inputs/count definitions need source reconciliation before reproduction"
+    },
+    {
+      "name": "Original BindCraft",
+      "doi": "10.1038/s41586-025-09429-6",
+      "online_date": "2025-08-27",
+      "url": "https://www.nature.com/articles/s41586-025-09429-6",
+      "surface": "primary publisher abstract/search rendering"
+    },
+    {
+      "name": "EvoBind2",
+      "doi": "10.1038/s42004-025-01601-3",
+      "online_date": "2025-07-22",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12280060/",
+      "surface": "primary full-text web rendering; publisher direct open unavailable"
+    },
+    {
+      "name": "RFpeptides",
+      "doi": "10.1038/s41589-025-01929-w",
+      "online_date": "2025-06-20",
+      "url": "https://www.nature.com/articles/s41589-025-01929-w",
+      "surface": "primary publisher indexed abstract/discussion rendering; no PDF inspected"
+    },
+    {
+      "name": "BoltzGen",
+      "doi": "10.1101/2025.11.20.689494",
+      "version": "inspected PMC preprint v1, posted 2025-11-24",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12697729/",
+      "surface": "primary preprint full-text rendering",
+      "review_limit": "v2 full-text request refused; version-specific quantitative results not merged"
+    },
+    {
+      "name": "PepMLM",
+      "doi": "10.1038/s41587-025-02761-2",
+      "online_date": "2025-08-13",
+      "issue_year": 2026,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13271882/",
+      "surface": "primary indexed abstract and official repository README; direct PMC open returned browser challenge",
+      "review_limit": "No full-text or standalone assay reproduction claimed"
+    },
+    {
+      "name": "PepFlow",
+      "arxiv": "2406.00735v1",
+      "publication_context": "ICML 2024",
+      "url": "https://arxiv.org/abs/2406.00735",
+      "surface": "primary abstract; linked official implementation located, not deep source-qualified"
+    },
+    {
+      "name": "PepGLAD",
+      "publication_context": "NeurIPS 2024",
+      "url": "https://papers.nips.cc/paper_files/paper/2024/hash/88ad9774ffcb7a272457e9396f793a07-Abstract-Conference.html",
+      "surface": "primary proceedings abstract and pinned author README"
+    },
+    {
+      "name": "RFdiffusion3",
+      "doi": "10.1101/2025.09.18.676967",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12458353/",
+      "surface": "primary indexed preprint text and current Foundry README; no short-peptide qualification inferred"
+    },
+    {
+      "name": "Training bias / MSA peptide-docking benchmark",
+      "doi": "10.1002/pro.70331",
+      "online_date": "2025-10-13",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1002/pro.70331",
+      "surface": "primary full-text web rendering"
+    },
+    {
+      "name": "PIPER-FlexPepDock",
+      "doi": "10.1371/journal.pcbi.1005905",
+      "url": "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005905",
+      "surface": "primary indexed article text; no new protocol execution"
+    },
+    {
+      "name": "FoldBench",
+      "doi": "10.1038/s41467-025-67127-3",
+      "url": "https://www.nature.com/articles/s41467-025-67127-3",
+      "surface": "primary indexed abstract; direct publisher open unavailable",
+      "review_limit": "No exact success-rate ranking adopted across different tasks or training cutoffs"
+    }
+  ],
+  "prior_T1b_proposal_snapshot": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-t1b-review-yr15dnex/mdm2_t1b_proposal_pre_exploration.md",
+    "sha256": "f3050dd1482b36bdd76aaa30fa7270c22c32dff9e0244db5b8b6b4834bc3d958",
+    "bytes": 11932
+  },
+  "earlier_T1b_preparation_receipt": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/evidence/mdm2_t1b_preparation.json",
+    "sha256": "c9074b42d4744c8eae2a5697643c40fc05db9c0855fec406c073eed5fbaa30aa",
+    "bytes": 6653
+  },
+  "current_T1b_disposition": "Unaccepted possible source-admission subproblem; neither mandatory next stage nor selected HADDOCK3 workflow",
+  "prior_reference_preservation": "T0, T1a and accepted AMP/HydrAMP sources/evidence unchanged; no accepted checks repeated",
+  "molecular_operations": 0,
+  "learned_model_or_docking_runs": 0,
+  "weights_downloaded": false,
+  "scientific_packages_installed_or_changed": false,
+  "GPU_used": false,
+  "targets_uploaded_to_services": false,
+  "third_party_contact_or_publication": false,
+  "all_source_checks_are_execution_evidence": false,
+  "new_scientific_decision_or_architecture": false,
+  "public_package_or_dataset_release": false,
+  "commit_or_push": false,
+  "retention": {
+    "owner": "uibcdf/peptidemt#33",
+    "reason": "Pinned provider documentation and research/proposal provenance",
+    "review_date": "2026-11-17",
+    "scope": "Keep small local records; shared environments and accepted scientific artifacts remain untouched"
+  }
+}

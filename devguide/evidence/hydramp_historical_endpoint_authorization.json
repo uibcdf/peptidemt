@@ -1,0 +1,56 @@
+{
+  "schema": "peptidemt.hydramp_historical_endpoint_authorization@1",
+  "recorded_at_utc": "2026-11-05T17:15:41.441839+00:00",
+  "local_date": "2026-11-05",
+  "decision": "D47",
+  "status": "Endpoint/policy and data-only synthetic-score comparator implementation approved",
+  "authority": "Explicit investigator approval and continuation in direct answer to the endpoint and model-free comparator implementation question",
+  "owner_issue": "uibcdf/peptidemt#32",
+  "scientific_owner_issue": "uibcdf/hydramp#3",
+  "approved_proposal": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/hydramp_historical_endpoint_review.md",
+    "bytes": 14774,
+    "sha256": "e7bf019ec410bb02ef5a01ee12fba625159d7c71e9b76b704787d9005ed223ed"
+  },
+  "exact_proposal_copy": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-historical-evaluation-_ii6poyr/approved_endpoint_proposal.md",
+    "bytes": 14774,
+    "sha256": "e7bf019ec410bb02ef5a01ee12fba625159d7c71e9b76b704787d9005ed223ed"
+  },
+  "scientific_review_evidence": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/evidence/hydramp_historical_endpoint_review.json",
+    "bytes": 22309,
+    "sha256": "5de8747e3f8fdd6754c8830f82474181443c7a99ce847be9b7a6def9867cd2d2"
+  },
+  "D46_view_authorization": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/evidence/hydramp_historical_view_authorization.json",
+    "bytes": 3090,
+    "sha256": "aaad0147790da3af47ca1703e2ce117150126d832062975959d6025f7a86f4a6"
+  },
+  "approved": {
+    "endpoint": "E. coli ATCC 25922 displayed MIC <=32 ug/mL, reported-value convention",
+    "source_occurrences_retained": 42,
+    "source_raw_string_groups": 39,
+    "primary_groups": 38,
+    "primary_positive": 12,
+    "primary_negative": 26,
+    "ambiguity": "Hydraganan-2 primary exclusion; both observed-class 39-group scenarios, shared across engines",
+    "metric": "descriptive paired ROC-AUC, exact ties and unchanged raw score precision",
+    "data_only_endpoint_and_evaluation_implementation": true,
+    "artificial_score_receiving_tests_and_replay": true,
+    "existing_statistical_provider_qualification": true
+  },
+  "not_included": [
+    "learned scores or model execution",
+    "native payloads or codec calls",
+    "molar-class reconstruction or calibration",
+    "mass/unit conversion",
+    "training/GPU/new generation",
+    "128 ug/mL secondary endpoint",
+    "independent benchmark or formal equivalence",
+    "public API/general chemistry admission changes",
+    "commit/push/release or third-party contact"
+  ],
+  "source_preservation": "Existing D46 snapshot, receiver, source annotations and scientific artifacts remain immutable",
+  "budgets": "No new scientific model allowance; previous budgets remain exhausted"
+}

@@ -1,0 +1,28 @@
+{
+  "schema": "peptidemt.numeric_reference_closeout@1",
+  "date": "2026-11-02",
+  "checked_at_utc": "2026-11-03T02:28:25.157919+00:00",
+  "issue": "uibcdf/peptidemt#8",
+  "checks": {
+    "report_index": "pass; current",
+    "reporting_protocol_pytest": {
+      "passed": 1,
+      "failed": 0,
+      "exit": 0,
+      "receptor": "llm",
+      "scope": "report lifecycle only, not scientific qualification"
+    },
+    "git_diff_check": "pass",
+    "relative_document_links_checked": 154,
+    "output_plan_worker_hashes": "pass",
+    "provider_consumer_receipt_identity": "pass",
+    "publication": "verified remote comment against prepared body"
+  },
+  "scientific_execution": "Only the exact two authorized FP64 mathematical forwards; zero additional learned-parameter evaluations during closeout.",
+  "synthetic_reuse": "Thirteen preparation tests retained without unnecessary rerun: mathematical source unchanged.",
+  "limitations": [
+    "No new commit, push, public package or full native generator qualification",
+    "Provider issue board disabled; consumer #8 retains explicit handoff limitation",
+    "Numerical admissibility remains proposed for investigator review; prior diagnostic failures and all thresholds preserved"
+  ]
+}

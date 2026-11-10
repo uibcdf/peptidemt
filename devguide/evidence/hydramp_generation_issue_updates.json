@@ -1,0 +1,21 @@
+{
+  "schema": "peptidemt.hydramp_generation_issue_updates@1",
+  "entries": [
+    {
+      "issue": "uibcdf/peptidemt#8",
+      "comment_url": "https://github.com/uibcdf/peptidemt/issues/8#issuecomment-6595558884",
+      "created_at": "2026-11-03T04:35:53Z",
+      "body_sha256": "55e216a7796d5ad03ba7bb522b761134eb699d1abd564b9bba8814923eaf6790",
+      "verified": true
+    },
+    {
+      "issue": "uibcdf/molsysmt#485",
+      "comment_url": "https://github.com/uibcdf/molsysmt/issues/485#issuecomment-6595490991",
+      "created_at": "2026-11-03T04:30:26Z",
+      "body_sha256": "9ae721b5fc102182532d93f5e75268cc45d7b4088c675ff0289ebeb25c969d65",
+      "verified": true
+    }
+  ],
+  "provider_relation_label_verified": "component:peptidemt",
+  "scope": "Local synthetic generation preparation and descriptor capability handoff only; no scientific adoption or model execution."
+}

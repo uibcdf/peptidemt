@@ -1,0 +1,93 @@
+{
+  "schema": "peptidemt.scientific_capability_audit_review2@1",
+  "date": "2026-11-04",
+  "owner_issue": "uibcdf/peptidemt#33",
+  "confirmed_bug": "uibcdf/peptidemt#34",
+  "prior_receipt": {
+    "path": "devguide/evidence/peptidemt_scientific_audit_2026_11_04.json",
+    "bytes": 9216,
+    "sha256": "0876835f3609a4b1572742a6a658849c2e0db63d27ff6844738d8664af178965"
+  },
+  "prior_report_bytes_preserved": [
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-audit-review2-cjrd3iry/before/peptidemt_scientific_audit_2026_11_04.json",
+      "bytes": 9216,
+      "sha256": "0876835f3609a4b1572742a6a658849c2e0db63d27ff6844738d8664af178965"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-audit-review2-cjrd3iry/before/peptidemt_scientific_audit_2026_11_04.md",
+      "bytes": 22314,
+      "sha256": "c876ab925da7fff3df12dfad687f498f283bde17d119baef5da535c4d04271e6"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-audit-review2-cjrd3iry/before/scientific_capability_audit.md",
+      "bytes": 3069,
+      "sha256": "ba9d6a8f4b92a392d003b0a8f410e6cde04a6a88d5e0e2b2ec28943b1a3873d7"
+    }
+  ],
+  "current_reports": [
+    {
+      "path": "devguide/peptidemt_scientific_audit_2026_11_04.md",
+      "bytes": 33563,
+      "sha256": "d468e8928cbe32c4756d1b9ec445c539db9271a275fb665464dbabd3ef48b8a1"
+    },
+    {
+      "path": "devguide/pending_proposals/scientific_capability_audit.md",
+      "bytes": 3599,
+      "sha256": "2abe8c77e3ec914ab06f682e961884277ec1be3f672f46bc19e55ce48510b92a"
+    },
+    {
+      "path": "devguide/pending_bugs/hydramp_receipt_numeric_overflow.md",
+      "bytes": 2620,
+      "sha256": "672f8cbd1da07a460e7bab0ef3179a8054e11492e14aa329fe22f2e41dc5d47f"
+    }
+  ],
+  "instrument": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-audit-review2-cjrd3iry/review_saved_and_synthetic.py",
+    "bytes": 7967,
+    "sha256": "46f3612e5ac158cccc30107d4d49a57e1c17b1b29c3d7f8d28399c950d59c145"
+  },
+  "observations": {
+    "path": "devguide/evidence/peptidemt_scientific_audit_2026_11_04_observations.json",
+    "bytes": 4096,
+    "sha256": "d4cc10a78d2b0652d7965d96bd8439a4cc398f330b17de5c81b4ab000b2c193b"
+  },
+  "python_executable": "/home/liliana/Myopt/miniconda3/envs/molsyssuite@uibcdf_3.14/bin/python",
+  "python": "3.14.7",
+  "execution": {
+    "exit_code": 0,
+    "scope": "Five artificial data semantics, two expected malformed-data failures and descriptive statistics on two old hash-verified H4 assessment files; source API only",
+    "new_model_calls": 0,
+    "new_scientific_framework_imports": 0,
+    "new_dataset_acquisition": false,
+    "learned_or_synthetic_networks_executed": 0,
+    "not_installed_package_qualification": true
+  },
+  "runtime_source_hashes_unchanged": true,
+  "runtime_identity": "devguide/evidence/peptidemt_scientific_audit_2026_11_04.json",
+  "source_changed": false,
+  "old_reports_and_historical_results_unchanged": true,
+  "analogue_state": "paused, not resumed",
+  "scientific_contract_changes": [],
+  "commits_pushes_releases_external_author_contacts": [],
+  "retention_review_date": "2026-11-14",
+  "checks": {
+    "reporting_guard": {
+      "command": "python -m pytest --receptor=llm tests/test_reporting_protocol.py",
+      "exit_code": 0,
+      "passed": 1,
+      "seconds": 0.1,
+      "pytest_receptor": "1.2.2+2.gb9676f8",
+      "includes_generated_index_validation": true
+    },
+    "whitespace_diff_exit_code": 0,
+    "relative_file_links": {
+      "documents": 6,
+      "links": 134,
+      "missing": 0,
+      "external_links_and_anchors_not_exhaustively_verified": true
+    },
+    "report_instrument_observation_prior_snapshot_hashes_verified": true,
+    "scope": "Document/report integrity; no scientific qualification"
+  }
+}

@@ -1,0 +1,667 @@
+{
+  "schema": "peptidemt.bindcraft_mdm2_source_review@1",
+  "recorded_utc": "2026-11-10T15:10:37.347903+00:00",
+  "scientific_date": "2026-11-10",
+  "authority": "Investigator proceed after concrete source-review/protocol-preparation proposal; D52 preparation, D49 routine technical checks; no scientific model/chemistry acceptance",
+  "owner_issue": "uibcdf/peptidemt#33",
+  "task_directory": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-bindcraft-mdm2-review-kte1roqw",
+  "status": "source_review_and_unaccepted_pilot_proposal_delivered",
+  "reports": {
+    "source_review": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/bindcraft_mdm2_source_review_2026_11_10.md",
+      "bytes": 9466,
+      "sha256": "58c06576cdcd5e2923526f40047bcd62b869e01aedcfaf33f56d8ce365995c17"
+    },
+    "pilot_proposal": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/mdm2_comparative_pilot_proposal.md",
+      "bytes": 10310,
+      "sha256": "d65bf3bee1d5246743edb163e9e0e178d7e021bee9ca8ca58680901bc970ddc1"
+    }
+  },
+  "source_files": [
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-bindcraft-mdm2-review-kte1roqw/source/cb5c00774_si_001.pdf",
+      "bytes": 2588492,
+      "sha256": "2c0a9e0daf8fbe927e5cd0d9ed43dc2fa3a05c0b50f7a90257808400a1eb6d5d"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-bindcraft-mdm2-review-kte1roqw/source/figshare-detail-acquisition.json",
+      "bytes": 352,
+      "sha256": "adc84f11358cae1ea07434a26d76d430e0fdb9828c94985f2aadde212d97fd60"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-bindcraft-mdm2-review-kte1roqw/source/figshare-detail.json",
+      "bytes": 8853,
+      "sha256": "0cce73461820600e15258ea89a0321d8cc933e0b1eeb684b7e3140393b706b31"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-bindcraft-mdm2-review-kte1roqw/source/figshare-doi-list-acquisition.json",
+      "bytes": 564,
+      "sha256": "b1a635f1efa25b84d8e4f76254460e0858a9de45039b668098e4821f018eba59"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-bindcraft-mdm2-review-kte1roqw/source/figshare-doi-list.json",
+      "bytes": 1133,
+      "sha256": "a419fe59dc32a13159cec7b0bfd12850daf98bb363d51d7c81667567d5c35c9f"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-bindcraft-mdm2-review-kte1roqw/source/figshare-title-search-acquisition.json",
+      "bytes": 509,
+      "sha256": "9b70d17fad4e43c1e2cc488ea615e497a3e65941fa6c8aca97840a55fc0e5690"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-bindcraft-mdm2-review-kte1roqw/source/figshare-title-search.json",
+      "bytes": 1153,
+      "sha256": "1d7cab6c16a00d57a87d93b419156b28dc921b2e860a40fc7513dca072f03841"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-bindcraft-mdm2-review-kte1roqw/source/main-article-bioc-acquisition.json",
+      "bytes": 509,
+      "sha256": "360d9e0a089cdcce89c047ee7c739103ba6ca45f80d601c7f5fba8baf7681b74"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-bindcraft-mdm2-review-kte1roqw/source/main-article-bioc.json",
+      "bytes": 57442,
+      "sha256": "2841b383d0ad0e0793c0abd87e5bac08072aa0850ba7aa40bc58736df915279e"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-bindcraft-mdm2-review-kte1roqw/source/supplement-acquisition.json",
+      "bytes": 962,
+      "sha256": "bb2bf5973724aac74604f9fafaa125c93ad09cc1e28d8e560b5034641d5b2e3b"
+    }
+  ],
+  "main_source_identity": {
+    "PMCID": "PMC12723675",
+    "doi": "10.1021/acschembio.5c00774",
+    "BioC_collection_date": "20260220",
+    "representation": "NLM BioC JSON transformation; not original publisher HTML/images",
+    "license_observation": "This article is licensed under CC-BY 4.0",
+    "service_resource_citation": "Comeau et al. (2019), DOI10.1093/bioinformatics/btz070; source acquisition attribution, not executed molecular/scientific model"
+  },
+  "supplement": {
+    "figshare_article_id": 30647311,
+    "version": 1,
+    "doi": "10.1021/acschembio.5c00774.s001",
+    "resource_doi": "10.1021/acschembio.5c00774",
+    "public_url": "https://acs.figshare.com/articles/journal_contribution/Evaluating_BindCraft_for_Generative_Design_of_High-Affinity_Peptides/30647311",
+    "file": {
+      "id": 59656291,
+      "name": "cb5c00774_si_001.pdf",
+      "size": 2588492,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/59656291",
+      "supplied_md5": "91b9313237ddaaf3251b8c8bfcf1977b",
+      "computed_md5": "91b9313237ddaaf3251b8c8bfcf1977b",
+      "mimetype": "application/pdf"
+    },
+    "license_observation": {
+      "value": 10,
+      "name": "CC BY-NC 4.0",
+      "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+    },
+    "received": {
+      "requested_url": "https://ndownloader.figshare.com/files/59656291",
+      "accessed_utc": "2026-11-10T14:56:59.663605+00:00",
+      "timeout_seconds": 25,
+      "max_bytes": 8388608,
+      "figshare_version": 1,
+      "expected_file": {
+        "id": 59656291,
+        "name": "cb5c00774_si_001.pdf",
+        "size": 2588492,
+        "is_link_only": false,
+        "download_url": "https://ndownloader.figshare.com/files/59656291",
+        "supplied_md5": "91b9313237ddaaf3251b8c8bfcf1977b",
+        "computed_md5": "91b9313237ddaaf3251b8c8bfcf1977b",
+        "mimetype": "application/pdf"
+      },
+      "license_observation": {
+        "value": 10,
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+      },
+      "status": 200,
+      "content_type": "application/pdf",
+      "bytes": 2588492,
+      "sha256": "2c0a9e0daf8fbe927e5cd0d9ed43dc2fa3a05c0b50f7a90257808400a1eb6d5d",
+      "md5": "91b9313237ddaaf3251b8c8bfcf1977b",
+      "pdf_magic": true,
+      "status_disposition": "exact_figshare_file_received"
+    },
+    "pages": 55
+  },
+  "source_observations": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-bindcraft-mdm2-review-kte1roqw/source-observations.json",
+    "bytes": 3713,
+    "sha256": "bc633e63ad6f8b6028ac02d73eed42bcc29aa164aa447899bafb55b58d03586d"
+  },
+  "pdf_jobs": [
+    {
+      "directory": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-bindcraft-mdm2-review-kte1roqw/inspection/info-ker1ovfl",
+      "declaration": {
+        "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-bindcraft-mdm2-review-kte1roqw/inspection/info-ker1ovfl/declaration.json",
+        "bytes": 883,
+        "sha256": "8221a37850a0885f22f397cb0307fce82adbbb3695f7e07262f0a95999bfcb71"
+      },
+      "supervision": {
+        "started": true,
+        "returncode": 0,
+        "failure": null,
+        "wall_seconds": 0.10323393600992858,
+        "peak_sampled_process_tree_rss_bytes": 35438592,
+        "retained_output_bytes": 1436,
+        "retry": false,
+        "rss_scope": "supervisor_and_descendants"
+      },
+      "outputs": [
+        {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-bindcraft-mdm2-review-kte1roqw/inspection/info-ker1ovfl/declaration.json",
+          "bytes": 883,
+          "sha256": "8221a37850a0885f22f397cb0307fce82adbbb3695f7e07262f0a95999bfcb71"
+        },
+        {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-bindcraft-mdm2-review-kte1roqw/inspection/info-ker1ovfl/supervision.json",
+          "bytes": 246,
+          "sha256": "e1e076b2a33079660b873722266cfb9e789e9952fd391f414848b4111e80f2bd"
+        },
+        {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-bindcraft-mdm2-review-kte1roqw/inspection/info-ker1ovfl/worker.log",
+          "bytes": 553,
+          "sha256": "1a9a609a6a1ce9985e9b93ee3474093e03b8c1da4bc6590509d25fb7071a69c3"
+        }
+      ]
+    },
+    {
+      "directory": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-bindcraft-mdm2-review-kte1roqw/inspection/page-2-bztcg9w4",
+      "declaration": {
+        "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-bindcraft-mdm2-review-kte1roqw/inspection/page-2-bztcg9w4/declaration.json",
+        "bytes": 889,
+        "sha256": "503de21ae6720b77b60799274e7ad821ed5eef746cc44ef06b09bef8feaf68d6"
+      },
+      "supervision": {
+        "started": true,
+        "returncode": 0,
+        "failure": null,
+        "wall_seconds": 0.409442559001036,
+        "peak_sampled_process_tree_rss_bytes": 52301824,
+        "retained_output_bytes": 161707,
+        "retry": false,
+        "rss_scope": "supervisor_and_descendants"
+      },
+      "outputs": [
+        {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-bindcraft-mdm2-review-kte1roqw/inspection/page-2-bztcg9w4/declaration.json",
+          "bytes": 889,
+          "sha256": "503de21ae6720b77b60799274e7ad821ed5eef746cc44ef06b09bef8feaf68d6"
+        },
+        {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-bindcraft-mdm2-review-kte1roqw/inspection/page-2-bztcg9w4/page.png",
+          "bytes": 160818,
+          "sha256": "fbde76fad287221317634b565e6b3095ed43999630566103968a875f3450b94e"
+        },
+        {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-bindcraft-mdm2-review-kte1roqw/inspection/page-2-bztcg9w4/supervision.json",
+          "bytes": 246,
+          "sha256": "454a4b4f80025de6efd1a16ba68205b4954dc9cab7696e36528b981a2372d787"
+        },
+        {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-bindcraft-mdm2-review-kte1roqw/inspection/page-2-bztcg9w4/worker.log",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      ]
+    },
+    {
+      "directory": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-bindcraft-mdm2-review-kte1roqw/inspection/page-20-eqehhtcm",
+      "declaration": {
+        "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-bindcraft-mdm2-review-kte1roqw/inspection/page-20-eqehhtcm/declaration.json",
+        "bytes": 892,
+        "sha256": "c30900517f18fc8e529fc83a5ebd6b018e55ca13d3e7103c7b9f2bf4b5393762"
+      },
+      "supervision": {
+        "started": true,
+        "returncode": 0,
+        "failure": null,
+        "wall_seconds": 0.7169708699802868,
+        "peak_sampled_process_tree_rss_bytes": 59125760,
+        "retained_output_bytes": 329372,
+        "retry": false,
+        "rss_scope": "supervisor_and_descendants"
+      },
+      "outputs": [
+        {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-bindcraft-mdm2-review-kte1roqw/inspection/page-20-eqehhtcm/declaration.json",
+          "bytes": 892,
+          "sha256": "c30900517f18fc8e529fc83a5ebd6b018e55ca13d3e7103c7b9f2bf4b5393762"
+        },
+        {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-bindcraft-mdm2-review-kte1roqw/inspection/page-20-eqehhtcm/page.png",
+          "bytes": 328480,
+          "sha256": "3788e241672bba00bb50aeaf15ed8443d342f399096e1cf26f66e579309a71a0"
+        },
+        {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-bindcraft-mdm2-review-kte1roqw/inspection/page-20-eqehhtcm/supervision.json",
+          "bytes": 247,
+          "sha256": "12f67e4d3a6370427028c5682174fbdb64e46fa9579ba4a0df28c8fbaa381789"
+        },
+        {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-bindcraft-mdm2-review-kte1roqw/inspection/page-20-eqehhtcm/worker.log",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      ]
+    },
+    {
+      "directory": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-bindcraft-mdm2-review-kte1roqw/inspection/page-21-363kanv8",
+      "declaration": {
+        "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-bindcraft-mdm2-review-kte1roqw/inspection/page-21-363kanv8/declaration.json",
+        "bytes": 892,
+        "sha256": "00549ede710138b8fe8a79062429132248a49bb8881987628838a8beaddc02bd"
+      },
+      "supervision": {
+        "started": true,
+        "returncode": 0,
+        "failure": null,
+        "wall_seconds": 0.61474663001718,
+        "peak_sampled_process_tree_rss_bytes": 58724352,
+        "retained_output_bytes": 329784,
+        "retry": false,
+        "rss_scope": "supervisor_and_descendants"
+      },
+      "outputs": [
+        {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-bindcraft-mdm2-review-kte1roqw/inspection/page-21-363kanv8/declaration.json",
+          "bytes": 892,
+          "sha256": "00549ede710138b8fe8a79062429132248a49bb8881987628838a8beaddc02bd"
+        },
+        {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-bindcraft-mdm2-review-kte1roqw/inspection/page-21-363kanv8/page.png",
+          "bytes": 328892,
+          "sha256": "d820335ddd85893f293afdd9fdbbf2e88f6484cebced11e3273807e85212981d"
+        },
+        {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-bindcraft-mdm2-review-kte1roqw/inspection/page-21-363kanv8/supervision.json",
+          "bytes": 245,
+          "sha256": "592919429afb539667218e91c2007de6246773106205849bf54108588b244498"
+        },
+        {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-bindcraft-mdm2-review-kte1roqw/inspection/page-21-363kanv8/worker.log",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      ]
+    },
+    {
+      "directory": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-bindcraft-mdm2-review-kte1roqw/inspection/page-23-9nf7tx0a",
+      "declaration": {
+        "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-bindcraft-mdm2-review-kte1roqw/inspection/page-23-9nf7tx0a/declaration.json",
+        "bytes": 892,
+        "sha256": "f4eac2756dde641bb089ec28df3798ba4525b9cb108d1664a00b6a7a37241235"
+      },
+      "supervision": {
+        "started": true,
+        "returncode": 0,
+        "failure": null,
+        "wall_seconds": 0.6660644549992867,
+        "peak_sampled_process_tree_rss_bytes": 59400192,
+        "retained_output_bytes": 354023,
+        "retry": false,
+        "rss_scope": "supervisor_and_descendants"
+      },
+      "outputs": [
+        {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-bindcraft-mdm2-review-kte1roqw/inspection/page-23-9nf7tx0a/declaration.json",
+          "bytes": 892,
+          "sha256": "f4eac2756dde641bb089ec28df3798ba4525b9cb108d1664a00b6a7a37241235"
+        },
+        {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-bindcraft-mdm2-review-kte1roqw/inspection/page-23-9nf7tx0a/page.png",
+          "bytes": 353131,
+          "sha256": "97f5e8eee58a838fe560df7da50175b0db2c3eafbbff915e90a3ac3e852dc2ee"
+        },
+        {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-bindcraft-mdm2-review-kte1roqw/inspection/page-23-9nf7tx0a/supervision.json",
+          "bytes": 247,
+          "sha256": "67fab0570b1f011118e81784ef43a485fa7819c787d3199e1145fecf046bead7"
+        },
+        {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-bindcraft-mdm2-review-kte1roqw/inspection/page-23-9nf7tx0a/worker.log",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      ]
+    },
+    {
+      "directory": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-bindcraft-mdm2-review-kte1roqw/inspection/page-3-cai70n8q",
+      "declaration": {
+        "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-bindcraft-mdm2-review-kte1roqw/inspection/page-3-cai70n8q/declaration.json",
+        "bytes": 889,
+        "sha256": "b013769d40c5def5853a2986fb8ec5771b646a44cd5dd04d282646e318e60831"
+      },
+      "supervision": {
+        "started": true,
+        "returncode": 0,
+        "failure": null,
+        "wall_seconds": 0.407245374051854,
+        "peak_sampled_process_tree_rss_bytes": 55214080,
+        "retained_output_bytes": 195812,
+        "retry": false,
+        "rss_scope": "supervisor_and_descendants"
+      },
+      "outputs": [
+        {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-bindcraft-mdm2-review-kte1roqw/inspection/page-3-cai70n8q/declaration.json",
+          "bytes": 889,
+          "sha256": "b013769d40c5def5853a2986fb8ec5771b646a44cd5dd04d282646e318e60831"
+        },
+        {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-bindcraft-mdm2-review-kte1roqw/inspection/page-3-cai70n8q/page.png",
+          "bytes": 194923,
+          "sha256": "2ec3e6d2dcb25bb75eed384072ac77a70a26b2e889b3e2758b19b51253b44863"
+        },
+        {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-bindcraft-mdm2-review-kte1roqw/inspection/page-3-cai70n8q/supervision.json",
+          "bytes": 246,
+          "sha256": "7aa67e6985f24e320060edef896083d7b6dab05f563b18ec65169a6d5088a53f"
+        },
+        {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-bindcraft-mdm2-review-kte1roqw/inspection/page-3-cai70n8q/worker.log",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      ]
+    },
+    {
+      "directory": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-bindcraft-mdm2-review-kte1roqw/inspection/page-39-dgf0tva0",
+      "declaration": {
+        "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-bindcraft-mdm2-review-kte1roqw/inspection/page-39-dgf0tva0/declaration.json",
+        "bytes": 892,
+        "sha256": "ec831ec0562c50a569d1452dc4213044de041261042f733d0c430d17506642f2"
+      },
+      "supervision": {
+        "started": true,
+        "returncode": 0,
+        "failure": null,
+        "wall_seconds": 0.5115352119901218,
+        "peak_sampled_process_tree_rss_bytes": 58675200,
+        "retained_output_bytes": 255728,
+        "retry": false,
+        "rss_scope": "supervisor_and_descendants"
+      },
+      "outputs": [
+        {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-bindcraft-mdm2-review-kte1roqw/inspection/page-39-dgf0tva0/declaration.json",
+          "bytes": 892,
+          "sha256": "ec831ec0562c50a569d1452dc4213044de041261042f733d0c430d17506642f2"
+        },
+        {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-bindcraft-mdm2-review-kte1roqw/inspection/page-39-dgf0tva0/page.png",
+          "bytes": 254836,
+          "sha256": "7cd9cc36e3a710052c2588d8813b5e4802192b87206506a80a31bc26ddede1cd"
+        },
+        {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-bindcraft-mdm2-review-kte1roqw/inspection/page-39-dgf0tva0/supervision.json",
+          "bytes": 247,
+          "sha256": "2f564eba57b479d75c72744a3d5ca0e8cbea369bffdbc1de61787163f55551a1"
+        },
+        {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-bindcraft-mdm2-review-kte1roqw/inspection/page-39-dgf0tva0/worker.log",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      ]
+    },
+    {
+      "directory": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-bindcraft-mdm2-review-kte1roqw/inspection/page-40-f1kwdfr1",
+      "declaration": {
+        "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-bindcraft-mdm2-review-kte1roqw/inspection/page-40-f1kwdfr1/declaration.json",
+        "bytes": 892,
+        "sha256": "018aab724834dce3fac2bb0dd819f2a1b97c26cbd24bdb3822f80f6fa9220511"
+      },
+      "supervision": {
+        "started": true,
+        "returncode": 0,
+        "failure": null,
+        "wall_seconds": 0.4615556600037962,
+        "peak_sampled_process_tree_rss_bytes": 57991168,
+        "retained_output_bytes": 213590,
+        "retry": false,
+        "rss_scope": "supervisor_and_descendants"
+      },
+      "outputs": [
+        {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-bindcraft-mdm2-review-kte1roqw/inspection/page-40-f1kwdfr1/declaration.json",
+          "bytes": 892,
+          "sha256": "018aab724834dce3fac2bb0dd819f2a1b97c26cbd24bdb3822f80f6fa9220511"
+        },
+        {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-bindcraft-mdm2-review-kte1roqw/inspection/page-40-f1kwdfr1/page.png",
+          "bytes": 212698,
+          "sha256": "eeb89e856f475ac347706b7db0cd1ed58428250831ba4ce9d54177d1c1005994"
+        },
+        {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-bindcraft-mdm2-review-kte1roqw/inspection/page-40-f1kwdfr1/supervision.json",
+          "bytes": 247,
+          "sha256": "09cb2616e79b63819f2c9529ed5e240cefeb0e665e9f66df05fa09a39c6ab0b3"
+        },
+        {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-bindcraft-mdm2-review-kte1roqw/inspection/page-40-f1kwdfr1/worker.log",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      ]
+    },
+    {
+      "directory": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-bindcraft-mdm2-review-kte1roqw/inspection/page-41-p5rne5p5",
+      "declaration": {
+        "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-bindcraft-mdm2-review-kte1roqw/inspection/page-41-p5rne5p5/declaration.json",
+        "bytes": 892,
+        "sha256": "251024076bf0cba538964b031ab4ce5aca70780b41146354d26c053033afd070"
+      },
+      "supervision": {
+        "started": true,
+        "returncode": 0,
+        "failure": null,
+        "wall_seconds": 0.4604431709740311,
+        "peak_sampled_process_tree_rss_bytes": 56008704,
+        "retained_output_bytes": 237770,
+        "retry": false,
+        "rss_scope": "supervisor_and_descendants"
+      },
+      "outputs": [
+        {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-bindcraft-mdm2-review-kte1roqw/inspection/page-41-p5rne5p5/declaration.json",
+          "bytes": 892,
+          "sha256": "251024076bf0cba538964b031ab4ce5aca70780b41146354d26c053033afd070"
+        },
+        {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-bindcraft-mdm2-review-kte1roqw/inspection/page-41-p5rne5p5/page.png",
+          "bytes": 236878,
+          "sha256": "0f233578b7e3e0aeca9db2f9b65250add43322f5b44dfdb70f3ea0270dcf2b8a"
+        },
+        {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-bindcraft-mdm2-review-kte1roqw/inspection/page-41-p5rne5p5/supervision.json",
+          "bytes": 247,
+          "sha256": "26e97d0f51510e6e373795200a47c9b31cdee594d56488ea029cd110ac6bfd56"
+        },
+        {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-bindcraft-mdm2-review-kte1roqw/inspection/page-41-p5rne5p5/worker.log",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      ]
+    },
+    {
+      "directory": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-bindcraft-mdm2-review-kte1roqw/inspection/page-8-5aqgner7",
+      "declaration": {
+        "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-bindcraft-mdm2-review-kte1roqw/inspection/page-8-5aqgner7/declaration.json",
+        "bytes": 889,
+        "sha256": "a0f062d51f06c650862b91dcfa049e776258ac7deb1d58010d805120fbc84c37"
+      },
+      "supervision": {
+        "started": true,
+        "returncode": 0,
+        "failure": null,
+        "wall_seconds": 0.4101306810043752,
+        "peak_sampled_process_tree_rss_bytes": 52043776,
+        "retained_output_bytes": 125477,
+        "retry": false,
+        "rss_scope": "supervisor_and_descendants"
+      },
+      "outputs": [
+        {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-bindcraft-mdm2-review-kte1roqw/inspection/page-8-5aqgner7/declaration.json",
+          "bytes": 889,
+          "sha256": "a0f062d51f06c650862b91dcfa049e776258ac7deb1d58010d805120fbc84c37"
+        },
+        {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-bindcraft-mdm2-review-kte1roqw/inspection/page-8-5aqgner7/page.png",
+          "bytes": 124588,
+          "sha256": "513dd8e99ed4adc9eaa6cfaf9bf30e431b0d202ec7cfbd88b3b0984bc557f3e8"
+        },
+        {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-bindcraft-mdm2-review-kte1roqw/inspection/page-8-5aqgner7/supervision.json",
+          "bytes": 247,
+          "sha256": "19e1ec992436fd6d6093d5c73c9aaa3c9021c9ce38c113432ed6daab7bb78c3f"
+        },
+        {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-bindcraft-mdm2-review-kte1roqw/inspection/page-8-5aqgner7/worker.log",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      ]
+    },
+    {
+      "directory": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-bindcraft-mdm2-review-kte1roqw/inspection/page-9-b419rvpk",
+      "declaration": {
+        "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-bindcraft-mdm2-review-kte1roqw/inspection/page-9-b419rvpk/declaration.json",
+        "bytes": 889,
+        "sha256": "fd836bf81f95abdf6fdc9764bccbeab36e41624439280437314133ed1bd31865"
+      },
+      "supervision": {
+        "started": true,
+        "returncode": 0,
+        "failure": null,
+        "wall_seconds": 0.6102186730131507,
+        "peak_sampled_process_tree_rss_bytes": 58822656,
+        "retained_output_bytes": 376561,
+        "retry": false,
+        "rss_scope": "supervisor_and_descendants"
+      },
+      "outputs": [
+        {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-bindcraft-mdm2-review-kte1roqw/inspection/page-9-b419rvpk/declaration.json",
+          "bytes": 889,
+          "sha256": "fd836bf81f95abdf6fdc9764bccbeab36e41624439280437314133ed1bd31865"
+        },
+        {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-bindcraft-mdm2-review-kte1roqw/inspection/page-9-b419rvpk/page.png",
+          "bytes": 375672,
+          "sha256": "14e4f5686969640b1a9458a25207233a49a662cf4128caa728b84658f81cbc68"
+        },
+        {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-bindcraft-mdm2-review-kte1roqw/inspection/page-9-b419rvpk/supervision.json",
+          "bytes": 247,
+          "sha256": "42f0d32a62dbd5a9f7a439b665c8e45d51ecaf5ed781c75eb996c89154217edd"
+        },
+        {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-bindcraft-mdm2-review-kte1roqw/inspection/page-9-b419rvpk/worker.log",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      ]
+    },
+    {
+      "directory": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-bindcraft-mdm2-review-kte1roqw/inspection/text-5ecjatm_",
+      "declaration": {
+        "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-bindcraft-mdm2-review-kte1roqw/inspection/text-5ecjatm_/declaration.json",
+        "bytes": 883,
+        "sha256": "7d5147c5bdc9188fe58fff67aa14c745159d991243c70349b324ca772be7738c"
+      },
+      "supervision": {
+        "started": true,
+        "returncode": 0,
+        "failure": null,
+        "wall_seconds": 0.15435561601771042,
+        "peak_sampled_process_tree_rss_bytes": 40644608,
+        "retained_output_bytes": 14145,
+        "retry": false,
+        "rss_scope": "supervisor_and_descendants"
+      },
+      "outputs": [
+        {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-bindcraft-mdm2-review-kte1roqw/inspection/text-5ecjatm_/declaration.json",
+          "bytes": 883,
+          "sha256": "7d5147c5bdc9188fe58fff67aa14c745159d991243c70349b324ca772be7738c"
+        },
+        {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-bindcraft-mdm2-review-kte1roqw/inspection/text-5ecjatm_/supervision.json",
+          "bytes": 247,
+          "sha256": "8690e9f3df96877153fc118c56da2729702ada955011b8fdfd0ca4cbbc19a184"
+        },
+        {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-bindcraft-mdm2-review-kte1roqw/inspection/text-5ecjatm_/supplement.txt",
+          "bytes": 13262,
+          "sha256": "20726c2d0425d8b1139e5538a1d9ca562444aac86940032c38c297910a37ab6d"
+        },
+        {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-bindcraft-mdm2-review-kte1roqw/inspection/text-5ecjatm_/worker.log",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      ]
+    }
+  ],
+  "pdf_controller": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-bindcraft-mdm2-review-kte1roqw/inspect_pdf.py",
+    "bytes": 2415,
+    "sha256": "ff39d8d429367697c9a44ce266fa9b1f45afd83ae3803e964f66dd6a6cb9686a"
+  },
+  "reused_supervisor": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/src/peptidemt/_hydramp_process.py",
+    "bytes": 5566,
+    "sha256": "5d03f493f54bbef4397561dfd80a773cea696c295da0b899fc2b57e6bbf706a6"
+  },
+  "pdf_peak_sampled_aggregate_rss_bytes": 59400192,
+  "visual_inspection_pages": [
+    2,
+    3,
+    8,
+    9,
+    20,
+    21,
+    23,
+    39,
+    40,
+    41
+  ],
+  "remaining_pages": "Text/caption inventory only; no claim of full visual or analytic trace validation",
+  "canonical_guide": {
+    "source_url": "https://raw.githubusercontent.com/uibcdf/molsyssuite/main/MOLSYSSUITE_GUIDE.md",
+    "local": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/MOLSYSSUITE_GUIDE.md",
+      "bytes": 69263,
+      "sha256": "850a98f0757a18734b328332c88e4622f60bdef097148a1fd59b9f009846bfe4"
+    },
+    "bytes_match_current_retrieval": true
+  },
+  "prior_source_T0": "1YCR revision1.5 / source03f62994ea1ff55d98c0d9d835b706319e523367fce56d9deb51b850c83e47a8; reused report/metadata, not parsed or rerun",
+  "provider_contract_observations": {
+    "Boltz": "Prediction guide pinned b1ebfc46ecf57f5414e0d1a6f9027bbb122c53bc; receptor template/pocket/contact support inspected, not executed",
+    "MolSysMT_builder": "Previously qualified ed09f64539a5af6c1dbe9bd352c7ef65dcd4a7a6 public build_peptide contract inspected; no arbitrary phi/psi or complete chemistry assumed"
+  },
+  "molecular_operations": 0,
+  "model_docking_or_generation_calls": 0,
+  "weights_downloaded": false,
+  "GPU_used": false,
+  "dependency_changes": false,
+  "new_chemical_recipe_or_method_accepted": false,
+  "third_party_contact_or_publication": false,
+  "public_dataset_or_package_release": false,
+  "commit_or_push": false,
+  "retention": {
+    "owner": "uibcdf/peptidemt#33",
+    "review_date": "2026-11-17",
+    "reason": "Exact privately retained article/supplement and reproducibility review evidence; no broad redistribution permission assumed"
+  }
+}

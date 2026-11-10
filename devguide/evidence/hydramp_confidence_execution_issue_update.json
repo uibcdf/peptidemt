@@ -1,0 +1,10 @@
+{
+  "schema": "peptidemt.hydramp_confidence_execution_issue_update@1",
+  "issue": "uibcdf/peptidemt#8",
+  "comment_url": "https://github.com/uibcdf/peptidemt/issues/8#issuecomment-6610652523",
+  "created_at": "2026-11-03T17:16:23Z",
+  "verified": true,
+  "scope": "Approved execution complete; numerical/global-AMP pair FAIL preserved; scientific disposition pending.",
+  "body_sha256": "e7d67595aa7852b857fe8658c690df71063ab486269c3bc392ca01b06ec00de5",
+  "body_sha256_normalization": "UTF-8 body.strip(); exact trimmed body verified against API response"
+}

@@ -1,0 +1,98 @@
+{
+  "schema": "peptidemt.mdm2_t0_work_order_closeout@1",
+  "recorded_at_utc": "2026-11-06T05:21:36.326317+00:00",
+  "status": "prepared_proposal_pending_investigator_approval_not_T0_execution_or_acceptance",
+  "maintained_files": [
+    {
+      "path": "devguide/mdm2_t0_work_order.md",
+      "bytes": 13862,
+      "sha256": "a9aa332ba60225dfad14a234050a0e112b599baef09e5df50d52125bf4ef7de0"
+    },
+    {
+      "path": "devguide/target_case_mdm2_reference_proposal.md",
+      "bytes": 12246,
+      "sha256": "e394f97b43c189632a5622a35061abace79c53ee0f0aa1c18acbd8fb74821eb9"
+    },
+    {
+      "path": "devguide/README.md",
+      "bytes": 46410,
+      "sha256": "22d0e68971a68e3ae524b677d571f12501689dfce58f87c74c287b5a96bf69c8"
+    },
+    {
+      "path": "devguide/continuation_plan_2026_11_04.md",
+      "bytes": 25391,
+      "sha256": "b112c43da6e4a211590dba761d3de5da3caf47da16292ef5a96a91d9b16334ad"
+    },
+    {
+      "path": "devguide/pending_proposals/scientific_capability_audit.md",
+      "bytes": 7225,
+      "sha256": "b6472d4e4cce4af2992fa76222771d550d53041c61125f5757da407d31145276"
+    },
+    {
+      "path": "devguide/evidence/mdm2_t0_work_order_preparation.json",
+      "bytes": 15401,
+      "sha256": "fa48731935230f6347d6b3719df21a044063e5863c0d17c0054ddb5f86791013"
+    },
+    {
+      "path": "devguide/evidence/mdm2_t0_work_order_issue_updates.json",
+      "bytes": 6503,
+      "sha256": "addb0741d4f707adb497f023e378140f6b42f979668bcdd795803e20836bf0fe"
+    }
+  ],
+  "checks": {
+    "local_documentation": {
+      "path": "local_data/peptidemt-mdm2-t0-order-bq07atyc/documentation-check.json",
+      "bytes": 746,
+      "sha256": "78a7e6ea5b8e36e61bec18fcd9e728298420208be6042dc43f2c45ce4ff797d7"
+    },
+    "commands": {
+      "path": "local_data/peptidemt-mdm2-t0-order-bq07atyc/check-results.json",
+      "bytes": 830,
+      "sha256": "574e492651b8f96cf7811dfe180c0f7dd3ea36fdd2191c0aa6d966fd5b690bc8"
+    },
+    "results": "192 local file links and 3 new-record fragments pass; generated indexes current; scoped diff whitespace pass",
+    "qualification_claim": "Documentation/source preparation only; no scientific/runtime/installed-profile or CI qualification"
+  },
+  "owner_consumer_reporting": {
+    "molsysmt_304_comment": 6677524249,
+    "peptidemt_33_comment": 6677621519,
+    "both_exact_readback": true,
+    "new_issues": 0,
+    "issue_33_state": "partial/open"
+  },
+  "unchanged_dev9": {
+    "worktree": "/home/liliana/repos@uibcdf/hydramp/local_data/result-invariants-20261105",
+    "head": "6a3ff905635a4bd744854cd540f8513916aa99f0",
+    "task_paths_unchanged": 12,
+    "staged_paths": 0,
+    "new_commit": false,
+    "qualification_receipt": {
+      "path": "devguide/evidence/hydramp_result_invariants.json",
+      "bytes": 66106,
+      "sha256": "15c5814cfec53531e51f5424d46ea54f028e0e345fd9b30f2bd0537cf77c81d3"
+    }
+  },
+  "unchanged_dev8": {
+    "head": "6a3ff905635a4bd744854cd540f8513916aa99f0",
+    "clean": true
+  },
+  "molsysmt_inspected_ref": "ed09f64539a5af6c1dbe9bd352c7ef65dcd4a7a6",
+  "entry_gates": {
+    "scientific_work_order": "pending_investigator_review",
+    "source_assets": "not_acquired",
+    "current_installed_source_profile": "not_qualified",
+    "geometry": "not_implemented_or_executed"
+  },
+  "activity_counts": {
+    "coordinate_acquisition_preparation": 0,
+    "geometry_calculations": 0,
+    "scientific_provider_imports": 0,
+    "model_loading_or_network_evaluations": 0,
+    "GPU": 0,
+    "new_tests_builds_installs": 0,
+    "new_commit_push_merge_tag_release": 0,
+    "external_author_contact": 0,
+    "new_accepted_scientific_decisions": 0
+  },
+  "next_boundary": "One concrete T0 scientific-scope/criteria decision under D14. Following acceptance, qualify the exact source/application profile and receive assets before finite geometry, with D49 technical execution delegated within the agreed envelope. No T1, predictive binding, target generation, package publication or Git consolidation follows from this preparation."
+}

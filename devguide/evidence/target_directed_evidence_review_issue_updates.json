@@ -1,0 +1,54 @@
+{
+  "recorded_utc": "2026-11-06T07:47:15.532Z",
+  "scope": "Existing investigator-owned issues only; no new issue/provider implementation",
+  "new_issues": 0,
+  "comments": [
+    {
+      "repository": "uibcdf/molsysmt",
+      "issue": 447,
+      "comment_id": 6679876257,
+      "url": "https://github.com/uibcdf/molsysmt/issues/447#issuecomment-6679876257",
+      "body": "Additional prospective consumer: PeptideMT's target-directed demonstrator preparation, uibcdf/peptidemt#33 (D52). This adds a concrete peptide-identity/leakage use case to the existing proposal; it is not a reproduced defect or a request for a second identity implementation.\n\nSource inspection at ed09f64539a5af6c1dbe9bd352c7ef65dcd4a7a6 finds public topology.get_sequence_alignment/get_sequence_identity, basic.compare, chemical_states.get_atom_correspondences and physchem.get_peptide_chemical_template/assess_chemical_template/apply_chemical_template. We will reuse supported compositions. Sequence identity is query-normalized and ignores terminal caps; matching missing attributes in compare does not establish complete chemical identity. The declared-graph correspondence tool already supplies exact chemical-context checks and explicit refusal semantics, so its supported pairwise scope should not be reinvented downstream.\n\nOur immediate source-curation proposal can preserve reported peptide/assay occurrences with unknown chemistry, but a later molecular-independence audit must distinguish source-label aliases, sequence identity and chemical equivalence under declared terminal, stereochemical, isotope and chemical-state policies. Unresolved source chemistry must remain unassessed; no owner API can infer the experimental identity merely to satisfy its own graph prerequisites. A repeated displayed WT is not another independent measurement.\n\nPlease identify a documented existing composition for this use case, or assess whether the collection-level identity/overlap reporting already proposed here needs a peptide profile. Preserve occurrence correspondence, unknown/partial/unsupported dispositions and read-only provenance. No silent capping, parent replacement, stereo assignment or normalization is requested. Provider chooses API, priority and scope; this adds no release gate or implementation commitment. PeptideMT owns study eligibility/splits and scientific interpretation and will not add a parser, graph key/matcher or molecular normalization kernel.",
+      "readback_exact": true,
+      "updated_at": "2026-11-06T07:42:50Z",
+      "issue_state": "open",
+      "labels": [
+        "api",
+        "component:dockingmt",
+        "component:peptidemt",
+        "topology",
+        "chemistry"
+      ]
+    },
+    {
+      "repository": "uibcdf/dockingmt",
+      "issue": 33,
+      "comment_id": 6679884695,
+      "url": "https://github.com/uibcdf/dockingmt/issues/33#issuecomment-6679884695",
+      "body": "Prospective consumer-profile question from PeptideMT's target-directed demonstrator preparation, uibcdf/peptidemt#33 (D52). We are reviewing a human MDM2/short linear-peptide historical affinity case, not executing docking or selecting a new engine/model.\n\nAt inspected published source 530a4cff5d18bb4283d07d22cc1e68298ddb8aac, the starting qualification is rigid protein–small-molecule docking. Existing #33 correctly separates chemical/export/pose receiving from preparation/scoring-model acceptance. We will not treat Vina availability, a successful molecular export or pose recovery as evidence that peptide affinity ordering is accurate.\n\nPlease identify any already qualified public composition that supports an explicitly declared protein–linear-peptide preparation/docking profile, or record that it remains outside current qualification. Before a future consumer adoption, we would need actual chemical/terminal/stereo coverage and source mappings through MolSysMT; the declared receptor state and peptide conformational/torsion treatment; engine/method limitations; and informative peptide reference/adverse controls. Peptide pose recovery and ranking against experimental affinities are separate scientific questions, so a preparation-profile pass would not certify the latter.\n\nThe candidate experimental data have source/chemical gaps that a provider extension would not automatically fix. PeptideMT is first proposing source-scoped data curation; no T1 model/chemistry, new search, peptide design or package release is commissioned by this comment. No urgency, 1.0 gate or owner implementation commitment is requested. If broader peptide docking belongs in a separate future capability issue, owner triage can decide that after the concrete scientific domain is agreed.\n\nOwnership remains DockingMT for docking workflows, MolSysMT for molecular preparation/representation and PeptideMT for the biological question, evidence eligibility and selection-utility evaluation. We will not implement a local docking wrapper, atom matcher or binding scorer to bypass those boundaries. This handoff preserves existing successful controls and current concurrent owner work.",
+      "readback_exact": true,
+      "updated_at": "2026-11-06T07:43:23Z",
+      "issue_state": "open",
+      "labels": [
+        "enhancement",
+        "component:molsysmt",
+        "component:peptidemt"
+      ]
+    },
+    {
+      "repository": "uibcdf/peptidemt",
+      "issue": 33,
+      "comment_id": 6679934637,
+      "url": "https://github.com/uibcdf/peptidemt/issues/33#issuecomment-6679934637",
+      "body": "D52 preparation checkpoint — experimental evidence/provider review, 2026-11-06.\n\nThe local review in devguide/target_directed_evidence_review.md identifies a finite reported-affinity pilot from Li et al. (2010), DOI https://doi.org/10.1016/j.jmb.2010.03.005. Source occurrences, repeated WT display, unquantified weak-binding values, chemical unknowns and prior result exposure remain explicit. The main HTML is retained at SHA-256 99f361fdab13c2971362fbe5e96b255e8a32dd5f8d605154bcd98918268f1264; the ordinary supplement request returns challenge HTML, not the DOC. No access control is bypassed and no supplement content is claimed.\n\nThe concrete next proposal, devguide/mdm2_t1a_proposal.md, SHA-256 069247bf4b46e8fafba553ecb5311f67b0bfd6748ea4a06822053c3285c05e56, is source-scoped experimental-evidence curation, not implementation or acceptance of a peptide evaluator. It preserves literal reported identities, units/SD, unavailable measurements and all source occurrences without assigning unknown chemical states or new activity labels. This is a proposal awaiting the D14 scientific-contract review, not a new accepted decision.\n\nPublic MolSysMT construction, sequence, template and exact declared-state correspondence tools already exist and will be reused within their limits. Additional consumer evidence goes to existing https://github.com/uibcdf/molsysmt/issues/447#issuecomment-6679876257; the prospective peptide preparation/scoring-profile question goes to existing https://github.com/uibcdf/dockingmt/issues/33#issuecomment-6679884695. Both have additive component:peptidemt labels and exact readback. No duplicate issue, provider source change or downstream molecular implementation is created.\n\nNew evidence is source/document inspection only: zero molecular/model calls, no docking/generation or scientific requalification. The D51 T0 result and accepted AMP resources remain unchanged. This broad issue and the full independent target-directed design/selection objective remain partial; neither source curation nor a proposal would complete them. Documentation/source receipts are local and uncommitted, with no release/public-dataset claim.",
+      "readback_exact": true,
+      "updated_at": "2026-11-06T07:46:30Z",
+      "issue_state": "open",
+      "labels": [
+        "component:molsysmt"
+      ]
+    }
+  ],
+  "label_policy": "Official component_issue_labels.py audit; missing DockingMT relationship label created using --write; additive relationship application only",
+  "consumer_status": "partial; T1a scientific proposal pending"
+}

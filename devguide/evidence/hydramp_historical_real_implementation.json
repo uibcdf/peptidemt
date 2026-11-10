@@ -1,0 +1,587 @@
+{
+  "schema": "peptidemt.hydramp_historical_real_implementation@1",
+  "recorded_at_utc": "2026-11-05T19:30:46.939159+00:00",
+  "local_date": "2026-11-05",
+  "decision": "D48",
+  "status": "Data-only implementation/control checks delivered; modern native codec PASS; original guard failure retained; paired codec/model readiness incomplete",
+  "owner_issue": "uibcdf/peptidemt#32",
+  "scientific_owner_issue": "uibcdf/hydramp#3",
+  "authority": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/evidence/hydramp_historical_real_implementation_authorization.json",
+    "bytes": 2530,
+    "sha256": "d51992f9d6c7bd55af8400582fa7ddbbb8ba3e8de2901189de640ea47f373024"
+  },
+  "approved_contract_copy": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-historical-implementation-g7bo976i/approved_work_order.md",
+    "bytes": 17223,
+    "sha256": "1b08e464261a3190bff886e26fe42dd826903ec89a09a9beb91d0de611fc5972"
+  },
+  "approved_proposal_copy": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-historical-implementation-g7bo976i/approved_proposal.json",
+    "bytes": 42614,
+    "sha256": "8ecf7787f48bd5eb29ca693ffa0f2c4f439e639635e6c8c461f2bd1c01ecf89a"
+  },
+  "outcome": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/hydramp_historical_real_implementation.md",
+    "bytes": 8126,
+    "sha256": "23c0a424818491eb3bcd122b7b2fcb903538aede82460883b6a69cd54906ff6c"
+  },
+  "source": {
+    "operator": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/devtools/hydramp_historical_operator.py",
+      "bytes": 17902,
+      "sha256": "6ab58ef9f1d9479846d03f24316f064804dc7a685f2769dca42bab547c96b153"
+    },
+    "worker": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/devtools/hydramp_historical_native_worker.py",
+      "bytes": 17613,
+      "sha256": "d800b4d50fafd1d066e416752c9126f79be0b0955601df56b3678f60fb9f7642"
+    },
+    "receiver": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/devtools/hydramp_historical_real.py",
+      "bytes": 29441,
+      "sha256": "6115be30444b431679edabd48c0ac921c33b0f9bab8cfcaf47d914d641c052c0"
+    },
+    "evaluation": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/devtools/hydramp_historical_evaluation.py",
+      "bytes": 16439,
+      "sha256": "e2085293adbf4643516dc60eaa6c14008f362a296a2fb1f4ae3c141dc27be14f"
+    },
+    "data": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/devtools/hydramp_historical_data.py",
+      "bytes": 16032,
+      "sha256": "a668f7ab69c0f56c10b6f42620a36c2558be45b22dd5417c1a4293636f852638"
+    },
+    "supervision": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/src/peptidemt/_hydramp_process.py",
+      "bytes": 5333,
+      "sha256": "d748254aaebec30f7fdeafe23cb64982a65fd98de9a761d167ff21bfff365fa2"
+    }
+  },
+  "test_source": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/devtools/tests/test_hydramp_historical_real.py",
+    "bytes": 24945,
+    "sha256": "f9c5518c59e096631a074e5cec326939849ccc12e7a12a87adae393dfc9a609a"
+  },
+  "unchanged_accepted_data_tools_and_evidence": [
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/devtools/hydramp_historical_data.py",
+      "bytes": 16032,
+      "sha256": "a668f7ab69c0f56c10b6f42620a36c2558be45b22dd5417c1a4293636f852638"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/tests/test_hydramp_historical_data.py",
+      "bytes": 17245,
+      "sha256": "ae78d516b35ffe3aea483ba1e4aaaf8caba5a169e8c400fb5df3e7f0410fc8c2"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/devtools/hydramp_historical_evaluation.py",
+      "bytes": 16439,
+      "sha256": "e2085293adbf4643516dc60eaa6c14008f362a296a2fb1f4ae3c141dc27be14f"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/devtools/tests/test_hydramp_historical_evaluation.py",
+      "bytes": 12521,
+      "sha256": "ad9621405bbff99cbfcac2f2d06f8fdcc143ea3c26cc7efcae448ec322188005"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/hydramp_historical_real_work_order.md",
+      "bytes": 17223,
+      "sha256": "1b08e464261a3190bff886e26fe42dd826903ec89a09a9beb91d0de611fc5972"
+    }
+  ],
+  "source_history": {
+    "before_initial_codec": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-historical-implementation-g7bo976i/source-pins-before-codecs.json",
+      "bytes": 1278,
+      "sha256": "604bc7911a25b7d9bc8db6df42157b421481de446bee2024e61b23ecc7547330"
+    },
+    "before_modern_codec": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-historical-implementation-g7bo976i/source-pins-before-modern-codec.json",
+      "bytes": 1278,
+      "sha256": "488ab16a653ed2428e3365cf91dad5a224d116ce018500bbf31b754584179bf3"
+    },
+    "modern_as_run_source_copies": [
+      {
+        "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-historical-implementation-g7bo976i/sources-at-modern-codec/data.py",
+        "bytes": 16032,
+        "sha256": "a668f7ab69c0f56c10b6f42620a36c2558be45b22dd5417c1a4293636f852638"
+      },
+      {
+        "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-historical-implementation-g7bo976i/sources-at-modern-codec/evaluation.py",
+        "bytes": 16439,
+        "sha256": "e2085293adbf4643516dc60eaa6c14008f362a296a2fb1f4ae3c141dc27be14f"
+      },
+      {
+        "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-historical-implementation-g7bo976i/sources-at-modern-codec/operator.py",
+        "bytes": 13423,
+        "sha256": "56abbbeac0aae2d96955890aa70580084d80f27191995655ebc9f7a87f2c3c56"
+      },
+      {
+        "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-historical-implementation-g7bo976i/sources-at-modern-codec/receiver.py",
+        "bytes": 29355,
+        "sha256": "dc2cc9a7cbf3c0490e5d55905751acc288de64cc3fa087fdd562a855f2b5f3e6"
+      },
+      {
+        "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-historical-implementation-g7bo976i/sources-at-modern-codec/supervision.py",
+        "bytes": 5333,
+        "sha256": "d748254aaebec30f7fdeafe23cb64982a65fd98de9a761d167ff21bfff365fa2"
+      },
+      {
+        "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-historical-implementation-g7bo976i/sources-at-modern-codec/worker.py",
+        "bytes": 16524,
+        "sha256": "5730116da000da401bdbc822064f7567286204cab6069264bb7243c5e37cf160"
+      }
+    ],
+    "initial_failed_worker_reconstruction": {
+      "method": "Inverse diagnostic-only edits plus removal of their formatter-introduced magic trailing comma; no source execution",
+      "expected_pre_execution_identity": {
+        "path": "/home/liliana/repos@uibcdf/peptidemt/devtools/hydramp_historical_native_worker.py",
+        "bytes": 16205,
+        "sha256": "fdb9923d161ebe7107a2732e7cf6ab7842f39426870d17b929cb5a644a99f670"
+      },
+      "byte_identity_matches": true,
+      "candidate_bytes": 16205
+    },
+    "initial_failed_source_bytes": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-historical-implementation-g7bo976i/initial-failed-worker-reconstructed.py",
+      "bytes": 16205,
+      "sha256": "fdb9923d161ebe7107a2732e7cf6ab7842f39426870d17b929cb5a644a99f670"
+    },
+    "description": "Initial failed worker source reconstructed by inverting diagnostic-only changes and verified byte-for-byte against independently captured pre-execution digest; later successful modern source retained directly. Historical captures are not relabeled as current source."
+  },
+  "delivery": "Local/uncommitted developer tools and tests plus opt-in private aggregate supervision; no public API, packaging, install or environment change",
+  "git_base": "1f8c444e4619499cae8ad9970122c5f40adf6127",
+  "implementation": {
+    "receiving": "Separate learned/method-double kinds; exact source/authority/codec/runtime/head/FP32/native-byte bindings; complete paired contexts only; no imputation",
+    "statistics": "D47 public sklearn metric/provider/scenario code reused, no local generic AUC algorithm",
+    "batch_policy": "Prespecified first full context is headline; repeat FAIL/batch differences and both shared ambiguity scenarios retained",
+    "partial": "Observed failures/raw outputs retained; no accepted paired codec or scoring-ready record from this incomplete attempt",
+    "supervision": "Existing private supervise opt-in include_supervisor_rss; old default preserved; real stdlib child regressions PASS",
+    "ownership": "Owner native codecs; no local molecular parser/encoder, mass/unit/alignment or selector/admission change",
+    "support": "Exact command/profile checks distinguish import/worker failure from absence. Actual host SMonitor warning emitted. Optional DepDigest/Ackredit capture reused after confirmed modern codec only; detached original reference and executed modern source/wheel identities kept distinct",
+    "budget": "Exclusive per-provider D48 claims; changing directory cannot renew; a different exact single-use receipt is required for a newly authorized legacy-only retry"
+  },
+  "checks": {
+    "final_selected_tests": {
+      "native_exit": 0,
+      "passed": 47,
+      "new_scalar_control_cases": 44,
+      "existing_supervision_cases": 2,
+      "reporting_cases": 1,
+      "seconds": 4.424783677095547,
+      "command": "OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 MKL_NUM_THREADS=1 python -m pytest --receptor=llm --receptor-events=local_data/hydramp-historical-implementation-g7bo976i/verified-pytest-events.jsonl devtools/tests/test_hydramp_historical_real.py tests/test_hydramp_execution.py::test_timeout_kills_owned_worker_and_descendant tests/test_hydramp_execution.py::test_fast_oversized_output_and_host_memory_guard tests/test_reporting_protocol.py",
+      "receptor_reader": "pytest_receptor.read_artifact",
+      "complete": true,
+      "integrity": {
+        "algorithm": "sha256",
+        "digest": "b9722ca34c3c3e4971055a8eb8b6fb0e5f314a5884683d80617249953ca770e3",
+        "records": 142
+      }
+    },
+    "ruff_check_all": "PASS",
+    "ruff_format_check_all": {
+      "status": "PASS",
+      "files": 185
+    },
+    "Python38_source_parse": {
+      "native_exit": 0,
+      "scientific_imports": 0
+    },
+    "reporting_indexes": "current, native exit0",
+    "git_diff_check": "PASS, native exit0",
+    "maintained_relative_links_checked": 268,
+    "documentation_whitespace": "PASS",
+    "accepted_D46_D47_model_or_synthetic_campaigns_repeated": false,
+    "development_history": [
+      "38 initial controls PASS; later source changes covered by final47",
+      "Fresh guard control initially hit sandbox socket-creation denial, then the CPython rule that a raising profile hook removes itself. Harness now uses explicit socket audit events and restores its profile between independent fail-stop challenges; no real network/weights/models were used.",
+      "Initial preflight resolved a qualified interpreter symlink differently from the recorded command. Absolute declared entry point now preserved while resolved file bytes remain hash-checked; no environment changed.",
+      "Ruff formatting/import and line-style corrections complete; final source lint/format and tests PASS"
+    ]
+  },
+  "codec_attempts": {
+    "children_authorized": 2,
+    "children_started": 2,
+    "remaining_D48_children": 0,
+    "automatic_retries": 0,
+    "original": {
+      "status": "guard_failure_no_completed_codec_output",
+      "native_exit": 1,
+      "capture": {
+        "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-historical-implementation-g7bo976i/codec-qualification/legacy/capture.json",
+        "bytes": 1279,
+        "sha256": "ca1207ca950290130d4b04c9ff5472576837e779a863f92b9b2c5264c1aa7e9c"
+      },
+      "failure": {
+        "failure": {
+          "type": "RuntimeError",
+          "detail": "Network/child dispatch is outside this worker"
+        },
+        "parameter_files_opened": [],
+        "blocked_neural_calls": []
+      },
+      "supervision": {
+        "started": true,
+        "returncode": 1,
+        "failure": "worker_failure",
+        "wall_seconds": 6.492411109851673,
+        "peak_sampled_process_tree_rss_bytes": 200114176,
+        "retained_output_bytes": 307324,
+        "retry": false,
+        "rss_scope": "supervisor_and_descendants"
+      },
+      "worker_as_run": {
+        "path": "/home/liliana/repos@uibcdf/peptidemt/devtools/hydramp_historical_native_worker.py",
+        "bytes": 16205,
+        "sha256": "fdb9923d161ebe7107a2732e7cf6ab7842f39426870d17b929cb5a644a99f670"
+      },
+      "exact_event_or_caller_localized": false,
+      "neural_or_parameter_use": 0
+    },
+    "modern": {
+      "status": "PASS one public owner encode_sequences call",
+      "native_exit": 0,
+      "capture": {
+        "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-historical-implementation-g7bo976i/codec-qualification/modern/capture.json",
+        "bytes": 31670,
+        "sha256": "77230e6df69d14991508ab1a92e256b21bcb8efd7713ffa4c5549d4f93400560"
+      },
+      "supervision": {
+        "started": true,
+        "returncode": 0,
+        "failure": null,
+        "wall_seconds": 5.62994872010313,
+        "peak_sampled_process_tree_rss_bytes": 278249472,
+        "retained_output_bytes": 336463,
+        "retry": false,
+        "rss_scope": "supervisor_and_descendants"
+      },
+      "worker_as_run": {
+        "path": "/home/liliana/repos@uibcdf/peptidemt/devtools/hydramp_historical_native_worker.py",
+        "bytes": 16524,
+        "sha256": "5730116da000da401bdbc822064f7567286204cab6069264bb7243c5e37cf160"
+      },
+      "runtime": {
+        "executable": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-redesign-R3-yq620q_v/generation/bin/python",
+        "python": "3.14.7 | packaged by conda-forge | (main, Sep  2 2026, 21:08:32) [GCC 15.3.0]",
+        "inventory": {
+          "pytest": "9.2.0",
+          "numpy": "2.4.6",
+          "filelock": "4.2.5",
+          "iniconfig": "2.3.1",
+          "MarkupSafe": "3.0.4",
+          "depdigest": "0.15.1",
+          "fsspec": "2026.9.0",
+          "torch": "2.15.0+cpu",
+          "mpmath": "1.3.0",
+          "sympy": "1.14.0",
+          "typing_extensions": "4.16.0",
+          "packaging": "26.3",
+          "networkx": "3.7",
+          "pytest-receptor": "1.2.2",
+          "setuptools": "84.2.1",
+          "hydramp-torch": "0.0.0.dev6",
+          "pluggy": "1.7.0",
+          "smonitor": "0.22.0",
+          "Pygments": "2.21.0",
+          "Jinja2": "3.1.6",
+          "peptidemt": "0.1.0+unknown"
+        },
+        "source_origins": {
+          "modern_codec": {
+            "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-redesign-R3-yq620q_v/generation/lib/python3.14/site-packages/hydramp_torch/codec.py",
+            "bytes": 1565,
+            "sha256": "4c929cce23c20b11a46c1ff333f7b16420f72448aeb1c6286aa320bc72997156"
+          },
+          "modern_inference": {
+            "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-redesign-R3-yq620q_v/generation/lib/python3.14/site-packages/hydramp_torch/inference.py",
+            "bytes": 12538,
+            "sha256": "98f6494c2c93c8375c04909df683cd90c767fb8a024ee6b57da258cbfd2a4199"
+          }
+        },
+        "cpu_ids": [
+          0,
+          1
+        ],
+        "numerical_threads": 1,
+        "elapsed_seconds": 4.993079588981345,
+        "kernel_peak_rss_bytes": 252018688
+      },
+      "shape": [
+        39,
+        25
+      ],
+      "dtype": "int64",
+      "native_bytes_sha256": "376db8a007198fede939061840359b328b09c3c6c1947d4aef6c1469b3f0426c",
+      "codec_operations": {
+        "encode_sequences": 1
+      },
+      "parameter_files_opened": [],
+      "neural_calls": 0
+    },
+    "paired_native_qualification": false,
+    "scoring_ready_plan_generated": false,
+    "all_limits": "CPU0/1, one thread, 4 GB RAM intent, 2 GiB sampled controller+descendants stop, 8 GiB virtual child ceiling; <=180s per child; no GPU",
+    "actual_RSS_sampling_seconds": 0.05,
+    "sampling_is_not_hard_instantaneous_RSS": true
+  },
+  "diagnosis": {
+    "known": "Initial guard category is network or child dispatch; first log omitted event/stack, so exact TensorFlow/provider caller is not proven",
+    "independent_stdlib_control": {
+      "scope": "Standard-library-only control; no provider/codec import or retry",
+      "old_RuntimeError_policy": "platform.system fails",
+      "PermissionError_policy": "platform.system returns Linux with the host query still denied",
+      "blocked_argv": [
+        "uname",
+        "-p"
+      ],
+      "blocked_attempts": 2,
+      "executed_children": 0,
+      "scientific_calls": 0,
+      "actual_TensorFlow_caller_localized": false,
+      "reason": "Initial failed worker did not retain traceback; metadata-query mechanism verified independently, not asserted as the exact original stack"
+    },
+    "fix_prepared_not_provider_retried": "Denied Popen now raises OS-appropriate PermissionError, with sanitized denial details/trace; this allows native metadata fallback but no child, network or alternate scientific method",
+    "foreign_provider_edits": false,
+    "scientific_equation_precision_threshold_changes": false
+  },
+  "actual_portable_attribution": {
+    "record": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-historical-implementation-g7bo976i/modern-codec-attribution.json",
+      "bytes": 3062,
+      "sha256": "ffa5c6aebd9d58a8a7b9b559c59b977f925c487282209859838b60669244e54f"
+    },
+    "status": "captured",
+    "operations": [
+      "modern_native_input_encoding"
+    ],
+    "learned_scoring_credit": false,
+    "replay_creates_credit": false
+  },
+  "pending_retry": {
+    "request": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-historical-implementation-g7bo976i/retry-request.json",
+      "bytes": 2832,
+      "sha256": "fd87e9ed6624d589d021c61306d9368850873de706458d9e5daf124177584bcb"
+    },
+    "state": "Proposed only; no human receipt issued and no retry invoked",
+    "provider": "legacy",
+    "new_children_proposed": 1,
+    "new_model_or_neural_allowance": 0,
+    "modern_repeat_proposed": false
+  },
+  "artifacts": [
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-historical-implementation-g7bo976i/case.json",
+      "bytes": 306817,
+      "sha256": "1089dc264168c6db3220ec827c6ac3afe8f6078b8f7b5dee111c80af02d1d0ba"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-historical-implementation-g7bo976i/partial-codec-evidence.json",
+      "bytes": 343513,
+      "sha256": "4e97b202209ff4f01dbe74244f444b1efb976e5805cf8742c2e3c90632c39032"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-historical-implementation-g7bo976i/retry-request.json",
+      "bytes": 2832,
+      "sha256": "fd87e9ed6624d589d021c61306d9368850873de706458d9e5daf124177584bcb"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-historical-implementation-g7bo976i/verified-tests.log",
+      "bytes": 33,
+      "sha256": "bdccb46935d06d09f115ac21ead31f3fd477fe0eee4e0eca702e4e9170bdc35f"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-historical-implementation-g7bo976i/verified-pytest-events.jsonl",
+      "bytes": 84416,
+      "sha256": "6f018fdb1b06a46152519b606ce60146d14f7a91d429178e91e1a06192a25d2e"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-historical-implementation-g7bo976i/verified-pytest-review.json",
+      "bytes": 1017,
+      "sha256": "215c948e28805e8b30e02b38dff09735aab22af5c2f3168cba6e6cbb9dbadf6e"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-historical-implementation-g7bo976i/closing-ruff-check.log",
+      "bytes": 19,
+      "sha256": "82b3e6a6c090a57601d22943bd23fca9218d1031dbe5a7b754092f9a156b4f18"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-historical-implementation-g7bo976i/closing-ruff-format.log",
+      "bytes": 28,
+      "sha256": "06e5b11d2de8e39aa7c4b1b31df2987775504a00282cba43c3262aeaceb4f040"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-historical-implementation-g7bo976i/final-python38-parse.log",
+      "bytes": 50,
+      "sha256": "b39e01e501909c87b70ab5b6288693ca0e305ad68275a9c050b19ade05a983c3"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-historical-implementation-g7bo976i/python38-guard-control.json",
+      "bytes": 553,
+      "sha256": "52524d959f482af3004a9d0ff0712c7505774a0a0ce078df60bbde8092cce98a"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-historical-implementation-g7bo976i/python38-platform-source-excerpt.txt",
+      "bytes": 1384,
+      "sha256": "0c449397b0c36180b89a267c3be1e8f119b7ce05d8eb5435a8d051d84f2d49e7"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-historical-implementation-g7bo976i/codec-qualification.log",
+      "bytes": 295,
+      "sha256": "f1a737f6f709cd4db7a9190b913bcf0cfd304bfaab94aba54e9f14bc8c4359ab"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-historical-implementation-g7bo976i/modern-codec-continuation.log",
+      "bytes": 297,
+      "sha256": "6de251f59cec6c05839d1da386757e13a8915e1adc34f5e026c47c2a51055d5d"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-historical-implementation-g7bo976i/initial-worker-reconstruction.json",
+      "bytes": 436,
+      "sha256": "0cf3c7bf632e784fe811455c98613a74d71c0010790a8643e7a941d4cc85a964"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-historical-implementation-g7bo976i/codec-spent-legacy.json",
+      "bytes": 422,
+      "sha256": "f63ecf54e1f0c36e51775873f0c390244c3e735c7d7f1646df3fded1132ff3cf"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-historical-implementation-g7bo976i/codec-spent-modern.json",
+      "bytes": 422,
+      "sha256": "f78074b9bc171270c106d514a10ea56b3266ea510ac0c9c7c0c20f361ee4eb32"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-historical-implementation-g7bo976i/issue-updates-verified.json",
+      "bytes": 656,
+      "sha256": "9e775652b05c974dc4bec4887b249c136ae618d35d654d087e7a9ff951714e15"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-historical-implementation-g7bo976i/index-check.log",
+      "bytes": 38,
+      "sha256": "3a525cb88e38e62b2cd78f962eec311aeb1797c9a439b3c7d832b95b00a8d5b5"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-historical-implementation-g7bo976i/whitespace-check.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-historical-implementation-g7bo976i/suite-status.json",
+      "bytes": 18493,
+      "sha256": "aa3cf7898f965ebbe4d1731da21a53b8488941a4401fd99a9a67e84d05e607bd"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-historical-implementation-g7bo976i/start-status.txt",
+      "bytes": 15099,
+      "sha256": "ca75bcd9a848ffb671fa01d9aad2822f53bfafc900e3e97ae5520aa2a91ee8b2"
+    }
+  ],
+  "maintained_files": [
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/AGENTS.md",
+      "bytes": 10518,
+      "sha256": "d11119ae4e0777513606f118004bb92301c94e608ffb58ac7e2f9bb2b0a720ca"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/README.md",
+      "bytes": 40384,
+      "sha256": "4764c2953b5c3d42a14df70f5fe70c46be0cc993dea0afcab66f5cf562bacbd4"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/decisions.md",
+      "bytes": 103744,
+      "sha256": "ea87e1336fcbe41acb5358df43df7289b76d59910cdf66f1f84dd7ccba4ab2cd"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/pending_proposals/hydramp_scientific_followup.md",
+      "bytes": 29161,
+      "sha256": "0c8fd5ff461f900779b990cab9ddf5b5d8b3ea7143dfaa10e4cc7db664f85b94"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/hydramp_historical_real_implementation.md",
+      "bytes": 8126,
+      "sha256": "23c0a424818491eb3bcd122b7b2fcb903538aede82460883b6a69cd54906ff6c"
+    }
+  ],
+  "reproduction_record_script": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-historical-implementation-g7bo976i/build_implementation_receipt.py",
+    "bytes": 13012,
+    "sha256": "7f810ebdbf8a945e38d4c6fbe4e6fb01eb724cc9ae3b33fc3034dfc28954efb6"
+  },
+  "workspace": {
+    "official_bounded_fetch": "uibcdf/molsyssuite suite_status.py --repository peptidemt --repository molsysmt --format json",
+    "native_exit": 1,
+    "reason": "Preserved dirty PeptideMT and clean MolSysMT103 behind; no fetch errors",
+    "summary": [
+      {
+        "repository": "uibcdf/peptidemt",
+        "initiative": "",
+        "root": "/home/liliana/repos@uibcdf/peptidemt",
+        "branch": "main",
+        "head": "1f8c444e4619",
+        "upstream": "origin/main",
+        "ahead": 0,
+        "behind": 0,
+        "error": "",
+        "healthy": false,
+        "state": "attention",
+        "dirty_entries": 293
+      },
+      {
+        "repository": "uibcdf/molsysmt",
+        "initiative": "stabilization",
+        "root": "/home/liliana/repos@uibcdf/molsysmt",
+        "branch": "main",
+        "head": "71fbe4f46d3c",
+        "upstream": "origin/main",
+        "ahead": 0,
+        "behind": 104,
+        "error": "",
+        "healthy": false,
+        "state": "attention",
+        "dirty_entries": 0
+      }
+    ],
+    "no_merge_stash_cleanup_commit_push": true
+  },
+  "tooling_limit": "Sandbox launcher later failed before process startup registering synthetic /tmp/.git mount with quota exceeded. Read-only/validation workspace commands then used the approved unsandboxed fallback. This is not a provider/model failure or an automatic approval-review refusal.",
+  "owning_issue_updates": [
+    {
+      "repository": "uibcdf/peptidemt",
+      "id": 6667179959,
+      "url": "https://github.com/uibcdf/peptidemt/issues/32#issuecomment-6667179959",
+      "updated_at": "2026-11-05T19:26:48Z",
+      "body_exact": true,
+      "local_body": {
+        "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-historical-implementation-g7bo976i/peptidemt-32-comment.md",
+        "bytes": 3796,
+        "sha256": "b90d62f0ee0915b7f477684ce83829ac27dfdac85b0f2f521e760df59433a9c0"
+      }
+    },
+    {
+      "repository": "uibcdf/hydramp",
+      "id": 6667198021,
+      "url": "https://github.com/uibcdf/hydramp/issues/3#issuecomment-6667198021",
+      "updated_at": "2026-11-05T19:26:53Z",
+      "body_exact": true,
+      "local_body": {
+        "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-historical-implementation-g7bo976i/hydramp-3-comment.md",
+        "bytes": 2514,
+        "sha256": "544e138c070a918a427820a9abbbb6fa0c98d62dd1e2e2f5d0ea772f902aee51"
+      }
+    }
+  ],
+  "scientific_limits": [
+    "No real MIC scores/equivalence/biology/safety/utility or installed scientific matrix qualified",
+    "D46/D47 finite reported-mass endpoint is unchanged and distinct from native pooled molar class; source exposure/assay/chemistry/independence unresolved",
+    "No paired native input qualification until original owner codec passes; no local encoder substitute",
+    "Twelve proposed neural evaluations remain unapproved; earlier real/artificial budgets stay exhausted"
+  ],
+  "retention": {
+    "owner": "HydrAMP#3 / PeptideMT#32",
+    "review_by": "2026-11-19",
+    "task_directory": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-historical-implementation-g7bo976i"
+  }
+}

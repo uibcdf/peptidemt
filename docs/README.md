@@ -22,6 +22,9 @@ and citations. Doctests exercise memory inputs only; ordinary code blocks and
 literal-included scripts are displayed, not executed. The saved-results download
 comes from the original committed JSON, without a duplicated fixture or model.
 No notebook, live inference, asset download or website deployment occurs.
+The HydrAMP workflow tutorial displays a separately checked saved-data replay
+script. Its original H4 receipts require an authorized local copy and are not
+bundled downloads; building the page neither reads those receipts nor runs it.
 
 - `index.md`: landing page and section navigation.
 - `content/about/`: scope, development installation and citation.

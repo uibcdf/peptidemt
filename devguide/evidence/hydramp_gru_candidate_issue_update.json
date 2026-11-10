@@ -1,0 +1,9 @@
+{
+  "schema": "peptidemt.gru_candidate_issue_update@1",
+  "issue": "uibcdf/peptidemt#8",
+  "comment_url": "https://github.com/uibcdf/peptidemt/issues/8#issuecomment-6536244085",
+  "created_at": "2026-10-31T00:08:04Z",
+  "body_sha256": "244b1ab0c76b17ddf3dd6d7bda6bc0bae99187b4fd4e449551a74d9f94f0e80c",
+  "verified": true,
+  "scope": "Failed candidate and prepared, unexecuted numerical reference; no raw sequences/weights/traces."
+}

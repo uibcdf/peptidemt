@@ -1,0 +1,103 @@
+{
+  "recorded_utc": "2026-11-10T04:58:58.050113+00:00",
+  "status": "Reactivated D52 source/provider follow-up delivered; next scientific contract remains pending",
+  "source_checkpoint": {
+    "path": "devguide/evidence/target_directed_provider_refresh_2026_11_09.json",
+    "bytes": 10629,
+    "sha256": "cc0b177dfb0f317cf5b3521ba1b9f8515de7b4929454be3fb422ed38742c4208"
+  },
+  "additional_inspected_sources": [
+    {
+      "repository": "uibcdf/molsysmt",
+      "ref": "97a98578776291e6b2c048bcd876bdedc271967f",
+      "source_path": "molsysmt/physchem/get_chemical_template.py",
+      "retained_path": "local_data/peptidemt-target-study-3l7pirsi/resume-20261109/source/molsysmt/molsysmt/physchem/get_chemical_template.py",
+      "bytes": 6656,
+      "sha256": "240eba77b0f40f3267318aa6a0677531d24640b82fb9a2caec08556855a145e4",
+      "scope": "Additional public source inspection for an owning capability proposal; no execution",
+      "public_functions": [
+        {
+          "name": "get_chemical_template",
+          "signature": "component_id, source, method='ccd_canonical_descriptor', hydrogen_policy='stored_counts', descriptor_program='CACTVS', max_matches=4096, skip_digestion=False"
+        }
+      ]
+    },
+    {
+      "repository": "uibcdf/molsysmt",
+      "ref": "97a98578776291e6b2c048bcd876bdedc271967f",
+      "source_path": "molsysmt/physchem/get_cip_stereochemistry.py",
+      "retained_path": "local_data/peptidemt-target-study-3l7pirsi/resume-20261109/source/molsysmt/molsysmt/physchem/get_cip_stereochemistry.py",
+      "bytes": 14098,
+      "sha256": "de8b1191f05f0ba8ed793da2667fc20e1ff4bbf627807c51aa04b5396cd8e9c2",
+      "scope": "Additional public source inspection for an owning capability proposal; no execution",
+      "public_functions": [
+        {
+          "name": "get_cip_stereochemistry",
+          "signature": "molecular_system, selection='all', structure_indices='all', chemical_state='reference', engine='rdkit', syntax='MolSysMT', skip_digestion=False, *, from_coordinates=False"
+        }
+      ]
+    }
+  ],
+  "owning_handoff": {
+    "path": "devguide/evidence/target_directed_provider_handoff_2026_11_09.json",
+    "bytes": 6830,
+    "sha256": "3b8ee1b6cea999249536ba29dea8fab77afb8a668a3993e93565f38750a364b8"
+  },
+  "maintained_documents": [
+    {
+      "path": "devguide/target_directed_evidence_review.md",
+      "bytes": 14723,
+      "sha256": "68d773dd2893d554544779fad189391ba1d831a811b662eccd860bb044d815bb"
+    },
+    {
+      "path": "devguide/target_directed_demonstrator.md",
+      "bytes": 6475,
+      "sha256": "8f5f6001e6bc933c4c89baef43e6ed302530e00a8f0d79665c839bb03126ff8f"
+    },
+    {
+      "path": "devguide/README.md",
+      "bytes": 48104,
+      "sha256": "71460ba58d83a9fc561f59f4ce7ae4ac524db391aca3e75ce3b09211b572eb35"
+    },
+    {
+      "path": "devguide/pending_proposals/scientific_capability_audit.md",
+      "bytes": 12020,
+      "sha256": "438b82dbb7f723486cd2026b69e9c02a493337c204973ae60e4ca5bd2f858564"
+    }
+  ],
+  "checks": {
+    "relative_links": 194,
+    "heading_fragments": 16,
+    "errors": [],
+    "protected_prior_records": {
+      "devguide/mdm2_t1a_proposal.md": {
+        "sha256": "069247bf4b46e8fafba553ecb5311f67b0bfd6748ea4a06822053c3285c05e56",
+        "unchanged": true
+      },
+      "devguide/evidence/mdm2_t0_execution.json": {
+        "sha256": "bd12b0bd4eb1a12885e151d25e07d855a0ff62c0b42d3156e3dd2afa188b0593",
+        "unchanged": true
+      },
+      "devguide/evidence/hydramp_result_invariants.json": {
+        "sha256": "15c5814cfec53531e51f5424d46ea54f028e0e345fd9b30f2bd0537cf77c81d3",
+        "unchanged": true
+      }
+    },
+    "scope": "Documentation links and retained identities only; no scientific/runtime qualification",
+    "additional_verified_destination": "devguide/evidence/target_directed_provider_handoff_2026_11_09.json",
+    "index_check": "python devtools/devguide_index.py --check: exit 0; indexes current",
+    "whitespace_check": "git diff --check: exit 0; final change adds two ordinary Markdown lines"
+  },
+  "current_owning_proposal": "https://github.com/uibcdf/molsysmt/issues/685",
+  "consumer_update": "https://github.com/uibcdf/peptidemt/issues/33#issuecomment-6759396004",
+  "ownership": "No downstream molecular construction, parsing or stereo implementation; provider chooses supported composition/API and priority",
+  "T1a": "Submitted proposal unchanged and unapproved; owning proposal is not a prerequisite for reported-data curation",
+  "new_molecular_or_model_calls": 0,
+  "new_runtime_code": false,
+  "installations_or_builds": 0,
+  "scientific_qualification": false,
+  "git_commit_or_push": false,
+  "full_goal_complete": false,
+  "next_action": "Investigator disposition of T1a, then implementation within its agreed contract; no further method/chemistry/generation acceptance inferred",
+  "temporary_resources": "Retain task-owned source/proposal/response evidence for scientific and provider review; preserve shared environments and primary sibling worktrees"
+}

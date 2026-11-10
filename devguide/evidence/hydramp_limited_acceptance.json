@@ -1,0 +1,80 @@
+{
+  "schema": "peptidemt.hydramp_limited_acceptance@1",
+  "date": "2026-11-02",
+  "recorded_at_utc": "2026-11-03T03:59:41.908320+00:00",
+  "decision": "D40",
+  "issue": "uibcdf/peptidemt#8",
+  "status": "accepted within the twelve-input scope; complete HydrAMP scientific qualification remains partial",
+  "authority": "Investigator explicitly accepted the limited proposal presented after the behavioral review: admit the observed numerical discrepancy only on the twelve compared inputs and continue dev0 qualification, preserving original diagnostic FAIL reports.",
+  "accepted_proposal_before_status_update": {
+    "path": "devguide/hydramp_behavioral_acceptance.md",
+    "bytes": 8416,
+    "sha256": "8d4ed0709dd453df912232bae2a05200c4a9560646d36d998f37a06be3ed58a7"
+  },
+  "public_proposal": {
+    "schema": "peptidemt.behavioral_review_issue_update@1",
+    "issue": "uibcdf/peptidemt#8",
+    "comment_url": "https://github.com/uibcdf/peptidemt/issues/8#issuecomment-6594967117",
+    "created_at": "2026-11-03T03:49:48Z",
+    "body_sha256": "8cbe498c2d28286c4e465a878e506c3809191da19008dfb0c40b60401e3a5854",
+    "verified": true,
+    "scope": "Saved-output behavioral analysis, raw RNG comparison and proposed acceptance plan; no new learned execution or acceptance."
+  },
+  "candidate": {
+    "distribution": "hydramp-torch",
+    "version": "0.0.0.dev0",
+    "wheel": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-torch-lvrqr0lk/artifacts/hydramp_torch-0.0.0.dev0-py3-none-any.whl",
+      "sha256": "738377ef8943fa79456d54747fd4f19a00a6194eeb07a9d57adac37e19903e1d"
+    },
+    "source_base_commit": "6590d2f4c2963f25d30669052a4c4a857e0e7279",
+    "starter_commit": "7804df862872ccc6d09fe01c41bafbca194cfa31",
+    "local_branch": "peptidemt-pytorch",
+    "uncommitted": true
+  },
+  "accepted_scope": {
+    "inputs": 12,
+    "token_positions": 300,
+    "disposition": "Observed finite-fixture float32 numerical deviation accepted for continuing dev0 development/qualification. Exact tokens/strings and the reviewed saved-score order are preserved on these inputs.",
+    "prospective_work": "Continue the existing D39 local preparation and qualification plan. No larger numerical tolerance or general acceptance criterion is introduced."
+  },
+  "preserved": {
+    "original_diagnostic_outcomes": "FAIL remains FAIL; no reclassification of the original reports",
+    "float32_atol": 2e-06,
+    "float32_rtol": 2e-05,
+    "candidate_dev1": "Not adopted as a correction",
+    "source_assets_environments": "Original references, licences, manifests, wheels, environments and all measured outputs retained"
+  },
+  "evidence": {
+    "hydramp_pytorch_parity_execution.json": {
+      "path": "devguide/evidence/hydramp_pytorch_parity_execution.json",
+      "bytes": 9308,
+      "sha256": "ed454d9b70bf78cde4d997f4b4f0c0631be1b50dcd224d8f8d7c88265872907a"
+    },
+    "hydramp_gru_candidate_execution.json": {
+      "path": "devguide/evidence/hydramp_gru_candidate_execution.json",
+      "bytes": 9731,
+      "sha256": "8eff93a08983638952a5e28ed84e0e96395fe0a773d41265e0ccd63de6d2fecb"
+    },
+    "hydramp_numeric_reference_execution.json": {
+      "path": "devguide/evidence/hydramp_numeric_reference_execution.json",
+      "bytes": 13063,
+      "sha256": "7024fd8380dac9a0415f368dadeec9494c4d30f5d942a963f180ed1281682148"
+    },
+    "hydramp_behavioral_review.json": {
+      "path": "devguide/evidence/hydramp_behavioral_review.json",
+      "bytes": 14185,
+      "sha256": "d5d46f41b06fb7ad574b32f94d25fed31e15fac3dd003d052101a87c08d64c54"
+    }
+  },
+  "not_granted": [
+    "Complete HydrAMP scientific acceptance or H0\u2013H4 closure",
+    "Unseen-input equivalence, near-tie robustness or biological validity",
+    "New model/PCA loading, learned-parameter evaluation or refill of exhausted call budgets",
+    "New tolerance, production dtype/parameter/chemistry/selector change",
+    "GPU, training, analogue/target-conditioned generation, feedback or another model",
+    "Commit, push, package/model redistribution or release"
+  ],
+  "next": "Prepare complete native-result/provenance and broader fixed-input qualification with exact candidate/use and a separate fresh finite resource/call proposal before learned execution.",
+  "accepted_proposal_preserved_copy": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-behavior-review-5310c25a/accepted-proposal-20261102.md"
+}

@@ -1,0 +1,21 @@
+{
+  "schema": "peptidemt.hydramp_redesign_authorization@1",
+  "recorded_at_utc": "2026-11-04T20:17:55.875566+00:00",
+  "decision": "D45",
+  "approved": true,
+  "authority": "Investigator explicitly directs continuing in response to the concrete R1/R2 contract approval question.",
+  "contract_sha256": "876ef80c5629dc74cf9e541bcf5f1d257ed37f28a0148f5e435a738c8a47fd71",
+  "owner_issue": "uibcdf/peptidemt#32",
+  "provider_issue": "uibcdf/hydramp#4",
+  "authorized": [
+    "R1 analogue-specific data receiving and controlled composition",
+    "R2 HydrAMP-owned native sequence codec in a new candidate and isolated artificial adapter qualification"
+  ],
+  "real_model_Macrel_GPU_training_feedback_release_contact": false,
+  "new_real_call_allowance": 0,
+  "preserve": [
+    "accepted dev3/dev4/dev5 artifacts and original reference",
+    "existing Macrel ResultSet and both selectors",
+    "chemistry, occurrences, all attempted native evidence and source mapping"
+  ]
+}

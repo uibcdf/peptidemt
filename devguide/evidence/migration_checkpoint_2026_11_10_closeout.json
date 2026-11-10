@@ -1,0 +1,166 @@
+{
+  "schema": "peptidemt.migration_checkpoint_closeout@1",
+  "recorded_utc": "2026-11-10T19:25:13.422045+00:00",
+  "status": "checkpoint_and_private_recovery_verified_destination_receiving_pending",
+  "receipt": {
+    "path": "devguide/evidence/migration_checkpoint_2026_11_10.json",
+    "bytes": 6203,
+    "sha256": "9d897b8ba4e65c6e58051d519fd8a940d5d7b2fbcb94c4f3b676d33cac6d32a3"
+  },
+  "resumption_entry": {
+    "path": "devguide/migration_checkpoint_2026_11_10.md",
+    "bytes": 24829,
+    "sha256": "7a465c0d08b6bdcc7b0851b3ee9fedf49b40644d15aa3a023099fb3f15043c85"
+  },
+  "corrected_host_report": {
+    "path": "devguide/mdm2_node_feasibility.md",
+    "bytes": 17014,
+    "sha256": "89bd0978d637840cf84d9f5d4ab2a71075f5409c2f298f9a56f4107854c5fdee"
+  },
+  "old_host_receipt_preserved": true,
+  "archive": {
+    "passed": true,
+    "archive_bytes": 698542080,
+    "archive_sha256": "e15d0c2e79d7ceebd1c95994960bdb5e2c36e4bcf4cfe7f5a395665d84293b6f",
+    "files_verified": 3973,
+    "source_worktrees": 12,
+    "manifest_member_exact": true,
+    "all_member_hashes_and_sizes_match": true,
+    "all_member_paths_canonical": true,
+    "no_extraction_or_destination_write": true,
+    "not_full_environment_or_asset_closure": true,
+    "diagnosed_retry": {
+      "normalized_historical_aliases": 27,
+      "identical_duplicate_payloads_removed": 27,
+      "first_failure_preserved": true,
+      "source_or_scientific_operation_repeated": false
+    }
+  },
+  "archive_path": "local_data/peptidemt-migration-checkpoint-9wc2d747/recovery.tar",
+  "checksum_sidecar": "local_data/peptidemt-migration-checkpoint-9wc2d747/recovery.tar.sha256",
+  "archive_full_payload_rehash": "All 3973 member hashes/sizes verified and whole archive hashed; no files extracted",
+  "source_stability": {
+    "recorded_utc": "2026-11-10T19:23:51.492722+00:00",
+    "source_files_compared_to_snapshot": 2409,
+    "changed_since_snapshot": [],
+    "passed": true,
+    "scope": "Current Git-visible source bytes and declared deletions across PeptideMT and eleven HydrAMP worktrees; no model tests"
+  },
+  "documentation": {
+    "markdown_files": 135,
+    "relative_targets": 1493,
+    "errors": [],
+    "scope": "Full maintained README/devguide relative-link inventory, selected whitespace and original-receipt preservation; no scientific tests"
+  },
+  "index_check": "passed",
+  "git_diff_check": "passed",
+  "first_export_failure": {
+    "record": {
+      "path": "local_data/peptidemt-migration-checkpoint-9wc2d747/archive-failure.json",
+      "bytes": 424,
+      "sha256": "795dbee6cf3c88b96724d8fb72e5e9cf583d4e05362233323e95977997e4c776"
+    },
+    "supervision": {
+      "started": true,
+      "returncode": 1,
+      "failure": "worker_failure",
+      "wall_seconds": 45.67742508696392,
+      "peak_sampled_process_tree_rss_bytes": 88866816,
+      "retained_output_bytes": 705226580,
+      "retry": false,
+      "rss_scope": "supervisor_and_descendants"
+    },
+    "failed_archive": "recovery-attempt1-unverified.tar; retained, do not restore"
+  },
+  "diagnosed_retry": {
+    "reason": {
+      "path": "local_data/peptidemt-migration-checkpoint-9wc2d747/archive-normalization-reason.json",
+      "bytes": 347,
+      "sha256": "694cd03e54faf477aecbdd494555390df07e2d94309838bc0d40878796e8d8dd"
+    },
+    "supervision": {
+      "started": true,
+      "returncode": 0,
+      "failure": null,
+      "wall_seconds": 8.562442744965665,
+      "peak_sampled_process_tree_rss_bytes": 70107136,
+      "retained_output_bytes": 1406149951,
+      "retry": false,
+      "rss_scope": "supervisor_and_descendants"
+    },
+    "classification": "Diagnosed technical retry; raw generic per-invocation retry=false is not a claim of no earlier attempt",
+    "source_or_scientific_reexecution": false
+  },
+  "issue_updates": [
+    {
+      "id": 6776919557,
+      "url": "https://github.com/uibcdf/dockingmt/issues/33#issuecomment-6776919557",
+      "exact_body_readback": true,
+      "record": {
+        "path": "local_data/peptidemt-migration-checkpoint-9wc2d747/issue-dockingmt-33-6776919557.json",
+        "bytes": 5145,
+        "sha256": "352c3b2ad8d151abf5579de755e9ad97cf6beb13a4d514bac586343b6dce14a9"
+      }
+    },
+    {
+      "id": 6776918079,
+      "url": "https://github.com/uibcdf/hydramp/issues/4#issuecomment-6776918079",
+      "exact_body_readback": true,
+      "record": {
+        "path": "local_data/peptidemt-migration-checkpoint-9wc2d747/issue-hydramp-4-6776918079.json",
+        "bytes": 5901,
+        "sha256": "4ebbd8aded72502e8a29075abe1920021aa27f81799970b68701d4c5404c433c"
+      }
+    },
+    {
+      "id": 6776921021,
+      "url": "https://github.com/uibcdf/molsysmt/issues/558#issuecomment-6776921021",
+      "exact_body_readback": true,
+      "record": {
+        "path": "local_data/peptidemt-migration-checkpoint-9wc2d747/issue-molsysmt-558-6776921021.json",
+        "bytes": 5048,
+        "sha256": "6e26175a1c1e032aea4a605aa83c819e37c2c03841d01c2c9abb8e635d6d2a5b"
+      }
+    },
+    {
+      "id": 6776915799,
+      "url": "https://github.com/uibcdf/peptidemt/issues/32#issuecomment-6776915799",
+      "exact_body_readback": true,
+      "record": {
+        "path": "local_data/peptidemt-migration-checkpoint-9wc2d747/issue-peptidemt-32-6776915799.json",
+        "bytes": 5911,
+        "sha256": "887a13988527ca5e02cd07b21fe9127e0c69cd4149f5c5222de669846a2c87b5"
+      }
+    },
+    {
+      "id": 6776912676,
+      "url": "https://github.com/uibcdf/peptidemt/issues/33#issuecomment-6776912676",
+      "exact_body_readback": true,
+      "record": {
+        "path": "local_data/peptidemt-migration-checkpoint-9wc2d747/issue-peptidemt-33-6776912676.json",
+        "bytes": 8019,
+        "sha256": "0ae3934e6d92143b4d1beeacc9e39bf0c4ddb3353e3f073c5593e81625b3cd52"
+      }
+    }
+  ],
+  "original_receipts_unchanged": true,
+  "limitations": [
+    "Destination not supplied, inspected or received; no remote transfer",
+    "Finite archive does not contain full Conda prefixes, every ignored directory-valued input, implicit learned asset directory or external cache; complete private workspace transfer remains recommended",
+    "One missing historical Discussions cache disclosed without reconstructing its old identity",
+    "Current checkpoint and all local PeptideMT source changes remain uncommitted; local dev7/dev8 commits are bundled, dev9 remains uncommitted",
+    "Post-export verification/readback/closeout are sidecars outside the immutable recovery archive"
+  ],
+  "science_models_GPU_installs_commits_pushes_releases": 0,
+  "source_workspace_preserved": true,
+  "final_issue_outcome": {
+    "id": 6777047884,
+    "url": "https://github.com/uibcdf/peptidemt/issues/33#issuecomment-6777047884",
+    "exact_body_readback": true,
+    "record": {
+      "path": "local_data/peptidemt-migration-checkpoint-9wc2d747/closeout-issue-readback.json",
+      "bytes": 6118,
+      "sha256": "1a518f64cf07635c125670c729306fe6f1a6ef26337ab90cce8f5b23a698c05f"
+    }
+  }
+}

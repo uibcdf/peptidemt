@@ -31,6 +31,26 @@ investigator acceptance and its limits are recorded in D37. FASTA interpretation
 MolSysMT's source-preserving development API; in-memory inputs and saved-result
 selection remain usable without that provider.
 
+Experimental local HydrAMP PyTorch inference now completes a bounded
+[private receiving and Macrel composition](devguide/hydramp_h4_qualification.md)
+experiment: 32 proposals, 30 compatible assessments and reproducible selection.
+Its finite numerical and scientific limits remain explicit. The provisional
+[isolated generation adapter](devguide/hydramp_execution_adapter.md) now has
+installed controlled tests and one completed real-checkpoint case with exact
+native results/trace and captured attribution. D41 [accepts the exact resource
+for experimental AMP generation](devguide/hydramp_dev3_acceptance.md), preserving
+the documented numerical and scientific limits. Future comparison, independent
+product review and research directions are tracked in [#32](https://github.com/uibcdf/peptidemt/issues/32).
+The exact dev5 provider additionally has [D44 acceptance for experimental
+native-score analogue proposals](devguide/hydramp_dev5_acceptance.md). Its
+PeptideMT redesign integration now has an [implemented R1/R2 boundary](devguide/hydramp_redesign_implementation.md)
+with data-only ancestry/replay and isolated artificial qualification. The separate
+[R3 real installed case](devguide/hydramp_redesign_R3_qualification.md) now passes
+technical receiving and saved replay with one candidate; its poorer Macrel scores
+than its parent leave useful optimization unqualified. The
+[user guide](docs/content/user/analogue_redesign.md) preserves the finite scope and
+exhausted execution allowance.
+
 The accepted conceptual architecture separates scientific design intent,
 computational plans and execution evidence. Functional families remain independent
 of their models. See the [four worked cases](devguide/design_examples.md), including
@@ -59,6 +79,14 @@ The badge above follows the frozen policy's public-admission inventory; the
 executed source compatibility matrix separately covers Python 3.11–3.14.
 
 ## Development
+
+For the current development handoff and migration to another machine, start
+with the [migration checkpoint](devguide/migration_checkpoint_2026_11_10.md).
+The subsequent [transfer instructions](devguide/migration_transfer.md) separate
+the authorized GitHub source synchronization from private ZIP material and
+explain recovery without copying raw `.git` directories.
+It records the scientific state and next steps, including uncommitted sources,
+local HydrAMP worktrees and evidence absent from a fresh GitHub clone.
 
 Read [MOLSYSSUITE_GUIDE.md](MOLSYSSUITE_GUIDE.md) and [AGENTS.md](AGENTS.md).
 Activate the shared Conda environment `molsyssuite@uibcdf_3.14`, then install
@@ -149,7 +177,11 @@ and required evidence. D36 now grants conditional implementation authorization;
 the original conditions and historical proposals are retained in the work order.
 D37 now records acceptance of the executed Macrel bundle; central receiving is
 complete. No later increment or publication is authorized by that acceptance.
-H0–H4 stays a proposal outside this assignment.
+D38/D39 subsequently commission bounded HydrAMP qualification and the local
+PyTorch port; D41 accepts the exact resource for experimental AMP generation.
+The [archived HydrAMP work record](devguide/archive/qualify_hydramp_increment_2.md)
+preserves that qualification/disposition and its limits; [#32](https://github.com/uibcdf/peptidemt/issues/32)
+owns future consumer review.
 The [expanded engine review](devguide/protein_peptide_design_engines.md)
 examines general protein/peptide engines, Chaperone and RFD4, their evidence and
 optional integration routes. No definitive generator, mandatory backend or API

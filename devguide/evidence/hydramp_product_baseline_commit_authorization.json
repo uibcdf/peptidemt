@@ -1,0 +1,16 @@
+{
+  "schema": "peptidemt.hydramp_product_baseline_commit_authorization@1",
+  "recorded_at_utc": "2026-11-05T23:43:59.017805+00:00",
+  "authority": "Explicit investigator approval responding to the single local-commit request after complete preparation and qualification",
+  "worktree": "/home/liliana/repos@uibcdf/hydramp/local_data/product-baseline-20261105",
+  "branch": "peptidemt-product-baseline",
+  "parent": "6590d2f4c2963f25d30669052a4c4a857e0e7279",
+  "approved_prepared_tree": "2476a08a50d32779db2f43683928450e62b66f91",
+  "message": "Consolidate the unchanged PyTorch core as a reproducible local baseline",
+  "preflight": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-product-baseline-uepif2a_/local-commit-preflight.json",
+    "sha256": "b5ec1a7e940366c68c2e45dbbfc5d1b1f28175f75f5d6ee4d7c7ad7277a197a8"
+  },
+  "scope": "One local source commit of the exact previously prepared tree; record its identity and synchronize existing owner/consumer records",
+  "push_tag_release_package_publication_or_scientific_execution": false
+}

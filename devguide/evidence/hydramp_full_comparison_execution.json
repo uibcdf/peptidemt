@@ -1,0 +1,672 @@
+{
+  "schema": "peptidemt.hydramp_full_comparison_execution@1",
+  "date": "2026-11-03",
+  "recorded_at_utc": "2026-11-03T16:28:09.574482+00:00",
+  "issue": "uibcdf/peptidemt#8",
+  "status": "Approved bounded execution completed. Tokens/strings/order/descriptors match and native heads pass the existing band; overall probability diagnostic remains FAIL. No wider scientific acceptance.",
+  "authority": {
+    "schema": "peptidemt.hydramp_full_comparison_authorization@1",
+    "date": "2026-11-03",
+    "recorded_at_utc": "2026-11-03T16:17:26.663467+00:00",
+    "issue": "uibcdf/peptidemt#8",
+    "authority": "Investigator explicitly instructed continuation in direct response to the exact full-comparison approval question and its candidate/budget report. This authorizes the presented immutable plan, not further or repeated calls.",
+    "approved_plan_path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-comparison-qnbdpism/plan.json",
+    "approved_plan_sha256": "b019e1dfa4e8c61ed667198b73dd7b09dfb5308459225399c84c9eb54beae929",
+    "candidate_wheel_sha256": "81761e0d48d92f0956e0afc28b3b4154f16032de53c666fd2cfbb53606102ed7",
+    "budget": {
+      "workers": 2,
+      "concurrent_workers": 1,
+      "cpu_affinity": [
+        0,
+        1
+      ],
+      "native_threads": 1,
+      "nice": 10,
+      "address_space_bytes": 8589934592,
+      "rss_stop_bytes": 2147483648,
+      "minimum_mem_available_bytes": 8589934592,
+      "worker_wall_seconds": 180,
+      "aggregate_worker_wall_seconds": 360,
+      "output_stop_bytes": 134217728,
+      "minimum_free_disk_bytes": 1073741824,
+      "gpu": false,
+      "network": false,
+      "retries": 0,
+      "legacy_model_constructions": 1,
+      "torch_model_constructions": 1,
+      "pca_pickle_loads": 1,
+      "pca_coefficient_exports": 0,
+      "pca_inverse_transforms_per_worker": 3,
+      "decoder_evaluations_per_worker": 3,
+      "amp_evaluations_per_worker": 4,
+      "mic_evaluations_per_worker": 4,
+      "network_evaluations_total": 22,
+      "unconstrained_generation_calls": 6,
+      "descriptor_calls": 6,
+      "macrel_calls": 0,
+      "task_ram_budget_bytes": 4000000000,
+      "task_ram_budget_implementation": "One model worker at a time, sampled worker RSS stop at 2 GiB; small stdlib supervisor measured separately. The unchanged 8 GiB virtual address-space ceiling is not a RAM allocation.",
+      "pca_numeric_loads": 1,
+      "rows_per_network_evaluation_max": 16,
+      "generation_requested_outputs_per_worker": 36,
+      "generation_api_calls_total": 6,
+      "descriptor_bundles_total": 6,
+      "fixture_rows_per_head": 8,
+      "encoder_forward_evaluations": 0
+    },
+    "requests": [
+      {
+        "tag": "smoke",
+        "n_target": 4,
+        "seed": 101
+      },
+      {
+        "tag": "repeat_a",
+        "n_target": 16,
+        "seed": 202
+      },
+      {
+        "tag": "repeat_b",
+        "n_target": 16,
+        "seed": 202
+      }
+    ],
+    "bundle_use": "Same pinned original source/starter/assets and local research qualification use, with the explicitly configured modern modlAMP profile. No redistribution or general acceptance.",
+    "scope": "Six generation API calls,22 network forwards,six generation descriptor bundles; one original PCA pickle load and one existing numeric-PCA load. Sequential CPU only. Stop/report failure, no retry or threshold changes.",
+    "not_granted": [
+      "Further budgets or automatic refill",
+      "GPU,training,other generator routes,Macrel or new scientific models",
+      "D40 extension or complete HydrAMP scientific acceptance",
+      "Commit,push,package/model publication"
+    ]
+  },
+  "plan": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-comparison-qnbdpism/plan.json",
+    "bytes": 32914,
+    "sha256": "b019e1dfa4e8c61ed667198b73dd7b09dfb5308459225399c84c9eb54beae929"
+  },
+  "source_commit": "6590d2f4c2963f25d30669052a4c4a857e0e7279",
+  "starter_commit": "7804df862872ccc6d09fe01c41bafbca194cfa31",
+  "candidate": "hydramp-torch==0.0.0.dev3",
+  "wheel": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-comparison-qnbdpism/artifacts/hydramp_torch-0.0.0.dev3-py3-none-any.whl",
+    "bytes": 11987,
+    "sha256": "81761e0d48d92f0956e0afc28b3b4154f16032de53c666fd2cfbb53606102ed7"
+  },
+  "worker": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/../hydramp/local_data/pytorch-comparison/ports/pytorch/devtools/full_comparison.py",
+    "bytes": 18977,
+    "sha256": "615f10390378c07fcae50876938e975dc78739719998e3c77516d32618def090"
+  },
+  "worktree": "/home/liliana/repos@uibcdf/peptidemt/../hydramp/local_data/pytorch-comparison",
+  "uncommitted": true,
+  "original_reference_preserved": {
+    "amp_and_license_files": 50,
+    "all_equal_source_commit": true,
+    "pinned_sources_assets_wheel_not_modified": true,
+    "prior_branches_environments_receipts_and_failures_preserved": true
+  },
+  "executed_calls": {
+    "generation_api_calls": 6,
+    "requested_and_returned_outputs_across_both_implementations": 72,
+    "paired_generation_occurrences": 36,
+    "distinct_latent_inputs": 20,
+    "network_forwards": 22,
+    "decoders": 6,
+    "amp_heads": 8,
+    "mic_heads": 8,
+    "generation_descriptor_bundles": 6,
+    "original_pca_pickle_loads": 1,
+    "existing_numeric_pca_loads": 1,
+    "new_pca_exports": 0,
+    "pca_inverse_transforms_per_worker": 3,
+    "encoder_forwards": 0,
+    "macrel": 0,
+    "training": 0,
+    "retries": 0
+  },
+  "worker_outcomes": {
+    "legacy": {
+      "stage": "legacy",
+      "recorded_at_utc": "2026-11-03T16:17:43.314019+00:00",
+      "outcome": {
+        "exit_code": 0,
+        "stop_reason": null,
+        "wall_seconds": 16.523569844895974,
+        "peak_sampled_rss_bytes": 552828928,
+        "plan_sha256": "b019e1dfa4e8c61ed667198b73dd7b09dfb5308459225399c84c9eb54beae929",
+        "retry_allowed": false
+      },
+      "supervisor_maxrss_bytes": 24088576,
+      "conservative_combined_peak_bytes": 576917504
+    },
+    "torch": {
+      "stage": "torch",
+      "recorded_at_utc": "2026-11-03T16:18:46.485155+00:00",
+      "outcome": {
+        "exit_code": 0,
+        "stop_reason": null,
+        "wall_seconds": 22.542930098017678,
+        "peak_sampled_rss_bytes": 460374016,
+        "plan_sha256": "b019e1dfa4e8c61ed667198b73dd7b09dfb5308459225399c84c9eb54beae929",
+        "retry_allowed": false
+      },
+      "supervisor_maxrss_bytes": 24141824,
+      "conservative_combined_peak_bytes": 484515840
+    }
+  },
+  "actual_per_worker_counts": {
+    "legacy": {
+      "network_evaluations": 11,
+      "generation_calls": 3,
+      "descriptor_bundles": 3,
+      "fixture_head_rows": 8,
+      "observed": {
+        "tag": "fixture",
+        "offset": 36,
+        "decoders": 3,
+        "amp": 4,
+        "mic": 4,
+        "properties": 3
+      }
+    },
+    "torch": {
+      "network_evaluations": 11,
+      "generation_calls": 3,
+      "descriptor_bundles": 3,
+      "fixture_head_rows": 8,
+      "observed": {
+        "tag": "fixture",
+        "offset": 36,
+        "decoders": 3,
+        "amp": 4,
+        "mic": 4,
+        "properties": 3
+      }
+    }
+  },
+  "comparison_report": {
+    "diagnostic_comparison_pass": false,
+    "array_comparisons": {
+      "smoke_latents": {
+        "exact": true,
+        "maximum_absolute_error": 0.0,
+        "outside_unchanged_diagnostic_band": 0,
+        "argmax_tokens_exact": null
+      },
+      "smoke_pca": {
+        "exact": true,
+        "maximum_absolute_error": 0.0,
+        "outside_unchanged_diagnostic_band": 0,
+        "argmax_tokens_exact": null
+      },
+      "smoke_probabilities": {
+        "exact": false,
+        "maximum_absolute_error": 1.6480684280395508e-05,
+        "outside_unchanged_diagnostic_band": 2,
+        "argmax_tokens_exact": true
+      },
+      "smoke_amp": {
+        "exact": false,
+        "maximum_absolute_error": 1.4901161193847656e-08,
+        "outside_unchanged_diagnostic_band": 0,
+        "argmax_tokens_exact": null
+      },
+      "smoke_mic": {
+        "exact": false,
+        "maximum_absolute_error": 4.284083843231201e-08,
+        "outside_unchanged_diagnostic_band": 0,
+        "argmax_tokens_exact": null
+      },
+      "smoke_order": {
+        "exact": true,
+        "maximum_absolute_error": 0.0,
+        "outside_unchanged_diagnostic_band": 0,
+        "argmax_tokens_exact": null
+      },
+      "repeat_a_latents": {
+        "exact": true,
+        "maximum_absolute_error": 0.0,
+        "outside_unchanged_diagnostic_band": 0,
+        "argmax_tokens_exact": null
+      },
+      "repeat_a_pca": {
+        "exact": true,
+        "maximum_absolute_error": 0.0,
+        "outside_unchanged_diagnostic_band": 0,
+        "argmax_tokens_exact": null
+      },
+      "repeat_a_probabilities": {
+        "exact": false,
+        "maximum_absolute_error": 4.845857620239258e-05,
+        "outside_unchanged_diagnostic_band": 28,
+        "argmax_tokens_exact": true
+      },
+      "repeat_a_amp": {
+        "exact": false,
+        "maximum_absolute_error": 2.980232238769531e-07,
+        "outside_unchanged_diagnostic_band": 0,
+        "argmax_tokens_exact": null
+      },
+      "repeat_a_mic": {
+        "exact": false,
+        "maximum_absolute_error": 5.960464477539062e-07,
+        "outside_unchanged_diagnostic_band": 0,
+        "argmax_tokens_exact": null
+      },
+      "repeat_a_order": {
+        "exact": true,
+        "maximum_absolute_error": 0.0,
+        "outside_unchanged_diagnostic_band": 0,
+        "argmax_tokens_exact": null
+      },
+      "repeat_b_latents": {
+        "exact": true,
+        "maximum_absolute_error": 0.0,
+        "outside_unchanged_diagnostic_band": 0,
+        "argmax_tokens_exact": null
+      },
+      "repeat_b_pca": {
+        "exact": true,
+        "maximum_absolute_error": 0.0,
+        "outside_unchanged_diagnostic_band": 0,
+        "argmax_tokens_exact": null
+      },
+      "repeat_b_probabilities": {
+        "exact": false,
+        "maximum_absolute_error": 4.845857620239258e-05,
+        "outside_unchanged_diagnostic_band": 28,
+        "argmax_tokens_exact": true
+      },
+      "repeat_b_amp": {
+        "exact": false,
+        "maximum_absolute_error": 2.980232238769531e-07,
+        "outside_unchanged_diagnostic_band": 0,
+        "argmax_tokens_exact": null
+      },
+      "repeat_b_mic": {
+        "exact": false,
+        "maximum_absolute_error": 5.960464477539062e-07,
+        "outside_unchanged_diagnostic_band": 0,
+        "argmax_tokens_exact": null
+      },
+      "repeat_b_order": {
+        "exact": true,
+        "maximum_absolute_error": 0.0,
+        "outside_unchanged_diagnostic_band": 0,
+        "argmax_tokens_exact": null
+      },
+      "fixture_tokens": {
+        "exact": true,
+        "maximum_absolute_error": 0.0,
+        "outside_unchanged_diagnostic_band": 0,
+        "argmax_tokens_exact": null
+      },
+      "fixture_amp": {
+        "exact": false,
+        "maximum_absolute_error": 2.384185791015625e-07,
+        "outside_unchanged_diagnostic_band": 0,
+        "argmax_tokens_exact": null
+      },
+      "fixture_mic": {
+        "exact": false,
+        "maximum_absolute_error": 1.1920928955078125e-07,
+        "outside_unchanged_diagnostic_band": 0,
+        "argmax_tokens_exact": null
+      }
+    },
+    "native_return_comparisons": [
+      {
+        "request": {
+          "tag": "smoke",
+          "n_target": 4,
+          "seed": 101
+        },
+        "sequences_exact": true,
+        "field_maximum_absolute_error_in_return_order": {
+          "amp": 1.4901161193847656e-08,
+          "mic": 4.284083843231201e-08,
+          "length": 0.0,
+          "hydrophobicity": 0.0,
+          "hydrophobic_moment": 0.0,
+          "charge": 0.0,
+          "isoelectric_point": 0.0
+        },
+        "legacy_seconds": 2.7190752991009504,
+        "torch_seconds": 0.4445430140476674
+      },
+      {
+        "request": {
+          "tag": "repeat_a",
+          "n_target": 16,
+          "seed": 202
+        },
+        "sequences_exact": true,
+        "field_maximum_absolute_error_in_return_order": {
+          "amp": 2.980232238769531e-07,
+          "mic": 5.960464477539062e-07,
+          "length": 0.0,
+          "hydrophobicity": 0.0,
+          "hydrophobic_moment": 0.0,
+          "charge": 0.0,
+          "isoelectric_point": 0.0
+        },
+        "legacy_seconds": 1.3051153209526092,
+        "torch_seconds": 0.039955589920282364
+      },
+      {
+        "request": {
+          "tag": "repeat_b",
+          "n_target": 16,
+          "seed": 202
+        },
+        "sequences_exact": true,
+        "field_maximum_absolute_error_in_return_order": {
+          "amp": 2.980232238769531e-07,
+          "mic": 5.960464477539062e-07,
+          "length": 0.0,
+          "hydrophobicity": 0.0,
+          "hydrophobic_moment": 0.0,
+          "charge": 0.0,
+          "isoelectric_point": 0.0
+        },
+        "legacy_seconds": 1.2287724509369582,
+        "torch_seconds": 0.026280506048351526
+      }
+    ],
+    "same_seed_native_result_repeat_exact": {
+      "legacy": true,
+      "torch": true
+    },
+    "scientific_acceptance": false,
+    "scope": "Measured fixture/return/performance evidence only; D40 does not preaccept dev3 or these broader inputs. No scientific superiority is inferred."
+  },
+  "matched_occurrence_analysis": {
+    "scope": "Read-only analysis of completed approved outputs; no new model, PCA or descriptor evaluation.",
+    "phases": [
+      {
+        "request": {
+          "tag": "smoke",
+          "n_target": 4,
+          "seed": 101
+        },
+        "raw_token_positions": 100,
+        "token_mismatches": 0,
+        "sequences_equal_in_input_occurrence_order": true,
+        "native_return_order_exact": true,
+        "aligned_field_maximum_absolute_errors": {
+          "length": 0.0,
+          "hydrophobicity": 0.0,
+          "hydrophobic_moment": 0.0,
+          "charge": 0.0,
+          "isoelectric_point": 0.0,
+          "amp": 1.4901161193847656e-08,
+          "mic": 4.284083843231201e-08
+        },
+        "minimum_native_token_top_two_margin": 0.052313029766082764,
+        "positions_margin_gt_twice_observed_local_error": 100,
+        "probability_max_abs_error": 1.6480684280395508e-05,
+        "probability_rms_error": 5.408075807881257e-07,
+        "probability_count_outside_unchanged_band": 2,
+        "probability_values": 2100,
+        "legacy_public_call_seconds": 2.7190752991009504,
+        "torch_public_call_seconds": 0.4445430140476674,
+        "within_call_unique_projected_strings": 4
+      },
+      {
+        "request": {
+          "tag": "repeat_a",
+          "n_target": 16,
+          "seed": 202
+        },
+        "raw_token_positions": 400,
+        "token_mismatches": 0,
+        "sequences_equal_in_input_occurrence_order": true,
+        "native_return_order_exact": true,
+        "aligned_field_maximum_absolute_errors": {
+          "length": 0.0,
+          "hydrophobicity": 0.0,
+          "hydrophobic_moment": 0.0,
+          "charge": 0.0,
+          "isoelectric_point": 0.0,
+          "amp": 2.980232238769531e-07,
+          "mic": 5.960464477539062e-07
+        },
+        "minimum_native_token_top_two_margin": 0.024026036262512207,
+        "positions_margin_gt_twice_observed_local_error": 400,
+        "probability_max_abs_error": 4.845857620239258e-05,
+        "probability_rms_error": 1.3032360063033706e-06,
+        "probability_count_outside_unchanged_band": 28,
+        "probability_values": 8400,
+        "legacy_public_call_seconds": 1.3051153209526092,
+        "torch_public_call_seconds": 0.039955589920282364,
+        "within_call_unique_projected_strings": 16
+      },
+      {
+        "request": {
+          "tag": "repeat_b",
+          "n_target": 16,
+          "seed": 202
+        },
+        "raw_token_positions": 400,
+        "token_mismatches": 0,
+        "sequences_equal_in_input_occurrence_order": true,
+        "native_return_order_exact": true,
+        "aligned_field_maximum_absolute_errors": {
+          "length": 0.0,
+          "hydrophobicity": 0.0,
+          "hydrophobic_moment": 0.0,
+          "charge": 0.0,
+          "isoelectric_point": 0.0,
+          "amp": 2.980232238769531e-07,
+          "mic": 5.960464477539062e-07
+        },
+        "minimum_native_token_top_two_margin": 0.024026036262512207,
+        "positions_margin_gt_twice_observed_local_error": 400,
+        "probability_max_abs_error": 4.845857620239258e-05,
+        "probability_rms_error": 1.3032360063033706e-06,
+        "probability_count_outside_unchanged_band": 28,
+        "probability_values": 8400,
+        "legacy_public_call_seconds": 1.2287724509369582,
+        "torch_public_call_seconds": 0.026280506048351526,
+        "within_call_unique_projected_strings": 16
+      }
+    ],
+    "fixture_heads": {
+      "amp": {
+        "maximum_absolute_error": 2.384185791015625e-07,
+        "within_prior_diagnostic_band": true
+      },
+      "mic": {
+        "maximum_absolute_error": 1.1920928955078125e-07,
+        "within_prior_diagnostic_band": true
+      }
+    },
+    "aggregate": {
+      "paired_generation_occurrences": 36,
+      "distinct_predeclared_latent_inputs": 20,
+      "paired_token_positions": 900,
+      "tokens_exact": true,
+      "native_return_order_exact": true,
+      "aligned_field_maximum_absolute_errors": {
+        "length": 0.0,
+        "hydrophobicity": 0.0,
+        "hydrophobic_moment": 0.0,
+        "charge": 0.0,
+        "isoelectric_point": 0.0,
+        "amp": 2.980232238769531e-07,
+        "mic": 5.960464477539062e-07
+      },
+      "probability_values": 18900,
+      "probability_count_outside_unchanged_band": 58,
+      "max_probability_error": 4.845857620239258e-05,
+      "same_seed_repeat_exact": {
+        "legacy": true,
+        "torch": true
+      },
+      "scientific_acceptance": false,
+      "performance_limit": "One shared host, instrumented calls, no independent warm-up/statistical benchmark. Worker total includes setup/load, controls and output; import vs model construction not separately timed."
+    }
+  },
+  "raw_repeat_bit_patterns": {
+    "legacy": {
+      "latents": true,
+      "pca": true,
+      "probabilities": true,
+      "amp": true,
+      "mic": true,
+      "order": true
+    },
+    "torch": {
+      "latents": true,
+      "pca": true,
+      "probabilities": true,
+      "amp": true,
+      "mic": true,
+      "order": true
+    }
+  },
+  "diagnostic_exit": 1,
+  "artifact_manifest": {
+    "attempt-legacy.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-comparison-qnbdpism/full-run/attempt-legacy.json",
+      "bytes": 232,
+      "sha256": "2ae115cba89da542d9bf08b24bd5d17f76a2544aa6d09c6aef50482bdd3e01d3"
+    },
+    "attempt-torch.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-comparison-qnbdpism/full-run/attempt-torch.json",
+      "bytes": 232,
+      "sha256": "f8e885d13ab2b755e7e05daf2f81c3035d82998199b8752468eaf88e6b37b8ab"
+    },
+    "authorization.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-comparison-qnbdpism/full-run/authorization.json",
+      "bytes": 3085,
+      "sha256": "a465db3acf77afb462c4f1d0584fc31c377dfb640ada61b29d5cc782d0aba13d"
+    },
+    "full-comparison-report.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-comparison-qnbdpism/full-run/full-comparison-report.json",
+      "bytes": 5683,
+      "sha256": "5a82d8d406fd3728431e7fefc05e8dc8b4d2fd8e1f802faafb6812037a87bee4"
+    },
+    "keras/keras.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-comparison-qnbdpism/full-run/keras/keras.json",
+      "bytes": 120,
+      "sha256": "760f24a997adf5b270e12494d6614c28f7d9665b0a3b9281d9c2beb5400adcdb"
+    },
+    "latents.npy": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-comparison-qnbdpism/full-run/latents.npy",
+      "bytes": 18560,
+      "sha256": "1d6fa9b1a1e34599244477811a31d7ee809dc65dcf80ecce980287e6d967bfc9"
+    },
+    "legacy-full.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-comparison-qnbdpism/full-run/legacy-full.json",
+      "bytes": 14212,
+      "sha256": "e0cd627c6ed26c3537fa91f4e0b8da0937eac8db92e1d93e36c75f25ab018368"
+    },
+    "legacy-full.npz": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-comparison-qnbdpism/full-run/legacy-full.npz",
+      "bytes": 120162,
+      "sha256": "3759216ec66fbf5cbe62d059a792d1393d39f5485df128cf6187dbd54c8c6997"
+    },
+    "legacy-partial.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-comparison-qnbdpism/full-run/legacy-partial.json",
+      "bytes": 14249,
+      "sha256": "31b7992b629708aabfedef3a1292e3e6193caaa54b2bbf347999d17461ecc066"
+    },
+    "legacy-partial.npz": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-comparison-qnbdpism/full-run/legacy-partial.npz",
+      "bytes": 120162,
+      "sha256": "3759216ec66fbf5cbe62d059a792d1393d39f5485df128cf6187dbd54c8c6997"
+    },
+    "logs/legacy.log": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-comparison-qnbdpism/full-run/logs/legacy.log",
+      "bytes": 2275,
+      "sha256": "befc093819c0b931d29b4e61588f5131bcb2cb04a5529f07a64992984e492335"
+    },
+    "logs/report.log": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-comparison-qnbdpism/full-run/logs/report.log",
+      "bytes": 5683,
+      "sha256": "5a82d8d406fd3728431e7fefc05e8dc8b4d2fd8e1f802faafb6812037a87bee4"
+    },
+    "logs/torch.log": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-comparison-qnbdpism/full-run/logs/torch.log",
+      "bytes": 375,
+      "sha256": "53c3b39193b8e316a1f09cf288caaea6fa5c032fc342a63bc2daf4a3a952867d"
+    },
+    "matched-occurrence-analysis.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-comparison-qnbdpism/full-run/matched-occurrence-analysis.json",
+      "bytes": 4453,
+      "sha256": "0519bbc697c4d8d7f8ce09b1ef1e7223d87edcb254c826ffd9ad8f13fc8f4b1a"
+    },
+    "mpl/fontlist-v3.11.0.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-comparison-qnbdpism/full-run/mpl/fontlist-v3.11.0.json",
+      "bytes": 1324147,
+      "sha256": "902614268e4d81c36fd243cda57896934df22db4e273cf7df4849fa77e9d2f5f"
+    },
+    "mpl/fontlist-v330.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-comparison-qnbdpism/full-run/mpl/fontlist-v330.json",
+      "bytes": 725752,
+      "sha256": "f70fa683f90de48ac9584b6b5e057b63a7f6ff4e7e00bc1fd85526bc112fda8e"
+    },
+    "raw-repeat-bit-patterns.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-comparison-qnbdpism/full-run/raw-repeat-bit-patterns.json",
+      "bytes": 274,
+      "sha256": "5aa6c54ffdb28a621c49f672272a44e025f60cf198a3fe6542dd16bcd8d18db5"
+    },
+    "supervisor-legacy.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-comparison-qnbdpism/full-run/supervisor-legacy.json",
+      "bytes": 429,
+      "sha256": "7f8730d46d01f710a9133bdb5975526665bc49165cb2b18dc912a8b2553f81f8"
+    },
+    "supervisor-torch.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-comparison-qnbdpism/full-run/supervisor-torch.json",
+      "bytes": 428,
+      "sha256": "c51f6a41c42adb921ea83a21f828d072d301b7c570b16f36f9e9c04d1499175f"
+    },
+    "torch-full.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-comparison-qnbdpism/full-run/torch-full.json",
+      "bytes": 13853,
+      "sha256": "8976a778f981ee14875b6c3b2bcc3478e027ab6a6425b435d1c46cd3eec5a26a"
+    },
+    "torch-full.npz": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-comparison-qnbdpism/full-run/torch-full.npz",
+      "bytes": 120162,
+      "sha256": "a585432a48bcfa27e60cde3ef18a104a04cf196074425e51219dd79d059bf6c3"
+    },
+    "torch-partial.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-comparison-qnbdpism/full-run/torch-partial.json",
+      "bytes": 13891,
+      "sha256": "8543547df685ae0e3b6cf4f60461cd9c6289566d90cd4f944eba30b90d7c3f02"
+    },
+    "torch-partial.npz": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-comparison-qnbdpism/full-run/torch-partial.npz",
+      "bytes": 120162,
+      "sha256": "a585432a48bcfa27e60cde3ef18a104a04cf196074425e51219dd79d059bf6c3"
+    }
+  },
+  "resources": {
+    "wall_worker_seconds_sum": 39.06649994291365,
+    "max_conservative_combined_peak_bytes": 576917504,
+    "task_ram_intent_bytes": 4000000000,
+    "worker_rss_stop_bytes": 2147483648,
+    "resource_stops": 0,
+    "gpu_computation": false,
+    "legacy_cuda_probe": "TensorFlow logged failed cuInit/CUDA_ERROR_NO_DEVICE and no /dev/nvidia0. Actual model work was forced to CPU; absence of any driver probe is not claimed.",
+    "network_during_workers": false
+  },
+  "performance_interpretation": "Modern public generation calls were faster in this observation, while its whole-worker wall time was longer and peak RSS lower. Instrumented, single-host run; import vs model construction was not timed separately. No robust/general speedup or scientific superiority claim.",
+  "disposition": "Preserve all diagnostic FAILs and unchanged bands; D40 remains limited to its earlier dev0 twelve inputs. Investigator review is needed for broader dev3 adoption; no automatic tolerance change or retry.",
+  "pending": [
+    "Independent investigator disposition for dev3 and the broader fixture",
+    "PeptideMT adapter, portable provenance/attribution and direct/adapter receiving",
+    "Remaining H0-H4/scientific deployment acceptance",
+    "Explicit startup/model-construction timers for any later performance study; no new budget inferred"
+  ],
+  "retention": {
+    "owner": "PeptideMT #8 / investigator-owned fork",
+    "review_by": "2026-11-13",
+    "disposition": "Retain all original/new inputs, exact workers/wheels/source, full/partial raw outputs, logs and reports for review; do not publish generated sequences or hidden arrays automatically."
+  },
+  "producer_record": "devguide/evidence/pytorch_full_comparison_execution.json in local peptidemt-pytorch-comparison worktree",
+  "producer_record_sha256": "5ba48c835f1a4c3dbdebc38dee48e3df0d6f7601fb7c8676563c36f696bf2c5e"
+}

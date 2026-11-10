@@ -1,0 +1,1432 @@
+{
+  "schema": "peptidemt.hydramp_execution_adapter_preparation@1",
+  "date": "2026-11-03",
+  "recorded_at_utc": "2026-11-03T23:33:04.110114+00:00",
+  "issue": "uibcdf/peptidemt#8",
+  "status": "Public isolated adapter implemented and installed controlled qualification passes; exact single real-case approval pending",
+  "consumer_wheel": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/artifacts/peptidemt-0.1.0+118.g1f8c444.dirty-py3-none-any.whl",
+    "bytes": 41283,
+    "sha256": "18b1cb18b9662092203aad9c64d45bc0d61a862577297c13a664572dbdbc3e83"
+  },
+  "plan": {
+    "schema": "peptidemt.hydramp_execution_adapter_plan@1",
+    "date": "2026-11-03",
+    "issue": "uibcdf/peptidemt#8",
+    "status": "Prepared; new investigator model/host approval pending",
+    "work_dir": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/real-run",
+    "parent_python": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/installed-worker/bin/python",
+    "worker_python": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/generation-worker/bin/python",
+    "consumer_wheel_sha256": "18b1cb18b9662092203aad9c64d45bc0d61a862577297c13a664572dbdbc3e83",
+    "hydramp_wheel_sha256": "81761e0d48d92f0956e0afc28b3b4154f16032de53c666fd2cfbb53606102ed7",
+    "bundle": {
+      "checkpoint_root": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model",
+      "checkpoint_sha256": {
+        "layers/AMPExpandedDecoder_dense/0_weight.npy": "beb700cdb9717ea4deac37c4b4f0f8708a3f41adbe3b1a428313461be823815d",
+        "layers/AMPExpandedDecoder_dense/1_weight.npy": "39b247bc564fb521bee16eaf9b6e687e7d0d2369378001415c58adeb5e8b3c40",
+        "layers/AMPExpandedDecoder_dense/layer.json": "fd54ef80919e48ac652b3a41442ff60577d45886a0999e1b190b190ce3b222b5",
+        "layers/AMPExpandedDecoder_latent_to_hidden/0_weight.npy": "d91a969a09f675ba2c286aaba838c6073daa29c48c653af85499005a2d79fa16",
+        "layers/AMPExpandedDecoder_latent_to_hidden/1_weight.npy": "ce34d08dce59d89908dfe2d8d2cad7941e4e9557177f83383237712b02fd76a4",
+        "layers/AMPExpandedDecoder_latent_to_hidden/2_weight.npy": "0c62b4fc4574b88c5375be6c1c1d952d0d5b4bd5853760e1be76c1e190e3c90b",
+        "layers/AMPExpandedDecoder_latent_to_hidden/layer.json": "f58fc896d14f9ff89c86380f761eb2a46235425d76c2c884db5f6e9b7f503d92",
+        "layers/AMPExpandedDecoder_lstm/0_weight.npy": "c64e56ae2f750363ccadc74765abb594c122e902ce92bd4a6f91b87424ac7105",
+        "layers/AMPExpandedDecoder_lstm/1_weight.npy": "e37cbf132a872aa1896c121b2760a9493e30a986e7a63fc1034e6316e9080fa0",
+        "layers/AMPExpandedDecoder_lstm/2_weight.npy": "5875ac6124b597422316263b12b604df503ca9a92bfb7da07b7edb8b40e8e6e3",
+        "layers/AMPExpandedDecoder_lstm/layer.json": "e06daf2ee068163c4aba2473f4c8009d9613395e954ef3ff2404f6548b381be5",
+        "layers/AMPExpandedEncoder_dense_z_mean/0_weight.npy": "5a9c51cd1c3284a55d815e76ad49a3a57423631c3b9cf641a1c8f9a07362c2bd",
+        "layers/AMPExpandedEncoder_dense_z_mean/1_weight.npy": "be15aba89ad2ee06e2e26eb98ea44d88ce5c27b1a486ecbbbc4a0f9ef4694573",
+        "layers/AMPExpandedEncoder_dense_z_mean/layer.json": "2ce593bc8bf37e70dfb2d847885e25cbdafdb69b5f83a6a6a5138003c249f51a",
+        "layers/AMPExpandedEncoder_dense_z_sigma/0_weight.npy": "ab2e4214cb9b69c43ed76fbf115c4eb65f6cd5bed20898ef9e61f845487a4336",
+        "layers/AMPExpandedEncoder_dense_z_sigma/1_weight.npy": "dac699b58854d58ef621991ccec52445a9c41ea545b46e354e9ff6dfbd459f1d",
+        "layers/AMPExpandedEncoder_dense_z_sigma/layer.json": "3b7680483a9c6a0ccb13924d415916ea15cac319ab57f554c59fd6ae706b30e9",
+        "layers/AMPExpandedEncoder_embedding/0_weight.npy": "524969a5b5318125c974350778c28cf3924fabe4d29d81adfec463c5c5995c95",
+        "layers/AMPExpandedEncoder_embedding/layer.json": "b4855dbc0ad751b53dcfe93c6273cddb63fa54705c84344624ab5694dcb48698",
+        "layers/AMPExpandedEncoder_hidden/0_weight.npy": "50e6036db0935b13c71daba7851f7c70c3564633fd8488e77309e38a01fdd930",
+        "layers/AMPExpandedEncoder_hidden/1_weight.npy": "fef756aca8d375ee82a0fb532d7136d6f094f7d31c03daac8c10e3b36934d9d5",
+        "layers/AMPExpandedEncoder_hidden/2_weight.npy": "c1f894d6be00f11402da3e76d5094c4db78fa28ab904d6e9d0183fc694da7712",
+        "layers/AMPExpandedEncoder_hidden/3_weight.npy": "8e220db29cdbe32bc01080e06b842ac8ed5e31c08c5c2e3318d0769769af3903",
+        "layers/AMPExpandedEncoder_hidden/4_weight.npy": "069ed9197aeaf14145a55f77dc89073c5fa0a33cc53159c6c44653b97f004574",
+        "layers/AMPExpandedEncoder_hidden/5_weight.npy": "c86de3ad003ea809a5758f6a70115586b1f41f5d80c2e9d71d033def4a3e67db",
+        "layers/AMPExpandedEncoder_hidden/layer.json": "9f72fec16911c82b92a309742813002d6393ee2ff52a2db88b6a986a86b3a361",
+        "layers/AMPExpandedEncoder_hidden2/0_weight.npy": "e566876d42d98cdb6de508722b772ce96e79d6efa86660fc941d4545b92167df",
+        "layers/AMPExpandedEncoder_hidden2/1_weight.npy": "24de7245d8e0a6f283bc00a3e5e19985ed7175de99f12d88e441d55206c394d1",
+        "layers/AMPExpandedEncoder_hidden2/2_weight.npy": "49cd2709cc0deea7e79f804aad08cd93d9c48ab8d3978707a4df057c14dfb64b",
+        "layers/AMPExpandedEncoder_hidden2/3_weight.npy": "01662165f6f978b7a4d620cba2c9326d5eb577c75f695f604bc5c4775528d692",
+        "layers/AMPExpandedEncoder_hidden2/4_weight.npy": "c424f2cbf782155ff5a4a0e8ab523654f1e073b566a58c325f5f6d78c3344cba",
+        "layers/AMPExpandedEncoder_hidden2/5_weight.npy": "12652cd5f76af8b246c74508af950e753161fa4d672f5cef527af48ea3f01cc1",
+        "layers/AMPExpandedEncoder_hidden2/layer.json": "38c3f4ef6c45f070b05d5e0a284f6c3198129104146afffa6fedeb48e0b1e4cb",
+        "layers/NoConvAMPClassifier_dense_output/0_weight.npy": "5a836e7379d8bb9199dc324d38dc8f94116342cefefe93f7d6d2c7b296b981d3",
+        "layers/NoConvAMPClassifier_dense_output/1_weight.npy": "e314380e95c21544d28f5ee11ecd3a3e18579ecc230403e74935b2a61fa0e0a3",
+        "layers/NoConvAMPClassifier_dense_output/layer.json": "c871519c9b12666e4890e8242e81266dd0f9f9e051b980339a0da95c117cf3ed",
+        "layers/NoConvAMPClassifier_embedding/0_weight.npy": "4cff669e6846b847248ae1be599ce39a73cb4c08b8a8b48e2d9d6fa08e71bc9b",
+        "layers/NoConvAMPClassifier_embedding/layer.json": "a27f20c6683d19dc9a6b7048acc61b90c1c764e78ee49f7bd803693006744c86",
+        "layers/NoConvAMPClassifier_lstm1/0_weight.npy": "f6168ac421864e64a8eb6aa6cdf64da492f77cd5be6543517662b05931abde06",
+        "layers/NoConvAMPClassifier_lstm1/1_weight.npy": "384a4b3aa4685a7a80c43fdd390efe404e6a637b4903c85ebf0c7a3fc40dcdbc",
+        "layers/NoConvAMPClassifier_lstm1/2_weight.npy": "03a4a8026821cd0854ba87a4d1a0b39125335a198d14fa5844fd8d1eb5027149",
+        "layers/NoConvAMPClassifier_lstm1/layer.json": "8b4fec41b7ce7d412f6474287062274f7e2a04705bb7bb5ab30f2252d375fa6a",
+        "layers/NoConvAMPClassifier_lstm2/0_weight.npy": "b9b56ced73141fc03097b6d21afbbc6f3d44cb7fdf32312f150ee56ba7bbe13a",
+        "layers/NoConvAMPClassifier_lstm2/1_weight.npy": "709466679c04284d9c51479106eb15d346f7ffee2566943c9bcfa5a0f250e792",
+        "layers/NoConvAMPClassifier_lstm2/2_weight.npy": "a155972fae499854fd3d842491321e2f90ecc4a448a92874f45d1caa1c237ece",
+        "layers/NoConvAMPClassifier_lstm2/layer.json": "0290137b5c1ac975fabda901e970ead6e3529e64e3706e08bbaae2c63ea21e90",
+        "layers/VeltriAMPClassifier_convolution/0_weight.npy": "bd87e57884d4c92175cc3701834429c57286195aa17522cd464e6482e322949c",
+        "layers/VeltriAMPClassifier_convolution/1_weight.npy": "98a35817a827d05725a153f2f04da9ae1daae13255af241e6b1c03aac93a0fff",
+        "layers/VeltriAMPClassifier_convolution/layer.json": "768a96102464a545ca4e304a9dade57e133a8e1c41b0f6a43e8d2ac897f37b66",
+        "layers/VeltriAMPClassifier_dense_output/0_weight.npy": "e04d65bfc611113faa039ba34a17634a6e16cb610a518e357931aff3b34891c3",
+        "layers/VeltriAMPClassifier_dense_output/1_weight.npy": "742d9702acd657a1f913780dbc18beb3926ce2de4ffddd3b419b462b2a33cfd9",
+        "layers/VeltriAMPClassifier_dense_output/layer.json": "d0aa718372f67b401b8c4010aab55ea7af59ee64b6226310d92919769791efc4",
+        "layers/VeltriAMPClassifier_embedding/0_weight.npy": "4b26866e59133ab9656ae21d18de44282a8cff1e8c325ee4d9f5281ba62042c9",
+        "layers/VeltriAMPClassifier_embedding/layer.json": "33de0c36207f92d7cb5046a24ea9ed604202f076dcd91e2d55c59fda630ee2da",
+        "layers/VeltriAMPClassifier_lstm/0_weight.npy": "c828949a6503f39c8a68d24198922df4f3f84c50423279bff56b067af7d8b61c",
+        "layers/VeltriAMPClassifier_lstm/1_weight.npy": "912593aa202a0a9f3e02b1bb88629d65b1025aa3d99b1513991c02e6d1ed5d83",
+        "layers/VeltriAMPClassifier_lstm/2_weight.npy": "2d0bf145cece68be624842ec2370d2831dbf5dadaa419fdac6e25abbee7a6ab6",
+        "layers/VeltriAMPClassifier_lstm/layer.json": "ad0a8aaea7c34b24bb1e06996cadddc9b30f059fc4833f61993128fff110996c",
+        "model_config.json": "50b89706c0c8fdc92b69c2e846719df7e57101986c7014ca330ba7d4a8f86d44"
+      },
+      "pca_path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-parity-637rwaat/pca_numeric.npz",
+      "pca_sha256": "c3e1a32546ffe3c39f577e1908a72142321b26d51a0184bd647720f14539c99d",
+      "provider_source_sha256": {
+        "__init__.py": "0fbc35363ae1eb7afb6d755830a9b37bad996913af91502e6f3476d7e687d0ec",
+        "generation.py": "83d8a976cdfcdb64fed531db30a2e365954f0acb0f4072a3b0c5c1aaf266bd62",
+        "inference.py": "7059207b81fcf823e084db27bc189f8174f88e5173230b750b5c4ed080dbf94e",
+        "prior.py": "3a765e5f906d7e00bd3b181c305f0665c712af6fa5988a4265f4b8369e124d19",
+        "properties.py": "c47bd6f8224b996b6d221caf2de151d3d6aae1360faf4a3ec56fdd8b09abe758"
+      },
+      "expected_versions": {
+        "certifi": "2026.10.23",
+        "charset-normalizer": "3.5.2",
+        "cloudpickle": "3.1.2",
+        "contourpy": "1.4.0",
+        "cycler": "0.12.1",
+        "depdigest": "0.15.1",
+        "filelock": "4.2.5",
+        "fonttools": "4.68.0",
+        "fsspec": "2026.9.0",
+        "hydramp-torch": "0.0.0.dev3",
+        "idna": "3.20",
+        "iniconfig": "2.3.1",
+        "jinja2": "3.1.6",
+        "joblib": "1.6.0",
+        "kiwisolver": "1.5.1",
+        "lxml": "6.1.3",
+        "markupsafe": "3.0.4",
+        "matplotlib": "3.11.2",
+        "modlamp": "4.3.3",
+        "mpmath": "1.3.0",
+        "narwhals": "2.28.0",
+        "networkx": "3.7",
+        "numpy": "2.4.6",
+        "packaging": "26.3",
+        "pandas": "3.1.0",
+        "peptidemt": "0.1.0+118.g1f8c444.dirty",
+        "pillow": "13.0.0",
+        "pip": "26.2.1",
+        "pluggy": "1.7.0",
+        "pygments": "2.21.0",
+        "pyparsing": "3.3.3",
+        "pytest": "9.2.0",
+        "pytest-receptor": "1.2.2",
+        "python-dateutil": "4.0.0",
+        "requests": "2.34.2",
+        "scikit-learn": "1.9.1",
+        "scipy": "1.18.1",
+        "setuptools": "84.2.1",
+        "smonitor": "0.22.0",
+        "sympy": "1.14.0",
+        "threadpoolctl": "3.7.0",
+        "torch": "2.15.0+cpu",
+        "typing-extensions": "4.16.0",
+        "tzdata": "2026.6",
+        "urllib3": "2.8.0"
+      },
+      "source_commit": "6590d2f4c2963f25d30669052a4c4a857e0e7279",
+      "starter_commit": "7804df862872ccc6d09fe01c41bafbca194cfa31",
+      "use_reference": "Bounded local research comparison of publisher-attributed epoch-37 checkpoint and PCA. Retain University of Warsaw MIT notices and method attribution; no redistribution, training, commercial/output-rights clearance or scientific adoption."
+    },
+    "limits": {
+      "max_records": 16,
+      "wall_seconds": 180,
+      "address_space_bytes": 8589934592,
+      "rss_stop_bytes": 2147483648,
+      "max_output_bytes": 134217728,
+      "cpu_ids": [
+        0,
+        1
+      ],
+      "threads": 1,
+      "nice": 10,
+      "min_available_memory_bytes": 8589934592,
+      "min_free_disk_bytes": 1073741824,
+      "temporary_root": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/real-run"
+    },
+    "request": {
+      "n_target": 16,
+      "seed": 1001,
+      "snapshot_id": "installed-HydrAMP-seed-1001",
+      "qualification_reference": null
+    },
+    "call_budget": {
+      "public_generation_calls": 1,
+      "numeric_PCA_loads": 1,
+      "checkpoint_loads": 1,
+      "PCA_inverse_transforms": 1,
+      "decoder_forwards": 1,
+      "AMP_forwards": 1,
+      "MIC_forwards": 1,
+      "descriptor_bundles": 1,
+      "neural_forwards_total": 3,
+      "proposals": 16,
+      "Macrel_calls": 0,
+      "legacy_calls": 0,
+      "retries": 0
+    },
+    "comparison": {
+      "retained_native_receipt": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-h4-qualification-mc6nax6v/run/assessment/seed_1001-generation.json",
+      "fields": "All native results/order/indices and original trace arrays; actual receipt/provenance/executed parent attribution and saved round-trip; retain any variation, no threshold change",
+      "purpose": "Actual installed public adapter fidelity and attribution, not another broad legacy/quality campaign"
+    },
+    "resources": {
+      "task_RAM_intent_bytes": 4000000000,
+      "worker_tree_sampled_RSS_stop_bytes": 2147483648,
+      "worker_address_space_bytes": 8589934592,
+      "minimum_host_available_bytes": 8589934592,
+      "minimum_disk_free_bytes": 1073741824,
+      "output_max_bytes": 134217728,
+      "worker_wall_seconds": 180,
+      "overall_case_wall_seconds": 210,
+      "parent_address_space_bytes": 1073741824,
+      "cpu_ids": [
+        0,
+        1
+      ],
+      "numerical_threads": 1,
+      "nice": 10,
+      "GPU": false,
+      "network": false
+    },
+    "pinned_files": {
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/artifacts/peptidemt-0.1.0+118.g1f8c444.dirty-py3-none-any.whl": "18b1cb18b9662092203aad9c64d45bc0d61a862577297c13a664572dbdbc3e83",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/generation-worker/pyvenv.cfg": "cb627648a953d49b40c4e035847589e44273f57e9d1b03046bcffec42c9ed63d",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/generation-worker/lib/python3.14/site-packages/hydramp_qualified_runtime.pth": "f0e72ed2494838047787b0d5552d07f61b43b11af17cd10887cf1c7b4e8336b7",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-confidence-pvxbhixg/run/torch-full.json": "9704864f65dfe50d6f8ed245868a12f762ca9e7904b1d371151d20d0f1c37bbd",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-parity-637rwaat/pca_numeric.npz": "c3e1a32546ffe3c39f577e1908a72142321b26d51a0184bd647720f14539c99d",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/AMPExpandedDecoder_dense/0_weight.npy": "beb700cdb9717ea4deac37c4b4f0f8708a3f41adbe3b1a428313461be823815d",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/AMPExpandedDecoder_dense/1_weight.npy": "39b247bc564fb521bee16eaf9b6e687e7d0d2369378001415c58adeb5e8b3c40",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/AMPExpandedDecoder_dense/layer.json": "fd54ef80919e48ac652b3a41442ff60577d45886a0999e1b190b190ce3b222b5",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/AMPExpandedDecoder_latent_to_hidden/0_weight.npy": "d91a969a09f675ba2c286aaba838c6073daa29c48c653af85499005a2d79fa16",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/AMPExpandedDecoder_latent_to_hidden/1_weight.npy": "ce34d08dce59d89908dfe2d8d2cad7941e4e9557177f83383237712b02fd76a4",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/AMPExpandedDecoder_latent_to_hidden/2_weight.npy": "0c62b4fc4574b88c5375be6c1c1d952d0d5b4bd5853760e1be76c1e190e3c90b",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/AMPExpandedDecoder_latent_to_hidden/layer.json": "f58fc896d14f9ff89c86380f761eb2a46235425d76c2c884db5f6e9b7f503d92",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/AMPExpandedDecoder_lstm/0_weight.npy": "c64e56ae2f750363ccadc74765abb594c122e902ce92bd4a6f91b87424ac7105",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/AMPExpandedDecoder_lstm/1_weight.npy": "e37cbf132a872aa1896c121b2760a9493e30a986e7a63fc1034e6316e9080fa0",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/AMPExpandedDecoder_lstm/2_weight.npy": "5875ac6124b597422316263b12b604df503ca9a92bfb7da07b7edb8b40e8e6e3",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/AMPExpandedDecoder_lstm/layer.json": "e06daf2ee068163c4aba2473f4c8009d9613395e954ef3ff2404f6548b381be5",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/AMPExpandedEncoder_dense_z_mean/0_weight.npy": "5a9c51cd1c3284a55d815e76ad49a3a57423631c3b9cf641a1c8f9a07362c2bd",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/AMPExpandedEncoder_dense_z_mean/1_weight.npy": "be15aba89ad2ee06e2e26eb98ea44d88ce5c27b1a486ecbbbc4a0f9ef4694573",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/AMPExpandedEncoder_dense_z_mean/layer.json": "2ce593bc8bf37e70dfb2d847885e25cbdafdb69b5f83a6a6a5138003c249f51a",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/AMPExpandedEncoder_dense_z_sigma/0_weight.npy": "ab2e4214cb9b69c43ed76fbf115c4eb65f6cd5bed20898ef9e61f845487a4336",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/AMPExpandedEncoder_dense_z_sigma/1_weight.npy": "dac699b58854d58ef621991ccec52445a9c41ea545b46e354e9ff6dfbd459f1d",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/AMPExpandedEncoder_dense_z_sigma/layer.json": "3b7680483a9c6a0ccb13924d415916ea15cac319ab57f554c59fd6ae706b30e9",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/AMPExpandedEncoder_embedding/0_weight.npy": "524969a5b5318125c974350778c28cf3924fabe4d29d81adfec463c5c5995c95",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/AMPExpandedEncoder_embedding/layer.json": "b4855dbc0ad751b53dcfe93c6273cddb63fa54705c84344624ab5694dcb48698",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/AMPExpandedEncoder_hidden/0_weight.npy": "50e6036db0935b13c71daba7851f7c70c3564633fd8488e77309e38a01fdd930",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/AMPExpandedEncoder_hidden/1_weight.npy": "fef756aca8d375ee82a0fb532d7136d6f094f7d31c03daac8c10e3b36934d9d5",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/AMPExpandedEncoder_hidden/2_weight.npy": "c1f894d6be00f11402da3e76d5094c4db78fa28ab904d6e9d0183fc694da7712",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/AMPExpandedEncoder_hidden/3_weight.npy": "8e220db29cdbe32bc01080e06b842ac8ed5e31c08c5c2e3318d0769769af3903",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/AMPExpandedEncoder_hidden/4_weight.npy": "069ed9197aeaf14145a55f77dc89073c5fa0a33cc53159c6c44653b97f004574",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/AMPExpandedEncoder_hidden/5_weight.npy": "c86de3ad003ea809a5758f6a70115586b1f41f5d80c2e9d71d033def4a3e67db",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/AMPExpandedEncoder_hidden/layer.json": "9f72fec16911c82b92a309742813002d6393ee2ff52a2db88b6a986a86b3a361",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/AMPExpandedEncoder_hidden2/0_weight.npy": "e566876d42d98cdb6de508722b772ce96e79d6efa86660fc941d4545b92167df",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/AMPExpandedEncoder_hidden2/1_weight.npy": "24de7245d8e0a6f283bc00a3e5e19985ed7175de99f12d88e441d55206c394d1",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/AMPExpandedEncoder_hidden2/2_weight.npy": "49cd2709cc0deea7e79f804aad08cd93d9c48ab8d3978707a4df057c14dfb64b",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/AMPExpandedEncoder_hidden2/3_weight.npy": "01662165f6f978b7a4d620cba2c9326d5eb577c75f695f604bc5c4775528d692",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/AMPExpandedEncoder_hidden2/4_weight.npy": "c424f2cbf782155ff5a4a0e8ab523654f1e073b566a58c325f5f6d78c3344cba",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/AMPExpandedEncoder_hidden2/5_weight.npy": "12652cd5f76af8b246c74508af950e753161fa4d672f5cef527af48ea3f01cc1",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/AMPExpandedEncoder_hidden2/layer.json": "38c3f4ef6c45f070b05d5e0a284f6c3198129104146afffa6fedeb48e0b1e4cb",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/NoConvAMPClassifier_dense_output/0_weight.npy": "5a836e7379d8bb9199dc324d38dc8f94116342cefefe93f7d6d2c7b296b981d3",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/NoConvAMPClassifier_dense_output/1_weight.npy": "e314380e95c21544d28f5ee11ecd3a3e18579ecc230403e74935b2a61fa0e0a3",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/NoConvAMPClassifier_dense_output/layer.json": "c871519c9b12666e4890e8242e81266dd0f9f9e051b980339a0da95c117cf3ed",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/NoConvAMPClassifier_embedding/0_weight.npy": "4cff669e6846b847248ae1be599ce39a73cb4c08b8a8b48e2d9d6fa08e71bc9b",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/NoConvAMPClassifier_embedding/layer.json": "a27f20c6683d19dc9a6b7048acc61b90c1c764e78ee49f7bd803693006744c86",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/NoConvAMPClassifier_lstm1/0_weight.npy": "f6168ac421864e64a8eb6aa6cdf64da492f77cd5be6543517662b05931abde06",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/NoConvAMPClassifier_lstm1/1_weight.npy": "384a4b3aa4685a7a80c43fdd390efe404e6a637b4903c85ebf0c7a3fc40dcdbc",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/NoConvAMPClassifier_lstm1/2_weight.npy": "03a4a8026821cd0854ba87a4d1a0b39125335a198d14fa5844fd8d1eb5027149",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/NoConvAMPClassifier_lstm1/layer.json": "8b4fec41b7ce7d412f6474287062274f7e2a04705bb7bb5ab30f2252d375fa6a",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/NoConvAMPClassifier_lstm2/0_weight.npy": "b9b56ced73141fc03097b6d21afbbc6f3d44cb7fdf32312f150ee56ba7bbe13a",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/NoConvAMPClassifier_lstm2/1_weight.npy": "709466679c04284d9c51479106eb15d346f7ffee2566943c9bcfa5a0f250e792",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/NoConvAMPClassifier_lstm2/2_weight.npy": "a155972fae499854fd3d842491321e2f90ecc4a448a92874f45d1caa1c237ece",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/NoConvAMPClassifier_lstm2/layer.json": "0290137b5c1ac975fabda901e970ead6e3529e64e3706e08bbaae2c63ea21e90",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/VeltriAMPClassifier_convolution/0_weight.npy": "bd87e57884d4c92175cc3701834429c57286195aa17522cd464e6482e322949c",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/VeltriAMPClassifier_convolution/1_weight.npy": "98a35817a827d05725a153f2f04da9ae1daae13255af241e6b1c03aac93a0fff",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/VeltriAMPClassifier_convolution/layer.json": "768a96102464a545ca4e304a9dade57e133a8e1c41b0f6a43e8d2ac897f37b66",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/VeltriAMPClassifier_dense_output/0_weight.npy": "e04d65bfc611113faa039ba34a17634a6e16cb610a518e357931aff3b34891c3",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/VeltriAMPClassifier_dense_output/1_weight.npy": "742d9702acd657a1f913780dbc18beb3926ce2de4ffddd3b419b462b2a33cfd9",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/VeltriAMPClassifier_dense_output/layer.json": "d0aa718372f67b401b8c4010aab55ea7af59ee64b6226310d92919769791efc4",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/VeltriAMPClassifier_embedding/0_weight.npy": "4b26866e59133ab9656ae21d18de44282a8cff1e8c325ee4d9f5281ba62042c9",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/VeltriAMPClassifier_embedding/layer.json": "33de0c36207f92d7cb5046a24ea9ed604202f076dcd91e2d55c59fda630ee2da",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/VeltriAMPClassifier_lstm/0_weight.npy": "c828949a6503f39c8a68d24198922df4f3f84c50423279bff56b067af7d8b61c",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/VeltriAMPClassifier_lstm/1_weight.npy": "912593aa202a0a9f3e02b1bb88629d65b1025aa3d99b1513991c02e6d1ed5d83",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/VeltriAMPClassifier_lstm/2_weight.npy": "2d0bf145cece68be624842ec2370d2831dbf5dadaa419fdac6e25abbee7a6ab6",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/VeltriAMPClassifier_lstm/layer.json": "ad0a8aaea7c34b24bb1e06996cadddc9b30f059fc4833f61993128fff110996c",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/model_config.json": "50b89706c0c8fdc92b69c2e846719df7e57101986c7014ca330ba7d4a8f86d44",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-comparison-qnbdpism/worker/lib/python3.14/site-packages/hydramp_torch/__init__.py": "0fbc35363ae1eb7afb6d755830a9b37bad996913af91502e6f3476d7e687d0ec",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-comparison-qnbdpism/worker/lib/python3.14/site-packages/hydramp_torch/generation.py": "83d8a976cdfcdb64fed531db30a2e365954f0acb0f4072a3b0c5c1aaf266bd62",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-comparison-qnbdpism/worker/lib/python3.14/site-packages/hydramp_torch/inference.py": "7059207b81fcf823e084db27bc189f8174f88e5173230b750b5c4ed080dbf94e",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-comparison-qnbdpism/worker/lib/python3.14/site-packages/hydramp_torch/prior.py": "3a765e5f906d7e00bd3b181c305f0665c712af6fa5988a4265f4b8369e124d19",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-comparison-qnbdpism/worker/lib/python3.14/site-packages/hydramp_torch/properties.py": "c47bd6f8224b996b6d221caf2de151d3d6aae1360faf4a3ec56fdd8b09abe758",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/generation-worker/lib/python3.14/site-packages/peptidemt/inputs.py": "0d56b4089d95fadeda2b1f9152a0e8520ee8d2d4c6ee8efbae49bf2344e07b4e",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/generation-worker/lib/python3.14/site-packages/peptidemt/_hydramp_cli.py": "5fb5ee24580075fa9b9bc494e86eb24a06f0a3604079033d76f07c5c3707097a",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/generation-worker/lib/python3.14/site-packages/peptidemt/__init__.py": "aaa2e37d7b9d72c98d1138e64c17b4ffe32d302a307c85061210a62aff27c674",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/generation-worker/lib/python3.14/site-packages/peptidemt/_hydramp_worker.py": "c2396f53ea7dfe738e0dd90e851194007e89a0e1b5344a7c7f7ffb88f4ef0752",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/generation-worker/lib/python3.14/site-packages/peptidemt/_diagnostics.py": "2b543e6cf674133eae91af3fe6a57dcb47c2bab316b5a6c406635fb9d03fb9a6",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/generation-worker/lib/python3.14/site-packages/peptidemt/results.py": "a5302c4ece2199a854aa3c8a924511f59b22cf6f836e1ccb78107555a6bafb84",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/generation-worker/lib/python3.14/site-packages/peptidemt/_macrel_worker.py": "a68618f31051a572ddb8db14d84f0cef47f8a17a8ed1517c8cb76922dfae59fe",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/generation-worker/lib/python3.14/site-packages/peptidemt/_molsysmt.py": "55f471fba95a3b3f5c005b6b7c6e7505e4a42241adca24566876eaab3ae16aa1",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/generation-worker/lib/python3.14/site-packages/peptidemt/macrel.py": "712276ea427fc364af6cd301e5eebe4df1be50dfb73d2b6ff78a2b841a9b8b41",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/generation-worker/lib/python3.14/site-packages/peptidemt/_attribution.py": "ee3011c7220dd497e6fd05af4820e666527936c1a474ba0b4b2b94ff01eb3484",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/generation-worker/lib/python3.14/site-packages/peptidemt/selection.py": "cccef6e4c1b212453fcaf2aa3793e0799ec38eb290d39047781769edee5b11c9",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/generation-worker/lib/python3.14/site-packages/peptidemt/_hydramp_process.py": "c0c28c1bf29750a96a1bfff748e0297064d9bef10133e08e5a0a9103bc392427",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/generation-worker/lib/python3.14/site-packages/peptidemt/_smonitor.py": "16b7a911dfe16f9e1378a3a0dfb600784bb186fc4faa5248df3a13f32f591055",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/generation-worker/lib/python3.14/site-packages/peptidemt/_data.py": "47de27e65ccacef39926cac46a41a1ed58b41a6a5ae6d6bd24f3e958fb19627b",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/generation-worker/lib/python3.14/site-packages/peptidemt/_depdigest.py": "714c699978ccabfaee43db53d7f59162f720224bfe2423ef6f9dd2d6967012ad",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/generation-worker/lib/python3.14/site-packages/peptidemt/_hydramp_receiving.py": "d02fab3f7b81abea5e7ee96e5fec4ea9b8bfbbf55ba8267de2e0defb1035b0c3",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/generation-worker/lib/python3.14/site-packages/peptidemt/_macrel_cli.py": "ca004126f5d01331846b591f93e0fee5e529f2004f618f19d28834984e61a566",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/generation-worker/lib/python3.14/site-packages/peptidemt/hydramp.py": "59e0f3db8f756f024525c11f3a958aaf8d67235778fc9350999bf15c501cde6a",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/generation-worker/lib/python3.14/site-packages/peptidemt/_private/__init__.py": "af7e51046a1234f1c18a29e38315fc590bc9d5f1b97b04c117583bda36764634",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/generation-worker/lib/python3.14/site-packages/peptidemt/_private/smonitor/__init__.py": "8e00d3c40168c3bb1fc81170f2bd31177a042cace19a5f6ade6a1d8616244ade",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/generation-worker/lib/python3.14/site-packages/peptidemt/_private/smonitor/catalog.py": "e6b864a1689052efb16ff669de1ef4454094c1c26b5b0dcdb46103fe76824cd9",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/generation-worker/lib/python3.14/site-packages/peptidemt/_private/smonitor/meta.py": "e056bb2ed425e482d7db1db7a06c17eb5e112bf4d1261a26cf8e243172cc0c0c",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/generation-worker/lib/python3.14/site-packages/depdigest/__init__.py": "401e1f2b69d68053bdf91b524eb9d876fa2839908ca2dc5df17e77d3a389b6b1",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/generation-worker/lib/python3.14/site-packages/depdigest/cli.py": "b8a3ee15d711758a90be5b8514f130cef56d2bbe2e85583e85e3997d52cf432f",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/generation-worker/lib/python3.14/site-packages/depdigest/_version.py": "3d055f96925d24311319fda0d41079387092ff92ad82d78446c7217e8481b6cb",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/generation-worker/lib/python3.14/site-packages/depdigest/_smonitor.py": "02ac6e7ac53703a968a8a40b81ec7118e63fe02282aa23331fd3453a9bea1517",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/generation-worker/lib/python3.14/site-packages/depdigest/__main__.py": "307299fda7b77d22c64cb51430ec75e5f59d78e9c948786afb3b2544fe45e4b7",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/generation-worker/lib/python3.14/site-packages/depdigest/core/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/generation-worker/lib/python3.14/site-packages/depdigest/core/config.py": "981c35cda2fa2686e2466f7b830462b12cc62d03f034a37540f8541cc250c6ba",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/generation-worker/lib/python3.14/site-packages/depdigest/core/registry.py": "a96fb542fbcc618795f6e8733009df1d3c3250b75fe59f6ab7875998aa87e504",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/generation-worker/lib/python3.14/site-packages/depdigest/core/decorator.py": "84f8d702a79e2d581bf349e26e268aac7575107938fc87fec6c941c2451d7119",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/generation-worker/lib/python3.14/site-packages/depdigest/core/loader.py": "32e0e2604b5b3adaee609ada5ae193889a62a01959bf8c2d67dbdcf67465998c",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/generation-worker/lib/python3.14/site-packages/depdigest/core/checker.py": "e8bdc38aeee71728b3cfb243ca066836a9dd3cdbf114c947f19ab807efc978ee",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/generation-worker/lib/python3.14/site-packages/depdigest/utils/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/generation-worker/lib/python3.14/site-packages/depdigest/utils/ast_tools.py": "b3a9a7bb60c835163355e6d986875e045c2927db1413fbe3f12f541f8d170fef",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/generation-worker/lib/python3.14/site-packages/depdigest/_private/smonitor/__init__.py": "d83b0a1b2d3d1f0fe6e2d482c26c1a9a7efb8b11209b5d3aa4b5d27a67d1b4a7",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/generation-worker/lib/python3.14/site-packages/depdigest/_private/smonitor/catalog.py": "507b4473899826529f4f9b6ecce419fe3ff463b9d997da48506803f30bbe50dd",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/generation-worker/lib/python3.14/site-packages/depdigest/_private/smonitor/emitter.py": "0c438e1ed4f8127a718874db2f3ee48dec51b1557444dd0c60f3750a97e398f9",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/generation-worker/lib/python3.14/site-packages/depdigest/_private/smonitor/meta.py": "a713c951f282fa56759443cd10c34943c69d0ba08d76a8dd26a7713b62c117cd",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/generation-worker/lib/python3.14/site-packages/depdigest-0.15.1.dist-info/entry_points.txt": "26a068c1a1bf1f3649db863c3f528cfa43c319ca16a0bdffa7fb3ccf483fee4a",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/generation-worker/lib/python3.14/site-packages/depdigest-0.15.1.dist-info/INSTALLER": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/generation-worker/lib/python3.14/site-packages/depdigest-0.15.1.dist-info/METADATA": "cd5ff2857d688f5fd31c1036936916824f08de02360c16b7fbb8fa1ba3d67bbb",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/generation-worker/lib/python3.14/site-packages/depdigest-0.15.1.dist-info/REQUESTED": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/generation-worker/lib/python3.14/site-packages/depdigest-0.15.1.dist-info/WHEEL": "61532836a2b3111b7ec23519c09df7c41180c27165fb872a6d8913b566b88ad1",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/generation-worker/lib/python3.14/site-packages/depdigest-0.15.1.dist-info/direct_url.json": "5ed0eb5977e20d06218ff13018eb8f714a058e1e3d2170f1c5d17db60ca82b07",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/generation-worker/lib/python3.14/site-packages/depdigest-0.15.1.dist-info/RECORD": "7d26bf6f32d77c836696692ceda31448daeffdbd152888249182729244590a11",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/generation-worker/lib/python3.14/site-packages/depdigest-0.15.1.dist-info/top_level.txt": "0fc50ef756def1c96a7c79dd307e122c1f131dc7611b83319c12a1eebe2c4ba5",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/generation-worker/lib/python3.14/site-packages/depdigest-0.15.1.dist-info/licenses/LICENSE": "201cca3f4381a6fe589d0ee2a0f88092d8d01465744df6eda0a16ac8ec2c35fc",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/generation-worker/lib/python3.14/site-packages/smonitor/validation.py": "106f24b1a376e41b5a72f6fb8f5900bcd5b32ca4c5ab53e269a11d58efc33f99",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/generation-worker/lib/python3.14/site-packages/smonitor/__init__.py": "f60b1c2bff72dbbb70fe403e23908e62a8297f6190e18fdcac090092b84e6800",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/generation-worker/lib/python3.14/site-packages/smonitor/bundle.py": "228374b0a5f14b26c2789143ad29b3c6c56cd5bb36d3cde41ccd34e30005604c",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/generation-worker/lib/python3.14/site-packages/smonitor/docs_utils.py": "31d6a649e62bd10950f4542144886605ad202a7bc4a65d77378dcc35cc747dd7",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/generation-worker/lib/python3.14/site-packages/smonitor/_diagnostics.py": "cc732d5f889e25a66168b600721057241730ed74b857edb818ccec8ac82b05e5",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/generation-worker/lib/python3.14/site-packages/smonitor/cli.py": "a4d2a9166ef8fb93b994380c1ac490f7fa3f250ce5e0641a12e61b07dff99e5e",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/generation-worker/lib/python3.14/site-packages/smonitor/_version.py": "d2493c79f789178d456486307864c9ca56e2cda5aba7d5b7a8defc4429425885",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/generation-worker/lib/python3.14/site-packages/smonitor/pytest_policy.py": "2aaf3b1cf44dab46ada23beb2fd52ad7994f94ad369db8d69062d9ece13e47dc",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/generation-worker/lib/python3.14/site-packages/smonitor/catalog.py": "ff9e04e9594797a6c1b35c65b8e21dccc9d96530f0fc48e3ebd1dca483f40ba7",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/generation-worker/lib/python3.14/site-packages/smonitor/pytest_plugin.py": "8a6729063c5eb8c92d6f6182a4e554ee5ae4a98de8d820ef5f51a3bb388e37ca",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/generation-worker/lib/python3.14/site-packages/smonitor/profiling.py": "47d2e1d4ee3a83364b256b0a9a12e21da887499e51b25d3f151842016683d176",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/generation-worker/lib/python3.14/site-packages/smonitor/policy/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/generation-worker/lib/python3.14/site-packages/smonitor/policy/engine.py": "b15cc0eea4a545795e5852c3560105ac9fd20efdc1d97225821292691ec8bb23",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/generation-worker/lib/python3.14/site-packages/smonitor/templates/README.md": "88658d61af88ee6fc53bfa8a6e046b00bb4c9fb3222f9a41d6a85f728b66f87a",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/generation-worker/lib/python3.14/site-packages/smonitor/templates/_smonitor.py": "4887dab158d203ac17e8544b5d1aa697fe1e99109d6934d13349c068cc9c4b6a",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/generation-worker/lib/python3.14/site-packages/smonitor/handlers/json.py": "cd5edabe32ab5286dc81315249aac77b35fc5fe5233cdcebc36b9c56a3fc4098",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/generation-worker/lib/python3.14/site-packages/smonitor/handlers/__init__.py": "f57a12db0943691cc477fd69d22d7eaac26e878c1ff66a2a5df89f35f136304d",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/generation-worker/lib/python3.14/site-packages/smonitor/handlers/memory.py": "c12c37421cebaf6a574feabed4bff24f64df8237905bc9ec81293e9174b87543",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/generation-worker/lib/python3.14/site-packages/smonitor/handlers/console.py": "4c0de3e1b2832ab8dc9f73fa6e899400d9da3136598b33510ee57b0263c17563",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/generation-worker/lib/python3.14/site-packages/smonitor/handlers/file.py": "bf9fcad614065bacdf0b300c442c9723c7cffaddebd736ecc37d2335ac2d8c38",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/generation-worker/lib/python3.14/site-packages/smonitor/emitters/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/generation-worker/lib/python3.14/site-packages/smonitor/emitters/warnings.py": "14668db77954a6a00ae5807814f9c8d9c97f81c237729af43d5b5e62ca831bc0",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/generation-worker/lib/python3.14/site-packages/smonitor/emitters/exceptions.py": "5719837614cde25784e2b58e48780a0a883f044b9acba22398de4c24a88da33d",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/generation-worker/lib/python3.14/site-packages/smonitor/emitters/logging.py": "ff3bd66f2b449f0a237eed8fbaafe045cdb2a1ca4a1913e4dbefa76cacd3f351",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/generation-worker/lib/python3.14/site-packages/smonitor/config/__init__.py": "0b4a603c4441f665b162d10b845f069f9e1f9cca542612c3c6dc143cb8cc560d",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/generation-worker/lib/python3.14/site-packages/smonitor/config/discovery.py": "56a036bc65796a8da3a9f8dcf886f88b6b49717912e79c5f91d845731ac74b5f",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/generation-worker/lib/python3.14/site-packages/smonitor/core/manager.py": "12b426f31d421049af3c43ecb129a68a3f4fe6bedf76dd5de3278b4251337687",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/generation-worker/lib/python3.14/site-packages/smonitor/core/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/generation-worker/lib/python3.14/site-packages/smonitor/core/fingerprint.py": "80f0c8377602c8ef3cb4dc71ce02b59dd0f57bc5ed52e2790c400af66ba37856",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/generation-worker/lib/python3.14/site-packages/smonitor/core/human_summary.py": "1b7b548bc396ac1257a6ca769c61bb4021e3f44ee75c335a5b48a575c0d741aa",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/generation-worker/lib/python3.14/site-packages/smonitor/core/context.py": "6959142b2b201663cc0f70422261c79b8dba91556f969559083c079b6cc889dd",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/generation-worker/lib/python3.14/site-packages/smonitor/core/capture.py": "42207876c72666c5df87fb143180247be6c2dd80e6bb54bbb8acf06307a86966",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/generation-worker/lib/python3.14/site-packages/smonitor/core/decorator.py": "83fd65f8163e3cca9768e5132fe6fa2516f8c8fb12f59a3fb78028a7d2d736f2",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/generation-worker/lib/python3.14/site-packages/smonitor/core/identifiers.py": "48350ab1b1acff14eb950557935470ec2170c1bcc669dcbdca0b4c490e272ca8",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/generation-worker/lib/python3.14/site-packages/smonitor/core/runtime.py": "7c2b9b7f9f1beca4e1f5b4e1d4c6f4ee123c4c9754e7754b4bde1577b30e7d21",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/generation-worker/lib/python3.14/site-packages/smonitor/integrations/__init__.py": "2dcb2215de7a7fe694a26e95861c2daa90b3908345d190e19669d49dbcd53717",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/generation-worker/lib/python3.14/site-packages/smonitor/integrations/diagnostic.py": "8a6065ff00b2e0e5068a74782b5a7352471c897848c031cb6bf0faaa9a312178",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/generation-worker/lib/python3.14/site-packages/smonitor/integrations/depdigest.py": "eaaf62597aae74f795483e8353a8e83db2d1a310deedccb2de6a80f0a49c13b2",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/generation-worker/lib/python3.14/site-packages/smonitor/integrations/provider.py": "dc51dc872c0164c42ce2b4e34fa6724ed31292991937c557c1cb86445b609f96",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/generation-worker/lib/python3.14/site-packages/smonitor/integrations/molsysmt.py": "dff282f2606c36e815f85da43bf28d9b5bf566666a44c7ec66d4a400f1b26bbc",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/generation-worker/lib/python3.14/site-packages/smonitor/integrations/core.py": "77f572afd7baa16b783a424fa3bc1a5debcf7e684461697b1e0d3a88afb6612d",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/generation-worker/lib/python3.14/site-packages/smonitor/integrations/argdigest.py": "8ad55e939b7728123273cd47823e720d9badeba569b4e722cee60946b2f6bc16",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/generation-worker/lib/python3.14/site-packages/smonitor-0.22.0.dist-info/entry_points.txt": "21231e06f33cb33bfc8d1a2ec98800d4d6977eacfa468dd475e6d351cf49594c",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/generation-worker/lib/python3.14/site-packages/smonitor-0.22.0.dist-info/INSTALLER": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/generation-worker/lib/python3.14/site-packages/smonitor-0.22.0.dist-info/METADATA": "3150f100e237e5929b45c83c79e537ffd7a00e39e09af31651bf9b0d86b63343",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/generation-worker/lib/python3.14/site-packages/smonitor-0.22.0.dist-info/REQUESTED": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/generation-worker/lib/python3.14/site-packages/smonitor-0.22.0.dist-info/WHEEL": "98e75747d0b7c0c568bfb71263c3d8f970b3a374a6996087bc642be5cb09a1aa",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/generation-worker/lib/python3.14/site-packages/smonitor-0.22.0.dist-info/direct_url.json": "2717a0cb523fe5f90ee01ae66b6a8db435e715cfb6bb038545934bbe891b93cf",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/generation-worker/lib/python3.14/site-packages/smonitor-0.22.0.dist-info/RECORD": "0a56addfa6181112730dfeed998ed4388c2497afae7d550c7d44e9b3b7d1b691",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/generation-worker/lib/python3.14/site-packages/smonitor-0.22.0.dist-info/top_level.txt": "039385a9cdb7f6d47ae2fab205c9692400ca5481d9f2de7d25cd145b409f0d8c",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/generation-worker/lib/python3.14/site-packages/smonitor-0.22.0.dist-info/licenses/LICENSE": "201cca3f4381a6fe589d0ee2a0f88092d8d01465744df6eda0a16ac8ec2c35fc",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/installed-worker/lib/python3.14/site-packages/peptidemt/inputs.py": "0d56b4089d95fadeda2b1f9152a0e8520ee8d2d4c6ee8efbae49bf2344e07b4e",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/installed-worker/lib/python3.14/site-packages/peptidemt/_hydramp_cli.py": "5fb5ee24580075fa9b9bc494e86eb24a06f0a3604079033d76f07c5c3707097a",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/installed-worker/lib/python3.14/site-packages/peptidemt/__init__.py": "aaa2e37d7b9d72c98d1138e64c17b4ffe32d302a307c85061210a62aff27c674",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/installed-worker/lib/python3.14/site-packages/peptidemt/_hydramp_worker.py": "c2396f53ea7dfe738e0dd90e851194007e89a0e1b5344a7c7f7ffb88f4ef0752",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/installed-worker/lib/python3.14/site-packages/peptidemt/_diagnostics.py": "2b543e6cf674133eae91af3fe6a57dcb47c2bab316b5a6c406635fb9d03fb9a6",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/installed-worker/lib/python3.14/site-packages/peptidemt/results.py": "a5302c4ece2199a854aa3c8a924511f59b22cf6f836e1ccb78107555a6bafb84",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/installed-worker/lib/python3.14/site-packages/peptidemt/_macrel_worker.py": "a68618f31051a572ddb8db14d84f0cef47f8a17a8ed1517c8cb76922dfae59fe",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/installed-worker/lib/python3.14/site-packages/peptidemt/_molsysmt.py": "55f471fba95a3b3f5c005b6b7c6e7505e4a42241adca24566876eaab3ae16aa1",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/installed-worker/lib/python3.14/site-packages/peptidemt/macrel.py": "712276ea427fc364af6cd301e5eebe4df1be50dfb73d2b6ff78a2b841a9b8b41",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/installed-worker/lib/python3.14/site-packages/peptidemt/_attribution.py": "ee3011c7220dd497e6fd05af4820e666527936c1a474ba0b4b2b94ff01eb3484",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/installed-worker/lib/python3.14/site-packages/peptidemt/selection.py": "cccef6e4c1b212453fcaf2aa3793e0799ec38eb290d39047781769edee5b11c9",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/installed-worker/lib/python3.14/site-packages/peptidemt/_hydramp_process.py": "c0c28c1bf29750a96a1bfff748e0297064d9bef10133e08e5a0a9103bc392427",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/installed-worker/lib/python3.14/site-packages/peptidemt/_smonitor.py": "16b7a911dfe16f9e1378a3a0dfb600784bb186fc4faa5248df3a13f32f591055",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/installed-worker/lib/python3.14/site-packages/peptidemt/_data.py": "47de27e65ccacef39926cac46a41a1ed58b41a6a5ae6d6bd24f3e958fb19627b",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/installed-worker/lib/python3.14/site-packages/peptidemt/_depdigest.py": "714c699978ccabfaee43db53d7f59162f720224bfe2423ef6f9dd2d6967012ad",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/installed-worker/lib/python3.14/site-packages/peptidemt/_hydramp_receiving.py": "d02fab3f7b81abea5e7ee96e5fec4ea9b8bfbbf55ba8267de2e0defb1035b0c3",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/installed-worker/lib/python3.14/site-packages/peptidemt/_macrel_cli.py": "ca004126f5d01331846b591f93e0fee5e529f2004f618f19d28834984e61a566",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/installed-worker/lib/python3.14/site-packages/peptidemt/hydramp.py": "59e0f3db8f756f024525c11f3a958aaf8d67235778fc9350999bf15c501cde6a",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/installed-worker/lib/python3.14/site-packages/peptidemt/_private/__init__.py": "af7e51046a1234f1c18a29e38315fc590bc9d5f1b97b04c117583bda36764634",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/installed-worker/lib/python3.14/site-packages/peptidemt/_private/smonitor/__init__.py": "8e00d3c40168c3bb1fc81170f2bd31177a042cace19a5f6ade6a1d8616244ade",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/installed-worker/lib/python3.14/site-packages/peptidemt/_private/smonitor/catalog.py": "e6b864a1689052efb16ff669de1ef4454094c1c26b5b0dcdb46103fe76824cd9",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/installed-worker/lib/python3.14/site-packages/peptidemt/_private/smonitor/meta.py": "e056bb2ed425e482d7db1db7a06c17eb5e112bf4d1261a26cf8e243172cc0c0c",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-h4-qualification-mc6nax6v/run/assessment/seed_1001-generation.json": "ecf2b2744a573b93dae55975562c0ddd7bf8a7486fe7e75c19ca93a3c8ee3161",
+      "/home/liliana/repos@uibcdf/peptidemt/devtools/hydramp_execution_qualification.py": "b33b08499badd4e68080429d6a3cfaa181eace3d71259a46c41b9667a5bfaad5",
+      "/home/liliana/repos@uibcdf/peptidemt/devtools/tests/test_hydramp_execution_qualification.py": "45698d0d6f5722cea43965abc54892f96d57e3e15e8cd395e0267dc53c77b2c7",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/installed-worker/bin/python": "b4507c71cc630ab0de839027a0927f6008c8582c83bf36c713f111ba0b4bc6ae",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/generation-worker/bin/python": "44b34cbff883747faeba39c22d0653240f2a218b664749aec3a32d500e5069c0",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/installed-worker/pyvenv.cfg": "5a567a09cb0e144008e7b8399f7ffdfe6a139b969f70e1cfea00b5c68d60c539",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/ackredit/__init__.py": "2711da63aa665a6dea461802676dd9e6100e9ca09123f5679b8adc8f018e0f42",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/ackredit/cli.py": "0bb5664b5f9888bc91f3a287199b8def0df6cf7a426cd289b37a584027597753",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/ackredit/_version.py": "1fd3564596fb35b79144f2cffd5d5f01198b357ada9e8ad533e38e63ef3fdae8",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/ackredit/_argdigest.py": "eaa776aa242fc07f495d055d74857f661b80c26e538c722aaa6b19c8879fd1d3",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/ackredit/_smonitor.py": "dfc5f5e015ca062ec364599e6d230c3433c03411c463ac50b50df4dbf48e1ef8",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/ackredit/_depdigest.py": "e9eb4a868e08758f73d7892a801a2e5ff2c0b1eb161f67c272807ddbd9ba2201",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/ackredit/CITATION.cff": "c9878b3212c5908c7ba194a7fc65c4c495921451b4154fe1802d04be73e58645",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/ackredit/contrib/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/ackredit/contrib/jupyter.py": "70e9b21d15d2017deccea4fcf8fa549c244e3482a019952e93d2c3b5464b8b57",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/ackredit/contrib/duecredit_compat.py": "9143f42759defdcf5d76416d346ad8ef1a7f4f7b59b87c59ea8961a058b4daf0",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/ackredit/formats/__init__.py": "ab6a057cb393d9338654792772912a5ae66031fc563a43256e2d795e44128a13",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/ackredit/formats/jsonfmt.py": "05bf25adda78109d5354cafd49c01f5fe542a8b71b6cbf780b8026b58ae1548b",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/ackredit/formats/_html.py": "af6326733d57462740a563c6efeb9f8bf2a94675fd76b94c10ea93f21b635472",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/ackredit/formats/_markdown.py": "b751beeddc61b6b3fa5b1e45de8e164c8d75c089d6f058cce85f2a83d62800a6",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/ackredit/formats/_latex.py": "bbd98671010150ec8f59e34bfc2f5a7dfa5401e661ff4bb1a85481d223480f56",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/ackredit/formats/text.py": "dd8f2d4ca6eff518af8978d97b55ab4af1c89c6a6d4ce14637af3619ece2faaa",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/ackredit/formats/bibtex.py": "4bb43dd37b476920a1409086cdfe81eaef0a44e42f059858ef0096c9db2460cf",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/ackredit/formats/latex.py": "cc4577cd454e374bd189568354e0d4ff055b7ac136215e9d83fe7f98e194f1d3",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/ackredit/formats/_names.py": "4e1f374b53462066c3ae7a73cc9f3c45a9c8e2faabb9876a52682a02577b9a8b",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/ackredit/formats/_links.py": "84c64bd8f6adb510dcf4f4139f5eab9daa283c3c2850eab12772b470ed23106a",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/ackredit/formats/provenance.py": "a33c238b7d8c0a65a3c7864635a041b3098341ff579a24824f17fb74ff4343e8",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/ackredit/formats/markdown.py": "571207624b695ec920bba71f07f57445f0a3ebb435cad7723bb36ed6c23229c0",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/ackredit/formats/csl_json.py": "9db9b078604321cba0dcedf187a242230d56147b29f1f4628a9d3c4a601f057c",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/ackredit/core/__init__.py": "b2bb26103ec489f126a4f2a0598d9a5bb2ef49452508cd8ab10f724da1b7de97",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/ackredit/core/injections.py": "85719e4da382861245eb7f268cc94b0f37638d73527a219db1c6743892104932",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/ackredit/core/hooks.py": "e284827898e6782b7c3478a91c39afd816e686847efd7bf887d4e6d868e4a693",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/ackredit/core/inspection.py": "b9efba1c647ffd510ef44321958e915b2e87f0f87a56a14a0f4c036cc28765c6",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/ackredit/core/context.py": "9827b133668f546783fabec66f90f7214c3cdebf7b568f5bc8c7a51e31d9ba5b",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/ackredit/core/standard_injections.py": "d61a165142d9f85a129505fab4c6e6d03236556a00fdb346eee98a1afa768b56",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/ackredit/core/cff.py": "ae7b151e86754d73beca56ad5be9a9e92155506fa1c03a7de070f3d2662fe60a",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/ackredit/core/registry.py": "253937e6d2720a3f48e064dbdf13169b174ff052f5f07e1f0a400f6820ce5b3a",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/ackredit/core/report.py": "53fe3ebcf67216db8f00a999e6af14d06df79ba75928660c94b6bcf10daf0dd0",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/ackredit/core/attribution.py": "d7ff9671ea34e4e82a557833d558156ff84774051a73ebc7fb00b2b05a46bc7b",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/ackredit/core/decorators.py": "0baa9f1279b7ae453dc8abedcf28d9c2a0e86a06791f1c5b56eb0c27c8d15e83",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/ackredit/core/collector.py": "c0e1cb68411ea216ee4950dd0b4b850c01ced3719ac3dd9317193324a4bf26c6",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/ackredit/core/session.py": "d6f5eb9d419d4a297abb5c72fffbc558b7b52beeb0b1c3e02ee82bb4dcb56f92",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/ackredit/_private/__init__.py": "452139d5dcf653b77651a44e44f18fb906666a135f789709b14bc062dae1d0b6",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/ackredit/_private/argdigest/__init__.py": "68817bbc727f44ff6d0d4cf15599363b1a5d9ac4f34b5027c662c24ef7564ae8",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/ackredit/_private/argdigest/digest.py": "97a3b1f77962094e33fe96388c337bc7eb118549e171f7b193527028e16f19b0",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/ackredit/_private/smonitor/__init__.py": "dd94fb78fb113423ddacc2a380997bdc063523798df30b30b5c05d7ccf5b5eab",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/ackredit/_private/smonitor/warnings.py": "48cc806c55d10f14145a791141315c135b6670f3b10c0440cff33f800661fae5",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/ackredit/_private/smonitor/catalog.py": "87373ff579a76af14f487d6ddbce441a665a99cdd9dec7faf78f6249a45b14f4",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/ackredit/_private/smonitor/exceptions.py": "781af03931880d58b0146ba382066d93d276899fe229d7586ff038907a9f8c5f",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/ackredit/_private/smonitor/emitter.py": "e0eab9c9d44d59c656a0766808d87b5d076dac1a14983518d7a9a849f9442605",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/ackredit/_private/smonitor/meta.py": "63f4202183ce21b5ad3ea3f972f1f5a7b9acb46a07cf30a7101aeed3906418f7",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/ackredit/_private/argdigest/normalization/__init__.py": "20185860374d7bff4f85ace7f3cc1fd8366a749d5421862be37070bdfe3f6b17",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/ackredit/_private/argdigest/domain/__init__.py": "56a90db8119c576465c831003446ce7587d8b0e96853d070947c130e19c80745",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/ackredit/_private/argdigest/domain/format_options.py": "3991ba1c7f49551011021a1eedbb0ea6ae169ec6d78178c73fa19735afc18172",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/ackredit/_private/argdigest/domain/citation_field.py": "c8ec2b0427e2c7c3626f985f4c8d7b800eae62be02b847ee8253b448858903b1",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/ackredit/_private/argdigest/function/register_item.py": "75b5f04f8de6fe9c834341651c079daceda9269a0409737602ded7b327b25529",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/ackredit/_private/argdigest/function/__init__.py": "17535577b86be582620d815110f43f5aecfa886676f07bc84f259d0bad1b94ac",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/ackredit/_private/argdigest/function/report.py": "48756217a14ebe89d1677975d84c609c6346b0c864bbf462dbe44df3457303f5",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/ackredit/_private/argdigest/argument/format.py": "a022143df6011badfe90a05cfe56d2dd7d19c927770f38f77d77f70a50d1beda",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/ackredit/_private/argdigest/argument/__init__.py": "59f7cc04925c937aca576b7426b5f86229383717e97e657cb93c4b571299f44b",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/ackredit/_private/argdigest/argument/build_pdf.py": "cbbd71861212a98767adc1857a6fa34d3623a4fba0e723ae2eab716a686d1d8a",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/ackredit/_private/argdigest/argument/paths.py": "7ae2c6eb6b5b097745eb01d561be3347f358ce82164e93d67be96aac18e66585",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/ackredit/_private/argdigest/argument/directory.py": "8d9c264179d5ebecc349015ad4bf1af8bec014b5789c7df965109d44785e09c9",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/ackredit/_private/argdigest/argument/target.py": "618e5729e8056ddc7e619dacdaa9b0a917b1af41075c17eb08635dd93bdd1073",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/ackredit/_private/argdigest/argument/file_path.py": "aefc9e60c024208596a62c60c33eee16180719df42c75a7b6d8332744d507e64",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/ackredit/_private/argdigest/argument/formats.py": "65acfd7815d7276078db0458e358510c47593fad22ed948fc32932b29c6cf703",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/ackredit/_private/argdigest/argument/target_module.py": "96236ee750f60d7bd0e97abf2f6407cf64b49e7daaee8159f017e7da73df3ef1",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/ackredit/_private/argdigest/argument/items.py": "6560421f413e7609bc8600318f34b9ae72a9ec9ca8842b49d2483d07e1f8c65d",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/ackredit/_private/argdigest/argument/path.py": "f9fcf0358cf5787f291b38302dab0a8c19a210f22b586e5ca96d0624c4e5929f",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/ackredit-0.9.0.dist-info/entry_points.txt": "114b2851f4271b21d5c13083021bb2790f8ef53965f5333d81ea35dae88d94b0",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/ackredit-0.9.0.dist-info/INSTALLER": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/ackredit-0.9.0.dist-info/METADATA": "a9034f9b18d80179c6269be6756b14a497f61f249f2a1881906eab1123acf098",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/ackredit-0.9.0.dist-info/REQUESTED": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/ackredit-0.9.0.dist-info/WHEEL": "61532836a2b3111b7ec23519c09df7c41180c27165fb872a6d8913b566b88ad1",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/ackredit-0.9.0.dist-info/direct_url.json": "2a28640d342c3e0181c802d888d5bfa044405083b026560dac80246abab5c1bf",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/ackredit-0.9.0.dist-info/RECORD": "e2ffdb51f31bc1241f1d71cf688e51f6d59183a1c43e12ce6dc859ba3c01f3d2",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/ackredit-0.9.0.dist-info/top_level.txt": "6fd4658be58452eb4a6e917291ac550f6cfc1ac6b72cf2736628e205c6d63d18",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/ackredit-0.9.0.dist-info/licenses/LICENSE": "6eca852b363a9501d2798df7352d922127ded995f1ff80ebd891d65675125357",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/depdigest/__init__.py": "401e1f2b69d68053bdf91b524eb9d876fa2839908ca2dc5df17e77d3a389b6b1",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/depdigest/cli.py": "b8a3ee15d711758a90be5b8514f130cef56d2bbe2e85583e85e3997d52cf432f",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/depdigest/_version.py": "3d055f96925d24311319fda0d41079387092ff92ad82d78446c7217e8481b6cb",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/depdigest/_smonitor.py": "02ac6e7ac53703a968a8a40b81ec7118e63fe02282aa23331fd3453a9bea1517",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/depdigest/__main__.py": "307299fda7b77d22c64cb51430ec75e5f59d78e9c948786afb3b2544fe45e4b7",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/depdigest/core/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/depdigest/core/config.py": "981c35cda2fa2686e2466f7b830462b12cc62d03f034a37540f8541cc250c6ba",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/depdigest/core/registry.py": "a96fb542fbcc618795f6e8733009df1d3c3250b75fe59f6ab7875998aa87e504",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/depdigest/core/decorator.py": "84f8d702a79e2d581bf349e26e268aac7575107938fc87fec6c941c2451d7119",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/depdigest/core/loader.py": "32e0e2604b5b3adaee609ada5ae193889a62a01959bf8c2d67dbdcf67465998c",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/depdigest/core/checker.py": "e8bdc38aeee71728b3cfb243ca066836a9dd3cdbf114c947f19ab807efc978ee",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/depdigest/utils/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/depdigest/utils/ast_tools.py": "b3a9a7bb60c835163355e6d986875e045c2927db1413fbe3f12f541f8d170fef",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/depdigest/_private/smonitor/__init__.py": "d83b0a1b2d3d1f0fe6e2d482c26c1a9a7efb8b11209b5d3aa4b5d27a67d1b4a7",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/depdigest/_private/smonitor/catalog.py": "507b4473899826529f4f9b6ecce419fe3ff463b9d997da48506803f30bbe50dd",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/depdigest/_private/smonitor/emitter.py": "0c438e1ed4f8127a718874db2f3ee48dec51b1557444dd0c60f3750a97e398f9",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/depdigest/_private/smonitor/meta.py": "a713c951f282fa56759443cd10c34943c69d0ba08d76a8dd26a7713b62c117cd",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/depdigest-0.15.1.dist-info/entry_points.txt": "26a068c1a1bf1f3649db863c3f528cfa43c319ca16a0bdffa7fb3ccf483fee4a",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/depdigest-0.15.1.dist-info/INSTALLER": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/depdigest-0.15.1.dist-info/METADATA": "cd5ff2857d688f5fd31c1036936916824f08de02360c16b7fbb8fa1ba3d67bbb",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/depdigest-0.15.1.dist-info/REQUESTED": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/depdigest-0.15.1.dist-info/WHEEL": "61532836a2b3111b7ec23519c09df7c41180c27165fb872a6d8913b566b88ad1",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/depdigest-0.15.1.dist-info/direct_url.json": "5ed0eb5977e20d06218ff13018eb8f714a058e1e3d2170f1c5d17db60ca82b07",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/depdigest-0.15.1.dist-info/RECORD": "7d26bf6f32d77c836696692ceda31448daeffdbd152888249182729244590a11",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/depdigest-0.15.1.dist-info/top_level.txt": "0fc50ef756def1c96a7c79dd307e122c1f131dc7611b83319c12a1eebe2c4ba5",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/depdigest-0.15.1.dist-info/licenses/LICENSE": "201cca3f4381a6fe589d0ee2a0f88092d8d01465744df6eda0a16ac8ec2c35fc",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/smonitor/validation.py": "106f24b1a376e41b5a72f6fb8f5900bcd5b32ca4c5ab53e269a11d58efc33f99",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/smonitor/__init__.py": "f60b1c2bff72dbbb70fe403e23908e62a8297f6190e18fdcac090092b84e6800",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/smonitor/bundle.py": "228374b0a5f14b26c2789143ad29b3c6c56cd5bb36d3cde41ccd34e30005604c",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/smonitor/docs_utils.py": "31d6a649e62bd10950f4542144886605ad202a7bc4a65d77378dcc35cc747dd7",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/smonitor/_diagnostics.py": "cc732d5f889e25a66168b600721057241730ed74b857edb818ccec8ac82b05e5",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/smonitor/cli.py": "a4d2a9166ef8fb93b994380c1ac490f7fa3f250ce5e0641a12e61b07dff99e5e",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/smonitor/_version.py": "d2493c79f789178d456486307864c9ca56e2cda5aba7d5b7a8defc4429425885",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/smonitor/pytest_policy.py": "2aaf3b1cf44dab46ada23beb2fd52ad7994f94ad369db8d69062d9ece13e47dc",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/smonitor/catalog.py": "ff9e04e9594797a6c1b35c65b8e21dccc9d96530f0fc48e3ebd1dca483f40ba7",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/smonitor/pytest_plugin.py": "8a6729063c5eb8c92d6f6182a4e554ee5ae4a98de8d820ef5f51a3bb388e37ca",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/smonitor/profiling.py": "47d2e1d4ee3a83364b256b0a9a12e21da887499e51b25d3f151842016683d176",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/smonitor/policy/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/smonitor/policy/engine.py": "b15cc0eea4a545795e5852c3560105ac9fd20efdc1d97225821292691ec8bb23",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/smonitor/templates/README.md": "88658d61af88ee6fc53bfa8a6e046b00bb4c9fb3222f9a41d6a85f728b66f87a",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/smonitor/templates/_smonitor.py": "4887dab158d203ac17e8544b5d1aa697fe1e99109d6934d13349c068cc9c4b6a",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/smonitor/handlers/json.py": "cd5edabe32ab5286dc81315249aac77b35fc5fe5233cdcebc36b9c56a3fc4098",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/smonitor/handlers/__init__.py": "f57a12db0943691cc477fd69d22d7eaac26e878c1ff66a2a5df89f35f136304d",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/smonitor/handlers/memory.py": "c12c37421cebaf6a574feabed4bff24f64df8237905bc9ec81293e9174b87543",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/smonitor/handlers/console.py": "4c0de3e1b2832ab8dc9f73fa6e899400d9da3136598b33510ee57b0263c17563",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/smonitor/handlers/file.py": "bf9fcad614065bacdf0b300c442c9723c7cffaddebd736ecc37d2335ac2d8c38",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/smonitor/emitters/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/smonitor/emitters/warnings.py": "14668db77954a6a00ae5807814f9c8d9c97f81c237729af43d5b5e62ca831bc0",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/smonitor/emitters/exceptions.py": "5719837614cde25784e2b58e48780a0a883f044b9acba22398de4c24a88da33d",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/smonitor/emitters/logging.py": "ff3bd66f2b449f0a237eed8fbaafe045cdb2a1ca4a1913e4dbefa76cacd3f351",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/smonitor/config/__init__.py": "0b4a603c4441f665b162d10b845f069f9e1f9cca542612c3c6dc143cb8cc560d",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/smonitor/config/discovery.py": "56a036bc65796a8da3a9f8dcf886f88b6b49717912e79c5f91d845731ac74b5f",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/smonitor/core/manager.py": "12b426f31d421049af3c43ecb129a68a3f4fe6bedf76dd5de3278b4251337687",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/smonitor/core/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/smonitor/core/fingerprint.py": "80f0c8377602c8ef3cb4dc71ce02b59dd0f57bc5ed52e2790c400af66ba37856",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/smonitor/core/human_summary.py": "1b7b548bc396ac1257a6ca769c61bb4021e3f44ee75c335a5b48a575c0d741aa",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/smonitor/core/context.py": "6959142b2b201663cc0f70422261c79b8dba91556f969559083c079b6cc889dd",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/smonitor/core/capture.py": "42207876c72666c5df87fb143180247be6c2dd80e6bb54bbb8acf06307a86966",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/smonitor/core/decorator.py": "83fd65f8163e3cca9768e5132fe6fa2516f8c8fb12f59a3fb78028a7d2d736f2",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/smonitor/core/identifiers.py": "48350ab1b1acff14eb950557935470ec2170c1bcc669dcbdca0b4c490e272ca8",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/smonitor/core/runtime.py": "7c2b9b7f9f1beca4e1f5b4e1d4c6f4ee123c4c9754e7754b4bde1577b30e7d21",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/smonitor/integrations/__init__.py": "2dcb2215de7a7fe694a26e95861c2daa90b3908345d190e19669d49dbcd53717",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/smonitor/integrations/diagnostic.py": "8a6065ff00b2e0e5068a74782b5a7352471c897848c031cb6bf0faaa9a312178",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/smonitor/integrations/depdigest.py": "eaaf62597aae74f795483e8353a8e83db2d1a310deedccb2de6a80f0a49c13b2",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/smonitor/integrations/provider.py": "dc51dc872c0164c42ce2b4e34fa6724ed31292991937c557c1cb86445b609f96",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/smonitor/integrations/molsysmt.py": "dff282f2606c36e815f85da43bf28d9b5bf566666a44c7ec66d4a400f1b26bbc",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/smonitor/integrations/core.py": "77f572afd7baa16b783a424fa3bc1a5debcf7e684461697b1e0d3a88afb6612d",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/smonitor/integrations/argdigest.py": "8ad55e939b7728123273cd47823e720d9badeba569b4e722cee60946b2f6bc16",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/smonitor-0.22.0.dist-info/entry_points.txt": "21231e06f33cb33bfc8d1a2ec98800d4d6977eacfa468dd475e6d351cf49594c",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/smonitor-0.22.0.dist-info/INSTALLER": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/smonitor-0.22.0.dist-info/METADATA": "3150f100e237e5929b45c83c79e537ffd7a00e39e09af31651bf9b0d86b63343",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/smonitor-0.22.0.dist-info/REQUESTED": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/smonitor-0.22.0.dist-info/WHEEL": "98e75747d0b7c0c568bfb71263c3d8f970b3a374a6996087bc642be5cb09a1aa",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/smonitor-0.22.0.dist-info/direct_url.json": "2717a0cb523fe5f90ee01ae66b6a8db435e715cfb6bb038545934bbe891b93cf",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/smonitor-0.22.0.dist-info/RECORD": "0a56addfa6181112730dfeed998ed4388c2497afae7d550c7d44e9b3b7d1b691",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/smonitor-0.22.0.dist-info/top_level.txt": "039385a9cdb7f6d47ae2fab205c9692400ca5481d9f2de7d25cd145b409f0d8c",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages/smonitor-0.22.0.dist-info/licenses/LICENSE": "201cca3f4381a6fe589d0ee2a0f88092d8d01465744df6eda0a16ac8ec2c35fc"
+    },
+    "scope_limits": [
+      "No new model/weights, precision, descriptor definition, chemistry, selector or target/family route",
+      "Consumer artifact and isolated runtime qualification only; no scientific dev3 adoption",
+      "Original gen41 profile remains unchanged; new worker resolves its libraries through an explicit .pth and adds API-only operator copies of published support versions",
+      "No Macrel or original-model execution repeated; old accepted output files reused",
+      "A separately recorded exact investigator approval is required before the single real attempt; previous model budgets remain exhausted",
+      "No commit,push,training,GPU,package/model or site publication"
+    ],
+    "retention_review": "2026-11-13",
+    "runtime_profiles": {
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/installed-worker/bin/python": {
+        "python_version": "3.14.10 | packaged by conda-forge | (main, Oct 26 2026, 11:35:38) [GCC 15.3.0]",
+        "versions": {
+          "ackredit": "0.9.0",
+          "aiohappyeyeballs": "2.7.1",
+          "aiohttp": "3.14.5",
+          "aiosignal": "1.4.0",
+          "anywidget": "0.11.0",
+          "archspec": "0.2.6",
+          "argdigest": "0.17.0",
+          "asttokens": "3.0.2",
+          "atomicwrites": "1.4.1",
+          "attrs": "26.1.0",
+          "biopython": "1.88",
+          "brotli": "1.2.1",
+          "cached-property": "2.0.1",
+          "certifi": "2026.10.23",
+          "charset-normalizer": "3.5.2",
+          "colorama": "0.4.6",
+          "comm": "0.2.3",
+          "contourpy": "1.4.0",
+          "cycler": "0.12.1",
+          "depdigest": "0.15.1",
+          "exceptiongroup": "1.3.1",
+          "executing": "2.3.0",
+          "flatbuffers": "25.12.19",
+          "flexcache": "0.3",
+          "flexparser": "0.4",
+          "fonttools": "4.68.0",
+          "frozenlist": "1.8.0",
+          "h2": "4.4.1",
+          "h5py": "3.16.0",
+          "hpack": "4.2.0",
+          "hyperframe": "6.1.0",
+          "idna": "3.20",
+          "importlib-metadata": "10.0.0",
+          "iniconfig": "2.3.1",
+          "ipython": "9.17.1",
+          "ipython-pygments-lexers": "1.1.1",
+          "ipywidgets": "8.1.9",
+          "jedi": "0.20.1",
+          "jupyterlab-widgets": "3.0.17",
+          "kiwisolver": "1.5.1",
+          "macrel": "1.6.1",
+          "matplotlib": "3.11.2",
+          "matplotlib-inline": "0.2.2",
+          "mmcif": "1.1.1",
+          "molsysmt": "0.23.0+286.g3781031d0",
+          "molsysviewer": "0.24.0",
+          "msgpack": "1.2.4",
+          "multidict": "7.2.1",
+          "munkres": "1.1.4",
+          "networkx": "3.7",
+          "numpy": "2.5.4",
+          "onnxruntime": "1.25.1",
+          "packaging": "26.3",
+          "pandas": "3.1.0",
+          "parso": "0.8.7",
+          "peptidemt": "0.1.0+118.g1f8c444.dirty",
+          "pexpect": "4.9.0",
+          "pillow": "13.0.0",
+          "pint": "0.26.2",
+          "pip": "26.2.2",
+          "platformdirs": "4.13.7",
+          "pluggy": "1.7.0",
+          "prompt-toolkit": "3.0.53",
+          "propcache": "0.5.4",
+          "protobuf": "7.36.2",
+          "psutil": "7.2.2",
+          "psygnal": "0.16.1",
+          "ptyprocess": "0.7.0",
+          "pure-eval": "0.2.4",
+          "pygments": "2.21.0",
+          "pyparsing": "3.3.3",
+          "pyrodigal": "3.7.1",
+          "pyside6": "6.11.2",
+          "pysocks": "1.7.1",
+          "pytest": "9.2.0",
+          "pytest-receptor": "1.1.0",
+          "python-dateutil": "3.0.0",
+          "pyunitwizard": "0.29.0",
+          "pyyaml": "6.0.3",
+          "requests": "2.34.2",
+          "setuptools": "84.2.1",
+          "shiboken6": "6.11.2",
+          "six": "1.17.0",
+          "smonitor": "0.22.0",
+          "stack-data": "0.6.3",
+          "tomli": "2.5.0",
+          "tornado": "6.5.10",
+          "tqdm": "4.70.1",
+          "traitlets": "5.16.1",
+          "typing-extensions": "4.16.0",
+          "tzdata": "2026.6",
+          "urllib3": "2.8.0",
+          "versioningit": "3.3.0",
+          "wcwidth": "0.9.4",
+          "wheel": "0.48.0",
+          "widgetsnbextension": "4.0.16",
+          "wrapt": "2.5.1",
+          "yarl": "1.25.1",
+          "zipp": "4.1.2"
+        }
+      },
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/generation-worker/bin/python": {
+        "python_version": "3.14.7 | packaged by conda-forge | (main, Sep  2 2026, 21:08:32) [GCC 15.3.0]",
+        "versions": {
+          "certifi": "2026.10.23",
+          "charset-normalizer": "3.5.2",
+          "cloudpickle": "3.1.2",
+          "contourpy": "1.4.0",
+          "cycler": "0.12.1",
+          "depdigest": "0.15.1",
+          "filelock": "4.2.5",
+          "fonttools": "4.68.0",
+          "fsspec": "2026.9.0",
+          "hydramp-torch": "0.0.0.dev3",
+          "idna": "3.20",
+          "iniconfig": "2.3.1",
+          "jinja2": "3.1.6",
+          "joblib": "1.6.0",
+          "kiwisolver": "1.5.1",
+          "lxml": "6.1.3",
+          "markupsafe": "3.0.4",
+          "matplotlib": "3.11.2",
+          "modlamp": "4.3.3",
+          "mpmath": "1.3.0",
+          "narwhals": "2.28.0",
+          "networkx": "3.7",
+          "numpy": "2.4.6",
+          "packaging": "26.3",
+          "pandas": "3.1.0",
+          "peptidemt": "0.1.0+118.g1f8c444.dirty",
+          "pillow": "13.0.0",
+          "pip": "26.2.1",
+          "pluggy": "1.7.0",
+          "pygments": "2.21.0",
+          "pyparsing": "3.3.3",
+          "pytest": "9.2.0",
+          "pytest-receptor": "1.2.2",
+          "python-dateutil": "4.0.0",
+          "requests": "2.34.2",
+          "scikit-learn": "1.9.1",
+          "scipy": "1.18.1",
+          "setuptools": "84.2.1",
+          "smonitor": "0.22.0",
+          "sympy": "1.14.0",
+          "threadpoolctl": "3.7.0",
+          "torch": "2.15.0+cpu",
+          "typing-extensions": "4.16.0",
+          "tzdata": "2026.6",
+          "urllib3": "2.8.0"
+        }
+      }
+    }
+  },
+  "plan_file": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/live-plan.json",
+    "bytes": 95905,
+    "sha256": "1d4679f27d06d95bd402b1f9239e8dc1fc5120a722da5057be526220985da665"
+  },
+  "installed_controlled_tests": 55,
+  "native_junit": {
+    "name": "pytest",
+    "errors": "0",
+    "failures": "0",
+    "skipped": "0",
+    "tests": "55",
+    "time": "2.986",
+    "timestamp": "2026-11-03T17:30:33.197233-06:00",
+    "hostname": "spika"
+  },
+  "installed_execution": {
+    "exit_code": 0,
+    "wall_seconds": 3.5770131840836257,
+    "child_kernel_HWM_rss_bytes": 52559872,
+    "new_scientific_calls": 0,
+    "scope": "Exact local installed wheel API/source-origin/payload comparison and old H4 saved replay; Execution adapter, receiving, existing attribution and complete diagnostic catalog controls; published Receptor1.1.0; CPU0/1 one thread1GiBAS30s cap"
+  },
+  "initial_installed_payload": {
+    "scope": "Fresh task-owned venv over unchanged frozen W3 site-packages; local unpublished new PeptideMT wheel installed only here; no scientific providers invoked",
+    "steps": [
+      {
+        "stage": "venv",
+        "exit_code": 0,
+        "wall_seconds": 3.2752624549902976
+      },
+      {
+        "stage": "wheel-install",
+        "exit_code": 0,
+        "wall_seconds": 0.7701641710009426
+      },
+      {
+        "stage": "pip-check",
+        "exit_code": 0,
+        "wall_seconds": 0.46914044907316566
+      }
+    ],
+    "wheel_sha256": "d822cb3ae1555d7338652f925fad9a20c99600f8caeeb20a3e12cd60f2135a5f",
+    "wheel_members_identical_except_RECORD": 26,
+    "new_scientific_calls": 0,
+    "child_kernel_HWM_rss_bytes": 79015936
+  },
+  "final_installed_payload": {
+    "wheel_sha256": "18b1cb18b9662092203aad9c64d45bc0d61a862577297c13a664572dbdbc3e83",
+    "records": [
+      {
+        "prefix": "installed-worker",
+        "wheel_members_match_except_RECORD": 26,
+        "pip_check": "pass",
+        "wall_seconds": 1.2467502490617335
+      },
+      {
+        "prefix": "generation-worker",
+        "wheel_members_match_except_RECORD": 26,
+        "pip_check": "pass",
+        "wall_seconds": 1.144934356911108
+      }
+    ],
+    "reason": "Final source formatting and README metadata rebuild only; prior unpublished wheel retained separately",
+    "new_real_scientific_calls": 0
+  },
+  "saved_H4_replay": {
+    "schema": "peptidemt.hydramp_public_installed_replay@1",
+    "python": "3.14.10 | packaged by conda-forge | (main, Oct 26 2026, 11:35:38) [GCC 15.3.0]",
+    "prefix": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/installed-worker",
+    "peptidemt_origin": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/installed-worker/lib/python3.14/site-packages/peptidemt/__init__.py",
+    "version": "0.1.0+118.g1f8c444.dirty",
+    "wheel_sha256": "18b1cb18b9662092203aad9c64d45bc0d61a862577297c13a664572dbdbc3e83",
+    "published_test_receptor": "1.1.0",
+    "old_H4_receipts_and_results": [
+      {
+        "tag": "control",
+        "proposed": 4,
+        "eligible": 4,
+        "original_JSON_and_selection_exact": true
+      },
+      {
+        "tag": "seed_1001",
+        "proposed": 16,
+        "eligible": 15,
+        "original_JSON_and_selection_exact": true
+      },
+      {
+        "tag": "seed_1002",
+        "proposed": 16,
+        "eligible": 15,
+        "original_JSON_and_selection_exact": true
+      }
+    ],
+    "real_providers_imported": [],
+    "new_scientific_calls": 0,
+    "scope": "New installed local PeptideMT wheel data API and saved selector replay; no new generation/Macrel route qualification"
+  },
+  "actual_absent_engine_roundtrip": {
+    "schema": "peptidemt.hydramp_installed_absence_probe@1",
+    "failure": [
+      "dependency"
+    ],
+    "native_attempts": {},
+    "dependency_error": {
+      "failure": "dependency",
+      "cause_type": "RequiredDependencyError",
+      "cause_message": "The library 'hydramp_torch' is required for 'load'.\nConsult the provider installation instructions.\nDocumentation: https://github.com/uibcdf/peptidemt/blob/main/devguide/optional_engine_review.md Consult the recorded dependency installation guidance."
+    },
+    "attribution_status": "not-executed",
+    "structured_warnings": [],
+    "new_model_or_PCA_loads": 0
+  },
+  "approval_control_tests": {
+    "exit_code": 0,
+    "wall_seconds": 0.4680292238481343,
+    "new_model_PCA_or_provider_calls": 0,
+    "scope": "Two exact approval/budget controls; minimal7-package worker with published Receptor1.2.2"
+  },
+  "documentation": {
+    "stages": [
+      {
+        "builder": "html",
+        "exit_code": 0,
+        "wall_seconds": 1.9216901629697531
+      },
+      {
+        "builder": "doctest",
+        "exit_code": 0,
+        "wall_seconds": 1.5214660339988768
+      }
+    ],
+    "scope": "Sphinx tools from shared development profile with explicit exact installed consumer wheel import; no model/engine/artifact/network access",
+    "child_HWM_rss_bytes": 100610048,
+    "new_scientific_calls": 0
+  },
+  "generation_worker_preparation": {
+    "scope": "Task-owned isolated venv; explicit .pth includes only unchanged frozen dev3 site-packages. Unrelated shared site-packages excluded. No model/framework imported.",
+    "support_API_operator_copies": {
+      "depdigest/__init__.py": "401e1f2b69d68053bdf91b524eb9d876fa2839908ca2dc5df17e77d3a389b6b1",
+      "depdigest/cli.py": "b8a3ee15d711758a90be5b8514f130cef56d2bbe2e85583e85e3997d52cf432f",
+      "depdigest/_version.py": "3d055f96925d24311319fda0d41079387092ff92ad82d78446c7217e8481b6cb",
+      "depdigest/_smonitor.py": "02ac6e7ac53703a968a8a40b81ec7118e63fe02282aa23331fd3453a9bea1517",
+      "depdigest/__main__.py": "307299fda7b77d22c64cb51430ec75e5f59d78e9c948786afb3b2544fe45e4b7",
+      "depdigest/core/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "depdigest/core/config.py": "981c35cda2fa2686e2466f7b830462b12cc62d03f034a37540f8541cc250c6ba",
+      "depdigest/core/registry.py": "a96fb542fbcc618795f6e8733009df1d3c3250b75fe59f6ab7875998aa87e504",
+      "depdigest/core/decorator.py": "84f8d702a79e2d581bf349e26e268aac7575107938fc87fec6c941c2451d7119",
+      "depdigest/core/loader.py": "32e0e2604b5b3adaee609ada5ae193889a62a01959bf8c2d67dbdcf67465998c",
+      "depdigest/core/checker.py": "e8bdc38aeee71728b3cfb243ca066836a9dd3cdbf114c947f19ab807efc978ee",
+      "depdigest/utils/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "depdigest/utils/ast_tools.py": "b3a9a7bb60c835163355e6d986875e045c2927db1413fbe3f12f541f8d170fef",
+      "depdigest/_private/smonitor/__init__.py": "d83b0a1b2d3d1f0fe6e2d482c26c1a9a7efb8b11209b5d3aa4b5d27a67d1b4a7",
+      "depdigest/_private/smonitor/catalog.py": "507b4473899826529f4f9b6ecce419fe3ff463b9d997da48506803f30bbe50dd",
+      "depdigest/_private/smonitor/emitter.py": "0c438e1ed4f8127a718874db2f3ee48dec51b1557444dd0c60f3750a97e398f9",
+      "depdigest/_private/smonitor/meta.py": "a713c951f282fa56759443cd10c34943c69d0ba08d76a8dd26a7713b62c117cd",
+      "depdigest-0.15.1.dist-info/entry_points.txt": "26a068c1a1bf1f3649db863c3f528cfa43c319ca16a0bdffa7fb3ccf483fee4a",
+      "depdigest-0.15.1.dist-info/INSTALLER": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+      "depdigest-0.15.1.dist-info/METADATA": "cd5ff2857d688f5fd31c1036936916824f08de02360c16b7fbb8fa1ba3d67bbb",
+      "depdigest-0.15.1.dist-info/REQUESTED": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "depdigest-0.15.1.dist-info/WHEEL": "61532836a2b3111b7ec23519c09df7c41180c27165fb872a6d8913b566b88ad1",
+      "depdigest-0.15.1.dist-info/direct_url.json": "5ed0eb5977e20d06218ff13018eb8f714a058e1e3d2170f1c5d17db60ca82b07",
+      "depdigest-0.15.1.dist-info/RECORD": "7d26bf6f32d77c836696692ceda31448daeffdbd152888249182729244590a11",
+      "depdigest-0.15.1.dist-info/top_level.txt": "0fc50ef756def1c96a7c79dd307e122c1f131dc7611b83319c12a1eebe2c4ba5",
+      "depdigest-0.15.1.dist-info/licenses/LICENSE": "201cca3f4381a6fe589d0ee2a0f88092d8d01465744df6eda0a16ac8ec2c35fc",
+      "smonitor/validation.py": "106f24b1a376e41b5a72f6fb8f5900bcd5b32ca4c5ab53e269a11d58efc33f99",
+      "smonitor/__init__.py": "f60b1c2bff72dbbb70fe403e23908e62a8297f6190e18fdcac090092b84e6800",
+      "smonitor/bundle.py": "228374b0a5f14b26c2789143ad29b3c6c56cd5bb36d3cde41ccd34e30005604c",
+      "smonitor/docs_utils.py": "31d6a649e62bd10950f4542144886605ad202a7bc4a65d77378dcc35cc747dd7",
+      "smonitor/_diagnostics.py": "cc732d5f889e25a66168b600721057241730ed74b857edb818ccec8ac82b05e5",
+      "smonitor/cli.py": "a4d2a9166ef8fb93b994380c1ac490f7fa3f250ce5e0641a12e61b07dff99e5e",
+      "smonitor/_version.py": "d2493c79f789178d456486307864c9ca56e2cda5aba7d5b7a8defc4429425885",
+      "smonitor/pytest_policy.py": "2aaf3b1cf44dab46ada23beb2fd52ad7994f94ad369db8d69062d9ece13e47dc",
+      "smonitor/catalog.py": "ff9e04e9594797a6c1b35c65b8e21dccc9d96530f0fc48e3ebd1dca483f40ba7",
+      "smonitor/pytest_plugin.py": "8a6729063c5eb8c92d6f6182a4e554ee5ae4a98de8d820ef5f51a3bb388e37ca",
+      "smonitor/profiling.py": "47d2e1d4ee3a83364b256b0a9a12e21da887499e51b25d3f151842016683d176",
+      "smonitor/policy/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "smonitor/policy/engine.py": "b15cc0eea4a545795e5852c3560105ac9fd20efdc1d97225821292691ec8bb23",
+      "smonitor/templates/README.md": "88658d61af88ee6fc53bfa8a6e046b00bb4c9fb3222f9a41d6a85f728b66f87a",
+      "smonitor/templates/_smonitor.py": "4887dab158d203ac17e8544b5d1aa697fe1e99109d6934d13349c068cc9c4b6a",
+      "smonitor/handlers/json.py": "cd5edabe32ab5286dc81315249aac77b35fc5fe5233cdcebc36b9c56a3fc4098",
+      "smonitor/handlers/__init__.py": "f57a12db0943691cc477fd69d22d7eaac26e878c1ff66a2a5df89f35f136304d",
+      "smonitor/handlers/memory.py": "c12c37421cebaf6a574feabed4bff24f64df8237905bc9ec81293e9174b87543",
+      "smonitor/handlers/console.py": "4c0de3e1b2832ab8dc9f73fa6e899400d9da3136598b33510ee57b0263c17563",
+      "smonitor/handlers/file.py": "bf9fcad614065bacdf0b300c442c9723c7cffaddebd736ecc37d2335ac2d8c38",
+      "smonitor/emitters/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "smonitor/emitters/warnings.py": "14668db77954a6a00ae5807814f9c8d9c97f81c237729af43d5b5e62ca831bc0",
+      "smonitor/emitters/exceptions.py": "5719837614cde25784e2b58e48780a0a883f044b9acba22398de4c24a88da33d",
+      "smonitor/emitters/logging.py": "ff3bd66f2b449f0a237eed8fbaafe045cdb2a1ca4a1913e4dbefa76cacd3f351",
+      "smonitor/config/__init__.py": "0b4a603c4441f665b162d10b845f069f9e1f9cca542612c3c6dc143cb8cc560d",
+      "smonitor/config/discovery.py": "56a036bc65796a8da3a9f8dcf886f88b6b49717912e79c5f91d845731ac74b5f",
+      "smonitor/core/manager.py": "12b426f31d421049af3c43ecb129a68a3f4fe6bedf76dd5de3278b4251337687",
+      "smonitor/core/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "smonitor/core/fingerprint.py": "80f0c8377602c8ef3cb4dc71ce02b59dd0f57bc5ed52e2790c400af66ba37856",
+      "smonitor/core/human_summary.py": "1b7b548bc396ac1257a6ca769c61bb4021e3f44ee75c335a5b48a575c0d741aa",
+      "smonitor/core/context.py": "6959142b2b201663cc0f70422261c79b8dba91556f969559083c079b6cc889dd",
+      "smonitor/core/capture.py": "42207876c72666c5df87fb143180247be6c2dd80e6bb54bbb8acf06307a86966",
+      "smonitor/core/decorator.py": "83fd65f8163e3cca9768e5132fe6fa2516f8c8fb12f59a3fb78028a7d2d736f2",
+      "smonitor/core/identifiers.py": "48350ab1b1acff14eb950557935470ec2170c1bcc669dcbdca0b4c490e272ca8",
+      "smonitor/core/runtime.py": "7c2b9b7f9f1beca4e1f5b4e1d4c6f4ee123c4c9754e7754b4bde1577b30e7d21",
+      "smonitor/integrations/__init__.py": "2dcb2215de7a7fe694a26e95861c2daa90b3908345d190e19669d49dbcd53717",
+      "smonitor/integrations/diagnostic.py": "8a6065ff00b2e0e5068a74782b5a7352471c897848c031cb6bf0faaa9a312178",
+      "smonitor/integrations/depdigest.py": "eaaf62597aae74f795483e8353a8e83db2d1a310deedccb2de6a80f0a49c13b2",
+      "smonitor/integrations/provider.py": "dc51dc872c0164c42ce2b4e34fa6724ed31292991937c557c1cb86445b609f96",
+      "smonitor/integrations/molsysmt.py": "dff282f2606c36e815f85da43bf28d9b5bf566666a44c7ec66d4a400f1b26bbc",
+      "smonitor/integrations/core.py": "77f572afd7baa16b783a424fa3bc1a5debcf7e684461697b1e0d3a88afb6612d",
+      "smonitor/integrations/argdigest.py": "8ad55e939b7728123273cd47823e720d9badeba569b4e722cee60946b2f6bc16",
+      "smonitor-0.22.0.dist-info/entry_points.txt": "21231e06f33cb33bfc8d1a2ec98800d4d6977eacfa468dd475e6d351cf49594c",
+      "smonitor-0.22.0.dist-info/INSTALLER": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+      "smonitor-0.22.0.dist-info/METADATA": "3150f100e237e5929b45c83c79e537ffd7a00e39e09af31651bf9b0d86b63343",
+      "smonitor-0.22.0.dist-info/REQUESTED": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "smonitor-0.22.0.dist-info/WHEEL": "98e75747d0b7c0c568bfb71263c3d8f970b3a374a6996087bc642be5cb09a1aa",
+      "smonitor-0.22.0.dist-info/direct_url.json": "2717a0cb523fe5f90ee01ae66b6a8db435e715cfb6bb038545934bbe891b93cf",
+      "smonitor-0.22.0.dist-info/RECORD": "0a56addfa6181112730dfeed998ed4388c2497afae7d550c7d44e9b3b7d1b691",
+      "smonitor-0.22.0.dist-info/top_level.txt": "039385a9cdb7f6d47ae2fab205c9692400ca5481d9f2de7d25cd145b409f0d8c",
+      "smonitor-0.22.0.dist-info/licenses/LICENSE": "201cca3f4381a6fe589d0ee2a0f88092d8d01465744df6eda0a16ac8ec2c35fc"
+    },
+    "support_origin": "/home/liliana/repos@uibcdf/peptidemt/local_data/w3-20261028-hNmM4w/qualification-env/lib/python3.14/site-packages",
+    "inherited_qualified_runtime": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-comparison-qnbdpism/worker/lib/python3.14/site-packages",
+    "wheel_sha256": "d822cb3ae1555d7338652f925fad9a20c99600f8caeeb20a3e12cd60f2135a5f",
+    "pip_check": "pass after diagnosed inheritance correction; initial failure retained",
+    "new_model_PCA_descriptor_calls": 0,
+    "support_console_entrypoints_qualified": false
+  },
+  "initial_inheritance_diagnosis": [
+    {
+      "interpreter": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-comparison-qnbdpism/worker/bin/python",
+      "state": {
+        "prefix": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-comparison-qnbdpism/worker",
+        "base_prefix": "/home/liliana/Myopt/miniconda3/envs/molsyssuite@uibcdf_3.14",
+        "sys_path": [
+          "/home/liliana/Myopt/miniconda3/envs/molsyssuite@uibcdf_3.14/lib/python314.zip",
+          "/home/liliana/Myopt/miniconda3/envs/molsyssuite@uibcdf_3.14/lib/python3.14",
+          "/home/liliana/Myopt/miniconda3/envs/molsyssuite@uibcdf_3.14/lib/python3.14/lib-dynload",
+          "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-comparison-qnbdpism/worker/lib/python3.14/site-packages"
+        ]
+      }
+    },
+    {
+      "interpreter": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/generation-worker/bin/python",
+      "state": {
+        "prefix": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/generation-worker",
+        "base_prefix": "/home/liliana/Myopt/miniconda3/envs/molsyssuite@uibcdf_3.14",
+        "sys_path": [
+          "/home/liliana/Myopt/miniconda3/envs/molsyssuite@uibcdf_3.14/lib/python314.zip",
+          "/home/liliana/Myopt/miniconda3/envs/molsyssuite@uibcdf_3.14/lib/python3.14",
+          "/home/liliana/Myopt/miniconda3/envs/molsyssuite@uibcdf_3.14/lib/python3.14/lib-dynload",
+          "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/generation-worker/lib/python3.14/site-packages",
+          "/home/liliana/Myopt/miniconda3/envs/molsyssuite@uibcdf_3.14/lib/python3.14/site-packages",
+          "__editable__.argdigest-0.17.0+5.gcd9c4f3.finder.__path_hook__",
+          "__editable__.depdigest-0.15.1+8.g0884f0c.finder.__path_hook__",
+          "__editable__.elastnetmt-0.1.0.finder.__path_hook__",
+          "__editable__.lindelint-0.2.0.finder.__path_hook__",
+          "__editable__.molsysmt-0.23.0+322.g71fbe4f46.finder.__path_hook__",
+          "/home/liliana/repos@uibcdf/opencastp/src",
+          "/home/liliana/repos@uibcdf/peptidemt/src",
+          "__editable__.pharmacophoremt-0.4.0+29.g8e83a64.finder.__path_hook__",
+          "/home/liliana/repos@uibcdf/praxis/src",
+          "/home/liliana/repos@uibcdf/recorda/src",
+          "__editable__.sabueso-0.14.0+151.g177974d.finder.__path_hook__",
+          "__editable__.smonitor-0.22.0+3.gebdd054.finder.__path_hook__",
+          "__editable__.topomt-0.5.0+324.g5f6239f.dirty.finder.__path_hook__"
+        ]
+      }
+    }
+  ],
+  "initial_source_tests": {
+    "exit_code": 1,
+    "wall_seconds": 3.476368407951668,
+    "child_kernel_HWM_rss_bytes": 50855936,
+    "new_model_PCA_descriptor_Macrel_calls": 0,
+    "scope": "Guarded source adapter/artificial-process/real optional-attribution tests; CPU0/1 one numerical thread1GiBAS40s cap;published Receptor1.1.0"
+  },
+  "source_development_checkpoint": {
+    "exit_code": 0,
+    "wall_seconds": 1.9216228849254549,
+    "child_kernel_HWM_rss_bytes": 50343936,
+    "new_model_PCA_descriptor_Macrel_calls": 0,
+    "scope": "Guarded source adapter/artificial-process/real optional-attribution tests; CPU0/1 one numerical thread1GiBAS40s cap;published Receptor1.1.0"
+  },
+  "development_failures": "Initial source49pass/2fail: repeated capture used same snapshot ID (expected Ackredit deduplication), test patched wrong DepDigest private symbol. Corrected source53pass then final installed55pass including added full artificial foreign-process route/catalog. Initial docs underline warning fixed. Initial generation overlay inherited shared base, diagnosed and corrected only own prefix; both pip-check reports retained.",
+  "provider_proposal": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/evidence/hydramp_profile_owner_proposal.json",
+    "bytes": 3771,
+    "sha256": "58ee6731b35d2dab7a5d9fdb5585f16213bb31ea991eb88933473792b0d82f5b"
+  },
+  "new_real_model_PCA_descriptor_Macrel_calls": 0,
+  "real_authorization_present": false,
+  "real_model_attempt_present": false,
+  "scientific_acceptance": false,
+  "public_release_commit_push": false,
+  "retention_review": "2026-11-13",
+  "source_archive": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/prior-source-manifest.json",
+    "bytes": 5000,
+    "sha256": "26db87f150bd6c6e95bd699117697e140f6f6cc034a08c86ee83e560a1a78b84"
+  },
+  "sources": {
+    "src/peptidemt/hydramp.py": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/src/peptidemt/hydramp.py",
+      "bytes": 12825,
+      "sha256": "59e0f3db8f756f024525c11f3a958aaf8d67235778fc9350999bf15c501cde6a"
+    },
+    "src/peptidemt/_hydramp_worker.py": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/src/peptidemt/_hydramp_worker.py",
+      "bytes": 10717,
+      "sha256": "c2396f53ea7dfe738e0dd90e851194007e89a0e1b5344a7c7f7ffb88f4ef0752"
+    },
+    "src/peptidemt/_hydramp_process.py": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/src/peptidemt/_hydramp_process.py",
+      "bytes": 5117,
+      "sha256": "c0c28c1bf29750a96a1bfff748e0297064d9bef10133e08e5a0a9103bc392427"
+    },
+    "src/peptidemt/_hydramp_cli.py": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/src/peptidemt/_hydramp_cli.py",
+      "bytes": 149,
+      "sha256": "5fb5ee24580075fa9b9bc494e86eb24a06f0a3604079033d76f07c5c3707097a"
+    },
+    "src/peptidemt/_attribution.py": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/src/peptidemt/_attribution.py",
+      "bytes": 10525,
+      "sha256": "ee3011c7220dd497e6fd05af4820e666527936c1a474ba0b4b2b94ff01eb3484"
+    },
+    "src/peptidemt/_diagnostics.py": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/src/peptidemt/_diagnostics.py",
+      "bytes": 1608,
+      "sha256": "2b543e6cf674133eae91af3fe6a57dcb47c2bab316b5a6c406635fb9d03fb9a6"
+    },
+    "src/peptidemt/_depdigest.py": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/src/peptidemt/_depdigest.py",
+      "bytes": 889,
+      "sha256": "714c699978ccabfaee43db53d7f59162f720224bfe2423ef6f9dd2d6967012ad"
+    },
+    "src/peptidemt/_private/smonitor/catalog.py": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/src/peptidemt/_private/smonitor/catalog.py",
+      "bytes": 2500,
+      "sha256": "e6b864a1689052efb16ff669de1ef4454094c1c26b5b0dcdb46103fe76824cd9"
+    },
+    "src/peptidemt/__init__.py": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/src/peptidemt/__init__.py",
+      "bytes": 1368,
+      "sha256": "aaa2e37d7b9d72c98d1138e64c17b4ffe32d302a307c85061210a62aff27c674"
+    },
+    "tests/test_hydramp_execution.py": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/tests/test_hydramp_execution.py",
+      "bytes": 22038,
+      "sha256": "a6f00d120876554ed1f10f261ef6ae80559ec3e8e901ca7ddba59ba9e94ea7ee"
+    },
+    "devtools/hydramp_execution_qualification.py": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/devtools/hydramp_execution_qualification.py",
+      "bytes": 6811,
+      "sha256": "b33b08499badd4e68080429d6a3cfaa181eace3d71259a46c41b9667a5bfaad5"
+    },
+    "devtools/tests/test_hydramp_execution_qualification.py": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/devtools/tests/test_hydramp_execution_qualification.py",
+      "bytes": 1348,
+      "sha256": "45698d0d6f5722cea43965abc54892f96d57e3e15e8cd395e0267dc53c77b2c7"
+    }
+  },
+  "artifacts": {
+    "approval-controls-execution.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/approval-controls-execution.json",
+      "bytes": 202,
+      "sha256": "575f895cc94428a3fa4139e1678e95a5b35474eb922280b442aead00c82a7847"
+    },
+    "approval-controls-final-execution.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/approval-controls-final-execution.json",
+      "bytes": 95,
+      "sha256": "114ba662f04461f9944d7a70e5e93bcfe39bb87f7604d2fa7a2a276b2547d290"
+    },
+    "docs-artifact-final-build-execution.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/docs-artifact-final-build-execution.json",
+      "bytes": 443,
+      "sha256": "4d2ba4c771beb9648d7c419c45fd57c51e5097c867aeaf61c1c95a497dc9e085"
+    },
+    "docs-build-execution.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/docs-build-execution.json",
+      "bytes": 339,
+      "sha256": "ae5598f2dee58c8a223463f9731fd50f56e614141cbaba4edb608b5fe3bbfc8a"
+    },
+    "docs-final-build-execution.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/docs-final-build-execution.json",
+      "bytes": 443,
+      "sha256": "e41e16b11c94b63da49b15482678882ccd7b135b708e192dd3629f232a79adca"
+    },
+    "final-installed-artifact-preparation.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/final-installed-artifact-preparation.json",
+      "bytes": 587,
+      "sha256": "a83f764609d5ab4f046050c5d37e33669a92be2749d5d2bd689e8c116760b11d"
+    },
+    "generation-overlay-inheritance-diagnosis.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/generation-overlay-inheritance-diagnosis.json",
+      "bytes": 2516,
+      "sha256": "a5c06ab8271e89d9235cd1f31fc78c8e721f59e5ca0509e7e269875846e5638f"
+    },
+    "generation-profile.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/generation-profile.json",
+      "bytes": 9907,
+      "sha256": "acc814a0bf0e13cb2d2756a3b911c61e13ba41f8061e220ea8a59a14fae8aa31"
+    },
+    "generation-worker-preparation.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/generation-worker-preparation.json",
+      "bytes": 8858,
+      "sha256": "12e6b6115d30c52c55b1645571cb8279c241e0ff020d5eb6bdf2cf6f3d8918d8"
+    },
+    "host-snapshot.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/host-snapshot.json",
+      "bytes": 412,
+      "sha256": "6ef601ea2c3b5af0e8f7b4beb1f882d6fbcaf6cdd50ec926eb780e86a8a6e222"
+    },
+    "installed-absence-probe-final.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/installed-absence-probe-final.json",
+      "bytes": 603,
+      "sha256": "f556d30b5e701b211e54144c30d9d3995fea4e20c8d58c3204ad3980d4c2d235"
+    },
+    "installed-absence-probe.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/installed-absence-probe.json",
+      "bytes": 603,
+      "sha256": "f556d30b5e701b211e54144c30d9d3995fea4e20c8d58c3204ad3980d4c2d235"
+    },
+    "installed-final-tests-execution.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/installed-final-tests-execution.json",
+      "bytes": 383,
+      "sha256": "e493969c00c25f742c7b54612aeae509192d0b8e1804c1a51a9e1989c0d7686e"
+    },
+    "installed-preparation.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/installed-preparation.json",
+      "bytes": 703,
+      "sha256": "bc605274b51313861377cd28050790a7c7110d3fa25119a17593f2e1dbdc6f72"
+    },
+    "installed-replay.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/installed-replay.json",
+      "bytes": 1233,
+      "sha256": "aa697885d549d25521c5b4543f27940b852cccb0f305b12f29e31ee395c35f1b"
+    },
+    "installed-tests-execution.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/installed-tests-execution.json",
+      "bytes": 382,
+      "sha256": "51638c851f5e58059b4c9c2a5ab1b8664762f3a9d308ab8f9a5306e63e4939d0"
+    },
+    "live-plan.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/live-plan.json",
+      "bytes": 95905,
+      "sha256": "1d4679f27d06d95bd402b1f9239e8dc1fc5120a722da5057be526220985da665"
+    },
+    "prior-source-manifest.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/prior-source-manifest.json",
+      "bytes": 5000,
+      "sha256": "26db87f150bd6c6e95bd699117697e140f6f6cc034a08c86ee83e560a1a78b84"
+    },
+    "source-final-execution.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/source-final-execution.json",
+      "bytes": 301,
+      "sha256": "4ef463334fc02a7a3632de7e3985833546b6971c91497cb2cb431c6daa7ad636"
+    },
+    "source-initial-execution.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/source-initial-execution.json",
+      "bytes": 300,
+      "sha256": "db1fe55dfa554f3b7e9799498694cf6581d310f50359ca81b680d25138d4d3fd"
+    },
+    "wheel-build-execution.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/wheel-build-execution.json",
+      "bytes": 253,
+      "sha256": "419f8d294c8873d371c6c1d27a8ca06cd81adba6f349deeab9a53b4c56afef50"
+    },
+    "wheel-build-final-execution.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/wheel-build-final-execution.json",
+      "bytes": 253,
+      "sha256": "a752dbe0feb3a0103a8cf89c2e9c3a29c6cdd11ecc1f4c3691e7f69410498a18"
+    },
+    "tests/approval-controls-final.xml": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/tests/approval-controls-final.xml",
+      "bytes": 570,
+      "sha256": "281c7393ecad431abf49c22bb9e9d52581bb53409be9adb992e708b331c56c70"
+    },
+    "tests/approval-controls.xml": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/tests/approval-controls.xml",
+      "bytes": 570,
+      "sha256": "896635b0225acd922d0afc68b1aad4af092ac95ae0932e98a13ce4366311d62c"
+    },
+    "tests/installed-final.xml": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/tests/installed-final.xml",
+      "bytes": 6360,
+      "sha256": "cafb77b84e06c01a25d0cbdb9d71584cffc9fd8966fe783ca3d0b7e30260bc90"
+    },
+    "tests/installed.xml": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/tests/installed.xml",
+      "bytes": 6360,
+      "sha256": "f9acc4dddcec63aef82144d385ac24c8d6230a1e02d788bfb556b0428f853c3b"
+    },
+    "tests/source-final.xml": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/tests/source-final.xml",
+      "bytes": 7564,
+      "sha256": "34cd1967481777992eefad217f41101820da0f1948716718d8e572349b6dab75"
+    },
+    "tests/source-initial.xml": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/tests/source-initial.xml",
+      "bytes": 10523,
+      "sha256": "8255def334e0615997dbff86d33dc68f87a05cac98bc20ad408007bbe7c88e16"
+    },
+    "logs/approval-controls-final.log": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/logs/approval-controls-final.log",
+      "bytes": 32,
+      "sha256": "cdd7d7689df33e3773a9def0d9a9ad92ff636efc8a4558f39adbc3d581e69404"
+    },
+    "logs/approval-controls.log": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/logs/approval-controls.log",
+      "bytes": 32,
+      "sha256": "cdd7d7689df33e3773a9def0d9a9ad92ff636efc8a4558f39adbc3d581e69404"
+    },
+    "logs/docs-artifact-final-doctest.log": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/logs/docs-artifact-final-doctest.log",
+      "bytes": 2091,
+      "sha256": "961e9001a33d4bf010597556b3d607c44bf40a636ceef007bd9a163ec284360e"
+    },
+    "logs/docs-artifact-final-html.log": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/logs/docs-artifact-final-html.log",
+      "bytes": 2846,
+      "sha256": "c27612808f59007af1301993bf7559a8cc03f44952223210f79e702559885472"
+    },
+    "logs/docs-final-doctest.log": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/logs/docs-final-doctest.log",
+      "bytes": 2804,
+      "sha256": "2a6ce47608af8da96e9a77f87a6be7b7b3e84c350e28791cbe839ed19103f6f2"
+    },
+    "logs/docs-final-html.log": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/logs/docs-final-html.log",
+      "bytes": 3003,
+      "sha256": "8a73e39184f1e89c84a401e03a4d712046eb6a95a7780d4162cac3ed452f7f0f"
+    },
+    "logs/docs-html.log": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/logs/docs-html.log",
+      "bytes": 4323,
+      "sha256": "6faa0460f90898f4eafeb89ea1332080801efe17f0d1abdad7c70207dbda1866"
+    },
+    "logs/generation-worker-final-install.log": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/logs/generation-worker-final-install.log",
+      "bytes": 395,
+      "sha256": "24f6de002adb1b07ec1cbbb917ff0fb6b5567a445cbcfdbad82b33d5802f7843"
+    },
+    "logs/generation-worker-final-pip-check.log": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/logs/generation-worker-final-pip-check.log",
+      "bytes": 30,
+      "sha256": "9261363b733079a641c2e4cc9bc46ffa1d8336945a87f807b6cf68847dbc9b09"
+    },
+    "logs/generation-worker-install.log": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/logs/generation-worker-install.log",
+      "bytes": 582,
+      "sha256": "70524ff019f84e7efe2fb4fb19cd4fbf17f6abfb9d4cd8b719715474b07e018d"
+    },
+    "logs/generation-worker-pip-check-corrected.log": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/logs/generation-worker-pip-check-corrected.log",
+      "bytes": 296,
+      "sha256": "2a54d6d6817a12b2072d24a30b7db3b0d1e96ac74a3e75df52188be9972a46e2"
+    },
+    "logs/generation-worker-pip-check.log": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/logs/generation-worker-pip-check.log",
+      "bytes": 741,
+      "sha256": "dec7079d192a56904ddebedb4fe247ecb7a036dafbe6e1c2a02b30ca4d0143e9"
+    },
+    "logs/generation-worker-venv.log": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/logs/generation-worker-venv.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "logs/installed-final-tests.log": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/logs/installed-final-tests.log",
+      "bytes": 1266,
+      "sha256": "e3243ee40ab0e8d095d0f265c67d4ba6d67f8bbbfbea9c516726c89eb1803bbc"
+    },
+    "logs/installed-tests.log": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/logs/installed-tests.log",
+      "bytes": 1266,
+      "sha256": "fd558035f12d0a72eb3e844fef634ebfbc5974f97e5e29975142ef0d998b6a9f"
+    },
+    "logs/installed-worker-final-install.log": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/logs/installed-worker-final-install.log",
+      "bytes": 395,
+      "sha256": "24f6de002adb1b07ec1cbbb917ff0fb6b5567a445cbcfdbad82b33d5802f7843"
+    },
+    "logs/installed-worker-final-pip-check.log": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/logs/installed-worker-final-pip-check.log",
+      "bytes": 30,
+      "sha256": "9261363b733079a641c2e4cc9bc46ffa1d8336945a87f807b6cf68847dbc9b09"
+    },
+    "logs/pip-check.log": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/logs/pip-check.log",
+      "bytes": 296,
+      "sha256": "abd0cbb8d1b0be2dd46fa4158c910af97b89bbe3deaf6b34641907d0af82a6ca"
+    },
+    "logs/ruff_check.log": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/logs/ruff_check.log",
+      "bytes": 19,
+      "sha256": "82b3e6a6c090a57601d22943bd23fca9218d1031dbe5a7b754092f9a156b4f18"
+    },
+    "logs/ruff_format.log": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/logs/ruff_format.log",
+      "bytes": 408,
+      "sha256": "957e209a8fda8b3062dcd0a266f39403937760a9836c164335f4d6b62b05e897"
+    },
+    "logs/source-final.log": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/logs/source-final.log",
+      "bytes": 33,
+      "sha256": "657f48f5a4a03df619c0047319a3586a2ead5651c8afcd0229d1c33dd8044c40"
+    },
+    "logs/source-initial.log": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/logs/source-initial.log",
+      "bytes": 840,
+      "sha256": "690ab748565eafa8609f7e0f85bfd33d50cde9902bb6ebced1f33cec6dfde681"
+    },
+    "logs/venv.log": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/logs/venv.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "logs/wheel-build-final.log": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/logs/wheel-build-final.log",
+      "bytes": 725,
+      "sha256": "65347b4c15b54cbed8d5a6f3824997435aa2b42b87a3de8cdc7956f9056032a9"
+    },
+    "logs/wheel-build.log": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/logs/wheel-build.log",
+      "bytes": 725,
+      "sha256": "2320fbbc7ce09f108531981dc31a75bbde13d38a585e92233c38690d638331ee"
+    },
+    "logs/wheel-install.log": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/logs/wheel-install.log",
+      "bytes": 605,
+      "sha256": "7f251433b05d073c39711ed2543d49b2c9b822682e6c26da94df1755aec5135f"
+    },
+    "qualify_installed.py": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/qualify_installed.py",
+      "bytes": 3124,
+      "sha256": "5f8d2c3cce7d1f2f9a4d7d4f6ca158ffa12d1f37269f7da9561fa68d4e3fac8a"
+    },
+    "guarded_source_tests.py": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/guarded_source_tests.py",
+      "bytes": 923,
+      "sha256": "029a5e8cabd66930b491a7811d997c036e8e63d710d68f0427127170402d2988"
+    },
+    "absence_probe.py": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/absence_probe.py",
+      "bytes": 2214,
+      "sha256": "812e18ce75446dde116caf87a63b9a2c43207054a897ce0f1aa7c9fbd1524d51"
+    },
+    "build_docs.py": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/build_docs.py",
+      "bytes": 1338,
+      "sha256": "4d43031c02857126f690950d3ab8281f45318d0d9455d8e7db415f3f236c06a5"
+    },
+    "final-checks.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/final-checks.json",
+      "bytes": 1041,
+      "sha256": "bab7ea2782d32f94ee6520d531fbd45ec45dbab58a724ff0681f0ce804cf70c6"
+    },
+    "preparation-history/live-plan-before-runtime-freeze.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/preparation-history/live-plan-before-runtime-freeze.json",
+      "bytes": 57424,
+      "sha256": "48ba931fd9a0cd1d29cb8554abf7afbaf5442ff1be2215be1111bea301c3130a"
+    },
+    "preparation-history/live-plan-before-final-source-format.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/preparation-history/live-plan-before-final-source-format.json",
+      "bytes": 95905,
+      "sha256": "35f084034657887513867097d9798182387a006560bb8ede204c9d2af114516f"
+    },
+    "artifacts/prior-d822/peptidemt-0.1.0+118.g1f8c444.dirty-py3-none-any.whl": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/artifacts/prior-d822/peptidemt-0.1.0+118.g1f8c444.dirty-py3-none-any.whl",
+      "bytes": 41246,
+      "sha256": "d822cb3ae1555d7338652f925fad9a20c99600f8caeeb20a3e12cd60f2135a5f"
+    }
+  },
+  "final_checks": {
+    "ruff_check": {
+      "exit_code": 0,
+      "log_sha256": "82b3e6a6c090a57601d22943bd23fca9218d1031dbe5a7b754092f9a156b4f18"
+    },
+    "ruff_format": {
+      "exit_code": 0,
+      "log_sha256": "1797ba33db9c9ef754817e0f9ed6324336a2128b9e103101798411f3ccf41704"
+    },
+    "devguide_index": {
+      "exit_code": 0,
+      "log_sha256": "3a525cb88e38e62b2cd78f962eec311aeb1797c9a439b3c7d832b95b00a8d5b5"
+    },
+    "whitespace": {
+      "exit_code": 0,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "owner_whitespace": {
+      "exit_code": 0,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "legacy_preserved": {
+      "exit_code": 0,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "plan_preflight": {
+      "exit_code": 0,
+      "log_sha256": "7523a0f005554393e9b5d72ca219852620d3738af66c526394c1e4142d182fc0"
+    },
+    "relative_file_links": {
+      "checked": 248,
+      "missing": 0
+    },
+    "exact_package_python_files_in_both_workers": 22
+  },
+  "approval_control_tests_final": {
+    "exit_code": 0,
+    "model_or_PCA_loads": 0,
+    "tests": 2,
+    "published_receptor": "1.2.2"
+  },
+  "artifact_final_format_note": "Only formatting of the unchanged dependency-help URL and current README metadata changed in the final rebuild. Prior d822 wheel and all earlier reports retained. Final18b1 wheel reinstalled, all55installed tests repeated and passed; both pip checks, saved replay, actual absent-engine route and HTML/doctests pass."
+}

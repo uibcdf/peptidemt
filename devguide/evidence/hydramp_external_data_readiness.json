@@ -1,0 +1,1013 @@
+{
+  "schema": "peptidemt.hydramp_external_data_readiness@1",
+  "recorded_at_utc": "2026-11-05T22:25:16.056475+00:00",
+  "local_date": "2026-11-05",
+  "status": "bounded_model_free_gap_review_delivered_no_independent_same_endpoint_cohort",
+  "owner_issues": [
+    "uibcdf/hydramp#3",
+    "uibcdf/peptidemt#32"
+  ],
+  "commission": "Investigator continuation of proposed bounded data-audit follow-up; no implementation/model/endpoint/chemistry acceptance inferred",
+  "standing_resource_authority": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/evidence/shared_host_execution_delegation.json",
+    "bytes": 2282,
+    "sha256": "302702ca76abfedb2977c3071384ceb9d011ee3e30be8c793f12cca1aec4ed03"
+  },
+  "report": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/hydramp_external_data_readiness.md",
+    "bytes": 9762,
+    "sha256": "7c5b8ef938c4249bbc7908fa3482ffc1371a7ad8d01c7c92e0adf7e1ddf56f20"
+  },
+  "reused_evidence": [
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/evidence/hydramp_C0_data_audit.json",
+      "bytes": 46931,
+      "sha256": "570e87304ceb2240c716c327c48962d83b9578f0dd720d8ada440bd293b42df5"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/evidence/hydramp_historical_endpoint_review.json",
+      "bytes": 22309,
+      "sha256": "5de8747e3f8fdd6754c8830f82474181443c7a99ce847be9b7a6def9867cd2d2"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/evidence/hydramp_historical_real_execution.json",
+      "bytes": 107521,
+      "sha256": "b9b8b428bb8243b59bd4447dd0f94329c7724ab98363929a6ddd5ce07cd7dd99"
+    }
+  ],
+  "no_repeated_accepted_inventory_or_model_campaign": true,
+  "new_question": "Curation source/metadata, exact overlap of 46 new source strings against known thirteen corpora, and retained checkpoint exposure metadata; not an independent biological validation",
+  "sources": {
+    "curation": {
+      "repository": "szczurek-lab/ampdiffusion-starter-kit",
+      "commit": "1a862af9078e6b55c87d1fa576f3da81851ba94b",
+      "CSV": {
+        "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-data-gap-audit-icsxatz0/ampdiffusion-mic.csv",
+        "bytes": 46598,
+        "sha256": "3da5adb7814f00b5f331eedd3dc909c55ee66cc1561e1bf33d5c1753d30eb82d",
+        "git_blob": "19f2ec63b88e7b42c4dbbe904e1a1dcffb943ce6",
+        "url": "https://github.com/szczurek-lab/ampdiffusion-starter-kit/blob/1a862af9078e6b55c87d1fa576f3da81851ba94b/experimental/mic.csv"
+      },
+      "README": {
+        "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-data-gap-audit-icsxatz0/ampdiffusion-experimental-README.md",
+        "bytes": 2165,
+        "sha256": "7d617ca3aa10c6b96af69a1405b43d6d49b2edf8c41a35e1ec114f459963c7dd",
+        "git_blob": "8545159584a209acf86deb16251104448a01ca90"
+      },
+      "original_paper_DOI": "10.1016/j.celbio.2025.100183",
+      "primary_row_verification": "not_established; original article/PDF access returned 403",
+      "code_notice_source": "https://github.com/szczurek-lab/ampdiffusion-starter-kit/blob/1a862af9078e6b55c87d1fa576f3da81851ba94b/LICENSE",
+      "code_notice": "MIT; source-data rights not inferred from code notice"
+    },
+    "AMPSphere": {
+      "primary_article": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11666328/",
+      "DOI": "10.1016/j.cell.2024.05.013",
+      "role": "Source/assay screening only; no row cohort or catalogue acquired",
+      "reviewed_primary_passages": [
+        "Key resources table: E. coli ATCC11775 and MG1655-derived strains",
+        "Selection for synthesis and testing: predictor-filtered candidate sampling",
+        "MIC determination: molar reported endpoint and assay context"
+      ],
+      "admission": "No ATCC25922 endpoint established from inspected source; other assay/selection interpretation requires review"
+    },
+    "original_AMPDiffusion_repository": {
+      "repository": "programmablebio/amp-diffusion",
+      "observed_commit": "a59de9e95ef13d684d940025665c5783598367b9",
+      "inspection": "Recursive tree, not truncated; generated/evaluation CSV files are not substituted for experimental MIC source tables; no large files or models acquired"
+    }
+  },
+  "acquisition_identities": [
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-data-gap-audit-icsxatz0/ampdiffusion-mic.csv",
+      "bytes": 46598,
+      "sha256": "3da5adb7814f00b5f331eedd3dc909c55ee66cc1561e1bf33d5c1753d30eb82d",
+      "git_blob_sha1": "19f2ec63b88e7b42c4dbbe904e1a1dcffb943ce6"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-data-gap-audit-icsxatz0/ampdiffusion-experimental-README.md",
+      "bytes": 2165,
+      "sha256": "7d617ca3aa10c6b96af69a1405b43d6d49b2edf8c41a35e1ec114f459963c7dd",
+      "git_blob_sha1": "8545159584a209acf86deb16251104448a01ca90"
+    }
+  ],
+  "known_reference_archive": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-C0-audit-yqpagjub/sources/original_data.zip",
+    "bytes": 10676535,
+    "sha256": "1994b741a1dfef7842dda15bbdaa26877d23d0991583b9af7d3e1273964206c6"
+  },
+  "existing_source_cells": [
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-C0-audit-yqpagjub/paper-inspection/mic_classifier_training_prodecure-source-cells.json",
+      "bytes": 4602,
+      "sha256": "2bbba640b456eae969f2465a7c397df5ac5650bd775321974ff04870df2e8670"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-C0-audit-yqpagjub/paper-inspection/amp_classifier_training_procedure-source-cells.json",
+      "bytes": 1679,
+      "sha256": "63b8a80aa7e96803e98630fd1ad6789884e2627f0b8f27810b11c07d621dc311"
+    }
+  ],
+  "analysis_script": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-data-gap-audit-icsxatz0/audit_new_panel.py",
+    "bytes": 7993,
+    "sha256": "781027da8b907a1b76a3a93caf2c90b0dc4b9bd34df89635487b68f6eff898a9"
+  },
+  "analysis_declaration": {
+    "authority": "Investigator continuation commissions bounded completion of existing model-free data audit; D49 standing execution delegation",
+    "scope": "Source metadata and exact overlap for two candidate panels; reuse prior C0 inventory and source identities; no models, chemical transformations or new labels",
+    "command": [
+      "/home/liliana/Myopt/miniconda3/envs/molsyssuite@uibcdf_3.14/bin/python",
+      "-I",
+      "-B",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-data-gap-audit-icsxatz0/audit_new_panel.py"
+    ],
+    "limits": {
+      "min_available_memory_bytes": 8589934592,
+      "min_free_disk_bytes": 2147483648,
+      "threads": 1,
+      "wall_seconds": 180,
+      "rss_stop_bytes": 2147483648,
+      "max_output_bytes": 67108864
+    },
+    "neural_evaluations": 0,
+    "GPU": false,
+    "retention": {
+      "owner": "HydrAMP#3 / PeptideMT#32",
+      "review_by": "2026-11-19"
+    }
+  },
+  "analysis_output": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-data-gap-audit-icsxatz0/panel-audit.json",
+    "bytes": 21049,
+    "sha256": "5a8b96a3a6554d2eb23334a800bfedb6df4f87b43f30168f4d2c883c0230a04e"
+  },
+  "analysis_result": {
+    "schema": "peptidemt.hydramp_external_panel_metadata_audit@1",
+    "source_csv": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-data-gap-audit-icsxatz0/ampdiffusion-mic.csv",
+      "bytes": 46598,
+      "sha256": "3da5adb7814f00b5f331eedd3dc909c55ee66cc1561e1bf33d5c1753d30eb82d"
+    },
+    "records": 506,
+    "peptides": 46,
+    "strains": {
+      "Acinetobacter baumannii ATCC 19606": 46,
+      "Escherichia coli ATCC 11775": 46,
+      "Escherichia coli AIC221": 46,
+      "Escherichia coli AIC222 (CRE)": 46,
+      "Klebsiella pneumoniae ATCC 13883": 46,
+      "Pseudomonas aeruginosa PAO1": 46,
+      "Pseudomonas aeruginosa PA14": 46,
+      "Staphylococcus aureus ATCC 12600": 46,
+      "Staphylococcus aureus ATCC BAA-1556 (MRSA)": 46,
+      "Enterococcus faecalis ATCC 700802 (VRE)": 46,
+      "Enterococcus faecium ATCC 700221 (VRE)": 46
+    },
+    "source_consistency_checks": "46 distinct IDs/sequences; complete 46 x 11 grid; one sequence per ID",
+    "width_min": 12,
+    "width_max": 28,
+    "sequence_view_compatible_peptides": 35,
+    "incompatible_peptides": {
+      "AMP_diff2-4": [
+        "outside_hydramp_length_scope"
+      ],
+      "AMP_diff2-7": [
+        "outside_hydramp_length_scope"
+      ],
+      "AMP_diff2-14": [
+        "outside_hydramp_length_scope"
+      ],
+      "AMP_diff2-22": [
+        "outside_hydramp_length_scope"
+      ],
+      "AMP_diff2-24": [
+        "outside_hydramp_length_scope"
+      ],
+      "AMP_diff2-26": [
+        "outside_hydramp_length_scope"
+      ],
+      "AMP_diff2-27": [
+        "outside_hydramp_length_scope"
+      ],
+      "AMP_diff2-29": [
+        "outside_hydramp_length_scope"
+      ],
+      "AMP_diff2-33": [
+        "outside_hydramp_length_scope"
+      ],
+      "AMP_diff2-40": [
+        "outside_hydramp_length_scope"
+      ],
+      "AMP_diff2-41": [
+        "outside_hydramp_length_scope"
+      ]
+    },
+    "exact_overlap_with_known_pools": {
+      "all_peptides": 0,
+      "compatible_peptides": 0,
+      "overlaps_by_peptide_id": {},
+      "known_pool_members": [
+        "data/Uniprot_0_25_test.csv",
+        "data/Uniprot_0_25_train.csv",
+        "data/Uniprot_0_25_val.csv",
+        "data/dbaasp/dbaasp_clean.fasta",
+        "data/dbaasp/high_ecoli_activity.fasta",
+        "data/dbaasp/high_saureus_activity.fasta",
+        "data/dbaasp/low_ecoli_activity.fasta",
+        "data/dbaasp/low_saureus_activity.fasta",
+        "data/mic_data.csv",
+        "data/unlabelled_negative.csv",
+        "data/unlabelled_positive.csv",
+        "data/veltri_negative.csv",
+        "data/veltri_positive.csv"
+      ]
+    },
+    "ecoli_ATCC11775": {
+      "all_records": 46,
+      "sequence_view_compatible_records": 35,
+      "raw_relations_compatible": {
+        ">": 23,
+        "=": 12
+      },
+      "units": [
+        "uM"
+      ]
+    },
+    "unchanged_ATCC25922_records": 0,
+    "blank_metadata_fields": {
+      "modification": 506,
+      "medium": 0,
+      "cfu_per_ml": 506,
+      "ph": 506,
+      "salt": 506
+    },
+    "medium_values": {
+      "MHB": 506
+    },
+    "checkpoint_JSON_metadata_only": [
+      {
+        "relative": "layers/AMPExpandedDecoder_dense/layer.json",
+        "identity": {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/AMPExpandedDecoder_dense/layer.json",
+          "bytes": 493,
+          "sha256": "fd54ef80919e48ac652b3a41442ff60577d45886a0999e1b190b190ce3b222b5"
+        },
+        "observed_key_names": [
+          "activation",
+          "activity_regularizer",
+          "bias_constraint",
+          "bias_initializer",
+          "bias_regularizer",
+          "class_name",
+          "config",
+          "distribution",
+          "dtype",
+          "kernel_constraint",
+          "kernel_initializer",
+          "kernel_regularizer",
+          "mode",
+          "name",
+          "scale",
+          "seed",
+          "trainable",
+          "units",
+          "use_bias"
+        ]
+      },
+      {
+        "relative": "layers/AMPExpandedDecoder_latent_to_hidden/layer.json",
+        "identity": {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/AMPExpandedDecoder_latent_to_hidden/layer.json",
+          "bytes": 862,
+          "sha256": "f58fc896d14f9ff89c86380f761eb2a46235425d76c2c884db5f6e9b7f503d92"
+        },
+        "observed_key_names": [
+          "activation",
+          "activity_regularizer",
+          "bias_constraint",
+          "bias_initializer",
+          "bias_regularizer",
+          "class_name",
+          "config",
+          "distribution",
+          "dropout",
+          "dtype",
+          "gain",
+          "go_backwards",
+          "implementation",
+          "kernel_constraint",
+          "kernel_initializer",
+          "kernel_regularizer",
+          "mode",
+          "name",
+          "recurrent_activation",
+          "recurrent_constraint",
+          "recurrent_dropout",
+          "recurrent_initializer",
+          "recurrent_regularizer",
+          "reset_after",
+          "return_sequences",
+          "return_state",
+          "scale",
+          "seed",
+          "stateful",
+          "trainable",
+          "units",
+          "unroll",
+          "use_bias"
+        ]
+      },
+      {
+        "relative": "layers/AMPExpandedDecoder_lstm/layer.json",
+        "identity": {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/AMPExpandedDecoder_lstm/layer.json",
+          "bytes": 875,
+          "sha256": "e06daf2ee068163c4aba2473f4c8009d9613395e954ef3ff2404f6548b381be5"
+        },
+        "observed_key_names": [
+          "activation",
+          "activity_regularizer",
+          "bias_constraint",
+          "bias_initializer",
+          "bias_regularizer",
+          "class_name",
+          "config",
+          "distribution",
+          "dropout",
+          "dtype",
+          "gain",
+          "go_backwards",
+          "implementation",
+          "kernel_constraint",
+          "kernel_initializer",
+          "kernel_regularizer",
+          "mode",
+          "name",
+          "recurrent_activation",
+          "recurrent_constraint",
+          "recurrent_dropout",
+          "recurrent_initializer",
+          "recurrent_regularizer",
+          "return_sequences",
+          "return_state",
+          "scale",
+          "seed",
+          "stateful",
+          "trainable",
+          "unit_forget_bias",
+          "units",
+          "unroll",
+          "use_bias"
+        ]
+      },
+      {
+        "relative": "layers/AMPExpandedEncoder_dense_z_mean/layer.json",
+        "identity": {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/AMPExpandedEncoder_dense_z_mean/layer.json",
+          "bytes": 499,
+          "sha256": "2ce593bc8bf37e70dfb2d847885e25cbdafdb69b5f83a6a6a5138003c249f51a"
+        },
+        "observed_key_names": [
+          "activation",
+          "activity_regularizer",
+          "bias_constraint",
+          "bias_initializer",
+          "bias_regularizer",
+          "class_name",
+          "config",
+          "distribution",
+          "dtype",
+          "kernel_constraint",
+          "kernel_initializer",
+          "kernel_regularizer",
+          "mode",
+          "name",
+          "scale",
+          "seed",
+          "trainable",
+          "units",
+          "use_bias"
+        ]
+      },
+      {
+        "relative": "layers/AMPExpandedEncoder_dense_z_sigma/layer.json",
+        "identity": {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/AMPExpandedEncoder_dense_z_sigma/layer.json",
+          "bytes": 500,
+          "sha256": "3b7680483a9c6a0ccb13924d415916ea15cac319ab57f554c59fd6ae706b30e9"
+        },
+        "observed_key_names": [
+          "activation",
+          "activity_regularizer",
+          "bias_constraint",
+          "bias_initializer",
+          "bias_regularizer",
+          "class_name",
+          "config",
+          "distribution",
+          "dtype",
+          "kernel_constraint",
+          "kernel_initializer",
+          "kernel_regularizer",
+          "mode",
+          "name",
+          "scale",
+          "seed",
+          "trainable",
+          "units",
+          "use_bias"
+        ]
+      },
+      {
+        "relative": "layers/AMPExpandedEncoder_embedding/layer.json",
+        "identity": {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/AMPExpandedEncoder_embedding/layer.json",
+          "bytes": 427,
+          "sha256": "b4855dbc0ad751b53dcfe93c6273cddb63fa54705c84344624ab5694dcb48698"
+        },
+        "observed_key_names": [
+          "activity_regularizer",
+          "batch_input_shape",
+          "class_name",
+          "config",
+          "dtype",
+          "embeddings_constraint",
+          "embeddings_initializer",
+          "embeddings_regularizer",
+          "input_dim",
+          "input_length",
+          "mask_zero",
+          "maxval",
+          "minval",
+          "name",
+          "output_dim",
+          "seed",
+          "trainable"
+        ]
+      },
+      {
+        "relative": "layers/AMPExpandedEncoder_hidden/layer.json",
+        "identity": {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/AMPExpandedEncoder_hidden/layer.json",
+          "bytes": 1023,
+          "sha256": "9f72fec16911c82b92a309742813002d6393ee2ff52a2db88b6a986a86b3a361"
+        },
+        "observed_key_names": [
+          "activation",
+          "activity_regularizer",
+          "bias_constraint",
+          "bias_initializer",
+          "bias_regularizer",
+          "class_name",
+          "config",
+          "distribution",
+          "dropout",
+          "dtype",
+          "gain",
+          "go_backwards",
+          "implementation",
+          "kernel_constraint",
+          "kernel_initializer",
+          "kernel_regularizer",
+          "layer",
+          "merge_mode",
+          "mode",
+          "name",
+          "recurrent_activation",
+          "recurrent_constraint",
+          "recurrent_dropout",
+          "recurrent_initializer",
+          "recurrent_regularizer",
+          "reset_after",
+          "return_sequences",
+          "return_state",
+          "scale",
+          "seed",
+          "stateful",
+          "trainable",
+          "units",
+          "unroll",
+          "use_bias"
+        ]
+      },
+      {
+        "relative": "layers/AMPExpandedEncoder_hidden2/layer.json",
+        "identity": {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/AMPExpandedEncoder_hidden2/layer.json",
+          "bytes": 1024,
+          "sha256": "38c3f4ef6c45f070b05d5e0a284f6c3198129104146afffa6fedeb48e0b1e4cb"
+        },
+        "observed_key_names": [
+          "activation",
+          "activity_regularizer",
+          "bias_constraint",
+          "bias_initializer",
+          "bias_regularizer",
+          "class_name",
+          "config",
+          "distribution",
+          "dropout",
+          "dtype",
+          "gain",
+          "go_backwards",
+          "implementation",
+          "kernel_constraint",
+          "kernel_initializer",
+          "kernel_regularizer",
+          "layer",
+          "merge_mode",
+          "mode",
+          "name",
+          "recurrent_activation",
+          "recurrent_constraint",
+          "recurrent_dropout",
+          "recurrent_initializer",
+          "recurrent_regularizer",
+          "reset_after",
+          "return_sequences",
+          "return_state",
+          "scale",
+          "seed",
+          "stateful",
+          "trainable",
+          "units",
+          "unroll",
+          "use_bias"
+        ]
+      },
+      {
+        "relative": "layers/NoConvAMPClassifier_dense_output/layer.json",
+        "identity": {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/NoConvAMPClassifier_dense_output/layer.json",
+          "bytes": 496,
+          "sha256": "c871519c9b12666e4890e8242e81266dd0f9f9e051b980339a0da95c117cf3ed"
+        },
+        "observed_key_names": [
+          "activation",
+          "activity_regularizer",
+          "bias_constraint",
+          "bias_initializer",
+          "bias_regularizer",
+          "class_name",
+          "config",
+          "distribution",
+          "dtype",
+          "kernel_constraint",
+          "kernel_initializer",
+          "kernel_regularizer",
+          "mode",
+          "name",
+          "scale",
+          "seed",
+          "trainable",
+          "units",
+          "use_bias"
+        ]
+      },
+      {
+        "relative": "layers/NoConvAMPClassifier_embedding/layer.json",
+        "identity": {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/NoConvAMPClassifier_embedding/layer.json",
+          "bytes": 423,
+          "sha256": "a27f20c6683d19dc9a6b7048acc61b90c1c764e78ee49f7bd803693006744c86"
+        },
+        "observed_key_names": [
+          "activity_regularizer",
+          "batch_input_shape",
+          "class_name",
+          "config",
+          "dtype",
+          "embeddings_constraint",
+          "embeddings_initializer",
+          "embeddings_regularizer",
+          "input_dim",
+          "input_length",
+          "mask_zero",
+          "maxval",
+          "minval",
+          "name",
+          "output_dim",
+          "seed",
+          "trainable"
+        ]
+      },
+      {
+        "relative": "layers/NoConvAMPClassifier_lstm1/layer.json",
+        "identity": {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/NoConvAMPClassifier_lstm1/layer.json",
+          "bytes": 870,
+          "sha256": "8b4fec41b7ce7d412f6474287062274f7e2a04705bb7bb5ab30f2252d375fa6a"
+        },
+        "observed_key_names": [
+          "activation",
+          "activity_regularizer",
+          "bias_constraint",
+          "bias_initializer",
+          "bias_regularizer",
+          "class_name",
+          "config",
+          "distribution",
+          "dropout",
+          "dtype",
+          "gain",
+          "go_backwards",
+          "implementation",
+          "kernel_constraint",
+          "kernel_initializer",
+          "kernel_regularizer",
+          "mode",
+          "name",
+          "recurrent_activation",
+          "recurrent_constraint",
+          "recurrent_dropout",
+          "recurrent_initializer",
+          "recurrent_regularizer",
+          "return_sequences",
+          "return_state",
+          "scale",
+          "seed",
+          "stateful",
+          "trainable",
+          "unit_forget_bias",
+          "units",
+          "unroll",
+          "use_bias"
+        ]
+      },
+      {
+        "relative": "layers/NoConvAMPClassifier_lstm2/layer.json",
+        "identity": {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/NoConvAMPClassifier_lstm2/layer.json",
+          "bytes": 872,
+          "sha256": "0290137b5c1ac975fabda901e970ead6e3529e64e3706e08bbaae2c63ea21e90"
+        },
+        "observed_key_names": [
+          "activation",
+          "activity_regularizer",
+          "bias_constraint",
+          "bias_initializer",
+          "bias_regularizer",
+          "class_name",
+          "config",
+          "distribution",
+          "dropout",
+          "dtype",
+          "gain",
+          "go_backwards",
+          "implementation",
+          "kernel_constraint",
+          "kernel_initializer",
+          "kernel_regularizer",
+          "mode",
+          "name",
+          "recurrent_activation",
+          "recurrent_constraint",
+          "recurrent_dropout",
+          "recurrent_initializer",
+          "recurrent_regularizer",
+          "return_sequences",
+          "return_state",
+          "scale",
+          "seed",
+          "stateful",
+          "trainable",
+          "unit_forget_bias",
+          "units",
+          "unroll",
+          "use_bias"
+        ]
+      },
+      {
+        "relative": "layers/VeltriAMPClassifier_convolution/layer.json",
+        "identity": {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/VeltriAMPClassifier_convolution/layer.json",
+          "bytes": 600,
+          "sha256": "768a96102464a545ca4e304a9dade57e133a8e1c41b0f6a43e8d2ac897f37b66"
+        },
+        "observed_key_names": [
+          "activation",
+          "activity_regularizer",
+          "bias_constraint",
+          "bias_initializer",
+          "bias_regularizer",
+          "class_name",
+          "config",
+          "data_format",
+          "dilation_rate",
+          "distribution",
+          "dtype",
+          "filters",
+          "kernel_constraint",
+          "kernel_initializer",
+          "kernel_regularizer",
+          "kernel_size",
+          "mode",
+          "name",
+          "padding",
+          "scale",
+          "seed",
+          "strides",
+          "trainable",
+          "use_bias"
+        ]
+      },
+      {
+        "relative": "layers/VeltriAMPClassifier_dense_output/layer.json",
+        "identity": {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/VeltriAMPClassifier_dense_output/layer.json",
+          "bytes": 488,
+          "sha256": "d0aa718372f67b401b8c4010aab55ea7af59ee64b6226310d92919769791efc4"
+        },
+        "observed_key_names": [
+          "activation",
+          "activity_regularizer",
+          "bias_constraint",
+          "bias_initializer",
+          "bias_regularizer",
+          "class_name",
+          "config",
+          "distribution",
+          "dtype",
+          "kernel_constraint",
+          "kernel_initializer",
+          "kernel_regularizer",
+          "mode",
+          "name",
+          "scale",
+          "seed",
+          "trainable",
+          "units",
+          "use_bias"
+        ]
+      },
+      {
+        "relative": "layers/VeltriAMPClassifier_embedding/layer.json",
+        "identity": {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/VeltriAMPClassifier_embedding/layer.json",
+          "bytes": 423,
+          "sha256": "33de0c36207f92d7cb5046a24ea9ed604202f076dcd91e2d55c59fda630ee2da"
+        },
+        "observed_key_names": [
+          "activity_regularizer",
+          "batch_input_shape",
+          "class_name",
+          "config",
+          "dtype",
+          "embeddings_constraint",
+          "embeddings_initializer",
+          "embeddings_regularizer",
+          "input_dim",
+          "input_length",
+          "mask_zero",
+          "maxval",
+          "minval",
+          "name",
+          "output_dim",
+          "seed",
+          "trainable"
+        ]
+      },
+      {
+        "relative": "layers/VeltriAMPClassifier_lstm/layer.json",
+        "identity": {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/layers/VeltriAMPClassifier_lstm/layer.json",
+          "bytes": 872,
+          "sha256": "ad0a8aaea7c34b24bb1e06996cadddc9b30f059fc4833f61993128fff110996c"
+        },
+        "observed_key_names": [
+          "activation",
+          "activity_regularizer",
+          "bias_constraint",
+          "bias_initializer",
+          "bias_regularizer",
+          "class_name",
+          "config",
+          "distribution",
+          "dropout",
+          "dtype",
+          "gain",
+          "go_backwards",
+          "implementation",
+          "kernel_constraint",
+          "kernel_initializer",
+          "kernel_regularizer",
+          "mode",
+          "name",
+          "recurrent_activation",
+          "recurrent_constraint",
+          "recurrent_dropout",
+          "recurrent_initializer",
+          "recurrent_regularizer",
+          "return_sequences",
+          "return_state",
+          "scale",
+          "seed",
+          "stateful",
+          "trainable",
+          "unit_forget_bias",
+          "units",
+          "unroll",
+          "use_bias"
+        ]
+      },
+      {
+        "relative": "model_config.json",
+        "identity": {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-20261029-r2h9y9z7/artifacts/checkpoint/model/model_config.json",
+          "bytes": 543,
+          "sha256": "50b89706c0c8fdc92b69c2e846719df7e57101986c7014ca330ba7d4a8f86d44"
+        },
+        "observed_key_names": [
+          "amp_config_dict",
+          "decoder_config_dict",
+          "encoder_config_dict",
+          "gumbel_temperature",
+          "hidden_dim",
+          "input_shape",
+          "latent_dim",
+          "mic_config_dict",
+          "name",
+          "output_dim",
+          "output_len",
+          "type"
+        ]
+      }
+    ],
+    "owner_reader": {
+      "molsysmt_version": "0.23.0+322.g71fbe4f46",
+      "molsysmt_import_origin": "/home/liliana/repos@uibcdf/molsysmt/molsysmt/__init__.py",
+      "public_reader": {
+        "path": "/home/liliana/repos@uibcdf/molsysmt/molsysmt/form/file_fasta/parse_records.py",
+        "bytes": 3160,
+        "sha256": "f65acb70b9ca631a6ad0bdc1b1eb7b36f82e30e7069a0779ba2a67c5766255b1"
+      },
+      "transport": {
+        "path": "/home/liliana/repos@uibcdf/peptidemt/src/peptidemt/inputs.py",
+        "bytes": 5827,
+        "sha256": "0d56b4089d95fadeda2b1f9152a0e8520ee8d2d4c6ee8efbae49bf2344e07b4e"
+      }
+    },
+    "scope": {
+      "model_imports": false,
+      "model_or_PCA_parameter_reads": false,
+      "native_encodings": false,
+      "new_class_labels_or_endpoint": false,
+      "mass_or_unit_conversion": false,
+      "normalization_truncation_alignment_fragment_sampling": false,
+      "scientific_or_chemical_admission": false,
+      "homology_or_checkpoint_independence_claim": false
+    },
+    "runtime": {
+      "python": "3.14.7 | packaged by conda-forge | (main, Sep  2 2026, 21:08:32) [GCC 15.3.0]",
+      "cpu_ids": [
+        0,
+        1
+      ],
+      "numerical_threads": 1,
+      "elapsed_seconds": 2.1276835571043193,
+      "kernel_peak_RSS_bytes": 236154880,
+      "denied_dispatch": []
+    }
+  },
+  "analysis_supervision": {
+    "started": true,
+    "returncode": 0,
+    "failure": null,
+    "wall_seconds": 2.6176875811070204,
+    "peak_sampled_process_tree_rss_bytes": 255660032,
+    "retained_output_bytes": 99140,
+    "retry": false,
+    "rss_scope": "supervisor_and_descendants"
+  },
+  "native_analysis_exit_code": 0,
+  "checkpoint_exposure_disposition": "Seventeen inspected JSON configurations describe architecture/layer/init fields, without fitting-row, derived-negative-fragment or component-specific split ledger; no assertion about all other possible original records",
+  "source_access_limits": [
+    {
+      "surface": "Publisher article HTML",
+      "url": "https://www.sciencedirect.com/science/article/pii/S3050562325001746",
+      "observed_failure": "HTTP403"
+    },
+    {
+      "surface": "Publisher PDF",
+      "url": "https://www.cell.com/cell-biomaterials/pdf/S3050-5623(25)00174-6.pdf",
+      "observed_failure": "HTTP403"
+    },
+    {
+      "surface": "Crossref metadata via web reader",
+      "url": "https://api.crossref.org/works/10.1016/j.celbio.2025.100183",
+      "observed_failure": "URL not accessible through reader"
+    },
+    {
+      "surface": "Local investigator papers",
+      "path": "/home/liliana/amp_papers",
+      "finding": "Only four prior HydrAMP/Deep_AMP PDFs present; no new AMP-Diffusion paper"
+    }
+  ],
+  "source_use": "Private retained research copy and public source-linked summaries only. Curation claims paper CC BY4; primary table transcription/chemistry/full source terms remain unverified. No raw candidate or archive redistribution",
+  "cohort_disposition": {
+    "same_ATCC25922_endpoint_new_rows": 0,
+    "external_ATCC11775_candidate_sequence_views": 35,
+    "fully_qualified_independent_new_cohort": false,
+    "all_nonoverlapping_strings_not_asserted_independent": true,
+    "new_endpoint_labels_or_threshold_selected": false,
+    "requires_scientific_review": [
+      "Primary source/chemistry/assay verification",
+      "Different strain/estimand and reported-molar endpoint policy",
+      "Exposure and supported relatedness policy",
+      "Frozen cohort and prospective metrics"
+    ]
+  },
+  "operations": {
+    "neural_evaluations": 0,
+    "model_or_PCA_parameter_reads": 0,
+    "native_encoding_calls": 0,
+    "molecular_transformations_or_alignment": 0,
+    "mass_or_unit_conversions": 0,
+    "training": false,
+    "GPU": false,
+    "package_installation": false,
+    "new_issues_or_external_contact": false,
+    "accepted_bundles_or_M1_M8_selectors_changed": false
+  },
+  "provider_review": {
+    "MolSysMT": {
+      "molsysmt_version": "0.23.0+322.g71fbe4f46",
+      "molsysmt_import_origin": "/home/liliana/repos@uibcdf/molsysmt/molsysmt/__init__.py",
+      "public_reader": {
+        "path": "/home/liliana/repos@uibcdf/molsysmt/molsysmt/form/file_fasta/parse_records.py",
+        "bytes": 3160,
+        "sha256": "f65acb70b9ca631a6ad0bdc1b1eb7b36f82e30e7069a0779ba2a67c5766255b1"
+      },
+      "transport": {
+        "path": "/home/liliana/repos@uibcdf/peptidemt/src/peptidemt/inputs.py",
+        "bytes": 5827,
+        "sha256": "0d56b4089d95fadeda2b1f9152a0e8520ee8d2d4c6ee8efbae49bf2344e07b4e"
+      }
+    },
+    "missing_reusable_owner_capability_demonstrated": false,
+    "external_curation_limitations_reported_in_own_issues_only": true,
+    "generic_infrastructure_added": false
+  },
+  "workspace": {
+    "head": "1f8c444e4619499cae8ad9970122c5f40adf6127",
+    "profile": "molsyssuite@uibcdf_3.14",
+    "host": {
+      "available_RAM_bytes": 15596175360,
+      "loadavg": [
+        2.4091796875,
+        2.5146484375,
+        2.41259765625
+      ],
+      "free_workspace_bytes": 2518593703936,
+      "scope": "model-free source/provenance/assay/chemistry review; no model imports or inference"
+    },
+    "suite_status": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-data-gap-audit-icsxatz0/suite-status.json",
+      "bytes": 19093,
+      "sha256": "34da3f4f028730e0da555bbae40bcc65eb22c398d95bc3469b377e9144ace3de"
+    },
+    "suite_status_exit_code": 1,
+    "suite_summary": [
+      {
+        "repository": "uibcdf/peptidemt",
+        "initiative": "",
+        "root": "/home/liliana/repos@uibcdf/peptidemt",
+        "branch": "main",
+        "head": "1f8c444e4619",
+        "upstream": "origin/main",
+        "ahead": 0,
+        "behind": 0,
+        "error": "",
+        "healthy": false,
+        "state": "attention",
+        "worktree_entries": 302
+      },
+      {
+        "repository": "uibcdf/molsysmt",
+        "initiative": "stabilization",
+        "root": "/home/liliana/repos@uibcdf/molsysmt",
+        "branch": "main",
+        "head": "71fbe4f46d3c",
+        "upstream": "origin/main",
+        "ahead": 0,
+        "behind": 111,
+        "error": "",
+        "healthy": false,
+        "state": "attention",
+        "worktree_entries": 0
+      }
+    ],
+    "disposition": "Preserve dirty PeptideMT and clean/behind MolSysMT; no merge/reset/stash, pull, sibling changes, installation, commit or push",
+    "canonical_guide": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/MOLSYSSUITE_GUIDE.md",
+      "bytes": 69263,
+      "sha256": "850a98f0757a18734b328332c88e4622f60bdef097148a1fd59b9f009846bfe4"
+    },
+    "canonical_bytes_equal": true
+  },
+  "retention": {
+    "owner": "HydrAMP#3 / PeptideMT#32",
+    "task": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-data-gap-audit-icsxatz0",
+    "review_by": "2026-11-19"
+  }
+}

@@ -256,3 +256,45 @@ assert 'ackredit' not in sys.modules
         cwd=tmp_path,
         check=True,
     )
+
+
+def test_analogue_completed_scope_captures_actual_operations_without_pca_or_descriptors():
+    from peptidemt._attribution import hydramp_attribution
+
+    state = {
+        "completed": [
+            "native_encoding",
+            "encoder_loading",
+            "checkpoint_loading",
+            "native_encoder_scale",
+            "native_prototype_scoring",
+            "native_encoder_mean",
+            "native_decoding",
+            "native_generated_scoring",
+            "native_sampling",
+            "native_analogue",
+        ],
+        "runtime": {
+            "versions": {
+                "hydramp-torch": "0.0.0.dev6",
+                "numpy": "2.4.6",
+                "torch": "2.15.0+cpu",
+            },
+            "source_commit": "01" * 20,
+        },
+    }
+    result = hydramp_attribution(
+        state, "controlled-analogue-attribution", analogue=True
+    )
+    assert result["status"] == "captured" and result["ackredit"]
+    software = {
+        entry["item"]["title"]: entry
+        for entry in result["bibliography"]
+        if "executed_software" in entry["roles"]
+    }
+    assert {"PeptideMT", "hydramp-torch", "NumPy", "PyTorch"} <= set(software)
+    assert "modlAMP" not in software
+    assert "native_sampling" in software["NumPy"]["context"]["completed_operations"]
+    assert (
+        "native_encoder_scale" in software["PyTorch"]["context"]["completed_operations"]
+    )

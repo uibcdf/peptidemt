@@ -1,0 +1,28 @@
+{
+  "schema": "peptidemt.hydramp_amp_trace_execution_issue_updates@1",
+  "date": "2026-11-03",
+  "owner_issue": "uibcdf/hydramp#1",
+  "consumer_issue": "uibcdf/peptidemt#8",
+  "exact_bodies_verified": true,
+  "comments": [
+    {
+      "id": 6612701937,
+      "url": "https://github.com/uibcdf/hydramp/issues/1#issuecomment-6612701937",
+      "created_at": "2026-11-03T18:53:02Z",
+      "body_sha256": "1bf1ef010261fe430d1cb9438cd9d7a2a64006cc0546595d862ea5865c277f1f"
+    },
+    {
+      "id": 6612708223,
+      "url": "https://github.com/uibcdf/peptidemt/issues/8#issuecomment-6612708223",
+      "created_at": "2026-11-03T18:53:22Z",
+      "body_sha256": "71f0eadc24bf916d30eb405162a58a77ce407935311a6bda0c076f727177b771"
+    }
+  ],
+  "owner_checklist": {
+    "url": "https://github.com/uibcdf/hydramp/issues/1",
+    "updated_at": "2026-11-03T18:53:36Z",
+    "body_sha256": "31f0b79c2d977cd166a62c85ed16e03742cbbc204f828f01cf1495953fb5e3e2"
+  },
+  "scope": "Only investigator-owned repositories; raw sequences/arrays/weights not disclosed.",
+  "execution_receipt_sha256": "95ab7aea5989cc8cd55da3891a9f937d6ebd22c989ad62964029d7e86d2561b7"
+}

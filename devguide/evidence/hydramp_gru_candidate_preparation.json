@@ -1,0 +1,112 @@
+{
+  "date": "2026-10-30",
+  "issue": "uibcdf/peptidemt#8",
+  "status": "Separate candidate built/installed/synthetically checked; no real candidate model load or forward; single-forward authorization pending.",
+  "branch": "peptidemt-pytorch-gru-layout",
+  "base_commit": "6590d2f4c2963f25d30669052a4c4a857e0e7279",
+  "worktree": "/home/liliana/repos@uibcdf/hydramp/local_data/pytorch-gru-layout",
+  "task_directory": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-gru-candidate-onrd97e8",
+  "candidate_change": {
+    "scope": "Candidate only; no real model validation yet",
+    "old_worktree": "/home/liliana/repos@uibcdf/hydramp/local_data/pytorch-port",
+    "candidate_worktree": "/home/liliana/repos@uibcdf/hydramp/local_data/pytorch-gru-layout",
+    "old_file_sha256": "7059207b81fcf823e084db27bc189f8174f88e5173230b750b5c4ed080dbf94e",
+    "candidate_file_sha256": "2abbbeade9ec23dd5db80c119cbe24411764b88e2b1d8d4555e414274e018f54",
+    "candidate_change": "Combine GRU recurrent update/reset projections as in Keras implementation2; no equation/weight/dtype/tolerance change. Root cause/effect not established until separate validation."
+  },
+  "preserved_original_worktree": "/home/liliana/repos@uibcdf/hydramp/local_data/pytorch-port",
+  "model_and_license_preservation": "Original amp and MIT licence identical to frozen upstream in both worktrees; dev0 core milestone input hashes remain intact.",
+  "version": "0.0.0.dev1",
+  "wheel": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-gru-candidate-onrd97e8/artifacts/hydramp_torch-0.0.0.dev1-py3-none-any.whl",
+    "bytes": 7933,
+    "sha256": "1ea26260899236549d77cb36a206c55e91e2cf6e9080d1fa9a1a5369c1718fc8"
+  },
+  "external_versions_unchanged": 17,
+  "native_dependency_check_exit": 0,
+  "installed_wheel_payload_verified": 7,
+  "validation_plan_path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-gru-candidate-onrd97e8/validation-plan.json",
+  "validation_plan": {
+    "bytes": 25422,
+    "sha256": "9ebb32814d91e05a94a7a879eb918a0b86230e676d5634a39e53eb7f0f700396"
+  },
+  "budget": {
+    "workers": 1,
+    "concurrent_workers": 1,
+    "cpu_affinity": [
+      0,
+      1
+    ],
+    "native_threads": 1,
+    "nice": 10,
+    "address_space_bytes": 8589934592,
+    "rss_stop_bytes": 2147483648,
+    "minimum_mem_available_bytes": 8589934592,
+    "worker_wall_seconds": 180,
+    "aggregate_worker_wall_seconds": 180,
+    "output_stop_bytes": 134217728,
+    "minimum_free_disk_bytes": 1073741824,
+    "gpu": false,
+    "network": false,
+    "retries": 0,
+    "legacy_model_constructions": 0,
+    "torch_model_constructions": 1,
+    "pca_pickle_loads": 0,
+    "pca_coefficient_exports": 0,
+    "pca_inverse_transforms_per_worker": 0,
+    "decoder_evaluations_per_worker": 1,
+    "amp_evaluations_per_worker": 0,
+    "mic_evaluations_per_worker": 0,
+    "rows_per_network_evaluation": 12,
+    "network_evaluations_total": 1,
+    "unconstrained_generation_calls": 0,
+    "descriptor_calls": 0,
+    "macrel_calls": 0,
+    "task_ram_budget_bytes": 4000000000,
+    "task_ram_budget_implementation": "One model worker at a time, sampled worker RSS stop at 2 GiB; small stdlib supervisor measured separately. The unchanged 8 GiB virtual address-space ceiling is not a RAM allocation."
+  },
+  "contract": {
+    "candidate": "Isolated dev1 artifact: GRU update/reset recurrent products combined to match Keras implementation2; same equations/weights/dtype.",
+    "evaluation": "One candidate decoder forward on the same saved twelve conditioned rows; capture four existing intermediates in that single call.",
+    "reference": "Retained native trace, whose endpoint was bitwise equal to the original canonical output. No new TF/PCA/head run.",
+    "pass": "Unchanged probability tolerance and exact original tokens/strings. Intermediate metrics are diagnostic only; no scientific acceptance.",
+    "no_retry": "One attempt; report failure without widening tolerance or starting another model run."
+  },
+  "prior_trace_receipt": {
+    "bytes": 16663,
+    "sha256": "49fa624ed55ad620736abc20c1f481da5c5b16014ecdb268707b60683b827c38"
+  },
+  "reference_trace": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-decoder-trace-2j1w0gcl/legacy-trace.npz",
+    "bytes": 250624,
+    "sha256": "0834a2517ed4cd9d4659f996b7aa24a6853b6ba30a0d01411465c37794e052b6"
+  },
+  "checks": {
+    "build": "passed offline using retained cache",
+    "exact_wheel_install": "passed in new isolated worker",
+    "native_closure": "18 compatible installed distributions",
+    "synthetic_pytest": {
+      "exit": 0,
+      "passed": 29,
+      "skipped": 0,
+      "failed": 0,
+      "scope": "25 artificial core checks, two trace capture/restoration checks, two finite single-worker control checks; no real pretrained artifact read."
+    },
+    "preflight": "Byte-only passed; no real candidate model deserialized.",
+    "source_change_scope": "Only scientific-code delta is joint recurrent update/reset matrix product in reset-before GRU. Same equations, weight arrays, dtype, activation, condition handling and numerical criterion. Metadata/control tests are separate preparation changes."
+  },
+  "real_candidate_execution": {
+    "pretrained_model_loads": 0,
+    "decoder_forwards": 0,
+    "pca_loads": 0,
+    "head_forwards": 0,
+    "macrel_calls": 0,
+    "gpu_computation": false,
+    "retries": 0
+  },
+  "interpretation": "Candidate aligns the observed Keras operation layout. It is not proven to resolve the error until the exact-artifact single-forward comparison; original failure and unresolved root cause preserved.",
+  "pending": "Explicit authorization of the new candidate artifact and one decoder forward on twelve retained inputs under the same 4 GB envelope; no new native/PCA/head run.",
+  "schema": "peptidemt.hydramp_gru_candidate_preparation@1",
+  "producer_record": "devguide/evidence/pytorch_gru_candidate_preparation.json in local peptidemt-pytorch-gru-layout worktree",
+  "producer_record_sha256": "5e23d1c3af8622c0ea2e10faec39d514180ee2bcc986c32846d4d233d8b34e84"
+}

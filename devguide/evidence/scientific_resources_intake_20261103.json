@@ -1,0 +1,123 @@
+{
+  "schema": "peptidemt.scientific_resource_intake@1",
+  "date": "2026-11-03",
+  "observed_at_utc": "2026-11-03T19:22:38.206560+00:00",
+  "scope": "Read-only official-source review for OmegAMP and peptide-design challenge watchlist; no install/model/dataset/weights acquisition or execution,registration/submission,external messaging or upstream issue",
+  "sources": [
+    {
+      "repository": "https://github.com/szczurek-lab/OmegAMP",
+      "commit": "20b691b5b6f74ef86bc83f34d5610e30cd456c96",
+      "files": [
+        {
+          "path": "README.md",
+          "saved_path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptide-resource-intake-2ys_dp1r/sources/OmegAMP/README.md",
+          "bytes": 2097,
+          "sha256": "57042383282a1d795d605b097d6b081ff352a4a31db956dc97626eef3cbe938b",
+          "source_url": "https://github.com/szczurek-lab/OmegAMP/blob/20b691b5b6f74ef86bc83f34d5610e30cd456c96/README.md"
+        },
+        {
+          "path": "README-Inference.md",
+          "saved_path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptide-resource-intake-2ys_dp1r/sources/OmegAMP/README-Inference.md",
+          "bytes": 9623,
+          "sha256": "78184418207264ecadd64a0745d58c24317ccc094cfa06b81ce1e116a4979ec0",
+          "source_url": "https://github.com/szczurek-lab/OmegAMP/blob/20b691b5b6f74ef86bc83f34d5610e30cd456c96/README-Inference.md"
+        },
+        {
+          "path": "pyproject.toml",
+          "saved_path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptide-resource-intake-2ys_dp1r/sources/OmegAMP/pyproject.toml",
+          "bytes": 1042,
+          "sha256": "1dd19e76f506262ce2636954eb165f6f60d18dcc8248462c186bea6ad52f7f0d",
+          "source_url": "https://github.com/szczurek-lab/OmegAMP/blob/20b691b5b6f74ef86bc83f34d5610e30cd456c96/pyproject.toml"
+        },
+        {
+          "path": "project/config.py",
+          "saved_path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptide-resource-intake-2ys_dp1r/sources/OmegAMP/project/config.py",
+          "bytes": 5712,
+          "sha256": "706d627ebfc9710d5f4132ae904640725d8f1a606bfc0310d9f9eb4c7e9d9dde",
+          "source_url": "https://github.com/szczurek-lab/OmegAMP/blob/20b691b5b6f74ef86bc83f34d5610e30cd456c96/project/config.py"
+        },
+        {
+          "path": "project/scripts/inference/generate_samples.py",
+          "saved_path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptide-resource-intake-2ys_dp1r/sources/OmegAMP/project/scripts/inference/generate_samples.py",
+          "bytes": 12255,
+          "sha256": "00444ce72f4cd8226b56f9fdf43d5a14c78ef9d75ab76b99c9792ace63b0ba84",
+          "source_url": "https://github.com/szczurek-lab/OmegAMP/blob/20b691b5b6f74ef86bc83f34d5610e30cd456c96/project/scripts/inference/generate_samples.py"
+        },
+        {
+          "path": "project/scripts/inference/predict_sequences.py",
+          "saved_path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptide-resource-intake-2ys_dp1r/sources/OmegAMP/project/scripts/inference/predict_sequences.py",
+          "bytes": 4436,
+          "sha256": "d4882125e716f155e4b78ba93e0f8a80d90c104c1399f29cb38531126d892aac",
+          "source_url": "https://github.com/szczurek-lab/OmegAMP/blob/20b691b5b6f74ef86bc83f34d5610e30cd456c96/project/scripts/inference/predict_sequences.py"
+        },
+        {
+          "path": "LICENSE",
+          "saved_path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptide-resource-intake-2ys_dp1r/sources/OmegAMP/LICENSE",
+          "bytes": 1223,
+          "sha256": "04c3a31e6102668d525104f74f8f78c5c5bec0481373d37d3c0081da05d52f6c",
+          "source_url": "https://github.com/szczurek-lab/OmegAMP/blob/20b691b5b6f74ef86bc83f34d5610e30cd456c96/LICENSE"
+        }
+      ]
+    },
+    {
+      "repository": "https://github.com/szczurek-lab/amp-challenge-2027",
+      "commit": "5c8a5d8e2551c8cf572d3d3bfcfe7633b109d91e",
+      "files": [
+        {
+          "path": "scripts/verify_submission.py",
+          "saved_path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptide-resource-intake-2ys_dp1r/sources/amp-challenge-2027/scripts/verify_submission.py",
+          "bytes": 9087,
+          "sha256": "3f2eb1bd61200abfccf07d86e9c226d57f3d12abcf25715af1d90f41531942cf",
+          "source_url": "https://github.com/szczurek-lab/amp-challenge-2027/blob/5c8a5d8e2551c8cf572d3d3bfcfe7633b109d91e/scripts/verify_submission.py"
+        },
+        {
+          "path": "src/amp_challenge_2027/generate.py",
+          "saved_path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptide-resource-intake-2ys_dp1r/sources/amp-challenge-2027/src/amp_challenge_2027/generate.py",
+          "bytes": 1971,
+          "sha256": "01ce569f803da54f8cfcb930c2e0aa2f2b6d20734f9181da7e51fcaf96d8cf63",
+          "source_url": "https://github.com/szczurek-lab/amp-challenge-2027/blob/5c8a5d8e2551c8cf572d3d3bfcfe7633b109d91e/src/amp_challenge_2027/generate.py"
+        },
+        {
+          "path": "pyproject.toml",
+          "saved_path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptide-resource-intake-2ys_dp1r/sources/amp-challenge-2027/pyproject.toml",
+          "bytes": 434,
+          "sha256": "0b42f165af20ec8826e49c226903cedd1aa3d6e6c484bc3caf4a1439863570ff",
+          "source_url": "https://github.com/szczurek-lab/amp-challenge-2027/blob/5c8a5d8e2551c8cf572d3d3bfcfe7633b109d91e/pyproject.toml"
+        },
+        {
+          "path": "LICENSE",
+          "saved_path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptide-resource-intake-2ys_dp1r/sources/amp-challenge-2027/LICENSE",
+          "bytes": 1503,
+          "sha256": "379ed39eb24d07ae3e53af592d0392556dbe4ef530b8c4ba287c4ef447a98ab9",
+          "source_url": "https://github.com/szczurek-lab/amp-challenge-2027/blob/5c8a5d8e2551c8cf572d3d3bfcfe7633b109d91e/LICENSE"
+        },
+        {
+          "path": "README.md",
+          "saved_path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptide-resource-intake-2ys_dp1r/sources/amp-challenge-2027/README.md",
+          "bytes": 5499,
+          "sha256": "9edb455f784d4968032bfb8ffabbddfac320129927f9d76754639adccf01fa86",
+          "source_url": "https://github.com/szczurek-lab/amp-challenge-2027/blob/5c8a5d8e2551c8cf572d3d3bfcfe7633b109d91e/README.md"
+        }
+      ]
+    }
+  ],
+  "omegamp_unchanged_since_initial_survey": true,
+  "external_pages": {
+    "https://www.kaggle.com/competitions/amp-challenge": "Official link opens with title AMPChallenge but no readable rules/calendar; current participation deadline not independently established",
+    "https://openreview.net/forum?id=hAq3XLZ9ex": "Browser verification page; publication/efficacy claims not independently reviewed; README citation retained as source-reported"
+  },
+  "not_inspected": [
+    "AMPChallenge_NeurIPSCompetition.pdf contents",
+    "Drive checkpoint/embedding binaries",
+    "FASTA datasets and checkpoint/weights.csv numeric contents",
+    "OmegAMP training/inference execution or native package closure"
+  ],
+  "discussion_inventory_before": {
+    "path": "/tmp/peptidemt-current-discussions.json",
+    "sha256": "b9d78cfa5c576bc801f0f1ca9d6993d3e72f347215b674d037f66fa4e485c44e",
+    "existing_discussions": 19,
+    "omegamp": 17,
+    "datasets_index": 12
+  },
+  "decision_scope": "Curate existing OmegAMP discussion and use the existing Datasets and Benchmarks index for challenge monitoring; one event record,existing family:amp label; no scientific/participation acceptance or new category."
+}

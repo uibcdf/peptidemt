@@ -1,0 +1,83 @@
+{
+  "schema": "peptidemt.hydramp_encoder_preparation_closeout@1",
+  "date": "2026-11-03",
+  "recorded_at_utc": "2026-11-04T01:36:08.578005+00:00",
+  "status": "E0 concrete work order/source inventory delivered and published in owned issue; E1/E2 remain proposed",
+  "checks": {
+    "ruff": {
+      "exit_code": 0,
+      "log": {
+        "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-encoder-prep-3farbwfi/ruff.log",
+        "bytes": 19,
+        "sha256": "82b3e6a6c090a57601d22943bd23fca9218d1031dbe5a7b754092f9a156b4f18"
+      }
+    },
+    "format": {
+      "exit_code": 0,
+      "log": {
+        "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-encoder-prep-3farbwfi/format.log",
+        "bytes": 28,
+        "sha256": "75c1d579c8ce8874c2719098e668d185f5d45cadff85bea7d52474f910819eea"
+      }
+    },
+    "index": {
+      "exit_code": 0,
+      "log": {
+        "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-encoder-prep-3farbwfi/index.log",
+        "bytes": 38,
+        "sha256": "3a525cb88e38e62b2cd78f962eec311aeb1797c9a439b3c7d832b95b00a8d5b5"
+      }
+    },
+    "whitespace": {
+      "exit_code": 0,
+      "log": {
+        "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-encoder-prep-3farbwfi/whitespace.log",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    "legacy_preserved": {
+      "exit_code": 0,
+      "log": {
+        "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-encoder-prep-3farbwfi/legacy_preserved.log",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    "owner_whitespace": {
+      "exit_code": 0,
+      "log": {
+        "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-encoder-prep-3farbwfi/owner_whitespace.log",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    }
+  },
+  "documentation": {
+    "relative_file_links": 140,
+    "missing": 0,
+    "framework_imports": 0,
+    "model_calls": 0
+  },
+  "preparation_receipt": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/evidence/hydramp_encoder_preparation.json",
+    "bytes": 42683,
+    "sha256": "9d17b8fca1a5e4cb61a3bff45070ed44f7c6e78f85e8fb6040db0de3157f16c9"
+  },
+  "owner_copy_identical": true,
+  "publication_receipt": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/evidence/hydramp_encoder_preparation_issue_updates.json",
+    "bytes": 10376,
+    "sha256": "f25d2a90fd9afca0b86f9690d9381489329660320e81d564a4c06a225edaffab"
+  },
+  "source_validation_scope": "SixJSONconfigs and frozen source inspected;17NPYheaders reused from existing42inventory,23declaredidentities from original65file receipt. No parameter array opened/rehashed, model/framework loaded or numerical check executed.",
+  "E1_approved": false,
+  "E2_approved": false,
+  "new_D_number": null,
+  "new_scientific_calls": 0,
+  "new_synthetic_tests_executed": 0,
+  "accepted_dev3_unchanged": true,
+  "external_contact": false,
+  "new_commits_or_releases": 0,
+  "retention_review": "2026-11-13"
+}

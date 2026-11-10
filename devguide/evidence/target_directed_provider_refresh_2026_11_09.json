@@ -1,0 +1,230 @@
+{
+  "observed_utc": "2026-11-10T04:52:05.200348+00:00",
+  "local_date": "2026-11-09",
+  "owner": "uibcdf/peptidemt#33",
+  "status": "Provider/source availability refresh completed under D52; T1a remains proposed",
+  "authority": {
+    "path": "devguide/evidence/target_directed_demonstrator_authorization.json",
+    "bytes": 1638,
+    "sha256": "84dd949951966e72664f096db2cad8132e18f7da630441a6f21635330f24f9f5"
+  },
+  "pending_T1a": {
+    "path": "devguide/mdm2_t1a_proposal.md",
+    "bytes": 7184,
+    "sha256": "069247bf4b46e8fafba553ecb5311f67b0bfd6748ea4a06822053c3285c05e56"
+  },
+  "T1a_scientific_acceptance_observed": false,
+  "cross_repository_state": [
+    {
+      "repository": "uibcdf/molsysmt",
+      "initiative": "stabilization",
+      "root": "/home/liliana/repos@uibcdf/molsysmt",
+      "branch": "main",
+      "head": "71fbe4f46d3c",
+      "upstream": "origin/main",
+      "ahead": 0,
+      "behind": 437,
+      "worktree": [],
+      "error": "",
+      "healthy": false,
+      "state": "attention"
+    },
+    {
+      "repository": "uibcdf/dockingmt",
+      "initiative": "",
+      "root": "/home/liliana/repos@uibcdf/dockingmt",
+      "branch": "main",
+      "head": "2fda6238e6b1",
+      "upstream": "origin/main",
+      "ahead": 0,
+      "behind": 55,
+      "worktree": [],
+      "error": "",
+      "healthy": false,
+      "state": "attention"
+    }
+  ],
+  "head_disposition": [
+    {
+      "repository": "uibcdf/molsysmt",
+      "local_head": "71fbe4f46d3c70e4e973c8025f01752a8c9b1084",
+      "fetched_main": "97a98578776291e6b2c048bcd876bdedc271967f",
+      "action": "Preserved primary worktree; no checkout, merge, pull, build or install"
+    },
+    {
+      "repository": "uibcdf/dockingmt",
+      "local_head": "2fda6238e6b1cb3742f5d30b8ed3af699f9ed748",
+      "fetched_main": "dc4a0c51c576518f7b40121d0475d1868787b6c2",
+      "action": "Preserved primary worktree; no checkout, merge, pull, build or install"
+    }
+  ],
+  "source_manifest": [
+    {
+      "repository": "uibcdf/molsysmt",
+      "ref": "97a98578776291e6b2c048bcd876bdedc271967f",
+      "source_path": "molsysmt/physchem/get_peptide_chemical_template.py",
+      "retained_path": "local_data/peptidemt-target-study-3l7pirsi/resume-20261109/source/molsysmt/molsysmt/physchem/get_peptide_chemical_template.py",
+      "bytes": 5408,
+      "sha256": "e78ab6b16ab02a1175afb51bbf7b93642da204c84943a20c80abf31c6f4ce96e",
+      "url": "https://github.com/uibcdf/molsysmt/blob/97a98578776291e6b2c048bcd876bdedc271967f/molsysmt/physchem/get_peptide_chemical_template.py",
+      "scope": "Source/document inspection only; no molecular execution or local receiving"
+    },
+    {
+      "repository": "uibcdf/molsysmt",
+      "ref": "97a98578776291e6b2c048bcd876bdedc271967f",
+      "source_path": "molsysmt/physchem/apply_chemical_template.py",
+      "retained_path": "local_data/peptidemt-target-study-3l7pirsi/resume-20261109/source/molsysmt/molsysmt/physchem/apply_chemical_template.py",
+      "bytes": 9698,
+      "sha256": "ad75ad45d48c802fd65fff1640ce422ce1b1d2353456d0cedc0598eb2d12f05b",
+      "url": "https://github.com/uibcdf/molsysmt/blob/97a98578776291e6b2c048bcd876bdedc271967f/molsysmt/physchem/apply_chemical_template.py",
+      "scope": "Source/document inspection only; no molecular execution or local receiving"
+    },
+    {
+      "repository": "uibcdf/molsysmt",
+      "ref": "97a98578776291e6b2c048bcd876bdedc271967f",
+      "source_path": "molsysmt/chemical_states/get_atom_correspondences.py",
+      "retained_path": "local_data/peptidemt-target-study-3l7pirsi/resume-20261109/source/molsysmt/molsysmt/chemical_states/get_atom_correspondences.py",
+      "bytes": 12395,
+      "sha256": "1fd9c0202e352ba9e02ea212547f797d6d79cbb95217b4dacc07bffb56926762",
+      "url": "https://github.com/uibcdf/molsysmt/blob/97a98578776291e6b2c048bcd876bdedc271967f/molsysmt/chemical_states/get_atom_correspondences.py",
+      "scope": "Source/document inspection only; no molecular execution or local receiving"
+    },
+    {
+      "repository": "uibcdf/dockingmt",
+      "ref": "dc4a0c51c576518f7b40121d0475d1868787b6c2",
+      "source_path": "README.md",
+      "retained_path": "local_data/peptidemt-target-study-3l7pirsi/resume-20261109/source/dockingmt/README.md",
+      "bytes": 31746,
+      "sha256": "4dcdbb1c7ea5e90acdde5e92f33a7b5cdc55657183059bebd226290c64db4735",
+      "url": "https://github.com/uibcdf/dockingmt/blob/dc4a0c51c576518f7b40121d0475d1868787b6c2/README.md",
+      "scope": "Source/document inspection only; no molecular execution or local receiving"
+    },
+    {
+      "repository": "uibcdf/dockingmt",
+      "ref": "dfff57a34f0278fa6185e88df2098ba6d650e90c",
+      "source_path": "devguide/validation/panel_references_editable_2026-11-08.md",
+      "retained_path": "local_data/peptidemt-target-study-3l7pirsi/resume-20261109/source/dockingmt/devguide/validation/panel_references_editable_2026-11-08.md",
+      "bytes": 11468,
+      "sha256": "4719228af00b21bdb4dcbf499122d839e6acbdbfa6b0e4cb79de480aee7a06a2",
+      "url": "https://github.com/uibcdf/dockingmt/blob/dfff57a34f0278fa6185e88df2098ba6d650e90c/devguide/validation/panel_references_editable_2026-11-08.md",
+      "scope": "Source/document inspection only; no molecular execution or local receiving"
+    }
+  ],
+  "provider_issues": {
+    "observed_utc": "2026-11-10T04:52:04.964Z",
+    "states": {
+      "molsysmt447": {
+        "url": "https://github.com/uibcdf/molsysmt/issues/447",
+        "state": "open",
+        "updated_at": "2026-11-06T07:43:15Z",
+        "comment_count": 4
+      },
+      "dockingmt33": {
+        "url": "https://github.com/uibcdf/dockingmt/issues/33",
+        "state": "open",
+        "updated_at": "2026-11-08T19:38:35Z",
+        "comment_count": 80
+      }
+    },
+    "observations": {
+      "peptidemt33": [],
+      "molsysmt447_comments": [],
+      "dockingmt33_comments": [
+        {
+          "id": 6717134277,
+          "user": "LMMV",
+          "updated_at": "2026-11-08T04:16:40Z",
+          "url": "https://github.com/uibcdf/dockingmt/issues/33#issuecomment-6717134277"
+        },
+        {
+          "id": 6717156058,
+          "user": "LMMV",
+          "updated_at": "2026-11-08T04:19:14Z",
+          "url": "https://github.com/uibcdf/dockingmt/issues/33#issuecomment-6717156058"
+        },
+        {
+          "id": 6717181379,
+          "user": "LMMV",
+          "updated_at": "2026-11-08T04:22:15Z",
+          "url": "https://github.com/uibcdf/dockingmt/issues/33#issuecomment-6717181379"
+        },
+        {
+          "id": 6717227143,
+          "user": "LMMV",
+          "updated_at": "2026-11-08T04:27:45Z",
+          "url": "https://github.com/uibcdf/dockingmt/issues/33#issuecomment-6717227143"
+        },
+        {
+          "id": 6717288667,
+          "user": "dprada",
+          "updated_at": "2026-11-08T04:35:16Z",
+          "url": "https://github.com/uibcdf/dockingmt/issues/33#issuecomment-6717288667"
+        },
+        {
+          "id": 6725823329,
+          "user": "LMMV",
+          "updated_at": "2026-11-08T19:38:35Z",
+          "url": "https://github.com/uibcdf/dockingmt/issues/33#issuecomment-6725823329"
+        },
+        {
+          "id": 6725925053,
+          "user": "LMMV",
+          "updated_at": "2026-11-08T19:18:11Z",
+          "url": "https://github.com/uibcdf/dockingmt/issues/33#issuecomment-6725925053"
+        }
+      ]
+    },
+    "scientific_acceptance_of_T1a_observed": false,
+    "provider_updates_are_not_a_PeptideMT_commission": true
+  },
+  "owner_reported_receiving": {
+    "repository": "uibcdf/dockingmt",
+    "document_ref": "dfff57a34f0278fa6185e88df2098ba6d650e90c",
+    "runtime_consumer": "c238513a1e76715a56abffb6528ba31bf913e226",
+    "provider": "2325038e8c68157f5c730693ffbb8535f0b45540",
+    "native_sha256": "5715bda28be19820e96c2b81e4734bf75e1a9f05dd660d9c7e2817bc6bcd79d3",
+    "scope": "Owner reports four complete original reference construction/persistence selections: six protein chains and one ligand, each under normal and pm/fs/coulomb policies",
+    "limits": "Not MDM2 peptide docking, affinity, biological validation, current local import qualification or public package qualification. Repeated policies are not additional independent scientific cases.",
+    "primary_manifest_sha256": "370c3b6bd5a8e1cab4d0acfd19c74a9278aa9d784a7e08a2478beab2b1eaa1bd",
+    "reader_manifest_sha256": "8c5c870acd24d6f7266162602ddc35d9c0c16ce572624775e77efbc734ad9582",
+    "reexecuted_by_PeptideMT": false
+  },
+  "api_scope_observation": {
+    "factory_and_application_public_module_bytes_match_earlier_inspection": true,
+    "peptide_factory_limits": "Free amine/carboxyl termini; no capped/modified backbone or inferred stereo. Construction is not experimental identity.",
+    "correspondence_public_signature_changed": false,
+    "correspondence_source_bytes_changed": true,
+    "new_local_molecular_qualification": false
+  },
+  "source_availability": {
+    "acquisition": {
+      "path": "local_data/peptidemt-target-study-3l7pirsi/resume-20261109/supplement-acquisition.json",
+      "bytes": 1093,
+      "sha256": "85733f2e06372a50018195771577bf9487418cc17805cdf551f83b93a32d8029"
+    },
+    "followup_classification": {
+      "source_receipt": "local_data/peptidemt-target-study-3l7pirsi/resume-20261109/supplement-acquisition.json",
+      "raw_receipt_sha256": "85733f2e06372a50018195771577bf9487418cc17805cdf551f83b93a32d8029",
+      "initial_recaptcha_marker_present": false,
+      "browser_challenge_observed": true,
+      "challenge_kind": "JavaScript proof-of-work download interstitial",
+      "actual_supplement_received": false,
+      "document_read": false,
+      "disposition": "Preserve ordinary HTTP response; do not solve challenge, set bypass cookies or infer supplement contents. Initial receipt marker scan tested recaptcha only; this follow-up classification supersedes any broad interpretation of that Boolean."
+    },
+    "supplement_contents_unread": true
+  },
+  "new_operations": {
+    "molecular_calls": 0,
+    "model_evaluations": 0,
+    "docking": 0,
+    "installations": 0,
+    "provider_source_edits": 0,
+    "issues_or_comments_published": 0,
+    "git_commit_or_push": 0
+  },
+  "resume_disposition": "Goal reactivation starts a fresh review audit; it is not recorded as acceptance of T1a or a new scientific model/chemistry contract. The existing prior hold receipt remains historical.",
+  "next_required_decision": "Investigator disposition of the existing T1a scientific proposal before its implementation",
+  "full_goal_complete": false,
+  "temporary_resource_owner": "local_data/peptidemt-target-study-3l7pirsi/resume-20261109"
+}

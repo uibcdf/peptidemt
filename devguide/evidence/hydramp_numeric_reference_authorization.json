@@ -1,0 +1,59 @@
+{
+  "schema": "peptidemt.numeric_reference_authorization@1",
+  "date": "2026-11-02",
+  "recorded_at_utc": "2026-11-03T02:23:53.732836+00:00",
+  "issue": "uibcdf/peptidemt#8",
+  "authority": "Investigator explicitly instructed proceeding after the explanation of the prepared two-forward NumPy FP64 diagnostic; also authorized durable issue documentation for subsequent evaluation.",
+  "approved_plan_path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-fp64-reference-hhsdppyc/plan.json",
+  "approved_plan_sha256": "bd5ad87eb20b1542ed21d8b07c0e91ec628126d23afa6ff708dc18d5166b1c19",
+  "budget": {
+    "workers": 1,
+    "concurrent_workers": 1,
+    "cpu_affinity": [
+      0,
+      1
+    ],
+    "native_threads": 1,
+    "nice": 10,
+    "address_space_bytes": 8589934592,
+    "rss_stop_bytes": 2147483648,
+    "minimum_mem_available_bytes": 8589934592,
+    "worker_wall_seconds": 180,
+    "aggregate_worker_wall_seconds": 180,
+    "output_stop_bytes": 134217728,
+    "minimum_free_disk_bytes": 1073741824,
+    "gpu": false,
+    "network": false,
+    "retries": 0,
+    "legacy_model_constructions": 0,
+    "torch_model_constructions": 0,
+    "pca_pickle_loads": 0,
+    "pca_coefficient_exports": 0,
+    "pca_inverse_transforms_per_worker": 0,
+    "decoder_evaluations_per_worker": 2,
+    "amp_evaluations_per_worker": 0,
+    "mic_evaluations_per_worker": 0,
+    "rows_per_network_evaluation": 12,
+    "network_evaluations_total": 2,
+    "unconstrained_generation_calls": 0,
+    "descriptor_calls": 0,
+    "macrel_calls": 0,
+    "task_ram_budget_bytes": 4000000000,
+    "task_ram_budget_implementation": "One model worker at a time, sampled worker RSS stop at 2 GiB; small stdlib supervisor measured separately. The unchanged 8 GiB virtual address-space ceiling is not a RAM allocation.",
+    "numerical_reference_forwards": 2,
+    "numerical_parameter_sets": 1
+  },
+  "contract": {
+    "purpose": "Compare existing native/dev0/dev1 float32 traces against an independent approximate FP64 mathematical reference before choosing another code change or discussing tolerance.",
+    "input": "Same saved twelve conditioned rows, round to float32 first exactly as the two frameworks do, then use float64 arithmetic.",
+    "parameters": "One load of eight pinned decoder NPY arrays, convert their exact float32 values to float64. No model/PCA deserialization.",
+    "formulations": [
+      "Separate gate products",
+      "Grouped gate products"
+    ],
+    "calls": "Exactly two full NumPy FP64 decoder evaluations in one worker; no TF/Torch/AMP/MIC/Macrel call.",
+    "unchanged": "No deployment dtype/code/threshold modification, adoption or automatic retry; the prior float32 failures remain recorded.",
+    "interpretation": "FP64 reference is approximate, not exact arithmetic or biological ground truth. Agreement between formulations and errors against each recorded framework are diagnostic only."
+  },
+  "scope": "Two learned-parameter mathematical FP64 decoder forwards, one parameter load set, twelve retained inputs. No framework forward, production precision/threshold change, scientific acceptance or automatic retry."
+}

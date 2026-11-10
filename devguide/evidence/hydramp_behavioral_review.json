@@ -1,0 +1,290 @@
+{
+  "schema": "peptidemt.hydramp_behavioral_review@1",
+  "date": "2026-11-02",
+  "recorded_at_utc": "2026-11-03T03:47:01.399045+00:00",
+  "issue": "uibcdf/peptidemt#8",
+  "status": "Offline behavioral measurements and synthetic boundary tests complete; numerical acceptance proposal remains unapproved.",
+  "source_commit": "6590d2f4c2963f25d30669052a4c4a857e0e7279",
+  "starter_commit": "7804df862872ccc6d09fe01c41bafbca194cfa31",
+  "uncommitted": true,
+  "provider_tool": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/../hydramp/local_data/pytorch-gru-layout/ports/pytorch/devtools/behavioral_review.py",
+    "bytes": 3378,
+    "sha256": "602fb963c0b37a01a02d7e087ba96e424e50c12d362a73017c8a3bb5fd1b006a"
+  },
+  "synthetic_test": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/../hydramp/local_data/pytorch-gru-layout/ports/pytorch/tests/test_behavioral_review.py",
+    "bytes": 2671,
+    "sha256": "a5e3c7545186be69739c0dba520caa6a101d52be8b5fbd6840e3d14d307810d7"
+  },
+  "task_directory": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-behavior-review-5310c25a",
+  "task_files": {
+    "analyze_saved_outputs.py": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-behavior-review-5310c25a/analyze_saved_outputs.py",
+      "bytes": 2753,
+      "sha256": "bde7028adc76a40ea5570b07b7bd0ae2bf255f4125ca081300c6c1d09a69a6fc"
+    },
+    "guarded_synthetic_tests.py": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-behavior-review-5310c25a/guarded_synthetic_tests.py",
+      "bytes": 703,
+      "sha256": "9a45347f6285ca9a65dc80e8a2033b52101b5f655ea2e345117866fbd4984167"
+    },
+    "legacy-rng.log": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-behavior-review-5310c25a/legacy-rng.log",
+      "bytes": 1444,
+      "sha256": "12cbaaa4901a3f3877620e929a42c71969ed78c53699556bf93d1532b7413dfa"
+    },
+    "modern-rng.log": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-behavior-review-5310c25a/modern-rng.log",
+      "bytes": 1445,
+      "sha256": "07de58d0f70439018e1d52b7fea1a3eeae3a039c50525e56a0cd6a5fcce0cdc3"
+    },
+    "rng-draw-comparison.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-behavior-review-5310c25a/rng-draw-comparison.json",
+      "bytes": 3403,
+      "sha256": "6f2d6061bd55036f9f790521f2cb067754e0ab9aab2b6d239e97cc0fbd8464f4"
+    },
+    "rng_draw_probe.py": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-behavior-review-5310c25a/rng_draw_probe.py",
+      "bytes": 1440,
+      "sha256": "897b3ce69c3cd3cf17d5027c8cfd1962a7b0704a258c25f6898add45b09e3b07"
+    },
+    "saved-analysis.log": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-behavior-review-5310c25a/saved-analysis.log",
+      "bytes": 3867,
+      "sha256": "cf24f20ff6aa56be9812a97c8f3f1ce9d241cf789f0ac62254d695813c600369"
+    },
+    "saved-output-behavior.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-behavior-review-5310c25a/saved-output-behavior.json",
+      "bytes": 4910,
+      "sha256": "c80a24eef1e3b598a21b6d4fadafbc8d5fde3cc5f103d969dc4b1446bf2b1755"
+    },
+    "synthetic-tests.log": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-behavior-review-5310c25a/synthetic-tests.log",
+      "bytes": 33,
+      "sha256": "ecdaacb08619d255fc1cb98007ea4daa9a4cf8695a087fa646b28b555774ffff"
+    }
+  },
+  "checks": {
+    "synthetic_pytest": {
+      "passed": 12,
+      "failed": 0,
+      "exit": 0,
+      "receptor": "llm",
+      "scope": "Near-tie token flips, exact ties, local perturbation margins, rank reversal/tie splitting and malformed inputs; artificial probabilities/scores only."
+    },
+    "ruff_check": "pass",
+    "ruff_format": "formatted; final check recorded separately",
+    "guards": "Engine/model imports, checkpoint opens and network blocked. Saved analysis opens only SHA256-pinned prior output archives. RNG probe opens no scientific artifact.",
+    "process_bounds": "One sequential process at a time; affinity CPUs 0,1, nice 10, native threads 1, 1 GiB address-space ceiling, 30 s timeout per NumPy/test process."
+  },
+  "saved_output_analysis": {
+    "schema": "hydramp.saved_behavior_review@1",
+    "scope": "Saved arrays only, no weights, engine, PCA or model forward; diagnostics not scientific acceptance.",
+    "decoder_vs_native": {
+      "torch_dev0_32": {
+        "positions": 300,
+        "token_changes": 0,
+        "occurrences_with_token_changes": 0,
+        "reference_exact_top_ties": 0,
+        "minimum_reference_top_two_margin": 0.024026036262512207,
+        "maximum_absolute_error": 4.845857620239258e-05,
+        "maximum_half_l1_per_position": 4.84338923005092e-05,
+        "positions_margin_gt_twice_observed_local_error": 300,
+        "scope": "Observed finite-array perturbations only; no unseen-input guarantee"
+      },
+      "torch_dev1_32": {
+        "positions": 300,
+        "token_changes": 0,
+        "occurrences_with_token_changes": 0,
+        "reference_exact_top_ties": 0,
+        "minimum_reference_top_two_margin": 0.024026036262512207,
+        "maximum_absolute_error": 5.188584327697754e-05,
+        "maximum_half_l1_per_position": 5.1886291107080415e-05,
+        "positions_margin_gt_twice_observed_local_error": 300,
+        "scope": "Observed finite-array perturbations only; no unseen-input guarantee"
+      }
+    },
+    "decoder_vs_fp64": {
+      "native_tf32": {
+        "positions": 300,
+        "token_changes": 0,
+        "occurrences_with_token_changes": 0,
+        "reference_exact_top_ties": 0,
+        "minimum_reference_top_two_margin": 0.024026308559350062,
+        "maximum_absolute_error": 2.6977310753961703e-05,
+        "maximum_half_l1_per_position": 2.697478850837369e-05,
+        "positions_margin_gt_twice_observed_local_error": 300,
+        "scope": "Observed finite-array perturbations only; no unseen-input guarantee"
+      },
+      "torch_dev0_32": {
+        "positions": 300,
+        "token_changes": 0,
+        "occurrences_with_token_changes": 0,
+        "reference_exact_top_ties": 0,
+        "minimum_reference_top_two_margin": 0.024026308559350062,
+        "maximum_absolute_error": 2.8850079310305254e-05,
+        "maximum_half_l1_per_position": 2.8855421826487224e-05,
+        "positions_margin_gt_twice_observed_local_error": 300,
+        "scope": "Observed finite-array perturbations only; no unseen-input guarantee"
+      },
+      "torch_dev1_32": {
+        "positions": 300,
+        "token_changes": 0,
+        "occurrences_with_token_changes": 0,
+        "reference_exact_top_ties": 0,
+        "minimum_reference_top_two_margin": 0.024026308559350062,
+        "maximum_absolute_error": 2.4908532523015836e-05,
+        "maximum_half_l1_per_position": 2.4911502599313018e-05,
+        "positions_margin_gt_twice_observed_local_error": 300,
+        "scope": "Observed finite-array perturbations only; no unseen-input guarantee"
+      }
+    },
+    "native_heads_dev0": {
+      "amp": {
+        "occurrences": 12,
+        "maximum_absolute_error": 2.980232238769531e-07,
+        "descending_stable_order_equal": true,
+        "pair_count": 66,
+        "reference_tie_pairs": 0,
+        "ties_split": 0,
+        "new_ties": 0,
+        "strict_pair_reversals": 0,
+        "minimum_positive_pair_gap": 1.3828277587890625e-05,
+        "pairs_gap_gt_sum_of_observed_errors": 66,
+        "scope": "Saved score ordering only; not native pandas/descriptor qualification"
+      },
+      "mic": {
+        "occurrences": 12,
+        "maximum_absolute_error": 1.1920928955078125e-07,
+        "descending_stable_order_equal": true,
+        "pair_count": 66,
+        "reference_tie_pairs": 0,
+        "ties_split": 0,
+        "new_ties": 0,
+        "strict_pair_reversals": 0,
+        "minimum_positive_pair_gap": 3.584555997804273e-06,
+        "pairs_gap_gt_sum_of_observed_errors": 66,
+        "scope": "Saved score ordering only; not native pandas/descriptor qualification"
+      }
+    },
+    "input_sha256": {
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-parity-637rwaat/legacy.npz": "ad584797d832b076e9f6e3d95274635b2e6a0cde3ca251810de93da7555de8c7",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-parity-637rwaat/torch.npz": "7746ecc7b721e8ac153e867c05862bd467f43cb0bfb7bbee30a0d2e29533b33c",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-decoder-trace-2j1w0gcl/legacy-trace.npz": "0834a2517ed4cd9d4659f996b7aa24a6853b6ba30a0d01411465c37794e052b6",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-decoder-trace-2j1w0gcl/torch-trace.npz": "3b52422fd041df8d0c53ac37715b3dd98c9ac8c8571ceca875e3a5b025b55632",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-gru-candidate-onrd97e8/validation/torch-trace.npz": "e28363c13fa5788de8c893c8df913c163836c0ea6479cb5bec3c6882dc7477d0",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-fp64-reference-hhsdppyc/run/reference-separate.npz": "666ffd840775187117fac5c4ad907ba29baac79a024e5ad5842565bdb7047ded"
+    },
+    "analysis_source_sha256": "602fb963c0b37a01a02d7e087ba96e424e50c12d362a73017c8a3bb5fd1b006a",
+    "runner_sha256": "bde7028adc76a40ea5570b07b7bd0ae2bf255f4125ca081300c6c1d09a69a6fc",
+    "model_calls": 0,
+    "scientific_acceptance": false
+  },
+  "raw_rng_comparison": {
+    "all_four_draws_bitwise_equal": true,
+    "workers": {
+      "legacy": {
+        "python": "3.8.20 | packaged by conda-forge | (default, Sep 30 2024, 17:52:49) \n[GCC 13.3.0]",
+        "prefix": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-h1-20261030-6jc5a1me/worker",
+        "numpy": "1.18.5",
+        "numpy_origin": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-h1-20261030-6jc5a1me/worker/lib/python3.8/site-packages/numpy/__init__.py",
+        "cases": [
+          {
+            "seed": 101,
+            "rows": 4,
+            "columns": 64,
+            "dtype": "float64",
+            "global_vs_local_bitwise_equal": true,
+            "draw_sha256": "d04111773bcabb3dea61095c34d3d777d838189a190c4a31d27cd20936ff6103"
+          },
+          {
+            "seed": 101,
+            "rows": 16,
+            "columns": 64,
+            "dtype": "float64",
+            "global_vs_local_bitwise_equal": true,
+            "draw_sha256": "9fe76e148b21c63d7858a51580dacd6aa00ceef7d0121be7728de83a6ce7355c"
+          },
+          {
+            "seed": 202,
+            "rows": 4,
+            "columns": 64,
+            "dtype": "float64",
+            "global_vs_local_bitwise_equal": true,
+            "draw_sha256": "5ea38f2948bca53594e30a1ccfd4f854149cf4c5a8c2d41b829d910e4724571c"
+          },
+          {
+            "seed": 202,
+            "rows": 16,
+            "columns": 64,
+            "dtype": "float64",
+            "global_vs_local_bitwise_equal": true,
+            "draw_sha256": "caa2d82ba1f7052f2b56bdba267b7f2adfd2dad442c6bd2c9a18e6dde276696f"
+          }
+        ],
+        "model_calls": 0,
+        "scope": "Only raw NumPy standard-normal draws. Not PCA, TF RNG state, full generator repeatability or training."
+      },
+      "modern": {
+        "python": "3.14.7 | packaged by conda-forge | (main, Sep  2 2026, 21:08:32) [GCC 15.3.0]",
+        "prefix": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-fp64-reference-hhsdppyc/worker",
+        "numpy": "2.4.6",
+        "numpy_origin": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-fp64-reference-hhsdppyc/worker/lib/python3.14/site-packages/numpy/__init__.py",
+        "cases": [
+          {
+            "seed": 101,
+            "rows": 4,
+            "columns": 64,
+            "dtype": "float64",
+            "global_vs_local_bitwise_equal": true,
+            "draw_sha256": "d04111773bcabb3dea61095c34d3d777d838189a190c4a31d27cd20936ff6103"
+          },
+          {
+            "seed": 101,
+            "rows": 16,
+            "columns": 64,
+            "dtype": "float64",
+            "global_vs_local_bitwise_equal": true,
+            "draw_sha256": "9fe76e148b21c63d7858a51580dacd6aa00ceef7d0121be7728de83a6ce7355c"
+          },
+          {
+            "seed": 202,
+            "rows": 4,
+            "columns": 64,
+            "dtype": "float64",
+            "global_vs_local_bitwise_equal": true,
+            "draw_sha256": "5ea38f2948bca53594e30a1ccfd4f854149cf4c5a8c2d41b829d910e4724571c"
+          },
+          {
+            "seed": 202,
+            "rows": 16,
+            "columns": 64,
+            "dtype": "float64",
+            "global_vs_local_bitwise_equal": true,
+            "draw_sha256": "caa2d82ba1f7052f2b56bdba267b7f2adfd2dad442c6bd2c9a18e6dde276696f"
+          }
+        ],
+        "model_calls": 0,
+        "scope": "Only raw NumPy standard-normal draws. Not PCA, TF RNG state, full generator repeatability or training."
+      }
+    },
+    "scope": "Raw normal draws only; no model/PCA load, forward or full generator acceptance."
+  },
+  "new_model_or_pca_loads": 0,
+  "new_model_forwards": 0,
+  "macrel_calls": 0,
+  "gpu": false,
+  "interpretation": {
+    "observed": "All 300 positions exceed twice their observed local probability error. AMP and MIC saved scores retain stable descending order and all 66 pair relations. Four raw NumPy normal draw fixtures match bitwise across retained old/new NumPy.",
+    "not_established": "No near-tie coverage with pretrained weights, pandas/descriptors/full result validation, end-to-end generator/adapter/selector behavior, TensorFlow RNG equivalence, general numerical bound or scientific acceptance.",
+    "candidate": "dev0 retained for further development; dev1 remains unadopted. No production code, dtype, parameter, selector or diagnostic tolerance changed."
+  },
+  "retention": {
+    "owner": "PeptideMT #8 / investigator-owned HydrAMP fork",
+    "review_by": "2026-11-13",
+    "disposition": "Retain source, pure-output analysis, guards, synthetic logs and RNG proofs for the pending investigator review."
+  },
+  "producer_record": "devguide/evidence/pytorch_behavioral_review.json in local peptidemt-pytorch-gru-layout worktree",
+  "producer_record_sha256": "415c78687f7e6c164bfb2647d61d24259737c6d5db2a147f6c53340b492106ce"
+}

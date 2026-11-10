@@ -1,0 +1,77 @@
+{
+  "schema": "peptidemt.hydramp_historical_endpoint_closeout@1",
+  "date": "2026-11-05",
+  "status": "Training-source provenance verified; historical endpoint/evaluation proposal delivered, scientific adoption unapproved",
+  "review": "hydramp_historical_endpoint_review.json",
+  "review_sha256": "5de8747e3f8fdd6754c8830f82474181443c7a99ce847be9b7a6def9867cd2d2",
+  "checks": {
+    "current_source_research_identities_verified": 34,
+    "GRAMPA_code_git_blobs_verified": 5,
+    "prior_receiver_source_artifact_identities_unchanged": 18,
+    "relative_file_links_checked": 169,
+    "missing_relative_file_links": 0,
+    "reporting_indexes": "current",
+    "whitespace": "PASS",
+    "canonical_guide_byte_identical": true,
+    "prior_tests_repeated": false,
+    "model_mass_unit_metric_calls": 0,
+    "new_scientific_policy_adopted": false
+  },
+  "new_source_findings": {
+    "selected_GRAMPA_records": 8049,
+    "raw_sequence_aggregate": 4546,
+    "matching_archive_strings": 4546,
+    "missing_strings": 0,
+    "max_logged_value_difference": "7E-16",
+    "length_filtered_source_rows": 3444,
+    "strict_below_1_5": 2126,
+    "source_rows_at_or_above_1_5": 1318,
+    "source_exact_threshold_rows": 0,
+    "unit_trace": "standardize to uM, log10, then mean logged values by sequence",
+    "paper_discrepancy": "Methods states mass-concentration cutoff with <=; retained unresolved as prose/software mismatch, not a port defect"
+  },
+  "unapproved_candidate": {
+    "reported_MIC_criterion": "<=32 ug/mL, E. coli ATCC 25922",
+    "source_observations_retained": 42,
+    "primary_stable_raw_string_groups": 38,
+    "stable_positive_groups": 12,
+    "stable_negative_groups": 26,
+    "ambiguous_group": "Hydraganan-2: 16/128 ug/mL",
+    "proposed_statistic": "Descriptive paired ROC-AUC, exact ties; both shared ambiguity scenarios additionally reported",
+    "calibration_or_independent_benchmark": false
+  },
+  "issue_updates": [
+    {
+      "repository": "uibcdf/hydramp",
+      "issue": 3,
+      "id": 6663118407,
+      "url": "https://github.com/uibcdf/hydramp/issues/3#issuecomment-6663118407",
+      "exact_body_verified": true
+    },
+    {
+      "repository": "uibcdf/peptidemt",
+      "issue": 32,
+      "id": 6663123823,
+      "url": "https://github.com/uibcdf/peptidemt/issues/32#issuecomment-6663123823",
+      "exact_body_verified": true
+    }
+  ],
+  "issue_disposition": "Existing HydrAMP#3 and PeptideMT#32 remain open. No new issue, external publication or author contact.",
+  "infrastructure": {
+    "first_final_check_launch_exit": 101,
+    "cause": "Sandbox synthetic .aws mount quota failure before Python/check execution",
+    "resolution": "Authorized local checks run successfully outside the failed launcher; no credential directory read, scientific/component modification or broad cleanup",
+    "disk_snapshot": "2.3 TiB available on /home filesystem, 3.1 GiB on /tmp; no disk-capacity failure inferred"
+  },
+  "delivery": "New scientific review/receipt and narrow navigation/consumer-report updates; ignored exact public sources and read-only analysis. Receiver/tests/source data and scientific budgets unchanged. No runtime/dependency/environment edit, installation, commit/push/release or model/molecular operation.",
+  "pending": [
+    "Investigator approval of distinct reported-activity endpoint, censoring/conflict policy, paired AUC/ambiguity sensitivity and offline artificial-score evaluation implementation",
+    "Provider/metric technical qualification after commission",
+    "Broader source-use/checkpoint/fragment exposure and independent-cohort work",
+    "Any native input/scoring: exact bundle/input/batch/host/call approval"
+  ],
+  "retention": {
+    "owner": "HydrAMP#3 / PeptideMT#32",
+    "review_by": "2026-11-19"
+  }
+}

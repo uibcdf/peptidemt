@@ -1,0 +1,37 @@
+{
+  "date": "2026-11-03",
+  "owner_issue": "uibcdf/hydramp#1",
+  "consumer_issue": "uibcdf/peptidemt#8",
+  "checks": {
+    "root_devguide_index": "pass; existing indexes current",
+    "root_and_provider_git_diff_check": "pass",
+    "new_reference_ruff_lint_and_format": "pass",
+    "new_reference_artificial_pytest": "17 passed; isolated NumPy worker; published Pytest Receptor1.2.2",
+    "legacy_amp_and_license": "No diff against original6590d2f; existing dirty packaging/worktrees preserved",
+    "integrity": {
+      "frozen_receipt_file_references_verified": 32,
+      "new_plan_pins_verified": 22,
+      "relative_file_links_checked": 179,
+      "new_reference_real_execution": false
+    }
+  },
+  "scientific_acceptance": false,
+  "commit_push_release": false,
+  "temporary_resources": "Exact task-owned resources retained for investigator review2026-11-13; no shared workspace/env cleanup",
+  "ci_claim": false,
+  "schema": "peptidemt.hydramp_amp_reference_preparation_closeout@1",
+  "status": "Concrete24-forward plan prepared,tested,published in owning/consumer issues; exact new approval pending",
+  "preparation": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/evidence/hydramp_amp_reference_preparation.json",
+    "bytes": 4842,
+    "sha256": "934f06cb44962111440859dee932b429a36522b697646212f96843a40e510d8e"
+  },
+  "publication": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/evidence/hydramp_amp_reference_issue_updates.json",
+    "bytes": 771,
+    "sha256": "5d5b8cacb6c56dcc2db442eabd8f5827decbf4680d78b86e90679c8d5e7b6247"
+  },
+  "new_real_parameter_loads": 0,
+  "new_real_reference_forwards": 0,
+  "next_action": "Exact new investigator host/call approval before loading real AMP parameters; original trace allowance remains exhausted"
+}

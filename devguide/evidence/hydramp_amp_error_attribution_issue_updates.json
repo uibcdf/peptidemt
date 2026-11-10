@@ -1,0 +1,19 @@
+{
+  "schema": "peptidemt.hydramp_amp_error_attribution_issue_updates@1",
+  "date": "2026-11-03",
+  "exact_bodies_verified": true,
+  "comments": [
+    {
+      "id": 6613192150,
+      "url": "https://github.com/uibcdf/hydramp/issues/1#issuecomment-6613192150",
+      "created_at": "2026-11-03T19:16:04Z",
+      "body_sha256": "2df27f1bebe707a4d2d8ecd333d5ae46b154fba0127623e37ae0a55767797312"
+    },
+    {
+      "id": 6613198584,
+      "url": "https://github.com/uibcdf/peptidemt/issues/8#issuecomment-6613198584",
+      "created_at": "2026-11-03T19:16:18Z",
+      "body_sha256": "9499e7bb11d75152d6d0ef0d5f3d6d689cdc737a82208848588775dc96b7306e"
+    }
+  ]
+}

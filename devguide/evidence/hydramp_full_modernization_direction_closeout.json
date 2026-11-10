@@ -1,0 +1,77 @@
+{
+  "schema": "peptidemt.hydramp_full_modernization_direction_closeout@1",
+  "recorded_at_utc": "2026-11-04T01:15:21.832881+00:00",
+  "status": "Investigator direction and proposed staged programme recorded; existing owned issues updated; apparent original filtering defects reported in owned fork",
+  "source_pins": [
+    {
+      "path": "/home/liliana/repos@uibcdf/hydramp/amp/inference/inference.py",
+      "bytes": 16706,
+      "sha256": "3500b3cec26818b0de30d13ca3817a7cd289bf6675122f1ffa5daf0926cccd01"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/hydramp/amp/inference/filtering.py",
+      "bytes": 3115,
+      "sha256": "1e2cd83164302af98dd754e1cd17281ea7a13616db82eca71e04042986b50383"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/hydramp/amp/models/encoders/amp_expanded_encoder.py",
+      "bytes": 5751,
+      "sha256": "a6d85c228112ba47b0b4ca21bb6e9659016134b33c9aa4730330b8adde476eb2"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/hydramp/amp/models/master/master.py",
+      "bytes": 15164,
+      "sha256": "3606ab04878b046ec5d462e51b905b564cc7b4024b01fd84fcfb7fcf245b2a5a"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/hydramp/amp/layers/vae_loss.py",
+      "bytes": 1299,
+      "sha256": "2bb48d72fb0b08219e096b2f0ac3138acc4848020f9c510532c733395ae607a2"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/hydramp/amp/layers/gumbel_softmax.py",
+      "bytes": 753,
+      "sha256": "19fcf66905f1014a66d80f2649f915e86034e5afe5eb19eaebf60f3bb3e77a0b"
+    }
+  ],
+  "maintained_files": [
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/hydramp_full_modernization.md",
+      "bytes": 8661,
+      "sha256": "f747b843eea80e929fde9452cf84dfb656acffa42e84820a69367971e118ecb8"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/hydramp_strategy_review.md",
+      "bytes": 7945,
+      "sha256": "1e855810b19f476116d44c1771f79b6516daa1fe5099d413d01d770a71015be8"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/pending_proposals/hydramp_scientific_followup.md",
+      "bytes": 7851,
+      "sha256": "e376c4c8a2d50ee5bda61984fdd655a92abd7a976c2a761edd6b73adf594cebc"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/README.md",
+      "bytes": 32375,
+      "sha256": "94c3296ce779601fea0334fd7215c790671586efbe99f96818a8aa64c0de6950"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/evidence/hydramp_full_modernization_direction.json",
+      "bytes": 10267,
+      "sha256": "e475dc2ba164f1304dc98906219102dbf8f1d16fdc087c76fde69b380084f1f5"
+    }
+  ],
+  "relative_file_links_checked": 121,
+  "relative_links_missing": 0,
+  "report_index_check": "pass",
+  "whitespace": "pass",
+  "legacy_amp_and_LICENSE_match_original": true,
+  "scientific_verification": "Source inspection only; no model/filter execution or scientific test claim.",
+  "new_scientific_calls": 0,
+  "new_scientific_acceptance": false,
+  "new_execution_authority": false,
+  "all_modules_commissioned": false,
+  "author_contact": "Deferred to end; no external contact made or authorized",
+  "new_commits_or_releases": 0,
+  "retention_review": "2026-11-13"
+}

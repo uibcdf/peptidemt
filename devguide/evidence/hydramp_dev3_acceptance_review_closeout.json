@@ -1,0 +1,90 @@
+{
+  "schema": "peptidemt.hydramp_dev3_acceptance_review_closeout@1",
+  "date": "2026-11-03",
+  "recorded_at_utc": "2026-11-04T00:21:45.403863+00:00",
+  "status": "Consolidated proposal and exact evidence published in existing issue; investigator scientific acceptance pending",
+  "checks": {
+    "ruff": {
+      "exit_code": 0,
+      "log": {
+        "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-dev3-acceptance-owrai0ed/ruff.log",
+        "bytes": 19,
+        "sha256": "82b3e6a6c090a57601d22943bd23fca9218d1031dbe5a7b754092f9a156b4f18"
+      }
+    },
+    "format": {
+      "exit_code": 0,
+      "log": {
+        "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-dev3-acceptance-owrai0ed/format.log",
+        "bytes": 28,
+        "sha256": "8f54ec861a76fc44aebfec6bc4ffd4a23bf75dceacc9ae5028bb9d634db66a53"
+      }
+    },
+    "index": {
+      "exit_code": 0,
+      "log": {
+        "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-dev3-acceptance-owrai0ed/index.log",
+        "bytes": 38,
+        "sha256": "3a525cb88e38e62b2cd78f962eec311aeb1797c9a439b3c7d832b95b00a8d5b5"
+      }
+    },
+    "whitespace": {
+      "exit_code": 0,
+      "log": {
+        "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-dev3-acceptance-owrai0ed/whitespace.log",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    "recorded_source_stamps": {
+      "verified": 27,
+      "changed": 0
+    },
+    "relative_file_links": {
+      "checked": 214,
+      "missing": 0
+    }
+  },
+  "review_receipt": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/evidence/hydramp_dev3_acceptance_review.json",
+    "bytes": 7470,
+    "sha256": "2fbfddeb009b5b058be055b6ded8ad3a1e9173cd5fc3fe5a47efe03a19a454f8"
+  },
+  "publication_receipt": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/evidence/hydramp_dev3_acceptance_review_issue_update.json",
+    "bytes": 4539,
+    "sha256": "6f09e250f20dfc487cfb3cb08ee9fe586bb5087c22a9700d8d3efb024e0c1ab4"
+  },
+  "maintained_documents": [
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/hydramp_dev3_acceptance_review.md",
+      "bytes": 13207,
+      "sha256": "8a0e340b90fcf8f17c5a2e49b63498851672a0720801bdfd55e5c3a5a7b932ad"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/README.md",
+      "bytes": 30266,
+      "sha256": "372ac308cbeb673cb110945bdf15eb7ebaf28e02aa53b219b047c028e1c0d3e7"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/decisions.md",
+      "bytes": 85396,
+      "sha256": "8a549fbd1b24ce7c6455535dcabe982ba862916fe5cd71871be113baf77880a1"
+    },
+    {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/pending_proposals/qualify_hydramp_increment_2.md",
+      "bytes": 36673,
+      "sha256": "4a8b3ce11c3604da475b1b062887b123d7003161d18f813368cfd77b14fdaa8d"
+    }
+  ],
+  "issue_url": "https://github.com/uibcdf/peptidemt/issues/8#issuecomment-6618984173",
+  "issue_remains_open": true,
+  "queued_status": "partial",
+  "scientific_acceptance": false,
+  "new_D_number": null,
+  "new_scientific_calls": 0,
+  "new_execution_authority": false,
+  "new_commits_or_releases": 0,
+  "verification_scope": "Documentation and evidence integrity only; no scientific artifacts deserialized, no scientific operations or new pytest tests. Previous scientific/control evidence retains its own exact environments and hashes.",
+  "retention_review": "2026-11-13"
+}

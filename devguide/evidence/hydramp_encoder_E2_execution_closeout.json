@@ -1,0 +1,26 @@
+{
+  "schema": "peptidemt.hydramp_encoder_E2_execution_closeout@1",
+  "recorded_at_utc": "2026-11-04T14:52:40.383896+00:00",
+  "status": "Approved E2 execution complete; prospective numerical PASS; allowance exhausted; scientific disposition remains separate",
+  "plan_sha256": "eb6d30fc31217dee57c9200fcfcff982ebbee0facb12fdeff3b6f9da3b92692b",
+  "execution_evidence_sha256": "fc95a2fef96f3930d4f1dd3d3f1a23dc02dedcce107a95f54e62a9e23f6cd0f1",
+  "artifact_and_plan_hashes_verified": 199,
+  "relative_links_checked": 239,
+  "owner_and_consumer_execution_evidence_identical": true,
+  "native_checks": {
+    "consumer_ruff_check": "pass",
+    "consumer_ruff_format": "142 files already formatted",
+    "devguide_index": "current, no lifecycle transition",
+    "both_git_diff_check": "pass",
+    "owner_original_amp_and_LICENSE_diff": "empty",
+    "original_scientific_instrument_and_runtime_pins": "unchanged; prior synthetic/instrument checks reused; no duplicate model runs"
+  },
+  "model_evaluations": 10,
+  "actual_supervised_seconds": 8.127147205872461,
+  "maximum_sampled_RSS_bytes": 385298432,
+  "comparison_report_exit": 0,
+  "publication_receipt_sha256": "f84c7fc38242e892ba7084505634ff3d2e05e9f88d5b48c71915cce298b8a140",
+  "no_retry_GPU_new_issue_commit_push_release_or_external_contact": true,
+  "next_boundary": "Investigator disposition of finite encoder evidence and a separately reviewed contract for any later analogue/training module",
+  "retention_through": "2026-11-14"
+}

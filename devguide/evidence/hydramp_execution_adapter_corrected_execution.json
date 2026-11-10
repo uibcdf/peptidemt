@@ -1,0 +1,166 @@
+{
+  "schema": "peptidemt.hydramp_execution_adapter_corrected_execution@1",
+  "date": "2026-11-03",
+  "recorded_at_utc": "2026-11-03T23:58:05.236256+00:00",
+  "issue": "uibcdf/peptidemt#8",
+  "status": "Single corrected installed public adapter case completed; exact retained native results/order/indices/trace and saved replay pass; parent attribution captured",
+  "plan": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/live-plan-corrected.json",
+    "bytes": 96839,
+    "sha256": "31317bd3023165300d9558134e73c584a3bdfa25e2c619a200cff11c65c33608"
+  },
+  "authorization": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/evidence/hydramp_execution_adapter_corrected_authorization.json",
+    "bytes": 1857,
+    "sha256": "3cab3ae671f980e2e391da9882480db945c7bd6a2fefd4a11217175e4ade0b02"
+  },
+  "observations": {
+    "completed": true,
+    "failures": [],
+    "receiving_issues": [],
+    "returned": 16,
+    "native_results_exact": true,
+    "returned_indices_exact": true,
+    "original_trace_exact": true,
+    "saved_roundtrip_exact": true,
+    "attribution_status": "captured",
+    "bibliography_records": 7,
+    "confirmed_operations": [
+      "numeric_pca_loading",
+      "checkpoint_loading",
+      "numeric_pca_inversion",
+      "native_decoding",
+      "native_scoring",
+      "native_descriptors",
+      "native_generation"
+    ],
+    "scientific_acceptance": false
+  },
+  "execution": {
+    "started": true,
+    "returncode": 0,
+    "failure": null,
+    "wall_seconds": 8.358470276929438,
+    "peak_sampled_process_tree_rss_bytes": 453214208,
+    "retained_output_bytes": 205373,
+    "retry": false
+  },
+  "launcher": {
+    "exit_code": 0,
+    "wall_seconds": 9.28892168495804,
+    "plan_sha256": "31317bd3023165300d9558134e73c584a3bdfa25e2c619a200cff11c65c33608",
+    "retry": false
+  },
+  "worker_supervision": {
+    "started": true,
+    "returncode": 0,
+    "failure": null,
+    "wall_seconds": 7.25111680990085,
+    "peak_sampled_process_tree_rss_bytes": 420630528,
+    "retained_output_bytes": 1533644,
+    "retry": false
+  },
+  "runtime_resource_controls": {
+    "cpu_ids": [
+      0,
+      1
+    ],
+    "nice": 10,
+    "address_space_bytes": 8589934592,
+    "torch_threads": 1,
+    "torch_interop_threads": 1,
+    "cpu_only_build": true
+  },
+  "worker_kernel_hwm_rss_bytes": 419319808,
+  "actual_budget": {
+    "public_generation_calls": 1,
+    "numeric_PCA_loads": 1,
+    "checkpoint_loads": 1,
+    "PCA_inverse_transforms": 1,
+    "decoder_forwards": 1,
+    "AMP_forwards": 1,
+    "MIC_forwards": 1,
+    "descriptor_bundles": 1,
+    "neural_forwards_total": 3,
+    "proposals": 16,
+    "Macrel_calls": 0,
+    "legacy_calls": 0,
+    "retries": 0
+  },
+  "budget_count_basis": "Worker journal reserves and confirms seven single operations. The pinned native score_tokens evaluates the AMP and MIC heads once each; one decode plus those two heads totals three neural forwards. No retry or alternate API call.",
+  "parent_attribution": {
+    "status": "captured",
+    "bibliography_records": 7,
+    "parent_items": 7,
+    "original_implementation_role": "reference_implementation",
+    "legacy_TensorFlow_executed": false,
+    "Macrel_executed": false
+  },
+  "consumer_wheel_sha256": "18b1cb18b9662092203aad9c64d45bc0d61a862577297c13a664572dbdbc3e83",
+  "provider_wheel_sha256": "81761e0d48d92f0956e0afc28b3b4154f16032de53c666fd2cfbb53606102ed7",
+  "previous_failed_execution": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/evidence/hydramp_execution_adapter_failed_execution.json",
+    "bytes": 4618,
+    "sha256": "3151d15891a9f7adf56f9ee1f68f7c42687c44f0bcd154de72663107a73aa94f"
+  },
+  "scientific_acceptance": false,
+  "limitations": [
+    "This exact Linux CPU adapter case and bundle only; no broad dev3 adoption, biological validation, other platform or distribution qualification.",
+    "Earlier numerical differences and native AMP ranking limitations remain unchanged.",
+    "Retained H4 pool has no joint AMP-positive/NonHemo selection; no new Macrel test was run.",
+    "The single corrected authorization is consumed; no further real execution is authorized."
+  ],
+  "retention_review": "2026-11-13",
+  "artifacts": {
+    "corrected-real-run/attempt.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/corrected-real-run/attempt.json",
+      "bytes": 99,
+      "sha256": "69057f68cb72a6761a7acc7697598ae3b1f853dc1a415839e4999a281e3d19d1"
+    },
+    "corrected-real-run/authorization.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/corrected-real-run/authorization.json",
+      "bytes": 1857,
+      "sha256": "3cab3ae671f980e2e391da9882480db945c7bd6a2fefd4a11217175e4ade0b02"
+    },
+    "corrected-real-run/execution.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/corrected-real-run/execution.json",
+      "bytes": 202,
+      "sha256": "28b293371c8c354e0710fcad8b3a6b90dc2e75986f54f3982a7eec6937f5a9a6"
+    },
+    "corrected-real-run/model-attempt.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/corrected-real-run/model-attempt.json",
+      "bytes": 118,
+      "sha256": "63e372b33fe97e2d238dd4df198333117704e7fd5689010f19bd14ddd47a8945"
+    },
+    "corrected-real-run/observations.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/corrected-real-run/observations.json",
+      "bytes": 526,
+      "sha256": "c96709267dbcd1e9565c523a6d1ea3100386907ecd9a67383d528e40cafca897"
+    },
+    "corrected-real-run/parent-attribution.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/corrected-real-run/parent-attribution.json",
+      "bytes": 5408,
+      "sha256": "d630b73ec8b53515ff4965770207146c5bd5d2fd9ddd59524033b807c01f3e82"
+    },
+    "corrected-real-run/receipt.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/corrected-real-run/receipt.json",
+      "bytes": 197365,
+      "sha256": "191316478ed46a4d64538352a30e1f74d9a9f4d169020e12f1b4252ee907f404"
+    },
+    "corrected-execution-host-snapshot.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/corrected-execution-host-snapshot.json",
+      "bytes": 450,
+      "sha256": "09ecbcdf6ea409a85056318a92eff8f37aad7d34a75be31d22448b9de3f4cb2f"
+    },
+    "corrected-launcher-execution.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/corrected-launcher-execution.json",
+      "bytes": 159,
+      "sha256": "79b2c7a292c76d90cb404f630b46138577bbc44537535df7515f7bd139fb28f7"
+    },
+    "logs/corrected-real-qualification.log": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-execution-adapter-vceg9u_2/logs/corrected-real-qualification.log",
+      "bytes": 202,
+      "sha256": "28b293371c8c354e0710fcad8b3a6b90dc2e75986f54f3982a7eec6937f5a9a6"
+    }
+  }
+}

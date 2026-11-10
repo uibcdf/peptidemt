@@ -1,0 +1,86 @@
+{
+  "schema": "peptidemt.hydramp_product_review_closeout@1",
+  "date": "2026-11-03",
+  "recorded_at_utc": "2026-11-04T00:56:43.217589+00:00",
+  "status": "Initial owner product review, guide/model card/saved example and consumer handoff delivered; implementation/design backlog remains open",
+  "checks": {
+    "ruff": {
+      "exit_code": 0,
+      "log": {
+        "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-product-review-yztws6uh/closeout-ruff.log",
+        "bytes": 19,
+        "sha256": "82b3e6a6c090a57601d22943bd23fca9218d1031dbe5a7b754092f9a156b4f18"
+      }
+    },
+    "format": {
+      "exit_code": 0,
+      "log": {
+        "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-product-review-yztws6uh/closeout-format.log",
+        "bytes": 28,
+        "sha256": "3e363a951eafb2bc4d7b7edadd4f34b1fb2c5ca55e2ed514e89e27827e64b786"
+      }
+    },
+    "index": {
+      "exit_code": 0,
+      "log": {
+        "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-product-review-yztws6uh/closeout-index.log",
+        "bytes": 38,
+        "sha256": "3a525cb88e38e62b2cd78f962eec311aeb1797c9a439b3c7d832b95b00a8d5b5"
+      }
+    },
+    "whitespace": {
+      "exit_code": 0,
+      "log": {
+        "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-product-review-yztws6uh/closeout-whitespace.log",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    "owner_legacy_preserved": {
+      "exit_code": 0,
+      "log": {
+        "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-product-review-yztws6uh/closeout-owner_legacy_preserved.log",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    }
+  },
+  "review_receipt": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/evidence/hydramp_product_review.json",
+    "bytes": 33105,
+    "sha256": "9d6db1ee732e9bed2d190811cf25bd539a609d1e864e2d43f4b76cdfa5011139"
+  },
+  "owner_receipt_identical": true,
+  "publication_receipt": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/evidence/hydramp_product_review_issue_updates.json",
+    "bytes": 7248,
+    "sha256": "8f4d6c827db053de3b692d65cb9fc4ca5988f70e0a3f7c1723a00445581532c2"
+  },
+  "owner_docs": {
+    "owner_relative_file_links": 42,
+    "missing": 0,
+    "displayed_live_python_blocks_syntax_checked": 1,
+    "live_blocks_executed": 0,
+    "new_example_ruff_and_format": true,
+    "owner_diff_whitespace": true,
+    "scientific_calls": 0
+  },
+  "consumer_docs": {
+    "consumer_relative_file_links": 115,
+    "missing": 0,
+    "new_scientific_calls": 0
+  },
+  "standalone_invocations": 4,
+  "displayed_live_blocks_executed": 0,
+  "accepted_runtime_source_and_artifacts_preserved": true,
+  "accepted_plan_preflight": "345file SHA checks and both runtime metadata profiles pass;zero model/PCA loads",
+  "reused_tests": "Existing76package/13controller and scientific campaign evidence retains original scope;no scientific or package tests rerun",
+  "new_scientific_calls": 0,
+  "new_dependencies": 0,
+  "new_execution_authority": false,
+  "new_scientific_acceptance": false,
+  "new_schema_or_CLI": false,
+  "new_commits_or_releases": 0,
+  "external_contact": false,
+  "retention_review": "2026-11-13"
+}

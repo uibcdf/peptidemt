@@ -1,0 +1,142 @@
+{
+  "schema": "peptidemt.hydramp_upstream_test_resources@1",
+  "date": "2026-11-02",
+  "inspected_at_utc": "2026-11-03T04:59:35.100337+00:00",
+  "issue": "uibcdf/peptidemt#8",
+  "status": "Published evaluation/data resources identified; candidate fixtures only, not acquired or qualified.",
+  "source_commit": "6590d2f4c2963f25d30669052a4c4a857e0e7279",
+  "upstream_default_branch_verified": "master at the same source commit",
+  "source_tracked_files": 91,
+  "conventional_test_paths_found": [],
+  "conventional_test_scope": "File-tree inventory of this pinned default branch only; no assertion that every upstream branch/release lacks tests.",
+  "source_manifest": {
+    "README.md": {
+      "git_blob_sha": "6329610d4caf03c10256d9d173ac9b4595774f7c",
+      "bytes": 9529,
+      "sha256": "1060895c71e22c69216168b250901459e3f72cdd89aaf4a52dc192f43774366f"
+    },
+    "data.dvc": {
+      "git_blob_sha": "00db698404250ddc810711de70bc6d0971d58c66",
+      "bytes": 98,
+      "sha256": "383662479633430ab09123199b145aae335930475e582ec88962098604b01e16"
+    },
+    "results.dvc": {
+      "git_blob_sha": "669eccbfc2f67f583da3bdd5f4ca828c35129b1c",
+      "bytes": 102,
+      "sha256": "69c479049fa22decdcad5f9b7981165ca73bf17f2bedc25e94a07af49c5d246e"
+    },
+    "models.dvc": {
+      "git_blob_sha": "bc3ab1de38b7ca7a21974069685e623c228c9bd6",
+      "bytes": 98,
+      "sha256": "0913772032833fa6a2981f54065068d4a20ea13b880e51e2cdcf81407c890f38"
+    },
+    "get_data.sh": {
+      "git_blob_sha": "6b3068ece785963a55c0e07f3658ba2152b228d9",
+      "bytes": 248,
+      "sha256": "b59ac89e5d00b9ff2963e319599c11342e1e47eb5da13b920fc6667cec0f22b7"
+    },
+    "data_setup/download_data.py": {
+      "git_blob_sha": "7f47947bdebc079bb188c1064d7de8bc8d4b30f1",
+      "bytes": 179,
+      "sha256": "b20dfbeeacc85a56edd08947ad7e5117bf2fc515d987d9a5a78d5c374800de60"
+    },
+    "amp/evaluation/config.py": {
+      "git_blob_sha": "354631852149a87f7c6fbfa8f6daf9ee7d1d10ed",
+      "bytes": 38,
+      "sha256": "c96de6cbb1f23379ff941af0b95f17000cf4764d81a01a05cdfcc58432565e27"
+    },
+    "amp/evaluation/scripts/run_cas.py": {
+      "git_blob_sha": "8e397baa620b18f752d6eac8fb5cfa8e9245024b",
+      "bytes": 6513,
+      "sha256": "221d60a6ac5f78d2eedddbcd65c1c130a2ea57b44cd6a01eb745872ba08ad124"
+    },
+    "amp/evaluation/scripts/run_nas.py": {
+      "git_blob_sha": "e7058edfab18388fec5a7f96d9db09a799d6cd51",
+      "bytes": 13131,
+      "sha256": "6728e72ac40c76c55c21cc878fd9618a1aab78f0e26280f0fa676e85e6872f2c"
+    },
+    "scripts/dataset_preparation.ipynb": {
+      "git_blob_sha": "9e1187cc5e220d8d95a381127af9548aea6c779c",
+      "bytes": 63860,
+      "sha256": "913a357d33ec9af4d9a0a96420ce2f9f16e0d833b7789c0e1d7a21076c847b46"
+    },
+    "scripts/unconstrained_generation.ipynb": {
+      "git_blob_sha": "c300e21a7d7ac7e6c353c5f89442fd5612673be9",
+      "bytes": 18788,
+      "sha256": "74045815d08fd75e6a76515df9afe27dd6f08814bb669feeeecc620151e796f2"
+    },
+    "scripts/model_selection.ipynb": {
+      "git_blob_sha": "4ac9fd85bfd35de3e901ef2621a3c77fdf9e8731",
+      "bytes": 509837,
+      "sha256": "32de4c6cc056d1956f0b9a9d80d506f1e0c7d23bb70cd0d3cbb245a4ab0c40af"
+    },
+    "scripts/figures/UnconstrainedGeneration_PhysicochemicalProperties.ipynb": {
+      "git_blob_sha": "6d42bb1fe4cd6389354450340d8329b8e62f74c6",
+      "bytes": 181963,
+      "sha256": "bc4282ce4e870d7b3cd93c0586e95726e0d0e8c5bd16f85aee435167efbc1e27"
+    },
+    "scripts/figures/UnconstrainedGeneration_Conditions.ipynb": {
+      "git_blob_sha": "5a10dbd58873a54c4f3dd7d737091aa5ca019e04",
+      "bytes": 233257,
+      "sha256": "fd0339a7524527eb34ba8a243623055b9b7bdac69a0572325772a96ba42b7b83"
+    },
+    "scripts/figures/Length.ipynb": {
+      "git_blob_sha": "a40df17f188855b4109eda00e7fa28dd4129e315",
+      "bytes": 102180,
+      "sha256": "724e56d31017da6f45209a52ca7b1f996c9b1a03b300639d82fd3ce31557b6e5"
+    }
+  },
+  "archived_metadata": {
+    "zenodo_record": "7420278",
+    "data.zip": {
+      "advertised_compressed_size": "10.7 MB",
+      "published_md5": "5168e9260c27df1d50a76eb5ecab7aef",
+      "observed_preview_entries": "Data/splits plus comparison baseline resources; not data file content."
+    },
+    "results.zip": {
+      "advertised_compressed_size": "378.3 MB",
+      "published_md5": "d32184681f058d4173f0cbb689b35718",
+      "candidate_members": [
+        "results/hydra_unconstrained.csv",
+        "results/unconstrained_HydrAMP.joblib",
+        "results/thresholding.csv"
+      ],
+      "member_content_inspected": false
+    },
+    "dvc_data": {
+      "md5": "9c332227e7ff90bd67cc4c9eee36eab8.dir",
+      "unpacked_bytes": 30566627,
+      "nfiles": 20
+    },
+    "dvc_results": {
+      "md5": "9799ab4b7688afd8a64d2000d24cc7a1.dir",
+      "unpacked_bytes": 872974869,
+      "nfiles": 16
+    },
+    "archive_bytes_downloaded": 0,
+    "archive_digests_verified": false
+  },
+  "primary_paper_resources": {
+    "supplementary_data_5": "Paper describes auxiliary scores, physicochemical properties and experimentally tested peptides; tables not downloaded/read.",
+    "supplementary_data_8_9": "Paper identifies external-classifier evaluation datasets; tables not downloaded/read.",
+    "source_data": "Publisher lists a source-data workbook; not downloaded/read."
+  },
+  "limitations": [
+    "No conventional automated test suite found in pinned original master; notebook/evaluation code is a different resource.",
+    "NAS/CAS scripts contain classifier fit/cross-validation loops and reference amp.evaluation.nas_cas, absent from the pinned tree; do not run unchanged or repair unrelated training components.",
+    "Unconstrained notebook uses n=50000 and 64-fold latent replication; model/config/filtering/seed differences prevent treating its distributions as exact golden output for the commissioned softmax/unfiltered/one-attempt route.",
+    "Notebook references positives_test.tsv and negatives_test.tsv; they are not listed in the archived data.zip preview. Mapping to supplementary tables is not verified.",
+    "Training/unlabelled sets and a challenge novelty reference are not independent experimental validation.",
+    "Published joblib dumps are pickle-based; no deserialization is performed.",
+    "Terms, source overlap and exact experiment/checkpoint mapping precede fixture adoption; scientific criterion changes return to investigators."
+  ],
+  "recommendation": "Use original published resources to propose a small versioned regression subset for native scores/descriptors and a separate matched latent/seed native-vs-port generation comparison. Retain broader scientific benchmarks for separately commissioned evaluation.",
+  "execution": {
+    "model_or_pca_loads": 0,
+    "pretrained_forwards": 0,
+    "descriptor_calls": 0,
+    "training_calls": 0,
+    "gpu": false,
+    "new_foreign_repo_publication": false
+  }
+}

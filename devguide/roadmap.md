@@ -1,9 +1,14 @@
 # Preliminary roadmap
 
+For the current delivered state and immediate continuation, use the
+[migration checkpoint](migration_checkpoint_2026_11_10.md). The staged roadmap
+below preserves the earlier design trajectory; dated preparation language is
+not a request to repeat completed W0–W4 or HydrAMP qualification.
+
 Status: **V0.1 direction/first coverage/order and increment-1 scientific contract
 accepted under D33–D35; W0–W4 delivered under D36 and the exact Macrel bundle
 accepted under D37**, updated 2026-10-29. The next
-[HydrAMP commissioning proposal](pending_proposals/qualify_hydramp_increment_2.md)
+[HydrAMP commissioning proposal](archive/qualify_hydramp_increment_2.md)
 is commissioned under D38. Exact bundle/use conditions and fresh host limits
 precede model loading/inference; later increments and publication remain outside scope.
 Navigation: [index](README.md) · [decisions](decisions.md).

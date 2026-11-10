@@ -1,0 +1,125 @@
+{
+  "date": "2026-10-30",
+  "issue": "uibcdf/peptidemt#8",
+  "status": "Prepared; new two-decoder-forward plan awaits explicit execution approval. No real diagnostic attempt.",
+  "task_directory": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-decoder-trace-2j1w0gcl",
+  "worktree": "/home/liliana/repos@uibcdf/hydramp/local_data/pytorch-port",
+  "plan_path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-decoder-trace-2j1w0gcl/plan.json",
+  "plan": {
+    "bytes": 24468,
+    "sha256": "8f87fe9711767297e4de063bde1e6a6cc6de1103d9b4df55bc895596315d020e"
+  },
+  "tool_path": "/home/liliana/repos@uibcdf/hydramp/local_data/pytorch-port/ports/pytorch/devtools/parity.py",
+  "tool": {
+    "bytes": 18338,
+    "sha256": "21232aab3060dd6a9e8ac448d8b46aa0bac1dd32786f556f1e2b4acdb8347026"
+  },
+  "worker_path": "/home/liliana/repos@uibcdf/hydramp/local_data/pytorch-port/ports/pytorch/devtools/decoder_trace.py",
+  "worker": {
+    "bytes": 11475,
+    "sha256": "557abdd012dafd44164ddcf93741780e64dcadfcc8cd4516d192fb81d8491dc2"
+  },
+  "source_evolution": {
+    "prior_tool_sha256": "686a7d4adbd80058d8689ef185680759f299c2643a6cb4c1dde57ebc1d15cd48",
+    "preserved_prior_tool_path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-parity-637rwaat/source-snapshot/parity.py",
+    "new_control_only_change": "Pin/route diagnostic worker and saved input, refuse accidental original six-call worker use. Scientific core, original source/licence, installed wheel and prior evidence unchanged.",
+    "prior_current_path": "ports/pytorch/devtools/parity.py",
+    "old_source_restore": "Read exact source-snapshot/parity.py and compare its recorded SHA; do not reinterpret new helper bytes as the old executed tool."
+  },
+  "prior_execution_receipt": {
+    "bytes": 15804,
+    "sha256": "388bd01f709bf8605b38feff26e121f5ea6a9c5bba8677c3eeb41659834eab12"
+  },
+  "prior_overall_comparison_pass": false,
+  "budget": {
+    "workers": 2,
+    "concurrent_workers": 1,
+    "cpu_affinity": [
+      0,
+      1
+    ],
+    "native_threads": 1,
+    "nice": 10,
+    "address_space_bytes": 8589934592,
+    "rss_stop_bytes": 2147483648,
+    "minimum_mem_available_bytes": 8589934592,
+    "worker_wall_seconds": 180,
+    "aggregate_worker_wall_seconds": 360,
+    "output_stop_bytes": 134217728,
+    "minimum_free_disk_bytes": 1073741824,
+    "gpu": false,
+    "network": false,
+    "retries": 0,
+    "legacy_model_constructions": 1,
+    "torch_model_constructions": 1,
+    "pca_pickle_loads": 0,
+    "pca_coefficient_exports": 0,
+    "pca_inverse_transforms_per_worker": 0,
+    "decoder_evaluations_per_worker": 1,
+    "amp_evaluations_per_worker": 0,
+    "mic_evaluations_per_worker": 0,
+    "rows_per_network_evaluation": 12,
+    "network_evaluations_total": 2,
+    "unconstrained_generation_calls": 0,
+    "descriptor_calls": 0,
+    "macrel_calls": 0,
+    "task_ram_budget_bytes": 4000000000,
+    "task_ram_budget_implementation": "One model worker at a time, sampled worker RSS stop at 2 GiB; small stdlib supervisor measured separately. The unchanged 8 GiB virtual address-space ceiling is not a RAM allocation."
+  },
+  "diagnostic_contract": {
+    "capture": [
+      "autoregressive",
+      "lstm",
+      "logits",
+      "probabilities"
+    ],
+    "forward_evaluations": "One multi-output/traced decoder forward per framework; no independent pass per capture.",
+    "input": "Same exact prior float64 conditioned 12x66 inputs; no PCA recomputation, new seed or resampling.",
+    "instrumentation_control": "Compare each traced endpoint to that framework's prior saved endpoint with the unchanged threshold and exact argmax check. Output tapping may affect TensorFlow graph optimizations.",
+    "interpretation": "Localization only; no model fix, changed tolerance, precision experiment, adoption or automatic retry."
+  },
+  "pinned_input_archives": {
+    "legacy": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-parity-637rwaat/legacy.npz",
+      "sha256": "ad584797d832b076e9f6e3d95274635b2e6a0cde3ca251810de93da7555de8c7"
+    },
+    "torch": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-parity-637rwaat/torch.npz",
+      "sha256": "7746ecc7b721e8ac153e867c05862bd467f43cb0bfb7bbee30a0d2e29533b33c"
+    }
+  },
+  "checks": {
+    "pytest": {
+      "exit": 0,
+      "passed": 22,
+      "failed": 0,
+      "skipped": 0,
+      "scope": "Original eleven comparator checks plus eleven artificial trace/routing/input/restore cases; no pretrained artifact read. Guard wrapper verifies installed CPU Torch/core without real model loading."
+    },
+    "legacy_synthetic_graph_probe": {
+      "exit": 0,
+      "stop_reason": null,
+      "peak_sampled_rss_bytes": 442859520,
+      "wall_seconds": 6.629738369956613,
+      "pretrained_model_loads": 0
+    },
+    "legacy_probe_scope": "One artificial-weight two-row native decoder forward, four captured stage shapes and independent softmax/logit assertion; pretrained artifact opens/network blocked. Not a learned checkpoint evaluation.",
+    "syntax": "Both control/tracer files parse under Python 3.8",
+    "ruff": "New control/tracer py38, tests py311 checked/formatted",
+    "preflight": "Passed byte-only identities: 65 retained assets, 41 original installed source files; no scientific deserialization.",
+    "source_preservation": "Exact old executed helper and all prior primary output/log hashes verified; model source and 25-test core milestone inputs unchanged."
+  },
+  "real_diagnostic_execution": {
+    "model_loads": 0,
+    "decoder_forwards": 0,
+    "pca_loads": 0,
+    "head_forwards": 0,
+    "macrel_calls": 0,
+    "retries": 0,
+    "gpu_computation": false
+  },
+  "next_gate": "Explicit investigator approval of the fresh two-forward plan and retained 4 GB host envelope before any pretrained model load/evaluation.",
+  "schema": "peptidemt.hydramp_decoder_trace_preparation@1",
+  "producer_record": "devguide/evidence/pytorch_decoder_trace_preparation.json in the local HydrAMP peptidemt-pytorch worktree",
+  "producer_record_sha256": "e97b7b4e262fcfe567d8654b768684b593afc67ecca98b6796485d107151b86c"
+}

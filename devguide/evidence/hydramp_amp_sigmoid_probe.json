@@ -1,0 +1,351 @@
+{
+  "schema": "peptidemt.hydramp_amp_synthetic_kernel_cause@1",
+  "date": "2026-11-03",
+  "recorded_at_utc": "2026-11-03T18:04:53.842543+00:00",
+  "owner": "uibcdf/hydramp",
+  "consumer_issue": "uibcdf/peptidemt#8",
+  "status": "Different sigmoid CPU float32 behavior demonstrated on artificial constants; actual pretrained-head stage attribution still requires an approved trace",
+  "authority": "Investigator explicitly requested understanding differences and authorized opening an issue in the owned fork, preserving demonstrated modern numerical improvements. Synthetic mathematical tests are within the existing development commission; no learned execution budget is inferred.",
+  "candidate": "hydramp-torch==0.0.0.dev3",
+  "wheel_sha256": "81761e0d48d92f0956e0afc28b3b4154f16032de53c666fd2cfbb53606102ed7",
+  "framework_probes": {
+    "legacy": {
+      "stage": "legacy",
+      "executable": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-h1-20261030-6jc5a1me/worker/bin/python",
+      "prefix": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-h1-20261030-6jc5a1me/worker",
+      "numpy": "1.18.5",
+      "framework": "2.2.1",
+      "details": {
+        "git_version": "v2.2.0-57-g25fba035f3",
+        "operation_type": "Sigmoid",
+        "operation_device": "/device:CPU:0",
+        "activation_calls": 1
+      },
+      "synthetic_values": 272,
+      "learned_model_calls": 0,
+      "weights_or_pca_loaded": 0,
+      "network": false,
+      "gpu_computation": false
+    },
+    "torch": {
+      "stage": "torch",
+      "executable": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-comparison-qnbdpism/worker/bin/python",
+      "prefix": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-comparison-qnbdpism/worker",
+      "numpy": "2.4.6",
+      "framework": "2.15.0+cpu",
+      "details": {
+        "git_version": "d0f2af8b66b20da4baa50644c0cd3f887a2eae2e",
+        "cpu_capability": "AVX2",
+        "activation_calls": 1,
+        "native_threads": 1
+      },
+      "synthetic_values": 272,
+      "learned_model_calls": 0,
+      "weights_or_pca_loaded": 0,
+      "network": false,
+      "gpu_computation": false
+    }
+  },
+  "source_headers": {
+    "eigen_float_logistic": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-h1-20261030-6jc5a1me/worker/lib/python3.8/site-packages/tensorflow/include/Eigen/src/Core/functors/UnaryFunctors.h",
+      "bytes": 36350,
+      "sha256": "dfb51d8f1001fb1fb7aad5eb8a65f74b55a3fdd918088dacf36cd4668518da32"
+    },
+    "tensorflow_sigmoid_functor": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-h1-20261030-6jc5a1me/worker/lib/python3.8/site-packages/tensorflow/include/tensorflow/core/kernels/cwise_ops.h",
+      "bytes": 44566,
+      "sha256": "7672be612007217f38d631ba105995d2797c79101eacbe31f020df9fdac37d53"
+    }
+  },
+  "source_retrievals": {
+    "pytorch": {
+      "url": "https://github.com/pytorch/pytorch/blob/d0f2af8b66b20da4baa50644c0cd3f887a2eae2e/aten/src/ATen/native/cpu/UnaryOpsKernel.cpp",
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-head-cause-2q_m3p18/pytorch-UnaryOpsKernel.cpp",
+      "bytes": 38241,
+      "sha256": "6018a9b75f3c53ddf8d43716c0ca7c699ba284aa396f5c3a79109faaddff5928"
+    },
+    "tensorflow": {
+      "url": "https://github.com/tensorflow/tensorflow/blob/v2.2.1/tensorflow/core/kernels/cwise_ops.h",
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-head-cause-2q_m3p18/tensorflow-cwise_ops.h",
+      "bytes": 44567,
+      "sha256": "16b2bd5a27111b8e8126b1cb7a6751443d1a0ec375e2890847dcc831d5ad5fa1",
+      "matches_installed_header_ignoring_terminal_whitespace": true
+    }
+  },
+  "summary": {
+    "schema": "hydramp.synthetic_sigmoid_comparison@1",
+    "summary": {
+      "all": {
+        "values": 272,
+        "outputs_differ": 185,
+        "legacy_maximum_absolute_error_vs_fp64": 1.4449800378457667e-07,
+        "torch_maximum_absolute_error_vs_fp64": 7.623386832911194e-08,
+        "legacy_smaller_error": 23,
+        "torch_smaller_error": 162,
+        "same_error": 87,
+        "legacy_agrees_with_fp64_rounded_float32": 85,
+        "torch_agrees_with_fp64_rounded_float32": 184
+      },
+      "nonnegative": {
+        "values": 142,
+        "outputs_differ": 64,
+        "legacy_maximum_absolute_error_vs_fp64": 1.4449800378457667e-07,
+        "torch_maximum_absolute_error_vs_fp64": 7.623386832911194e-08,
+        "legacy_smaller_error": 22,
+        "torch_smaller_error": 42,
+        "same_error": 78,
+        "legacy_agrees_with_fp64_rounded_float32": 77,
+        "torch_agrees_with_fp64_rounded_float32": 88
+      },
+      "positive_logit_at_least_10": {
+        "values": 61,
+        "outputs_differ": 26,
+        "legacy_maximum_absolute_error_vs_fp64": 1.4449800378457667e-07,
+        "torch_maximum_absolute_error_vs_fp64": 5.955426762849214e-08,
+        "legacy_smaller_error": 4,
+        "torch_smaller_error": 22,
+        "same_error": 35,
+        "legacy_agrees_with_fp64_rounded_float32": 28,
+        "torch_agrees_with_fp64_rounded_float32": 37
+      }
+    },
+    "examples": [
+      {
+        "logit": 0,
+        "legacy": 0.5,
+        "torch": 0.5,
+        "fp64": 0.5,
+        "rounded_fp32_reference": 0.5
+      },
+      {
+        "logit": 10,
+        "legacy": 0.9999545812606812,
+        "torch": 0.9999545812606812,
+        "fp64": 0.9999546021312976,
+        "rounded_fp32_reference": 0.9999545812606812
+      },
+      {
+        "logit": 12,
+        "legacy": 0.9999939203262329,
+        "torch": 0.9999938011169434,
+        "fp64": 0.9999938558253978,
+        "rounded_fp32_reference": 0.9999938607215881
+      },
+      {
+        "logit": 14,
+        "legacy": 0.9999991059303284,
+        "torch": 0.9999991655349731,
+        "fp64": 0.9999991684719722,
+        "rounded_fp32_reference": 0.9999991655349731
+      },
+      {
+        "logit": 15,
+        "legacy": 0.9999996423721313,
+        "torch": 0.9999996423721313,
+        "fp64": 0.999999694097773,
+        "rounded_fp32_reference": 0.9999997019767761
+      },
+      {
+        "logit": 16,
+        "legacy": 1.0,
+        "torch": 0.9999998807907104,
+        "fp64": 0.9999998874648379,
+        "rounded_fp32_reference": 0.9999998807907104
+      },
+      {
+        "logit": 20,
+        "legacy": 1.0,
+        "torch": 1.0,
+        "fp64": 0.9999999979388463,
+        "rounded_fp32_reference": 1.0
+      }
+    ],
+    "reference_formulation_maximum_absolute_difference": 2.220446049250313e-16,
+    "nonnegative_reference_formulations_round_float32_identically": true,
+    "maximum_framework_output_difference": 1.1920928955078125e-07,
+    "learned_models_weights_pca_or_real_activation_inputs": false,
+    "scope": "Artificial constant kernel test only. Approximate NumPy FP64 reference, not exact arithmetic or a trained-head causal attribution. Actual pretrained logits/stages require a separately approved trace."
+  },
+  "monotonicity_review": {
+    "legacy": {
+      "decreases": 1,
+      "examples": [
+        {
+          "left_logit": 13.999999046325684,
+          "right_logit": 14.0,
+          "left_output": 0.9999992847442627,
+          "right_output": 0.9999991059303284
+        }
+      ]
+    },
+    "torch": {
+      "decreases": 0,
+      "examples": []
+    }
+  },
+  "execution_limits": {
+    "sequential": true,
+    "cpu_affinity": [
+      0,
+      1
+    ],
+    "numeric_threads": 1,
+    "nice": 10,
+    "per_probe_wall_seconds": 60,
+    "rss_stop_bytes": 1073741824,
+    "address_space_bytes": 8589934592,
+    "minimum_host_available_ram_bytes": 8589934592,
+    "gpu_computation": false,
+    "network": false
+  },
+  "probe_execution": {
+    "legacy": {
+      "exit_code": 0,
+      "stop_reason": null,
+      "wall_seconds": 2.1147086990531534,
+      "peak_sampled_rss_bytes": 306728960,
+      "standalone_synthetic_activation_calls": 1,
+      "learned_model_calls": 0
+    },
+    "torch": {
+      "exit_code": 0,
+      "stop_reason": null,
+      "wall_seconds": 1.9162325249053538,
+      "peak_sampled_rss_bytes": 250335232,
+      "standalone_synthetic_activation_calls": 1,
+      "learned_model_calls": 0
+    }
+  },
+  "math_reference_execution": {
+    "exit_code": 0,
+    "wall_seconds": 0.2675614070612937,
+    "standalone_fp64_formula_evaluations": 2,
+    "learned_model_calls": 0
+  },
+  "artifacts": {
+    "logs/sigmoid-analysis.log": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-head-cause-2q_m3p18/logs/sigmoid-analysis.log",
+      "bytes": 3028,
+      "sha256": "8108ef0cdb4a025d6c4a72c9eee3eea3206073c22b9733b0943084acd4c69689"
+    },
+    "logs/synthetic-legacy.log": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-head-cause-2q_m3p18/logs/synthetic-legacy.log",
+      "bytes": 1598,
+      "sha256": "db00d4d74a48e27f82f5b97712e5e42b8b93274b0d5bcb275380b67e7447bfad"
+    },
+    "logs/synthetic-torch.log": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-head-cause-2q_m3p18/logs/synthetic-torch.log",
+      "bytes": 536,
+      "sha256": "41a7b004732f16be61000d941be9e30814eee3755ee824a821998f8094fcede5"
+    },
+    "pytorch-UnaryOpsKernel.cpp": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-head-cause-2q_m3p18/pytorch-UnaryOpsKernel.cpp",
+      "bytes": 38241,
+      "sha256": "6018a9b75f3c53ddf8d43716c0ca7c699ba284aa396f5c3a79109faaddff5928"
+    },
+    "review_monotonicity.py": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-head-cause-2q_m3p18/review_monotonicity.py",
+      "bytes": 583,
+      "sha256": "5ba3826f45cccf2b23362665183a6f8873273cd748604b28deea9f8d2cd3e1a0"
+    },
+    "sigmoid_analysis.py": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-head-cause-2q_m3p18/sigmoid_analysis.py",
+      "bytes": 3360,
+      "sha256": "514d2416d13af6fcd25c55724d2a403e697050c8bc1e83ce7d52a6fd4c391eb1"
+    },
+    "sigmoid_probe.py": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-head-cause-2q_m3p18/sigmoid_probe.py",
+      "bytes": 3676,
+      "sha256": "81036a1161ce8aea108da9268ff4b45ae4c920bc7e52c23bac4f3143ae3730ae"
+    },
+    "synthetic/analysis-execution.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-head-cause-2q_m3p18/synthetic/analysis-execution.json",
+      "bytes": 131,
+      "sha256": "90a0cffdab22281a6c5ef859e2423be765b9936b6e7559df8474ba6437a6b0a1"
+    },
+    "synthetic/analysis-runtime.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-head-cause-2q_m3p18/synthetic/analysis-runtime.json",
+      "bytes": 408,
+      "sha256": "1fba7738073d557ec47e4dbee9c5d6d0f3ffb295dd4d7a0bd3a9cbe4c2f80376"
+    },
+    "synthetic/attempt-legacy.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-head-cause-2q_m3p18/synthetic/attempt-legacy.json",
+      "bytes": 195,
+      "sha256": "8f54b09e7622baf3806289c1957519d016c8b48650ede936bbf07a99f3c96024"
+    },
+    "synthetic/attempt-torch.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-head-cause-2q_m3p18/synthetic/attempt-torch.json",
+      "bytes": 195,
+      "sha256": "0a5799d5176c32afa35d9f1fe6b3a716067ed8387b8cac14113f714b8d9f8d61"
+    },
+    "synthetic/legacy-synthetic.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-head-cause-2q_m3p18/synthetic/legacy-synthetic.json",
+      "bytes": 579,
+      "sha256": "fb0db73422fee0e57c395699b5e09285e5a6dd6f5d837c77996d6d5bdc5f0fa3"
+    },
+    "synthetic/legacy-synthetic.npz": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-head-cause-2q_m3p18/synthetic/legacy-synthetic.npz",
+      "bytes": 2688,
+      "sha256": "cf2ad12bec8812d99b93d87c9a34f8e7df5bc936ea8f90332c8e9371cccf280f"
+    },
+    "synthetic/monotonicity-review.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-head-cause-2q_m3p18/synthetic/monotonicity-review.json",
+      "bytes": 296,
+      "sha256": "e29fe6942586e25f865e2cbb13714185c82d00da2d88cb923cf4c616c7880c23"
+    },
+    "synthetic/monotonicity-runtime.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-head-cause-2q_m3p18/synthetic/monotonicity-runtime.json",
+      "bytes": 408,
+      "sha256": "1fba7738073d557ec47e4dbee9c5d6d0f3ffb295dd4d7a0bd3a9cbe4c2f80376"
+    },
+    "synthetic/probe-execution.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-head-cause-2q_m3p18/synthetic/probe-execution.json",
+      "bytes": 446,
+      "sha256": "4710a7dfad3a76a4f0cf3d8a37f6c824dc183ce9c100709ea5a7a4f34c04e6af"
+    },
+    "synthetic/sigmoid-comparison.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-head-cause-2q_m3p18/synthetic/sigmoid-comparison.json",
+      "bytes": 3028,
+      "sha256": "8108ef0cdb4a025d6c4a72c9eee3eea3206073c22b9733b0943084acd4c69689"
+    },
+    "synthetic/torch-synthetic.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-head-cause-2q_m3p18/synthetic/torch-synthetic.json",
+      "bytes": 580,
+      "sha256": "16c7f2c6ba8653d3fe66803066bbab00ab083618b3722d6a1cecf2a0b3d6bd13"
+    },
+    "synthetic/torch-synthetic.npz": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-head-cause-2q_m3p18/synthetic/torch-synthetic.npz",
+      "bytes": 2688,
+      "sha256": "5cf69df3d3582c6331b0ee7e0090972922571963101c3200ee7efdfed5fd477a"
+    },
+    "tensorflow-cwise_ops.h": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-head-cause-2q_m3p18/tensorflow-cwise_ops.h",
+      "bytes": 44567,
+      "sha256": "16b2bd5a27111b8e8126b1cb7a6751443d1a0ec375e2890847dcc831d5ad5fa1"
+    }
+  },
+  "completed_evaluations": {
+    "standalone_synthetic_tensorflow_sigmoid": 1,
+    "standalone_synthetic_pytorch_sigmoid": 1,
+    "synthetic_values_per_framework": 272,
+    "numpy_fp64_formula_vectors": 2,
+    "learned_model_forwards": 0,
+    "weights_or_pca_loads": 0,
+    "macrel_calls": 0
+  },
+  "interpretation": "Holding inputs constant proves a numerical runtime-kernel difference independent of model weights. Modern sigmoid has smaller absolute error at162 points,legacy at23,with87 ties on this artificial grid. Legacy has one monotonicity counterexample. This supports retaining demonstrated modern operation-level accuracy,not universal model improvement or attribution of every pretrained score difference.",
+  "pending": [
+    "Trace actual AMP stages/logits and replay final sigmoid on identical real logits under a fresh exact approval",
+    "Separate upstream recurrent/dot-product drift from final activation rounding",
+    "Investigators decide any broader numerical/scientific acceptance; preserve both FAILs and unchanged contracts"
+  ],
+  "not_granted": [
+    "New pretrained-head/decoder/PCA/Macrel calls",
+    "Scientific acceptance,biological superiority,threshold/equation/weight/selector change",
+    "External upstream issue publication,package release,commit or push"
+  ],
+  "retention_review": "2026-11-13",
+  "producer_record": "devguide/evidence/pytorch_amp_sigmoid_probe.json in local peptidemt-pytorch-comparison worktree",
+  "producer_record_sha256": "2f7e8b4690d38c8342d6bc7bb2696e6a7bf712e8efb6a43f04eca4c4a40f5066"
+}

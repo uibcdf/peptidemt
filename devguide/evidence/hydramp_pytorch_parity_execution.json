@@ -1,0 +1,263 @@
+{
+  "date": "2026-10-30",
+  "issue": "uibcdf/peptidemt#8",
+  "status": "Executed; comparison FAIL under unchanged declared probability tolerance. Tokens/strings exact on this fixture; not scientific acceptance.",
+  "repository": "uibcdf/hydramp",
+  "branch": "peptidemt-pytorch",
+  "source_base_commit": "6590d2f4c2963f25d30669052a4c4a857e0e7279",
+  "starter_commit": "7804df862872ccc6d09fe01c41bafbca194cfa31",
+  "task_directory": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-parity-637rwaat",
+  "approved_plan": {
+    "bytes": 22971,
+    "sha256": "275848c194af7a5b49dac9f4e41f8f212e4643f56a56b321b202a41d2d8c9419"
+  },
+  "original_plan": {
+    "bytes": 22656,
+    "sha256": "5e595692db5863aa43e2b36106e7eaf4e39b2a8a7f1dd25026930d981d829833"
+  },
+  "tool": {
+    "bytes": 17846,
+    "sha256": "686a7d4adbd80058d8689ef185680759f299c2643a6cb4c1dde57ebc1d15cd48"
+  },
+  "torch_wheel": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-torch-lvrqr0lk/artifacts/hydramp_torch-0.0.0.dev0-py3-none-any.whl",
+    "sha256": "738377ef8943fa79456d54747fd4f19a00a6194eeb07a9d57adac37e19903e1d"
+  },
+  "source_and_license_preserved": true,
+  "native_metadata_discrepancies": {
+    "legacy": 8,
+    "torch": 0,
+    "legacy_effective_profile": 0
+  },
+  "comparison": {
+    "pass": false,
+    "metrics": {
+      "pca": {
+        "pass": true,
+        "maximum_absolute_error": 0.0,
+        "atol": 1e-10,
+        "rtol": 1e-10
+      },
+      "conditioned": {
+        "pass": true,
+        "maximum_absolute_error": 0.0,
+        "atol": 1e-10,
+        "rtol": 1e-10
+      },
+      "probabilities": {
+        "pass": false,
+        "maximum_absolute_error": 4.845857620239258e-05,
+        "atol": 2e-06,
+        "rtol": 2e-05
+      },
+      "tokens": {
+        "pass": true,
+        "mismatched_positions": 0
+      },
+      "amp": {
+        "pass": true,
+        "maximum_absolute_error": 2.980232238769531e-07,
+        "atol": 2e-06,
+        "rtol": 2e-05
+      },
+      "mic": {
+        "pass": true,
+        "maximum_absolute_error": 1.1920928955078125e-07,
+        "atol": 2e-06,
+        "rtol": 2e-05
+      }
+    },
+    "scope": "Numerical implementation comparison; no scientific acceptance.",
+    "strings_exact": true,
+    "outputs_sha256": {
+      "legacy-strings.json": "eda9d9ad39111d12e2839bf55e6ccef968a1151c396b4238a026723722d64511",
+      "authorization.json": "7ba29614882c1fe1f83aa1c8800d6479e0f89458cb959eafadd86079ed608c7c",
+      "attempt-legacy.json": "fd71d230703a48b1722df6015d14a557be2d9a62e743c029dcb94f5d585ecebd",
+      "attempt-torch.json": "c0757762118137498a2f6f0ec3a95a6d46ae3d2f9d5506bad1896abd225ad040",
+      "legacy.npz": "ad584797d832b076e9f6e3d95274635b2e6a0cde3ca251810de93da7555de8c7",
+      "legacy-supervision.json": "d6ce0cb0933000b06c384794f6a0717ac50851a484212f057e436244207d3343",
+      "pca_numeric.npz": "c3e1a32546ffe3c39f577e1908a72142321b26d51a0184bd647720f14539c99d",
+      "plan.json": "5e595692db5863aa43e2b36106e7eaf4e39b2a8a7f1dd25026930d981d829833",
+      "torch-supervision.json": "114c4ecad3d87b2bc31d3a0b814c1fec7ac9cad705e9988e1a401d17afc7d0ec",
+      "torch.npz": "7746ecc7b721e8ac153e867c05862bd467f43cb0bfb7bbee30a0d2e29533b33c",
+      "torch-strings.json": "eda9d9ad39111d12e2839bf55e6ccef968a1151c396b4238a026723722d64511",
+      "host-preflight.json": "e93869c714b0933f583f8444d302c354697b5fbb1586c7d8f75809badd748ae0",
+      "plan-approved-4gb.json": "275848c194af7a5b49dac9f4e41f8f212e4643f56a56b321b202a41d2d8c9419"
+    }
+  },
+  "saved_output_analysis": {
+    "scope": "Analysis of saved outputs only; zero new model calls.",
+    "elements": 6300,
+    "outside_tolerance": 18,
+    "affected_rows": [
+      1,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "affected_positions": [
+      4,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      15,
+      20,
+      21
+    ],
+    "largest_error_at": [
+      10,
+      7,
+      13
+    ],
+    "reference_probability_at_max": 0.41052961349487305,
+    "candidate_probability_at_max": 0.41048115491867065,
+    "maximum_absolute_error": 4.845857620239258e-05,
+    "mean_absolute_error": 1.017188199430521e-07,
+    "rms_error": 1.389007579373248e-06,
+    "maximum_ratio_to_declared_tolerance": 4.8268249224552475,
+    "max_error_by_position": [
+      2.8014183044433594e-06,
+      1.1920928955078125e-07,
+      1.0728836059570312e-06,
+      5.960464477539062e-07,
+      1.6480684280395508e-05,
+      1.4826655387878418e-06,
+      2.6464462280273438e-05,
+      4.845857620239258e-05,
+      1.2993812561035156e-05,
+      7.808208465576172e-06,
+      1.0669231414794922e-05,
+      3.9070844650268555e-05,
+      1.424551010131836e-05,
+      4.738569259643555e-06,
+      4.649162292480469e-06,
+      1.6927719116210938e-05,
+      4.1425228118896484e-06,
+      1.0728836059570312e-06,
+      9.5367431640625e-07,
+      1.1920928955078125e-07,
+      5.304813385009766e-06,
+      5.543231964111328e-06,
+      2.1792948246002197e-06,
+      1.1920928955078125e-07,
+      7.718801498413086e-06
+    ],
+    "outside_tolerance_by_position": [
+      0,
+      0,
+      0,
+      0,
+      2,
+      0,
+      2,
+      2,
+      1,
+      1,
+      1,
+      3,
+      1,
+      0,
+      0,
+      3,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "exact_tokens": true,
+    "minimum_reference_top_two_margin": 0.024026036262512207,
+    "output_dtypes": {
+      "pca": "float64",
+      "conditioned": "float64",
+      "probabilities": "float32",
+      "tokens": "int64",
+      "amp": "float32",
+      "mic": "float32"
+    },
+    "paired_rows": 12
+  },
+  "resources": {
+    "legacy": {
+      "exit_code": 0,
+      "stop_reason": null,
+      "wall_seconds": 9.76246454694774,
+      "peak_sampled_rss_bytes": 511995904,
+      "plan_sha256": "275848c194af7a5b49dac9f4e41f8f212e4643f56a56b321b202a41d2d8c9419",
+      "retry_allowed": false,
+      "supervisor_peak_rss_bytes": 23842816,
+      "conservative_combined_sampled_rss_bytes": 535838720,
+      "observed_at_utc": "2026-10-30T22:44:45.230324+00:00"
+    },
+    "torch": {
+      "exit_code": 0,
+      "stop_reason": null,
+      "wall_seconds": 2.050380436005071,
+      "peak_sampled_rss_bytes": 298065920,
+      "plan_sha256": "275848c194af7a5b49dac9f4e41f8f212e4643f56a56b321b202a41d2d8c9419",
+      "retry_allowed": false,
+      "supervisor_peak_rss_bytes": 23887872,
+      "conservative_combined_sampled_rss_bytes": 321953792,
+      "observed_at_utc": "2026-10-30T22:45:07.031342+00:00"
+    },
+    "combined_worker_wall_seconds": 11.81284498295281,
+    "maximum_worker_plus_supervisor_sampled_rss_bytes": 535838720,
+    "ram_budget_bytes": 4000000000,
+    "limit_stops": 0,
+    "concurrent_workers": 1,
+    "measurement_limit": "0.1 second sampled worker RSS plus independently measured supervisor high-water RSS, added as a conservative estimate; not an instantaneous kernel group cap."
+  },
+  "executed_calls": {
+    "legacy_model_constructions": 1,
+    "torch_model_constructions": 1,
+    "legacy_decoder_evaluations": 1,
+    "torch_decoder_evaluations": 1,
+    "legacy_amp_evaluations": 1,
+    "torch_amp_evaluations": 1,
+    "legacy_mic_evaluations": 1,
+    "torch_mic_evaluations": 1,
+    "network_evaluations_total": 6,
+    "rows_per_evaluation": 12,
+    "paired_decoder_inputs": 12,
+    "pca_pickle_loads": 1,
+    "numeric_pca_exports": 1,
+    "pca_inverse_transforms_total": 2,
+    "encoder_forward_evaluations": 0,
+    "native_generation_api_calls": 0,
+    "descriptor_calls": 0,
+    "macrel_calls": 0,
+    "retries": 0
+  },
+  "gpu": {
+    "used": false,
+    "legacy_log_observation": "Legacy TensorFlow opened libcuda and attempted a driver initialization probe; it returned CUDA_ERROR_NO_DEVICE. CUDA_VISIBLE_DEVICES=-1, explicit CPU device context and Host/XLA device are recorded. No GPU computation executed.",
+    "torch": "Reviewed CPU-only binary."
+  },
+  "cause_analysis": {
+    "established": "Mismatch is confined to decoder probabilities among compared outputs. PCA/conditions exact, native heads within tolerance, all 300 tokens and 12 vocabulary strings exact.",
+    "source_observation": "Keras 2.3.1 GRU implementation2 fuses update/reset recurrent matrix multiplication; current port computes them separately. Gate equations/order/reset-before and inspected LSTM equation agree.",
+    "not_established": "Whether the layout/backend rounding difference causes the measured discrepancy, or another port/reference execution detail does.",
+    "action": "No source changes, tolerance increase, re-evaluation or scientific adoption. Localize the first differing decoder intermediate under a new explicit diagnostic budget."
+  },
+  "pending": [
+    "Decoder probability fidelity criterion failed; root cause unresolved",
+    "No complete native properties=True/ordering/seed/provenance/consumer integration qualification",
+    "Original Drive archive byte parity remains unverified",
+    "No scientific acceptance, package publication, fork commit or push inferred"
+  ],
+  "schema": "peptidemt.hydramp_pytorch_parity_execution@1",
+  "producer_record": "devguide/evidence/pytorch_parity_execution.json in the local HydrAMP peptidemt-pytorch worktree",
+  "producer_record_sha256": "388bd01f709bf8605b38feff26e121f5ea6a9c5bba8677c3eeb41659834eab12"
+}

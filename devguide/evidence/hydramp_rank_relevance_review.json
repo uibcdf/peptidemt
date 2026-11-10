@@ -1,0 +1,220 @@
+{
+  "schema": "peptidemt.hydramp_rank_relevance_review@1",
+  "date": "2026-11-03",
+  "recorded_at_utc": "2026-11-03T17:35:20.831553+00:00",
+  "issue": "uibcdf/peptidemt#8",
+  "status": "Saved-output review complete; limited dev3 fixture-deviation disposition proposed for investigator review",
+  "authority": "Investigator instructed proceeding with reviewing the saved near-tie cases and preparing a limited-acceptance recommendation. No new scientific acceptance or model-execution authority inferred.",
+  "candidate": "hydramp-torch==0.0.0.dev3",
+  "candidate_wheel": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-comparison-qnbdpism/artifacts/hydramp_torch-0.0.0.dev3-py3-none-any.whl",
+    "bytes": 11987,
+    "sha256": "81761e0d48d92f0956e0afc28b3b4154f16032de53c666fd2cfbb53606102ed7"
+  },
+  "source_commit": "6590d2f4c2963f25d30669052a4c4a857e0e7279",
+  "starter_commit": "7804df862872ccc6d09fe01c41bafbca194cfa31",
+  "worktree": "/home/liliana/repos@uibcdf/hydramp/local_data/pytorch-comparison",
+  "uncommitted": true,
+  "input_execution_receipt": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/evidence/hydramp_confidence_execution.json",
+    "bytes": 14298,
+    "sha256": "24b93260161296abf271af74d6a1d4a98cc4fdcc90ef00ceeb42de0386de0328"
+  },
+  "frozen_input_files_verified": 24,
+  "analysis_tool": {
+    "path": "/home/liliana/repos@uibcdf/hydramp/local_data/pytorch-comparison/ports/pytorch/devtools/rank_relevance.py",
+    "bytes": 9580,
+    "sha256": "13ad7b59e872cb7fb70db46b89854bdf0da51db40b93347e60f36e64e1d96d40"
+  },
+  "test_source": {
+    "path": "/home/liliana/repos@uibcdf/hydramp/local_data/pytorch-comparison/ports/pytorch/tests/test_rank_relevance.py",
+    "bytes": 3717,
+    "sha256": "1134cab8083a57441ac69687d4615dc1cbaba5cf57013b949b04e276687c0cdd"
+  },
+  "analysis_result": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-rank-review-k8amci8o/rank-relevance.json",
+    "bytes": 28264,
+    "sha256": "c5d8f4a94c0b1d9c8519ca546e1f9dabb52b64018b7063577d0194f8fab834da"
+  },
+  "analysis_execution": {
+    "exit_code": 0,
+    "wall_seconds": 0.7689313041046262,
+    "cumulative_child_peak_rss_bytes": 42377216,
+    "scope": "Saved-output analysis or artificial vectors only; explicit isolated prefix and published test profile asserted; engines/artifacts/network guarded."
+  },
+  "test_execution": {
+    "exit_code": 0,
+    "wall_seconds": 1.7213697249535471,
+    "cumulative_child_peak_rss_bytes": 59670528,
+    "scope": "Saved-output analysis or artificial vectors only; explicit isolated prefix and published test profile asserted; engines/artifacts/network guarded."
+  },
+  "test_runtime": {
+    "python": "3.14.7 | packaged by conda-forge | (main, Sep  2 2026, 21:08:32) [GCC 15.3.0]",
+    "executable": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-fp64-reference-hhsdppyc/worker/bin/python",
+    "prefix": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-fp64-reference-hhsdppyc/worker",
+    "numpy": "2.4.6",
+    "pytest": "9.2.0",
+    "pytest_receptor": "1.2.2",
+    "mode": "tests"
+  },
+  "artificial_checks_passed": 18,
+  "consumer_source_review": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-rank-review-k8amci8o/consumer-source-review.json",
+    "bytes": 1182,
+    "sha256": "d0414f37988a4c09199588410d17fcda31d0ec26bfe3e90de01d91b65797c1c6"
+  },
+  "results": {
+    "changed_amp_pairs": 10,
+    "affected_occurrences": 18,
+    "amp_and_mic_head_inputs_identical_across_engines": true,
+    "hypothetical_global_rank_changed_occurrences": 13,
+    "maximum_rank_displacement": 2,
+    "all_k_examined": [
+      1,
+      256
+    ],
+    "hypothetical_amp_only_membership_changes_at_k": [
+      2,
+      5,
+      9,
+      10,
+      23,
+      42,
+      50
+    ],
+    "maximum_replacements_per_k": 1,
+    "same_cutoff_results_for_both_declared_pool_orders": true,
+    "float32_spacing_at_all_changed_pairs": 5.960464477539063e-08,
+    "well_separated_observed_pairs": 32614,
+    "total_pairs": 32640,
+    "actual_macrel_selector_or_H4_execution": false,
+    "original_FAIL_verdicts_preserved": true
+  },
+  "artifacts": {
+    "rank-relevance.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-rank-review-k8amci8o/rank-relevance.json",
+      "bytes": 28264,
+      "sha256": "c5d8f4a94c0b1d9c8519ca546e1f9dabb52b64018b7063577d0194f8fab834da"
+    },
+    "analysis-execution.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-rank-review-k8amci8o/analysis-execution.json",
+      "bytes": 267,
+      "sha256": "230b63f14f2fb5fda65c6cc3ace1772df2cb07b16310054747b85e88420d7fd5"
+    },
+    "test-execution.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-rank-review-k8amci8o/test-execution.json",
+      "bytes": 267,
+      "sha256": "fd99c6e7adc8d637e547e9075c95206cdd42fae104e8855f3293eb9f2b0fb3af"
+    },
+    "tests.xml": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-rank-review-k8amci8o/tests.xml",
+      "bytes": 1856,
+      "sha256": "7ce83400ae65b2b17067d773f62b551af7aab4fa03dcdd1001e3c9201bfd1f1e"
+    },
+    "logs/analysis.log": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-rank-review-k8amci8o/logs/analysis.log",
+      "bytes": 590,
+      "sha256": "0222122ee78fa2a520e1f8eccb65cb94e1e1d7df6570fa9fa987d6b2c02f7a17"
+    },
+    "logs/tests.log": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-rank-review-k8amci8o/logs/tests.log",
+      "bytes": 33,
+      "sha256": "b6f7636712ce30b9164c2cd995481410437d2c384b1611f534acde59b94dfd9f"
+    },
+    "runtime_guard.py": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-rank-review-k8amci8o/runtime_guard.py",
+      "bytes": 2303,
+      "sha256": "dfb5c3695000351018d4c48231d6f4393c5ef9d97ba55d41d09e33739c4335b1"
+    },
+    "analysis-runtime.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-rank-review-k8amci8o/analysis-runtime.json",
+      "bytes": 408,
+      "sha256": "1fba7738073d557ec47e4dbee9c5d6d0f3ffb295dd4d7a0bd3a9cbe4c2f80376"
+    },
+    "tests-runtime.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-rank-review-k8amci8o/tests-runtime.json",
+      "bytes": 405,
+      "sha256": "7c5df7dabafa6c43e2a13e7b8c0b4b065e87ae6115df1fc530851b9833c4a81a"
+    },
+    "runtime-correction.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-rank-review-k8amci8o/runtime-correction.json",
+      "bytes": 348,
+      "sha256": "e6f80c837651c472530c8fd24500ea212bf02449775c82420fb63e0c65f668cc"
+    },
+    "consumer-source-review.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-rank-review-k8amci8o/consumer-source-review.json",
+      "bytes": 1182,
+      "sha256": "d0414f37988a4c09199588410d17fcda31d0ec26bfe3e90de01d91b65797c1c6"
+    },
+    "initial-shared-interpreter-attempt/disposition.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-rank-review-k8amci8o/initial-shared-interpreter-attempt/disposition.json",
+      "bytes": 284,
+      "sha256": "aa35c2d07238fd52a6600797881945e13c5c9f4d026f71212b40272ae5bb9df2"
+    },
+    "initial-shared-interpreter-attempt/rank-relevance.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-rank-review-k8amci8o/initial-shared-interpreter-attempt/rank-relevance.json",
+      "bytes": 28264,
+      "sha256": "c5d8f4a94c0b1d9c8519ca546e1f9dabb52b64018b7063577d0194f8fab834da"
+    },
+    "initial-shared-interpreter-attempt/test-execution.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-rank-review-k8amci8o/initial-shared-interpreter-attempt/test-execution.json",
+      "bytes": 211,
+      "sha256": "5503db28975044f1cdf63e84e28eb737110397ec3d9d68d6cd0affeaf46502cf"
+    },
+    "initial-shared-interpreter-attempt/tests.xml": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-rank-review-k8amci8o/initial-shared-interpreter-attempt/tests.xml",
+      "bytes": 1856,
+      "sha256": "32c977f7a47a7ca7d868f7792b674e447359fea71fa54958a8d4629091d57072"
+    },
+    "initial-shared-interpreter-attempt/logs/tests.log": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-rank-review-k8amci8o/initial-shared-interpreter-attempt/logs/tests.log",
+      "bytes": 33,
+      "sha256": "eb4a17eeac3250e3685442326a1834c8887b187f251707467b92a6920edaa7b3"
+    },
+    "initial-shared-interpreter-attempt/producer-review-before-runtime-correction.json": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-rank-review-k8amci8o/initial-shared-interpreter-attempt/producer-review-before-runtime-correction.json",
+      "bytes": 7511,
+      "sha256": "8efef2a2cbe5fe841bd47fc197ff8b6680d27e43efde44068a9118259ae26f36"
+    }
+  },
+  "interpretation": "Head inputs agree exactly, so the immediate score discrepancy is in AMP-head numerical execution/context, not different generated tokens. Identical stable sorting of the two saved score vectors explains the diagnostic rank differences. The responsible individual primitive is not proven. Small score deltas can change a global top-k member; do not call the effect universally negligible. Current D35 selectors read Macrel AMP/hemolysis fields, not HydrAMP amp/mic; no actual Macrel/end-to-end selection comparison has executed.",
+  "proposed_disposition": "Admit the documented deviation only for the exact dev3 fixture/candidate to continue consumer qualification of the commissioned unfiltered AMP proposal route, preserving both FAIL diagnostics and raw values. No exact global HydrAMP-AMP ranking equivalence or general replacement acceptance. Retain all proposals and the existing Macrel/selector contracts; no rounding,score/selector rewrite,prefilter,training,new engine or additional model calls.",
+  "new_model_pca_descriptor_macrel_calls": 0,
+  "scientific_acceptance": false,
+  "not_granted": [
+    "D40 extension or new accepted decision",
+    "Additional learned/model/descriptor/Macrel calls",
+    "New thresholds,rounding,rank policy,chemistry,weights or selector changes",
+    "Full H0-H4 qualification,biological validation,package/model publication,commit or push"
+  ],
+  "retention": {
+    "owner": "PeptideMT #8 / investigator-owned HydrAMP fork",
+    "review_by": "2026-11-13",
+    "disposition": "Retain task resources and all original scientific evidence; preserve shared/human work."
+  },
+  "analysis_runtime": {
+    "python": "3.14.7 | packaged by conda-forge | (main, Sep  2 2026, 21:08:32) [GCC 15.3.0]",
+    "executable": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-fp64-reference-hhsdppyc/worker/bin/python",
+    "prefix": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-fp64-reference-hhsdppyc/worker",
+    "numpy": "2.4.6",
+    "pytest": "9.2.0",
+    "pytest_receptor": "1.2.2",
+    "mode": "analysis"
+  },
+  "runtime_correction": {
+    "initial_analysis_retained": true,
+    "reason": "Interpreter symlink must not be dereferenced; isolated entrypoint and prefix now asserted.",
+    "corrected_analysis_matches_initial_bytes": true,
+    "sha256": "c5d8f4a94c0b1d9c8519ca546e1f9dabb52b64018b7063577d0194f8fab834da",
+    "qualified_distinct_artificial_checks": 18,
+    "new_model_calls": 0
+  },
+  "superseded_runtime_attempt": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-rank-review-k8amci8o/initial-shared-interpreter-attempt/producer-review-before-runtime-correction.json",
+    "bytes": 7511,
+    "sha256": "8efef2a2cbe5fe841bd47fc197ff8b6680d27e43efde44068a9118259ae26f36"
+  },
+  "review_document": "devguide/hydramp_rank_relevance.md in PeptideMT consumer",
+  "producer_record": "devguide/evidence/pytorch_rank_relevance_review.json in local peptidemt-pytorch-comparison worktree",
+  "producer_record_sha256": "513a950f16187a70ec2321d7dee50507cfafa8af67dd468c7c0e893baf0b72e0"
+}

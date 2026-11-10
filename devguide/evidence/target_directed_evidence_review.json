@@ -1,0 +1,833 @@
+{
+  "recorded_utc": "2026-11-06T07:45:28.339973+00:00",
+  "status": "inspected; preparation complete, T1a proposal pending scientific review",
+  "owner": "uibcdf/peptidemt#33",
+  "authority": {
+    "path": "devguide/evidence/target_directed_demonstrator_authorization.json",
+    "bytes": 1638,
+    "sha256": "84dd949951966e72664f096db2cad8132e18f7da630441a6f21635330f24f9f5"
+  },
+  "method": "Bounded primary-source HTML and exact provider-source inspection; no new molecular or model operation",
+  "source_review": [
+    {
+      "title": "Systematic Mutational Analysis of Peptide Inhibition of the p53-MDM2/MDMX Interactions",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2856455/",
+      "doi": "10.1016/j.jmb.2010.03.005",
+      "scope": [
+        "Tables 1 and 3 and footnote",
+        "Experimental Procedures",
+        "linked supplement unavailable as actual document"
+      ],
+      "main_acquisition": {
+        "requested_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2856455/",
+        "accessed_utc": "2026-11-06T07:40:18.126449+00:00",
+        "scope": "Read-only HTML source acquisition for D52 feasibility; no molecular parsing or dataset curation",
+        "max_bytes": 2097152,
+        "timeout_seconds": 20,
+        "status": 200,
+        "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2856455/",
+        "headers": {
+          "Content-Type": "text/html; charset=utf-8",
+          "Content-Length": "273058",
+          "Last-Modified": null,
+          "ETag": null
+        },
+        "bytes": 273058,
+        "sha256": "99f361fdab13c2971362fbe5e96b255e8a32dd5f8d605154bcd98918268f1264",
+        "path": "local_data/peptidemt-target-study-3l7pirsi/source/li2010.html",
+        "article_title_present": true,
+        "browser_challenge_present": false
+      },
+      "supplement_attempt": {
+        "requested_url": "https://pmc.ncbi.nlm.nih.gov/articles/instance/2856455/bin/NIHMS187647-supplement-01.doc",
+        "accessed_utc": "2026-11-06T07:42:03.661815+00:00",
+        "scope": "One ordinary read-only request for linked public supplement; no gate bypass",
+        "max_bytes": 20971520,
+        "timeout_seconds": 20,
+        "status": 200,
+        "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/instance/2856455/bin/NIHMS187647-supplement-01.doc",
+        "content_type": "text/html; charset=utf-8",
+        "bytes": 21513,
+        "sha256": "1fe6d4f418b44df3b2fc66bc145f3ff3ef992df3021b8eb377eaa4687687b5cd",
+        "path": "local_data/peptidemt-target-study-3l7pirsi/source/li2010-supplement-response.bin",
+        "ole_document": false,
+        "document_read": false
+      },
+      "curated_dataset_admitted": false,
+      "terms": "Publicly readable author manuscript; general redistribution license not established"
+    },
+    {
+      "title": "Kinetic and thermodynamic effects of phosphorylation on p53 binding to MDM2",
+      "url": "https://www.nature.com/articles/s41598-018-36589-5",
+      "doi": "10.1038/s41598-018-36589-5",
+      "scope": "Publisher HTML, Tables 1-3 descriptions, Methods and rights; no supplement acquisition",
+      "disposition": "Potential later distinct assay/chemistry transfer challenge, not pooled into initial panel",
+      "terms": "Publisher explicitly states CC BY 4.0 with third-party exceptions"
+    },
+    {
+      "title": "In-solution enrichment identifies peptide inhibitors of protein-protein interactions",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6710073/",
+      "doi": "10.1038/s41589-019-0245-2",
+      "scope": "Primary HTML Figure 1, Methods and data-availability; no supplement acquisition",
+      "disposition": "Distinct modifications, molecular populations and BLI methods; not pooled",
+      "terms": "Publicly readable author manuscript; general redistribution license not established"
+    }
+  ],
+  "manual_expected_reconciliation": {
+    "status": "Candidate source interpretation; not an executed curated-receiver acceptance",
+    "displayed_peptide_rows": 36,
+    "reported_peptide_labels_after_explicit_WT_repeat": 35,
+    "pmi_displayed_rows": 18,
+    "p53_displayed_rows": 18,
+    "explicit_repeat": "PMI WT repeated in A4 self-substitution row; preserve occurrences, do not invent independent experiment",
+    "reported_numeric_peptide_target_measurements_after_alias_handling": 66,
+    "unquantified_peptide_target_measurements_after_alias_handling": 4,
+    "source_occurrences_including_two_targets_and_duplicate_display": 72,
+    "table_3_caption_discrepancy": true,
+    "chemical_identity_qualified": false
+  },
+  "provider_source_manifest": [
+    {
+      "repository": "uibcdf/molsysmt",
+      "ref": "ed09f64539a5af6c1dbe9bd352c7ef65dcd4a7a6",
+      "path": "molsysmt/topology/get_sequence_identity.py",
+      "bytes": 6211,
+      "sha256": "85c5db4f18e1c53006f1189e0fe2059bbb81d827134f40539e75003116da3190",
+      "scope": "Source inspection only; no operation executed",
+      "functions": [
+        {
+          "name": "get_sequence_identity",
+          "signature": "molecular_system, selection='all', reference_molecular_system=None, reference_selection='all', syntax='MolSysMT', engine='Biopython', *, skip_digestion=False"
+        }
+      ]
+    },
+    {
+      "repository": "uibcdf/molsysmt",
+      "ref": "ed09f64539a5af6c1dbe9bd352c7ef65dcd4a7a6",
+      "path": "molsysmt/topology/get_sequence_alignment.py",
+      "bytes": 5508,
+      "sha256": "ef00012579875919972c62cab33e2148d5f75045002acbef9839b619289a5235",
+      "scope": "Source inspection only; no operation executed",
+      "functions": [
+        {
+          "name": "get_sequence_alignment",
+          "signature": "molecular_system, selection='all', reference_molecular_system=None, reference_selection='all', engine='Biopython', syntax='MolSysMT', prettyprint=False, alignment_index=0, skip_digestion=False"
+        }
+      ]
+    },
+    {
+      "repository": "uibcdf/molsysmt",
+      "ref": "ed09f64539a5af6c1dbe9bd352c7ef65dcd4a7a6",
+      "path": "molsysmt/build/add_missing_terminal_cappings.py",
+      "bytes": 23961,
+      "sha256": "f24109540c61caf12ba33065a91e48aba8917d4d4caf84698757f5eeabe66cfa",
+      "scope": "Source inspection only; no operation executed",
+      "functions": [
+        {
+          "name": "add_missing_terminal_cappings",
+          "signature": "molecular_system, N_terminal=None, C_terminal=None, pH=7.4, keep_ids=False, selection='all', syntax='MolSysMT', engine='MolSysMT', skip_digestion=False"
+        }
+      ]
+    },
+    {
+      "repository": "uibcdf/molsysmt",
+      "ref": "ed09f64539a5af6c1dbe9bd352c7ef65dcd4a7a6",
+      "path": "molsysmt/build/get_missing_terminal_cappings.py",
+      "bytes": 7055,
+      "sha256": "18fde329b9769def36f787f9149c024d1affde0223f1a18e769c602022ee6677",
+      "scope": "Source inspection only; no operation executed",
+      "functions": [
+        {
+          "name": "get_missing_terminal_cappings",
+          "signature": "molecular_system, selection='all', syntax='MolSysMT', engine='MolSysMT'"
+        }
+      ]
+    },
+    {
+      "repository": "uibcdf/molsysmt",
+      "ref": "ed09f64539a5af6c1dbe9bd352c7ef65dcd4a7a6",
+      "path": "molsysmt/build/add_terminal_atoms.py",
+      "bytes": 4544,
+      "sha256": "b7ff7c70908a576ba0faf0485ad0665faf82e07bbbd66cf5f4c99e3d3f153111",
+      "scope": "Source inspection only; no operation executed",
+      "functions": [
+        {
+          "name": "add_terminal_atoms",
+          "signature": "molecular_system, new_atoms, coordinates, attribute_policy='intersection', skip_digestion=False"
+        }
+      ]
+    },
+    {
+      "repository": "uibcdf/molsysmt",
+      "ref": "ed09f64539a5af6c1dbe9bd352c7ef65dcd4a7a6",
+      "path": "molsysmt/_private/argdigest/argument/n_terminal_state.py",
+      "bytes": 381,
+      "sha256": "2ed2d32cbc692d08f3f16c194f56c838dc6c35dda41a43d0ac69891674beae3f",
+      "scope": "Source inspection only; no operation executed",
+      "functions": [
+        {
+          "name": "digest_n_terminal_state",
+          "signature": "n_terminal_state, caller=None"
+        }
+      ]
+    },
+    {
+      "repository": "uibcdf/molsysmt",
+      "ref": "ed09f64539a5af6c1dbe9bd352c7ef65dcd4a7a6",
+      "path": "molsysmt/_private/argdigest/argument/c_terminal_state.py",
+      "bytes": 420,
+      "sha256": "855e002ec840d80687775c8e967ebf27e6551aa668034914c57a8c2e04683ddb",
+      "scope": "Source inspection only; no operation executed",
+      "functions": [
+        {
+          "name": "digest_c_terminal_state",
+          "signature": "c_terminal_state, caller=None"
+        }
+      ]
+    },
+    {
+      "repository": "uibcdf/dockingmt",
+      "ref": "530a4cff5d18bb4283d07d22cc1e68298ddb8aac",
+      "path": "README.md",
+      "bytes": 29830,
+      "sha256": "714971d8e3a11a980153d1ce413d360107da95f1d9ef82e7672e92cedd28d91a",
+      "scope": "Source inspection only; no operation executed"
+    },
+    {
+      "repository": "uibcdf/dockingmt",
+      "ref": "530a4cff5d18bb4283d07d22cc1e68298ddb8aac",
+      "path": "devguide/README.md",
+      "bytes": 27078,
+      "sha256": "03ce4b38bfdc9c1223d78e480f56fc5f806cc7f162641bf838b172f277c609fe",
+      "scope": "Source inspection only; no operation executed"
+    },
+    {
+      "repository": "uibcdf/molsysmt",
+      "ref": "ed09f64539a5af6c1dbe9bd352c7ef65dcd4a7a6",
+      "path": "molsysmt/basic/compare.py",
+      "bytes": 30760,
+      "sha256": "fb2cc6dcaf9c5c83709603534e850ac918b9e39284f28f27758fbcadbf295940",
+      "scope": "Source inspection only; no operation executed",
+      "functions": [
+        {
+          "name": "compare",
+          "signature": "molecular_system, molecular_system_2, selection='all', structure_indices='all', selection_2='all', structure_indices_2='all', syntax='MolSysMT', rule='equal', output_type='boolean', attribute_type=None, include_none=False, redefine_indices=False, skip_digestion=False, **kwargs"
+        }
+      ]
+    },
+    {
+      "repository": "uibcdf/molsysmt",
+      "ref": "ed09f64539a5af6c1dbe9bd352c7ef65dcd4a7a6",
+      "path": "molsysmt/chemical_states/get_atom_correspondences.py",
+      "bytes": 12395,
+      "sha256": "1fd9c0202e352ba9e02ea212547f797d6d79cbb95217b4dacc07bffb56926762",
+      "scope": "Source inspection only; no operation executed",
+      "functions": [
+        {
+          "name": "get_atom_correspondences",
+          "signature": "molecular_system, selection='all', structure_indices='all', reference_molecular_system=None, reference_selection=None, reference_structure_indices='all', chemical_state='reference', reference_chemical_state='reference', method='declared_graph_isomorphism', max_matches=100000, syntax='MolSysMT', skip_digestion=False, *, fixed_atom_correspondence=None, candidate_atom_correspondences=None"
+        }
+      ]
+    },
+    {
+      "repository": "uibcdf/molsysmt",
+      "ref": "ed09f64539a5af6c1dbe9bd352c7ef65dcd4a7a6",
+      "path": "molsysmt/chemical_states/get_substructure_matches.py",
+      "bytes": 11901,
+      "sha256": "45e4590f762ca2d3a5da193e3cb5e6b2f2e854237a4b17aecac5bc598a8b1d51",
+      "scope": "Source inspection only; no operation executed",
+      "functions": [
+        {
+          "name": "get_substructure_matches",
+          "signature": "molecular_system, patterns, selection='all', structure_indices='all', chemical_state='reference', assume_complete_connectivity=False, syntax='MolSysMT', skip_digestion=False, *, max_matches=100000"
+        }
+      ]
+    },
+    {
+      "repository": "uibcdf/molsysmt",
+      "ref": "ed09f64539a5af6c1dbe9bd352c7ef65dcd4a7a6",
+      "path": "molsysmt/build/build_peptide.py",
+      "bytes": 92042,
+      "sha256": "4b0355316a90c82dc581bdd3eeb3f5b144fdef0838a282a26d85b4b24cac1df2",
+      "scope": "Source inspection only; no operation executed",
+      "functions": [
+        {
+          "name": "_guess_atom_type",
+          "signature": "atom_name"
+        },
+        {
+          "name": "_pick_topology_variant",
+          "signature": "topologies, prefer_oxt=None"
+        },
+        {
+          "name": "_place_group_coordinates",
+          "signature": "group_anchor_x, atom_names"
+        },
+        {
+          "name": "_normalize",
+          "signature": "vector"
+        },
+        {
+          "name": "_rotation_matrix_from_axis_angle",
+          "signature": "axis, angle"
+        },
+        {
+          "name": "_apply_rotation",
+          "signature": "coordinates, rotation_matrix, pivot"
+        },
+        {
+          "name": "_orthogonal_unit",
+          "signature": "vector"
+        },
+        {
+          "name": "_angle_degrees",
+          "signature": "atom_1, atom_2, atom_3"
+        },
+        {
+          "name": "_dihedral_degrees",
+          "signature": "atom_1, atom_2, atom_3, atom_4"
+        },
+        {
+          "name": "_wrap_degrees",
+          "signature": "angle"
+        },
+        {
+          "name": "_fibonacci_unit_vectors",
+          "signature": "n_points"
+        },
+        {
+          "name": "_atomic_number_to_symbol",
+          "signature": "atomic_number"
+        },
+        {
+          "name": "_peptide_input",
+          "signature": "molecular_system, from_naming_scheme"
+        },
+        {
+          "name": "_get_peptide_builder_templates",
+          "signature": ""
+        },
+        {
+          "name": "_credit_builder_references",
+          "signature": "groups_data"
+        },
+        {
+          "name": "_resolve_template_alias",
+          "signature": "template_name, available_templates"
+        },
+        {
+          "name": "_minimum_nonbonded_heavy_distance",
+          "signature": "existing_coordinates, existing_atom_types, existing_bonds_set, candidate_coordinates, candidate_atom_types, candidate_start_index, existing_bonded_matrix=None"
+        },
+        {
+          "name": "_minimum_nonbonded_heavy_distance_between_groups",
+          "signature": "left_coordinates, left_atom_names, left_atom_types, right_coordinates, right_atom_names, right_atom_types, skip_pair_names=None"
+        },
+        {
+          "name": "_prepare_nonbonded_heavy_distance_full",
+          "signature": "atom_types, bonds"
+        },
+        {
+          "name": "_minimum_nonbonded_heavy_distance_full",
+          "signature": "coordinates, atom_types=None, bonds=None, heavy_mask=None, bonded_matrix=None"
+        },
+        {
+          "name": "_optimize_peptide_torsions",
+          "signature": "coordinates, atom_types, bonds, groups_data, group_start_indices, n_rounds=2, n_angles=24"
+        },
+        {
+          "name": "_get_connected_component",
+          "signature": "adjacency, start_index, blocked_bond"
+        },
+        {
+          "name": "_optimize_sidechain_torsions",
+          "signature": "coordinates, atom_types, atom_names, bonds, groups_data, group_start_indices, n_rounds=1, n_angles=12"
+        },
+        {
+          "name": "_align_capping_junction_geometry",
+          "signature": "coordinates, atom_types, groups_data, group_start_indices"
+        },
+        {
+          "name": "_optimize_backbone_torsions",
+          "signature": "coordinates, atom_types, atom_names, bonds, groups_data, group_start_indices, n_rounds=1, n_angles=18"
+        },
+        {
+          "name": "build_peptide",
+          "signature": "molecular_system, to_form='molsysmt.MolSys', engine='MolSysMT', skip_digestion=False, *, from_naming_scheme=None"
+        }
+      ]
+    },
+    {
+      "repository": "uibcdf/molsysmt",
+      "ref": "ed09f64539a5af6c1dbe9bd352c7ef65dcd4a7a6",
+      "path": "molsysmt/form/rdkit_Mol/to_string_smiles.py",
+      "bytes": 673,
+      "sha256": "9ad481cfcf0a94575a979d0a979fa0c1b09817b08168a87f1d934f89626c0add",
+      "scope": "Source inspection only; no operation executed",
+      "functions": [
+        {
+          "name": "to_string_smiles",
+          "signature": "item, skip_digestion=False"
+        }
+      ]
+    },
+    {
+      "repository": "uibcdf/molsysmt",
+      "ref": "ed09f64539a5af6c1dbe9bd352c7ef65dcd4a7a6",
+      "path": "molsysmt/physchem/get_peptide_chemical_template.py",
+      "bytes": 5408,
+      "sha256": "e78ab6b16ab02a1175afb51bbf7b93642da204c84943a20c80abf31c6f4ce96e",
+      "scope": "Source inspection only; no operation executed",
+      "functions": [
+        {
+          "name": "get_peptide_chemical_template",
+          "signature": "residue_names, n_terminal_state, c_terminal_state, skip_digestion=False, *, disulfide_group_pairs=None"
+        }
+      ]
+    },
+    {
+      "repository": "uibcdf/molsysmt",
+      "ref": "ed09f64539a5af6c1dbe9bd352c7ef65dcd4a7a6",
+      "path": "molsysmt/physchem/assess_chemical_template.py",
+      "bytes": 8979,
+      "sha256": "ac4456a83b7e523ace365adf4fef587fedba4a8dc3ca382d9229e4ad1ab118a6",
+      "scope": "Source inspection only; no operation executed",
+      "functions": [
+        {
+          "name": "assess_chemical_template",
+          "signature": "molecular_system, template, atom_correspondence, template_provenance, chemical_state='reference', template_chemical_state='reference', skip_digestion=False, *, connectivity_policy='require_same_graph', selection='all', syntax='MolSysMT', context_atom_correspondence=None"
+        }
+      ]
+    },
+    {
+      "repository": "uibcdf/molsysmt",
+      "ref": "ed09f64539a5af6c1dbe9bd352c7ef65dcd4a7a6",
+      "path": "molsysmt/physchem/apply_chemical_template.py",
+      "bytes": 9698,
+      "sha256": "ad75ad45d48c802fd65fff1640ce422ce1b1d2353456d0cedc0598eb2d12f05b",
+      "scope": "Source inspection only; no operation executed",
+      "functions": [
+        {
+          "name": "apply_chemical_template",
+          "signature": "molecular_system, template, atom_correspondence, template_provenance, chemical_state='reference', template_chemical_state='reference', skip_digestion=False, *, connectivity_policy='require_same_graph', selection='all', syntax='MolSysMT', context_atom_correspondence=None"
+        }
+      ]
+    }
+  ],
+  "workspace": [
+    {
+      "repository": "uibcdf/peptidemt",
+      "head": "1f8c444e4619499cae8ad9970122c5f40adf6127",
+      "status": [
+        "M AGENTS.md",
+        " M README.md",
+        " M devguide/README.md",
+        " M devguide/amp_resource_cards.md",
+        " M devguide/archive/README.md",
+        " M devguide/decisions.md",
+        " M devguide/design_methodology.md",
+        " M devguide/generative_resource_survey.md",
+        " M devguide/governance.md",
+        " M devguide/hydramp_environment_review.md",
+        " M devguide/open_questions.md",
+        " M devguide/optional_engine_review.md",
+        " M devguide/pending_bugs/README.md",
+        " M devguide/pending_proposals/README.md",
+        " D devguide/pending_proposals/qualify_hydramp_increment_2.md",
+        " M devguide/roadmap.md",
+        " M devguide/scientific_trajectory.md",
+        " M devguide/tools_catalog.md",
+        " M devguide/v0_1_scope.md",
+        " M docs/README.md",
+        " M docs/api/public.rst",
+        " M docs/content/user/index.md",
+        " M docs/index.md",
+        " M src/peptidemt/__init__.py",
+        " M src/peptidemt/_attribution.py",
+        " M src/peptidemt/_data.py",
+        " M src/peptidemt/_depdigest.py",
+        " M src/peptidemt/_diagnostics.py",
+        " M src/peptidemt/_private/smonitor/catalog.py",
+        " M src/peptidemt/results.py",
+        " M tests/test_attribution.py",
+        " M tests/test_w2_macrel.py",
+        "?? devguide/amp_comparison_brief_2026_11_04.md",
+        "?? devguide/amp_worked_report_2026_11_04.md",
+        "?? devguide/archive/qualify_hydramp_increment_2.md",
+        "?? devguide/audit_2026_11_04.md",
+        "?? devguide/continuation_plan_2026_11_04.md",
+        "?? devguide/evidence/continuation_cycle1_2026_11_04.json",
+        "?? devguide/evidence/continuation_plan_2026_11_04_review2.json",
+        "?? devguide/evidence/hydramp_C0_data_audit.json",
+        "?? devguide/evidence/hydramp_C0_data_audit_closeout.json",
+        "?? devguide/evidence/hydramp_activation_receiving_issue_updates.json",
+        "?? devguide/evidence/hydramp_amp_activation_attribution.json",
+        "?? devguide/evidence/hydramp_amp_decimal_reference.json",
+        "?? devguide/evidence/hydramp_amp_error_attribution.json",
+        "?? devguide/evidence/hydramp_amp_error_attribution_closeout.json",
+        "?? devguide/evidence/hydramp_amp_error_attribution_issue_updates.json",
+        "?? devguide/evidence/hydramp_amp_issue_updates.json",
+        "?? devguide/evidence/hydramp_amp_owning_issue.json",
+        "?? devguide/evidence/hydramp_amp_reference_authorization.json",
+        "?? devguide/evidence/hydramp_amp_reference_execution.json",
+        "?? devguide/evidence/hydramp_amp_reference_execution_closeout.json",
+        "?? devguide/evidence/hydramp_amp_reference_execution_issue_updates.json",
+        "?? devguide/evidence/hydramp_amp_reference_issue_updates.json",
+        "?? devguide/evidence/hydramp_amp_reference_preparation.json",
+        "?? devguide/evidence/hydramp_amp_reference_preparation_closeout.json",
+        "?? devguide/evidence/hydramp_amp_sigmoid_probe.json",
+        "?? devguide/evidence/hydramp_amp_trace_authorization.json",
+        "?? devguide/evidence/hydramp_amp_trace_execution.json",
+        "?? devguide/evidence/hydramp_amp_trace_execution_closeout.json",
+        "?? devguide/evidence/hydramp_amp_trace_execution_issue_updates.json",
+        "?? devguide/evidence/hydramp_amp_trace_preparation.json",
+        "?? devguide/evidence/hydramp_amp_trace_preparation_closeout.json",
+        "?? devguide/evidence/hydramp_analogue_A1.json",
+        "?? devguide/evidence/hydramp_analogue_A1_authorization.json",
+        "?? devguide/evidence/hydramp_analogue_A1_pause.json",
+        "?? devguide/evidence/hydramp_analogue_A2_authorization.json",
+        "?? devguide/evidence/hydramp_analogue_A2_closeout.json",
+        "?? devguide/evidence/hydramp_analogue_A2_execution.json",
+        "?? devguide/evidence/hydramp_analogue_A2_issue_updates.json",
+        "?? devguide/evidence/hydramp_analogue_A2_preparation.json",
+        "?? devguide/evidence/hydramp_analogue_preparation.json",
+        "?? devguide/evidence/hydramp_analogue_preparation_closeout.json",
+        "?? devguide/evidence/hydramp_analogue_preparation_issue_updates.json",
+        "?? devguide/evidence/hydramp_behavioral_review.json",
+        "?? devguide/evidence/hydramp_behavioral_review_issue_update.json",
+        "?? devguide/evidence/hydramp_confidence_authorization.json",
+        "?? devguide/evidence/hydramp_confidence_execution.json",
+        "?? devguide/evidence/hydramp_confidence_execution_closeout.json",
+        "?? devguide/evidence/hydramp_confidence_execution_issue_update.json",
+        "?? devguide/evidence/hydramp_confidence_issue_update.json",
+        "?? devguide/evidence/hydramp_confidence_preparation.json",
+        "?? devguide/evidence/hydramp_confidence_preparation_closeout.json",
+        "?? devguide/evidence/hydramp_decoder_trace_authorization.json",
+        "?? devguide/evidence/hydramp_decoder_trace_execution.json",
+        "?? devguide/evidence/hydramp_decoder_trace_issue_update.json",
+        "?? devguide/evidence/hydramp_decoder_trace_preparation.json",
+        "?? devguide/evidence/hydramp_descriptor_qualification.json",
+        "?? devguide/evidence/hydramp_dev3_acceptance.json",
+        "?? devguide/evidence/hydramp_dev3_acceptance_closeout.json",
+        "?? devguide/evidence/hydramp_dev3_acceptance_issue_updates.json",
+        "?? devguide/evidence/hydramp_dev3_acceptance_review.json",
+        "?? devguide/evidence/hydramp_dev3_acceptance_review_closeout.json",
+        "?? devguide/evidence/hydramp_dev3_acceptance_review_issue_update.json",
+        "?? devguide/evidence/hydramp_dev5_acceptance.json",
+        "?? devguide/evidence/hydramp_dev8_commit_authorization.json",
+        "?? devguide/evidence/hydramp_dev8_commit_closeout.json",
+        "?? devguide/evidence/hydramp_dev8_commit_issue_updates.json",
+        "?? devguide/evidence/hydramp_dev8_local_commit.json",
+        "?? devguide/evidence/hydramp_dev8_source_review.json",
+        "?? devguide/evidence/hydramp_dev8_source_review_closeout.json",
+        "?? devguide/evidence/hydramp_dev8_source_review_issue_updates.json",
+        "?? devguide/evidence/hydramp_encoder_E1.json",
+        "?? devguide/evidence/hydramp_encoder_E1_authorization.json",
+        "?? devguide/evidence/hydramp_encoder_E1_closeout.json",
+        "?? devguide/evidence/hydramp_encoder_E1_issue_updates.json",
+        "?? devguide/evidence/hydramp_encoder_E2_authorization.json",
+        "?? devguide/evidence/hydramp_encoder_E2_execution.json",
+        "?? devguide/evidence/hydramp_encoder_E2_execution_closeout.json",
+        "?? devguide/evidence/hydramp_encoder_E2_execution_issue_updates.json",
+        "?? devguide/evidence/hydramp_encoder_E2_preparation.json",
+        "?? devguide/evidence/hydramp_encoder_E2_preparation_closeout.json",
+        "?? devguide/evidence/hydramp_encoder_E2_preparation_issue_updates.json",
+        "?? devguide/evidence/hydramp_encoder_preparation.json",
+        "?? devguide/evidence/hydramp_encoder_preparation_closeout.json",
+        "?? devguide/evidence/hydramp_encoder_preparation_issue_updates.json",
+        "?? devguide/evidence/hydramp_error_admissibility.json",
+        "?? devguide/evidence/hydramp_execution_adapter_authorization.json",
+        "?? devguide/evidence/hydramp_execution_adapter_closeout.json",
+        "?? devguide/evidence/hydramp_execution_adapter_corrected_authorization.json",
+        "?? devguide/evidence/hydramp_execution_adapter_corrected_closeout.json",
+        "?? devguide/evidence/hydramp_execution_adapter_corrected_execution.json",
+        "?? devguide/evidence/hydramp_execution_adapter_corrected_issue_update.json",
+        "?? devguide/evidence/hydramp_execution_adapter_failed_execution.json",
+        "?? devguide/evidence/hydramp_execution_adapter_issue_update.json",
+        "?? devguide/evidence/hydramp_execution_adapter_preparation.json",
+        "?? devguide/evidence/hydramp_execution_parent_limit_closeout.json",
+        "?? devguide/evidence/hydramp_execution_parent_limit_fix.json",
+        "?? devguide/evidence/hydramp_execution_parent_limit_issue_update.json",
+        "?? devguide/evidence/hydramp_external_data_readiness.json",
+        "?? devguide/evidence/hydramp_external_data_readiness_closeout.json",
+        "?? devguide/evidence/hydramp_fork_packaging.json",
+        "?? devguide/evidence/hydramp_full_comparison_authorization.json",
+        "?? devguide/evidence/hydramp_full_comparison_closeout.json",
+        "?? devguide/evidence/hydramp_full_comparison_execution.json",
+        "?? devguide/evidence/hydramp_full_comparison_execution_closeout.json",
+        "?? devguide/evidence/hydramp_full_comparison_execution_issue_update.json",
+        "?? devguide/evidence/hydramp_full_comparison_issue_updates.json",
+        "?? devguide/evidence/hydramp_full_comparison_preparation.json",
+        "?? devguide/evidence/hydramp_full_modernization_direction.json",
+        "?? devguide/evidence/hydramp_full_modernization_direction_closeout.json",
+        "?? devguide/evidence/hydramp_future_work_issues.json",
+        "?? devguide/evidence/hydramp_generation_closeout.json",
+        "?? devguide/evidence/hydramp_generation_issue_updates.json",
+        "?? devguide/evidence/hydramp_generation_preparation.json",
+        "?? devguide/evidence/hydramp_generation_result_authorization.json",
+        "?? devguide/evidence/hydramp_generation_result_closeout.json",
+        "?? devguide/evidence/hydramp_generation_result_implementation.json",
+        "?? devguide/evidence/hydramp_generation_result_issue_updates.json",
+        "?? devguide/evidence/hydramp_generation_result_qualification.json",
+        "?? devguide/evidence/hydramp_generation_result_qualification_closeout.json",
+        "?? devguide/evidence/hydramp_generation_result_qualification_issue_updates.json",
+        "?? devguide/evidence/hydramp_generation_result_serial_authorization.json",
+        "?? devguide/evidence/hydramp_gru_candidate_authorization.json",
+        "?? devguide/evidence/hydramp_gru_candidate_execution.json",
+        "?? devguide/evidence/hydramp_gru_candidate_issue_update.json",
+        "?? devguide/evidence/hydramp_gru_candidate_preparation.json",
+        "?? devguide/evidence/hydramp_h4_authorization.json",
+        "?? devguide/evidence/hydramp_h4_execution.json",
+        "?? devguide/evidence/hydramp_h4_execution_closeout.json",
+        "?? devguide/evidence/hydramp_h4_execution_issue_updates.json",
+        "?? devguide/evidence/hydramp_h4_preparation.json",
+        "?? devguide/evidence/hydramp_h4_preparation_issue_update.json",
+        "?? devguide/evidence/hydramp_historical_codec_continuation.json",
+        "?? devguide/evidence/hydramp_historical_codec_continuation_closeout.json",
+        "?? devguide/evidence/hydramp_historical_data_authorization.json",
+        "?? devguide/evidence/hydramp_historical_data_closeout.json",
+        "?? devguide/evidence/hydramp_historical_data_implementation.json",
+        "?? devguide/evidence/hydramp_historical_endpoint_authorization.json",
+        "?? devguide/evidence/hydramp_historical_endpoint_closeout.json",
+        "?? devguide/evidence/hydramp_historical_endpoint_review.json",
+        "?? devguide/evidence/hydramp_historical_evaluation_closeout.json",
+        "?? devguide/evidence/hydramp_historical_evaluation_implementation.json",
+        "?? devguide/evidence/hydramp_historical_real_execution.json",
+        "?? devguide/evidence/hydramp_historical_real_execution_closeout.json",
+        "?? devguide/evidence/hydramp_historical_real_implementation.json",
+        "?? devguide/evidence/hydramp_historical_real_implementation_authorization.json",
+        "?? devguide/evidence/hydramp_historical_real_preparation.json",
+        "?? devguide/evidence/hydramp_historical_view_authorization.json",
+        "?? devguide/evidence/hydramp_historical_view_proposal.json",
+        "?? devguide/evidence/hydramp_historical_view_proposal_closeout.json",
+        "?? devguide/evidence/hydramp_historical_work_order_closeout.json",
+        "?? devguide/evidence/hydramp_historical_work_order_preparation.json",
+        "?? devguide/evidence/hydramp_limited_acceptance.json",
+        "?? devguide/evidence/hydramp_limited_acceptance_issue_update.json",
+        "?? devguide/evidence/hydramp_memory_preflight.json",
+        "?? devguide/evidence/hydramp_numeric_reference_authorization.json",
+        "?? devguide/evidence/hydramp_numeric_reference_closeout.json",
+        "?? devguide/evidence/hydramp_numeric_reference_execution.json",
+        "?? devguide/evidence/hydramp_numeric_reference_issue_update.json",
+        "?? devguide/evidence/hydramp_numeric_reference_preparation.json",
+        "?? devguide/evidence/hydramp_product_baseline.json",
+        "?? devguide/evidence/hydramp_product_baseline_closeout.json",
+        "?? devguide/evidence/hydramp_product_baseline_commit.json",
+        "?? devguide/evidence/hydramp_product_baseline_commit_authorization.json",
+        "?? devguide/evidence/hydramp_product_baseline_commit_closeout.json",
+        "?? devguide/evidence/hydramp_product_baseline_commit_issue_updates.json",
+        "?? devguide/evidence/hydramp_product_baseline_issue_updates.json",
+        "?? devguide/evidence/hydramp_product_readiness_20261105.json",
+        "?? devguide/evidence/hydramp_product_readiness_20261105_closeout.json",
+        "?? devguide/evidence/hydramp_product_review.json",
+        "?? devguide/evidence/hydramp_product_review_closeout.json",
+        "?? devguide/evidence/hydramp_product_review_issue_updates.json",
+        "?? devguide/evidence/hydramp_profile_owner_proposal.json",
+        "?? devguide/evidence/hydramp_public_installation.json",
+        "?? devguide/evidence/hydramp_public_installation_closeout.json",
+        "?? devguide/evidence/hydramp_public_installation_issue_updates.json",
+        "?? devguide/evidence/hydramp_public_receiving.json",
+        "?? devguide/evidence/hydramp_public_receiving_closeout.json",
+        "?? devguide/evidence/hydramp_public_receiving_issue_update.json",
+        "?? devguide/evidence/hydramp_pytorch_parity_authorization.json",
+        "?? devguide/evidence/hydramp_pytorch_parity_execution.json",
+        "?? devguide/evidence/hydramp_pytorch_parity_issue_update.json",
+        "?? devguide/evidence/hydramp_pytorch_parity_preparation.json",
+        "?? devguide/evidence/hydramp_pytorch_port.json",
+        "?? devguide/evidence/hydramp_rank_relevance_closeout.json",
+        "?? devguide/evidence/hydramp_rank_relevance_issue_update.json",
+        "?? devguide/evidence/hydramp_rank_relevance_review.json",
+        "?? devguide/evidence/hydramp_receiving_preparation.json",
+        "?? devguide/evidence/hydramp_receiving_preparation_closeout.json",
+        "?? devguide/evidence/hydramp_redesign_R1R2.json",
+        "?? devguide/evidence/hydramp_redesign_R1R2_closeout.json",
+        "?? devguide/evidence/hydramp_redesign_R3_authorization.json",
+        "?? devguide/evidence/hydramp_redesign_R3_execution.json",
+        "?? devguide/evidence/hydramp_redesign_R3_execution_closeout.json",
+        "?? devguide/evidence/hydramp_redesign_R3_preparation.json",
+        "?? devguide/evidence/hydramp_redesign_R3_preparation_closeout.json",
+        "?? devguide/evidence/hydramp_redesign_authorization.json",
+        "?? devguide/evidence/hydramp_redesign_existing_boundary_probe.json",
+        "?? devguide/evidence/hydramp_redesign_preparation.json",
+        "?? devguide/evidence/hydramp_redesign_preparation_closeout.json",
+        "?? devguide/evidence/hydramp_result_contract_issue_updates.json",
+        "?? devguide/evidence/hydramp_result_contract_review.json",
+        "?? devguide/evidence/hydramp_result_contract_review_closeout.json",
+        "?? devguide/evidence/hydramp_result_invariants.json",
+        "?? devguide/evidence/hydramp_result_invariants_closeout.json",
+        "?? devguide/evidence/hydramp_result_invariants_issue_updates.json",
+        "?? devguide/evidence/hydramp_scientific_comparison_protocol.json",
+        "?? devguide/evidence/hydramp_scientific_comparison_protocol_closeout.json",
+        "?? devguide/evidence/hydramp_upstream_resource_issue_update.json",
+        "?? devguide/evidence/hydramp_upstream_resource_metadata.json",
+        "?? devguide/evidence/hydramp_upstream_test_resources.json",
+        "?? devguide/evidence/hydramp_workflow_tutorial.json",
+        "?? devguide/evidence/hydramp_workflow_tutorial_closeout.json",
+        "?? devguide/evidence/hydramp_workflow_tutorial_issue_update.json",
+        "?? devguide/evidence/mdm2_t0_authorization.json",
+        "?? devguide/evidence/mdm2_t0_execution.json",
+        "?? devguide/evidence/mdm2_t0_execution_closeout.json",
+        "?? devguide/evidence/mdm2_t0_execution_issue_updates.json",
+        "?? devguide/evidence/mdm2_t0_implementation.json",
+        "?? devguide/evidence/mdm2_t0_implementation_closeout.json",
+        "?? devguide/evidence/mdm2_t0_implementation_issue_updates.json",
+        "?? devguide/evidence/mdm2_t0_resource_adjustment.json",
+        "?? devguide/evidence/mdm2_t0_resource_correction.json",
+        "?? devguide/evidence/mdm2_t0_work_order_closeout.json",
+        "?? devguide/evidence/mdm2_t0_work_order_issue_updates.json",
+        "?? devguide/evidence/mdm2_t0_work_order_preparation.json",
+        "?? devguide/evidence/peptidemt_scientific_audit_2026_11_04.json",
+        "?? devguide/evidence/peptidemt_scientific_audit_2026_11_04_observations.json",
+        "?? devguide/evidence/peptidemt_scientific_audit_2026_11_04_review2.json",
+        "?? devguide/evidence/scientific_resource_discussion_updates_20261103.json",
+        "?? devguide/evidence/scientific_resources_intake_20261103.json",
+        "?? devguide/evidence/scientific_resources_intake_closeout_20261103.json",
+        "?? devguide/evidence/shared_host_execution_delegation.json",
+        "?? devguide/evidence/target_case_mdm2_reference_closeout.json",
+        "?? devguide/evidence/target_case_mdm2_reference_issue_updates.json",
+        "?? devguide/evidence/target_case_mdm2_reference_review.json",
+        "?? devguide/evidence/target_directed_demonstrator_authorization.json",
+        "?? devguide/hydramp_C0_data_audit.md",
+        "?? devguide/hydramp_amp_activation_attribution.md",
+        "?? devguide/hydramp_amp_error_attribution.md",
+        "?? devguide/hydramp_amp_numerics.md",
+        "?? devguide/hydramp_amp_reference.md",
+        "?? devguide/hydramp_analogue_A1.md",
+        "?? devguide/hydramp_analogue_A2.md",
+        "?? devguide/hydramp_analogue_receiving_brief.md",
+        "?? devguide/hydramp_analogue_work_order.md",
+        "?? devguide/hydramp_behavioral_acceptance.md",
+        "?? devguide/hydramp_confidence_campaign.md",
+        "?? devguide/hydramp_decoder_trace.md",
+        "?? devguide/hydramp_dev3_acceptance.md",
+        "?? devguide/hydramp_dev3_acceptance_review.md",
+        "?? devguide/hydramp_dev5_acceptance.md",
+        "?? devguide/hydramp_dev8_source_review.md",
+        "?? devguide/hydramp_dev9_source_review.md",
+        "?? devguide/hydramp_encoder_E1.md",
+        "?? devguide/hydramp_encoder_E2.md",
+        "?? devguide/hydramp_encoder_work_order.md",
+        "?? devguide/hydramp_execution_adapter.md",
+        "?? devguide/hydramp_external_data_readiness.md",
+        "?? devguide/hydramp_full_comparison.md",
+        "?? devguide/hydramp_full_modernization.md",
+        "?? devguide/hydramp_generation_preparation.md",
+        "?? devguide/hydramp_generation_result_implementation.md",
+        "?? devguide/hydramp_gru_candidate.md",
+        "?? devguide/hydramp_h4_qualification.md",
+        "?? devguide/hydramp_historical_data.md",
+        "?? devguide/hydramp_historical_endpoint_review.md",
+        "?? devguide/hydramp_historical_evaluation.md",
+        "?? devguide/hydramp_historical_real_comparison.md",
+        "?? devguide/hydramp_historical_real_implementation.md",
+        "?? devguide/hydramp_historical_real_work_order.md",
+        "?? devguide/hydramp_historical_view_proposal.md",
+        "?? devguide/hydramp_historical_work_order.md",
+        "?? devguide/hydramp_numeric_reference.md",
+        "?? devguide/hydramp_product_baseline.md",
+        "?? devguide/hydramp_product_readiness_20261105.md",
+        "?? devguide/hydramp_product_review.md",
+        "?? devguide/hydramp_public_installation.md",
+        "?? devguide/hydramp_public_receiving.md",
+        "?? devguide/hydramp_pytorch_comparison.md",
+        "?? devguide/hydramp_pytorch_qualification.md",
+        "?? devguide/hydramp_pytorch_review.md",
+        "?? devguide/hydramp_rank_relevance.md",
+        "?? devguide/hydramp_receiving_preparation.md",
+        "?? devguide/hydramp_redesign_R3_qualification.md",
+        "?? devguide/hydramp_redesign_implementation.md",
+        "?? devguide/hydramp_redesign_work_order.md",
+        "?? devguide/hydramp_result_contract.md",
+        "?? devguide/hydramp_result_invariants.md",
+        "?? devguide/hydramp_scientific_comparison_protocol.md",
+        "?? devguide/hydramp_strategy_review.md",
+        "?? devguide/hydramp_upstream_test_resources.md",
+        "?? devguide/hydramp_workflow_tutorial.md",
+        "?? devguide/mdm2_t0_implementation.md",
+        "?? devguide/mdm2_t0_qualification.md",
+        "?? devguide/mdm2_t0_work_order.md",
+        "?? devguide/mdm2_t1a_proposal.md",
+        "?? devguide/omegamp_review.md",
+        "?? devguide/pending_bugs/hydramp_receipt_numeric_overflow.md",
+        "?? devguide/pending_bugs/thread_children_rss.md",
+        "?? devguide/pending_proposals/hydramp_scientific_followup.md",
+        "?? devguide/pending_proposals/scientific_capability_audit.md",
+        "?? devguide/peptide_design_challenges.md",
+        "?? devguide/peptidemt_scientific_audit_2026_11_04.md",
+        "?? devguide/target_case_mdm2_reference_proposal.md",
+        "?? devguide/target_directed_demonstrator.md",
+        "?? devguide/target_directed_evidence_review.md",
+        "?? devtools/historical_evaluation_requirements.txt",
+        "?? devtools/hydramp_execution_qualification.py",
+        "?? devtools/hydramp_h4_qualification.py",
+        "?? devtools/hydramp_historical_data.py",
+        "?? devtools/hydramp_historical_evaluation.py",
+        "?? devtools/hydramp_historical_native_worker.py",
+        "?? devtools/hydramp_historical_operator.py",
+        "?? devtools/hydramp_historical_real.py",
+        "?? devtools/hydramp_redesign_r3.py",
+        "?? devtools/mdm2_t0.py",
+        "?? devtools/tests/",
+        "?? docs/content/user/analogue_redesign.md",
+        "?? docs/content/user/generation_results.md",
+        "?? docs/content/user/hydramp_execution.md",
+        "?? docs/content/user/hydramp_workflow.md",
+        "?? examples/replay_analogue_workflow.py",
+        "?? examples/replay_hydramp_workflow.py",
+        "?? src/peptidemt/_analogue_receiving.py",
+        "?? src/peptidemt/_analogue_worker.py",
+        "?? src/peptidemt/_hydramp_analogue_cli.py",
+        "?? src/peptidemt/_hydramp_cli.py",
+        "?? src/peptidemt/_hydramp_process.py",
+        "?? src/peptidemt/_hydramp_receiving.py",
+        "?? src/peptidemt/_hydramp_worker.py",
+        "?? src/peptidemt/analogue.py",
+        "?? src/peptidemt/hydramp.py",
+        "?? tests/analogue_fixtures.py",
+        "?? tests/test_analogue_execution.py",
+        "?? tests/test_analogue_receiving.py",
+        "?? tests/test_hydramp_execution.py",
+        "?? tests/test_hydramp_historical_data.py",
+        "?? tests/test_hydramp_receiving.py",
+        "?? tests/test_redesign_r3_operator.py"
+      ],
+      "changed_by_review": true
+    },
+    {
+      "repository": "uibcdf/molsysmt",
+      "head": "71fbe4f46d3c70e4e973c8025f01752a8c9b1084",
+      "status": [],
+      "changed_by_review": false
+    },
+    {
+      "repository": "uibcdf/dockingmt",
+      "head": "36c526c8eedb70624dba22e7437021ecd77dceb6",
+      "status": [
+        "M devguide/PRE_STABILIZATION_PLAN.md",
+        " M devguide/pending_proposals/consolidate_versioned_milestones.md",
+        " M devguide/pending_proposals/qualify_same_state_rescoring.md",
+        " M devguide/pending_proposals/retire_general_molecular_operations.md",
+        " M devguide/pending_proposals/review_temporary_resources.md",
+        " M devguide/validation/scoring_reference.md",
+        "?? devguide/validation/data/scoring_reference_2026-11-06/"
+      ],
+      "changed_by_review": false
+    }
+  ],
+  "source_term_limitations": "No full paper, supplement or dataset redistribution; only attributed findings and metadata in maintained records",
+  "molecular_calls": 0,
+  "model_evaluations": 0,
+  "new_predictive_models": 0,
+  "provider_source_mutations": 0,
+  "new_public_api": false,
+  "new_issue_created": false,
+  "T1a_implementation_authorized": false,
+  "predictive_or_biological_acceptance": false,
+  "git_publication": false,
+  "temporary_resources": {
+    "owner": "D52 target-directed evidence review",
+    "retained": "local_data/peptidemt-target-study-3l7pirsi",
+    "purpose": "Exact inspected provider files, source/acquisition receipts and review handoff",
+    "cleanup_condition": "Retain required evidence; retire task-only duplicates after source-curation handoff or investigator cancellation without touching shared environments/worktrees"
+  }
+}

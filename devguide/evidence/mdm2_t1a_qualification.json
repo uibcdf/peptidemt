@@ -1,0 +1,873 @@
+{
+  "schema": "peptidemt.mdm2_t1a_qualification@1",
+  "recorded_utc": "2026-11-10T05:36:28.343282+00:00",
+  "local_scientific_date": "2026-11-09",
+  "status": "completed_D53_data_only",
+  "owner_issue": "uibcdf/peptidemt#33",
+  "parent_objective_complete": false,
+  "authority": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/evidence/mdm2_t1a_authorization.json",
+    "sha256": "41b2e0d0f7f522dd8a1c625f49139e77a5e66c995556e0c8be6909e702ef6495",
+    "bytes": 1681
+  },
+  "approved_proposal": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-t1a-b03dl94b/approved-proposal.md",
+    "sha256": "069247bf4b46e8fafba553ecb5311f67b0bfd6748ea4a06822053c3285c05e56",
+    "bytes": 7184
+  },
+  "task_directory": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-t1a-b03dl94b",
+  "sources": {
+    "article": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-t1a-b03dl94b/source/li2010.html",
+      "sha256": "99f361fdab13c2971362fbe5e96b255e8a32dd5f8d605154bcd98918268f1264",
+      "bytes": 273058
+    },
+    "original_acquisition": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-t1a-b03dl94b/source/acquisition.json",
+      "sha256": "c46c8fa359d1454ae5426163f1897764b850c4ef786670180781927e80088229",
+      "bytes": 762
+    }
+  },
+  "executed_case_code": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/devtools/mdm2_t1a.py",
+    "sha256": "df7ed5677f52abaab698289d4137467bd0068c9029a714a875acc5c1a9724307",
+    "bytes": 22882
+  },
+  "artificial_tests": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/devtools/tests/test_mdm2_t1a.py",
+    "sha256": "16426346d23c4eb48632d556db06a01482c3d03958944e18a707738d10feb328",
+    "bytes": 7312
+  },
+  "supervisor_code": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/src/peptidemt/_hydramp_process.py",
+    "sha256": "5d03f493f54bbef4397561dfd80a773cea696c295da0b899fc2b57e6bbf706a6",
+    "bytes": 5566
+  },
+  "published_receptor_native_result": {
+    "returncode": 0,
+    "receptor_origin": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-public-install-z5lh31o1/wheels/pytest_receptor-1.2.2-py3-none-any.whl/pytest_receptor/__init__.py",
+    "wheel": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/hydramp-public-install-z5lh31o1/wheels/pytest_receptor-1.2.2-py3-none-any.whl",
+      "bytes": 45128,
+      "sha256": "48c290fba7e12d19015fa436989fdad465d5ff7bba78fa94f7825e305ccf7961"
+    },
+    "arguments": [
+      "-c",
+      "/dev/null",
+      "--rootdir",
+      "/home/liliana/repos@uibcdf/peptidemt",
+      "-p",
+      "pytest_receptor.plugin",
+      "--receptor=llm",
+      "-o",
+      "cache_dir=/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-t1a-b03dl94b/tests-gc3chz4e/cache",
+      "--junitxml",
+      "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-t1a-b03dl94b/tests-gc3chz4e/junit.xml",
+      "/home/liliana/repos@uibcdf/peptidemt/devtools/tests/test_mdm2_t1a.py"
+    ],
+    "molecular_modules": []
+  },
+  "artificial_tests_passed": 22,
+  "profiles": {
+    "profile-300hf4xn": {
+      "python": "/home/liliana/Myopt/miniconda3/envs/molsyssuite@uibcdf_3.14/bin/python",
+      "packages": {
+        "pyunitwizard": {
+          "version": "0.29.0+4.g9d74f0e",
+          "direct_url": "{\"dir_info\": {\"editable\": true}, \"url\": \"file:///home/liliana/repos%40uibcdf/pyunitwizard\"}"
+        },
+        "pint": {
+          "version": "0.25.3",
+          "direct_url": "{\"dir_info\": {}, \"url\": \"file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_pint_1773969991/work\"}"
+        },
+        "numpy": {
+          "version": "2.4.6",
+          "direct_url": "{\"archive_info\": {\"hash\": \"sha256=67bfc5dc678227ea6ad6cc75838ae920b11bc7da7649fc19c624fda3aaec691a\", \"hashes\": {\"sha256\": \"67bfc5dc678227ea6ad6cc75838ae920b11bc7da7649fc19c624fda3aaec691a\"}}, \"url\": \"file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_numpy_1779169198/work/dist/numpy-2.4.6-cp314-cp314-linux_x86_64.whl\"}"
+        },
+        "pytest": {
+          "version": "9.1.1",
+          "direct_url": "{\"dir_info\": {}, \"url\": \"file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_pytest_1782127176/work\"}"
+        },
+        "smonitor": {
+          "version": "0.22.0+16.gccdcace",
+          "direct_url": "{\"dir_info\": {\"editable\": true}, \"url\": \"file:///home/liliana/repos%40uibcdf/smonitor\"}"
+        },
+        "argdigest": {
+          "version": "0.17.0+5.gcd9c4f3",
+          "direct_url": "{\"dir_info\": {\"editable\": true}, \"url\": \"file:///home/liliana/repos%40uibcdf/argdigest\"}"
+        },
+        "depdigest": {
+          "version": "0.15.1+8.g0884f0c",
+          "direct_url": "{\"dir_info\": {\"editable\": true}, \"url\": \"file:///home/liliana/repos%40uibcdf/depdigest\"}"
+        }
+      },
+      "actual_imported_modules": {
+        "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-t1a-b03dl94b/profile-300hf4xn/profile.json",
+        "sha256": "d767517f0899de06e9a11ffda4ada7824b31c75d378416da8fc352ab24d471f3",
+        "bytes": 49331
+      },
+      "forbidden_modules": []
+    },
+    "profile-fawghnl1": {
+      "python": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-t0-d1u79kql/clean-profile-stage/environment/bin/python",
+      "packages": {
+        "pyunitwizard": {
+          "version": "0.29.0+4.g9d74f0e",
+          "direct_url": "{\"dir_info\": {\"editable\": true}, \"url\": \"file:///home/liliana/repos%40uibcdf/peptidemt/local_data/peptidemt-mdm2-t0-d1u79kql/peers/pyunitwizard\"}"
+        },
+        "pint": {
+          "version": "0.26.2",
+          "direct_url": "{\"dir_info\": {}, \"url\": \"file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_pint_1792446201/work\"}"
+        },
+        "numpy": {
+          "version": "2.4.6",
+          "direct_url": "{\"archive_info\": {\"hash\": \"sha256=67bfc5dc678227ea6ad6cc75838ae920b11bc7da7649fc19c624fda3aaec691a\", \"hashes\": {\"sha256\": \"67bfc5dc678227ea6ad6cc75838ae920b11bc7da7649fc19c624fda3aaec691a\"}}, \"url\": \"file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_numpy_1779169198/work/dist/numpy-2.4.6-cp314-cp314-linux_x86_64.whl\"}"
+        },
+        "pytest": {
+          "status": "absent; not requested by this profile probe"
+        },
+        "smonitor": {
+          "version": "0.22.0+16.gccdcace",
+          "direct_url": "{\"dir_info\": {\"editable\": true}, \"url\": \"file:///home/liliana/repos%40uibcdf/peptidemt/local_data/peptidemt-mdm2-t0-d1u79kql/peers/smonitor\"}"
+        },
+        "argdigest": {
+          "version": "0.17.0+13.g7e09e97",
+          "direct_url": "{\"dir_info\": {\"editable\": true}, \"url\": \"file:///home/liliana/repos%40uibcdf/peptidemt/local_data/peptidemt-mdm2-t0-d1u79kql/peers/argdigest\"}"
+        },
+        "depdigest": {
+          "version": "0.15.1+8.g0884f0c",
+          "direct_url": "{\"dir_info\": {\"editable\": true}, \"url\": \"file:///home/liliana/repos%40uibcdf/peptidemt/local_data/peptidemt-mdm2-t0-d1u79kql/peers/depdigest\"}"
+        }
+      },
+      "actual_imported_modules": {
+        "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-t1a-b03dl94b/profile-fawghnl1/profile.json",
+        "sha256": "aa89222f76e4aeb680569d97d5a5c7c0d9c54733c437d96a0a9607f3906591f8",
+        "bytes": 59656
+      },
+      "forbidden_modules": []
+    }
+  },
+  "stages_in_order": [
+    {
+      "stage": "pipcheck-0w15fw5g",
+      "declaration": {
+        "command": [
+          "/home/liliana/Myopt/miniconda3/envs/molsyssuite@uibcdf_3.14/bin/python",
+          "-B",
+          "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-t1a-b03dl94b/qualify.py",
+          "_pipcheck",
+          "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-t1a-b03dl94b/pipcheck-0w15fw5g",
+          "2"
+        ],
+        "authority": {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/evidence/mdm2_t1a_authorization.json",
+          "bytes": 1681,
+          "sha256": "41b2e0d0f7f522dd8a1c625f49139e77a5e66c995556e0c8be6909e702ef6495"
+        },
+        "code": {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/devtools/mdm2_t1a.py",
+          "bytes": 21881,
+          "sha256": "b0c085d0339154978467b02121ebe6b9f8028c21d20252c377e87891d66c180c"
+        },
+        "controller": {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-t1a-b03dl94b/qualify.py",
+          "bytes": 5044,
+          "sha256": "d75c6b0baa25bb77bc44b492dc94593c8d53f94b29a0a55df02596d86abb04c8"
+        },
+        "limits": {
+          "min_available_memory_bytes": 4294967296,
+          "min_free_disk_bytes": 1073741824,
+          "threads": 1,
+          "wall_seconds": 180,
+          "rss_stop_bytes": 536870912,
+          "max_output_bytes": 67108864
+        },
+        "model_calls": 0
+      },
+      "supervision": {
+        "started": true,
+        "returncode": 1,
+        "failure": "worker_failure",
+        "wall_seconds": 5.95602023799438,
+        "peak_sampled_process_tree_rss_bytes": 71110656,
+        "retained_output_bytes": 1941,
+        "retry": false,
+        "rss_scope": "supervisor_and_descendants"
+      },
+      "evidence_files": [
+        {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-t1a-b03dl94b/pipcheck-0w15fw5g/declaration.json",
+          "sha256": "29b62ba77890ec341d756499539278422f1ba16170432d45e0796301f15712d3",
+          "bytes": 1200
+        },
+        {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-t1a-b03dl94b/pipcheck-0w15fw5g/pipcheck.log",
+          "sha256": "dec7079d192a56904ddebedb4fe247ecb7a036dafbe6e1c2a02b30ca4d0143e9",
+          "bytes": 741
+        },
+        {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-t1a-b03dl94b/pipcheck-0w15fw5g/supervision.json",
+          "sha256": "32218c037a5c42f5f1ffa35486273a1a23d0c7b147e1c94c9c916d63c666bae6",
+          "bytes": 255
+        }
+      ]
+    },
+    {
+      "stage": "profile-300hf4xn",
+      "declaration": {
+        "command": [
+          "/home/liliana/Myopt/miniconda3/envs/molsyssuite@uibcdf_3.14/bin/python",
+          "-B",
+          "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-t1a-b03dl94b/qualify.py",
+          "_profile",
+          "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-t1a-b03dl94b/profile-300hf4xn",
+          "2"
+        ],
+        "authority": {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/evidence/mdm2_t1a_authorization.json",
+          "bytes": 1681,
+          "sha256": "41b2e0d0f7f522dd8a1c625f49139e77a5e66c995556e0c8be6909e702ef6495"
+        },
+        "code": {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/devtools/mdm2_t1a.py",
+          "bytes": 21881,
+          "sha256": "b0c085d0339154978467b02121ebe6b9f8028c21d20252c377e87891d66c180c"
+        },
+        "controller": {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-t1a-b03dl94b/qualify.py",
+          "bytes": 5044,
+          "sha256": "d75c6b0baa25bb77bc44b492dc94593c8d53f94b29a0a55df02596d86abb04c8"
+        },
+        "limits": {
+          "min_available_memory_bytes": 4294967296,
+          "min_free_disk_bytes": 1073741824,
+          "threads": 1,
+          "wall_seconds": 180,
+          "rss_stop_bytes": 536870912,
+          "max_output_bytes": 67108864
+        },
+        "model_calls": 0
+      },
+      "supervision": {
+        "started": true,
+        "returncode": 0,
+        "failure": null,
+        "wall_seconds": 2.1530700830044225,
+        "peak_sampled_process_tree_rss_bytes": 99807232,
+        "retained_output_bytes": 50529,
+        "retry": false,
+        "rss_scope": "supervisor_and_descendants"
+      },
+      "evidence_files": [
+        {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-t1a-b03dl94b/profile-300hf4xn/declaration.json",
+          "sha256": "3e7b417ac52438a9cfca9405998034a597eb6ffd480e8978bf902df36c880073",
+          "bytes": 1198
+        },
+        {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-t1a-b03dl94b/profile-300hf4xn/profile.json",
+          "sha256": "d767517f0899de06e9a11ffda4ada7824b31c75d378416da8fc352ab24d471f3",
+          "bytes": 49331
+        },
+        {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-t1a-b03dl94b/profile-300hf4xn/supervision.json",
+          "sha256": "3a6e2469dd246d2d57d2c17911bd801af803031f1d8083757ddf9b1f79695797",
+          "bytes": 246
+        },
+        {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-t1a-b03dl94b/profile-300hf4xn/worker.log",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        }
+      ]
+    },
+    {
+      "stage": "tests-gc3chz4e",
+      "declaration": {
+        "command": [
+          "/home/liliana/Myopt/miniconda3/envs/molsyssuite@uibcdf_3.14/bin/python",
+          "-B",
+          "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-t1a-b03dl94b/qualify.py",
+          "_tests",
+          "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-t1a-b03dl94b/tests-gc3chz4e",
+          "2"
+        ],
+        "authority": {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/evidence/mdm2_t1a_authorization.json",
+          "bytes": 1681,
+          "sha256": "41b2e0d0f7f522dd8a1c625f49139e77a5e66c995556e0c8be6909e702ef6495"
+        },
+        "code": {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/devtools/mdm2_t1a.py",
+          "bytes": 22882,
+          "sha256": "df7ed5677f52abaab698289d4137467bd0068c9029a714a875acc5c1a9724307"
+        },
+        "controller": {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-t1a-b03dl94b/qualify.py",
+          "bytes": 5272,
+          "sha256": "1361244831794902ca3440fd7f32144f6f6554f4669011942fe0fc9b00a1c7dd"
+        },
+        "limits": {
+          "min_available_memory_bytes": 4294967296,
+          "min_free_disk_bytes": 1073741824,
+          "threads": 1,
+          "wall_seconds": 180,
+          "rss_stop_bytes": 536870912,
+          "max_output_bytes": 67108864
+        },
+        "model_calls": 0
+      },
+      "supervision": {
+        "started": true,
+        "returncode": 0,
+        "failure": null,
+        "wall_seconds": 1.6026509969960898,
+        "peak_sampled_process_tree_rss_bytes": 117383168,
+        "retained_output_bytes": 43262,
+        "retry": false,
+        "rss_scope": "supervisor_and_descendants"
+      },
+      "evidence_files": [
+        {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-t1a-b03dl94b/tests-gc3chz4e/declaration.json",
+          "sha256": "fd7003e6bcb3e7c2db4c20b52debf702facd650837c77879014ba23ce307b768",
+          "bytes": 1194
+        },
+        {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-t1a-b03dl94b/tests-gc3chz4e/junit.xml",
+          "sha256": "4d724cc69db010e98f92999da5dfbc7e486112610e90cfc8a64c5fadb4498bcf",
+          "bytes": 2991
+        },
+        {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-t1a-b03dl94b/tests-gc3chz4e/native-result.json",
+          "sha256": "ad5d27f5db8b838953dc407e149aa6e237fbed4097790b1b6ffec522e111a135",
+          "bytes": 984
+        },
+        {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-t1a-b03dl94b/tests-gc3chz4e/supervision.json",
+          "sha256": "f5f8cfd93304a859e18c03793a2c58bef6400db2a4338a4a8a5784d536ff987a",
+          "bytes": 247
+        },
+        {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-t1a-b03dl94b/tests-gc3chz4e/worker.log",
+          "sha256": "00f383d67642ab4a2f96efad7ff629876190b166f9bf924cb489187343d1c59f",
+          "bytes": 33
+        }
+      ]
+    },
+    {
+      "stage": "profile-fawghnl1",
+      "declaration": {
+        "command": [
+          "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-t0-d1u79kql/clean-profile-stage/environment/bin/python",
+          "-B",
+          "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-t1a-b03dl94b/qualify.py",
+          "_profile",
+          "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-t1a-b03dl94b/profile-fawghnl1",
+          "2"
+        ],
+        "authority": {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/evidence/mdm2_t1a_authorization.json",
+          "bytes": 1681,
+          "sha256": "41b2e0d0f7f522dd8a1c625f49139e77a5e66c995556e0c8be6909e702ef6495"
+        },
+        "code": {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/devtools/mdm2_t1a.py",
+          "bytes": 22882,
+          "sha256": "df7ed5677f52abaab698289d4137467bd0068c9029a714a875acc5c1a9724307"
+        },
+        "controller": {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-t1a-b03dl94b/qualify.py",
+          "bytes": 5272,
+          "sha256": "1361244831794902ca3440fd7f32144f6f6554f4669011942fe0fc9b00a1c7dd"
+        },
+        "limits": {
+          "min_available_memory_bytes": 4294967296,
+          "min_free_disk_bytes": 1073741824,
+          "threads": 1,
+          "wall_seconds": 180,
+          "rss_stop_bytes": 536870912,
+          "max_output_bytes": 67108864
+        },
+        "model_calls": 0
+      },
+      "supervision": {
+        "started": true,
+        "returncode": 0,
+        "failure": null,
+        "wall_seconds": 3.3489149179658853,
+        "peak_sampled_process_tree_rss_bytes": 77103104,
+        "retained_output_bytes": 96367,
+        "retry": false,
+        "rss_scope": "supervisor_and_descendants"
+      },
+      "evidence_files": [
+        {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-t1a-b03dl94b/profile-fawghnl1/declaration.json",
+          "sha256": "7655ab9347055871336f4b14555dade53627cfdc74d74eb2f97967962625e6a5",
+          "bytes": 1245
+        },
+        {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-t1a-b03dl94b/profile-fawghnl1/profile.json",
+          "sha256": "aa89222f76e4aeb680569d97d5a5c7c0d9c54733c437d96a0a9607f3906591f8",
+          "bytes": 59656
+        },
+        {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-t1a-b03dl94b/profile-fawghnl1/supervision.json",
+          "sha256": "0c473452bb4d6a7af8ccde238eefefead119a74bdf560b6b37f8a691258dd455",
+          "bytes": 246
+        },
+        {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-t1a-b03dl94b/profile-fawghnl1/worker.log",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        }
+      ]
+    },
+    {
+      "stage": "pipcheck-2uxret4t",
+      "declaration": {
+        "command": [
+          "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-t0-d1u79kql/clean-profile-stage/environment/bin/python",
+          "-B",
+          "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-t1a-b03dl94b/qualify.py",
+          "_pipcheck",
+          "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-t1a-b03dl94b/pipcheck-2uxret4t",
+          "2"
+        ],
+        "authority": {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/evidence/mdm2_t1a_authorization.json",
+          "bytes": 1681,
+          "sha256": "41b2e0d0f7f522dd8a1c625f49139e77a5e66c995556e0c8be6909e702ef6495"
+        },
+        "code": {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/devtools/mdm2_t1a.py",
+          "bytes": 22882,
+          "sha256": "df7ed5677f52abaab698289d4137467bd0068c9029a714a875acc5c1a9724307"
+        },
+        "controller": {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-t1a-b03dl94b/qualify.py",
+          "bytes": 5272,
+          "sha256": "1361244831794902ca3440fd7f32144f6f6554f4669011942fe0fc9b00a1c7dd"
+        },
+        "limits": {
+          "min_available_memory_bytes": 4294967296,
+          "min_free_disk_bytes": 1073741824,
+          "threads": 1,
+          "wall_seconds": 180,
+          "rss_stop_bytes": 536870912,
+          "max_output_bytes": 67108864
+        },
+        "model_calls": 0
+      },
+      "supervision": {
+        "started": true,
+        "returncode": 0,
+        "failure": null,
+        "wall_seconds": 2.573534034017939,
+        "peak_sampled_process_tree_rss_bytes": 68079616,
+        "retained_output_bytes": 37009,
+        "retry": false,
+        "rss_scope": "supervisor_and_descendants"
+      },
+      "evidence_files": [
+        {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-t1a-b03dl94b/pipcheck-2uxret4t/declaration.json",
+          "sha256": "d6dac0c11c2efae7f5808514678785d072e6492563e57e2dc5ebfbdf9f97c579",
+          "bytes": 1247
+        },
+        {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-t1a-b03dl94b/pipcheck-2uxret4t/pipcheck.log",
+          "sha256": "abd0cbb8d1b0be2dd46fa4158c910af97b89bbe3deaf6b34641907d0af82a6ca",
+          "bytes": 296
+        },
+        {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-t1a-b03dl94b/pipcheck-2uxret4t/supervision.json",
+          "sha256": "33434f486836b1c58ee62a75c949676f6395456a4614de4ba3f176dc6152a0c2",
+          "bytes": 245
+        }
+      ]
+    },
+    {
+      "stage": "receive-i2rgfxvx",
+      "declaration": {
+        "operation": "receive",
+        "authority": {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/evidence/mdm2_t1a_authorization.json",
+          "bytes": 1681,
+          "sha256": "41b2e0d0f7f522dd8a1c625f49139e77a5e66c995556e0c8be6909e702ef6495"
+        },
+        "input": {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-t1a-b03dl94b/source/li2010.html",
+          "bytes": 273058,
+          "sha256": "99f361fdab13c2971362fbe5e96b255e8a32dd5f8d605154bcd98918268f1264"
+        },
+        "code": {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/devtools/mdm2_t1a.py",
+          "bytes": 22882,
+          "sha256": "df7ed5677f52abaab698289d4137467bd0068c9029a714a875acc5c1a9724307"
+        },
+        "command": [
+          "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-t0-d1u79kql/clean-profile-stage/environment/bin/python",
+          "-B",
+          "/home/liliana/repos@uibcdf/peptidemt/devtools/mdm2_t1a.py",
+          "_receive",
+          "--input",
+          "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-t1a-b03dl94b/source/li2010.html",
+          "--directory",
+          "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-t1a-b03dl94b/receive-i2rgfxvx",
+          "--parent-pid",
+          "2"
+        ],
+        "limits": {
+          "min_available_memory_bytes": 4294967296,
+          "min_free_disk_bytes": 1073741824,
+          "threads": 1,
+          "wall_seconds": 180,
+          "rss_stop_bytes": 536870912,
+          "max_output_bytes": 67108864
+        },
+        "molecular_calls": 0,
+        "model_evaluations": 0
+      },
+      "supervision": {
+        "started": true,
+        "returncode": 0,
+        "failure": null,
+        "wall_seconds": 0.872783993021585,
+        "peak_sampled_process_tree_rss_bytes": 81760256,
+        "retained_output_bytes": 608030,
+        "retry": false,
+        "rss_scope": "supervisor_and_descendants"
+      },
+      "evidence_files": [
+        {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-t1a-b03dl94b/receive-i2rgfxvx/declaration.json",
+          "sha256": "bb3b14c333c11917fe97a8f5a364371fc665f5dd0c4c77cc6fa7868fc4296476",
+          "bytes": 1433
+        },
+        {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-t1a-b03dl94b/receive-i2rgfxvx/reference.json",
+          "sha256": "b9af350ef8a39febcb807c18c7d56d8a11391c2c6284ab689ac9d3293007cea6",
+          "bytes": 582445
+        },
+        {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-t1a-b03dl94b/receive-i2rgfxvx/result.json",
+          "sha256": "772e63fe517dc709a3276ba4f4150ff7eb3171e42c6d612fefda725b3b7d80bc",
+          "bytes": 1270
+        },
+        {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-t1a-b03dl94b/receive-i2rgfxvx/supervision.json",
+          "sha256": "7f36cbda05603ddf71c6dab46c8bce64f9519f7166e75ef40d3f8906fbe9c167",
+          "bytes": 246
+        },
+        {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-t1a-b03dl94b/receive-i2rgfxvx/worker.log",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        }
+      ]
+    },
+    {
+      "stage": "inspect-_p3diwnb",
+      "declaration": {
+        "operation": "inspect",
+        "authority": {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/evidence/mdm2_t1a_authorization.json",
+          "bytes": 1681,
+          "sha256": "41b2e0d0f7f522dd8a1c625f49139e77a5e66c995556e0c8be6909e702ef6495"
+        },
+        "input": {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-t1a-b03dl94b/saved-only/reference.json",
+          "bytes": 582445,
+          "sha256": "b9af350ef8a39febcb807c18c7d56d8a11391c2c6284ab689ac9d3293007cea6"
+        },
+        "code": {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/devtools/mdm2_t1a.py",
+          "bytes": 22882,
+          "sha256": "df7ed5677f52abaab698289d4137467bd0068c9029a714a875acc5c1a9724307"
+        },
+        "command": [
+          "/home/liliana/Myopt/miniconda3/envs/molsyssuite@uibcdf_3.14/bin/python",
+          "-B",
+          "/home/liliana/repos@uibcdf/peptidemt/devtools/mdm2_t1a.py",
+          "_inspect",
+          "--input",
+          "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-t1a-b03dl94b/saved-only/reference.json",
+          "--directory",
+          "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-t1a-b03dl94b/inspect-_p3diwnb",
+          "--parent-pid",
+          "2"
+        ],
+        "limits": {
+          "min_available_memory_bytes": 4294967296,
+          "min_free_disk_bytes": 1073741824,
+          "threads": 1,
+          "wall_seconds": 180,
+          "rss_stop_bytes": 536870912,
+          "max_output_bytes": 67108864
+        },
+        "molecular_calls": 0,
+        "model_evaluations": 0
+      },
+      "supervision": {
+        "started": true,
+        "returncode": 0,
+        "failure": null,
+        "wall_seconds": 0.8220602810033597,
+        "peak_sampled_process_tree_rss_bytes": 103849984,
+        "retained_output_bytes": 25499,
+        "retry": false,
+        "rss_scope": "supervisor_and_descendants"
+      },
+      "evidence_files": [
+        {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-t1a-b03dl94b/inspect-_p3diwnb/declaration.json",
+          "sha256": "b97a54c9138ad505f9d46bd78b4d908b80305ecfff9e54e6f2e758c404104cf6",
+          "bytes": 1400
+        },
+        {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-t1a-b03dl94b/inspect-_p3diwnb/result.json",
+          "sha256": "6dc566cc808ff80c663ba3f623fd4f07f701b87a097c344fa06fa042abc6a100",
+          "bytes": 1217
+        },
+        {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-t1a-b03dl94b/inspect-_p3diwnb/supervision.json",
+          "sha256": "55be8322b53f46f2fb20d69a54c4a5cb2c4a55df8736e37d212b03936b14cce4",
+          "bytes": 247
+        },
+        {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-t1a-b03dl94b/inspect-_p3diwnb/worker.log",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        }
+      ]
+    },
+    {
+      "stage": "crosscheck-o49nqxtx",
+      "declaration": {
+        "command": [
+          "/home/liliana/Myopt/miniconda3/envs/molsyssuite@uibcdf_3.14/bin/python",
+          "-B",
+          "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-t1a-b03dl94b/qualify.py",
+          "_crosscheck",
+          "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-t1a-b03dl94b/crosscheck-o49nqxtx",
+          "2"
+        ],
+        "authority": {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/devguide/evidence/mdm2_t1a_authorization.json",
+          "bytes": 1681,
+          "sha256": "41b2e0d0f7f522dd8a1c625f49139e77a5e66c995556e0c8be6909e702ef6495"
+        },
+        "code": {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/devtools/mdm2_t1a.py",
+          "bytes": 22882,
+          "sha256": "df7ed5677f52abaab698289d4137467bd0068c9029a714a875acc5c1a9724307"
+        },
+        "controller": {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-t1a-b03dl94b/qualify.py",
+          "bytes": 5570,
+          "sha256": "9450a3cd4a542f0e64d67c43d8e81db042dfc779c8f36111276a4a398d7c0174"
+        },
+        "limits": {
+          "min_available_memory_bytes": 4294967296,
+          "min_free_disk_bytes": 1073741824,
+          "threads": 1,
+          "wall_seconds": 180,
+          "rss_stop_bytes": 536870912,
+          "max_output_bytes": 67108864
+        },
+        "model_calls": 0
+      },
+      "supervision": {
+        "started": true,
+        "returncode": 0,
+        "failure": null,
+        "wall_seconds": 0.15436421695630997,
+        "peak_sampled_process_tree_rss_bytes": 50151424,
+        "retained_output_bytes": 41169,
+        "retry": false,
+        "rss_scope": "supervisor_and_descendants"
+      },
+      "evidence_files": [
+        {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-t1a-b03dl94b/crosscheck-o49nqxtx/crosscheck.json",
+          "sha256": "614c6967b23c682c352ea123e66c1f084b4fd941ba366e3c6c0664c4937fe35a",
+          "bytes": 905
+        },
+        {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-t1a-b03dl94b/crosscheck-o49nqxtx/declaration.json",
+          "sha256": "9eae6b05e53dfc47ad79e31c60e25d55553f89de90e301b5e97bb3784e9fbd2e",
+          "bytes": 1204
+        },
+        {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-t1a-b03dl94b/crosscheck-o49nqxtx/supervision.json",
+          "sha256": "18f8bae443ab62cb8e94b57b1e61b5caf965d9cbc3003f24a8e07f84a3886963",
+          "bytes": 247
+        },
+        {
+          "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-t1a-b03dl94b/crosscheck-o49nqxtx/worker.log",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        }
+      ]
+    }
+  ],
+  "actual_source_receivings": 1,
+  "reference": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-t1a-b03dl94b/receive-i2rgfxvx/reference.json",
+    "sha256": "b9af350ef8a39febcb807c18c7d56d8a11391c2c6284ab689ac9d3293007cea6",
+    "bytes": 582445
+  },
+  "unchanged_saved_copy": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-t1a-b03dl94b/saved-only/reference.json",
+    "sha256": "b9af350ef8a39febcb807c18c7d56d8a11391c2c6284ab689ac9d3293007cea6",
+    "bytes": 582445
+  },
+  "receiving_report": {
+    "source_occurrences": 72,
+    "reported_peptide_entities": 35,
+    "reported_peptide_target_evidence": 70,
+    "quantified": 66,
+    "not_quantified": 4,
+    "duplicate_display_occurrences": 2,
+    "chemical_identity_qualified": false,
+    "prediction_validated": false,
+    "status": "pass",
+    "forbidden_modules": [],
+    "active_policy_preserved": true,
+    "original_source_needed": true,
+    "producer": {
+      "code": {
+        "path": "/home/liliana/repos@uibcdf/peptidemt/devtools/mdm2_t1a.py",
+        "bytes": 22882,
+        "sha256": "df7ed5677f52abaab698289d4137467bd0068c9029a714a875acc5c1a9724307"
+      },
+      "python": "3.14.7 | packaged by conda-forge | (main, Sep  2 2026, 21:08:32) [GCC 15.3.0]",
+      "pyunitwizard": "0.29.0+4.g9d74f0e",
+      "pint": "0.26.2"
+    },
+    "reader_code": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/devtools/mdm2_t1a.py",
+      "bytes": 22882,
+      "sha256": "df7ed5677f52abaab698289d4137467bd0068c9029a714a875acc5c1a9724307"
+    },
+    "reader_pyunitwizard": "0.29.0+4.g9d74f0e",
+    "quantity_provider_file": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-t0-d1u79kql/peers/pyunitwizard/pyunitwizard/__init__.py",
+      "bytes": 5697,
+      "sha256": "39eeae626315034598a55db948e160fbc09b0213d48d8649b07933563b86fdfc"
+    }
+  },
+  "fresh_saved_reader_report": {
+    "source_occurrences": 72,
+    "reported_peptide_entities": 35,
+    "reported_peptide_target_evidence": 70,
+    "quantified": 66,
+    "not_quantified": 4,
+    "duplicate_display_occurrences": 2,
+    "chemical_identity_qualified": false,
+    "prediction_validated": false,
+    "status": "pass",
+    "forbidden_modules": [],
+    "active_policy_preserved": true,
+    "original_source_needed": false,
+    "producer": {
+      "code": {
+        "path": "/home/liliana/repos@uibcdf/peptidemt/devtools/mdm2_t1a.py",
+        "bytes": 22882,
+        "sha256": "df7ed5677f52abaab698289d4137467bd0068c9029a714a875acc5c1a9724307"
+      },
+      "python": "3.14.7 | packaged by conda-forge | (main, Sep  2 2026, 21:08:32) [GCC 15.3.0]",
+      "pyunitwizard": "0.29.0+4.g9d74f0e",
+      "pint": "0.26.2"
+    },
+    "reader_code": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/devtools/mdm2_t1a.py",
+      "bytes": 22882,
+      "sha256": "df7ed5677f52abaab698289d4137467bd0068c9029a714a875acc5c1a9724307"
+    },
+    "reader_pyunitwizard": "0.29.0+4.g9d74f0e",
+    "quantity_provider_file": {
+      "path": "/home/liliana/repos@uibcdf/pyunitwizard/pyunitwizard/__init__.py",
+      "bytes": 5697,
+      "sha256": "39eeae626315034598a55db948e160fbc09b0213d48d8649b07933563b86fdfc"
+    }
+  },
+  "source_crosscheck": {
+    "status": "pass",
+    "scope": "Explicit table-token cross-check and independently stated decimal sentinels, not independent biological evidence",
+    "source_sha256": "99f361fdab13c2971362fbe5e96b255e8a32dd5f8d605154bcd98918268f1264",
+    "reference_sha256": "b9af350ef8a39febcb807c18c7d56d8a11391c2c6284ab689ac9d3293007cea6",
+    "measurement_tokens_checked": 72,
+    "decimal_sentinels": {
+      "li2010:T1:tr-3:MDM2": [
+        "0.0000000032",
+        "0.0000000011"
+      ],
+      "li2010:T1:tr-3:MDMX": [
+        "0.0000000085",
+        "0.0000000017"
+      ],
+      "li2010:T1:tr-11:MDM2": [
+        "0.00000000049",
+        "0.00000000021"
+      ],
+      "li2010:T3:tr-3:MDM2": [
+        "0.00000044",
+        "0.00000004"
+      ],
+      "li2010:T3:tr-21:MDMX": [
+        "0.00019",
+        "0.00004"
+      ]
+    },
+    "all_unquantified_locators_checked": true,
+    "both_aliases_checked": true,
+    "replicate_and_unknown_semantics_checked": true
+  },
+  "preserved_failed_launch": {
+    "record": {
+      "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-t1a-b03dl94b/saved-reader-launch-failure.json",
+      "sha256": "3e5e7d5883687b5cb0ec2aadd23167c3e122fca8b76b13c234144d6f70de71d4",
+      "bytes": 458
+    },
+    "facts": {
+      "status": "launch_failed_before_controller",
+      "returncode": 127,
+      "attempted_python": "/home/liliana/mambaforge/envs/molsyssuite@uibcdf_3.14/bin/python",
+      "cause": "Incorrect unverified absolute interpreter path in shell command; executable absent",
+      "child_started": false,
+      "source_or_model_calls": 0,
+      "correction": "Use verified current sys.executable; preserve unchanged saved artifact",
+      "recorded_utc": "2026-11-10T05:32:44.625015+00:00"
+    }
+  },
+  "shared_dependency_failure": {
+    "owner_issue": "uibcdf/molsyssuite#82",
+    "cause": "Already known Amber extras: pdb2pqr absent; NumPy<2 and Biopython<1.86 constraints unmet",
+    "unrelated_components_modified": false,
+    "clean_receiving_fixture_dependency_check": "pass; pipcheck-2uxret4t"
+  },
+  "host_closeout": {
+    "path": "/home/liliana/repos@uibcdf/peptidemt/local_data/peptidemt-mdm2-t1a-b03dl94b/host-closeout.json",
+    "sha256": "49a59c26d3da2b905022b6efb58624ff72eea3987fe4a0d657c3fea337966062",
+    "bytes": 382
+  },
+  "resource_authority": "D53 bounded data-only envelope; D49 routine technical execution and diagnosed retries",
+  "peak_sampled_aggregate_rss_bytes": 117383168,
+  "molecular_calls": 0,
+  "model_evaluations": 0,
+  "GPU_used": false,
+  "accepted_T0_or_HydrAMP_checks_repeated": false,
+  "scientific_disposition": {
+    "reported_source_evidence_received": true,
+    "chemical_identity_qualified": false,
+    "independent_prediction_benchmark_qualified": false,
+    "new_predictor_or_generation_accepted": false,
+    "public_dataset_or_package_publication": false
+  },
+  "original_git_HEAD": "1f8c444e4619499cae8ad9970122c5f40adf6127",
+  "new_commit_or_push": false,
+  "preregistration_comment": "https://github.com/uibcdf/peptidemt/issues/33#issuecomment-6759658377"
+}

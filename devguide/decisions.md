@@ -3,6 +3,93 @@
 Navigation: [index](README.md) · [scope](vision_scope.md) · [alternatives](architecture_alternatives.md).
 Date of initial record: **2026-10-26**. Approval authority: the investigators.
 
+Current operational handoff, **2026-11-10**: the investigator requests a
+[complete migration checkpoint](migration_checkpoint_2026_11_10.md), correcting
+the intended host to another machine. Earlier hardware observations belong to
+the source machine only. This commissions checkpoint review/preservation and
+issue synchronization, not a new scientific decision, engine/chemistry adoption,
+model/GPU execution, commit/push or package publication. D49 and the existing
+scope-specific resource contracts persist; actual destination admission is pending.
+
+Subsequent explicit instruction commissions a private ZIP with placement
+instructions and **reviewed PeptideMT source synchronization to GitHub with a
+clean local clone**. See [transfer instructions](migration_transfer.md). This
+supplies that source commit/push authority; it does not authorize a package
+release, new science or publishing HydrAMP's private branches. Portable bundles
+and overlays remove the need to copy raw `.git`; older checkpoint statements
+about local-only PeptideMT source are historical. No new scientific D-number follows.
+
+Latest resource disposition: **D44 accepts the exact modern HydrAMP dev5 route
+for experimental native-score analogue generation**, 2026-11-04. See its
+[acceptance record](hydramp_dev5_acceptance.md). D41's accepted dev3 de novo
+bundle and the earlier chronological entries retain their original scopes.
+
+Latest work direction: **D53 approves and commissions the data-only T1a
+reported-affinity reference**, under the [approved work order](mdm2_t1a_work_order.md).
+D52's full independently evaluated target-directed demonstrator remains the
+longer-horizon objective; new molecular/evaluator/generation contracts retain
+their review boundary.
+
+Next proposed work, **not an accepted decision**: [T1b molecular admission](mdm2_t1b_proposal.md),
+2026-11-10. Its source/chemistry question precedes a qualified peptide-pose
+profile and independent affinity/selection assessment. D53 is not extended by
+this proposal or by the investigators' instruction to continue preparation.
+That earlier T1b/3EQS proposal is an optional source-admission branch, not the
+mandatory next step. The latest preparation instead describes a proposed
+[1YCR pose comparison](mdm2_comparative_pilot_proposal.md) and its
+[input-profile questions](mdm2_input_profile_preparation.md); neither is approved
+for scientific execution. Resume in the order specified by the checkpoint.
+
+Subsequent investigator clarification, 2026-11-10: protein–peptide docking has
+not begun and its alternatives, including binder design, must be discussed and
+explored properly. The [comparative review](peptide_protein_binding_survey_2026_11_10.md)
+is delivered under D52 preparation. T1b/3EQS and HADDOCK3 are possible choices,
+not accepted requirements or a new implementation commission.
+
+The subsequent investigator instruction commissions **source/method/data review
+and comparative-protocol preparation**, delivered in the
+[BindCraft–MDM2 audit](bindcraft_mdm2_source_review_2026_11_10.md) and
+[pose-pilot proposal](mdm2_comparative_pilot_proposal.md). This is D52 preparation,
+not acceptance of the proposed methods, chemical recipe, geometric tolerance or
+model-run budget. No new scientific decision ID is assigned by this delivery.
+
+Latest completed finite commission: **D53 T1a reported-affinity receiving**,
+with the [actual qualification](mdm2_t1a_qualification.md), 2026-11-09.
+All source occurrences, repeated-display links, quantities and unknowns survive
+one actual receiving and fresh replay. This does not qualify a predictive method
+or complete D52's independently evaluated selection objective.
+
+The earlier **D51 single MDM2–p53 T0 structural
+reference** retains the [approved work order](mdm2_t0_work_order.md) and its
+[authorization](evidence/mdm2_t0_authorization.json). This commissions finite
+identity/geometry work, not a predictive target model. The
+[actual T0 qualification](mdm2_t0_qualification.md), 2026-11-06, now completes
+its prescribed source/profile/geometry gates; biological acceptance remains
+separate. The investigator subsequently sets the scoped host reserve/task RSS
+stop to 4/2 GiB in the [resource correction](evidence/mdm2_t0_resource_correction.json).
+
+Latest HydrAMP module commission: **D50 approves the independent HydrAMP generation-result
+contract and data-only implementation**, 2026-11-05. See the
+[approved contract](hydramp_result_contract.md) and its
+[authorization](evidence/hydramp_generation_result_authorization.json).
+The investigator also approves a [scoped serial resource profile](evidence/hydramp_generation_result_serial_authorization.json)
+for D50 data-only/package checks: 512 MiB sampled aggregate RSS stop, 4 GiB
+available-host-RAM reserve, CPU0/1 and one numerical thread. Other work retains
+its envelope. The [final qualification](hydramp_generation_result_implementation.md)
+passes source and installed synthetic checks. The investigator subsequently
+authorizes exactly one local consolidation commit,
+`6a3ff905635a4bd744854cd540f8513916aa99f0`, matching the reviewed 21-path tree;
+its [authorization](evidence/hydramp_dev8_commit_authorization.json) and
+[execution receipt](evidence/hydramp_dev8_local_commit.json) keep this separate
+from D50's original no-Git commission. No push, merge, publication or scientific
+scope change follows.
+The earlier **D45 analogue consumer contract and R1/R2 implementation with
+controlled data/artificial parameters** retains its 2026-11-04 scope.
+See [the work order](hydramp_redesign_work_order.md) and
+[implemented outcome](hydramp_redesign_implementation.md). D43/A1 retains its
+original contract and scope.
+D42/E1 and the later finite E2 encoder evidence retain their separate scope.
+
 Updated: **2026-10-27**. P07/P08 remain accepted within their limits. P09 is
 **resolved conceptually** under D21–D26: alternative B, all seven principles and
 context-sensitive semantic obligations are accepted. Concrete contracts,
@@ -91,6 +178,128 @@ D32 closes that conceptual question without retroactively changing those decisio
 | D36 | Authorize W0–W4 within D35 and M1–M8, starting formal admission. Propose primary scientific-component/incubating/active/python-package classification, subject to central acceptance. W1 starts only after W0 completes correctly. | Explicit investigator authorization on 2026-10-27. Allow the necessary central admission issue if none exists, as a specific exception to the no-issues rule; no general development-issue authority. Name the responsible owner and preserve ecosystem boundaries. Use accepted published central registration, immutable policy and genuine admission SHA when required, official starter in an empty temporary target and reviewed preservation of existing content/history. Core works without Macrel; one real Macrel 1.6.1 qualification candidate on Linux CPU/Python 3.14 must resolve and execute both ONNX models, with assets/terms/fixtures/effective limits identified first. Native integration cannot pass on mocks/skips or reduced criteria. Codex owns routine internal implementation; scientific changes return to review. No HydrAMP, increments 2/3, target-conditioned generation, new scientific models, package publication or new architecture. Delivery requires identifiable commit, admission and package/model evidence, and executed M1–M8 with engine-free/live distinctions; partial work remains partial. |
 | D37 | Accept the exact executed Macrel 1.6.1 bundle for D35 exploratory computational assessment/ranking and document its use, limits and qualification evidence. | Explicit investigator acceptance on 2026-10-29 after the in-conversation report and clarification that Macrel is one optional evaluator among extensible bioactive-family resources. Preserve D35/D36 and M1–M8; predictions are not experimental activity/safety, score calibration or universal family-membership probabilities. Exact numerical package 7a299d1, driver a1b5e3a, model/provider/environment hashes and live/control evidence remain identified in w3_assessment.md and evidence/w3_summary.json. Central #152 is received at b12f7230. The investigator also requests provisional documentation informed by MolSysMT/MolSysViewer; implementation choices are routine and do not add a new scientific architecture. No new model call, host allowance, HydrAMP/later increment or package/site publication is inferred. |
 | D38 | Commission preparation and qualification/integration of the single proposed native HydrAMP de novo route for increment 2, using H0–H4 and the existing Macrel assessment/selectors. | Explicit investigator authorization on 2026-10-29 after the scope explanation and proposal at 52c32e1 / PeptideMT #8. Permit artifact/use preflight, an isolated legacy environment and adapter preparation. Preserve native softmax, amp conditioning, filter_out=False, n_attempts=1, properties=True, explicit seeds, occurrence fidelity and distinct native/Macrel scores. The four-generation-call/52-requested-output test design includes direct/adapter repeatability; actual model loading/inference still requires the exact bundle/use conditions and a fresh shared-host resource/call envelope, including separate Macrel calls. No scientific acceptance of HydrAMP, GPU, retries/refill, analogue route, feedback, target conditioning, training, redistribution, publication or general architecture is granted. D35–D37 and M1–M8 remain unchanged. |
+| D39 | Authorize a local native PyTorch inference port in the investigator-owned HydrAMP fork, preserving the legacy reference and testing mathematical fidelity before adoption. | Explicit investigator instruction on 2026-10-30 to move to PyTorch if feasible, following the authorized fork/packaging preparation. Implement the selected de novo computational path in a separate worktree; isolated Python 3.14 CPU installation and synthetic-weight tests are preparation evidence. Preserve checkpoint equations, chemistry, conditioning, native token/score meanings and D35–D38. Real checkpoint/PCA loading and legacy-versus-port execution still require exact bundle/use review and a fresh host/call envelope. No pretrained parity, scientific acceptance, full generator replacement, new training, family generalization, GPU, publication or commit/push authority is inferred. |
+| D40 | Accept the measured numerical deviation only for the twelve compared HydrAMP inputs and continue qualification of the original dev0 PyTorch port. | Explicit investigator acceptance on 2026-11-02 of the limited behavioral-review proposal. Bind this disposition to the dev0 wheel and retained evidence in hydramp_behavioral_acceptance.md / evidence/hydramp_limited_acceptance.json. Preserve original numerical FAIL reports, exact tokens/strings, source/assets/environments and unchanged diagnostic tolerances. Dev1 is not adopted as a correction. D38/D39 local preparation continues; complete native properties/provenance/adapter and H0–H4 qualification remain partial. No unseen-input equivalence, full HydrAMP acceptance, larger tolerance, new scientific scope, model/PCA execution allowance, GPU, training or publication follows. |
+| D41 | Accept HydrAMP modernized with PyTorch, exact dev3 bundle, for experimental AMP generation in PeptideMT. | Explicit investigator acceptance on 2026-11-03 of hydramp_dev3_acceptance_review.md after its full report. Bind the scope to hydramp_dev3_acceptance.md / evidence/hydramp_dev3_acceptance.json, provider wheel 81761e0d…ed7 and consumer wheel 18b1cb18…e83. Preserve the seeded unfiltered native route, exact assets/definitions, D35/M1–M8, both Macrel-based selectors, all probability/global-rank FAILs and unresolved use/provenance limits. D40 retains its original dev0 scope. Accept experimental use, not universal equivalence, biological efficacy, other-family capability or a release. Existing calls are exhausted; no new execution, training, GPU, new method or external contact/publication follows. Record future scientific comparison, standalone-product review, family-extension/successor feasibility and possible original-author handoff in HydrAMP #3–#6 and PeptideMT #32. |
+| D42 | Approve the deterministic encoder contract and E1 implementation/testing with artificial weights in the owned HydrAMP fork. | Explicit investigator instruction to continue on 2026-11-04 directly answers the concrete E1 approval question. Bind the reviewed proposal SHA-256 064848b3832d65f462c86cf347f74b534fccb4044e803c156b5a04e2832a926e and evidence/hydramp_encoder_E1_authorization.json. CPU int64 tokens [N,25] yield CPU float32 mean/raw log-variance [N,64], preserving occurrences/zeros, with no posterior sampling/RNG mutation. Separate dev4 candidate; installed synthetic outcome in hydramp_encoder_E1.md. Preserve D41/dev3, D35/M1–M8 and selectors. E2 real weights/reference execution requires its own exact artifacts, prospective criteria and fresh host/call approval. No pretrained encoder acceptance, analogue/training/filter-fix/other-family work, GPU, release or author contact follows. |
+| D43 | Approve the first native-score analogue-improvement contract and A1 implementation/testing with artificial parameters in a separate HydrAMP candidate. | Explicit investigator continuation before the audit pause, retained in evidence/hydramp_analogue_A1_authorization.json, contract SHA-256 11c1a85ec9233ba5a09ee18be377d41a577831793b9d7b7a2eef817a3415d360. Preserve attempt/prototype occurrences, local explicit seeded noise, strict native AMP/low-MIC-class score comparison, raw tokens and no-hit/empty diagnostics; no optional filters, discovery, descriptors or PCA. The subsequent instruction to implement the reviewed continuation plan lifts the audit pause for this unchanged artificial scope. Preserve accepted dev3/dev4, D35/M1–M8/selectors and old FAILs. Real analogue A2, new consumer redesign/feedback/target capabilities, training, GPU and publication retain their own review; no new real model allowance. |
+| D44 | Accept the exact dev5 HydrAMP route for experimental native-score analogue generation, retaining all A2 diagnostic failures and finite coverage limits. | Investigator agreement to continue on 2026-11-04 follows the A2 report and recommendation to accept this route. Bind to hydramp_dev5_acceptance.md / evidence/hydramp_dev5_acceptance.json, provider wheel f6b9e306…433e and executed receipt def2a831…7cd8. Preserve the token/latent/native-score/bucket semantics, experimental AMP scope, probability FAIL, standalone near-tie batch sensitivity, sparse real candidate/duplicate-pool coverage and unresolved use conditions. D41/dev3, dev4/E2, Macrel, M1–M8 and both selectors remain separate. This accepts a resource, not the new consumer redesign contract/API or biological/general numerical equivalence. All real allowances are exhausted; no new calls, training, GPU, feedback, family/target expansion, release, commit/push or author contact follows. Prepare the concrete consumer work order for review under #32 and report the missing reusable codec to owner #4. |
+| D45 | Approve the concrete analogue consumer contract and commission R1/R2: data-only receiving/composition and owner codec/isolated artificial execution. | Investigator explicitly directs continuing in response to the R1/R2 approval question, contract SHA-256 876ef80c5629dc74cf9e541bcf5f1d257ed37f28a0148f5e435a738c8a47fd71, authorization evidence/hydramp_redesign_authorization.json. Preserve operation-specific admission, original chemistry, parent/attempt mapping, all failure/no-hit evidence, separate native/Macrel meanings, existing selectors and accepted dev3/dev4/dev5. Implement the reusable native codec in HydrAMP in a new identified candidate. No real learned weights/Macrel, R3 call allowance, GPU, training, feedback, targets, new families, release, commit/push or author contact. |
+| D46 | Approve the finite historical experimental-entity/unchanged-sequence model view and E. coli ATCC 25922 MIC review scope for original–modern comparison preparation. | Investigator explicitly directs proceeding in answer to the finite-view approval question on 2026-11-04. Bind approved proposal SHA-256 30f8b637c4c8dde4949c9080381a002dc98f38f5e2e4f5f1c03273ba02463376 and evidence/hydramp_historical_view_authorization.json. Preserve experimental amidation, original strings, every table observation, unknowns, censoring and provenance; the model-view omission does not assert chemical equivalence. Commission the next model-free work order and controlled-fixture design. No implementation commission, general admission/API change, native payload, model/artificial-network allowance, biological endpoint/class truth, mass/unit conversion, independent cohort, equivalence, GPU, generation, release or external contact. D35/M1–M8, D41/D44/D45 and exhausted budgets remain unchanged; current authority is in hydramp_historical_work_order.md. |
+| D47 | Approve the finite historical reported-MIC endpoint and descriptive paired ROC-AUC policy, and commission the data-only endpoint/comparator with artificial score controls. | Explicit investigator approval and continuation on 2026-11-05 after the endpoint proposal and model-free implementation question. Bind proposal SHA-256 e7bf019ec410bb02ef5a01ee12fba625159d7c71e9b76b704787d9005ed223ed and evidence/hydramp_historical_endpoint_authorization.json. Use displayed E. coli ATCC 25922 MIC ≤32 µg/mL: retain all 42 observations/39 literal-string groups, primary 38 stable groups (12 positive/26 negative), and both 39-group ambiguity scenarios with the same class choice in both engines. This is reported activity, not the native pooled molar target or calibrated probability. Preserve source bytes, raw score precision, exact ties and paired sensitivity without adopting a conflicting value or confidence interval. Qualify an existing statistics provider; no learned-score receiving, native input/model call, new budget, mass/unit conversion, 128 µg/mL endpoint, independent cohort/equivalence/quality verdict, public API/admission change, release or third-party contact. Read hydramp_historical_evaluation.md for the controlled implementation outcome; D35/M1–M8, accepted bundles and exhausted allowances remain unchanged. |
+| D48 | Approve the finite historical learned-score receiving/native-input contract implementation, scalar/method-double tests and two bounded codec-only children. | Explicit investigator approval on 2026-11-05 in direct response to the implementation/codec question. Bind contract SHA-256 1b08e464261a3190bff886e26fe42dd826903ec89a09a9beb91d0de611fc5972 and proposal 8ecf7787f48bd5eb29ca693ffa0f2c4f439e639635e6c8c461f2bd1c01ecf89a through evidence/hydramp_historical_real_implementation_authorization.json. Reuse owner codecs, preserve all D46/D47 source/endpoint/precision/pairing obligations, separate real and control evidence, use truthful detached attribution and model-free saved replay. Codec children are sequential on CPU0/1, one numerical thread, ≤180 s each/360 s total, 4 GB RAM intent with sampled 2 GiB aggregate RSS stop and 8 GiB virtual ceiling. Zero learned weights, neural/artificial-weight evaluations, Macrel/PCA/descriptors/GPU/training/generation or new model allowance. Preserve accepted bundles, selectors/M1–M8 and exhausted earlier budgets. Read hydramp_historical_real_implementation.md: modern codec passes, original import stops before encoding; the two-child allowance is spent. A further original-codec attempt needs new exact single-use approval. The twelve model evaluations and public API/admission/release/third-party contact remain unapproved. |
+| D49 | Delegate reasonable routine execution and diagnostic retries within approved work, with shared-host stewardship instead of per-invocation permission rounds. | Explicit investigator direction on 2026-11-05 that reasonable resource use should not require repeated permission, followed by the request to persist the guideline in AGENTS.md. Record evidence/shared_host_execution_delegation.json and root AGENTS.md standing execution authority. Inspect available RAM/load/disk; keep small bounded batches, one heavy worker, CPU0/1 and one numerical thread for current HydrAMP work, 4 GB RAM intent with sampled 2 GiB aggregate RSS stop and 8 GiB RAM reserve. No GPU. Declare fresh bounded run/call limits and preserve every historical spent ledger and failure; a new record cites standing delegation and must not claim per-plan investigator review. This supersedes resource-confirmation pauses, including the pending original-codec retry and routine bounded continuation of the approved D46-D48 historical comparison once inputs/bundles qualify. Scientific scope/contracts, preprocessing/chemistry, acceptance, new models/families/training/targets/feedback, publication and third-party contact still need their applicable separate authority. |
+| D50 | Approve the first independent HydrAMP generation-result/provenance contract and commission its bounded data-only implementation. | Explicit investigator approval on 2026-11-05 after the concrete contract review. Bind original proposal SHA-256 ce32baaa65cdce9a6474f95bac3a65ec5425fd3601bbdeb8f6e8983f4f4ed70b through evidence/hydramp_generation_result_authorization.json. Implement an owner descriptive profile, faithful completed-generation save/read, a light model-free reader and optional caller-owned Recorda references/detached Ackredit metadata. Preserve original tokens, occurrences/order, scores/descriptor values, producer versus exporter identities and explicit unknown provenance; reuse NumPy and supported providers. Qualify synthetic data only with zero neural evaluations or learned weights/PCA; preserve dev7 and accepted bundles separately. No analogue/encoder persistence, live attribution, new science/chemistry/acceptance, models, GPU, training/feedback/families/targets, package publication, commit/push or author contact. D49 delegates ordinary bounded technical checks. |
+| D51 | Approve the single MDM2–p53 T0 structural-reference work order and its finite implementation/execution. | Explicit investigator approval after the concrete implementation explanation on 2026-11-05. Bind the reviewed order through evidence/mdm2_t0_authorization.json. Receive 1YCR revision 1.5 and qualify an exact isolated MolSysMT application profile before observed-heavy-atom geometry. Implement the case-specific coordinator and original/rigid-transform/peptide-displacement controls with the fixed criteria and serial CPU/resource limits in mdm2_t0_work_order.md. Preserve provenance, observation/inference distinctions, failures and saved outputs. This checks identity and geometry, not predictive recognition or biological utility. D49 delegates reasonable technical checks/retries. No T1, learned models, docking, generation, GPU, new public API/selector, commit/push/publication or external-author contact. |
+| D52 | Pursue one independently evaluated target-directed peptide design/selection demonstrator, starting with evidence/provider review and a concrete prospective T1 proposal. | Explicit investigator direction on 2026-11-06 to attempt the proposed objective and respect negotiated scientific-readiness and component-ownership rules. See evidence/target_directed_demonstrator_authorization.json and target_directed_demonstrator.md. PeptideMT owns the question/policy/orchestration/interpretation; reusable molecular operations remain with MolSysMT and other capabilities with their owners. MDM2–p53 is conditional on suitable evidence/evaluation, not an accepted undefined T1 model/chemistry/assay contract. Preserve D14, D35/M1–M8, accepted AMP scopes and D49. No new models, generation/docking, training, GPU, scientific thresholds or Git/publication authority is inferred for this preparation package. |
+| D53 | Approve the source-scoped MDM2 T1a reported-affinity contract and commission its private data-only implementation/qualification. | Explicit investigator approval on 2026-11-09 in direct response to the concrete T1a question. Bind original proposal SHA-256 069247bf4b46e8fafba553ecb5311f67b0bfd6748ea4a06822053c3285c05e56 through evidence/mdm2_t1a_authorization.json and mdm2_t1a_work_order.md. Preserve every original source occurrence, WT alias, Kd/SD unit and precision, unavailable result, chemical unknown, source discrepancy and prior exposure; use supported quantity/measurement records and model-free saved replay. Serial CPU0/1/one thread, 512 MiB aggregate task RSS, 4 GiB host reserve, 180 s wall/120 s CPU/8 GiB address space/64 MiB output per job. D49 delegates routine checks and diagnosed retries. No molecular-state admission, new model/evaluator, docking, sequence generation, GPU, training/feedback, public API or Git/package/dataset publication. |
+
+On 2026-11-05, following the D49 paired-codec checkpoint, the investigator
+directs continuing the unchanged fixed historical comparison. A separate
+bounded declaration under standing D49 authority is fully consumed in twelve
+neural evaluations. The [executed outcome](hydramp_historical_real_comparison.md)
+records equal primary descriptive AUC and ordering, small retained native score
+differences, repeat/batch diagnostics and guarded saved replay. This is execution
+evidence, not a new scientific acceptance decision or a change to D46-D48.
+Earlier codec-only and preparation allowances/statuses remain historical.
+
+On 2026-11-05 the investigator's continuation after the D46 work-order report
+commissions its first data-only receiver and saved inspection/replay cycle.
+[Implementation authority](evidence/hydramp_historical_data_authorization.json)
+preserves the exact pre-implementation work order. The
+[local outcome](hydramp_historical_data.md) records 38 controlled tests and
+actual-source saved replay, with unchanged public admission and zero native
+model inputs/calls. D46's finite scientific view is unchanged; neither a new
+biological endpoint nor a model execution allowance follows.
+
+On 2026-10-30 the investigator separately authorized the D39 real-checkpoint
+comparison after clarifying a 4 GB task RAM budget. Its six evaluations completed
+within roughly 0.5 GiB observed worker-plus-supervisor RAM. The
+[execution report](hydramp_pytorch_comparison.md) preserves the failed decoder
+probability criterion despite exact tokens and passing PCA/heads. No scientific
+adoption, tolerance relaxation or further model budget follows.
+The separately approved two-forward [intermediate diagnostic](hydramp_decoder_trace.md)
+then reproduced both earlier endpoints bitwise and localized the first observed
+difference to the autoregressive GRU. An isolated [joint-product candidate](hydramp_gru_candidate.md)
+is prepared as a numerical-layout hypothesis, without real candidate evaluation
+or adoption at preparation. Its separately approved single forward then also
+failed the original probability criterion; it is not adopted. On 2026-11-02 the
+investigator separately authorized the prepared two-forward NumPy FP64
+[independent numerical reference](hydramp_numeric_reference.md), which completed
+within 0.52 s and 65.63 MiB conservative sampled combined RSS. Both formulations
+agree, all 300 tokens match, and native/port FP32 probability errors relative to
+that reference are similar. This is diagnostic evidence for the pending numerical
+admissibility review in #8 at that execution checkpoint, not acceptance, a tolerance
+change or further calls. The subsequent explicit D40 decision now accepts only the
+measured deviation on those twelve inputs, allowing continued dev0 qualification.
+The [limited acceptance record](hydramp_behavioral_acceptance.md) retains the
+exact evidence and wider pending qualification; no additional execution is granted.
+
+On 2026-11-03 the investigator separately approved the exact dev3 full-comparison
+execution plan, with 22 network evaluations and sequential CPU/4GB task bounds.
+The [execution report](hydramp_full_comparison.md) preserves exact tokens, sequence
+occurrence order and five descriptors, passing heads and exact repeats on twenty
+distinct latent inputs (36 paired returns). The strict probability diagnostic
+remains failed. This execution approval is not a new scientific acceptance decision
+or a D40 extension; original bands, failures, source/assets and exhausted quotas
+remain unchanged. Broader resource/adaptor acceptance returns to the investigators.
+
+Later on 2026-11-03 the investigator instructed proceeding with broader confidence
+qualification, aiming for the confidence warranted by the original on the ported
+route. The [prepared campaign](hydramp_confidence_campaign.md) freezes 256 new
+latent inputs and proposes 132 network forwards including repeat/layout controls.
+Preparation and artificial checks are complete; exact new execution-budget
+approval and scientific disposition remain pending. This records commissioning
+of preparation, not a new acceptance decision or an extension of D40.
+
+The investigator then explicitly authorized the exact 132-forward CPU plan.
+The [campaign outcome](hydramp_confidence_campaign.md) records agreement of all
+public batch sequence/order/descriptors and 7,700 paired token positions on 256
+distinct latent inputs plus reuses. The probability diagnostic and global AMP
+pair check FAIL: one reversal, two split native ties and seven new ties, all
+between batches near score 1. No public-batch order changed. Both workers complete
+within bounds; the allowance is exhausted. This is execution authority/evidence,
+not broader acceptance, a threshold/selector change or a new D40 disposition.
+
+The investigator then commissioned a saved-output ranking relevance review.
+The [review](hydramp_rank_relevance.md) finds one member replacement at seven
+global HydrAMP-AMP-only cutoffs, with at most two rank positions of displacement;
+the actual PeptideMT selectors retain their separate Macrel AMP/hemolysis binding.
+A concrete dev3 fixture-deviation disposition for continued consumer qualification
+is proposed for investigator decision. No new acceptance, model allowance or D40
+extension is inferred from the instruction to perform this review.
+
+The investigator next requires a causal explanation and explicitly authorizes
+an issue in the owned fork, retaining justified modern numerical improvements.
+[HydrAMP #1](https://github.com/uibcdf/hydramp/issues/1) now owns the provider
+investigation after the investigator enabled Issues. The
+[numerical record](hydramp_amp_numerics.md) demonstrates different standalone
+sigmoid kernel behavior, an original-runtime monotonicity artifact and stronger
+modern operator accuracy on the fixed artificial sample. The investigator subsequently authorized the exact prepared AMP-stage allowance,
+which completed with all saved endpoints bitwise reproduced. Switching only the
+final sigmoid reproduces all ten changed relations: one native reversal and two
+ties resolve in the conditional FP64 direction, while seven new ties lose strict
+relations. The first recorded upstream difference is the first LSTM.
+The [execution receipt](evidence/hydramp_amp_trace_execution.json) preserves the
+fully spent 36-forward/24-replay/two-FP64-vector budget. This is causal diagnostic
+evidence, not whole-head superiority, biological acceptance, a D40 extension, a
+tolerance/selector change or further pretrained execution authority.
+A [full AMP-head independent FP64 reference](hydramp_amp_reference.md) was
+subsequently prepared with seventeen artificial tests, then explicitly authorized
+by the investigator's direction to continue after the concrete plan was presented.
+All 24 forwards completed in 3.75 s; both FP64 layouts agree bitwise. Modern has
+lower aggregate maximum/mean/RMS error at every nontrivial recorded stage on this
+cohort, with AMP closer in 91 cases versus 58 native and 43 ties. The seven new
+modern rank ties persist. The [execution receipt](evidence/hydramp_amp_reference_execution.json)
+preserves this numerical finding and exhausted allowance; it is not D41, general
+equivalence, biological superiority, dev3 acceptance or H0–H4 receiving.
+A subsequent investigator question about the 58 native-closer results triggers
+[saved-data attribution](hydramp_amp_error_attribution.md), with no new model or
+activation evaluation. Of those 58 cases, 39 already have closer native logits,
+12 have closer modern logits and 7 have identical logits. Native/modern whole-head
+FP64-cast matches are 48/47 across 192 outputs; this metric does not favor modern.
+This refines the aggregate numerical conclusion without a new decision or
+changed scientific acceptance.
 
 The [four worked examples](design_examples.md) are conceptual stress tests and
 conceptual analysis, not selected demonstrators or executed campaigns. Their
@@ -661,6 +870,22 @@ separate. Updated working instructions and current handoff status for D36.
 
 ## Change protocol
 
+### Historical real-score work order prepared, not approved — 2026-11-05
+
+Following D47 delivery, the investigator continuation commissions preparation
+of the [real-score receiving and execution contract](hydramp_historical_real_work_order.md).
+It preserves D47's finite endpoint and proposes source-bound native receiving,
+primary/repeat 39-row batches and fixed 20+19 context diagnostics. Static source,
+opaque-asset and metadata checks identify the exact installed routes; no model
+or codec is imported/called and no native input is prepared. The modern public
+API computes both heads, so the proposed budget includes four auxiliary AMP
+forwards: twelve neural evaluations total, not eight. This is not a new accepted
+decision, receiving implementation or model allowance. Implementation and later
+exact executed-artifact/host/call approval remain distinct; all prior allowances
+stay exhausted. The [receipt](evidence/hydramp_historical_real_preparation.json)
+preserves the proposal and static evidence. Reuse #3/#32 and route the reusable
+single-head scoring improvement to our HydrAMP #4, without third-party contact.
+
 ### W1 implementation under the existing work order — 2026-10-27
 
 After completed central W0 receiving, the investigators commissioned W1 under
@@ -817,3 +1042,235 @@ observations and complementary capabilities; listed integrations remain proposed
 A modern inference fork and a new multi-family trained model are distinct research
 directions. Neither has been created, trained, commissioned or accepted through
 this discussion. Preserve the approved Macrel and molecular/selection contracts.
+
+## Preserve justified modern results; complete functional receiving — 2026-11-03
+
+The investigator clarifies the current objective: preserve modern numerical
+improvements when independently justified, explain nonidentical results and why
+they are sound, and avoid degrading the implementation to imitate legacy
+approximations. This is a working direction within D38/D39, not a new scientific
+acceptance decision, unconditional superiority claim or extension of D40.
+
+The [finite activation attribution](hydramp_amp_activation_attribution.md)
+separates upstream and activation errors and compensation; it records benefits
+and limits of the unchanged dev3 candidate. A hypothetical precision change is
+unimplemented and unaccepted. The [private receiving bridge](hydramp_receiving_preparation.md)
+passes saved-data replay. The [exact functional plan](hydramp_h4_qualification.md)
+prepares two generated pools, qualified Macrel and both unchanged selectors.
+Fresh host/call approval remains necessary before either live stage. No new
+model/descriptor/Macrel call, release, commit or push occurred in preparation.
+
+## Authorized private HydrAMP receiving experiment completed — 2026-11-03
+
+The investigator approves the exact H3/H4 plan
+`f9b8040897079401d75c6ad3afd3b0cfc499350abfc2943a268b37646ba82c2a`
+after its full resource/call request. This grants that finite execution, not
+scientific adoption. The [result](hydramp_h4_qualification.md#approved-execution-and-independent-review--2026-11-03)
+passes same-operation receipt of 32 proposals, two exact cached dev3 returns,
+30 generated Macrel assessments plus four exact W3 controls, and both unchanged
+selectors with exact saved replay. Two leading-M incompatibilities remain visible.
+Six neural forwards/two descriptor bundles and three Macrel calls are consumed;
+no retry or new implementation candidate follows.
+
+All nine generated Macrel AMP-positive rows are Hemo-positive in this fixture.
+Functional composition therefore passes while joint AMP/hemolysis utility and
+biological superiority remain unestablished. Preserve that outcome and the
+original numerical FAIL diagnostics. D35/M1–M8, D40, scientific-disposition
+responsibilities and the future public API boundary remain unchanged; no new
+accepted scientific decision number is inferred.
+
+## Public HydrAMP data receiving continuation — 2026-11-03
+
+After the bounded private result, the investigator requests continuing. The
+[public data-receiving milestone](hydramp_public_receiving.md) implements the
+provisional `HydrAMPReceipt` export, shared strict JSON reading, installed local
+wheel checks and user documentation. This is engineering within the existing
+receiving responsibilities, not a new scientific decision or broad dev3 adoption.
+A public generation execution adapter and final scientific disposition remain
+pending. No model/PCA/descriptor/Macrel call or publication is authorized or
+performed by this data-only continuation.
+
+## Isolated HydrAMP execution engineering continuation — 2026-11-03
+
+The investigator instructs implementing the isolated public execution step after
+installed data receiving. The [adapter record](hydramp_execution_adapter.md)
+retains the exact local consumer artifact, controlled/installed transport and
+parent-session attribution evidence. One real 16-proposal case is prepared with
+three neural forwards and its own exact host/call plan; approval is pending.
+This grants implementation and controlled verification, not a new scientific
+acceptance decision or model allowance. Existing scientific limits and budgets
+remain unchanged.
+
+The investigator also reiterates the existing owning-component issue commitment
+for sibling bugs/improvements. The actual descriptive-profile need is reported
+in [our HydrAMP #2](https://github.com/uibcdf/hydramp/issues/2), cross-linked to #8.
+Expected Ackredit deduplication and a test's wrong DepDigest internal reference
+do not establish provider bugs. The initial inherited-environment audit failure
+was diagnosed and corrected in the new fixture, without altering other components.
+No standing rule is duplicated: root AGENTS.md already carries the common reporting
+and external-publication boundaries.
+
+## Approved installed-adapter attempt stopped in qualification preflight — 2026-11-03
+
+The investigator approves the exact single-call plan. Its actual invocation
+returns an incomplete receipt before provider/model/PCA loading: the qualifier
+lowered the parent's hard virtual-address ceiling to 1 GiB, preventing its child
+from setting the already requested 8 GiB. The [failure and correction](hydramp_execution_adapter.md#first-approved-attempt-and-parent-limit-correction--2026-11-03)
+retain all original evidence. One API attempt was made; every learned/PCA/
+descriptor/Macrel count is zero. There is no scientific numerical outcome.
+
+The qualifier is corrected to parent soft 1 GiB/hard 8 GiB and has a real model-free
+inheritance regression, plus nonzero status on incomplete case. The underlying
+consumer/provider wheels and scientific source remain unchanged. The original
+no-retry attempt is not repeated; a new exact single-attempt proposal awaits
+fresh approval. This is routine engineering correction, not a new accepted
+scientific decision or wider model/call authority.
+
+## Corrected installed-adapter execution completed — 2026-11-03
+
+The investigator then approved the corrected single installed-adapter case.
+It completed with **16 proposals**, exact retained native results/order/indices/
+trace, exact saved replay and captured parent attribution (seven records).
+The [execution record](hydramp_execution_adapter.md#corrected-installed-public-case-completed--2026-11-03)
+reports 8.358 s / 432.2 MiB sampled aggregate RSS and the consumed three-forward
+budget. No Macrel, legacy or retry was run; broader scientific disposition is
+still pending. The earlier failed startup remains preserved.
+
+This is a separately authorized bounded engineering/scientific execution record,
+not a new accepted scientific design decision or broad adoption.
+
+## Consolidated dev3 disposition proposed for review — 2026-11-03
+
+The investigator directs preparation of the [bounded-acceptance report](hydramp_dev3_acceptance_review.md)
+after the public adapter case completes. The report recommends exact-bundle
+experimental AMP use while preserving probability/global-rank FAILs, numerical
+limitations, original use conditions and the lack of a joint Macrel hit in the
+small H4 pool. It distinguishes private composition from the separately executed
+public adapter. No new scientific evaluation occurs. This is a recommendation,
+not acceptance or a D40 extension; #8 remains open for investigator disposition.
+
+
+## Encoder E2 prepared; approval pending — 2026-11-04
+
+Following completed D42/E1, the investigator directs preparing the next
+comparison. The [prospective encoder plan](hydramp_encoder_E2.md) freezes the
+same dev4 candidate, selected original23-file encoder,32 distinct token rows
+and ten evaluations. Its model-free controls and artificial dual-worker case
+pass; real parameter bytes are rehashed only. No new D-number, scientific
+acceptance or real execution permission is recorded.
+
+The native reference performs one unused eager64 noise draw during model
+construction, in addition to initializer RNG/SVD. This is explicitly counted;
+the selected executable excludes random operations. Prospective endpoint bands,
+exact bundle/use and finite shared-host limits still need investigator approval.
+D41/dev3, D42's artificial-only boundary, D35/M1–M8 and selectors remain unchanged.
+
+
+## Encoder E2 separately approved and executed — 2026-11-04
+
+The investigator explicitly instructs continuing in response to the exact
+execution approval question. The [authorization](evidence/hydramp_encoder_E2_authorization.json)
+records plan SHA-256 eb6d30fc31217dee57c9200fcfcff982ebbee0facb12fdeff3b6f9da3b92692b,
+prospective criteria, ten evaluations, one unused legacy 64-value construction epsilon
+vector/native initializer work and the finite CPU/shared-host envelope.
+
+The [executed outcome](hydramp_encoder_E2.md) passes all original/modern raw
+posterior and intermediate comparisons, exact retained repeats and layout/
+duplicate controls. Both workers complete once, total 8.127 seconds and peak
+sampled process-tree RSS 367.45 MiB. The allowance is exhausted. No new scientific
+acceptance/D-number, dev4 adoption, later module or model call is inferred.
+D41/dev3, D35/M1–M8/selectors, exact source/artifacts and prior FAILs remain.
+
+
+## Analogue contract prepared for review — 2026-11-04
+
+After the finite E2 encoder outcome, the investigator directs preparing the next
+module. The [analogue work order](hydramp_analogue_work_order.md) recommends a
+first native-score-improvement route: explicit local seeded latent noise,
+original softmax/conditions, both strict native-score comparisons, occurrence-
+preserving results and no optional filters/descriptors. The original sequence-
+keyed output loses repeated prototypes; optional filters and source documentation
+have separate inconsistencies retained under HydrAMP #4/#7.
+
+This is source review and a proposed contract, not scientific acceptance or A1
+implementation approval. No new D-number, array/model load, mathematical test
+or call allowance is recorded. Before implementation, the investigators review
+input/output meanings, seeded sampling, strict decisions, deliberate occurrence-
+interface difference, failure behavior and artificial acceptance criteria.
+Discovery/descriptors/filters/transport and any trained comparison stay separate.
+D41/dev3, dev4/E2 evidence, D35/M1–M8 and both selectors remain unchanged.
+
+
+## Post-audit first cycle resumed — 2026-11-04
+
+The investigator directs implementing the reviewed continuation plan. This lifts
+the audit implementation pause and resumes existing D43/A1 artificial work.
+The original draft hashes and the untested pause state were verified before
+editing. The first cycle also includes the receipt diagnostic fix under #34,
+a worked AMP evidence report/comparison brief under #33, and preparation of
+analogue consumer receiving expectations under #32. Actual later scientific
+execution remains governed by its concrete bundle/criteria/host-call review.
+This records operational commissioning; it is not a new architecture decision,
+a repeat of encoder qualification or a broader biological acceptance.
+
+
+## Analogue A2 separately approved and executed — 2026-11-04
+
+The investigator explicitly directs continuing in response to the exact A2
+approval question. The [authorization](evidence/hydramp_analogue_A2_authorization.json)
+binds unchanged plan SHA-256
+556c917c1937a564ae047d6b30f3cb91311f50c22d55633eed27be1b808c35d4,
+prospective criteria, 42 neural evaluations, the pinned native PCA/constructor
+noise and descriptor work, and the finite sequential CPU/shared-host envelope.
+
+The [executed outcome](hydramp_analogue_A2.md) records exact tokens, sequences,
+joint strict-score decisions, occurrence buckets/mappings and repeats. The
+unchanged probability diagnostic fails, and saved-only analysis exposes separate
+AMP near-tie batch sensitivity without a joint/returned-result difference.
+Both workers complete once in 25.42 seconds total, peak sampled tree RSS
+552.13 MiB. Actual original descriptor bundles are six of the maximum 27.
+
+The allowance is exhausted. No new scientific acceptance/D-number, general
+equivalence, consumer redesign API, retry or further model/diagnostic allowance
+is inferred. Original/reference/source/wheel identities, D41/dev3, dev4/E2,
+D35/M1–M8 and both selectors remain unchanged. Narrow experimental disposition
+is recommended for investigator review, preserving the sparse structural
+coverage and all numerical failures.
+
+
+## Analogue consumer R1/R2 delivered under D45 — 2026-11-04
+
+The investigator approves the exact R1/R2 contract in response to its concrete
+question. The authorization pins original contract 876ef80c…fd71. The
+[implementation record](hydramp_redesign_implementation.md) reports 259 source
+tests,101 installed cases and21 artificial network evaluations with exact
+direct/adapter/repeat traces and parent/attempt mapping. The missing native
+codec is implemented in a separate HydrAMP dev6 candidate; accepted dev5 and
+seven numerical/runtime modules remain unchanged. The isolated profile has
+clean21-package closure; the shared profile retains its seven known AmberTools
+findings under central #82. Initial failed checks and their causes are retained.
+
+R1/R2 are implemented, not a real pretrained consumer qualification. R3 and
+Macrel use need their own exact plan/use/criteria/shared-host-call review. D44,
+D41, D35/M1–M8, existing selectors, old numerical FAILs and source history remain.
+No scientific utility/biological claim, new real allowance, GPU, training,
+feedback, other family/target, release, commit/push or external contact follows.
+
+## Separately authorized R3 technical receiving — 2026-11-04
+
+After the exact R3 approval question the investigator authorizes executing plan
+7a55b24e8c5d2cc105274e54dec83cf442f80b28211d0f297f55d6c2b1216974.
+The [authorization](evidence/hydramp_redesign_R3_authorization.json) records its
+unchanged case, bundles/use, criteria and finite shared-host/call limits. The
+[R3 outcome](hydramp_redesign_R3_qualification.md) passes direct/adapter/repeat
+receiving, Macrel controls and separate parent/child assessment, with actual
+Ackredit capture and fresh engine-free replay. All 21 HydrAMP and six ONNX
+evaluations complete once; the allowance is exhausted.
+
+The sole returned child improves native AMP/low-MIC-class scores but receives
+lower Macrel AMP and higher hemolysis probabilities than its parent. Both
+selectors return it under the existing ranking-only policies. Saved A2 outputs
+contain the same candidate from original HydrAMP; this is not a newly established
+modern-port sequence regression or a biological verdict. Technical workflow
+delivery does not establish useful optimization, change D44/D45 scientific
+acceptance or authorize another run, feedback, training or publication.
